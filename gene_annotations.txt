@@ -1,0 +1,14 @@
+<fbc:geneProduct metaid="Clo1313_0387" sboTerm="SBO:0000243" fbc:id="Clo1313_0387" fbc:label="GenBank_endoribonuclease_L__PSP_Clo1313_0387" fbc:name="(GenBank) endoribonuclease L-PSP">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_0387">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0387" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73477" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>

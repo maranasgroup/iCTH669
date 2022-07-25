@@ -1,0 +1,36 @@
+Stand-Alone TIC-Finding Problem Solutions
+Model: iCTH741
+
+End of solutions for phi = 0
+Solution time: 0.07500457763671875 s
+
+End of solutions for phi = 1
+Solution time: 54.710062980651855 s
+
+End of solutions for phi = 2
+Solution time: 83.24118256568909 s
+
+TFP SOLUTION #0
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ECH	model	->		0.00099999999999989
+RNF	model	<-		-0.0009999999999998896
+H2ASE_syn2	model	->		0.0009999999999998892
+time to get solution: 1.4981138706207275 s
+
+RESOLUTION: H2ASE_syn2 MADE IRREVERSIBLE, DIRECTION IN WRITING SWITCHED
+
+TFP SOLUTION #1
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+H2ASE_syn	model	<-		-0.999
+BIF	model	<-		-0.4995
+FRNDPR2r	model	->		0.4995
+time to get solution: 58.57335376739502 s
+
+RESOLUTION: BIF MADE IRREVERSIBLE
+

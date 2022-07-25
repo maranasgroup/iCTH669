@@ -1150,22 +1150,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
-      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_aad_c" metaid="M_aad_c" name="Acetyl_adenylate_c" sboTerm="SBO:0000247" fbc:charge="-1" fbc:chemicalFormula="C12H15N5O8P" initialConcentration="NaN">
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#M_aad_c">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.metabolite/cpd03566" />
-                  <rdf:li rdf:resource="http://identifiers.org/inchikey/UBPVOHPZRZIJHM-WOUKDFQISA-M" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05993" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.compound/cpd03566" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </species>
       <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_glu5p_c" metaid="M_glu5p_c" name="L_Glutamyl_5_phosphate_c" sboTerm="SBO:0000247" fbc:charge="-2" fbc:chemicalFormula="C5H8NO7P" initialConcentration="NaN">
         <sbml:annotation>
           <rdf:RDF>
@@ -26564,7 +26548,7 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NTPP3" metaid="R_NTPP3" name="Nucleoside triphosphate pyrophosphorylase (gtp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NTPP3" metaid="R_NTPP3" name="Nucleoside triphosphate pyrophosphorylase (dctp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NTPP3">
@@ -32146,12 +32130,7 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_1549" />
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_1662" />
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_2144" />
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_2278" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPP5" metaid="R_NTPP5" name="Nucleoside triphosphate pyrophosphorylase (datp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32221,7 +32200,7 @@
             <rdf:Description rdf:about="#R_NTPP7">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTPP6" />
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTPP7" />
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R11323" />
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-5107" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.19, 3.6.1.9" />
@@ -32246,7 +32225,7 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NTPP8" metaid="R_NTPP8" name="Nucleoside triphosphate pyrophosphorylase (dttp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NTPP8" metaid="R_NTPP8" name="Nucleoside triphosphate pyrophosphorylase (utp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NTPP8">
@@ -32265,11 +32244,11 @@
           </rdf:RDF>
         </sbml:annotation>
         <listOfReactants>
-          <speciesReference constant="true" species="M_dttp_c" stoichiometry="1" sboTerm="SBO:0000010" />
+          <speciesReference constant="true" species="M_utp_c" stoichiometry="1" sboTerm="SBO:0000010" />
           <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_dtmp_c" stoichiometry="1" sboTerm="SBO:0000011" />
+          <speciesReference constant="true" species="M_ump_c" stoichiometry="1" sboTerm="SBO:0000011" />
           <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
@@ -35145,7 +35124,7 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_0175" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NNAT" metaid="R_NNAT" name="Nicotinate nucleotide adenylyltransferase " reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NNAT" metaid="R_NNAT" name="Nicotinate nucleotide adenylyltransferase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NNAT">
@@ -48051,64 +48030,6 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_1452" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ACADCOAT" metaid="R_ACADCOAT" name="acetyl adenylate:CoA acetyltransferase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_ACADCOAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/biopath/RXN00855" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.1" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00236" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR56276" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00176" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_coa_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_aad_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_accoa_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_amp_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_1686" />
-        </fbc:geneProductAssociation>
-      </reaction>
-      <reaction id="R_ACADT" metaid="R_ACADT" name="ATP:acetate adenylyltransferase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_ACADT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/biopath/RXN01017" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/6.2.1.1" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00316" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR56306" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00226" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_ac_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_aad_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>      
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_1686" />
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction id="R_PACPT" metaid="R_PACPT" name="Propionyladenylate:CoA propionyltransferase" reversible="true" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
@@ -51877,28 +51798,6 @@
           <speciesReference constant="true" species="M_ribflv_e" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
       </reaction>
-      <reaction id="R_TEST_RXN" metaid="R_TEST_RXN" name="test metabolic reaction" reversible="true" sboTerm="SBO:0000176" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_TEST_RXN">
-              <bqbiol:is>
-                <rdf:Bag/>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants> 
-        <listOfProducts>
-          <speciesReference constant="true" species="M_h2o_e" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
       <reaction id="R_DM_TEST" metaid="R_DM_TEST" name="test demand reaction" reversible="true" sboTerm="SBO:0000628" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
         <notes>
           <xhtml:body>
@@ -51918,7 +51817,7 @@
           <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
       </reaction>
-      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
+      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <xhtml:body>
             <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>
@@ -51934,7 +51833,7 @@
           </rdf:RDF>
         </sbml:annotation>
         <listOfReactants>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
+          <speciesReference constant="true" species="M_prpp_c" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
       </reaction>
     </listOfReactions>
