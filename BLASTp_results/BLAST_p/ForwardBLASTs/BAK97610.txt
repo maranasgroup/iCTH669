@@ -1,0 +1,250 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZFFGRK016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BAK97610 5'-nucleotidase [Oscillibacter valericigenes]
+
+Length=247
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  30.0    0.20   30%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  30.0    0.22   28%
+WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibr...  27.3    2.1    33%
+NLU26850.1 patatin-like phospholipase family protein [Acetivib...  25.8    7.3    57%
+ABN52614.1 Patatin [Acetivibrio thermocellus ATCC 27405]           25.8    7.4    57%
+WP_003513124.1 hypothetical protein [Acetivibrio thermocellus]     24.3    7.5    25%
+WP_003518233.1 patatin-like phospholipase family protein [Acet...  25.4    7.9    57%
+WP_003512861.1 septum formation initiator family protein [Acet...  24.3    7.9    52%
+WP_136479157.1 septum formation initiator family protein [Acet...  24.3    8.4    52%
+WP_003517869.1 RNase adapter RapZ [Acetivibrio thermocellus]       25.4    9.4    27%
+
+ALIGNMENTS
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 30.0 bits (66),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  170  GKPNPLMMRTGLRILGVHSDDAAMIGDRMDTDIIAGIETGLDTVLVLSGVTSRE  223
+             KP        + I+   + + A+IGD++ TDI  G +  + T+LV + +  RE
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV-TPIDKRE  143
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 30.0 bits (66),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 16/58 (28%), Positives = 26/58 (45%), Gaps = 1/58 (2%)
+
+Query  171  KPNPLMMRTGLRILGVHSDDAAMIGDRMDTDIIAGIETGLDTVLVLSGVTSREEIKRY  228
+            KP+P  +   + ++G   ++   +GD    D       G+D V VL+G T   E   Y
+Sbjct  143  KPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFVAVLTGTTGANEFSEY  199
+
+
+>WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibrio thermocellus]
+ CDG35644.1 Orotidine 5'-phosphate decarboxylase [Acetivibrio thermocellus
+BC1]
+Length=314
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 22/43 (51%), Gaps = 0/43 (0%)
+
+Query  12   LDGVKEFVAWLYRENKEFLFLTNNSGKTPKELQEKLLRMGLEI  54
+            +DG+K F+    + NK    L   S K+  E+Q+ L + G  I
+Sbjct  149  VDGIKPFIDDCVKYNKGIFVLVKTSNKSSGEIQDILTQEGRSI  191
+
+
+>NLU26850.1 patatin-like phospholipase family protein [Acetivibrio thermocellus]
+Length=375
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 1/23 (4%)
+
+Query  86   GLVCALHDVGI-TISDYKPDYVV  107
+            GLV A+HD GI  I  YK  Y+V
+Sbjct  301  GLVSAVHDFGIPNIKHYKNSYLV  323
+
+
+>ABN52614.1 Patatin [Acetivibrio thermocellus ATCC 27405]
+Length=374
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 1/23 (4%)
+
+Query  86   GLVCALHDVGI-TISDYKPDYVV  107
+            GLV A+HD GI  I  YK  Y+V
+Sbjct  301  GLVSAVHDFGIPNIKHYKNSYLV  323
+
+
+>WP_003513124.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36995.1 hypothetical protein CTHBC1_2403 [Acetivibrio thermocellus BC1]
+ ABN53722.1 hypothetical protein Cthe_2520 [Acetivibrio thermocellus ATCC
+27405]
+ ADU73200.1 hypothetical protein Clo1313_0103 [Acetivibrio thermocellus DSM
+1313]
+ ALX07115.1 hypothetical protein AD2_00104 [Acetivibrio thermocellus AD2]
+ ANV74851.1 hypothetical protein LQRI_0103 [Acetivibrio thermocellus DSM
+2360]
+Length=85
+
+ Score = 24.3 bits (51),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 13/52 (25%), Positives = 21/52 (40%), Gaps = 8/52 (15%)
+
+Query  123  VGHILNGAKLI--------GTNSDVTGPSENGIIPACRALISPIEMATGQNA  166
+            VG ++ G   I          ++D     E G+I  CR L  P+ +   +N
+Sbjct  4    VGRLIKGTHAIKESVFNKEAEDTDFRDLLEEGLISLCRELDIPVPLWLNKNT  55
+
+
+>WP_003518233.1 patatin-like phospholipase family protein [Acetivibrio thermocellus]
+ CDG36058.1 Patatin [Acetivibrio thermocellus BC1]
+ ADU73934.1 Patatin [Acetivibrio thermocellus DSM 1313]
+ ALX07872.1 Patatin [Acetivibrio thermocellus AD2]
+ ANV75618.1 Patatin [Acetivibrio thermocellus DSM 2360]
+ EIC03239.1 Patatin [Acetivibrio thermocellus YS]
+Length=385
+
+ Score = 25.4 bits (54),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/23 (57%), Positives = 15/23 (65%), Gaps = 1/23 (4%)
+
+Query  86   GLVCALHDVGI-TISDYKPDYVV  107
+            GLV A+HD GI  I  YK  Y+V
+Sbjct  301  GLVSAVHDFGIPNIKHYKNSYLV  323
+
+
+>WP_003512861.1 septum formation initiator family protein [Acetivibrio thermocellus]
+ CDG37125.1 septum formation initiator [Acetivibrio thermocellus BC1]
+ ABN53860.1 Septum formation initiator [Acetivibrio thermocellus ATCC 27405]
+ ADU73344.1 Septum formation initiator [Acetivibrio thermocellus DSM 1313]
+ ALX07262.1 Septum formation initiator [Acetivibrio thermocellus AD2]
+ ANV74998.1 Septum formation initiator [Acetivibrio thermocellus DSM 2360]
+Length=93
+
+ Score = 24.3 bits (51),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 16/27 (59%), Gaps = 1/27 (4%)
+
+Query  39  TPKELQEKLLRMGLEIDASHFYTSALA  65
+             KEL EKLLR   EI AS  Y+  +A
+Sbjct  49  QEKELNEKLLRQKEEI-ASKEYSEKIA  74
+
+
+>WP_136479157.1 septum formation initiator family protein [Acetivibrio thermocellus]
+ THJ79399.1 septum formation initiator family protein [Acetivibrio thermocellus]
+Length=93
+
+ Score = 24.3 bits (51),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 16/27 (59%), Gaps = 1/27 (4%)
+
+Query  39  TPKELQEKLLRMGLEIDASHFYTSALA  65
+             KEL EKLLR   EI AS  Y+  +A
+Sbjct  49  QEKELNEKLLRQKEEI-ASKEYSEKIA  74
+
+
+>WP_003517869.1 RNase adapter RapZ [Acetivibrio thermocellus]
+ A3DBM5.1 RecName: Full=Nucleotide-binding protein Cthe_0113 [Acetivibrio
+thermocellus ATCC 27405]
+ CDG34796.1 UPF0042 nucleotide-binding protein [Acetivibrio thermocellus
+BC1]
+ ABN51354.1 hypothetical protein Cthe_0113 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75159.1 hypothetical protein Clo1313_2118 [Acetivibrio thermocellus DSM
+1313]
+ ALX09134.1 UPF0042 nucleotide-binding protein yhbJ [Acetivibrio thermocellus
+AD2]
+ ANV76886.1 UPF0042 nucleotide-binding protein yhbJ [Acetivibrio thermocellus
+DSM 2360]
+Length=291
+
+ Score = 25.4 bits (54),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 26/44 (59%), Gaps = 0/44 (0%)
+
+Query  10   KLLDGVKEFVAWLYRENKEFLFLTNNSGKTPKELQEKLLRMGLE  53
+            +L+ G+K     L +  K   ++ + S  TP++L+E++L + +E
+Sbjct  113  RLIKGIKTEREILSQIRKNATYIIDTSNLTPRQLKEEILAIFVE  156
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.139    0.413
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20467
+Number of extensions: 905
+Number of successful extensions: 18
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 2
+Length of query: 247
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 160
+Effective length of database: 2134357
+Effective search space: 341497120
+Effective search space used: 341497120
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

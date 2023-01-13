@@ -1,0 +1,312 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V65GR0U01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_242861613.1 thymidylate kinase [Candidatus Arthromitus sp. ...  173     5e-55  39%
+OAT89226.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-...  173     6e-55  39%
+WP_042295057.1 thymidylate kinase [Candidatus Arthromitus sp. ...  160     5e-50  36%
+WP_014095271.1 thymidylate kinase [Candidatus Arthromitus sp. ...  159     2e-49  36%
+WP_005805102.1 thymidylate kinase [Candidatus Arthromitus sp. ...  158     3e-49  36%
+EIA24261.1 nicotinate phosphoribosyltransferase [Candidatus Ar...  25.4    7.6    37%
+WP_014094498.1 flagellar motor switch protein FliM [Candidatus...  25.4    7.7    33%
+WP_005806616.1 flagellar motor switch protein FliM [unclassifi...  25.4    8.0    33%
+WP_066761524.1 PhnD/SsuA/transferrin family substrate-binding ...  25.4    8.4    31%
+EIA27045.1 nicotinate phosphoribosyltransferase [Candidatus Ar...  25.0    9.2    37%
+EIA24252.1 nicotinate phosphoribosyltransferase [Candidatus Ar...  25.0    9.4    37%
+WP_014094942.1 NAD-dependent DNA ligase LigA [Candidatus Arthr...  25.4    9.6    32%
+
+ALIGNMENTS
+>WP_242861613.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-turkey]
+Length=222
+
+ Score = 173 bits (439),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 88/224 (39%), Positives = 137/224 (61%), Gaps = 11/224 (5%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG ++  E G D SGK TQT  L +RL   G KV +I FPNY+++ S  VK YL G F K
+Sbjct  6    KGMILAFE-GLDGSGKETQTKLLEKRLKDIGIKVLRIEFPNYENEYSLFVKEYLKGKFEK  64
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            + N   PYV S F+++DR   Y T   +  N+G++IL DRY  SN+++Q +KI+D+ E++
+Sbjct  65   NMN---PYVVSVFFSLDRLGLYETIMKKYLNEGYVILCDRYVYSNLIYQGSKIEDLHERE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+            +F +W+ +FE+ +  L       F+D+P + S +++K R        +KD+HE ++E+L
+Sbjct  122  KFFNWVLDFEYNMCGLLKEKITFFMDIPINISLDIVKSRG-------EKDVHEEDEEFLR  174
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            + Y N  Y+A+KYN + I C  +G L  ++EI   +YE V  I+
+Sbjct  175  KCYENCKYIAEKYNLVHINCFSNGKLLSVEEINDCIYEYVLKIL  218
+
+
+>OAT89226.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-turkey]
+Length=215
+
+ Score = 173 bits (438),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 86/221 (39%), Positives = 135/221 (61%), Gaps = 10/221 (5%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            +I+   G D SGK TQT  L +RL   G KV +I FPNY+++ S  VK YL G F K+ N
+Sbjct  1    MILAFEGLDGSGKETQTKLLEKRLKDIGIKVLRIEFPNYENEYSLFVKEYLKGKFEKNMN  60
+
+Query  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+               PYV S F+++DR   Y T   +  N+G++IL DRY  SN+++Q +KI+D+ E+++F
+Sbjct  61   ---PYVVSVFFSLDRLGLYETIMKKYLNEGYVILCDRYVYSNLIYQGSKIEDLHEREKFF  117
+
+Query  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+            +W+ +FE+ +  L       F+D+P + S +++K R        +KD+HE ++E+L + Y
+Sbjct  118  NWVLDFEYNMCGLLKEKITFFMDIPINISLDIVKSRG-------EKDVHEEDEEFLRKCY  170
+
+Query  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             N  Y+A+KYN + I C  +G L  ++EI   +YE V  I+
+Sbjct  171  ENCKYIAEKYNLVHINCFSNGKLLSVEEINDCIYEYVLKIL  211
+
+
+>WP_042295057.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-mouse-NL]
+ AID45395.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-mouse-NL]
+Length=215
+
+ Score = 160 bits (405),  Expect = 5e-50, Method: Compositional matrix adjust.
+ Identities = 79/217 (36%), Positives = 132/217 (61%), Gaps = 10/217 (5%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            +II+  G D SGK TQT  + +RL   G K  +I FPNY +  S  VK YLNGDFG   N
+Sbjct  1    MIIVFEGLDGSGKETQTKLIEKRLNDIGLKTIRIEFPNYCNKYSLFVKEYLNGDFG---N  57
+
+Query  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+            +++PY+ STF+ +DRF  Y+ E  +  ++G+ IL DRY  SN+++Q + I + +++D+F
+Sbjct  58   NLNPYLISTFFGLDRFGVYKREMSRYIDEGYFILCDRYIYSNLIYQGSLIDNEDDRDKFF  117
+
+Query  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+             W+  FE++I  LP  +   F+++    + +++K+R N       KDI+E++ +++++ Y
+Sbjct  118  KWVLEFEYDICGLPKENMTFFMNLSLDINLDMIKKRNN-------KDIYEKDYDFIIKCY  170
+
+Query  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+            + S YV   Y++I IEC     L  I  I +++Y  +
+Sbjct  171  KTSQYVCSMYDFINIECDDGKSLFSIQSINEKIYSKI  207
+
+
+>WP_014095271.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-rat-Yit]
+ BAK81814.1 dTMP kinase [Candidatus Arthromitus sp. SFB-rat-Yit]
+Length=215
+
+ Score = 159 bits (401),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 79/217 (36%), Positives = 131/217 (60%), Gaps = 10/217 (5%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            +II+  G D SGK TQT  + +RL   G K  +I FPNY +  S  VK YLNG+FG D N
+Sbjct  1    MIIVFEGLDGSGKETQTKLIEKRLNDIGIKTVRIGFPNYSNKYSIFVKEYLNGNFGSDLN  60
+
+Query  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+               PY+ STF+ +DRF  Y+ E  +    G+II+ DRY  SN+++Q + I D+E++++F
+Sbjct  61   ---PYLISTFFGLDRFGVYKNEMIRYIRQGYIIVCDRYIYSNLIYQGSFISDVEDRNKFF  117
+
+Query  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+            +W+ +FE+ I  LP  D   F+D+    + +++K+R N       KDI+E++ +++++ Y
+Sbjct  118  EWVLDFEYGICGLPKEDMTFFMDLSIDINLDIIKKRCN-------KDIYEKDYDFMIKCY  170
+
+Query  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+              + ++  +YN+I I+C     L  I +I + +Y  +
+Sbjct  171  ETAKHLRDRYNFINIKCDDGENLFSILDINESIYNRI  207
+
+
+>WP_005805102.1 thymidylate kinase [Candidatus Arthromitus sp. SFB-mouse]
+ EIA22406.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-1]
+ EIA22605.1 Putative thymidylate kinase [Candidatus Arthromitus sp. SFB-3]
+ EIA24931.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-2]
+ EIA26654.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-4]
+ EIA29390.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-co]
+ EIA29481.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-5]
+ EIA29674.1 Thymidylate kinase [Candidatus Arthromitus sp. SFB-mouse-SU]
+Length=215
+
+ Score = 158 bits (400),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 78/217 (36%), Positives = 131/217 (60%), Gaps = 10/217 (5%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            +II+  G D SGK TQT  + +RL   G K  +I FPNY +  S  VK YLNGDFG   N
+Sbjct  1    MIIVFEGLDGSGKETQTKLIEKRLNDIGLKTIRIEFPNYCNKYSLFVKEYLNGDFG---N  57
+
+Query  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+            +++PY+ STF+ +DRF  Y+ E     ++G+ IL DRY  SN+++Q + I + +++D+F
+Sbjct  58   NLNPYLISTFFGLDRFGVYKREMSGYIDEGYFILCDRYIYSNLIYQGSLIDNEDDRDKFF  117
+
+Query  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+             W+  FE++I  LP  +   F+++    + +++K+R N       KDI+E++ +++++ Y
+Sbjct  118  KWVLEFEYDICGLPKENMTFFMNLSLDINLDMIKKRNN-------KDIYEKDYDFIIKCY  170
+
+Query  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+            + + YV   Y++I IEC     L  I  I +++Y  +
+Sbjct  171  KTAQYVCSMYDFINIECDDGKSLFSIQSINEKIYSKI  207
+
+
+>EIA24261.1 nicotinate phosphoribosyltransferase [Candidatus Arthromitus
+sp. SFB-3]
+Length=230
+
+ Score = 25.4 bits (54),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 27/49 (55%), Gaps = 8/49 (16%)
+
+Query  92   NDGWIILA--DRYTT--SNMVHQAAKIKDMEEKD----RFLDWLWNFEF  132
+            N G+ I+A  D+  T   N+      IK +E K+    +FLD+L NF+F
+Sbjct  46   NGGYCIMAGLDQIITFIKNLKFTPEDIKFLESKNLFDKKFLDYLKNFKF  94
+
+
+>WP_014094498.1 flagellar motor switch protein FliM [Candidatus Arthromitus sp.
+SFB-rat-Yit]
+ BAK81036.1 flagellar motor switch protein FliM [Candidatus Arthromitus sp.
+SFB-rat-Yit]
+Length=339
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 8/24 (33%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+
+Query  134  IYKLPVPDCVIFLDMPPSFSRELM  157
+            ++ +P P  +I  +MPP F    M
+Sbjct  93   VFSMPNPTTIISFEMPPLFGNIFM  116
+
+
+>WP_005806616.1 MULTISPECIES: flagellar motor switch protein FliM [unclassified
+Candidatus Arthromitus]
+ EIA23745.1 Flagellar switch protein FliM [Candidatus Arthromitus sp. SFB-1]
+ EIA26694.1 Flagellar switch protein FliM [Candidatus Arthromitus sp. SFB-5]
+ EIA29227.1 Flagellar switch protein FliM [Candidatus Arthromitus sp. SFB-co]
+ EIA29572.1 Flagellar switch protein FliM [Candidatus Arthromitus sp. SFB-4]
+ EIA30622.1 Flagellar switch protein FliM [Candidatus Arthromitus sp. SFB-mouse-SU]
+Length=339
+
+ Score = 25.4 bits (54),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 8/24 (33%), Positives = 13/24 (54%), Gaps = 0/24 (0%)
+
+Query  134  IYKLPVPDCVIFLDMPPSFSRELM  157
+            I+ +P P  ++  +MPP F    M
+Sbjct  93   IFSMPNPTTIVSFEMPPLFGSIFM  116
+
+
+>WP_066761524.1 PhnD/SsuA/transferrin family substrate-binding protein [Candidatus
+Arthromitus sp. SFB-turkey]
+ OAT87859.1 phosphonate ABC transporter substrate-binding protein [Candidatus
+Arthromitus sp. SFB-turkey]
+Length=346
+
+ Score = 25.4 bits (54),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  53   MYLNGDFGKDPNDVSPYVASTFY--AVDRFASYRTEWGQAYNDGWIILADRYTT  104
+            ++L  ++GK  +D+S  V S  Y  +V R AS + +    Y D  I  AD++ +
+Sbjct  201  LWLKDNYGKGLSDLSNKVQSDSYGSSVARLASGQVDIAVIYADARIDYADKWNS  254
+
+
+>EIA27045.1 nicotinate phosphoribosyltransferase, partial [Candidatus Arthromitus
+sp. SFB-4]
+Length=324
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 27/49 (55%), Gaps = 8/49 (16%)
+
+Query  92   NDGWIILA--DRYTT--SNMVHQAAKIKDMEEKD----RFLDWLWNFEF  132
+            N G+ I+A  D+  T   N+      IK +E K+    +FLD+L NF+F
+Sbjct  46   NGGYCIMAGLDQIITFIKNLKFTPEDIKFLESKNLFDKKFLDYLKNFKF  94
+
+
+>EIA24252.1 nicotinate phosphoribosyltransferase [Candidatus Arthromitus
+sp. SFB-2]
+Length=306
+
+ Score = 25.0 bits (53),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 27/49 (55%), Gaps = 8/49 (16%)
+
+Query  92   NDGWIILA--DRYTT--SNMVHQAAKIKDMEEKD----RFLDWLWNFEF  132
+            N G+ I+A  D+  T   N+      IK +E K+    +FLD+L NF+F
+Sbjct  46   NGGYCIMAGLDQIITFIKNLKFTPEDIKFLESKNLFDKKFLDYLKNFKF  94
+
+
+>WP_014094942.1 NAD-dependent DNA ligase LigA [Candidatus Arthromitus sp. SFB-rat-Yit]
+ BAK81482.1 DNA ligase, NAD-dependent [Candidatus Arthromitus sp. SFB-rat-Yit]
+Length=659
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 34/75 (45%), Gaps = 4/75 (5%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGD-F  59
+            +K KLI +E     SG+ + T  + E +   G  +K+ T  N D      VK  LN D
+Sbjct  312  VKTKLINVEWNVGRSGRVSPT-AILEPVDISGITIKRATLNNIDDIVRKNVK--LNCDVL  368
+
+Query  60   GKDPNDVSPYVASTF  74
+             +  NDV P +   F
+Sbjct  369  IRRSNDVIPEIIKGF  383
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,874,238
+  Number of sequences in database:  10,201
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 10201
+Number of Hits to DB: 10502
+Number of extensions: 521
+Number of successful extensions: 19
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 5
+Length of query: 227
+Length of database: 2874238
+Length adjustment: 85
+Effective length of query: 142
+Effective length of database: 2007153
+Effective search space: 285015726
+Effective search space used: 285015726
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

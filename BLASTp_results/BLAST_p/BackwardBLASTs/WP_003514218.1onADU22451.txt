@@ -1,0 +1,540 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V2321A501N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+MCC3659546.1 deoxynucleoside kinase [Ruminococcus albus]           176     2e-55  47%
+WP_013498613.1 deoxynucleoside kinase [Ruminococcus albus]         171     1e-53  47%
+WP_037289700.1 deoxynucleoside kinase [Ruminococcus albus]         162     3e-50  45%
+MBE6873064.1 thymidylate kinase [Ruminococcus albus]               161     8e-50  43%
+WP_074959991.1 deoxynucleoside kinase [Ruminococcus albus]         161     1e-49  45%
+WP_024856729.1 deoxynucleoside kinase [Ruminococcus albus]         161     1e-49  45%
+WP_074828549.1 deoxynucleoside kinase [Ruminococcus albus]         160     1e-49  45%
+MBE6868468.1 thymidylate kinase [Ruminococcus albus]               159     6e-49  45%
+WP_002852204.1 deoxynucleoside kinase [Ruminococcus albus]         157     2e-48  43%
+WP_013483938.1 polyphosphate:AMP phosphotransferase [Ruminococ...  29.6    1.2    26%
+WP_074833282.1 polyphosphate:AMP phosphotransferase [Ruminococ...  29.3    1.7    35%
+WP_074962355.1 polyphosphate:AMP phosphotransferase [Ruminococ...  29.3    1.8    35%
+MBE6868177.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  29.3    1.9    35%
+WP_037290188.1 polyphosphate:AMP phosphotransferase [Ruminococ...  29.3    1.9    35%
+WP_024856436.1 polyphosphate:AMP phosphotransferase [Ruminococ...  29.3    2.0    35%
+WP_002849979.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.9    2.1    35%
+MBE6874799.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.9    2.2    35%
+WP_013498362.1 acyl-CoA dehydratase activase [Ruminococcus albus]  28.9    2.8    23%
+MCC3658977.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.5    3.5    33%
+WP_227945408.1 hypothetical protein [Ruminococcus albus]           27.7    4.8    26%
+WP_227945400.1 hypothetical protein [Ruminococcus albus]           27.7    5.4    26%
+WP_002853167.1 hypothetical protein [Ruminococcus albus]           26.9    7.1    26%
+WP_013483332.1 helix-turn-helix domain-containing protein [Rum...  26.9    7.2    34%
+WP_074963571.1 helix-turn-helix domain-containing protein [Rum...  26.9    8.3    34%
+MBE6869580.1 hypothetical protein [Ruminococcus albus]             26.9    9.9    24%
+
+ALIGNMENTS
+>MCC3659546.1 deoxynucleoside kinase [Ruminococcus albus]
+Length=222
+
+ Score = 176 bits (446),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 96/203 (47%), Positives = 129/203 (64%), Gaps = 4/203 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI+IE G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVIE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKD  204
+            +    +L+ A+K +W  I C  D
+Sbjct  180  KCREAALFTAEKQDWDIIPCSDD  202
+
+
+>WP_013498613.1 deoxynucleoside kinase [Ruminococcus albus]
+ ADU22451.1 thymidylate kinase [Ruminococcus albus 7 = DSM 20455]
+Length=218
+
+ Score = 171 bits (433),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 94/202 (47%), Positives = 129/202 (64%), Gaps = 6/202 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E    +  K+K I+FP+Y+  SS LVKMYLNG+
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLSEYFKNKDVKLKAISFPDYEDPSSTLVKMYLNGEIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W + YNDG +ILA RY TSN ++Q  K+ + +E
+Sbjct  60   GSAEAVNAYAASSFYASDRYISYKKYWEKDYNDGCLILAARYVTSNCIYQMTKLPE-DEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEY  179
+            + +L WL ++E+    LP PD VIFLDMP   S+ L+  R   + G E KKDIHE+N E+
+Sbjct  119  ENYLAWLEDYEYCKLSLPKPDKVIFLDMPIEISQRLLSAR---YGGDESKKDIHEKNIEF  175
+
+Query  180  LVESYRNSLYVAKKYNWIKIEC  201
+            L    + +L+ A+K  W  +EC
+Sbjct  176  LHMCRKAALFTAEKQGWDIVEC  197
+
+
+>WP_037289700.1 deoxynucleoside kinase [Ruminococcus albus]
+ EXM37792.1 thymidylate kinase [Ruminococcus albus SY3]
+Length=218
+
+ Score = 162 bits (410),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 100/221 (45%), Positives = 137/221 (62%), Gaps = 4/221 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E L  +G K+K I+FP+YD  SS LV+MYLNGD
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLAEYLKAKGVKLKAISFPDYDDPSSTLVQMYLNGDIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W   YNDG +ILA RY TSN ++Q  K+ + EE
+Sbjct  60   GSAEAVNAYAASSFYAADRYVSYKKYWEADYNDGCLILAARYVTSNCIYQMTKLPE-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + +L WL ++E+    LP+PD VIFLDMP   S++L+  R      E KKDIHE+N  +L
+Sbjct  119  ENYLAWLEDYEYGKLGLPMPDKVIFLDMPIDISQKLLSARYG--GDESKKDIHEKNIGFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+                + +L+ A+K  W  +EC        ID I +++ E +
+Sbjct  177  RMCRKAALFTAEKQGWDIVECGCGDEPLSIDTIFEKLTEII  217
+
+
+>MBE6873064.1 thymidylate kinase [Ruminococcus albus]
+Length=217
+
+ Score = 161 bits (407),  Expect = 8e-50, Method: Compositional matrix adjust.
+ Identities = 95/219 (43%), Positives = 140/219 (64%), Gaps = 4/219 (2%)
+
+Query  4    KLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDP  63
+            +LI++E G D SGK+TQ  KL E L  +G K+K I+FP+Y+  SS LV+MYLNG+
+Sbjct  3    ELIVLE-GLDGSGKSTQFEKLTEYLKGKGVKLKAISFPDYNDPSSTLVQMYLNGEIAGSA  61
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+              V+ Y AS+FYA DR+ SY+  W + + +G +ILA RY TSN ++Q  K+ + E+ + +
+Sbjct  62   EAVNAYAASSFYAADRYVSYKKYWEKDHTEGSLILAARYVTSNCIYQMTKLPE-EQWESY  120
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVES  183
+            L+WL ++E+E   LP P  VIFLDMP   S++L+  R +    E KKDIHE+N E+L +
+Sbjct  121  LEWLEDYEYEKLGLPKPTKVIFLDMPIEISQKLLSARYD--GDESKKDIHEKNIEFLYKC  178
+
+Query  184  YRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVS  222
+               +L+ AK+  W  IEC +DG    I+EI  ++ E +
+Sbjct  179  RSAALFTAKRQGWHIIECGRDGEPLSIEEIFGKIIELIG  217
+
+
+>WP_074959991.1 deoxynucleoside kinase [Ruminococcus albus]
+ SFB80943.1 dTMP kinase [Ruminococcus albus]
+Length=218
+
+ Score = 161 bits (407),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 102/225 (45%), Positives = 137/225 (61%), Gaps = 8/225 (4%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E L  +G K+K I+FP+YD  SS LV+MYL GD
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLAEYLEAKGVKLKAISFPDYDDPSSTLVQMYLRGDIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W   YNDG +ILA RY TSN ++Q  K+ + EE
+Sbjct  60   GSAEAVNAYAASSFYAADRYVSYKKYWEDDYNDGCLILAARYVTSNCIYQMTKLPE-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + +L WL ++E+    LP PD VIFLDMP   S++L+  R      E KKDIHE+N  +L
+Sbjct  119  ENYLTWLEDYEYGKLGLPKPDKVIFLDMPIDISQKLLSARYG--GDESKKDIHEKNIGFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                + +L+ A+K  W  +EC        ID I    +E ++GII
+Sbjct  177  RMCRKAALFTAEKQGWDIVECGCGDEPLSIDTI----FEKLTGII  217
+
+
+>WP_024856729.1 deoxynucleoside kinase [Ruminococcus albus]
+Length=218
+
+ Score = 161 bits (407),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 100/221 (45%), Positives = 136/221 (62%), Gaps = 4/221 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E L  +G K+K I+FP+YD  SS LV+MYLNGD
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLSEYLKAKGVKLKAISFPDYDDPSSTLVQMYLNGDIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W   YNDG +ILA RY TSN ++Q  K+ + EE
+Sbjct  60   GSAEAVNAYAASSFYAADRYVSYKKYWEADYNDGCLILAARYVTSNCIYQMTKLPE-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + +L WL ++E+    LP PD VIFLDMP   S++L+  R      E KKDIHE+N  +L
+Sbjct  119  ENYLAWLEDYEYGKLGLPKPDKVIFLDMPIDISQKLLSARYG--GDESKKDIHEKNIGFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+                + +L+ A+K  W  +EC        ID I +++ E +
+Sbjct  177  RMCRKAALFTAEKQGWDIVECGCGDEPLSIDTIFEKLTEII  217
+
+
+>WP_074828549.1 deoxynucleoside kinase [Ruminococcus albus]
+ SEK25314.1 dTMP kinase [Ruminococcus albus]
+Length=218
+
+ Score = 160 bits (406),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 102/225 (45%), Positives = 137/225 (61%), Gaps = 8/225 (4%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E L  +G K+K I+FP+YD  SS LV+MYL GD
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLAEYLKDKGVKLKAISFPDYDDPSSTLVQMYLRGDIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W   YNDG +ILA RY TSN ++Q  K+ + EE
+Sbjct  60   GSAEAVNAYAASSFYAADRYVSYKKYWEADYNDGCLILAARYVTSNCIYQMTKLPE-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + +L WL ++E+    LP PD VIFLDMP   S++L+  R      E KKDIHE+N  +L
+Sbjct  119  ENYLAWLEDYEYGKLGLPKPDKVIFLDMPIDISQKLLSARYG--GDESKKDIHEKNIGFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                + +L+ A+K  W  +EC        ID I    +E ++GII
+Sbjct  177  RMCRKAALFTAEKQGWDIVECGCGDEPLSIDTI----FEKLTGII  217
+
+
+>MBE6868468.1 thymidylate kinase [Ruminococcus albus]
+Length=218
+
+ Score = 159 bits (402),  Expect = 6e-49, Method: Compositional matrix adjust.
+ Identities = 99/221 (45%), Positives = 136/221 (62%), Gaps = 4/221 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MK KLI++E G D SGK+TQ  KL E L  +G K+K I+FP+YD  SS LV+MYL+GD
+Sbjct  1    MKYKLIVLE-GLDGSGKSTQFEKLAEYLKAKGVKLKAISFPDYDDPSSTLVQMYLHGDIA  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+                 V+ Y AS+FYA DR+ SY+  W   YNDG +ILA RY TSN ++Q  K+ + EE
+Sbjct  60   GSAEAVNAYAASSFYAADRYVSYKKYWEADYNDGCLILAARYVTSNCIYQMTKLPE-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + +L WL ++E+    LP PD VIFLDMP   S++L+  R      E KKDIHE+N  +L
+Sbjct  119  ENYLAWLEDYEYGKLGLPKPDKVIFLDMPIDISQKLLSARYG--GDESKKDIHEKNIGFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+                + +L+ A+K  W  +EC        ID I +++ E +
+Sbjct  177  RMCRKAALFTAEKQGWDIVECGCGDEPLSIDTIFEKLTEII  217
+
+
+>WP_002852204.1 deoxynucleoside kinase [Ruminococcus albus]
+ EGC01851.1 dTMP kinase [Ruminococcus albus 8]
+ MCC3352742.1 deoxynucleoside kinase [Ruminococcus albus 8]
+Length=217
+
+ Score = 157 bits (398),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 94/219 (43%), Positives = 139/219 (63%), Gaps = 4/219 (2%)
+
+Query  4    KLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDP  63
+            +LI++E G D SGK+TQ  KL E L  +  K+K I+FP+Y+  SS LV+MYLNG+
+Sbjct  3    ELIVLE-GLDGSGKSTQFEKLTEYLKGKDVKLKAISFPDYNDPSSTLVQMYLNGEIAGSA  61
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+              V+ Y AS+FYA DR+ SY+  W + + +G +ILA RY TSN ++Q  K+ + E+ + +
+Sbjct  62   EAVNAYAASSFYAADRYVSYKKYWEKDHAEGSLILAARYVTSNCIYQMTKLPE-EQWESY  120
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVES  183
+            L+WL ++E+E   LP P  VIFLDMP   S++L+  R +    E KKDIHE+N E+L +
+Sbjct  121  LEWLEDYEYEKLGLPKPTKVIFLDMPIEISQKLLSARYD--GDESKKDIHEKNIEFLYKC  178
+
+Query  184  YRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVS  222
+               +L+ AK+  W  IEC +DG    I+EI  ++ E +
+Sbjct  179  RSAALFTAKRQGWHIIECGRDGEPLSIEEIFGKIIELIG  217
+
+
+>WP_013483938.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+ ADU24401.1 protein of unknown function DUF344 [Ruminococcus albus 7 = DSM
+20455]
+Length=501
+
+ Score = 29.6 bits (65),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 30/115 (26%), Positives = 47/115 (41%), Gaps = 27/115 (23%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL---------  55
+            ++I   G DA+GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VVIAYEGWDAAGKGGNIKRVANALDPRGYEVKPIAAP----EPSELARHYLWRFWTRLEK  360
+
+Query  56   NGDF--------GK---DP-NDVSPY--VASTFYAVDRFASYRTEWGQAYNDGWI  96
+            +G F        G+   +P   ++P+  V   +  ++ F    TEWG      WI
+Sbjct  361  DGHFTIFDRTWYGRVMVEPIEKLTPHERVDMAYQEINEFEHQLTEWGGVVIKFWI  415
+
+
+>WP_074833282.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+ SEK92477.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=503
+
+ Score = 29.3 bits (64),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVASALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>WP_074962355.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+ SFC94254.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=503
+
+ Score = 29.3 bits (64),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVASALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>MBE6868177.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=503
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVANALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>WP_037290188.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+ EXM38058.1 phosphate:AMP phosphotransferase [Ruminococcus albus SY3]
+Length=503
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVANALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>WP_024856436.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=503
+
+ Score = 29.3 bits (64),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVANALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>WP_002849979.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+ EGC02914.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus 8]
+ MCC3352478.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus 8]
+Length=505
+
+ Score = 28.9 bits (63),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVAAALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>MBE6874799.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=505
+
+ Score = 28.9 bits (63),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA GK     ++   L   GY+VK I  P    + S L + YL
+Sbjct  305  VIIAYEGWDAGGKGGNIKRVAAALDPRGYEVKPIAAP----EPSELARHYL  351
+
+
+>WP_013498362.1 acyl-CoA dehydratase activase [Ruminococcus albus]
+ ADU22197.1 CoA-substrate-specific enzyme activase [Ruminococcus albus 7
+= DSM 20455]
+Length=992
+
+ Score = 28.9 bits (63),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 15/64 (23%), Positives = 32/64 (50%), Gaps = 10/64 (16%)
+
+Query  101  RYTTSNMVHQAAKIKDMEEKDRFLDWLWNF--EFE--------IYKLPVPDCVIFLDMPP  150
+            R+ + N   + A IK  +  +  +++ +N+  E E        I K+ +P C+ + D+ P
+Sbjct  624  RFISGNRCEKGAGIKITDRTENMIEYKYNYIRELENKKTRMKPIAKVGLPLCLSYYDLMP  683
+
+Query  151  SFSR  154
+             F++
+Sbjct  684  FFAQ  687
+
+
+>MCC3658977.1 polyphosphate:AMP phosphotransferase [Ruminococcus albus]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_227945408.1 hypothetical protein [Ruminococcus albus]
+ MCC3352057.1 hypothetical protein [Ruminococcus albus 8]
+Length=317
+
+ Score = 27.7 bits (60),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 29/111 (26%), Positives = 46/111 (41%), Gaps = 19/111 (17%)
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+            NDVS  V +T    +  +SY       +          +  + MV++    ++ E  DRF
+Sbjct  59   NDVSFLVENTMNFYEHQSSYNPNMPLRF----------FLYAAMVYEKRVFENPEPYDRF  108
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFS-RELMKERANKFTGEQKKDIH  173
+               L N       LP P C+ F +   +   RE++K  +N F   +K DI
+Sbjct  109  SSVLQN-------LPAPKCICFYNGTDTKKDREILK-LSNAFKDGKKSDIE  151
+
+
+>WP_227945400.1 hypothetical protein [Ruminococcus albus]
+ MCC3351877.1 hypothetical protein [Ruminococcus albus 8]
+Length=301
+
+ Score = 27.7 bits (60),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 29/111 (26%), Positives = 46/111 (41%), Gaps = 19/111 (17%)
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+            NDVS  V +T    +  +SY       +          +  + MV++    ++ E  DRF
+Sbjct  59   NDVSFLVENTMNFYEHQSSYNPNMPLRF----------FLYAAMVYEKRVFENPEPYDRF  108
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFS-RELMKERANKFTGEQKKDIH  173
+               L N       LP P C+ F +   +   RE++K  +N F   +K DI
+Sbjct  109  SSVLQN-------LPAPKCICFYNGTDTKKDREILK-LSNAFKDGKKSDIE  151
+
+
+>WP_002853167.1 hypothetical protein, partial [Ruminococcus albus]
+ EGC01273.1 hypothetical protein CUS_4289, partial [Ruminococcus albus 8]
+Length=228
+
+ Score = 26.9 bits (58),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 29/110 (26%), Positives = 46/110 (42%), Gaps = 19/110 (17%)
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+            NDVS  V +T    +  +SY       +          +  + MV++    ++ E  DRF
+Sbjct  59   NDVSFLVENTMNFYEHQSSYNPNMPLRF----------FLYAAMVYEKRVFENPEPYDRF  108
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFS-RELMKERANKFTGEQKKDI  172
+               L N       LP P C+ F +   +   RE++K  +N F   +K DI
+Sbjct  109  SSVLQN-------LPAPKCICFYNGTDTKKDREILK-LSNAFKDGKKSDI  150
+
+
+>WP_013483332.1 helix-turn-helix domain-containing protein [Ruminococcus albus]
+ ADU23782.1 transposase IS3/IS911 family protein [Ruminococcus albus 7 =
+DSM 20455]
+ ADU24111.1 transposase IS3/IS911 family protein [Ruminococcus albus 7 =
+DSM 20455]
+ ADU24233.1 transposase IS3/IS911 family protein [Ruminococcus albus 7 =
+DSM 20455]
+Length=227
+
+ Score = 26.9 bits (58),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 25/44 (57%), Gaps = 1/44 (2%)
+
+Query  88   GQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLDWLWNFE  131
+            G+A ++  +  ADR    N + QA K+KDME +++ L  L   +
+Sbjct  181  GKAKSEDALTEADRLRMENKILQA-KLKDMEMENKLLKKLRELQ  223
+
+
+>WP_074963571.1 helix-turn-helix domain-containing protein [Ruminococcus albus]
+ SFD45000.1 Transposase and inactivated derivatives [Ruminococcus albus]
+Length=227
+
+ Score = 26.9 bits (58),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 25/44 (57%), Gaps = 1/44 (2%)
+
+Query  88   GQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLDWLWNFE  131
+            G+A ++  +  ADR    N + QA K+KDME +++ L  L   +
+Sbjct  181  GKAKSEDALTEADRLRMENKILQA-KLKDMEMENKLLKKLRELQ  223
+
+
+>MBE6869580.1 hypothetical protein [Ruminococcus albus]
+Length=3678
+
+ Score = 26.9 bits (58),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 29/123 (24%), Positives = 50/123 (41%), Gaps = 21/123 (17%)
+
+Query  10    SGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPY  69
+             SG   +GK T   K+Y  +       +  TF + D  S   +  Y+N     D
+Sbjct  2813  SGFTGTGKNTLAAKIYADISDTDNTRRYTTFSDLDIVSGTKINAYMNRAVTDDG------  2866
+
+Query  70    VASTFYAVDRFASYRTEWGQ----AYND-GWIILADRYT--TSNMVHQAAKIKDMEEKDR  122
+                     DR ++Y TE G       ND   +++A++ T  T+N++++  ++      D
+Sbjct  2867  --------DRISTYGTEKGSLPSGITNDFAVVVIANQTTSETTNLINRYIQLVTNTTNDY  2918
+
+Query  123   FLD  125
+              LD
+Sbjct  2919  TLD  2921
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 9,983,561
+  Number of sequences in database:  30,584
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 30584
+Number of Hits to DB: 49375
+Number of extensions: 2309
+Number of successful extensions: 26
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 26
+Number of HSP's successfully gapped: 5
+Length of query: 227
+Length of database: 9983561
+Length adjustment: 94
+Effective length of query: 133
+Effective length of database: 7108665
+Effective search space: 945452445
+Effective search space used: 945452445
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

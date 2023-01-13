@@ -1,0 +1,14 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+amt Alkaliphilus metalliredigens
+aoe Alkaliphilus oremlandii
+asf Candidatus Arthromitus sp. SFB-mouse-Japan
+asm Candidatus Arthromitus sp. SFB-mouse-Yit
+aso Candidatus Arthromitus sp. SFB-mouse-NL
+asb Candidatus Arthromitus sp. SFB-rat-Yit
+gfe Geosporobacter ferrireducens
+hhw Hathewaya histolytica
+cale Caloramator sp. E03

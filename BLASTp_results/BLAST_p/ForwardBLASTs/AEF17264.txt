@@ -1,0 +1,282 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZAE9Y2013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEF17264 5'-nucleotidase [Thermoanaerobacterium xylanolyticum]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+A3DE07.1 RecName: Full=Dihydroorotase; Short=DHOase [Acetivibr...  28.9    0.78   26%
+WP_003518637.1 dihydroorotase [Acetivibrio thermocellus]           28.9    0.81   26%
+NLU27873.1 dihydroorotase [Acetivibrio thermocellus]               28.9    0.84   26%
+WP_003516495.1 thiazole synthase [Acetivibrio thermocellus]        27.7    1.6    27%
+NLU27476.1 response regulator [Acetivibrio thermocellus]           27.7    1.6    29%
+WP_003517023.1 radical SAM family heme chaperone HemW [Acetivi...  27.3    2.2    46%
+WP_078682916.1 hypothetical protein [Acetivibrio thermocellus]     26.2    2.8    29%
+WP_037294838.1 RNA chaperone Hfq [Acetivibrio thermocellus]        25.0    3.6    33%
+ABN52009.1 RNA chaperone Hfq [Acetivibrio thermocellus ATCC 27...  25.0    3.7    33%
+WP_003513594.1 glycosyltransferase family protein [Acetivibrio...  25.4    7.4    46%
+
+ALIGNMENTS
+>A3DE07.1 RecName: Full=Dihydroorotase; Short=DHOase [Acetivibrio thermocellus
+ATCC 27405]
+ ABN52186.1 dihydroorotase, multifunctional complex type [Acetivibrio thermocellus
+ATCC 27405]
+Length=426
+
+ Score = 28.9 bits (63),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 59/126 (47%), Gaps = 17/126 (13%)
+
+Query  97   GFNLGTDVLYSGTVSAAMEGAINGYPSIALSLEAEAKLSNKAMLYIKKLIDNVVQNGLPK  156
+            GF    D+  +GT+SAAM     G+ SIA     +    NKA+  +K +I+   Q+G
+Sbjct  65   GFEYKEDI-ETGTMSAAM----GGFTSIACMPNTDPVCDNKAV--VKYIINKAKQDGY--  115
+
+Query  157  NCLLNVNIPNVGS---GFKGIKITKLGHRNYTENFTKRIDPRGMDYYWLAGKVLENANDE  213
+                 VN+  +G+   G KG +++++G   +        D + +    L  + LE ++
+Sbjct  116  -----VNVYPIGAISKGQKGEELSEIGELKFAGAVAISDDGKPVKSSSLMKRALEYSSMF  170
+
+Query  214  DSDIIA  219
+            D  +I+
+Sbjct  171  DIAVIS  176
+
+
+>WP_003518637.1 dihydroorotase [Acetivibrio thermocellus]
+ ADU74328.1 dihydroorotase, multifunctional complex type [Acetivibrio thermocellus
+DSM 1313]
+ ALX08272.1 dihydroorotase multifunctional complex type [Acetivibrio thermocellus
+AD2]
+ ANV76020.1 dihydroorotase multifunctional complex type [Acetivibrio thermocellus
+DSM 2360]
+ EIC05829.1 dihydroorotase, multifunctional complex type [Acetivibrio thermocellus
+YS]
+ PFH02545.1 dihydroorotase [Acetivibrio thermocellus AD2]
+Length=428
+
+ Score = 28.9 bits (63),  Expect = 0.81, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 59/126 (47%), Gaps = 17/126 (13%)
+
+Query  97   GFNLGTDVLYSGTVSAAMEGAINGYPSIALSLEAEAKLSNKAMLYIKKLIDNVVQNGLPK  156
+            GF    D+  +GT+SAAM     G+ SIA     +    NKA+  +K +I+   Q+G
+Sbjct  67   GFEYKEDI-ETGTMSAAM----GGFTSIACMPNTDPVCDNKAV--VKYIINKAKQDGY--  117
+
+Query  157  NCLLNVNIPNVGS---GFKGIKITKLGHRNYTENFTKRIDPRGMDYYWLAGKVLENANDE  213
+                 VN+  +G+   G KG +++++G   +        D + +    L  + LE ++
+Sbjct  118  -----VNVYPIGAISKGQKGEELSEIGELKFAGAVAISDDGKPVKSSSLMKRALEYSSMF  172
+
+Query  214  DSDIIA  219
+            D  +I+
+Sbjct  173  DIAVIS  178
+
+
+>NLU27873.1 dihydroorotase [Acetivibrio thermocellus]
+ CDG35645.1 Dihydroorotase [Acetivibrio thermocellus BC1]
+Length=428
+
+ Score = 28.9 bits (63),  Expect = 0.84, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 59/126 (47%), Gaps = 17/126 (13%)
+
+Query  97   GFNLGTDVLYSGTVSAAMEGAINGYPSIALSLEAEAKLSNKAMLYIKKLIDNVVQNGLPK  156
+            GF    D+  +GT+SAAM     G+ SIA     +    NKA+  +K +I+   Q+G
+Sbjct  67   GFEYKEDI-ETGTMSAAM----GGFTSIACMPNTDPVCDNKAV--VKYIINKAKQDGY--  117
+
+Query  157  NCLLNVNIPNVGS---GFKGIKITKLGHRNYTENFTKRIDPRGMDYYWLAGKVLENANDE  213
+                 VN+  +G+   G KG +++++G   +        D + +    L  + LE ++
+Sbjct  118  -----VNVYPIGAISKGQKGEELSEIGELKFAGAVAISDDGKPVKSSSLMKRALEYSSMF  172
+
+Query  214  DSDIIA  219
+            D  +I+
+Sbjct  173  DIAVIS  178
+
+
+>WP_003516495.1 thiazole synthase [Acetivibrio thermocellus]
+ A3DD04.1 RecName: Full=Thiazole synthase [Acetivibrio thermocellus ATCC
+27405]
+ CDG35288.1 Thiazole synthase [Acetivibrio thermocellus BC1]
+ ABN51833.1 thiazole biosynthesis family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74692.1 thiazole biosynthesis family protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08635.1 Thiazole synthase [Acetivibrio thermocellus AD2]
+ ANV76384.1 Thiazole synthase [Acetivibrio thermocellus DSM 2360]
+Length=255
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 37/81 (46%), Gaps = 5/81 (6%)
+
+Query  154  LPKNCLLNVNIPNVGSGFKGIKITKLGHRNYTENFTKRIDPRGMDYYWLAGKVLENANDE  213
+            +PK+C+L  N     +  + ++I +L   +   NF K I+    + Y L     +N
+Sbjct  61   IPKDCILMPNTSGARNAEEAVRIARLARASGCGNFIK-IEVISDNRYLLP----DNLETI  115
+
+Query  214  DSDIIAVKNGFISITPIQLDL  234
+             +  I VK GFI +  +  DL
+Sbjct  116  KATEILVKEGFIVLPYMNPDL  136
+
+
+>NLU27476.1 response regulator [Acetivibrio thermocellus]
+Length=521
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 24/84 (29%), Positives = 38/84 (45%), Gaps = 8/84 (10%)
+
+Query  78   GIDVVMDKKPDIIISGINNGFNLGTDVLYSGTVSAAMEGAINGYPSIALSLEAEAKLSNK  137
+            G+D+++ +KPDI+I+ I      G  ++             NG   I LS   E  L
+Sbjct  40   GLDIILREKPDIVITDIKMPVMDGLQMIEQA------RKQYNGAHYIVLSSYEEFSLLKT  93
+
+Query  138  AMLYIKKLIDNVVQNGLPKNCLLN  161
+            AM Y   +ID +++  L  + LL
+Sbjct  94   AMKY--GVIDYLLKLELTSDVLLK  115
+
+
+>WP_003517023.1 radical SAM family heme chaperone HemW [Acetivibrio thermocellus]
+ CDG35998.1 coproporphyrinogen III oxidase, anaerobic [Acetivibrio thermocellus
+BC1]
+ ABN52557.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73998.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 1313]
+ ALX07936.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus AD2]
+ ANV75682.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 2360]
+Length=380
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  217  IIAVKNGFISITPIQLDLTMYSFI  240
+            ++AV+NGFI +T + LDL   +F+
+Sbjct  354  LVAVENGFIKLTRLGLDLANQAFM  377
+
+
+>WP_078682916.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76572.1 hypothetical protein EPD62_15850 [Acetivibrio thermocellus]
+Length=114
+
+ Score = 26.2 bits (56),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 12/42 (29%), Positives = 23/42 (55%), Gaps = 0/42 (0%)
+
+Query  202  LAGKVLENANDEDSDIIAVKNGFISITPIQLDLTMYSFIGNL  243
+            +   ++EN +  +  + A++   I + P Q  +  Y+FIGNL
+Sbjct  63   MVSSLIENNDKLELPVEAIEPMPIKVKPYQHQVQAYNFIGNL  104
+
+
+>WP_037294838.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+ THJ78011.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+ HBW26777.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+Length=81
+
+ Score = 25.0 bits (53),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 2/46 (4%)
+
+Query  18  QLAGFLK--DYYNVVVVAPDRERSAVGHAITMHKPLRIKKIKDDDN  61
+           QL G +K  D + VV+ +  R++    HAI+   P++I  +  +DN
+Sbjct  32  QLKGTVKGFDNFTVVLDSEGRQQLIYKHAISTISPMKIVSLIFNDN  77
+
+
+>ABN52009.1 RNA chaperone Hfq [Acetivibrio thermocellus ATCC 27405]
+ ADU74510.1 RNA chaperone Hfq [Acetivibrio thermocellus DSM 1313]
+ ALX08453.1 Protein hfq [Acetivibrio thermocellus AD2]
+ ANV76202.1 Protein hfq [Acetivibrio thermocellus DSM 2360]
+ EIC05394.1 Protein hfq [Acetivibrio thermocellus YS]
+ CDG35469.1 RNA chaperone Hfq [Acetivibrio thermocellus BC1]
+ SOD25236.1 RNA-binding protein Hfq [Acetivibrio thermocellus]
+Length=82
+
+ Score = 25.0 bits (53),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 2/46 (4%)
+
+Query  18  QLAGFLK--DYYNVVVVAPDRERSAVGHAITMHKPLRIKKIKDDDN  61
+           QL G +K  D + VV+ +  R++    HAI+   P++I  +  +DN
+Sbjct  33  QLKGTVKGFDNFTVVLDSEGRQQLIYKHAISTISPMKIVSLIFNDN  78
+
+
+>WP_003513594.1 glycosyltransferase family protein [Acetivibrio thermocellus]
+ CDG36744.1 acylneuraminate cytidylyltransferase [Acetivibrio thermocellus
+BC1]
+ ABN53432.1 acylneuraminate cytidylyltransferase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75883.1 acylneuraminate cytidylyltransferase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09915.1 acylneuraminate cytidylyltransferase [Acetivibrio thermocellus
+AD2]
+ ANV77689.1 acylneuraminate cytidylyltransferase [Acetivibrio thermocellus
+DSM 2360]
+Length=246
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  187  NFTKRIDPRGMDYYWLAGKVLENA  210
+            + T+R  PRG+D    + KVLE+A
+Sbjct  130  DLTQRTYPRGLDVEVFSFKVLEDA  153
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.139    0.403
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18627
+Number of extensions: 895
+Number of successful extensions: 31
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 30
+Number of HSP's successfully gapped: 8
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

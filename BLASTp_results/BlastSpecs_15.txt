@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+sap Sulfobacillus acidophilus DSM 10332 	
+sthr Sulfobacillus thermotolerans 	
+cthm Carboxydocella thermautotrophica 	
+cmiu Christensenella minuta 	
+ibu Intestinimonas butyriciproducens 	
+cbar Petrocella atlantisensis 	
+vgu Vallitalea guaymasensis 	
+vpy Vallitalea pronyensis 	
+acae Alkalicella caledoniensis 	
+lasa Lawsonibacter asaccharolyticus 	
+mdv Mogibacterium diversum 	

@@ -1,0 +1,188 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZBEXJ9016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADQ13994 5'-nucleotidase [Halanaerobium hydrogeniformans]
+
+Length=270
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003519108.1 helix-hairpin-helix domain-containing protein [...  26.2    5.0    35%
+WP_003518866.1 PrkA family serine protein kinase [Acetivibrio ...  26.6    5.2    40%
+NLU28045.1 formate--tetrahydrofolate ligase [Acetivibrio therm...  26.2    5.9    30%
+CDG36922.1 Formate-tetrahydrofolate ligase [Acetivibrio thermo...  26.2    6.0    30%
+WP_003516448.1 formate--tetrahydrofolate ligase [Acetivibrio t...  26.2    6.0    30%
+WP_003515744.1 YlzJ-like family protein [Acetivibrio thermocel...  24.3    7.1    35%
+
+ALIGNMENTS
+>WP_003519108.1 helix-hairpin-helix domain-containing protein [Acetivibrio thermocellus]
+ CDG35901.1 helix-hairpin-helix repeat-containing competence protein ComEA
+[Acetivibrio thermocellus BC1]
+ ABN52462.1 competence protein ComEA helix-hairpin-helix repeat protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74094.1 competence protein ComEA helix-hairpin-helix repeat protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08032.1 competence protein ComEA helix-hairpin-helix repeat protein [Acetivibrio
+thermocellus AD2]
+ ANV75779.1 competence protein ComEA helix-hairpin-helix repeat protein [Acetivibrio
+thermocellus DSM 2360]
+Length=296
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 18/34 (53%), Gaps = 0/34 (0%)
+
+Query  172  ITNGFPENTRILNINFPYNLSKNTEIRITEQAYT  205
+            +  G  E+  I NIN  Y L +N  IR+  ++ T
+Sbjct  106  LAGGPTEDADIENINLAYELRENVMIRVMSKSET  139
+
+
+>WP_003518866.1 PrkA family serine protein kinase [Acetivibrio thermocellus]
+ CDG35876.1 Protein PrkA [Acetivibrio thermocellus BC1]
+ ABN52437.1 putative serine protein kinase, PrkA [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74120.1 putative serine protein kinase, PrkA [Acetivibrio thermocellus
+DSM 1313]
+ ALX08058.1 putative serine protein kinase, PrkA [Acetivibrio thermocellus
+AD2]
+ ANV75805.1 putative serine protein kinase, PrkA [Acetivibrio thermocellus
+DSM 2360]
+Length=642
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 19/35 (54%), Gaps = 2/35 (6%)
+
+Query  181  RILNINFPYNLSKNTEIRITEQAY--TNFGVYIKP  213
+            RI+ I  PY L  N EI+I E+    + F  +I P
+Sbjct  325  RIVKIEVPYCLELNEEIKIYEKILRKSKFDAHIAP  359
+
+
+>NLU28045.1 formate--tetrahydrofolate ligase [Acetivibrio thermocellus]
+Length=556
+
+ Score = 26.2 bits (56),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 20/40 (50%), Gaps = 5/40 (13%)
+
+Query  79   VNGSPAQSVAHAV-----LELTDRKPDYCISGINYGENIG  113
+            V+G P  ++AH         L  +  DYCI+   +G ++G
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLG  306
+
+
+>CDG36922.1 Formate-tetrahydrofolate ligase [Acetivibrio thermocellus BC1]
+Length=556
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 20/40 (50%), Gaps = 5/40 (13%)
+
+Query  79   VNGSPAQSVAHAV-----LELTDRKPDYCISGINYGENIG  113
+            V+G P  ++AH         L  +  DYCI+   +G ++G
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLG  306
+
+
+>WP_003516448.1 formate--tetrahydrofolate ligase [Acetivibrio thermocellus]
+ A3DI22.1 RecName: Full=Formate--tetrahydrofolate ligase; AltName: Full=Formyltetrahydrofolate
+synthetase; Short=FHS; Short=FTHFS [Acetivibrio
+thermocellus ATCC 27405]
+ ABN53601.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus ATCC
+27405]
+ ADU73130.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus DSM
+1313]
+ ALX07041.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus AD2]
+ ANV74777.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus DSM
+2360]
+ EIC04039.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus YS]
+Length=556
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 12/40 (30%), Positives = 20/40 (50%), Gaps = 5/40 (13%)
+
+Query  79   VNGSPAQSVAHAV-----LELTDRKPDYCISGINYGENIG  113
+            V+G P  ++AH         L  +  DYCI+   +G ++G
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLG  306
+
+
+>WP_003515744.1 YlzJ-like family protein [Acetivibrio thermocellus]
+ CDG35792.1 hypothetical protein CTHBC1_1142 [Acetivibrio thermocellus BC1]
+ ABN52328.1 hypothetical protein Cthe_1096 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74181.1 hypothetical protein Clo1313_1117 [Acetivibrio thermocellus DSM
+1313]
+ ALX08124.1 YlzJ-like protein [Acetivibrio thermocellus AD2]
+ ANV75871.1 YlzJ-like protein [Acetivibrio thermocellus DSM 2360]
+Length=74
+
+ Score = 24.3 bits (51),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  142  FPFNKQQSQNYINIDWSSEKFYIKKI  167
+            F + + Q QNYI +D+  EK  +  +
+Sbjct  16   FDWCENQKQNYIEVDYCGEKVVVMPL  41
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.133    0.376
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21862
+Number of extensions: 983
+Number of successful extensions: 23
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 7
+Length of query: 270
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 183
+Effective length of database: 2134357
+Effective search space: 390587331
+Effective search space used: 390587331
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

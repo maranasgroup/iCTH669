@@ -1,0 +1,197 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WMZ0Z9R013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADL07927 5'-nucleotidase [Thermosediminibacter oceani]
+
+Length=253
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518291.1 CotH kinase family protein [Acetivibrio thermoc...  26.9    3.4    35%
+WP_235715236.1 CotH kinase family protein [Acetivibrio thermoc...  26.9    3.4    35%
+NLU27015.1 spore coat protein [Acetivibrio thermocellus]           26.9    3.7    35%
+WP_011838074.1 CotH kinase family protein [Acetivibrio thermoc...  26.9    3.7    35%
+CDG36081.1 spore coat assembly protein-like protein [Acetivibr...  26.9    3.7    35%
+WP_136479204.1 CotH kinase family protein [Acetivibrio thermoc...  26.6    3.9    35%
+WP_003515850.1 elongation factor G [Acetivibrio thermocellus]      26.2    6.6    31%
+WP_003517221.1 DNA polymerase I [Acetivibrio thermocellus]         25.8    9.0    29%
+
+ALIGNMENTS
+>WP_003518291.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ANV75596.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 2360]
+ EIC03217.1 Spore coat protein CotH [Acetivibrio thermocellus YS]
+ ADU73913.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 1313]
+ ALX07851.1 Spore coat protein CotH [Acetivibrio thermocellus AD2]
+ PFH02122.1 CotH protein [Acetivibrio thermocellus AD2]
+Length=703
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  338  GGADLKYIDDSPSSYWAIRNNAVFKTTTDADFK--KVIEMIKK  378
+
+
+>WP_235715236.1 CotH kinase family protein [Acetivibrio thermocellus]
+Length=706
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  341  GGADLKYIDDSPSSYWAIRNNAVFKTTTDADFK--KVIEMIKK  381
+
+
+>NLU27015.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 26.9 bits (58),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  338  GGADLKYIDDSPSSYWAIRNNAVFRTTTDADFK--KVIEMIKK  378
+
+
+>WP_011838074.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ABN52636.1 Spore coat protein CotH [Acetivibrio thermocellus ATCC 27405]
+ HBW27395.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 26.9 bits (58),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  338  GGADLKYIDDSPSSYWAIRNNAVFRTTTDADFK--KVIEMIKK  378
+
+
+>CDG36081.1 spore coat assembly protein-like protein [Acetivibrio thermocellus
+BC1]
+Length=709
+
+ Score = 26.9 bits (58),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  338  GGADLKYIDDSPSSYWAIRNNAVFRTTTDADFK--KVIEMIKK  378
+
+
+>WP_136479204.1 CotH kinase family protein [Acetivibrio thermocellus]
+ THJ79054.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 26.6 bits (57),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 24/43 (56%), Gaps = 2/43 (5%)
+
+Query  206  AGEAVEDLDDTGSDVWAIKNNYISITPIHFDLTNYEVIDTIKQ  248
+             G  ++ +DD+ S  WAI+NN +  T    D    +VI+ IK+
+Sbjct  338  GGADLKYIDDSPSSYWAIRNNAVFRTTTDADFK--KVIEMIKK  378
+
+
+>WP_003515850.1 elongation factor G [Acetivibrio thermocellus]
+ CDG36316.1 Elongation factor G [Acetivibrio thermocellus BC1]
+ ABN53015.1 translation elongation factor G [Acetivibrio thermocellus ATCC
+27405]
+ ADU75480.1 translation elongation factor G [Acetivibrio thermocellus DSM
+1313]
+ ALX09481.1 translation elongation factor G [Acetivibrio thermocellus AD2]
+ ANV77235.1 translation elongation factor G [Acetivibrio thermocellus DSM
+2360]
+Length=695
+
+ Score = 26.2 bits (56),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 7/52 (13%)
+
+Query  117  AAIYGIPAVAFSVAAYENVSYDYPARFARKLCVSVME-KEFPKDTLLNVNIP  167
+            AA +G   +AF +   EN      ++F   + +  M+ K+F KD L++ +IP
+Sbjct  151  AAAFGKNVIAFQIPIVEN------SKFTGYVDIVTMKAKKFDKDKLVDTDIP  196
+
+
+>WP_003517221.1 DNA polymerase I [Acetivibrio thermocellus]
+ CDG35579.1 DNA polymerase I [Acetivibrio thermocellus BC1]
+ ABN52120.1 DNA polymerase I [Acetivibrio thermocellus ATCC 27405]
+ ADU74397.1 DNA polymerase I [Acetivibrio thermocellus DSM 1313]
+ ALX08340.1 DNA polymerase I [Acetivibrio thermocellus AD2]
+ ANV76088.1 DNA polymerase I [Acetivibrio thermocellus DSM 2360]
+Length=894
+
+ Score = 25.8 bits (55),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  72   PSDCVKLALDALLNDVPDLVLSGINRGPNLGTDVIYSGTVSAAIEAAIYGIP  123
+            PSD   L LDA  + +   VL+ I    N+    + +  +  +  A+++GIP
+Sbjct  660  PSDENYLLLDADYSQIELRVLAHITNDENMINAFLNNEDIHTSTAASVFGIP  711
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.136    0.409
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 15256
+Number of extensions: 656
+Number of successful extensions: 15
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 5
+Length of query: 253
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 166
+Effective length of database: 2134357
+Effective search space: 354303262
+Effective search space used: 354303262
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

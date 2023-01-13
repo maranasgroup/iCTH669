@@ -1,0 +1,205 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WRDNU4D013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBL10271 5'-nucleotidase [Roseburia intestinalis]
+
+Length=237
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512511.1 glycosyl transferase [Acetivibrio thermocellus]     28.1    1.2    22%
+ABN51552.1 Glycosyltransferase 28 domain-containing protein [A...  28.1    1.2    22%
+WP_136479711.1 restriction endonuclease subunit S [Acetivibrio...  27.3    2.0    27%
+WP_003519332.1 glycosyl transferase [Acetivibrio thermocellus]     27.3    2.0    22%
+WP_011837996.1 hypothetical protein [Acetivibrio thermocellus]     26.6    3.3    37%
+WP_011837904.1 GDSL-type esterase/lipase family protein [Aceti...  26.6    3.9    30%
+WP_020457813.1 hypothetical protein [Acetivibrio thermocellus]     25.0    6.7    42%
+
+ALIGNMENTS
+>WP_003512511.1 glycosyl transferase [Acetivibrio thermocellus]
+ NLU26058.1 glycosyl transferase [Acetivibrio thermocellus]
+ THJ77173.1 glycosyl transferase [Acetivibrio thermocellus]
+ CDG34990.1 Glycosyltransferase 28 domain protein [Acetivibrio thermocellus
+BC1]
+ HBW26075.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=406
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 17/78 (22%), Positives = 32/78 (41%), Gaps = 15/78 (19%)
+
+Query  95   INAGYNVGRDILYSGTIGAAMEALCWGVPAIAFSVAEEDE-----CEVLNTYLEPVAKEL  149
+            ++  Y     +++ G  G+ +    +GVP++      E E     CE L+
+Sbjct  301  LDMAYEKSDLVIHHGGHGSCLAQFYYGVPSVIIPTHTEREYNARMCEKLH----------  350
+
+Query  150  ISKTLPQNEIWNVNFPGC  167
+            + K LP+ E+ + N   C
+Sbjct  351  VGKMLPRRELNSANLKNC  368
+
+
+>ABN51552.1 Glycosyltransferase 28 domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+Length=392
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 17/78 (22%), Positives = 32/78 (41%), Gaps = 15/78 (19%)
+
+Query  95   INAGYNVGRDILYSGTIGAAMEALCWGVPAIAFSVAEEDE-----CEVLNTYLEPVAKEL  149
+            ++  Y     +++ G  G+ +    +GVP++      E E     CE L+
+Sbjct  287  LDMAYEKSDLVIHHGGHGSCLAQFYYGVPSVIIPTHTEREYNARMCEKLH----------  336
+
+Query  150  ISKTLPQNEIWNVNFPGC  167
+            + K LP+ E+ + N   C
+Sbjct  337  VGKMLPRRELNSANLKNC  354
+
+
+>WP_136479711.1 restriction endonuclease subunit S [Acetivibrio thermocellus]
+ THJ76579.1 restriction endonuclease subunit S [Acetivibrio thermocellus]
+Length=394
+
+ Score = 27.3 bits (59),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 27/55 (49%), Gaps = 11/55 (20%)
+
+Query  111  IGAAMEALCWGVPAIAFSVAEEDECEVLN-----------TYLEPVAKELISKTL  154
+            +G  ++ +C+G    AF V +ED   +L            T ++ V + L+SK+L
+Sbjct  202  LGETIKEICYGSSVKAFDVHDEDSIPILRIPNIVGGVINTTDMKYVNRSLVSKSL  256
+
+
+>WP_003519332.1 glycosyl transferase [Acetivibrio thermocellus]
+ ADU74963.1 Glycosyltransferase 28 domain [Acetivibrio thermocellus DSM 1313]
+ ALX08924.1 Glycosyltransferase 28 domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76674.1 Glycosyltransferase 28 domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC05110.1 Glycosyltransferase 28 domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH03197.1 uncharacterized protein (TIGR00661 family) [Acetivibrio thermocellus
+AD2]
+Length=406
+
+ Score = 27.3 bits (59),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 17/78 (22%), Positives = 32/78 (41%), Gaps = 15/78 (19%)
+
+Query  95   INAGYNVGRDILYSGTIGAAMEALCWGVPAIAFSVAEEDE-----CEVLNTYLEPVAKEL  149
+            ++  Y     +++ G  G+ +    +GVP++      E E     CE L+
+Sbjct  301  LDIAYEKSDLVIHHGGHGSCLVQFYYGVPSVIIPTHTEREYNARMCEKLH----------  350
+
+Query  150  ISKTLPQNEIWNVNFPGC  167
+            + K LP+ E+ + N   C
+Sbjct  351  VGKMLPRRELNSANLKNC  368
+
+
+>WP_011837996.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52372.1 hypothetical protein Cthe_1140 [Acetivibrio thermocellus ATCC
+27405]
+Length=266
+
+ Score = 26.6 bits (57),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 22/41 (54%), Gaps = 3/41 (7%)
+
+Query  113  AAMEALCWGV---PAIAFSVAEEDECEVLNTYLEPVAKELI  150
+            A M +L  GV   P I  S   + + ++LNT+LE    +LI
+Sbjct  27   AQMNSLQTGVLVLPGILLSKLNKQQLDLLNTWLEDNKNQLI  67
+
+
+>WP_011837904.1 GDSL-type esterase/lipase family protein [Acetivibrio thermocellus]
+ ABN52033.1 lipolytic protein G-D-S-L family [Acetivibrio thermocellus ATCC
+27405]
+ ADU74486.1 lipolytic protein G-D-S-L family [Acetivibrio thermocellus DSM
+1313]
+ ALX08429.1 lipolytic protein G-D-S-L family [Acetivibrio thermocellus AD2]
+ ANV76178.1 lipolytic protein G-D-S-L family [Acetivibrio thermocellus DSM
+2360]
+ PFH02702.1 lysophospholipase L1-like esterase [Acetivibrio thermocellus
+AD2]
+Length=528
+
+ Score = 26.6 bits (57),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 18/60 (30%), Positives = 23/60 (38%), Gaps = 6/60 (10%)
+
+Query  55   PYDFPATGVTAYSVWGTPADCVKVALGCLMTEKPDIVFSGINAGYNVGRDILYSGTIGAA  114
+            P   P      +S W  P     +    L T  PD+VF  I      G D+L SG + A
+Sbjct  298  PSSLPDKDHEGHSGWTIPQIASNIN-NWLNTHNPDVVFLWIG-----GNDLLLSGNVNAT  351
+
+
+>WP_020457813.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53670.1 hypothetical protein Cthe_2468 [Acetivibrio thermocellus ATCC
+27405]
+ HBW27847.1 hypothetical protein [Acetivibrio thermocellus]
+Length=124
+
+ Score = 25.0 bits (53),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 17/36 (47%), Gaps = 4/36 (11%)
+
+Query  98   GYNVGRDILYSGTIGAAMEALCWGVPAIAFSVAEED  133
+            GYNV R   Y+G  GA     C G+P I   V  E
+Sbjct  24   GYNVRRGQQYNGIEGAD----CVGLPGIHQEVKREQ  55
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.137    0.422
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18825
+Number of extensions: 810
+Number of successful extensions: 21
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 21
+Number of HSP's successfully gapped: 3
+Length of query: 237
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 151
+Effective length of database: 2142420
+Effective search space: 323505420
+Effective search space used: 323505420
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

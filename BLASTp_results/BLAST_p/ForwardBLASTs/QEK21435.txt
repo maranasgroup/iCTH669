@@ -1,0 +1,284 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WPP50RW016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QEK21435 5'-nucleotidase [Peptacetobacter hiranonis]
+
+Length=562
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003515952.1 ABC transporter ATP-binding protein [Acetivibri...  32.7    0.100  33%
+WP_004464062.1 ABC transporter ATP-binding protein [Acetivibri...  32.7    0.10   33%
+CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]   32.0    0.24   29%
+ABN54317.1 S-layer domain-containing protein [Acetivibrio ther...  32.0    0.27   29%
+WP_235835982.1 S-layer homology domain-containing protein [Ace...  32.0    0.29   29%
+WP_003516160.1 S-layer homology domain-containing protein [Ace...  31.6    0.36   29%
+WP_003518588.1 4-hydroxythreonine-4-phosphate dehydrogenase Pd...  28.1    3.3    28%
+NLU26701.1 enoyl-CoA hydratase/isomerase family protein [Aceti...  26.9    6.6    29%
+WP_003512892.1 LegC family aminotransferase [Acetivibrio therm...  27.3    6.7    37%
+NLU25670.1 LegC family aminotransferase [Acetivibrio thermocel...  27.3    6.9    37%
+WP_003517391.1 enoyl-CoA hydratase/isomerase family protein [A...  26.9    7.1    29%
+
+ALIGNMENTS
+>WP_003515952.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU75440.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09440.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77194.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC04564.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ PFH03717.1 iron complex transport system ATP-binding protein [Acetivibrio
+thermocellus AD2]
+Length=266
+
+ Score = 32.7 bits (73),  Expect = 0.100, Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 6/54 (11%)
+
+Query  96   TNLIKSGAEAF------IYINGENVDVFSANDVSKKISKSNETNGKSNESKKAD  143
+            T L+KS A A       IY+NGE++    A ++SKKI+   ++ G + +    D
+Sbjct  48   TTLLKSMARALRPQKGAIYVNGEDISRMKARELSKKIACLYQSTGIACDYPVMD  101
+
+
+>WP_004464062.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG36277.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN52973.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ NLU27547.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ THJ77881.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ HBW26486.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=266
+
+ Score = 32.7 bits (73),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 6/54 (11%)
+
+Query  96   TNLIKSGAEAF------IYINGENVDVFSANDVSKKISKSNETNGKSNESKKAD  143
+            T L+KS A A       IY+NGE++    A ++SKKI+   ++ G + +    D
+Sbjct  48   TTLLKSMARALRPQKGAIYVNGEDISRMKARELSKKIACLYQSTGIACDYPVMD  101
+
+
+>CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]
+Length=643
+
+ Score = 32.0 bits (71),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 41/93 (44%), Gaps = 33/93 (35%)
+
+Query  7   RIISTAMVLSIVIQ------------GNTVFAKEISNNSNNESKKLVVVYERKDSK----  50
+           R+IS A+VL+I++Q             NT+F ++IS +   ES K +   ER   K
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNTIFFRDISGHWAEESIKYLA--ERGLVKGYLT  64
+
+Query  51  ---------------DYLDILINGKTNQKEIKD  68
+                          +YL +L+N K N K + D
+Sbjct  65  DNGYIIKPDTYITRAEYLTVLLNTKPNLKVVSD  97
+
+
+>ABN54317.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+Length=692
+
+ Score = 32.0 bits (71),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 41/93 (44%), Gaps = 33/93 (35%)
+
+Query  7   RIISTAMVLSIVIQ------------GNTVFAKEISNNSNNESKKLVVVYERKDSK----  50
+           R+IS A+VL+I++Q             NT+F ++IS +   ES K +   ER   K
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNTIFFRDISGHWAEESIKYLA--ERGLVKGYLT  64
+
+Query  51  ---------------DYLDILINGKTNQKEIKD  68
+                          +YL +L+N K N K + D
+Sbjct  65  DNGYIIKPDTYITRAEYLTVLLNTKPNLKVVSD  97
+
+
+>WP_235835982.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=689
+
+ Score = 32.0 bits (71),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 41/93 (44%), Gaps = 33/93 (35%)
+
+Query  7   RIISTAMVLSIVIQ------------GNTVFAKEISNNSNNESKKLVVVYERKDSK----  50
+           R+IS A+VL+I++Q             NT+F ++IS +   ES K +   ER   K
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNTIFFRDISGHWAEESIKYLA--ERGLVKGYLT  64
+
+Query  51  ---------------DYLDILINGKTNQKEIKD  68
+                          +YL +L+N K N K + D
+Sbjct  65  DNGYIIKPDTYITRAEYLTVLLNTKPNLKVVSD  97
+
+
+>WP_003516160.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73755.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07685.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV75427.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC05643.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+ PFH01953.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=834
+
+ Score = 31.6 bits (70),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 41/93 (44%), Gaps = 33/93 (35%)
+
+Query  7   RIISTAMVLSIVIQ------------GNTVFAKEISNNSNNESKKLVVVYERKDSK----  50
+           R+IS A+VL+I++Q             NT+F ++IS +   ES K +   ER   K
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNTIFFRDISGHWAEESIKYLA--ERGLVKGYLT  64
+
+Query  51  ---------------DYLDILINGKTNQKEIKD  68
+                          +YL +L+N K N K + D
+Sbjct  65  DNGYIIKPDTYITRAEYLTVLLNTKPNLKVVSD  97
+
+
+>WP_003518588.1 4-hydroxythreonine-4-phosphate dehydrogenase PdxA [Acetivibrio
+thermocellus]
+ CDG35621.1 4-hydroxythreonine-4-phosphate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN52162.1 4-hydroxythreonine-4-phosphate dehydrogenase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74352.1 4-hydroxythreonine-4-phosphate dehydrogenase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08296.1 4-hydroxythreonine-4-phosphate dehydrogenase [Acetivibrio thermocellus
+AD2]
+ ANV76044.1 4-hydroxythreonine-4-phosphate dehydrogenase [Acetivibrio thermocellus
+DSM 2360]
+Length=340
+
+ Score = 28.1 bits (61),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 28/60 (47%), Gaps = 2/60 (3%)
+
+Query  416  AEFIKSKGTVNYKNDGRIKVTKTININREKVKKVVTAIDKLTYDKTTSNIKAVNEAIKMF  475
+            A F   K TV    DG+I    T  IN+E +K  +  ID + + +  + +    + + MF
+Sbjct  100  AAFDYIKRTVELAMDGKIDAVATTPINKESLK--MAGIDYIGHTEILAGLTGTKDPLTMF  157
+
+
+>NLU26701.1 enoyl-CoA hydratase/isomerase family protein [Acetivibrio thermocellus]
+Length=238
+
+ Score = 26.9 bits (58),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 34/62 (55%), Gaps = 5/62 (8%)
+
+Query  461  TTSNIKAVNEAIKMFNDLNQDERKQVTNYKKLVKIADSL----RSNGVNVSKPSGTGSSS  516
+            +T   + V + I +   LN+ E++   N +  ++I+D L    +S+ +NV   +G GSS
+Sbjct  4    STIQYRQVKDGIGLIT-LNRPEKRNAINIQMRIEISDCLCELEQSSDINVVIFTGAGSSF  62
+
+Query  517  SS  518
+            S+
+Sbjct  63   SA  64
+
+
+>WP_003512892.1 LegC family aminotransferase [Acetivibrio thermocellus]
+ CDG37108.1 DegT/DnrJ/EryC1/StrS aminotransferase [Acetivibrio thermocellus
+BC1]
+ ABN53843.1 DegT/DnrJ/EryC1/StrS aminotransferase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73327.1 DegT/DnrJ/EryC1/StrS aminotransferase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07245.1 Aminotransferase, LLPSF_NHT_00031 family [Acetivibrio thermocellus
+AD2]
+ ANV74981.1 Aminotransferase, LLPSF_NHT_00031 family [Acetivibrio thermocellus
+DSM 2360]
+Length=389
+
+ Score = 27.3 bits (59),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query  255  STELVGDYYTIGKEESNFANLINDA-LLSKTGAEIAMTNAGTILKS  299
+            +TE +G YY  GK +  +A  I DA + S  G +I  T  G ++ S
+Sbjct  172  ATEALGTYYLDGKYKGKYAGTIGDAGVYSFNGNKIITTGGGGMIVS  217
+
+
+>NLU25670.1 LegC family aminotransferase [Acetivibrio thermocellus]
+Length=389
+
+ Score = 27.3 bits (59),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 25/46 (54%), Gaps = 1/46 (2%)
+
+Query  255  STELVGDYYTIGKEESNFANLINDA-LLSKTGAEIAMTNAGTILKS  299
+            +TE +G YY  GK +  +A  I DA + S  G +I  T  G ++ S
+Sbjct  172  ATEALGTYYLDGKYKGKYAGTIGDAGVYSFNGNKIITTGGGGMIVS  217
+
+
+>WP_003517391.1 enoyl-CoA hydratase/isomerase family protein [Acetivibrio thermocellus]
+ ABN52775.1 Enoyl-CoA hydratase/isomerase [Acetivibrio thermocellus ATCC
+27405]
+ ADU75338.1 Enoyl-CoA hydratase/isomerase [Acetivibrio thermocellus DSM 1313]
+ ALX09331.1 Enoyl-CoA hydratase/isomerase [Acetivibrio thermocellus AD2]
+ ANV77085.1 Enoyl-CoA hydratase/isomerase [Acetivibrio thermocellus DSM 2360]
+ EIC04658.1 Enoyl-CoA hydratase/isomerase [Acetivibrio thermocellus YS]
+Length=248
+
+ Score = 26.9 bits (58),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 34/62 (55%), Gaps = 5/62 (8%)
+
+Query  461  TTSNIKAVNEAIKMFNDLNQDERKQVTNYKKLVKIADSL----RSNGVNVSKPSGTGSSS  516
+            +T   + V + I +   LN+ E++   N +  ++I+D L    +S+ +NV   +G GSS
+Sbjct  4    STIQYRQVKDGIGLIT-LNRPEKRNAINIQMRIEISDCLCELEQSSDINVVIFTGAGSSF  62
+
+Query  517  SS  518
+            S+
+Sbjct  63   SA  64
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.303    0.122    0.313
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 40041
+Number of extensions: 1983
+Number of successful extensions: 64
+Number of sequences better than 100: 20
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 60
+Number of HSP's successfully gapped: 33
+Length of query: 562
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 468
+Effective length of database: 2077916
+Effective search space: 972464688
+Effective search space used: 972464688
+T: 11
+A: 40
+X1: 17 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

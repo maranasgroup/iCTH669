@@ -1,0 +1,255 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W6WAS2R016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADO77624 5'-nucleotidase [Halanaerobium praevalens]
+
+Length=499
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      34.7    0.027  28%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      34.7    0.027  28%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      34.7    0.028  28%
+WP_003514172.1 hypothetical protein [Acetivibrio thermocellus]     26.9    1.6    31%
+WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetiv...  28.5    1.9    23%
+WP_003516761.1 hypothetical protein [Acetivibrio thermocellus]     26.9    1.9    31%
+WP_003513498.1 ATP-dependent metallopeptidase FtsH/Yme1/Tma fa...  26.9    7.6    43%
+WP_003517950.1 flagellar motor switch protein FliG [Acetivibri...  26.6    9.7    28%
+
+ALIGNMENTS
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 34.7 bits (78),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 51/117 (44%), Gaps = 25/117 (21%)
+
+Query  140  GKEIPYTKDYIIKEYNGFKVGIFGLV-TPETVYKTHP--KNVEG----------LSFEDP  186
+            G+ +   +   I E    KVG+       E VYK +P  K   G          L F+D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  ITVAKKTVKELENKVDIIVGLSHLGIDNSSNLAKNVK---------GIDLIVDGHSH  234
+            I   KK ++EL +KVDI++   H G++ S  +    +         G+D+I+  H H
+Sbjct  259  I---KKDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 34.7 bits (78),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 51/117 (44%), Gaps = 25/117 (21%)
+
+Query  140  GKEIPYTKDYIIKEYNGFKVGIFGLV-TPETVYKTHP--KNVEG----------LSFEDP  186
+            G+ +   +   I E    KVG+       E VYK +P  K   G          L F+D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  ITVAKKTVKELENKVDIIVGLSHLGIDNSSNLAKNVK---------GIDLIVDGHSH  234
+            I   KK ++EL +KVDI++   H G++ S  +    +         G+D+I+  H H
+Sbjct  259  I---KKDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 34.7 bits (78),  Expect = 0.028, Method: Compositional matrix adjust.
+ Identities = 33/117 (28%), Positives = 51/117 (44%), Gaps = 25/117 (21%)
+
+Query  140  GKEIPYTKDYIIKEYNGFKVGIFGLV-TPETVYKTHP--KNVEG----------LSFEDP  186
+            G+ +   +   I E    KVG+       E VYK +P  K   G          L F+D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  ITVAKKTVKELENKVDIIVGLSHLGIDNSSNLAKNVK---------GIDLIVDGHSH  234
+            I   KK ++EL +KVDI++   H G++ S  +    +         G+D+I+  H H
+Sbjct  259  I---KKDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>WP_003514172.1 hypothetical protein [Acetivibrio thermocellus]
+ ANV77529.1 hypothetical protein LQRI_2788 [Acetivibrio thermocellus DSM
+2360]
+ EIC03731.1 hypothetical protein YSBL_2689 [Acetivibrio thermocellus YS]
+ CDG36584.1 hypothetical protein CTHBC1_1981 [Acetivibrio thermocellus BC1]
+ ADU75725.1 hypothetical protein Clo1313_2741 [Acetivibrio thermocellus DSM
+1313]
+ ALX09755.1 hypothetical protein AD2_02777 [Acetivibrio thermocellus AD2]
+Length=74
+
+ Score = 26.9 bits (58),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 24/45 (53%), Gaps = 3/45 (7%)
+
+Query  414  VKFSFDGDAASGNRIQKVWVGGEKLDPNKIYTVATNDFMKAGGDG  458
+            VKF+ +GD      ++ VW  G + + +++  V     +KAGG G
+Sbjct  5    VKFTKEGDKIP---LEIVWDDGRRFEVDRVLDVTKAASLKAGGRG  46
+
+
+>WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetivibrio thermocellus]
+ CDG35786.1 putative protein ymdB [Acetivibrio thermocellus BC1]
+ ABN52322.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU74187.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX08130.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+AD2]
+ ANV75877.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+DSM 2360]
+Length=260
+
+ Score = 28.5 bits (62),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 45/194 (23%), Positives = 83/194 (43%), Gaps = 35/194 (18%)
+
+Query  49   GSMGYAKIATLIKEARKEKENVMFLDAGDTFHGQTIANINQGESISHIL--NLMK--LDA  104
+            G+ G      ++++ +KE++    +  G+   G        G  I++++   L K  +DA
+Sbjct  11   GNPGRKAAKEMVQKLKKERQIDFCIANGENAAG--------GSGITYVVAQELYKYGIDA  62
+
+Query  105  LVLGNHDFNYDQKRVSELAKINNFPFLAANLVREDGK--EIPYTKDYIIKEYNGFKVGIF  162
+            + LGNH ++  +        I NF    +N+VR      E+P     +I   NG KVGI
+Sbjct  63   ITLGNHTWSKKE--------IMNFIDSDSNIVRPANYPVELPGRGSTVICGENG-KVGIL  113
+
+Query  163  GLVTPETVYKTHPKNVEGLSFEDPITVAKKTVKELENKVDIIVGLSHL-GIDNSSNLAKN  221
+             L+    +Y          S + P   A++ ++ L+N   +I+   H         LA
+Sbjct  114  NLMG--RIYMD--------SIDCPFKAAERELEYLKNNCKVIIVDMHAEATSEKCALAWY  163
+
+Query  222  VKG-IDLIVDGHSH  234
+            + G +  ++  H+H
+Sbjct  164  LDGRVSCVLGTHTH  177
+
+
+>WP_003516761.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53289.1 hypothetical protein Cthe_2082 [Acetivibrio thermocellus ATCC
+27405]
+ NLU25992.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ77103.1 hypothetical protein EPD62_12915 [Acetivibrio thermocellus]
+ HBW26293.1 hypothetical protein [Acetivibrio thermocellus]
+Length=79
+
+ Score = 26.9 bits (58),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 24/45 (53%), Gaps = 3/45 (7%)
+
+Query  414  VKFSFDGDAASGNRIQKVWVGGEKLDPNKIYTVATNDFMKAGGDG  458
+            VKF+ +GD      ++ VW  G + + +++  V     +KAGG G
+Sbjct  10   VKFTKEGDKIP---LEIVWDDGRRFEVDRVLDVTKAASLKAGGRG  51
+
+
+>WP_003513498.1 ATP-dependent metallopeptidase FtsH/Yme1/Tma family protein [Acetivibrio
+thermocellus]
+ CDG36791.1 AAA ATPase, central region [Acetivibrio thermocellus BC1]
+ ABN53478.1 AAA ATPase central domain protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75929.1 AAA ATPase central domain protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09962.1 Microtubule-severing ATPase [Acetivibrio thermocellus AD2]
+ ANV77736.1 Microtubule-severing ATPase [Acetivibrio thermocellus DSM 2360]
+Length=392
+
+ Score = 26.9 bits (58),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  50   SMGYAKIATLIKEARKEKENVMFLDAGD  77
+            S+G AKI  L ++AR  K  ++F+D  D
+Sbjct  216  SIGPAKIKALFRKARANKPCIIFIDEFD  243
+
+
+>WP_003517950.1 flagellar motor switch protein FliG [Acetivibrio thermocellus]
+ CDG35180.1 Flagellar motor switch protein FliG [Acetivibrio thermocellus
+BC1]
+ ABN51704.1 flagellar motor switch protein FliG [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74811.1 flagellar motor switch protein FliG [Acetivibrio thermocellus
+DSM 1313]
+ ALX08764.1 flagellar motor switch protein FliG [Acetivibrio thermocellus
+AD2]
+ ANV76515.1 flagellar motor switch protein FliG [Acetivibrio thermocellus
+DSM 2360]
+Length=340
+
+ Score = 26.6 bits (57),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 33/116 (28%), Positives = 52/116 (45%), Gaps = 21/116 (18%)
+
+Query  400  EYPATEGLF-----PQVSGVKFSF---DGDAASGNRIQ-------KVWVGGEKLDPNKIY  444
+            E+P T  L      PQ + +  S    D  A    RI        +V    E++   K+
+Sbjct  131  EHPQTIALILSYLKPQQASIVLSALPQDKQADVARRIATMDRTSPEVIKEVERVLEKKLS  190
+
+Query  445  TVATNDFMKAGGDGYEMFAEAPILSEAG-GLEEILIEYIE-ENSPLAPEIESRIII  498
+             + T DF  AGG    + A   IL+    G E+ ++E +E E++ LA EI+ R+ +
+Sbjct  191  AIVTEDFTAAGG----VQAIVDILNNVDRGTEKYIMETLEVEDTDLAEEIKKRMFV  242
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.135    0.375
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 35333
+Number of extensions: 1757
+Number of successful extensions: 14
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 5
+Length of query: 499
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 406
+Effective length of database: 2085979
+Effective search space: 846907474
+Effective search space used: 846907474
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

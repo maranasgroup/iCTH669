@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+pdc Clostridioides difficile 630 	
+cdc Clostridioides difficile CD196 	
+cdl Clostridioides difficile R20291 	
+pdf Clostridioides difficile 630Derm 	
+eac Peptoclostridium acidaminophilum 	
+cst Acetoanaerobium sticklandii 	
+faa Filifactor alocis 	
+psor Paeniclostridium sordellii 	
+roc Romboutsia sp. CE17 	
+phx Peptacetobacter hiranonis 	

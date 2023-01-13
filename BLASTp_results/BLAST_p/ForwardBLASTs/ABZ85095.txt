@@ -1,0 +1,532 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ2JZG8016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABZ85095 5'-nucleotidase [Heliobacterium modesticaldum]
+
+Length=272
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513886.1 stage II sporulation protein R [Acetivibrio the...  29.3    0.51   27%
+WP_011838305.1 stage II sporulation protein R [Acetivibrio the...  29.3    0.53   27%
+WP_003515443.1 transcription-repair coupling factor [Acetivibr...  28.9    0.91   28%
+CDG37095.1 Transcription-repair-coupling factor [Acetivibrio t...  28.9    0.91   28%
+WP_020457882.1 transcription-repair coupling factor [Acetivibr...  28.9    0.91   28%
+WP_003512846.1 calcium-translocating P-type ATPase, PMCA-type ...  28.1    1.8    28%
+WP_020457888.1 calcium-translocating P-type ATPase, PMCA-type ...  28.1    1.9    28%
+WP_235715196.1 stalk domain-containing protein [Acetivibrio th...  27.7    1.9    27%
+NLU25703.1 copper amine oxidase [Acetivibrio thermocellus]         27.7    1.9    27%
+WP_003513857.1 stalk domain-containing protein [Acetivibrio th...  27.7    1.9    27%
+WP_011838298.1 stalk domain-containing protein [Acetivibrio th...  27.7    1.9    27%
+CDG36520.1 hypothetical protein CTHBC1_1910 [Acetivibrio therm...  27.3    1.9    35%
+THJ76480.1 phage major capsid protein [Acetivibrio thermocellus]   25.0    3.5    35%
+1XYZ_A Chain A, 1,4-BETA-D-XYLAN-XYLANOHYDROLASE [Acetivibrio ...  26.6    4.5    24%
+NLU26291.1 carbohydrate-binding protein [Acetivibrio thermocel...  26.6    4.5    24%
+WP_003518444.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]   26.6    4.7    24%
+WP_003513959.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]   26.6    4.7    24%
+WP_003516184.1 methylmalonyl-CoA carboxyltransferase [Acetivib...  26.6    4.8    27%
+CDG36384.1 peptidase M23B [Acetivibrio thermocellus BC1]           25.4    8.9    33%
+WP_020457951.1 phage major capsid protein [Acetivibrio thermoc...  25.8    9.0    35%
+WP_003512195.1 TIGR03960 family B12-binding radical SAM protei...  25.8    9.0    28%
+WP_136479331.1 TIGR03960 family B12-binding radical SAM protei...  25.8    9.1    28%
+WP_014522622.1 helix-turn-helix domain-containing protein [Ace...  25.4    9.2    36%
+WP_003518034.1 TIGR03960 family B12-binding radical SAM protei...  25.8    9.3    28%
+WP_003513811.1 peptidoglycan DD-metalloendopeptidase family pr...  25.4    9.6    33%
+
+ALIGNMENTS
+>WP_003513886.1 stage II sporulation protein R [Acetivibrio thermocellus]
+ CDG36436.1 stage II sporulation protein R [Acetivibrio thermocellus BC1]
+ ADU75595.1 stage II sporulation protein R [Acetivibrio thermocellus DSM
+1313]
+ ALX09588.1 stage II sporulation protein R [Acetivibrio thermocellus AD2]
+ ANV77360.1 stage II sporulation protein R [Acetivibrio thermocellus DSM
+2360]
+ EIC04434.1 stage II sporulation protein R [Acetivibrio thermocellus YS]
+Length=232
+
+ Score = 29.3 bits (64),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  61   PHCHGWAVNGTPADCVKLAMEELLAEPPHIVISGINRGPNLGTDVLYS  108
+            P C   A +GT  D VK  ++E+L+E  + +I+  + G ++  ++ +
+Sbjct  164  PLCFVDATHGTVPDSVKDDLKEVLSEEEYYLITAQDEGDDIEIEIKFK  211
+
+
+>WP_011838305.1 stage II sporulation protein R [Acetivibrio thermocellus]
+ ABN53139.1 stage II sporulation protein R [Acetivibrio thermocellus ATCC
+27405]
+ HBW27100.1 stage II sporulation protein R [Acetivibrio thermocellus]
+Length=232
+
+ Score = 29.3 bits (64),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 13/48 (27%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  61   PHCHGWAVNGTPADCVKLAMEELLAEPPHIVISGINRGPNLGTDVLYS  108
+            P C   A +GT  D VK  ++E+L+E  + +I+  + G ++  ++ +
+Sbjct  164  PLCFVDATHGTVPDSVKDDLKEVLSEEEYYLITAQDEGDDIEIEIKFK  211
+
+
+>WP_003515443.1 transcription-repair coupling factor [Acetivibrio thermocellus]
+ ADU73314.1 transcription-repair coupling factor [Acetivibrio thermocellus
+DSM 1313]
+ ALX07232.1 transcription-repair coupling factor [Acetivibrio thermocellus
+AD2]
+ ANV74968.1 transcription-repair coupling factor [Acetivibrio thermocellus
+DSM 2360]
+ EIC04302.1 transcription-repair coupling factor [Acetivibrio thermocellus
+YS]
+ NLU27101.1 transcription-repair coupling factor [Acetivibrio thermocellus]
+Length=1178
+
+ Score = 28.9 bits (63),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  136  DYTVAAETTRLLCEKLVARGLTPDTFLNVNVPDLPRERI-AGIQVTKLGSRRYQNIFDKR  194
+            DY     +   LC+KL+ R L  ++ +NV + D    RI  G+   KL S  Y+ +
+Sbjct  119  DYGFIVTSAEALCQKLIDRKLFKESIVNVALGD----RIDLGLFTQKLVSIGYERV----  170
+
+Query  195  TDPRGRTYYWMAGEVHDV  212
+            T   G++ + + G + D+
+Sbjct  171  TTVEGKSQFAVRGGIVDI  188
+
+
+>CDG37095.1 Transcription-repair-coupling factor [Acetivibrio thermocellus
+BC1]
+Length=1178
+
+ Score = 28.9 bits (63),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  136  DYTVAAETTRLLCEKLVARGLTPDTFLNVNVPDLPRERI-AGIQVTKLGSRRYQNIFDKR  194
+            DY     +   LC+KL+ R L  ++ +NV + D    RI  G+   KL S  Y+ +
+Sbjct  119  DYGFIVTSAEALCQKLIDRKLFKESIVNVALGD----RIDLGLFTQKLVSIGYERV----  170
+
+Query  195  TDPRGRTYYWMAGEVHDV  212
+            T   G++ + + G + D+
+Sbjct  171  TTVEGKSQFAVRGGIVDI  188
+
+
+>WP_020457882.1 transcription-repair coupling factor [Acetivibrio thermocellus]
+ ABN53831.1 transcription-repair coupling factor [Acetivibrio thermocellus
+ATCC 27405]
+ HBW25860.1 transcription-repair coupling factor [Acetivibrio thermocellus]
+Length=1178
+
+ Score = 28.9 bits (63),  Expect = 0.91, Method: Composition-based stats.
+ Identities = 22/78 (28%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  136  DYTVAAETTRLLCEKLVARGLTPDTFLNVNVPDLPRERI-AGIQVTKLGSRRYQNIFDKR  194
+            DY     +   LC+KL+ R L  ++ +NV + D    RI  G+   KL S  Y+ +
+Sbjct  119  DYGFIVTSAEALCQKLIDRKLFKESIVNVALGD----RIDLGLFTQKLVSIGYERV----  170
+
+Query  195  TDPRGRTYYWMAGEVHDV  212
+            T   G++ + + G + D+
+Sbjct  171  TTVEGKSQFAVRGGIVDI  188
+
+
+>WP_003512846.1 calcium-translocating P-type ATPase, PMCA-type [Acetivibrio thermocellus]
+ ADU73349.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus DSM 1313]
+ ALX07267.1 calcium-translocating P-type ATPase, PMCA-type [Acetivibrio thermocellus
+AD2]
+ ANV75003.1 calcium-translocating P-type ATPase, PMCA-type [Acetivibrio thermocellus
+DSM 2360]
+ EIC04268.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus YS]
+ PFH01529.1 Ca2+-transporting ATPase [Acetivibrio thermocellus AD2]
+Length=864
+
+ Score = 28.1 bits (61),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 37/86 (43%), Gaps = 10/86 (12%)
+
+Query  79   AMEELLAEPPHIVISGINRGPNLGTDVLYSGTVSAAMEGVIYGVPSIAVSVTGWHTADYT  138
+            A E+++  PP     GI     LG  V+Y G   AA+  + Y + +    +TG   A  T
+Sbjct  716  AEEDIMKRPPRSAKEGI-FAHGLGFSVIYQGIAIAALTLISYFIGNTQSHITGTTMAFLT  774
+
+Query  139  VAAETTRLLCEKLVA---RGLTPDTF  161
+            ++      +CE   A   R +T   F
+Sbjct  775  MS------VCEVFQALNLRSMTKSIF  794
+
+
+>WP_020457888.1 calcium-translocating P-type ATPase, PMCA-type [Acetivibrio thermocellus]
+ ABN53865.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus ATCC 27405]
+ CDG37130.1 Calcium-transporting ATPase lmo0841 [Acetivibrio thermocellus
+BC1]
+ HBW25895.1 calcium-translocating P-type ATPase, PMCA-type [Acetivibrio thermocellus]
+Length=864
+
+ Score = 28.1 bits (61),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 37/86 (43%), Gaps = 10/86 (12%)
+
+Query  79   AMEELLAEPPHIVISGINRGPNLGTDVLYSGTVSAAMEGVIYGVPSIAVSVTGWHTADYT  138
+            A E+++  PP     GI     LG  V+Y G   AA+  + Y + +    +TG   A  T
+Sbjct  716  AEEDIMKRPPRSAKEGI-FAHGLGFSVIYQGIAIAALTLISYFIGNTQSHITGTTMAFLT  774
+
+Query  139  VAAETTRLLCEKLVA---RGLTPDTF  161
+            ++      +CE   A   R +T   F
+Sbjct  775  MS------VCEVFQALNLRSMTKSIF  794
+
+
+>WP_235715196.1 stalk domain-containing protein [Acetivibrio thermocellus]
+Length=932
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 30/74 (41%), Gaps = 13/74 (18%)
+
+Query  149  EKLVARGLTPDTFLNVNVPDLPRERIAGIQVTKLGSRRYQNIFDKRTDP---------RG  199
+            + L  RG+    F+   V D+ +     +++         NIF K  D          +G
+Sbjct  262  KALANRGMGSAYFILSTVRDVEKNTAKALEMFN----EALNIFVKDGDQYNCGYLHYLKG  317
+
+Query  200  RTYYWMAGEVHDVD  213
+            RTYYWMA   +  D
+Sbjct  318  RTYYWMAASTNTRD  331
+
+
+>NLU25703.1 copper amine oxidase [Acetivibrio thermocellus]
+Length=947
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 30/74 (41%), Gaps = 13/74 (18%)
+
+Query  149  EKLVARGLTPDTFLNVNVPDLPRERIAGIQVTKLGSRRYQNIFDKRTDP---------RG  199
+            + L  RG+    F+   V D+ +     +++         NIF K  D          +G
+Sbjct  292  KALANRGMGSAYFILSTVRDVEKNTAKALEMFN----EALNIFVKDGDQYNCGYLHYLKG  347
+
+Query  200  RTYYWMAGEVHDVD  213
+            RTYYWMA   +  D
+Sbjct  348  RTYYWMAASTNTRD  361
+
+
+>WP_003513857.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ANV77347.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04448.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+ CDG36425.1 copper amine oxidase domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75582.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX09575.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+Length=962
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 30/74 (41%), Gaps = 13/74 (18%)
+
+Query  149  EKLVARGLTPDTFLNVNVPDLPRERIAGIQVTKLGSRRYQNIFDKRTDP---------RG  199
+            + L  RG+    F+   V D+ +     +++         NIF K  D          +G
+Sbjct  292  KALANRGMGSAYFILSTVRDVEKNTAKALEMFN----EALNIFVKDGDQYNCGYLHYLKG  347
+
+Query  200  RTYYWMAGEVHDVD  213
+            RTYYWMA   +  D
+Sbjct  348  RTYYWMAASTNTRD  361
+
+
+>WP_011838298.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ABN53127.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27088.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+Length=962
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 20/74 (27%), Positives = 30/74 (41%), Gaps = 13/74 (18%)
+
+Query  149  EKLVARGLTPDTFLNVNVPDLPRERIAGIQVTKLGSRRYQNIFDKRTDP---------RG  199
+            + L  RG+    F+   V D+ +     +++         NIF K  D          +G
+Sbjct  292  KALANRGMGSAYFILSTVRDVEKNTAKALEMFN----EALNIFVKDGDQYNCGYLHYLKG  347
+
+Query  200  RTYYWMAGEVHDVD  213
+            RTYYWMA   +  D
+Sbjct  348  RTYYWMAASTNTRD  361
+
+
+>CDG36520.1 hypothetical protein CTHBC1_1910 [Acetivibrio thermocellus BC1]
+Length=168
+
+ Score = 27.3 bits (59),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  111  VSAAMEGVIYGVPSIAVSVTGWHTAD  136
+            VS +  G+ YG  ++++S +G+H+ D
+Sbjct  90   VSKSFRGMFYGNEAVSLSNSGFHSMD  115
+
+
+>THJ76480.1 phage major capsid protein, partial [Acetivibrio thermocellus]
+Length=72
+
+ Score = 25.0 bits (53),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 9/26 (35%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  111  VSAAMEGVIYGVPSIAVSVTGWHTAD  136
+            VS +  G+ YG  ++++S  G+H+ D
+Sbjct  42   VSKSFRGMFYGNETVSLSNNGFHSMD  67
+
+
+>1XYZ_A Chain A, 1,4-BETA-D-XYLAN-XYLANOHYDROLASE [Acetivibrio thermocellus]
+ 1XYZ_B Chain B, 1,4-BETA-D-XYLAN-XYLANOHYDROLASE [Acetivibrio thermocellus]
+Length=347
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 11/45 (24%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  26   WADIFVVAPDTERSATGHGITVHQPLRVEKLSFANPHCHGWAVNG  70
+            + +I +  P +E  AT   +  +    + K+  ANP+C+ + + G
+Sbjct  262  FTEIDIRIPQSENPATAFQVQANNYKELMKICLANPNCNTFVMWG  306
+
+
+>NLU26291.1 carbohydrate-binding protein [Acetivibrio thermocellus]
+Length=837
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 11/45 (24%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  26   WADIFVVAPDTERSATGHGITVHQPLRVEKLSFANPHCHGWAVNG  70
+            + +I +  P +E  AT   +  +    + K+  ANP+C+ + + G
+Sbjct  752  FTEIDIRIPQSENPATAFQVQANNYKELMKICLANPNCNTFVMWG  796
+
+
+>WP_003518444.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]
+ ADU75635.1 glycoside hydrolase family 10 [Acetivibrio thermocellus DSM 1313]
+ ALX09629.1 glycoside hydrolase family 10 [Acetivibrio thermocellus AD2]
+ ANV77403.1 glycoside hydrolase family 10 [Acetivibrio thermocellus DSM 2360]
+ EIC04406.1 glycoside hydrolase family 10 [Acetivibrio thermocellus YS]
+ PFH03912.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus AD2]
+Length=837
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 11/45 (24%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  26   WADIFVVAPDTERSATGHGITVHQPLRVEKLSFANPHCHGWAVNG  70
+            + +I +  P +E  AT   +  +    + K+  ANP+C+ + + G
+Sbjct  752  FTEIDIRIPQSENPATAFQVQANNYKELMKICLANPNCNTFVMWG  796
+
+
+>WP_003513959.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]
+ P10478.3 RecName: Full=Endo-1,4-beta-xylanase Z; Short=Xylanase Z; AltName:
+Full=1,4-beta-D-xylan xylanohydrolase Z; Flags: Precursor
+[Acetivibrio thermocellus ATCC 27405]
+ CDG36482.1 Endo-1,4-beta-xylanase Z [Acetivibrio thermocellus BC1]
+ AAA23286.1 xylanase Z [Acetivibrio thermocellus]
+ ABN53181.1 glycoside hydrolase family 10 [Acetivibrio thermocellus ATCC
+27405]
+ THJ78105.1 carbohydrate-binding protein [Acetivibrio thermocellus]
+ HBW27198.1 endo-1,4-beta-xylanase Z [Acetivibrio thermocellus]
+Length=837
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 11/45 (24%), Positives = 23/45 (51%), Gaps = 0/45 (0%)
+
+Query  26   WADIFVVAPDTERSATGHGITVHQPLRVEKLSFANPHCHGWAVNG  70
+            + +I +  P +E  AT   +  +    + K+  ANP+C+ + + G
+Sbjct  752  FTEIDIRIPQSENPATAFQVQANNYKELMKICLANPNCNTFVMWG  796
+
+
+>WP_003516184.1 methylmalonyl-CoA carboxyltransferase [Acetivibrio thermocellus]
+ CDG35390.1 Propionyl-CoA carboxylase beta chain [Acetivibrio thermocellus
+BC1]
+ ABN51934.1 carboxyl transferase [Acetivibrio thermocellus ATCC 27405]
+ ADU74588.1 carboxyl transferase [Acetivibrio thermocellus DSM 1313]
+ ALX08532.1 Propionyl-CoA carboxylase [Acetivibrio thermocellus AD2]
+ ANV76281.1 Propionyl-CoA carboxylase [Acetivibrio thermocellus DSM 2360]
+Length=516
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/52 (27%), Positives = 23/52 (44%), Gaps = 6/52 (12%)
+
+Query  11   IHAPGIHALWRIFDDWADIFVVAPDTERSATGHGITVHQPLRVEKLSFANPH  62
+            +++P I     + D  + +F+  P   +S TG  +T       EKL  A  H
+Sbjct  174  VYSPAITDFIFMVDKTSQMFITGPQVIKSVTGEDVT------FEKLGGAETH  219
+
+
+>CDG36384.1 peptidase M23B [Acetivibrio thermocellus BC1]
+Length=375
+
+ Score = 25.4 bits (54),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 20/46 (43%), Gaps = 2/46 (4%)
+
+Query  183  GSRRYQNIFDKRTDPRGRTYYWMAGEVHDVDAGEGTDISAVNAGAI  228
+            GS +  + F  R  P  + Y    G   D+ A  GT I A N G +
+Sbjct  254  GSTKISSYFGNRLHPILKVYKMHTG--IDISAATGTSIVAANKGVV  297
+
+
+>WP_020457951.1 phage major capsid protein [Acetivibrio thermocellus]
+ ABN54064.1 hypothetical protein Cthe_2866 [Acetivibrio thermocellus ATCC
+27405]
+Length=437
+
+ Score = 25.8 bits (55),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 9/26 (35%), Positives = 17/26 (65%), Gaps = 0/26 (0%)
+
+Query  111  VSAAMEGVIYGVPSIAVSVTGWHTAD  136
+            VS +  G+ YG  ++++S  G+H+ D
+Sbjct  89   VSKSFRGMFYGNETVSLSNNGFHSMD  114
+
+
+>WP_003512195.1 TIGR03960 family B12-binding radical SAM protein [Acetivibrio
+thermocellus]
+ ABN51397.1 Radical SAM domain protein [Acetivibrio thermocellus ATCC 27405]
+ NLU25639.1 TIGR03960 family B12-binding radical SAM protein [Acetivibrio
+thermocellus]
+ CDG34836.1 radical SAM family protein [Acetivibrio thermocellus BC1]
+ HBW27731.1 B12-binding domain-containing radical SAM protein [Acetivibrio
+thermocellus]
+Length=613
+
+ Score = 25.8 bits (55),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 36/75 (48%), Gaps = 8/75 (11%)
+
+Query  127  VSVTGWHTADYTVAAETTR-LLCE------KLVARGLTPDTFLNVNVPDLPRERIAGIQV  179
+            +S+T   T+DYT   E T  L+CE       L    L  D+F    +    + R +G+
+Sbjct  308  ISLTSLSTSDYTALKELTDGLICEMEPKKVNLSLPSLRVDSFSLELMEKAQKVRKSGLTF  367
+
+Query  180  T-KLGSRRYQNIFDK  193
+              + G++R +N+ +K
+Sbjct  368  APEAGTQRLRNVINK  382
+
+
+>WP_136479331.1 TIGR03960 family B12-binding radical SAM protein [Acetivibrio
+thermocellus]
+ THJ78367.1 TIGR03960 family B12-binding radical SAM protein [Acetivibrio
+thermocellus]
+Length=613
+
+ Score = 25.8 bits (55),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 36/75 (48%), Gaps = 8/75 (11%)
+
+Query  127  VSVTGWHTADYTVAAETTR-LLCE------KLVARGLTPDTFLNVNVPDLPRERIAGIQV  179
+            +S+T   T+DYT   E T  L+CE       L    L  D+F    +    + R +G+
+Sbjct  308  ISLTSLSTSDYTALKELTDGLICEMEPKKVNLSLPSLRVDSFSLELMEKAQKVRKSGLTF  367
+
+Query  180  T-KLGSRRYQNIFDK  193
+              + G++R +N+ +K
+Sbjct  368  APEAGTQRLRNVINK  382
+
+
+>WP_014522622.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+ ADU74709.1 hypothetical protein Clo1313_1652 [Acetivibrio thermocellus DSM
+1313]
+ ALX08658.1 hypothetical protein AD2_01668 [Acetivibrio thermocellus AD2]
+ ANV76410.1 hypothetical protein LQRI_1669 [Acetivibrio thermocellus DSM
+2360]
+ PFH02933.1 helix-turn-helix protein [Acetivibrio thermocellus AD2]
+ SOD24839.1 Helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+Length=273
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  229  SVTPIHFDLTNYSLIQEVSDWLGGGSSP  256
+            ++TPI  +L  Y LI+ V +W    ++P
+Sbjct  235  NLTPILEELERYKLIERVGEWTKVYNAP  262
+
+
+>WP_003518034.1 TIGR03960 family B12-binding radical SAM protein [Acetivibrio
+thermocellus]
+ ADU75118.1 Radical SAM domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX09093.1 Conserved hypothetical protein CHP03960, radical SAM [Acetivibrio
+thermocellus AD2]
+ ANV76845.1 Conserved hypothetical protein CHP03960, radical SAM [Acetivibrio
+thermocellus DSM 2360]
+ EIC04995.1 Radical SAM domain protein [Acetivibrio thermocellus YS]
+ PFH03368.1 radical SAM family uncharacterized protein [Acetivibrio thermocellus
+AD2]
+Length=613
+
+ Score = 25.8 bits (55),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 36/75 (48%), Gaps = 8/75 (11%)
+
+Query  127  VSVTGWHTADYTVAAETTR-LLCE------KLVARGLTPDTFLNVNVPDLPRERIAGIQV  179
+            +S+T   T+DYT   E T  L+CE       L    L  D+F    +    + R +G+
+Sbjct  308  ISLTSLSTSDYTALKELTDGLICEMEPKKVNLSLPSLRVDSFSLELMEKAQKVRKSGLTF  367
+
+Query  180  T-KLGSRRYQNIFDK  193
+              + G++R +N+ +K
+Sbjct  368  APEAGTQRLRNVINK  382
+
+
+>WP_003513811.1 peptidoglycan DD-metalloendopeptidase family protein [Acetivibrio
+thermocellus]
+ ABN53079.1 Peptidase M23 [Acetivibrio thermocellus ATCC 27405]
+ ADU75554.1 Peptidase M23 [Acetivibrio thermocellus DSM 1313]
+ ALX09545.1 Peptidase M23 [Acetivibrio thermocellus AD2]
+ ANV77317.1 Peptidase M23 [Acetivibrio thermocellus DSM 2360]
+ EIC04483.1 Peptidase M23 [Acetivibrio thermocellus YS]
+Length=375
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 20/46 (43%), Gaps = 2/46 (4%)
+
+Query  183  GSRRYQNIFDKRTDPRGRTYYWMAGEVHDVDAGEGTDISAVNAGAI  228
+            GS +  + F  R  P  + Y    G   D+ A  GT I A N G +
+Sbjct  254  GSTKISSYFGNRLHPILKVYKMHTG--IDISAATGTSIVAANKGVV  297
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.136    0.422
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21751
+Number of extensions: 953
+Number of successful extensions: 17
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 17
+Number of HSP's successfully gapped: 5
+Length of query: 272
+Length of database: 2835838
+Length adjustment: 88
+Effective length of query: 184
+Effective length of database: 2126294
+Effective search space: 391238096
+Effective search space used: 391238096
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

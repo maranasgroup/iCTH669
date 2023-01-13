@@ -1,0 +1,551 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WPKRPP1016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QFJ55989 5'-nucleotidase [Pseudobutyrivibrio xylanivorans]
+
+Length=554
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]   34.3    0.036  22%
+WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]   33.9    0.050  22%
+WP_003514753.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    30.8    0.35   30%
+NLU25986.1 endoglucanase [Acetivibrio thermocellus]                29.3    1.9    44%
+WP_136479599.1 dockerin type I domain-containing protein [Acet...  29.3    1.9    44%
+WP_020457708.1 dockerin type I domain-containing protein [Acet...  29.3    1.9    44%
+WP_003516749.1 dockerin type I domain-containing protein [Acet...  29.3    1.9    44%
+1L1Y_A Chain A, cellobiohydrolase [Acetivibrio thermocellus]       29.3    1.9    44%
+ADU75731.1 glycoside hydrolase family 48 [Acetivibrio thermoce...  29.3    2.0    44%
+WP_136479159.1 tetratricopeptide repeat protein [Acetivibrio t...  29.3    2.0    34%
+WP_003516952.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    28.5    2.1    29%
+WP_020457978.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    28.5    2.3    29%
+WP_003518722.1 DNA repair protein RecN [Acetivibrio thermocellus]  28.1    3.7    26%
+WP_011837910.1 DNA repair protein RecN [Acetivibrio thermocellus]  28.1    3.7    26%
+WP_003512816.1 tetratricopeptide repeat protein [Acetivibrio t...  28.1    4.3    31%
+WP_011838295.1 non-ribosomal peptide synthetase/MFS transporte...  27.3    7.8    42%
+WP_003520999.1 non-ribosomal peptide synthetase/MFS transporte...  27.3    7.8    42%
+THJ76739.1 non-ribosomal peptide synthetase [Acetivibrio therm...  27.3    7.8    42%
+NLU26627.1 amino acid adenylation domain-containing protein [A...  27.3    7.8    42%
+WP_235835973.1 fibronectin type III domain-containing protein ...  27.3    8.1    52%
+NLU26173.1 fibronectin type III domain-containing protein [Ace...  27.3    8.1    52%
+WP_020457877.1 fibronectin type III domain-containing protein ...  27.3    8.2    52%
+WP_003520891.1 fibronectin type III domain-containing protein ...  27.3    8.3    52%
+WP_003512950.1 fibronectin type III domain-containing protein ...  27.3    8.3    52%
+WP_236749416.1 fibronectin type III domain-containing protein ...  27.3    8.3    52%
+WP_136479483.1 BMP family ABC transporter substrate-binding pr...  26.9    8.5    41%
+WP_003517341.1 BMP family ABC transporter substrate-binding pr...  26.9    8.7    41%
+
+ALIGNMENTS
+>CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+Length=273
+
+ Score = 34.3 bits (77),  Expect = 0.036, Method: Compositional matrix adjust.
+ Identities = 27/122 (22%), Positives = 58/122 (48%), Gaps = 6/122 (5%)
+
+Query  8    KRVITLVLALAMVVTMGFMPVKAYAAE-TKADVKSVAELPKSFEGKTVIVHTNDVHGQID  66
+            K  I L +  A ++ + +M ++ Y  + T  +++   ++P SF+GK ++  ++  HG
+Sbjct  4    KWNIFLSILTACILILAYMFIEPYWLKITYMEIRD-GDIPNSFDGKRIVFVSDIHHGPFF  62
+
+Query  67   KYSQVAALRNEIRARGAEVILADIGDF-SQGTAYVSTTKGLYAVTMMNAAGYDIATLGNH  125
+               +V  L  +I     ++I    GD+  +G  Y+        ++ + A+      LGNH
+Sbjct  63   SGKRVRNLVKKINNLNPDIIFVG-GDYVEKGGQYIKPC--FEELSGLKASLGKYGVLGNH  119
+
+Query  126  EF  127
+            ++
+Sbjct  120  DY  121
+
+
+>WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]
+ ABN53371.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75808.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09840.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+ ANV77614.1 metallophosphoesterase [Acetivibrio thermocellus DSM 2360]
+ EIC03645.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=273
+
+ Score = 33.9 bits (76),  Expect = 0.050, Method: Compositional matrix adjust.
+ Identities = 27/122 (22%), Positives = 57/122 (47%), Gaps = 6/122 (5%)
+
+Query  8    KRVITLVLALAMVVTMGFMPVKAYAAE-TKADVKSVAELPKSFEGKTVIVHTNDVHGQID  66
+            K  I L +  A ++ + +M ++ Y  + T  +++   ++P SF+GK ++  ++  HG
+Sbjct  4    KWNIFLSILTACILILAYMFIEPYWLKITYMEIRD-GDIPNSFDGKRIVFVSDIHHGPFF  62
+
+Query  67   KYSQVAALRNEIRARGAEVILADIGDF-SQGTAYVSTTKGLYAVTMMNAAGYDIATLGNH  125
+               +V  L  +I     ++I    GD+  +G  Y+        ++ + A       LGNH
+Sbjct  63   SGKRVRNLVKKINNLNPDIIFVG-GDYVEKGGQYIKPC--FEELSGLKAPLGKYGVLGNH  119
+
+Query  126  EF  127
+            ++
+Sbjct  120  DY  121
+
+
+>WP_003514753.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ THJ77818.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ CDG37461.1 Sugar fermentation stimulation protein homolog [Acetivibrio thermocellus
+BC1]
+Length=233
+
+ Score = 30.8 bits (68),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 29/63 (46%), Gaps = 5/63 (8%)
+
+Query  55   IVHTNDVHGQIDKYSQVAALRNEIRARGAEVILADIGDFSQGTAYVSTTKGLYAVTMMNA  114
+            I+H   V G+ DK+   + +R E+    +     D G FS+G  Y    KG+  V   N
+Sbjct  87   IMHEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  AGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>NLU25986.1 endoglucanase [Acetivibrio thermocellus]
+Length=741
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  5   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  35
+
+
+>WP_136479599.1 dockerin type I domain-containing protein [Acetivibrio thermocellus]
+ THJ77109.1 endoglucanase [Acetivibrio thermocellus]
+Length=741
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  5   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  35
+
+
+>WP_020457708.1 dockerin type I domain-containing protein [Acetivibrio thermocellus]
+ A3DH67.1 RecName: Full=Cellulose 1,4-beta-cellobiosidase (reducing end)
+CelS; AltName: Full=Cellobiohydrolase CelS; AltName: Full=Cellulase
+SS; AltName: Full=Endo-1,4-beta-glucanase; AltName:
+Full=Endoglucanase SS; Short=EGSS; AltName: Full=Exocellulase;
+Flags: Precursor [Acetivibrio thermocellus ATCC 27405]
+ P0C2S5.1 RecName: Full=Cellulose 1,4-beta-cellobiosidase (reducing end)
+CelS; AltName: Full=Cellobiohydrolase CelS; AltName: Full=Cellulase
+SS; AltName: Full=Endo-1,4-beta-glucanase; AltName:
+Full=Endoglucanase SS; Short=EGSS; AltName: Full=Exocellulase;
+Flags: Precursor [Acetivibrio thermocellus]
+ AAA23226.1 cellulase [Acetivibrio thermocellus]
+ ABN53296.1 glycoside hydrolase family 48 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26286.1 endoglucanase [Acetivibrio thermocellus]
+Length=741
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  5   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  35
+
+
+>WP_003516749.1 dockerin type I domain-containing protein [Acetivibrio thermocellus]
+Length=741
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  5   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  35
+
+
+>1L1Y_A Chain A, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L1Y_B Chain B, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L1Y_C Chain C, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L1Y_D Chain D, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L1Y_E Chain E, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L1Y_F Chain F, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_A Chain A, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_B Chain B, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_C Chain C, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_D Chain D, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_E Chain E, cellobiohydrolase [Acetivibrio thermocellus]
+ 1L2A_F Chain F, cellobiohydrolase [Acetivibrio thermocellus]
+Length=678
+
+ Score = 29.3 bits (64),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  5   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  35
+
+
+>ADU75731.1 glycoside hydrolase family 48 [Acetivibrio thermocellus DSM 1313]
+ ALX09761.1 glycoside hydrolase family 48 [Acetivibrio thermocellus AD2]
+ ANV77535.1 glycoside hydrolase family 48 [Acetivibrio thermocellus DSM 2360]
+ EIC03725.1 glycoside hydrolase family 48 [Acetivibrio thermocellus YS]
+ CDG36590.1 Endoglucanase SS [Acetivibrio thermocellus BC1]
+ SOD22568.1 Dockerin type I repeat-containing protein [Acetivibrio thermocellus]
+Length=744
+
+ Score = 29.3 bits (64),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 23/32 (72%), Gaps = 1/32 (3%)
+
+Query  9   RVITLVLALAMVVTMGFMPVKAYAAETKADVK  40
+           R I+++LA+AM+V++  +P  A+A  TKA  K
+Sbjct  8   RKISILLAVAMLVSI-MIPTTAFAGPTKAPTK  38
+
+
+>WP_136479159.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+ THJ79414.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+Length=745
+
+ Score = 29.3 bits (64),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 36/70 (51%), Gaps = 11/70 (16%)
+
+Query  32   AAETKADVKSVAELPKSFEGKTV--------IVHTNDVHGQIDKYSQVAALRNEIRARGA  83
+            AAE  AD +SV  + +  E K +         V +N ++   DK +   AL NE +A+G
+Sbjct  459  AAEISADDESVKYIKEKLENKKLPEAEQIVEFVKSNYLY--YDKIANFEALANEFKAKG-  515
+
+Query  84   EVILADIGDF  93
+            EV + DI +F
+Sbjct  516  EVGVNDICNF  525
+
+
+>WP_003516952.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ ADU73608.1 sugar fermentation stimulation protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07535.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+AD2]
+ ANV75275.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+DSM 2360]
+ EIC03544.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+YS]
+ NLU26679.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+Length=233
+
+ Score = 28.5 bits (62),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 18/63 (29%), Positives = 29/63 (46%), Gaps = 5/63 (8%)
+
+Query  55   IVHTNDVHGQIDKYSQVAALRNEIRARGAEVILADIGDFSQGTAYVSTTKGLYAVTMMNA  114
+            I++   V G+ DK+   + +R E+    +     D G FS+G  Y    KG+  V   N
+Sbjct  87   IMYEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  AGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>WP_020457978.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ A3DJP1.1 RecName: Full=Sugar fermentation stimulation protein homolog
+[Acetivibrio thermocellus ATCC 27405]
+ ABN54170.1 sugar fermentation stimulation protein [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27755.1 sugar fermentation stimulation protein SfsA [Acetivibrio thermocellus]
+Length=233
+
+ Score = 28.5 bits (62),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 18/63 (29%), Positives = 29/63 (46%), Gaps = 5/63 (8%)
+
+Query  55   IVHTNDVHGQIDKYSQVAALRNEIRARGAEVILADIGDFSQGTAYVSTTKGLYAVTMMNA  114
+            I++   V G+ DK+   + +R E+    +     D G FS+G  Y    KG+  V   N
+Sbjct  87   IMYEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  AGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>WP_003518722.1 DNA repair protein RecN [Acetivibrio thermocellus]
+ CDG35508.1 DNA repair protein RecN [Acetivibrio thermocellus BC1]
+ ADU74469.1 DNA repair protein RecN [Acetivibrio thermocellus DSM 1313]
+ ALX08412.1 DNA repair protein RecN [Acetivibrio thermocellus AD2]
+ ANV76161.1 DNA repair protein RecN [Acetivibrio thermocellus DSM 2360]
+ EIC05618.1 DNA repair protein RecN [Acetivibrio thermocellus YS]
+Length=570
+
+ Score = 28.1 bits (61),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  105  GLYAVTMMNAAGYDIATLGNHEFDYGYEQLKTNLARAHFKV--ICANVFDKKGNPILDPT  162
+            G  A+ M+N A  D    G  EFD  Y++LK  +     ++  I + + + + N   DP
+Sbjct  244  GESALDMINKAASDFG--GIEEFDAKYDELKKRIEAVAIELDDIVSEIRNLRDNMEYDPD  301
+
+Query  163  YVATTASGLKIGF  175
+             +    S L + +
+Sbjct  302  LLMQIESRLDVLY  314
+
+
+>WP_011837910.1 DNA repair protein RecN [Acetivibrio thermocellus]
+ ABN52049.1 DNA repair protein RecN [Acetivibrio thermocellus ATCC 27405]
+ HBW27466.1 DNA repair protein RecN [Acetivibrio thermocellus]
+Length=570
+
+ Score = 28.1 bits (61),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/73 (26%), Positives = 33/73 (45%), Gaps = 4/73 (5%)
+
+Query  105  GLYAVTMMNAAGYDIATLGNHEFDYGYEQLKTNLARAHFKV--ICANVFDKKGNPILDPT  162
+            G  A+ M+N A  D    G  EFD  Y++LK  +     ++  I + + + + N   DP
+Sbjct  244  GESALDMINKAASDFG--GIEEFDAKYDELKKRIEAVAIELDDIVSEIRNLRDNMEYDPD  301
+
+Query  163  YVATTASGLKIGF  175
+             +    S L + +
+Sbjct  302  LLMQIESRLDVLY  314
+
+
+>WP_003512816.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+ CDG37144.1 peptidase S41 [Acetivibrio thermocellus BC1]
+ ABN53879.1 peptidase S41 [Acetivibrio thermocellus ATCC 27405]
+ ADU73361.1 peptidase S41 [Acetivibrio thermocellus DSM 1313]
+ ALX07283.1 peptidase S41 [Acetivibrio thermocellus AD2]
+ ANV75021.1 peptidase S41 [Acetivibrio thermocellus DSM 2360]
+Length=745
+
+ Score = 28.1 bits (61),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 34/68 (50%), Gaps = 7/68 (10%)
+
+Query  32   AAETKADVKSVAELPKSFEGK------TVIVHTNDVHGQIDKYSQVAALRNEIRARGAEV  85
+            AAE  AD +SV  + +  E +       ++    + +   DK +   AL NE +A+G EV
+Sbjct  459  AAEISADDESVKYIREKLENQKLPEAEQIVEFVKNNYLYYDKIANFEALANEFKAKG-EV  517
+
+Query  86   ILADIGDF  93
+             + DI +F
+Sbjct  518  GVKDICNF  525
+
+
+>WP_011838295.1 non-ribosomal peptide synthetase/MFS transporter [Acetivibrio
+thermocellus]
+ ABN53123.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ CDG36421.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+BC1]
+Length=1833
+
+ Score = 27.3 bits (59),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  475  RVTIQSINGKPFKADDTYAVVTNNFV  500
+            R T Q ING+PF+    Y+ V  N +
+Sbjct  87   RTTFQEINGEPFQVISPYSKVELNII  112
+
+
+>WP_003520999.1 non-ribosomal peptide synthetase/MFS transporter [Acetivibrio
+thermocellus]
+ ADU75578.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX09571.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+AD2]
+ ANV77343.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04444.1 amino acid adenylation domain protein [Acetivibrio thermocellus
+YS]
+ PFH03852.1 amino acid adenylation domain-containing protein [Acetivibrio
+thermocellus AD2]
+Length=1833
+
+ Score = 27.3 bits (59),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  475  RVTIQSINGKPFKADDTYAVVTNNFV  500
+            R T Q ING+PF+    Y+ V  N +
+Sbjct  87   RTTFQEINGEPFQVISPYSKVELNII  112
+
+
+>THJ76739.1 non-ribosomal peptide synthetase [Acetivibrio thermocellus]
+ HBW27084.1 non-ribosomal peptide synthetase [Acetivibrio thermocellus]
+Length=1855
+
+ Score = 27.3 bits (59),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  475  RVTIQSINGKPFKADDTYAVVTNNFV  500
+            R T Q ING+PF+    Y+ V  N +
+Sbjct  109  RTTFQEINGEPFQVISPYSKVELNII  134
+
+
+>NLU26627.1 amino acid adenylation domain-containing protein [Acetivibrio
+thermocellus]
+Length=1855
+
+ Score = 27.3 bits (59),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  475  RVTIQSINGKPFKADDTYAVVTNNFV  500
+            R T Q ING+PF+    Y+ V  N +
+Sbjct  109  RTTFQEINGEPFQVISPYSKVELNII  134
+
+
+>WP_235835973.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1276
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  998   TTANFNPLAGKASGVDYEICITHLG  1022
+
+
+>NLU26173.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>WP_020457877.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ABN53812.1 fibronectin type III domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79546.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ HBW25839.1 ferrous iron transporter A [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>WP_003520891.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ADU73294.1 fibronectin type III domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ANV74948.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04322.1 fibronectin, type III [Acetivibrio thermocellus YS]
+ CDG37075.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus
+BC1]
+ ALX07212.1 hypothetical protein AD2_00201 [Acetivibrio thermocellus AD2]
+Length=1276
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  998   TTANFNPLAGKASGVDYEICITHLG  1022
+
+
+>WP_003512950.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>WP_236749416.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1279
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TSAQTQIDALKAQGVDLVICLGHLG  229
+             T+A     A KA GVD  IC+ HLG
+Sbjct  1001  TTANFNPLAGKASGVDYEICITHLG  1025
+
+
+>WP_136479483.1 BMP family ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ THJ77657.1 BMP family ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+Length=355
+
+ Score = 26.9 bits (58),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  210  QIDALKAQGVDLVICLGHLGVDAESAA  236
+             I+A   +G DL+IC+G++  DA   A
+Sbjct  95   NIEAFIDEGYDLIICVGYMLADATRKA  121
+
+
+>WP_003517341.1 BMP family ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ ABN52802.1 basic membrane lipoprotein [Acetivibrio thermocellus ATCC 27405]
+ ADU75364.1 basic membrane lipoprotein [Acetivibrio thermocellus DSM 1313]
+ ALX09358.1 basic membrane lipoprotein [Acetivibrio thermocellus AD2]
+ ANV77112.1 basic membrane lipoprotein [Acetivibrio thermocellus DSM 2360]
+Length=355
+
+ Score = 26.9 bits (58),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  210  QIDALKAQGVDLVICLGHLGVDAESAA  236
+             I+A   +G DL+IC+G++  DA   A
+Sbjct  95   NIEAFIDEGYDLIICVGYMLADATRKA  121
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.132    0.368
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 29406
+Number of extensions: 1313
+Number of successful extensions: 23
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 7
+Length of query: 554
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 460
+Effective length of database: 2077916
+Effective search space: 955841360
+Effective search space used: 955841360
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,273 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WA2K1AW013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CUH92131 5'-nucleotidase [Herbinix luporum]
+
+Length=1341
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513767.1 [FeFe] hydrogenase H-cluster radical SAM matura...  35.8    0.040  38%
+WP_011837742.1 copper amine oxidase N-terminal domain-containi...  28.9    5.0    67%
+WP_003511976.1 copper amine oxidase N-terminal domain-containi...  28.9    5.3    67%
+WP_136479587.1 copper amine oxidase N-terminal domain-containi...  28.9    5.3    67%
+WP_003515717.1 CotS family spore coat protein [Acetivibrio the...  28.5    6.1    36%
+NLU26911.1 NADPH-dependent glutamate synthase [Acetivibrio the...  28.5    7.0    31%
+WP_003518669.1 NADPH-dependent glutamate synthase [Acetivibrio...  28.5    7.4    31%
+WP_003512656.1 NADPH-dependent glutamate synthase [Acetivibrio...  28.5    7.5    31%
+NLU25853.1 type I-C CRISPR-associated protein Cas8c/Csd1 [Acet...  28.5    8.4    22%
+WP_003514730.1 ABC transporter ATP-binding protein [Acetivibri...  28.1    9.2    24%
+
+ALIGNMENTS
+>WP_003513767.1 [FeFe] hydrogenase H-cluster radical SAM maturase HydE [Acetivibrio
+thermocellus]
+ CDG36365.1 biotin synthase [Acetivibrio thermocellus BC1]
+ ABN53060.1 Radical SAM domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU75535.1 Radical SAM domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX09526.1 (FeFe)-hydrogenase maturation HydE, radical SAM [Acetivibrio
+thermocellus AD2]
+ ANV77298.1 (FeFe)-hydrogenase maturation HydE, radical SAM [Acetivibrio
+thermocellus DSM 2360]
+Length=353
+
+ Score = 35.8 bits (81),  Expect = 0.040, Method: Composition-based stats.
+ Identities = 19/50 (38%), Positives = 30/50 (60%), Gaps = 6/50 (12%)
+
+Query  1157  TDKV----VKVVAAK--DCKITLTIGKKTYTTKKYQYDKATDQYIYTLKT  1200
+             TDK+    V  + AK  DC ITL++G+K+Y + K  Y+   D+Y+   +T
+Sbjct  120   TDKILADIVSSIKAKYPDCAITLSLGEKSYESYKLLYEAGADRYLLRHET  169
+
+
+>WP_011837742.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ ABN51288.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+Length=269
+
+ Score = 28.9 bits (63),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 12/18 (67%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  1183  KKYQYDKATDQYIYTLKT  1200
+             K+Y YDK TDQYIY  K+
+Sbjct  232   KRYFYDKKTDQYIYLAKS  249
+
+
+>WP_003511976.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ ADU75225.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX09200.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76952.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04919.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH03475.1 copper amine oxidase-like protein [Acetivibrio thermocellus AD2]
+Length=269
+
+ Score = 28.9 bits (63),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/18 (67%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  1183  KKYQYDKATDQYIYTLKT  1200
+             K+Y YDK TDQYIY  K+
+Sbjct  232   KRYFYDKKTDQYIYLAKS  249
+
+
+>WP_136479587.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ THJ77189.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=269
+
+ Score = 28.9 bits (63),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/18 (67%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  1183  KKYQYDKATDQYIYTLKT  1200
+             K+Y YDK TDQYIY  K+
+Sbjct  232   KRYFYDKKTDQYIYLAKS  249
+
+
+>WP_003515717.1 CotS family spore coat protein [Acetivibrio thermocellus]
+ CDG35780.1 spore coat protein [Acetivibrio thermocellus BC1]
+ ABN52316.1 spore coat protein, CotS family [Acetivibrio thermocellus ATCC
+27405]
+ ADU74193.1 spore coat protein, CotS family [Acetivibrio thermocellus DSM
+1313]
+ ALX08136.1 spore coat protein, CotS family [Acetivibrio thermocellus AD2]
+ ANV75883.1 spore coat protein, CotS family [Acetivibrio thermocellus DSM
+2360]
+Length=345
+
+ Score = 28.5 bits (62),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (48%), Gaps = 6/44 (14%)
+
+Query  992   NLGDKVYKTKTDKKGNFTFTFNDQLYA------GQSLVLVATDE  1029
+             N G  V     DK+GN   +FNDQL+       G+ L  V  D+
+Sbjct  75    NHGGNVAGIIRDKEGNLIHSFNDQLFVVYEWLYGRDLSFVNADD  118
+
+
+>NLU26911.1 NADPH-dependent glutamate synthase [Acetivibrio thermocellus]
+Length=464
+
+ Score = 28.5 bits (62),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 2/65 (3%)
+
+Query  282  NLFPTKDMTSPYYKLPNVDRNTYLMNGKNVIMAGDRGKAIGVVDLVLEVKGDNINIIDRK  341
+            N F T+      Y+ PN D  T +  GKNV + G    A+        +  +N+ I+ R+
+Sbjct  256  NEFLTRINLMKAYEFPNCD--TPVKVGKNVAVVGGGNVAMDAARSAKRLGAENVYIVYRR  313
+
+Query  342  SELRM  346
+            SE  M
+Sbjct  314  SEAEM  318
+
+
+>WP_003518669.1 NADPH-dependent glutamate synthase [Acetivibrio thermocellus]
+ ADU74902.1 glutamate synthase (NADPH), homotetrameric [Acetivibrio thermocellus
+DSM 1313]
+ ALX08860.1 glutamate synthase (NADPH), homotetrameric [Acetivibrio thermocellus
+AD2]
+ ANV76610.1 glutamate synthase (NADPH), homotetrameric [Acetivibrio thermocellus
+DSM 2360]
+Length=464
+
+ Score = 28.5 bits (62),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 2/65 (3%)
+
+Query  282  NLFPTKDMTSPYYKLPNVDRNTYLMNGKNVIMAGDRGKAIGVVDLVLEVKGDNINIIDRK  341
+            N F T+      Y+ PN D  T +  GKNV + G    A+        +  +N+ I+ R+
+Sbjct  256  NEFLTRINLMKAYEFPNCD--TPVKVGKNVAVVGGGNVAMDAARSAKRLGAENVYIVYRR  313
+
+Query  342  SELRM  346
+            SE  M
+Sbjct  314  SEAEM  318
+
+
+>WP_003512656.1 NADPH-dependent glutamate synthase [Acetivibrio thermocellus]
+ ABN51610.1 glutamate synthase (NADPH), homotetrameric [Acetivibrio thermocellus
+ATCC 27405]
+ THJ77393.1 NADPH-dependent glutamate synthase [Acetivibrio thermocellus]
+ CDG35048.1 sulfide dehydrogenase (flavoprotein) subunit SudA [Acetivibrio
+thermocellus BC1]
+ HBW25900.1 glutamate synthase (NADPH), homotetrameric [Acetivibrio thermocellus]
+Length=464
+
+ Score = 28.5 bits (62),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 2/65 (3%)
+
+Query  282  NLFPTKDMTSPYYKLPNVDRNTYLMNGKNVIMAGDRGKAIGVVDLVLEVKGDNINIIDRK  341
+            N F T+      Y+ PN D  T +  GKNV + G    A+        +  +N+ I+ R+
+Sbjct  256  NEFLTRINLMKAYEFPNCD--TPVKVGKNVAVVGGGNVAMDAARSAKRLGAENVYIVYRR  313
+
+Query  342  SELRM  346
+            SE  M
+Sbjct  314  SEAEM  318
+
+
+>NLU25853.1 type I-C CRISPR-associated protein Cas8c/Csd1 [Acetivibrio thermocellus]
+Length=631
+
+ Score = 28.5 bits (62),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 18/81 (22%), Positives = 33/81 (41%), Gaps = 12/81 (15%)
+
+Query  801  NKVYEEKIGRSGNFSVPLPGQLAET-----------YITLYVKDEERELESERVEVRINR  849
+            N  Y    GR  N  +P+                  Y++  V + ++E      E   +R
+Sbjct  8    NDTYNNTFGRGANGPLPIAHTTQNADIEVIVDINGDYVSSRVIEGDKETRIPCSESSASR  67
+
+Query  850  TGPNQPLVSPIYNNMNYITGD  870
+            +G N P+  P+++ + Y+ GD
+Sbjct  68   SGKN-PVSHPLHDKLQYVAGD  87
+
+
+>WP_003514730.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG37450.1 Oligopeptide transport ATP-binding protein AppF [Acetivibrio
+thermocellus BC1]
+ ABN54159.1 oligopeptide/dipeptide ABC transporter, ATPase subunit [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73596.1 oligopeptide/dipeptide ABC transporter, ATPase subunit [Acetivibrio
+thermocellus DSM 1313]
+ ALX07522.1 oligopeptide/dipeptide ABC transporter, ATPase subunit [Acetivibrio
+thermocellus AD2]
+ ANV75263.1 oligopeptide/dipeptide ABC transporter, ATPase subunit [Acetivibrio
+thermocellus DSM 2360]
+Length=342
+
+ Score = 28.1 bits (61),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 16/66 (24%), Positives = 29/66 (44%), Gaps = 6/66 (9%)
+
+Query  591  QVVLKGFVRSQSVLSKYIKQLVVSGSIMPQVDYNWKLKLPKNYKFIIKVPYYADTLFEET  650
+            Q +L    R    ++K   ++++ G I   V+       P   KF  + PY  D   +E
+Sbjct  269  QALLTAIPRPNPEIAKKRNRIILKGEIPSPVN------PPSGCKFRTRCPYAKDICAKEV  322
+
+Query  651  PWYEEY  656
+            P +++Y
+Sbjct  323  PEFKDY  328
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.133    0.375
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 119614
+Number of extensions: 6084
+Number of successful extensions: 41
+Number of sequences better than 100: 10
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 41
+Number of HSP's successfully gapped: 11
+Length of query: 1341
+Length of database: 2835838
+Length adjustment: 101
+Effective length of query: 1240
+Effective length of database: 2021475
+Effective search space: 2506629000
+Effective search space used: 2506629000
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 52 (24.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,363 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V6M51DV01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= AUG58828 dTMP kinase [Acetivibrio saccincola]
+
+Length=250
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       352     6e-125  75%
+THJ77727.1 toprim domain-containing protein [Acetivibrio therm...  27.3    2.6     43%
+WP_003516511.1 DNA internalization-related competence protein ...  27.3    2.6     31%
+NLU27130.1 DNA internalization-related competence protein ComE...  27.3    2.6     31%
+WP_168796738.1 toprim domain-containing protein [Acetivibrio t...  27.3    2.6     43%
+WP_003520960.1 DNA internalization-related competence protein ...  27.3    2.6     31%
+CDG35296.1 DNA internalization-related competence protein ComE...  27.3    2.6     31%
+WP_041734503.1 DUF4097 family beta strand repeat-containing pr...  26.9    3.4     50%
+WP_003514245.1 DUF4097 family beta strand repeat-containing pr...  26.6    3.5     50%
+WP_235825043.1 DUF4097 family beta strand repeat-containing pr...  26.6    3.7     50%
+ABN53335.1 Protein of unknown function DUF2089 [Acetivibrio th...  26.6    3.7     50%
+THJ78275.1 toprim domain-containing protein [Acetivibrio therm...  26.2    5.8     37%
+WP_168796729.1 toprim domain-containing protein [Acetivibrio t...  26.2    6.1     37%
+THJ77093.1 hydroxymyristoyl-ACP dehydratase [Acetivibrio therm...  23.5    7.7     67%
+WP_011837972.1 ATP-binding protein [Acetivibrio thermocellus]      25.8    8.2     29%
+WP_003513588.1 DUF115 domain-containing protein [Acetivibrio t...  25.4    8.7     33%
+WP_168796739.1 hypothetical protein [Acetivibrio thermocellus]     25.4    8.7     41%
+CDG36199.1 Transposase for insertion sequence element ISRM3 [A...  25.4    9.8     47%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 352 bits (903),  Expect = 6e-125, Method: Compositional matrix adjust.
+ Identities = 165/221 (75%), Positives = 193/221 (87%), Gaps = 0/221 (0%)
+
+Query  25   MKGKLIIIESGSDASGKATQTEKLYKRLVSENYKVKKITFPDYDSDSSALVKMYLKGDFG  84
+            MKGKLIIIESG+DASGKATQT KLY+RLV E YKVKKITFP+YDSDSSALVKMYL GDFG
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  85   NNPEDVNPYVASTFYAVDRFASYKTKWGKNYDYGEIILADRYTTSNMVHQAAKIQDLSKK  144
+             +P DV+PYVASTFYAVDRFASY+T+WG+ Y+ G IILADRYTTSNMVHQAAKI+D+ +K
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  145  DAFLDWLWDFEFNLYKLPVPDCVFFLDMPPKYSKILMDNRANKITGEDKKDIHESNYKYL  204
+            D FLDWLW+FEF +YKLPVPDCV FLDMPP +S+ LM  RANK TGE KKDIHE N +YL
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+
+Query  205  EDSYNNSLYIAKKYNWLRIECVRDGNLRTIEDIHEEIYNKL  245
+             +SY NSLY+AKKYNW++IECV+DG L+ I++I +E+Y  +
+Sbjct  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+
+
+>THJ77727.1 toprim domain-containing protein [Acetivibrio thermocellus]
+Length=523
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 5/44 (11%)
+
+Query  30   IIIESGSDASGKAT--QTEKLYK--RLVSENYKVKKITFPDYDS  69
+            ++IE   DA G+AT  Q +K YK   L +  Y+ KKI   DYD+
+Sbjct  474  MVIEGAKDA-GEATKEQVDKAYKTAHLQTIRYRKKKIVIKDYDT  516
+
+
+>WP_003516511.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus]
+ ABN51841.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus ATCC 27405]
+ NIK05034.1 competence protein ComEC [Acetivibrio thermocellus]
+ THJ78152.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus]
+ HBW27541.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus]
+Length=778
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 11/54 (20%)
+
+Query  23   GLMKGKLIIIESGSDASGKATQTEKLYKRL--VSENYKVKKITFPDYDSDSSAL  74
+            G+ +  L+++  G D           YK L  V EN+KV+ +  PD D+D   L
+Sbjct  570  GVTEIDLVVVSHGHDDH---------YKGLLPVLENFKVRTLIIPDVDTDEGLL  614
+
+
+>NLU27130.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus]
+Length=778
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 11/54 (20%)
+
+Query  23   GLMKGKLIIIESGSDASGKATQTEKLYKRL--VSENYKVKKITFPDYDSDSSAL  74
+            G+ +  L+++  G D           YK L  V EN+KV+ +  PD D+D   L
+Sbjct  570  GVTEIDLVVVSHGHDDH---------YKGLLPVLENFKVRTLIIPDVDTDEGLL  614
+
+
+>WP_168796738.1 toprim domain-containing protein [Acetivibrio thermocellus]
+Length=518
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 19/44 (43%), Positives = 26/44 (59%), Gaps = 5/44 (11%)
+
+Query  30   IIIESGSDASGKAT--QTEKLYK--RLVSENYKVKKITFPDYDS  69
+            ++IE   DA G+AT  Q +K YK   L +  Y+ KKI   DYD+
+Sbjct  469  MVIEGAKDA-GEATKEQVDKAYKTAHLQTIRYRKKKIVIKDYDT  511
+
+
+>WP_003520960.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus]
+ ADU74684.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08627.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus AD2]
+ ANV76376.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus DSM 2360]
+ EIC05567.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus YS]
+ PFH02900.1 competence protein ComEC [Acetivibrio thermocellus AD2]
+Length=766
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 11/54 (20%)
+
+Query  23   GLMKGKLIIIESGSDASGKATQTEKLYKRL--VSENYKVKKITFPDYDSDSSAL  74
+            G+ +  L+++  G D           YK L  V EN+KV+ +  PD D+D   L
+Sbjct  558  GVTEIDLVVVSHGHDDH---------YKGLLPVLENFKVRTLIIPDVDTDEGLL  602
+
+
+>CDG35296.1 DNA internalization-related competence protein ComEC/Rec2 [Acetivibrio
+thermocellus BC1]
+Length=766
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 11/54 (20%)
+
+Query  23   GLMKGKLIIIESGSDASGKATQTEKLYKRL--VSENYKVKKITFPDYDSDSSAL  74
+            G+ +  L+++  G D           YK L  V EN+KV+ +  PD D+D   L
+Sbjct  558  GVTEIDLVVVSHGHDDH---------YKGLLPVLENFKVRTLIIPDVDTDEGLL  602
+
+
+>WP_041734503.1 DUF4097 family beta strand repeat-containing protein [Acetivibrio
+thermocellus]
+ HBW26569.1 hypothetical protein [Acetivibrio thermocellus]
+Length=400
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  100  AVDRFASYKTKWGKNYDYGEIILADR  125
+            AVD F+S   K GKN  Y  I +AD+
+Sbjct  83   AVDEFSSKVEKLGKNLAYTTIGVADK  108
+
+
+>WP_003514245.1 DUF4097 family beta strand repeat-containing protein [Acetivibrio
+thermocellus]
+ CDG36633.1 hypothetical protein CTHBC1_2030 [Acetivibrio thermocellus BC1]
+ ADU75771.1 hypothetical protein Clo1313_2788 [Acetivibrio thermocellus DSM
+1313]
+ ALX09801.1 protein of unknown function DUF4098 [Acetivibrio thermocellus
+AD2]
+ ANV77575.1 protein of unknown function DUF4098 [Acetivibrio thermocellus
+DSM 2360]
+ EIC03684.1 Protein of unknown function DUF2089 [Acetivibrio thermocellus
+YS]
+Length=400
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  100  AVDRFASYKTKWGKNYDYGEIILADR  125
+            AVD F+S   K GKN  Y  I +AD+
+Sbjct  83   AVDEFSSKVEKLGKNLAYTTIGVADK  108
+
+
+>WP_235825043.1 DUF4097 family beta strand repeat-containing protein [Acetivibrio
+thermocellus]
+Length=430
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  100  AVDRFASYKTKWGKNYDYGEIILADR  125
+            AVD F+S   K GKN  Y  I +AD+
+Sbjct  113  AVDEFSSKVEKLGKNLAYTTIGVADK  138
+
+
+>ABN53335.1 Protein of unknown function DUF2089 [Acetivibrio thermocellus
+ATCC 27405]
+Length=430
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 13/26 (50%), Positives = 16/26 (62%), Gaps = 0/26 (0%)
+
+Query  100  AVDRFASYKTKWGKNYDYGEIILADR  125
+            AVD F+S   K GKN  Y  I +AD+
+Sbjct  113  AVDEFSSKVEKLGKNLAYTTIGVADK  138
+
+
+>THJ78275.1 toprim domain-containing protein [Acetivibrio thermocellus]
+Length=519
+
+ Score = 26.2 bits (56),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 29/51 (57%), Gaps = 5/51 (10%)
+
+Query  30   IIIESGSDASGKAT--QTEKLYK--RLVSENYKVKKITFPDYDSDSSALVK  76
+            +++E   DA G+AT  Q +K YK  +L +  Y  KKI   DYD+   + V+
+Sbjct  470  MVLEGAKDA-GEATKEQVDKAYKTAQLQTIRYNKKKIVVKDYDTGLKSAVE  519
+
+
+>WP_168796729.1 toprim domain-containing protein [Acetivibrio thermocellus]
+Length=517
+
+ Score = 26.2 bits (56),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 19/51 (37%), Positives = 29/51 (57%), Gaps = 5/51 (10%)
+
+Query  30   IIIESGSDASGKAT--QTEKLYK--RLVSENYKVKKITFPDYDSDSSALVK  76
+            +++E   DA G+AT  Q +K YK  +L +  Y  KKI   DYD+   + V+
+Sbjct  468  MVLEGAKDA-GEATKEQVDKAYKTAQLQTIRYNKKKIVVKDYDTGLKSAVE  517
+
+
+>THJ77093.1 hydroxymyristoyl-ACP dehydratase [Acetivibrio thermocellus]
+ HBW26303.1 hydroxymyristoyl-ACP dehydratase [Acetivibrio thermocellus]
+Length=51
+
+ Score = 23.5 bits (49),  Expect = 7.7, Method: Composition-based stats.
+ Identities = 8/12 (67%), Positives = 9/12 (75%), Gaps = 0/12 (0%)
+
+Query  164  PDCVFFLDMPPK  175
+            PDCVFF +  PK
+Sbjct  32   PDCVFFKERAPK  43
+
+
+>WP_011837972.1 ATP-binding protein [Acetivibrio thermocellus]
+ ABN52347.1 AAA ATPase central domain protein [Acetivibrio thermocellus ATCC
+27405]
+Length=551
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 9/31 (29%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  204  LEDSYNNSLYIAKKYNWLRIECVRDGNLRTI  234
+            +   YNN+ +   +  WL+++C  DG+L+ +
+Sbjct  164  VHSEYNNTNFSMYQLVWLKLDCPFDGSLKGL  194
+
+
+>WP_003513588.1 DUF115 domain-containing protein [Acetivibrio thermocellus]
+ CDG36747.1 hypothetical protein CTHBC1_2147 [Acetivibrio thermocellus BC1]
+ ABN53435.1 protein of unknown function DUF115 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75886.1 protein of unknown function DUF115 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09918.1 protein of unknown function DUF115 [Acetivibrio thermocellus
+AD2]
+ ANV77692.1 protein of unknown function DUF115 [Acetivibrio thermocellus
+DSM 2360]
+Length=470
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 34/72 (47%), Gaps = 6/72 (8%)
+
+Query  38   ASGKATQTEKLYKRLVSENYKVKKITFPDYDSDSSALVKMYLK------GDFGNNPEDVN  91
+            AS KA   E  Y + V EN+ +KK    DYD+      K  LK      G F +  +DV
+Sbjct  169  ASLKAIPEENEYFKFVMENWNLKKSITDDYDNTLRNNAKENLKLNSPNVGIFFDKFKDVP  228
+
+Query  92   PYVASTFYAVDR  103
+              + ST  ++D+
+Sbjct  229  IIIVSTGPSLDK  240
+
+
+>WP_168796739.1 hypothetical protein [Acetivibrio thermocellus]
+Length=494
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 19/27 (70%), Gaps = 0/27 (0%)
+
+Query  35   GSDASGKATQTEKLYKRLVSENYKVKK  61
+            G + S K  Q EK+ ++L+SEN ++K+
+Sbjct  298  GINLSNKIEQQEKINEKLISENQQLKE  324
+
+
+>CDG36199.1 Transposase for insertion sequence element ISRM3 [Acetivibrio
+thermocellus BC1]
+Length=288
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 12/19 (63%), Gaps = 0/19 (0%)
+
+Query  100  AVDRFASYKTKWGKNYDYG  118
+            A+++F   K KWGK Y Y
+Sbjct  175  ALEKFCEIKGKWGKEYPYA  193
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.317    0.136    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 15430
+Number of extensions: 762
+Number of successful extensions: 19
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 7
+Length of query: 250
+Length of database: 2859109
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2149015
+Effective search space: 350289445
+Effective search space used: 350289445
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

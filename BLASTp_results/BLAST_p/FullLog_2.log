@@ -1,0 +1,209 @@
+Start time: 6 June 2022 9:17:26
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+Found gene for related organism crs:Crassaminicella thermophila
+FQB35_07265-------------------------------------------------------------------------------------
+Building FASTA report for gene FQB35_07265 (Accession: QEK12188)
+
+Using Organism: Crassaminicella profunda (cprf)
+Found gene for related organism cprf:Crassaminicella profunda
+K7H06_08175-------------------------------------------------------------------------------------
+Building FASTA report for gene K7H06_08175 (Accession: QZY56882)
+K7H06_16155-------------------------------------------------------------------------------------
+Building FASTA report for gene K7H06_16155 (Accession: QZY54554)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+Found gene for related organism pbif:Paraclostridium bifermentans
+KXZ80_06885-------------------------------------------------------------------------------------
+Building FASTA report for gene KXZ80_06885 (Accession: UAG19423)
+KXZ80_08630-------------------------------------------------------------------------------------
+Building FASTA report for gene KXZ80_08630 (Accession: UAG16854)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Crassaminicella thermophila (crs)
+
+Using Organism: Crassaminicella profunda (cprf)
+
+Using Organism: Sarcina sp. (sarj)
+
+Using Organism: Paraclostridium bifermentans (pbif)
+
+Using Organism: Caloranaerobacter azorensis (cazo)
+
+Using Organism: Mageeibacillus indolicus (clo)
+
+Using Organism: Fastidiosipila sanguinis (fsa)
+
+Using Organism: Hungateiclostridium thermocellum (ctx)
+
+Using Organism: Acetivibrio clariflavus (ccl)
+
+Using Organism: Acetivibrio saccincola (hsc)
+end time: 6 June 2022 14:32:21

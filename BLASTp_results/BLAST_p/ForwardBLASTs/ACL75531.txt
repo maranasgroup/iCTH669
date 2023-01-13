@@ -1,0 +1,237 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W6WH71M016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ACL75531 5'-nucleotidase [Ruminiclostridium cellulolyticum]
+
+Length=645
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG36643.1 S23 ribosomal protein [Acetivibrio thermocellus BC1]    33.9    0.024  27%
+WP_011838016.1 four helix bundle protein [Eubacteriales]           31.2    0.20   28%
+WP_136479390.1 four helix bundle protein [Acetivibrio thermoce...  28.5    1.3    27%
+WP_136479759.1 four helix bundle protein [Acetivibrio thermoce...  27.7    3.3    27%
+WP_003513880.1 cation-translocating P-type ATPase [Acetivibrio...  28.5    3.5    30%
+WP_011838303.1 cation-translocating P-type ATPase [Acetivibrio...  28.5    3.7    30%
+CDG37247.1 hypothetical protein CTHBC1_2664 [Acetivibrio therm...  26.9    4.4    34%
+CDG37522.1 methyl-accepting chemotaxis sensory transducer [Ace...  27.3    8.9    37%
+WP_003516902.1 methyl-accepting chemotaxis protein [Acetivibri...  27.3    9.1    37%
+
+ALIGNMENTS
+>CDG36643.1 S23 ribosomal protein [Acetivibrio thermocellus BC1]
+Length=134
+
+ Score = 33.9 bits (76),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 30/71 (42%), Gaps = 19/71 (27%)
+
+Query  240  WNKASKSEDEI--LARKVPDIDV-----------------IVSGHTHTLLEKPIIHGNTI  280
+            W KA+  E EI  L +  P  +                  I  G+T   +++ + H N
+Sbjct  16   WQKANALEQEIEALVKAFPSHEQYRLTDQIIRSSRSISANIAEGNTQLFIKRELFHANAA  75
+
+Query  281  IGSCGEYGNNM  291
+            +GSCGE  N++
+Sbjct  76   LGSCGETRNHL  86
+
+
+>WP_011838016.1 MULTISPECIES: four helix bundle protein [Eubacteriales]
+ ABN52392.1 S23 ribosomal protein [Acetivibrio thermocellus ATCC 27405]
+Length=138
+
+ Score = 31.2 bits (69),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 20/72 (28%), Positives = 29/72 (40%), Gaps = 19/72 (26%)
+
+Query  239  TWNKASKSEDEI------------------LARKVPDIDV-IVSGHTHTLLEKPIIHGNT  279
+             W KA+  E EI                  L R V  I   I  G+T   +++ + H N
+Sbjct  15   VWQKANVLEQEIGELVKGFPSYEQYRLTDQLVRAVRSIGANIAEGNTQLFIKRELFHANA  74
+
+Query  280  IIGSCGEYGNNM  291
+             +GS GE  N++
+Sbjct  75   ALGSAGEVRNHL  86
+
+
+>WP_136479390.1 four helix bundle protein [Acetivibrio thermocellus]
+ THJ78030.1 four helix bundle protein [Acetivibrio thermocellus]
+Length=134
+
+ Score = 28.5 bits (62),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 30/71 (42%), Gaps = 19/71 (27%)
+
+Query  240  WNKASKSEDEI--LARKVPDIDV-----------------IVSGHTHTLLEKPIIHGNTI  280
+            W KA+  E EI  LA+  P  +                  I  G+T   +++ + H N
+Sbjct  16   WQKANAFEQEIGILAKGFPAYEQYRLTDQLVRASRSIGANIAEGNTQLFIKRELFHANAA  75
+
+Query  281  IGSCGEYGNNM  291
+            +GS GE  N++
+Sbjct  76   LGSAGEVRNHL  86
+
+
+>WP_136479759.1 four helix bundle protein [Acetivibrio thermocellus]
+ THJ76428.1 four helix bundle protein [Acetivibrio thermocellus]
+Length=138
+
+ Score = 27.7 bits (60),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 19/71 (27%), Positives = 29/71 (41%), Gaps = 19/71 (27%)
+
+Query  240  WNKASKSEDEI--LARKVPDIDV-----------------IVSGHTHTLLEKPIIHGNTI  280
+            W KA+  E EI  LA+  P  +                  I  G+T   + + + H N
+Sbjct  16   WQKANAFEQEIGILAKGFPAHEQYRLTDQLVRASRSIGANIAEGNTQLFIRRELFHANAA  75
+
+Query  281  IGSCGEYGNNM  291
+            +GS GE  N++
+Sbjct  76   LGSAGEVRNHL  86
+
+
+>WP_003513880.1 cation-translocating P-type ATPase [Acetivibrio thermocellus]
+ CDG36433.1 Calcium-transporting ATPase [Acetivibrio thermocellus BC1]
+ ADU75592.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus DSM 1313]
+ ALX09585.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus AD2]
+ ANV77357.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus DSM 2360]
+ EIC04431.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus YS]
+Length=905
+
+ Score = 28.5 bits (62),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 42/90 (47%), Gaps = 16/90 (18%)
+
+Query  498  PEKINDKRLYRVVSELYN-AQMLSTVGAKSFG-LLSVIPKTR----DGKPIKNFDSHIIY  551
+            P+  N  RL   +  L N A M+     +SFG + S++P+T      G P +   + ++
+Sbjct  368  PKNNNSLRLTLEIGVLCNNASMVRIKENRSFGKIASLVPRTEKWELSGDPTEA--ALLVA  425
+
+Query  552  SNWGGHTTELKEWLATARYLQSFTRIDGVP  581
+               GG T EL          +S+TRID +P
+Sbjct  426  GAKGGCTQELLN--------ESYTRIDEIP  447
+
+
+>WP_011838303.1 cation-translocating P-type ATPase [Acetivibrio thermocellus]
+ ABN53136.1 ATPase, P-type (transporting), HAD superfamily, subfamily IC
+[Acetivibrio thermocellus ATCC 27405]
+ NLU27527.1 cation-translocating P-type ATPase [Acetivibrio thermocellus]
+ HBW27097.1 cation-translocating P-type ATPase [Acetivibrio thermocellus]
+Length=905
+
+ Score = 28.5 bits (62),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 27/90 (30%), Positives = 42/90 (47%), Gaps = 16/90 (18%)
+
+Query  498  PEKINDKRLYRVVSELYN-AQMLSTVGAKSFG-LLSVIPKTR----DGKPIKNFDSHIIY  551
+            P+  N  RL   +  L N A M+     +SFG + S++P+T      G P +   + ++
+Sbjct  368  PKNNNSLRLTLEIGVLCNNASMVRIKENRSFGKIASLVPRTEKWELSGDPTEA--ALLVA  425
+
+Query  552  SNWGGHTTELKEWLATARYLQSFTRIDGVP  581
+               GG T EL          +S+TRID +P
+Sbjct  426  GAKGGCTQELLN--------ESYTRIDEIP  447
+
+
+>CDG37247.1 hypothetical protein CTHBC1_2664 [Acetivibrio thermocellus BC1]
+Length=134
+
+ Score = 26.9 bits (58),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 22/50 (44%), Gaps = 7/50 (14%)
+
+Query  366  KKLQEDTLGNLISDGYIYSVKQAEGKGYEPVSVAIVSVGTMRGSFVEGDI  415
+            KK+  +TLG L  DG IY        G  PV V  V +   +G    G +
+Sbjct  3    KKMLNETLGTLEYDGLIYD-------GRHPVDVKTVKIRAGQGELARGTV  45
+
+
+>CDG37522.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+BC1]
+Length=570
+
+ Score = 27.3 bits (59),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 29/57 (51%), Gaps = 9/57 (16%)
+
+Query  197  DADNCITTTEVSFDNIIESAKRVVKKLKQEKVDLIVCLSH-SGTWNKASKSEDEILA  252
+            +ADN IT         IES  + V  L QEK  +I  + + S T+N+   S +EI A
+Sbjct  485  EADNVITQ--------IESVNKSVNSLSQEKNTIIERIGNISDTFNQVVASAEEITA  533
+
+
+>WP_003516902.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN54232.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73669.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX07598.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75338.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC03480.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+Length=570
+
+ Score = 27.3 bits (59),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 29/57 (51%), Gaps = 9/57 (16%)
+
+Query  197  DADNCITTTEVSFDNIIESAKRVVKKLKQEKVDLIVCLSH-SGTWNKASKSEDEILA  252
+            +ADN IT         IES  + V  L QEK  +I  + + S T+N+   S +EI A
+Sbjct  485  EADNVITQ--------IESVNKSVNSLSQEKNTIIERIGNISDTFNQVVASAEEITA  533
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.135    0.389
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 44917
+Number of extensions: 2064
+Number of successful extensions: 21
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 21
+Number of HSP's successfully gapped: 6
+Length of query: 645
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 550
+Effective length of database: 2069853
+Effective search space: 1138419150
+Effective search space used: 1138419150
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

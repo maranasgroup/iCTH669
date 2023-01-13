@@ -1,0 +1,397 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZGUR7A013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ANU39708 5'-nucleotidase [Flavonifractor plautii]
+
+Length=726
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_136479321.1 WG repeat-containing protein [Acetivibrio therm...  55.8    1e-08  32%
+WP_011838081.1 WG repeat-containing protein [Acetivibrio therm...  55.8    1e-08  32%
+NLU25570.1 hypothetical protein [Acetivibrio thermocellus]         55.8    1e-08  36%
+WP_003519228.1 WG repeat-containing protein [Acetivibrio therm...  55.8    1e-08  32%
+NLU26201.1 hypothetical protein [Acetivibrio thermocellus]         45.1    3e-05  32%
+ABN52752.1 copper amine oxidase-like domain-containing protein...  40.8    5e-04  31%
+WP_003517715.1 stalk domain-containing protein [Acetivibrio th...  40.8    5e-04  31%
+WP_136479725.1 stalk domain-containing protein [Acetivibrio th...  40.4    6e-04  31%
+CDG35822.1 hypothetical protein CTHBC1_1173 [Acetivibrio therm...  29.3    1.3    31%
+CDG35128.1 hypothetical protein CTHBC1_0462 [Acetivibrio therm...  26.2    4.7    37%
+WP_003519028.1 manganese catalase family protein [Acetivibrio ...  26.9    9.0    36%
+WP_011837827.1 manganese catalase family protein [Acetivibrio ...  26.9    9.1    36%
+
+ALIGNMENTS
+>WP_136479321.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ THJ78547.1 hypothetical protein EPD62_05625 [Acetivibrio thermocellus]
+Length=551
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 53/167 (32%), Positives = 75/167 (45%), Gaps = 32/167 (19%)
+
+Query  572  GYINAG---LLDTPYAESYNLSDYDSLVAQ-------------AKAKAETLTVTVNGAAK  615
+            GY++AG    +D  Y  + + SD  ++V +               A   T TV VNG+
+Sbjct  368  GYMDAGGNIAIDPVYQAATDFSDGVAIVVKDGKFGIISKTSIPYTATPTTSTVLVNGSP-  426
+
+Query  616  DVATAFDA---QGNTYYRLRDLAFALKGTGAQFNVTWDGS---VAVATGSAYE---GEAL  666
+                AFDA    GN Y++LRDLA+ L GT  QF VTWD +   + + +G  Y    GE
+Sbjct  427  ---VAFDAYLINGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMA  483
+
+Query  667  ALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYLAEGFLAQLGAE  713
+                +  T    + T+ ++G  V   A  +NG  Y     L  LG E
+Sbjct  484  TGSKNTATAYPSAATVFINGVRVELTAYTINGFNYFK---LRDLGKE  527
+
+
+ Score = 33.5 bits (75),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 33/67 (49%), Gaps = 9/67 (13%)
+
+Query  599  AKAKAETLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAV  655
+            A A     TV +NG   ++ TA+   G  Y++LRDL     G    F V WDG   ++ +
+Sbjct  490  ATAYPSAATVFINGVRVEL-TAYTINGFNYFKLRDL-----GKEFDFGVIWDGTAKTIRI  543
+
+Query  656  ATGSAYE  662
+             T S+Y
+Sbjct  544  DTSSSYS  550
+
+
+>WP_011838081.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ ABN52682.1 hypothetical protein Cthe_1452 [Acetivibrio thermocellus ATCC
+27405]
+ HBW27440.1 hypothetical protein [Acetivibrio thermocellus]
+Length=551
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 53/167 (32%), Positives = 75/167 (45%), Gaps = 32/167 (19%)
+
+Query  572  GYINAG---LLDTPYAESYNLSDYDSLVAQ-------------AKAKAETLTVTVNGAAK  615
+            GY++AG    +D  Y  + + SD  ++V +               A   T TV VNG+
+Sbjct  368  GYMDAGGNIAIDPVYQAATDFSDGVAIVVKDGKFGIISKTSIPYTATPTTSTVLVNGSP-  426
+
+Query  616  DVATAFDA---QGNTYYRLRDLAFALKGTGAQFNVTWDGS---VAVATGSAYE---GEAL  666
+                AFDA    GN Y++LRDLA+ L GT  QF VTWD +   + + +G  Y    GE
+Sbjct  427  ---VAFDAYLINGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMA  483
+
+Query  667  ALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYLAEGFLAQLGAE  713
+                +  T    + T+ ++G  V   A  +NG  Y     L  LG E
+Sbjct  484  TGSKNTATAYPSAATVFINGVRVELTAYTINGFNYFK---LRDLGKE  527
+
+
+ Score = 33.5 bits (75),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 33/67 (49%), Gaps = 9/67 (13%)
+
+Query  599  AKAKAETLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAV  655
+            A A     TV +NG   ++ TA+   G  Y++LRDL     G    F V WDG   ++ +
+Sbjct  490  ATAYPSAATVFINGVRVEL-TAYTINGFNYFKLRDL-----GKEFDFGVIWDGTAKTIRI  543
+
+Query  656  ATGSAYE  662
+             T S+Y
+Sbjct  544  DTSSSYS  550
+
+
+>NLU25570.1 hypothetical protein [Acetivibrio thermocellus]
+Length=551
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 44/122 (36%), Positives = 58/122 (48%), Gaps = 16/122 (13%)
+
+Query  601  AKAETLTVTVNGAAKDVATAFDA---QGNTYYRLRDLAFALKGTGAQFNVTWDGS---VA  654
+            A   T TV VNG+      AFDA    GN Y++LRDLA+ L GT  QF VTWD +   +
+Sbjct  413  ATPTTSTVLVNGSP----VAFDAYLINGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAIN  468
+
+Query  655  VATGSAYE---GEALALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYLAEGFLAQLG  711
+            + +G  Y    GE      +  T    + T+ ++G  V   A  +NG  Y     L  LG
+Sbjct  469  LISGKPYTVSGGEMATGSKNTATAYPSAATVFINGVRVELTAYTINGFNYFK---LRDLG  525
+
+Query  712  AE  713
+             E
+Sbjct  526  KE  527
+
+
+ Score = 33.5 bits (75),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 33/67 (49%), Gaps = 9/67 (13%)
+
+Query  599  AKAKAETLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAV  655
+            A A     TV +NG   ++ TA+   G  Y++LRDL     G    F V WDG   ++ +
+Sbjct  490  ATAYPSAATVFINGVRVEL-TAYTINGFNYFKLRDL-----GKEFDFGVIWDGTAKTIRI  543
+
+Query  656  ATGSAYE  662
+             T S+Y
+Sbjct  544  DTSSSYS  550
+
+
+>WP_003519228.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ CDG36120.1 KWG Leptospira repeat protein [Acetivibrio thermocellus BC1]
+ ADU73871.1 hypothetical protein Clo1313_0799 [Acetivibrio thermocellus DSM
+1313]
+ ALX07808.1 hypothetical protein AD2_00810 [Acetivibrio thermocellus AD2]
+ ANV75550.1 hypothetical protein LQRI_0809 [Acetivibrio thermocellus DSM
+2360]
+ EIC03297.1 KWG Leptospira repeat protein [Acetivibrio thermocellus YS]
+Length=551
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 53/167 (32%), Positives = 75/167 (45%), Gaps = 32/167 (19%)
+
+Query  572  GYINAG---LLDTPYAESYNLSDYDSLVAQ-------------AKAKAETLTVTVNGAAK  615
+            GY++AG    +D  Y  + + SD  ++V +               A   T TV VNG+
+Sbjct  368  GYMDAGGNIAIDPVYQAATDFSDGVAIVVKDGKFGIISKTSIPYTATPTTSTVLVNGSP-  426
+
+Query  616  DVATAFDA---QGNTYYRLRDLAFALKGTGAQFNVTWDGS---VAVATGSAYE---GEAL  666
+                AFDA    GN Y++LRDLA+ L GT  QF VTWD +   + + +G  Y    GE
+Sbjct  427  ---VAFDAYLINGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMA  483
+
+Query  667  ALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYLAEGFLAQLGAE  713
+                +  T    + T+ ++G  V   A  +NG  Y     L  LG E
+Sbjct  484  TGSKNTATAYPSAATVFINGVRVELTAYTINGFNYFK---LRDLGKE  527
+
+
+ Score = 33.5 bits (75),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 33/67 (49%), Gaps = 9/67 (13%)
+
+Query  599  AKAKAETLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAV  655
+            A A     TV +NG   ++ TA+   G  Y++LRDL     G    F V WDG   ++ +
+Sbjct  490  ATAYPSAATVFINGVRVEL-TAYTINGFNYFKLRDL-----GKEFDFGVIWDGTAKTIRI  543
+
+Query  656  ATGSAYE  662
+             T S+Y
+Sbjct  544  DTSSSYS  550
+
+
+>NLU26201.1 hypothetical protein [Acetivibrio thermocellus]
+Length=421
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 29/92 (32%), Positives = 45/92 (49%), Gaps = 9/92 (10%)
+
+Query  620  AFDAQGNTYYRLRDLAFAL--KGTGAQFNVTWDG---SVAVATGSAYE--GEALALPGSA  672
+            A+   GN Y++LRD+A+ L  K +  QF + WD    ++ + T  +Y   G  L     A
+Sbjct  297  AYTINGNNYFKLRDIAYLLKIKNSQRQFEIKWDNIAKTIYIITSESYTPVGGELKTHIDA  356
+
+Query  673  PTGEAV--SLTLTVDGTAVSQPAVLVNGNYYL  702
+               +AV  S  + +DG  +   A  +NGN Y
+Sbjct  357  SPQKAVKNSSPVYLDGNRIELTAYTINGNNYF  388
+
+
+ Score = 33.5 bits (75),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 26/46 (57%), Gaps = 8/46 (17%)
+
+Query  619  TAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAVATGSAY  661
+            TA+   GN Y++LRD+A A+      F+V WDG   ++ + T   Y
+Sbjct  378  TAYTINGNNYFKLRDIASAV-----NFDVDWDGENRTIIIETCCDY  418
+
+
+>ABN52752.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ CDG36191.1 hypothetical protein CTHBC1_1550 [Acetivibrio thermocellus BC1]
+Length=346
+
+ Score = 40.8 bits (94),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  605  TLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAVATGSAY  661
+            T  V VNG   +   A++  G  Y++LRDLA A+  T   F VTWD    ++ + +   Y
+Sbjct  212  TSKVLVNGKIVEFE-AYNINGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAINLISNKPY  270
+
+Query  662  E---GEALALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYL  702
+                GE     G A      +  +  DG  +   A  +NGN Y
+Sbjct  271  TPSGGELAKGDGKAKVAIPTTSKIYKDGREIFLTAYNINGNNYF  314
+
+
+ Score = 32.7 bits (73),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 30/61 (49%), Gaps = 9/61 (15%)
+
+Query  596  VAQAKAKAETLTVTVNGAAKD----VATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG  651
+            +A+   KA+    T +   KD      TA++  GN Y++LRD+A           VTWDG
+Sbjct  277  LAKGDGKAKVAIPTTSKIYKDGREIFLTAYNINGNNYFKLRDVAKTF-----DIGVTWDG  331
+
+Query  652  S  652
+            +
+Sbjct  332  A  332
+
+
+>WP_003517715.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ADU75319.1 hypothetical protein Clo1313_2290 [Acetivibrio thermocellus DSM
+1313]
+ ALX09311.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV77063.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04779.1 hypothetical protein YSBL_1612 [Acetivibrio thermocellus YS]
+ NLU26645.1 hypothetical protein [Acetivibrio thermocellus]
+Length=357
+
+ Score = 40.8 bits (94),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  605  TLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAVATGSAY  661
+            T  V VNG   +   A++  G  Y++LRDLA A+  T   F VTWD    ++ + +   Y
+Sbjct  223  TSKVLVNGKIVEFE-AYNINGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAINLISNKPY  281
+
+Query  662  E---GEALALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYL  702
+                GE     G A      +  +  DG  +   A  +NGN Y
+Sbjct  282  TPSGGELAKGDGKAKVAIPTTSKIYKDGREIFLTAYNINGNNYF  325
+
+
+ Score = 32.7 bits (73),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 30/61 (49%), Gaps = 9/61 (15%)
+
+Query  596  VAQAKAKAETLTVTVNGAAKD----VATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG  651
+            +A+   KA+    T +   KD      TA++  GN Y++LRD+A           VTWDG
+Sbjct  288  LAKGDGKAKVAIPTTSKIYKDGREIFLTAYNINGNNYFKLRDVAKTF-----DIGVTWDG  342
+
+Query  652  S  652
+            +
+Sbjct  343  A  343
+
+
+>WP_136479725.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ THJ76512.1 hypothetical protein EPD62_16220 [Acetivibrio thermocellus]
+Length=357
+
+ Score = 40.4 bits (93),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 32/104 (31%), Positives = 46/104 (44%), Gaps = 7/104 (7%)
+
+Query  605  TLTVTVNGAAKDVATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG---SVAVATGSAY  661
+            T  V VNG   +   A++  G  Y++LRDLA A+  T   F VTWD    ++ + +   Y
+Sbjct  223  TSKVLVNGKIVEFE-AYNINGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAINLISNKPY  281
+
+Query  662  E---GEALALPGSAPTGEAVSLTLTVDGTAVSQPAVLVNGNYYL  702
+                GE     G A      +  +  DG  +   A  +NGN Y
+Sbjct  282  TPSGGELAKGDGKAKVAILTTSKIYKDGREIFLTAYNINGNNYF  325
+
+
+ Score = 33.9 bits (76),  Expect = 0.072, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 9/61 (15%)
+
+Query  596  VAQAKAKAETLTVTVNGAAKD----VATAFDAQGNTYYRLRDLAFALKGTGAQFNVTWDG  651
+            +A+   KA+   +T +   KD      TA++  GN Y++LRD+A           VTWDG
+Sbjct  288  LAKGDGKAKVAILTTSKIYKDGREIFLTAYNINGNNYFKLRDVAKTF-----DIGVTWDG  342
+
+Query  652  S  652
+            +
+Sbjct  343  A  343
+
+
+>CDG35822.1 hypothetical protein CTHBC1_1173 [Acetivibrio thermocellus BC1]
+Length=192
+
+ Score = 29.3 bits (64),  Expect = 1.3, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 35/70 (50%), Gaps = 11/70 (16%)
+
+Query  48   NIWGYSYE---DNAETDNNGMARLHTYIQQ------VRTE--NPNTFLVDAGDDIQGTIM  96
+            N  GYS+E   D  E  N+ + RLH  I++      +R E       +   G+ ++G I
+Sbjct  89   NKIGYSFEVHQDFEEDSNDALERLHKKIKKGLSKKFIRKEIVQGQEHISIKGNVVEGRIE  148
+
+Query  97   TDDLYNKTPE  106
+             DD Y++TP+
+Sbjct  149  GDDRYDRTPK  158
+
+
+>CDG35128.1 hypothetical protein CTHBC1_0462 [Acetivibrio thermocellus BC1]
+Length=72
+
+ Score = 26.2 bits (56),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 18/49 (37%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  318  EIPL-VAEAHQKTIDYINGGGSGDEGEGGASLGSTTARFQ-PENEIRGI  364
+            E P+ +   + K   YI     G +GE  ASL   + RF  P NE +GI
+Sbjct  9    EYPVKIKNPNPKLAKYIISQYGGPDGELAASLRYLSQRFSMPTNEAKGI  57
+
+
+>WP_003519028.1 manganese catalase family protein [Acetivibrio thermocellus]
+ ADU74863.1 manganese containing catalase [Acetivibrio thermocellus DSM 1313]
+ ALX08817.1 manganese containing catalase [Acetivibrio thermocellus AD2]
+ ANV76568.1 manganese containing catalase [Acetivibrio thermocellus DSM 2360]
+ EIC05225.1 manganese containing catalase [Acetivibrio thermocellus YS]
+ NLU27997.1 manganese catalase family protein [Acetivibrio thermocellus]
+Length=203
+
+ Score = 26.9 bits (58),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (48%), Gaps = 1/44 (2%)
+
+Query  322  VAEAHQKTIDYINGGGSGDEGEGGASLGSTTARF-QPENEIRGI  364
+            +   + K   YI     G +GE  ASL   + RF  P NE +GI
+Sbjct  14   IKNPNPKLAKYIISQYGGPDGELAASLRYLSQRFSMPTNEAKGI  57
+
+
+>WP_011837827.1 manganese catalase family protein [Acetivibrio thermocellus]
+ ABN51652.1 manganese containing catalase [Acetivibrio thermocellus ATCC
+27405]
+ HBW27067.1 manganese catalase family protein [Acetivibrio thermocellus]
+Length=203
+
+ Score = 26.9 bits (58),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 21/44 (48%), Gaps = 1/44 (2%)
+
+Query  322  VAEAHQKTIDYINGGGSGDEGEGGASLGSTTARF-QPENEIRGI  364
+            +   + K   YI     G +GE  ASL   + RF  P NE +GI
+Sbjct  14   IKNPNPKLAKYIISQYGGPDGELAASLRYLSQRFSMPTNEAKGI  57
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.132    0.381
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 49539
+Number of extensions: 2500
+Number of successful extensions: 22
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 3
+Length of query: 726
+Length of database: 2835838
+Length adjustment: 96
+Effective length of query: 630
+Effective length of database: 2061790
+Effective search space: 1298927700
+Effective search space used: 1298927700
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

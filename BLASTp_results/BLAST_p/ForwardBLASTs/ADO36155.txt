@@ -1,0 +1,191 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W4VPMSB013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADO36155 5'-nucleotidase [Eubacterium callanderi]
+
+Length=645
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838167.1 hypothetical protein [Firmicutes]                   28.1    2.4    40%
+WP_003512660.1 NADP-specific glutamate dehydrogenase [Acetivib...  28.5    3.1    23%
+WP_003519284.1 hypothetical protein [Acetivibrio thermocellus]     28.5    3.8    34%
+WP_003511683.1 alpha-ribazole phosphatase [Acetivibrio thermoc...  26.9    8.0    50%
+WP_003515480.1 metallophosphatase family protein [Acetivibrio ...  26.6    9.4    43%
+WP_003513006.1 metallophosphatase family protein [Acetivibrio ...  26.6    9.5    43%
+
+ALIGNMENTS
+>WP_011838167.1 MULTISPECIES: hypothetical protein [Firmicutes]
+ ABN52871.1 hypothetical protein Cthe_1648 [Acetivibrio thermocellus ATCC
+27405]
+Length=141
+
+ Score = 28.1 bits (61),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  523  SISRIQTAGVYQPKRYDACVHITQGNRPAP  552
+            SIS+    G Y P  Y+A + I +  R AP
+Sbjct  2    SISKFNAEGYYDPTPYEALLRIEREARKAP  31
+
+
+>WP_003512660.1 NADP-specific glutamate dehydrogenase [Acetivibrio thermocellus]
+ CDG35050.1 NADP-specific glutamate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN51612.1 Glu/Leu/Phe/Val dehydrogenase [Acetivibrio thermocellus ATCC
+27405]
+ ADU74900.1 Glu/Leu/Phe/Val dehydrogenase [Acetivibrio thermocellus DSM 1313]
+ ALX08858.1 Glutamate dehydrogenase (NADP(+)) [Acetivibrio thermocellus AD2]
+ ANV76608.1 Glutamate dehydrogenase (NADP(+)) [Acetivibrio thermocellus DSM
+2360]
+Length=444
+
+ Score = 28.5 bits (62),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 22/95 (23%), Positives = 46/95 (48%), Gaps = 8/95 (8%)
+
+Query  386  LPFGNRLYFREATPRILYQALENGVSRVRGQDPETGRIIGAGGCFPQISGMTMVYSPDRP  445
+            L +G  L   EAT   L   +E  +  ++G+  E   ++ +G      SG   +Y+ ++
+Sbjct  196  LTWGGSLVRTEATGYGLCYFMEEAMKTIKGKSFEGATVVISG------SGNVAIYATEKA  249
+
+Query  446  --VGERVMSVTLDSGQLLDPEDDKTPVILVIDEAK  478
+              +G +V++++  +G + DP+  K   +  I E +
+Sbjct  250  QQLGAKVVALSDSNGYVYDPDGIKLDTVKQIKEVE  284
+
+
+>WP_003519284.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG34973.1 hypothetical protein CTHBC1_0301 [Acetivibrio thermocellus BC1]
+ ABN51534.1 hypothetical protein Cthe_0296 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74980.1 hypothetical protein Clo1313_1930 [Acetivibrio thermocellus DSM
+1313]
+ ALX08942.1 hypothetical protein AD2_01952 [Acetivibrio thermocellus AD2]
+ ANV76692.1 hypothetical protein LQRI_1951 [Acetivibrio thermocellus DSM
+2360]
+Length=491
+
+ Score = 28.5 bits (62),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%), Gaps = 3/44 (7%)
+
+Query  345  KSQMTGACIFEDMPVIALHNGGGIRASLHRGQITAGDCLDVLPF  388
+            K  +TGAC +  + ++ + N G +R S   G +     LDVL F
+Sbjct  11   KLVVTGACAYVLLILLFMLNSGLVRVS---GNVLLNKSLDVLFF  51
+
+
+>WP_003511683.1 alpha-ribazole phosphatase [Acetivibrio thermocellus]
+ CDG37636.1 alpha-ribazole phosphatase [Acetivibrio thermocellus BC1]
+ ABN54348.1 alpha-ribazole phosphatase [Acetivibrio thermocellus ATCC 27405]
+ ADU73782.1 alpha-ribazole phosphatase [Acetivibrio thermocellus DSM 1313]
+ ALX07715.1 alpha-ribazole phosphatase [Acetivibrio thermocellus AD2]
+ ANV75457.1 alpha-ribazole phosphatase [Acetivibrio thermocellus DSM 2360]
+Length=196
+
+ Score = 26.9 bits (58),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  201  SAPENQSVGLAEALGENSGLDIII  224
+            S+P  ++V  AE + EN GL+III
+Sbjct  53   SSPFKRTVKTAEIINENYGLEIII  76
+
+
+>WP_003515480.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ ADU73262.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+1313]
+ ALX07180.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus AD2]
+ ANV74916.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+2360]
+ EIC04354.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus YS]
+ PFH01442.1 hypothetical protein M972_11174 [Acetivibrio thermocellus AD2]
+Length=161
+
+ Score = 26.6 bits (57),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 19/28 (68%), Gaps = 1/28 (4%)
+
+Query  220  LDIIIDGHSHSVFAEKRINGILLQQSGS  247
+            +D ++ GHSH+ + E RI+G+L    GS
+Sbjct  106  VDCVVFGHSHAPYNE-RIDGVLYVNPGS  132
+
+
+>WP_003513006.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ CDG37043.1 phosphodiesterase [Acetivibrio thermocellus BC1]
+ ABN53780.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus ATCC
+27405]
+ NLU27557.1 metallophosphoesterase family protein [Acetivibrio thermocellus]
+ THJ79311.1 metallophosphoesterase [Acetivibrio thermocellus]
+ HBW25807.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=161
+
+ Score = 26.6 bits (57),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 19/28 (68%), Gaps = 1/28 (4%)
+
+Query  220  LDIIIDGHSHSVFAEKRINGILLQQSGS  247
+            +D ++ GHSH+ + E RI+G+L    GS
+Sbjct  106  VDCVVFGHSHAPYNE-RIDGVLYVNPGS  132
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.136    0.394
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 60458
+Number of extensions: 2718
+Number of successful extensions: 32
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 32
+Number of HSP's successfully gapped: 4
+Length of query: 645
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 550
+Effective length of database: 2069853
+Effective search space: 1138419150
+Effective search space used: 1138419150
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

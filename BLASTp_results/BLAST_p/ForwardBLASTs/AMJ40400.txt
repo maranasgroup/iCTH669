@@ -1,0 +1,356 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WAUDKF1013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AMJ40400 5'-nucleotidase [Anaerotignum propionicum]
+
+Length=234
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517588.1 ABC transporter ATP-binding protein [Acetivibri...  27.3    1.6    25%
+WP_003513101.1 sulfate ABC transporter substrate-binding prote...  26.9    2.3    29%
+WP_136479271.1 chemotaxis protein CheW [Acetivibrio thermocellus]  26.2    3.1    26%
+WP_020457775.1 Ig-like domain-containing protein [Acetivibrio ...  26.6    3.8    41%
+WP_003514847.1 chemotaxis protein CheW [Acetivibrio thermocellus]  25.8    3.8    37%
+WP_020457999.1 chemotaxis protein CheW [Acetivibrio thermocellus]  25.8    3.9    37%
+WP_136479554.1 Ig-like domain-containing protein [Acetivibrio ...  26.6    4.0    41%
+WP_003518117.1 Ig-like domain-containing protein [Acetivibrio ...  26.6    4.1    41%
+NLU27362.1 hypothetical protein [Acetivibrio thermocellus]         26.6    4.1    41%
+HBW25973.1 TPA: dockerin [Acetivibrio thermocellus]                26.2    5.6    22%
+NLU28192.1 dockerin [Acetivibrio thermocellus]                     25.8    6.1    22%
+ABN54200.1 FAD-dependent pyridine nucleotide-disulfide oxidore...  25.8    7.1    33%
+WP_136479210.1 2-hydroxyacyl-CoA dehydratase [Acetivibrio ther...  25.8    7.8    25%
+WP_003517033.1 2-hydroxyacyl-CoA dehydratase [Acetivibrio ther...  25.8    7.8    25%
+WP_020457907.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  25.4    9.7    33%
+WP_003514375.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  25.4    9.8    33%
+
+ALIGNMENTS
+>WP_003517588.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG35232.1 Lipoprotein-releasing system ATP-binding protein LolD 2 [Acetivibrio
+thermocellus BC1]
+ ABN51775.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74755.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08706.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV76458.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=227
+
+ Score = 27.3 bits (59),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 14/56 (25%), Positives = 31/56 (55%), Gaps = 2/56 (4%)
+
+Query  178  PSSVKDVTFLDGKEMTAAAQAQVDALKKKDVIILWHWYIWELMMKVLADAQLMLQM  233
+            P+S K   F+DGK++ A    Q+   +++ V +++ +Y    ++ V+ +  L + M
+Sbjct  59   PTSGK--VFMDGKDVYAQNDEQLAIFRRRQVGLIYQFYNLIPVLNVVENITLPVLM  112
+
+
+>WP_003513101.1 sulfate ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ CDG37006.1 Sulfate-binding protein [Acetivibrio thermocellus BC1]
+ ABN53733.1 sulfate ABC transporter, periplasmic sulfate-binding protein
+[Acetivibrio thermocellus ATCC 27405]
+ ADU73211.1 sulfate ABC transporter, periplasmic sulfate-binding protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX07126.1 sulfate ABC transporter, periplasmic sulfate-binding protein
+[Acetivibrio thermocellus AD2]
+ ANV74862.1 sulfate ABC transporter, periplasmic sulfate-binding protein
+[Acetivibrio thermocellus DSM 2360]
+Length=356
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 40/86 (47%), Gaps = 4/86 (5%)
+
+Query  61   KDYYTAQGADVILLDAGDFSQGTTLVNHSKGLKAAEYLVSAGYDGVSLGNHEFDFGFDSL  120
+            K++  A  A+V +LD+G     TT V    G     +   A      LG  +F+     +
+Sbjct  201  KEFVKAIYANVPVLDSGARGSTTTFVERGLGDVLIAWENEAFLSLNELGKDKFEI----V  256
+
+Query  121  LDIVAVLKAGKVPVLDANILKKGTNE  146
+            +  V++L    V V+D+ + KKGT E
+Sbjct  257  VPSVSILAEPPVAVVDSVVDKKGTRE  282
+
+
+>WP_136479271.1 chemotaxis protein CheW [Acetivibrio thermocellus]
+ THJ78663.1 purine-binding chemotaxis protein CheW [Acetivibrio thermocellus]
+Length=163
+
+ Score = 26.2 bits (56),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 36/88 (41%), Gaps = 22/88 (25%)
+
+Query  107  SLGNHEFDFGFDSLLDIVAV------------------LKAGKVPVLDANILKKGTNEPY  148
+            SLGN E+  G   + +IV +                  L+   +PV+D  ++  G  E
+Sbjct  21   SLGNEEYGIGISYVTEIVGIQKITEIPEVEEYIKGIINLRGNVIPVIDVRLM-LGLKEKE  79
+
+Query  149  FGDN---IVLEKGGMKIGVFGLDTAETQ  173
+            + D    IVL   G+ IG+     +E Q
+Sbjct  80   YNDRTCTIVLNVKGVPIGLIVDSVSEVQ  107
+
+
+>WP_020457775.1 Ig-like domain-containing protein [Acetivibrio thermocellus]
+ AAC33404.1 S-layer protein [Acetivibrio thermocellus]
+ ABN53550.1 Ig domain protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26588.1 hypothetical protein [Acetivibrio thermocellus]
+Length=1036
+
+ Score = 26.6 bits (57),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  1   MKHGKKVLSLLLSLSMMVGLTVPVLAGTM  29
+           MK+ KKVL++L+ +S++  L VP  A +
+Sbjct  1   MKNLKKVLAVLVVISVISTLLVPAFADSF  29
+
+
+>WP_003514847.1 chemotaxis protein CheW [Acetivibrio thermocellus]
+ ADU73662.1 CheW protein [Acetivibrio thermocellus DSM 1313]
+ ALX07591.1 CheW protein [Acetivibrio thermocellus AD2]
+ ANV75331.1 CheW protein [Acetivibrio thermocellus DSM 2360]
+ EIC03487.1 CheW domain protein [Acetivibrio thermocellus YS]
+ PFH01857.1 purine-binding chemotaxis protein CheW [Acetivibrio thermocellus
+AD2]
+Length=163
+
+ Score = 25.8 bits (55),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  107  SLGNHEFDFGFDSLLDIVAVLKAGKVP  133
+            SLGN E+  G   + +IV + K  ++P
+Sbjct  21   SLGNEEYGIGISYVTEIVGIQKITEIP  47
+
+
+>WP_020457999.1 chemotaxis protein CheW [Acetivibrio thermocellus]
+ ABN54225.1 CheW protein [Acetivibrio thermocellus ATCC 27405]
+ NLU26694.1 purine-binding chemotaxis protein CheW [Acetivibrio thermocellus]
+ CDG37516.1 CheW protein [Acetivibrio thermocellus BC1]
+ HBW27810.1 chemotaxis protein CheW [Acetivibrio thermocellus]
+Length=163
+
+ Score = 25.8 bits (55),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  107  SLGNHEFDFGFDSLLDIVAVLKAGKVP  133
+            SLGN E+  G   + +IV + K  ++P
+Sbjct  21   SLGNEEYGIGISYVTEIVGIQKITEIP  47
+
+
+>WP_136479554.1 Ig-like domain-containing protein [Acetivibrio thermocellus]
+ THJ77559.1 hypothetical protein EPD62_11230 [Acetivibrio thermocellus]
+Length=1035
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  1   MKHGKKVLSLLLSLSMMVGLTVPVLAGTM  29
+           MK+ KKVL++L+ +S++  L VP  A +
+Sbjct  1   MKNLKKVLAVLVVISVISTLLVPAFADSF  29
+
+
+>WP_003518117.1 Ig-like domain-containing protein [Acetivibrio thermocellus]
+ ADU75989.1 Ig domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX10024.1 Ig domain protein [Acetivibrio thermocellus AD2]
+ ANV77798.1 Ig domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC03779.1 Ig domain protein [Acetivibrio thermocellus YS]
+ PFH04308.1 Ig-like domain-containing protein [Acetivibrio thermocellus AD2]
+Length=1035
+
+ Score = 26.6 bits (57),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  1   MKHGKKVLSLLLSLSMMVGLTVPVLAGTM  29
+           MK+ KKVL++L+ +S++  L VP  A +
+Sbjct  1   MKNLKKVLAVLVVISVISTLLVPAFADSF  29
+
+
+>NLU27362.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36871.1 Ig domain protein [Acetivibrio thermocellus BC1]
+Length=1035
+
+ Score = 26.6 bits (57),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 0/29 (0%)
+
+Query  1   MKHGKKVLSLLLSLSMMVGLTVPVLAGTM  29
+           MK+ KKVL++L+ +S++  L VP  A +
+Sbjct  1   MKNLKKVLAVLVVISVISTLLVPAFADSF  29
+
+
+>HBW25973.1 dockerin [Acetivibrio thermocellus]
+Length=702
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 16/73 (22%), Positives = 32/73 (44%), Gaps = 2/73 (3%)
+
+Query  63   YYTAQGADVILLDAGDFSQGTTLVNHSKGLKAAEYLVSAGYDGVSLGNHEFDFGFDSLLD  122
+            YY  +  ++IL +A +F Q   L+    G  A  + V  G   V +    ++  +  +L
+Sbjct  362  YYKDENGEMILWNAEEFGQKNPLLTDENGFYA--WDVPEGMWQVKVEKEGYETAYSEILP  419
+
+Query  123  IVAVLKAGKVPVL  135
+            +  V     +P++
+Sbjct  420  VPPVQTNVNIPLV  432
+
+
+>NLU28192.1 dockerin [Acetivibrio thermocellus]
+Length=707
+
+ Score = 25.8 bits (55),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 16/73 (22%), Positives = 32/73 (44%), Gaps = 2/73 (3%)
+
+Query  63   YYTAQGADVILLDAGDFSQGTTLVNHSKGLKAAEYLVSAGYDGVSLGNHEFDFGFDSLLD  122
+            YY  +  ++IL +A +F Q   L+    G  A  + V  G   V +    ++  +  +L
+Sbjct  367  YYKDENGEMILWNAEEFGQKNPLLTDENGFYA--WDVPEGMWQVKVEKEGYETAYSEILP  424
+
+Query  123  IVAVLKAGKVPVL  135
+            +  V     +P++
+Sbjct  425  VPPVQTNVNIPLV  437
+
+
+>ABN54200.1 FAD-dependent pyridine nucleotide-disulfide oxidoreductase [Acetivibrio
+thermocellus ATCC 27405]
+Length=493
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 25/55 (45%), Gaps = 4/55 (7%)
+
+Query  149  FGDNIVLEKGGMKIGVFGLDTAETQTKSSPSSVKDVTFLDGKEMTAAAQAQVDAL  203
+             GDN+V+  GG       +D A T  +    SVK V     +EM AA     +A+
+Sbjct  331  LGDNVVVIGGGNT----AIDCARTALRKGAKSVKLVYRCTREEMPAAPYEVEEAI  381
+
+
+>WP_136479210.1 2-hydroxyacyl-CoA dehydratase [Acetivibrio thermocellus]
+ THJ78928.1 2-hydroxyglutaryl-CoA dehydratase [Acetivibrio thermocellus]
+Length=1433
+
+ Score = 25.8 bits (55),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 41/100 (41%), Gaps = 6/100 (6%)
+
+Query  26   AGTMDGKLVIIHTND--MHGYYQTGEKSIGIAGVKGLKDYYTAQGADVILLDAGDFSQGT  83
+            AG+   K V+I  N   ++ YY +   S   + VK LKD Y+      ++ ++     G
+Sbjct  326  AGSTTTKAVLIDENGAILYSYYGSNNGSPLKSAVKILKDIYSQLPDTAVIANSAVTGYGE  385
+
+Query  84   TLVNHSKGLKAAEYLVSAGYDGVSLGNHEFDFGFDSLLDI  123
+             L+  +  +   E    A Y         F  G + +LDI
+Sbjct  386  GLIKTALNIDIGEIETIAHYKAA----EAFLPGVEFILDI  421
+
+
+>WP_003517033.1 2-hydroxyacyl-CoA dehydratase [Acetivibrio thermocellus]
+ CDG36003.1 CoA-substrate-specific enzyme activase [Acetivibrio thermocellus
+BC1]
+ ADU73993.1 CoA-substrate-specific enzyme activase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07931.1 Protein of unknown function DUF2229, CoA enzyme activase [Acetivibrio
+thermocellus AD2]
+ ANV75677.1 Protein of unknown function DUF2229, CoA enzyme activase [Acetivibrio
+thermocellus DSM 2360]
+ EIC06129.1 CoA-substrate-specific enzyme activase [Acetivibrio thermocellus
+YS]
+Length=1433
+
+ Score = 25.8 bits (55),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 25/100 (25%), Positives = 41/100 (41%), Gaps = 6/100 (6%)
+
+Query  26   AGTMDGKLVIIHTND--MHGYYQTGEKSIGIAGVKGLKDYYTAQGADVILLDAGDFSQGT  83
+            AG+   K V+I  N   ++ YY +   S   + VK LKD Y+      ++ ++     G
+Sbjct  326  AGSTTTKAVLIDENGAILYSYYGSNNGSPLKSAVKILKDIYSQLPDTAVIANSAVTGYGE  385
+
+Query  84   TLVNHSKGLKAAEYLVSAGYDGVSLGNHEFDFGFDSLLDI  123
+             L+  +  +   E    A Y         F  G + +LDI
+Sbjct  386  GLIKTALNIDIGEIETIAHYKAA----EAFLPGVEFILDI  421
+
+
+>WP_020457907.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+ ABN53951.1 beta-lactamase domain protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW27494.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+Length=443
+
+ Score = 25.4 bits (54),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 24/36 (67%), Gaps = 2/36 (6%)
+
+Query  66   AQGADVILLDAGDFSQGTTLVNH--SKGLKAAEYLV  99
+            +QG   +L+DAG+ +    +VN+  +KG++  EY++
+Sbjct  126  SQGQYHMLVDAGNNADAEQVVNYLKNKGIRKLEYVI  161
+
+
+>WP_003514375.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+ CDG37274.1 beta-lactamase domain protein [Acetivibrio thermocellus BC1]
+ ADU73432.1 hypothetical protein Clo1313_0341 [Acetivibrio thermocellus DSM
+1313]
+ ALX07354.1 beta-lactamase domain protein [Acetivibrio thermocellus AD2]
+ ANV75092.1 beta-lactamase domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC04179.1 beta-lactamase domain protein [Acetivibrio thermocellus YS]
+Length=443
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 24/36 (67%), Gaps = 2/36 (6%)
+
+Query  66   AQGADVILLDAGDFSQGTTLVNH--SKGLKAAEYLV  99
+            +QG   +L+DAG+ +    +VN+  +KG++  EY++
+Sbjct  126  SQGQYHMLVDAGNNADAEQVVNYLKNKGIRKLEYVI  161
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.136    0.389
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21589
+Number of extensions: 1021
+Number of successful extensions: 25
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 6
+Length of query: 234
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 148
+Effective length of database: 2142420
+Effective search space: 317078160
+Effective search space used: 317078160
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

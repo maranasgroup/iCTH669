@@ -1,0 +1,442 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X1VXN3K016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AVM48504 5'-nucleotidase [Mogibacterium diversum]
+
+Length=441
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_014522596.1 NUDIX hydrolase [Acetivibrio]                       29.3    1.1    25%
+WP_003511660.1 NUDIX hydrolase [Acetivibrio thermocellus]          29.3    1.1    25%
+ALX07689.1 NUDIX hydrolase [Acetivibrio thermocellus AD2]          29.3    1.1    25%
+CDG37607.1 NUDIX hydrolase [Acetivibrio thermocellus BC1]          29.3    1.1    25%
+NLU27762.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [...  27.7    4.0    46%
+WP_014522594.1 cohesin domain-containing protein [Acetivibrio ...  27.7    4.0    29%
+WP_020457769.1 UDP-N-acetylglucosamine 1-carboxyvinyltransfera...  27.7    4.1    46%
+WP_003513423.1 UDP-N-acetylglucosamine 1-carboxyvinyltransfera...  27.7    4.1    46%
+AGE35066.1 mutant CipA [Acetivibrio thermocellus]                  27.7    4.3    29%
+CCV01463.1 cellulosome anchoring protein CipA [Acetivibrio the...  27.7    4.3    29%
+WP_059169944.1 cohesin domain-containing protein [Acetivibrio ...  27.7    4.3    29%
+WP_065674352.1 cohesin domain-containing protein [Acetivibrio ...  27.7    4.3    29%
+CCV01464.1 cellulosome anchoring protein CipA [Acetivibrio the...  27.7    4.4    29%
+CCV01465.1 cellulosome anchoring protein CipA [Acetivibrio the...  27.7    4.4    29%
+WP_020458017.1 cohesin domain-containing protein [Acetivibrio ...  27.7    4.4    29%
+QUP51808.1 cellulosomal-scaffolding protein A [Acetivibrio the...  27.7    4.4    29%
+NLU26599.1 hypothetical protein [Acetivibrio thermocellus]         24.6    7.0    38%
+WP_235836046.1 cohesin domain-containing protein [Acetivibrio ...  26.6    7.5    29%
+CAA47806.1 CipA protein [Acetivibrio thermocellus]                 26.6    7.9    29%
+WP_003522783.1 cohesin domain-containing protein [Acetivibrio ...  26.6    8.1    29%
+3KCP_A Chain A, Cellulosomal-scaffolding protein A [Acetivibri...  26.6    8.4    29%
+
+ALIGNMENTS
+>WP_014522596.1 MULTISPECIES: NUDIX hydrolase [Acetivibrio]
+ ADU73759.1 NUDIX hydrolase [Acetivibrio thermocellus DSM 1313]
+ THJ79093.1 NUDIX hydrolase [Acetivibrio thermocellus]
+Length=303
+
+ Score = 29.3 bits (64),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  369  GILQSARSLIEKGYDVQVIKDCCASKQKDDLEEAMKTLRDIGCTITTLESFIYDEIG  425
+             + Q  ++L EKGY +Q + +   S ++D+L   +K ++ +   ++ +E  I +  G
+Sbjct  154  NLYQEQKTLTEKGYILQRLYNLRLSDEEDNLSAVIKVVKTVEGRVSRVEREIVESHG  210
+
+
+>WP_003511660.1 NUDIX hydrolase [Acetivibrio thermocellus]
+ ABN54321.1 NUDIX hydrolase [Acetivibrio thermocellus ATCC 27405]
+ HBW28020.1 NUDIX hydrolase [Acetivibrio thermocellus]
+Length=303
+
+ Score = 29.3 bits (64),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  369  GILQSARSLIEKGYDVQVIKDCCASKQKDDLEEAMKTLRDIGCTITTLESFIYDEIG  425
+             + Q  ++L EKGY +Q + +   S ++D+L   +K ++ +   ++ +E  I +  G
+Sbjct  154  NLYQEQKTLTEKGYILQRLYNLRLSDEEDNLSAVIKVVKTVEGRVSRVEREIVESHG  210
+
+
+>ALX07689.1 NUDIX hydrolase [Acetivibrio thermocellus AD2]
+ ANV75431.1 NUDIX hydrolase [Acetivibrio thermocellus DSM 2360]
+ EIC05647.1 NUDIX hydrolase [Acetivibrio thermocellus YS]
+ PFH01957.1 ADP-ribose pyrophosphatase YjhB (NUDIX family) [Acetivibrio thermocellus
+AD2]
+ SOD26756.1 NUDIX domain-containing protein [Acetivibrio thermocellus]
+Length=317
+
+ Score = 29.3 bits (64),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  369  GILQSARSLIEKGYDVQVIKDCCASKQKDDLEEAMKTLRDIGCTITTLESFIYDEIG  425
+             + Q  ++L EKGY +Q + +   S ++D+L   +K ++ +   ++ +E  I +  G
+Sbjct  168  NLYQEQKTLTEKGYILQRLYNLRLSDEEDNLSAVIKVVKTVEGRVSRVEREIVESHG  224
+
+
+>CDG37607.1 NUDIX hydrolase [Acetivibrio thermocellus BC1]
+Length=317
+
+ Score = 29.3 bits (64),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 31/57 (54%), Gaps = 0/57 (0%)
+
+Query  369  GILQSARSLIEKGYDVQVIKDCCASKQKDDLEEAMKTLRDIGCTITTLESFIYDEIG  425
+             + Q  ++L EKGY +Q + +   S ++D+L   +K ++ +   ++ +E  I +  G
+Sbjct  168  NLYQEQKTLTEKGYILQRLYNLRLSDEEDNLSAVIKVVKTVEGRVSRVEREIVESHG  224
+
+
+>NLU27762.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus]
+Length=417
+
+ Score = 27.7 bits (60),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 18/28 (64%), Gaps = 2/28 (7%)
+
+Query  218  YNGEVTDGSVQPPNTDLYCLANGYATIT  245
+            Y G  TD  + PP + L CLA+G +T+T
+Sbjct  300  YPGFPTD--LHPPTSVLLCLADGTSTVT  325
+
+
+>WP_014522594.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ADU73707.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+Length=1352
+
+ Score = 27.7 bits (60),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1131  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1181
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1182  INGGVLVTNKPVIEGYKVSG  1201
+
+
+>WP_020457769.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus]
+ ABN53530.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus ATCC 27405]
+ THJ77539.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus]
+ CDG36850.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase 3 [Acetivibrio
+thermocellus BC1]
+ HBW26610.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus]
+Length=417
+
+ Score = 27.7 bits (60),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 18/28 (64%), Gaps = 2/28 (7%)
+
+Query  218  YNGEVTDGSVQPPNTDLYCLANGYATIT  245
+            Y G  TD  + PP + L CLA+G +T+T
+Sbjct  300  YPGFPTD--LHPPTSVLLCLADGTSTVT  325
+
+
+>WP_003513423.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus]
+ ADU75967.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus DSM 1313]
+ ALX10002.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus AD2]
+ ANV77776.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus DSM 2360]
+ EIC03801.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus YS]
+ PFH04286.1 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [Acetivibrio
+thermocellus AD2]
+Length=417
+
+ Score = 27.7 bits (60),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 18/28 (64%), Gaps = 2/28 (7%)
+
+Query  218  YNGEVTDGSVQPPNTDLYCLANGYATIT  245
+            Y G  TD  + PP + L CLA+G +T+T
+Sbjct  300  YPGFPTD--LHPPTSVLLCLADGTSTVT  325
+
+
+>AGE35066.1 mutant CipA, partial [Acetivibrio thermocellus]
+Length=1508
+
+ Score = 27.7 bits (60),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1287  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1337
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1338  INGGVLVTNKPVIEGYKVSG  1357
+
+
+>CCV01463.1 cellulosome anchoring protein CipA, partial [Acetivibrio thermocellus]
+Length=1676
+
+ Score = 27.7 bits (60),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1459  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1509
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1510  INGGVLVTNKPVIEGYKVSG  1529
+
+
+>WP_059169944.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ALX07637.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ PFH01905.1 cellulose binding domain-containing protein [Acetivibrio thermocellus
+AD2]
+Length=1682
+
+ Score = 27.7 bits (60),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1461  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1511
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1512  INGGVLVTNKPVIEGYKVSG  1531
+
+
+>WP_065674352.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ANV75379.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ SOD26860.1 Cellulose binding domain-containing protein [Acetivibrio thermocellus]
+Length=1682
+
+ Score = 27.7 bits (60),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1461  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1511
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1512  INGGVLVTNKPVIEGYKVSG  1531
+
+
+>CCV01464.1 cellulosome anchoring protein CipA [Acetivibrio thermocellus]
+ CDG37556.1 Cellulosomal-scaffolding protein A [Acetivibrio thermocellus
+BC1]
+Length=1842
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1621  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1671
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1672  INGGVLVTNKPVIEGYKVSG  1691
+
+
+>CCV01465.1 cellulosome anchoring protein CipA, partial [Acetivibrio thermocellus]
+Length=1848
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1631  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1681
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1682  INGGVLVTNKPVIEGYKVSG  1701
+
+
+>WP_020458017.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ Q06851.2 RecName: Full=Cellulosomal-scaffolding protein A; AltName: Full=Cellulose-integrating
+protein A; AltName: Full=Cellulosomal
+glycoprotein S1/SL; AltName: Full=Cohesin; Flags: Precursor
+[Acetivibrio thermocellus ATCC 27405]
+ ABN54273.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+Length=1853
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1632  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1682
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1683  INGGVLVTNKPVIEGYKVSG  1702
+
+
+>QUP51808.1 cellulosomal-scaffolding protein A [Acetivibrio thermocellus]
+Length=1844
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101   GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+             G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  1623  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  1673
+
+Query  157   QPGSILNVNAPDLPKWQIKG  176
+               G +L  N P +  +++ G
+Sbjct  1674  INGGVLVTNKPVIEGYKVSG  1693
+
+
+>NLU26599.1 hypothetical protein [Acetivibrio thermocellus]
+Length=65
+
+ Score = 24.6 bits (52),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 15/39 (38%), Positives = 20/39 (51%), Gaps = 3/39 (8%)
+
+Query  121  LNGYSALALSVTNRKATH--FEFICEMIPELLEVAKKLQ  157
+            LN Y  + +   +RK      EF CEMI E+L+   K Q
+Sbjct  26   LNNYKPIDIVAIDRKVAEKWLEFCCEMI-EILKANDKKQ  63
+
+
+>WP_235836046.1 cohesin domain-containing protein, partial [Acetivibrio thermocellus]
+ THJ77199.1 cellulosomal-scaffolding protein A, partial [Acetivibrio thermocellus]
+Length=327
+
+ Score = 26.6 bits (57),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101  GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+            G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  106  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  156
+
+Query  157  QPGSILNVNAPDLPKWQIKG  176
+              G +L  N P +  +++ G
+Sbjct  157  INGGVLVTNKPVIEGYKVSG  176
+
+
+>CAA47806.1 CipA protein, partial [Acetivibrio thermocellus]
+Length=638
+
+ Score = 26.6 bits (57),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101  GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+            G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  417  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  467
+
+Query  157  QPGSILNVNAPDLPKWQIKG  176
+              G +L  N P +  +++ G
+Sbjct  468  INGGVLVTNKPVIEGYKVSG  487
+
+
+>WP_003522783.1 cohesin domain-containing protein, partial [Acetivibrio thermocellus]
+ EIC03350.1 cellulosome anchoring protein cohesin region, partial [Acetivibrio
+thermocellus YS]
+Length=324
+
+ Score = 26.6 bits (57),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101  GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+            G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  103  GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  153
+
+Query  157  QPGSILNVNAPDLPKWQIKG  176
+              G +L  N P +  +++ G
+Sbjct  154  INGGVLVTNKPVIEGYKVSG  173
+
+
+>3KCP_A Chain A, Cellulosomal-scaffolding protein A [Acetivibrio thermocellus
+ATCC 27405]
+ 4FL4_C Chain C, Cellulosome anchoring protein cohesin region [Acetivibrio
+thermocellus]
+ 4FL4_F Chain F, Cellulosome anchoring protein cohesin region [Acetivibrio
+thermocellus]
+ 4FL4_I Chain I, Cellulosome anchoring protein cohesin region [Acetivibrio
+thermocellus]
+ 4FL4_L Chain L, Cellulosome anchoring protein cohesin region [Acetivibrio
+thermocellus]
+Length=321
+
+ Score = 26.6 bits (57),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 33/80 (41%), Gaps = 13/80 (16%)
+
+Query  101  GNAGADINYSGTFAI----ANEGALNGYSALALSVTNRKATHFEFICEMIPELLEVAKKL  156
+            G     I   G FA       EGA  G+SA+ +S         EF      +L+EV   L
+Sbjct  92   GTGAYAITEDGVFATIVAKVKEGAPEGFSAIEIS---------EFGAFADNDLVEVETDL  142
+
+Query  157  QPGSILNVNAPDLPKWQIKG  176
+              G +L  N P +  +++ G
+Sbjct  143  INGGVLVTNKPVIEGYKVSG  162
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.134    0.385
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 28985
+Number of extensions: 1235
+Number of successful extensions: 23
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 8
+Length of query: 441
+Length of database: 2835838
+Length adjustment: 92
+Effective length of query: 349
+Effective length of database: 2094042
+Effective search space: 730820658
+Effective search space used: 730820658
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 35 (18.1 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

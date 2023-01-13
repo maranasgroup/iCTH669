@@ -1,0 +1,311 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X16A8DJ013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CAA7601284 5'-nucleotidase [Acididesulfobacillus acetoxydans]
+
+Length=259
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+HBW26863.1 TPA: hypothetical protein [Acetivibrio thermocellus]    30.4    0.25   25%
+WP_235836101.1 DUF6531 domain-containing protein [Acetivibrio ...  30.4    0.28   25%
+WP_003522882.1 DUF6531 domain-containing protein [Acetivibrio ...  29.3    0.52   25%
+WP_003516286.1 XRE family transcriptional regulator [Acetivibr...  28.1    0.89   30%
+WP_065674353.1 DUF6531 domain-containing protein [Acetivibrio ...  27.7    2.0    25%
+ADU73859.1 YD repeat protein [Acetivibrio thermocellus DSM 1313]   27.7    2.0    25%
+WP_059169947.1 DUF6531 domain-containing protein [Acetivibrio ...  27.7    2.0    25%
+ABN51246.1 YD repeat-containing protein [Acetivibrio thermocel...  27.7    2.2    25%
+HBW28331.1 TPA: hypothetical protein [Acetivibrio thermocellus]    27.3    2.7    30%
+ABN54427.1 YD repeat-containing protein [Acetivibrio thermocel...  26.6    5.4    30%
+HBW26103.1 TPA: hypothetical protein [Acetivibrio thermocellus]    26.2    6.0    29%
+NLU26719.1 hypothetical protein [Acetivibrio thermocellus]         26.2    6.7    29%
+WP_235836078.1 DUF6531 domain-containing protein [Acetivibrio ...  26.2    6.7    29%
+
+ALIGNMENTS
+>HBW26863.1 hypothetical protein [Acetivibrio thermocellus]
+Length=522
+
+ Score = 30.4 bits (67),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 37/149 (25%), Positives = 60/149 (40%), Gaps = 25/149 (17%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGS-----GYGYAVRGTPSDCVKLAVEGGIVPKPDLVISGINQGPNLGTDI  112
+                 EH  SG+     G    +  T  +   L V+ GI  K D   S ++   +   +I
+Sbjct  220  -----EHTGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNNEI  274
+
+Query  113  FYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+             +        EG+L+ I +    L  F +
+Sbjct  275  RFK----YNREGLLSAIMSPRGKLLMFSY  299
+
+
+>WP_235836101.1 DUF6531 domain-containing protein, partial [Acetivibrio thermocellus]
+ THJ76418.1 hypothetical protein EPD62_16735, partial [Acetivibrio thermocellus]
+Length=475
+
+ Score = 30.4 bits (67),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 37/149 (25%), Positives = 60/149 (40%), Gaps = 25/149 (17%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGS-----GYGYAVRGTPSDCVKLAVEGGIVPKPDLVISGINQGPNLGTDI  112
+                 EH  SG+     G    +  T  +   L V+ GI  K D   S ++   +   +I
+Sbjct  220  -----EHTGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNNEI  274
+
+Query  113  FYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+             +        EG+L+ I +    L  F +
+Sbjct  275  RFK----YNREGLLSAIMSPRGKLLMFSY  299
+
+
+>WP_003522882.1 DUF6531 domain-containing protein, partial [Acetivibrio thermocellus]
+ EIC03289.1 YD repeat protein, partial [Acetivibrio thermocellus YS]
+Length=367
+
+ Score = 29.3 bits (64),  Expect = 0.52, Method: Compositional matrix adjust.
+ Identities = 37/149 (25%), Positives = 60/149 (40%), Gaps = 25/149 (17%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGS-----GYGYAVRGTPSDCVKLAVEGGIVPKPDLVISGINQGPNLGTDI  112
+                 EH  SG+     G    +  T  +   L V+ GI  K D   S ++   +   +I
+Sbjct  220  -----EHTGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNNEI  274
+
+Query  113  FYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+             +        EG+L+ I +    L  F +
+Sbjct  275  RFK----YNREGLLSAIMSPRGKLLMFSY  299
+
+
+>WP_003516286.1 XRE family transcriptional regulator [Acetivibrio thermocellus]
+ CDG35446.1 XRE family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN51986.1 Cupin 2 conserved barrel domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74533.1 Cupin 2 conserved barrel domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08476.1 transcriptional regulator, XRE family with cupin 2 sensor [Acetivibrio
+thermocellus AD2]
+ ANV76225.1 transcriptional regulator, XRE family with cupin 2 sensor [Acetivibrio
+thermocellus DSM 2360]
+Length=179
+
+ Score = 28.1 bits (61),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 2/47 (4%)
+
+Query  34   EDTVSIVAPDSQRSASGHSITLFDP--LFVTEHPLSGSGYGYAVRGT  78
+            ++T+  V P+SQ++A         P    + +HP  G  +GY V+G+
+Sbjct  86   KNTIEWVVPNSQKNAMEPIRMTLQPGGRSLEDHPHEGEEFGYVVKGS  132
+
+
+>WP_065674353.1 DUF6531 domain-containing protein [Acetivibrio thermocellus]
+ ANV75538.1 RHS repeat-associated core domain containing protein-containing
+protein [Acetivibrio thermocellus DSM 2360]
+ SOD26552.1 RHS repeat-associated core domain-containing protein [Acetivibrio
+thermocellus]
+Length=1765
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 62/151 (41%), Gaps = 29/151 (19%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGSGYGYAVRG-------TPSDCVKLAVEGGIVPKPDLVISGINQGPNLGT  110
+                 EH  +GSG   + +G       T  +   L V+ GI  K D   S ++   +
+Sbjct  220  -----EH--TGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNN  272
+
+Query  111  DIFYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+            +I +        EG+L+ I +    L  F +
+Sbjct  273  EIRFKYN----REGLLSAIMSPRGKLLMFSY  299
+
+
+>ADU73859.1 YD repeat protein [Acetivibrio thermocellus DSM 1313]
+Length=1765
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 62/151 (41%), Gaps = 29/151 (19%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGSGYGYAVRG-------TPSDCVKLAVEGGIVPKPDLVISGINQGPNLGT  110
+                 EH  +GSG   + +G       T  +   L V+ GI  K D   S ++   +
+Sbjct  220  -----EH--TGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNN  272
+
+Query  111  DIFYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+            +I +        EG+L+ I +    L  F +
+Sbjct  273  EIRFKYN----REGLLSAIMSPRGKLLMFSY  299
+
+
+>WP_059169947.1 DUF6531 domain-containing protein [Acetivibrio thermocellus]
+ ALX07796.1 RHS repeat-associated core domain containing protein-containing
+protein [Acetivibrio thermocellus AD2]
+ PFH02064.1 RHS repeat-associated protein [Acetivibrio thermocellus AD2]
+Length=1765
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 62/151 (41%), Gaps = 29/151 (19%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGSGYGYAVRG-------TPSDCVKLAVEGGIVPKPDLVISGINQGPNLGT  110
+                 EH  +GSG   + +G       T  +   L V+ GI  K D   S ++   +
+Sbjct  220  -----EH--TGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNN  272
+
+Query  111  DIFYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+            +I +        EG+L+ I +    L  F +
+Sbjct  273  EIRFKYN----REGLLSAIMSPRGKLLMFSY  299
+
+
+>ABN51246.1 YD repeat-containing protein [Acetivibrio thermocellus ATCC 27405]
+Length=1942
+
+ Score = 27.7 bits (60),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 38/151 (25%), Positives = 62/151 (41%), Gaps = 29/151 (19%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVAPDSQRSASGHSITLFD  57
+            +G+ +EI      + N  G F  G +T +E  +K  ED+  I+         G SI +F
+Sbjct  166  RGMALEITRYYNSMDNTPGMFGKGWKTDYETCLKKKEDSEDIIV-----MYPGGSIRIF-  219
+
+Query  58   PLFVTEHPLSGSGYGYAVRG-------TPSDCVKLAVEGGIVPKPDLVISGINQGPNLGT  110
+                 EH  +GSG   + +G       T  +   L V+ GI  K D   S ++   +
+Sbjct  220  -----EH--TGSGTFKSPKGVYDTLFKTEDEMYILKVQKGITYKYDQAGSLVSISDSNNN  272
+
+Query  111  DIFYSGTVAAAMEGVLAGIPAIAASLASFDF  141
+            +I +        EG+L+ I +    L  F +
+Sbjct  273  EIRFKYN----REGLLSAIMSPRGKLLMFSY  299
+
+
+>HBW28331.1 hypothetical protein [Acetivibrio thermocellus]
+Length=635
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 13/44 (30%), Positives = 23/44 (52%), Gaps = 5/44 (11%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVA  41
+            +G+ +EI      + N +G F  G +T +E  +K  ED+  I+
+Sbjct  160  RGMAIEITRYYNSMDNTEGIFGKGWRTDYETCLKKKEDSEDIIV  203
+
+
+>ABN54427.1 YD repeat-containing protein [Acetivibrio thermocellus ATCC 27405]
+Length=1669
+
+ Score = 26.6 bits (57),  Expect = 5.4, Method: Composition-based stats.
+ Identities = 13/43 (30%), Positives = 23/43 (53%), Gaps = 5/43 (12%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIV  40
+            +G+ +EI      + N +G F  G +T +E  +K  ED+  I+
+Sbjct  160  RGMAIEITRYYNSMDNTEGIFGKGWRTDYETCLKKKEDSEDII  202
+
+
+>HBW26103.1 hypothetical protein [Acetivibrio thermocellus]
+Length=519
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 24/48 (50%), Gaps = 7/48 (15%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVA--PD  43
+            +G+ +EI      + N +G F  G +  +E  +K  ED+  I+   PD
+Sbjct  163  RGMALEITRYYNSMDNTEGIFGKGWKIDYETCLKKKEDSEDIIVAYPD  210
+
+
+>NLU26719.1 hypothetical protein [Acetivibrio thermocellus]
+Length=558
+
+ Score = 26.2 bits (56),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 24/48 (50%), Gaps = 7/48 (15%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVA--PD  43
+            +G+ +EI      + N +G F  G +  +E  +K  ED+  I+   PD
+Sbjct  163  RGMALEITRYYNSMDNTEGIFGKGWKIDYETCLKKKEDSEDIIVAYPD  210
+
+
+>WP_235836078.1 DUF6531 domain-containing protein, partial [Acetivibrio thermocellus]
+ THJ76631.1 hypothetical protein EPD62_15540, partial [Acetivibrio thermocellus]
+Length=638
+
+ Score = 26.2 bits (56),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 24/48 (50%), Gaps = 7/48 (15%)
+
+Query  3    KGVTMEIL-----LTNDDGFFAPGLQTLFEVMVKSPEDTVSIVA--PD  43
+            +G+ +EI      + N +G F  G +  +E  +K  ED+  I+   PD
+Sbjct  163  RGMALEITRYYNSMDNTEGIFGKGWKIDYETCLKKKEDSEDIIVAYPD  210
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.137    0.416
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 23481
+Number of extensions: 1043
+Number of successful extensions: 26
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 26
+Number of HSP's successfully gapped: 3
+Length of query: 259
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 172
+Effective length of database: 2134357
+Effective search space: 367109404
+Effective search space used: 367109404
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

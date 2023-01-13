@@ -1,0 +1,115 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WN62RN1016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QNU66703 5'-nucleotidase [Ruminiclostridium herbifermentans]
+
+Length=524
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003521020.1 AAA family ATPase [Oscillospiraceae]                29.3    1.5    26%
+WP_003514839.1 phosphoglycerate dehydrogenase [Acetivibrio the...  28.5    2.5    30%
+
+ALIGNMENTS
+>WP_003521020.1 MULTISPECIES: AAA family ATPase [Oscillospiraceae]
+ ALX09672.1 hypothetical protein AD2_02692 [Acetivibrio thermocellus AD2]
+ ANV77445.1 prophage Lp2 protein 4 [Acetivibrio thermocellus DSM 2360]
+ EIC03564.1 hypothetical protein YSBL_2766 [Acetivibrio thermocellus YS]
+Length=522
+
+ Score = 29.3 bits (64),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 11/43 (26%), Positives = 22/43 (51%), Gaps = 0/43 (0%)
+
+Query  411  LERGIMQYPNSGANGGFLQVSGITFSFDASKTAGERVVSVKTL  453
+            +E   M+Y ++   G   ++    FS+D++K   ER   + +L
+Sbjct  91   IENSFMKYRSTWQKGNRFRIISTRFSYDSNKMINERKYEIPSL  133
+
+
+>WP_003514839.1 phosphoglycerate dehydrogenase [Acetivibrio thermocellus]
+ CDG37521.1 D-3-phosphoglycerate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN54231.1 D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein
+[Acetivibrio thermocellus ATCC 27405]
+ ADU73668.1 D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX07597.1 Phosphoglycerate dehydrogenase [Acetivibrio thermocellus AD2]
+ ANV75337.1 Phosphoglycerate dehydrogenase [Acetivibrio thermocellus DSM
+2360]
+Length=391
+
+ Score = 28.5 bits (62),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 27/50 (54%), Gaps = 0/50 (0%)
+
+Query  407  IYKCLERGIMQYPNSGANGGFLQVSGITFSFDASKTAGERVVSVKTLDGK  456
+            + KC ERGI+ +   GAN   ++   +   F +S+   + +  V++L GK
+Sbjct  66   VEKCTERGIVVFNTPGANANAVKELVLASLFMSSRKIYKGISWVQSLKGK  115
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.138    0.395
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 39856
+Number of extensions: 2053
+Number of successful extensions: 25
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 7
+Length of query: 524
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 431
+Effective length of database: 2085979
+Effective search space: 899056949
+Effective search space used: 899056949
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

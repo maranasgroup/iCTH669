@@ -1,0 +1,212 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W5XCPZU013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CUH91696 5'-nucleotidase [Herbinix luporum]
+
+Length=239
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838238.1 AAA family ATPase [Acetivibrio thermocellus]        27.7    1.9    27%
+WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermo...  27.3    2.1    36%
+WP_003512387.1 DUF58 domain-containing protein [Acetivibrio th...  26.2    5.0    34%
+WP_003516702.1 AAA family ATPase [Acetivibrio thermocellus]        25.8    6.0    46%
+NLU27496.1 hypothetical protein [Acetivibrio thermocellus]         25.4    7.3    26%
+WP_011838243.1 HTH domain-containing protein [Eubacteriales]       24.6    8.1    31%
+CDG36630.1 ATPase [Acetivibrio thermocellus BC1]                   25.0    8.3    46%
+
+ALIGNMENTS
+>WP_011838238.1 AAA family ATPase [Acetivibrio thermocellus]
+ ABN52958.1 phage NTP-binding protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26502.1 NTP-binding protein [Acetivibrio thermocellus]
+Length=530
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 35/78 (45%), Gaps = 1/78 (1%)
+
+Query  81   KYLMPEKPDIVFSGINFGYNVGLDILYSGTVGAAMEALIHGVPAMAFSK-EMNDNYEVVE  139
+            +YL  EK + +F G  F + V    L  G    A+E    GV   + S+ + +DN   V+
+Sbjct  448  RYLQLEKKENIFGGGRFNFKVPKVELDKGEFMKALEDAQEGVKTYSKSETDTSDNTAAVD  507
+
+Query  140  ANLLSITKELLNRPIKSN  157
+               +  T E+    +K +
+Sbjct  508  NTTVLETSEVKEESVKKS  525
+
+
+>WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermocellus]
+ CDG35349.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+BC1]
+ ABN51891.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74630.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 1313]
+ ALX08573.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+AD2]
+ ANV76322.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 21/39 (54%), Gaps = 5/39 (13%)
+
+Query  49  GTLDIKQVDISVPG-----VHAYGVSGTPADCVKVGIKY  82
+           G  +IK V+++V       +  YG+  TP DC+K G  Y
+Sbjct  18  GYRNIKVVEVAVKKNNNIFIENYGIVPTPPDCIKNGAIY  56
+
+
+>WP_003512387.1 DUF58 domain-containing protein [Acetivibrio thermocellus]
+ CDG34931.1 hypothetical protein CTHBC1_0259 [Acetivibrio thermocellus BC1]
+ ABN51493.1 protein of unknown function DUF58 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75022.1 protein of unknown function DUF58 [Acetivibrio thermocellus DSM
+1313]
+ ALX08990.1 protein of unknown function DUF58 [Acetivibrio thermocellus AD2]
+ ANV76740.1 protein of unknown function DUF58 [Acetivibrio thermocellus DSM
+2360]
+Length=446
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 33/70 (47%), Gaps = 7/70 (10%)
+
+Query  91   VFSGINFGYNVGLDILYSGTVGAAMEALIHGVPAMAFSKEMNDNYEVVEANLLSITKELL  150
+            +F GIN         L  G V + M   I G   MA     N+N E++ ANLL    ++L
+Sbjct  364  IFKGINLMSK--YTSLRKGYVPSIMLINIMGYGLMA----ENEN-EMMAANLLEAMNKVL  416
+
+Query  151  NRPIKSNEIW  160
+            +  I+ N IW
+Sbjct  417  SEKIRKNCIW  426
+
+
+>WP_003516702.1 AAA family ATPase [Acetivibrio thermocellus]
+ ABN53333.1 ATPase associated with various cellular activities AAA_3 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75769.1 ATPase associated with various cellular activities AAA_3 [Acetivibrio
+thermocellus DSM 1313]
+ ALX09799.1 ATPase associated with various cellular activities AAA_3 [Acetivibrio
+thermocellus AD2]
+ ANV77573.1 ATPase associated with various cellular activities AAA_3 [Acetivibrio
+thermocellus DSM 2360]
+ EIC03687.1 ATPase associated with various cellular activities AAA_3 [Acetivibrio
+thermocellus YS]
+Length=264
+
+ Score = 25.8 bits (55),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 16/35 (46%), Positives = 21/35 (60%), Gaps = 4/35 (11%)
+
+Query  152  RPIKSNEIWNINFPSCTMSEFRGVLYDRIPAKEQF  186
+            RPI SN I+ I +P   M   RG+LY ++P  E F
+Sbjct  98   RPIFSNIIFII-YP---MVLHRGILYVKLPPDEVF  128
+
+
+>NLU27496.1 hypothetical protein [Acetivibrio thermocellus]
+Length=291
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 23/89 (26%), Positives = 35/89 (39%), Gaps = 13/89 (15%)
+
+Query  114  AMEALIHGVPAMAFSKEMNDNYEVVEANLLSITKELLNRPIKSNEIWNINFPSCTMSEFR  173
+             ++ L HGVP+    K   D    +    LS++        K   +    F +
+Sbjct  179  TIDVLCHGVPSPKLWKSYWDEKNRLYGKGLSVSFRNKESGWKQYSV-KFTFEN-------  230
+
+Query  174  GVLYDRIPAKEQFYLDKYVRMELENSNFR  202
+            GV+Y     KE FY D Y+++ L N   R
+Sbjct  231  GVVY-----KESFYTDSYMKLFLNNICLR  254
+
+
+>WP_011838243.1 MULTISPECIES: HTH domain-containing protein [Eubacteriales]
+ ABN52963.1 transcriptional regulator, putative [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26498.1 HTH domain-containing protein [Acetivibrio thermocellus]
+Length=107
+
+ Score = 24.6 bits (52),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 29/61 (48%), Gaps = 11/61 (18%)
+
+Query  59   SVPGVHAYGVSGTPADCVKVGIKYLMPEKPDIVFSGINFGYNVGLDILYSGTVGAAMEAL  118
+            ++ G H  G+  T  D  K+  KYL PE+ +++           L IL SG   A M ++
+Sbjct  51   TIRGRHGGGIKIT--DGYKLNQKYLKPEQLELLKR---------LSILLSGDDLAVMNSI  99
+
+Query  119  I  119
+            I
+Sbjct  100  I  100
+
+
+>CDG36630.1 ATPase [Acetivibrio thermocellus BC1]
+Length=200
+
+ Score = 25.0 bits (53),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 16/35 (46%), Positives = 21/35 (60%), Gaps = 4/35 (11%)
+
+Query  152  RPIKSNEIWNINFPSCTMSEFRGVLYDRIPAKEQF  186
+            RPI SN I+ I +P   M   RG+LY ++P  E F
+Sbjct  98   RPIFSNIIFII-YP---MVLHRGILYVKLPPDEVF  128
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.136    0.396
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17288
+Number of extensions: 757
+Number of successful extensions: 21
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 21
+Number of HSP's successfully gapped: 8
+Length of query: 239
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 153
+Effective length of database: 2142420
+Effective search space: 327790260
+Effective search space used: 327790260
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

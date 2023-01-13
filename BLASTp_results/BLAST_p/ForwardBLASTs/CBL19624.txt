@@ -1,0 +1,205 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WFAF791016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBL19624 5'-nucleotidase [Ruminococcus sp.]
+
+Length=657
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003520981.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.3    34%
+WP_004463301.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.4    34%
+WP_011837888.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.5    34%
+WP_011837983.1 hypothetical protein [Acetivibrio thermocellus]     26.9    6.8    23%
+NLU26319.1 CBS domain-containing protein [Acetivibrio thermoce...  27.7    7.0    34%
+WP_207670215.1 helix-turn-helix domain-containing protein [Ace...  26.9    7.0    38%
+THJ76398.1 helix-turn-helix domain-containing protein [Acetivi...  26.9    7.9    38%
+WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio t...  26.9    9.6    31%
+
+ALIGNMENTS
+>WP_003520981.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ ADU74601.1 CBS domain containing protein [Acetivibrio thermocellus DSM 1313]
+ ALX08545.1 putative signal transduction protein with CBS domain containing
+protein [Acetivibrio thermocellus AD2]
+ ANV76294.1 putative signal transduction protein with CBS domain containing
+protein [Acetivibrio thermocellus DSM 2360]
+ EIC05485.1 CBS domain containing protein [Acetivibrio thermocellus YS]
+ PFH02818.1 tRNA nucleotidyltransferase (CCA-adding enzyme) [Acetivibrio
+thermocellus AD2]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>WP_004463301.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ THJ78229.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ CDG35377.1 CBS domain containing protein [Acetivibrio thermocellus BC1]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>WP_011837888.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ ABN51919.1 Polynucleotide adenylyltransferase region [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27619.1 CBS domain-containing protein [Acetivibrio thermocellus]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>WP_011837983.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52358.1 hypothetical protein Cthe_1126 [Acetivibrio thermocellus ATCC
+27405]
+Length=157
+
+ Score = 26.9 bits (58),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 20/86 (23%), Positives = 44/86 (51%), Gaps = 11/86 (13%)
+
+Query  284  HGNTYIVSCGEYGRNL--GSLSMTQKQDGRWELTSYEL------IPVSEDVKPDQATQEQ  335
+            + N+ I  CG Y +N      ++TQ++     + SY L      + +++D   +  T+E+
+Sbjct  14   YSNSIINECGGYFQNKIEKDEALTQEE---LTIASYLLSYLPTQVKLTKDELKNYFTKEE  70
+
+Query  336  IDALMDTVDKNYLADFGYTREEVLAE  361
+               L+   +  YL++F   +E++++E
+Sbjct  71   AFMLISLFNSTYLSNFSSAKEKLISE  96
+
+
+>NLU26319.1 CBS domain-containing protein [Acetivibrio thermocellus]
+Length=789
+
+ Score = 27.7 bits (60),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  548  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  586
+
+
+>WP_207670215.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+Length=165
+
+ Score = 26.9 bits (58),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 22/45 (49%), Gaps = 3/45 (7%)
+
+Query  138  LEAAKASGETVPALVVCNVDWDNMEQDGLSDGQKQIRSAFEAYGV  182
+            LEAA  SG   P L   +   +   QDG+  G+ Q+R    A GV
+Sbjct  80   LEAADESG---PPLWTLDTLAEAARQDGIEVGRSQVRRILLAEGV  121
+
+
+>THJ76398.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+Length=200
+
+ Score = 26.9 bits (58),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 17/45 (38%), Positives = 22/45 (49%), Gaps = 3/45 (7%)
+
+Query  138  LEAAKASGETVPALVVCNVDWDNMEQDGLSDGQKQIRSAFEAYGV  182
+            LEAA  SG   P L   +   +   QDG+  G+ Q+R    A GV
+Sbjct  115  LEAADESG---PPLWTLDTLAEAARQDGIEVGRSQVRRILLAEGV  156
+
+
+>WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ ADU73905.1 tryptophan synthase, beta subunit [Acetivibrio thermocellus DSM
+1313]
+ ALX07844.1 Tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+ ANV75589.1 Tryptophan synthase beta chain [Acetivibrio thermocellus DSM
+2360]
+ EIC03210.1 Tryptophan synthase beta chain [Acetivibrio thermocellus YS]
+ PFH02115.1 tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+Length=394
+
+ Score = 26.9 bits (58),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 24/78 (31%), Positives = 39/78 (50%), Gaps = 13/78 (17%)
+
+Query  44   HDTHSHLNS------FSTIVDGEQKEVGGFARIKTLIDEKKQEDPDTLV--LDGGDFSMG  95
+            HDTH  L S      F TIV   Q  +G    IK  I EK+ + PD ++  + GG  ++G
+Sbjct  180  HDTHYVLGSVMGPHPFPTIVRDFQSVIG--REIKKQIMEKEGKLPDVVMACVGGGSNAIG  237
+
+Query  96   TLIQTVYETEAAELRMLG  113
+               + + ++    +R++G
+Sbjct  238  AFYEFIGDS---SVRLIG  252
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.134    0.383
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 60792
+Number of extensions: 2930
+Number of successful extensions: 25
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 7
+Length of query: 657
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 562
+Effective length of database: 2069853
+Effective search space: 1163257386
+Effective search space used: 1163257386
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

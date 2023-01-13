@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+ruk Hungateiclostridiaceae bacterium KB18 	
+rbp Ruminococcaceae bacterium CPB6 	
+cce Ruminiclostridium cellulolyticum 	
+rher Ruminiclostridium herbifermentans 	
+css Thermoclostridium stercorarium subsp. stercorarium DSM 8532 	
+csd Thermoclostridium stercorarium subsp. stercorarium DSM 8532 	
+cthd Pseudoclostridium thermosuccinogenes 	
+esr Eubacterium siraeum V10Sc8a 	
+esu Eubacterium siraeum 70/3 	
+ccel Clostridium cellulosi 	

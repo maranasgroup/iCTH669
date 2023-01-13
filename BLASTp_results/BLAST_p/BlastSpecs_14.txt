@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+hmo Heliobacterium modesticaldum
+hcv Heliorestis convoluta
+elm Eubacterium callanderi
+emt Eubacterium maltosivorans
+elim Eubacterium limosum
+awo Acetobacterium woodii
+alka Alkalibacter sp. ES005
+tmr Thermaerobacter marianensis
+thef Thermaerobacter sp. FW80
+thep Thermaerobacter sp. PB12/4term
+say Sulfobacillus acidophilus TPY

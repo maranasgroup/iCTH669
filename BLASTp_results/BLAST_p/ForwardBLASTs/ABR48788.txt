@@ -1,0 +1,267 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W7DP9BK013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABR48788 5'-nucleotidase [Alkaliphilus metalliredigens]
+
+Length=254
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_020457671.1 mannose-1-phosphate guanyltransferase [Acetivib...  28.1    1.4    25%
+WP_003513956.1 mannose-1-phosphate guanyltransferase [Acetivib...  28.1    1.5    25%
+WP_003516592.1 ribonucleoside triphosphate reductase [Acetivib...  27.7    2.1    22%
+WP_003512174.1 triose-phosphate isomerase [Acetivibrio thermoc...  26.9    2.9    23%
+WP_003514647.1 50S ribosomal protein L5 [Acetivibrio thermocel...  25.4    6.5    25%
+WP_037295074.1 hypothetical protein [Acetivibrio thermocellus]     24.6    6.8    44%
+ABN54113.1 ribosomal protein L5 [Acetivibrio thermocellus ATCC...  25.4    7.1    25%
+WP_020458046.1 TrkH family potassium uptake protein [Acetivibr...  25.4    9.7    48%
+NLU28005.1 TrkH family potassium uptake protein [Acetivibrio t...  25.0    9.8    48%
+WP_003511748.1 TrkH family potassium uptake protein [Acetivibr...  25.4    9.9    48%
+
+ALIGNMENTS
+>WP_020457671.1 mannose-1-phosphate guanyltransferase [Acetivibrio thermocellus]
+ ABN53179.1 Nucleotidyl transferase [Acetivibrio thermocellus ATCC 27405]
+ HBW27196.1 nucleotidyltransferase [Acetivibrio thermocellus]
+Length=816
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 46/110 (42%), Gaps = 14/110 (13%)
+
+Query  83   LLKDRKPTVVVSGINNGPNLGTDVLYSGTVSAAVEAAILDLPSIAVSMATSKIDQYNHAA  142
+            + K     VV S   N   +      SG +S  VE  + +L S+   +A        HA
+Sbjct  412  IFKKGSKVVVSSTTANSARMFKHAFISGILSVGVE--VFNLSSLLTPLA-------RHAI  462
+
+Query  143  EFICKLLSNTLHIEELSDTIINVNYPTIAYSEIKGVKVTNLGIRKYENAF  192
+             F+   +   +HI+   D   N N   + + + KG  ++ +  RK EN+F
+Sbjct  463  NFLS--VEGGIHIKLSED---NPNKLKVDFMDSKGASISRVTERKIENSF  507
+
+
+>WP_003513956.1 mannose-1-phosphate guanyltransferase [Acetivibrio thermocellus]
+ CDG36480.1 Nucleotidyl transferase [Acetivibrio thermocellus BC1]
+ ADU75633.1 Nucleotidyl transferase [Acetivibrio thermocellus DSM 1313]
+ ALX09627.1 Mannose-1-phosphate guanylyltransferase, Phosphoglucosamine mutase
+[Acetivibrio thermocellus AD2]
+ ANV77401.1 Mannose-1-phosphate guanylyltransferase, Phosphoglucosamine mutase
+[Acetivibrio thermocellus DSM 2360]
+ EIC04404.1 Nucleotidyl transferase [Acetivibrio thermocellus YS]
+Length=816
+
+ Score = 28.1 bits (61),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 46/110 (42%), Gaps = 14/110 (13%)
+
+Query  83   LLKDRKPTVVVSGINNGPNLGTDVLYSGTVSAAVEAAILDLPSIAVSMATSKIDQYNHAA  142
+            + K     VV S   N   +      SG +S  VE  + +L S+   +A        HA
+Sbjct  412  IFKKGSKVVVSSTTANSARMFKHAFISGILSVGVE--VFNLSSLLTPLA-------RHAI  462
+
+Query  143  EFICKLLSNTLHIEELSDTIINVNYPTIAYSEIKGVKVTNLGIRKYENAF  192
+             F+   +   +HI+   D   N N   + + + KG  ++ +  RK EN+F
+Sbjct  463  NFLS--VEGGIHIKLSED---NPNKLKVDFMDSKGASISRVTERKIENSF  507
+
+
+>WP_003516592.1 ribonucleoside triphosphate reductase [Acetivibrio thermocellus]
+ CDG35339.1 anaerobic ribonucleoside triphosphate reductase [Acetivibrio
+thermocellus BC1]
+ ABN51881.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74641.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08584.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus AD2]
+ ANV76333.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 2360]
+Length=696
+
+ Score = 27.7 bits (60),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 18/81 (22%), Positives = 39/81 (48%), Gaps = 4/81 (5%)
+
+Query  15   GIYVLAKSLQDVGEVIVVAPNTERSAVGHGITMHHPLRMAGVRFFDTSIEAYSVNGTPAD  74
+            GI  + ++L++     +  P  ++ A    I + H LR   + F + +   Y++  TPA+
+Sbjct  484  GIVGMNEALKNFMGKDITTPEGQKFA----IDIMHYLRDILLEFQNETGHFYNLEATPAE  539
+
+Query  75   CIKIAIEVLLKDRKPTVVVSG  95
+                 +  + K+R P ++ +G
+Sbjct  540  GTSYRLAKIDKERYPDIITAG  560
+
+
+>WP_003512174.1 triose-phosphate isomerase [Acetivibrio thermocellus]
+ A3DBQ1.1 RecName: Full=Triosephosphate isomerase; Short=TIM; Short=TPI;
+AltName: Full=Triose-phosphate isomerase [Acetivibrio thermocellus
+ATCC 27405]
+ CDG34821.1 Triosephosphate isomerase [Acetivibrio thermocellus BC1]
+ ABN51380.1 triosephosphate isomerase [Acetivibrio thermocellus ATCC 27405]
+ ADU75134.1 triosephosphate isomerase [Acetivibrio thermocellus DSM 1313]
+ ALX09109.1 Triosephosphate isomerase, bacterial/eukaryotic [Acetivibrio
+thermocellus AD2]
+ ANV76861.1 Triosephosphate isomerase, bacterial/eukaryotic [Acetivibrio
+thermocellus DSM 2360]
+Length=251
+
+ Score = 26.9 bits (58),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 25/107 (23%), Positives = 46/107 (43%), Gaps = 19/107 (18%)
+
+Query  41   VGHGITMHHPLRMAGVRFFDTSIEAYSVNGTPADCIKIAIEVLLKDRKPTVVVSGINNGP  100
+            V   +  + P+   G     T+ +A  V G   +CIK   E+  +D    + +
+Sbjct  159  VKEAVIAYEPIWAIGTGKTATNEQAEEVCGIIRECIK---ELYGQDVAEAIRIQ------  209
+
+Query  101  NLGTDVLYSGTVSAAVEAAILDLPSI---AVSMATSKIDQYNHAAEF  144
+                   Y G+V+AA  A + ++P+I    V  A+ K+D +   A++
+Sbjct  210  -------YGGSVNAANAAELFNMPNIDGGLVGGASLKLDDFEKIAKY  249
+
+
+>WP_003514647.1 50S ribosomal protein L5 [Acetivibrio thermocellus]
+ CDG37407.1 50S ribosomal protein L5 [Acetivibrio thermocellus BC1]
+ ADU73546.1 50S ribosomal protein L5 [Acetivibrio thermocellus DSM 1313]
+ ALX07468.1 Ribosomal protein L5 [Acetivibrio thermocellus AD2]
+ ANV75207.1 Ribosomal protein L5 [Acetivibrio thermocellus DSM 2360]
+ EIC03436.1 ribosomal protein L5 [Acetivibrio thermocellus YS]
+Length=180
+
+ Score = 25.4 bits (54),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 36/79 (46%), Gaps = 9/79 (11%)
+
+Query  115  AVEAAILDLPSIA-----VSMATSKIDQYN--HAAEFICKLLSNTLHIEELSDTIINVNY  167
+            A+EAA+ D+  I+     V+ A   +  +         CK+      + E +D +INV+
+Sbjct  49   AIEAAVNDMALISGQKPVVTKAKKSVAGFKIRQGMSIGCKVTLRGNKMYEFADKLINVSL  108
+
+Query  168  PTIAYSEIKGVKVTNLGIR  186
+            P +   + +GV V +   R
+Sbjct  109  PRV--RDFRGVPVNSFDGR  125
+
+
+>WP_037295074.1 hypothetical protein [Acetivibrio thermocellus]
+ NLU26996.1 hypothetical protein [Acetivibrio thermocellus]
+ HBW27386.1 hypothetical protein [Acetivibrio thermocellus]
+Length=92
+
+ Score = 24.6 bits (52),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 3/36 (8%)
+
+Query  147  KLLSNTL--HIEELSDTIINVNYPTIAYSEIKGVKV  180
+            KLL N +  +IE LSD I N  YP   + ++KG K+
+Sbjct  4    KLLKNYVDGNIEFLSDEI-NWIYPRKLFKDVKGKKI  38
+
+
+>ABN54113.1 ribosomal protein L5 [Acetivibrio thermocellus ATCC 27405]
+Length=182
+
+ Score = 25.4 bits (54),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 36/79 (46%), Gaps = 9/79 (11%)
+
+Query  115  AVEAAILDLPSIA-----VSMATSKIDQYN--HAAEFICKLLSNTLHIEELSDTIINVNY  167
+            A+EAA+ D+  I+     V+ A   +  +         CK+      + E +D +INV+
+Sbjct  51   AIEAAVNDMALISGQKPVVTKAKKSVAGFKIRQGMSIGCKVTLRGNKMYEFADKLINVSL  110
+
+Query  168  PTIAYSEIKGVKVTNLGIR  186
+            P +   + +GV V +   R
+Sbjct  111  PRV--RDFRGVPVNSFDGR  127
+
+
+>WP_020458046.1 TrkH family potassium uptake protein [Acetivibrio thermocellus]
+ ABN54379.1 cation transporter [Acetivibrio thermocellus ATCC 27405]
+ HBW25924.1 TrkH family potassium uptake protein [Acetivibrio thermocellus]
+Length=483
+
+ Score = 25.4 bits (54),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  51   LRMAGVRFFDTSIEAYSVNGT  71
+            L++AG+  FD+ + A+SV GT
+Sbjct  197  LKIAGLPIFDSMLNAFSVAGT  217
+
+
+>NLU28005.1 TrkH family potassium uptake protein [Acetivibrio thermocellus]
+Length=266
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  51   LRMAGVRFFDTSIEAYSVNGT  71
+            L++AG+  FD+ + A+SV GT
+Sbjct  197  LKIAGLPIFDSMLNAFSVAGT  217
+
+
+>WP_003511748.1 TrkH family potassium uptake protein [Acetivibrio thermocellus]
+ ADU73811.1 cation transporter [Acetivibrio thermocellus DSM 1313]
+ ALX07744.1 cation transporter [Acetivibrio thermocellus AD2]
+ ANV75486.1 cation transporter [Acetivibrio thermocellus DSM 2360]
+ EIC05702.1 cation transporter [Acetivibrio thermocellus YS]
+ PFH02012.1 trk system potassium uptake protein TrkH [Acetivibrio thermocellus
+AD2]
+Length=483
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  51   LRMAGVRFFDTSIEAYSVNGT  71
+            L++AG+  FD+ + A+SV GT
+Sbjct  197  LKIAGLPIFDSMLNAFSVAGT  217
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.135    0.383
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20232
+Number of extensions: 885
+Number of successful extensions: 16
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 4
+Length of query: 254
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 167
+Effective length of database: 2134357
+Effective search space: 356437619
+Effective search space used: 356437619
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

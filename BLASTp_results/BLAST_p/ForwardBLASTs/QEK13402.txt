@@ -1,0 +1,310 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UK6P9Z601N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= QEK13402 dTMP kinase [Crassaminicella thermophila]
+
+Length=225
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       293     3e-102  63%
+WP_003519118.1 methyl-accepting chemotaxis protein [Acetivibri...  28.1    0.88    31%
+NLU28224.1 chemotaxis protein [Acetivibrio thermocellus]           28.1    0.91    31%
+WP_011838032.1 methyl-accepting chemotaxis protein [Acetivibri...  28.1    0.92    31%
+ADU75314.1 hypothetical protein Clo1313_2285 [Acetivibrio ther...  26.6    2.5     55%
+WP_037295002.1 hypothetical protein [Acetivibrio thermocellus]     26.6    2.6     55%
+WP_041734267.1 hypothetical protein [Acetivibrio thermocellus]     26.2    3.2     55%
+WP_003516419.1 copper amine oxidase N-terminal domain-containi...  26.6    3.3     45%
+ABN52749.1 hypothetical protein Cthe_1521 [Acetivibrio thermoc...  26.2    3.3     55%
+CDG36188.1 hypothetical protein CTHBC1_1547 [Acetivibrio therm...  26.2    3.5     55%
+NLU26648.1 hypothetical protein [Acetivibrio thermocellus]         25.8    3.9     55%
+WP_011838146.1 hypothetical protein [Acetivibrio thermocellus]     25.8    6.1     32%
+WP_011838287.1 IS110 family transposase [Acetivibrio thermocel...  25.8    6.3     22%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 293 bits (751),  Expect = 3e-102, Method: Compositional matrix adjust.
+ Identities = 141/223 (63%), Positives = 177/223 (79%), Gaps = 0/223 (0%)
+
+Query  1    MKGKLFVIESGVDASGKATQSEKLYKRLIDDGRKVKKITFPNYESQSSALVKMYLNGDFG  60
+            MKGKL +IESG DASGKATQ+ KLY+RL+ +G KVKKITFPNY+S SSALVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  61   QKADDVNPYTASTFYAVDRFASYVTEWKDFYQNGGIIIADRYTTSNMVHQASKFDCKEEK  120
+            +  +DV+PY ASTFYAVDRFASY TEW   Y +G II+ADRYTTSNMVHQA+K    EEK
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  121  LDFLEWLWDLEFIKMKLPIPDEVIFLNMNLEVSYQLIKNRSNKITGQIEKDIHERDFEYL  180
+              FL+WLW+ EF   KLP+PD VIFL+M    S +L+K R+NK TG+ +KDIHER+ EYL
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+
+Query  181  QKTYENALWVAKQYHWFEINCTQNDMLKSIEEIHEEIYQKVKA  223
+             ++Y N+L+VAK+Y+W +I C ++ +LK I+EI +E+Y+ V
+Sbjct  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSG  223
+
+
+>WP_003519118.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ADU74090.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX08028.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75775.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC06048.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+ NIK04428.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=256
+
+ Score = 28.1 bits (61),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 33/68 (49%), Gaps = 13/68 (19%)
+
+Query  20   QSEKLYKRLIDDGRKVKKI---TFPNYESQSSALVKMYLNGDFGQKADDVNPYTASTFYA  76
+            QSEKL K+L DD + +K +   T   +E+ SS +       D     +++N     +F A
+Sbjct  189  QSEKLIKKLEDDIQAIKSVMGQTLSEFEATSSEI------SDISNVLEELNK----SFQA  238
+
+Query  77   VDRFASYV  84
+            +  FA  V
+Sbjct  239  ISDFAEDV  246
+
+
+>NLU28224.1 chemotaxis protein [Acetivibrio thermocellus]
+Length=256
+
+ Score = 28.1 bits (61),  Expect = 0.91, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 33/68 (49%), Gaps = 13/68 (19%)
+
+Query  20   QSEKLYKRLIDDGRKVKKI---TFPNYESQSSALVKMYLNGDFGQKADDVNPYTASTFYA  76
+            QSEKL K+L DD + +K +   T   +E+ SS +       D     +++N     +F A
+Sbjct  189  QSEKLIKKLEDDIQAIKSVMGQTLSEFEATSSEI------SDISNVLEELNK----SFQA  238
+
+Query  77   VDRFASYV  84
+            +  FA  V
+Sbjct  239  ISDFAEDV  246
+
+
+>WP_011838032.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN52466.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ THJ78866.1 chemotaxis protein [Acetivibrio thermocellus]
+ CDG35905.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+BC1]
+ HBW28277.1 chemotaxis protein [Acetivibrio thermocellus]
+Length=256
+
+ Score = 28.1 bits (61),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 33/68 (49%), Gaps = 13/68 (19%)
+
+Query  20   QSEKLYKRLIDDGRKVKKI---TFPNYESQSSALVKMYLNGDFGQKADDVNPYTASTFYA  76
+            QSEKL K+L DD + +K +   T   +E+ SS +       D     +++N     +F A
+Sbjct  189  QSEKLIKKLEDDIQAIKSVMGQTLSEFEATSSEI------SDISNVLEELNK----SFQA  238
+
+Query  77   VDRFASYV  84
+            +  FA  V
+Sbjct  239  ISDFAEDV  246
+
+
+>ADU75314.1 hypothetical protein Clo1313_2285 [Acetivibrio thermocellus DSM
+1313]
+ ALX09306.1 hypothetical protein AD2_02318 [Acetivibrio thermocellus AD2]
+ ANV77058.1 hypothetical protein LQRI_2317 [Acetivibrio thermocellus DSM
+2360]
+ EIC04774.1 hypothetical protein YSBL_1607 [Acetivibrio thermocellus YS]
+ NIK05727.1 hypothetical protein [Acetivibrio thermocellus]
+Length=192
+
+ Score = 26.6 bits (57),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64   DDVNPYT-ASTFYAVDRFASYV  84
+            D VNPYT A++ YA++R  SY+
+Sbjct  94   DIVNPYTGATSIYAMNRTISYI  115
+
+
+>WP_037295002.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76659.1 hypothetical protein EPD62_15365 [Acetivibrio thermocellus]
+Length=190
+
+ Score = 26.6 bits (57),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64   DDVNPYT-ASTFYAVDRFASYV  84
+            D VNPYT A++ YA++R  SY+
+Sbjct  92   DIVNPYTGATSIYAMNRTISYI  113
+
+
+>WP_041734267.1 hypothetical protein [Acetivibrio thermocellus]
+Length=178
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64   DDVNPYT-ASTFYAVDRFASYV  84
+            D VNPYT A++ YA++R  SY+
+Sbjct  80   DIVNPYTGATSIYAMNRTISYI  101
+
+
+>WP_003516419.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ CDG36947.1 copper amine oxidase-like protein [Acetivibrio thermocellus BC1]
+ ABN53626.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73154.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX07067.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV74803.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=276
+
+ Score = 26.6 bits (57),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 13/29 (45%), Positives = 18/29 (62%), Gaps = 3/29 (10%)
+
+Query  44  ESQSSALVKMYLNG---DFGQKADDVNPY  69
+           +S +S  VK+Y NG   +FG  A+D  PY
+Sbjct  28  QSIASTNVKVYFNGKLMEFGTSANDPAPY  56
+
+
+>ABN52749.1 hypothetical protein Cthe_1521 [Acetivibrio thermocellus ATCC
+27405]
+Length=171
+
+ Score = 26.2 bits (56),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64  DDVNPYT-ASTFYAVDRFASYV  84
+           D VNPYT A++ YA++R  SY+
+Sbjct  73  DIVNPYTGATSIYAMNRTISYI  94
+
+
+>CDG36188.1 hypothetical protein CTHBC1_1547 [Acetivibrio thermocellus BC1]
+Length=188
+
+ Score = 26.2 bits (56),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64   DDVNPYT-ASTFYAVDRFASYV  84
+            D VNPYT A++ YA++R  SY+
+Sbjct  90   DIVNPYTGATSIYAMNRTISYI  111
+
+
+>NLU26648.1 hypothetical protein [Acetivibrio thermocellus]
+Length=152
+
+ Score = 25.8 bits (55),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 17/22 (77%), Gaps = 1/22 (5%)
+
+Query  64  DDVNPYT-ASTFYAVDRFASYV  84
+           D VNPYT A++ YA++R  SY+
+Sbjct  73  DIVNPYTGATSIYAMNRTISYI  94
+
+
+>WP_011838146.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52842.1 tail tape measure protein TP901 core region [Acetivibrio thermocellus
+ATCC 27405]
+Length=762
+
+ Score = 25.8 bits (55),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 20/62 (32%), Positives = 27/62 (44%), Gaps = 10/62 (16%)
+
+Query  10   SGVDASGKATQSEKLYKRLIDDGRKVKKITFPNYESQSSALVKMYLNGDFGQKADDVNPY  69
+            S  DA+G    SE +Y   ID   KV        E++  AL        FG+ A ++NP
+Sbjct  262  SVTDANGNLRDSEAVYWETIDALGKVSN------ETERDALAMQI----FGKSAQELNPL  311
+
+Query  70   TA  71
+             A
+Sbjct  312  IA  313
+
+
+>WP_011838287.1 IS110 family transposase [Acetivibrio thermocellus]
+ ABN53105.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53686.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 17/77 (22%), Positives = 38/77 (49%), Gaps = 9/77 (12%)
+
+Query  155  QLIKNRSNKITGQIEKDIHERDFEYLQKTYENALWVAKQYHWFEINCTQN--------DM  206
+             ++K   NK+   I+K+   R  ++    YE     AK++    I+ + N         M
+Sbjct  191  HILKANRNKLIALIQKN-SRRSLKWATAKYELLNSKAKEFAPLSISNSSNVAMLGVYISM  249
+
+Query  207  LKSIEEIHEEIYQKVKA  223
+            +K++EE  E++++ +++
+Sbjct  250  IKTLEENLEKVFKAIRS  266
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.318    0.134    0.397
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 13582
+Number of extensions: 630
+Number of successful extensions: 9
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 9
+Number of HSP's successfully gapped: 1
+Length of query: 225
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 139
+Effective length of database: 2157177
+Effective search space: 299847603
+Effective search space used: 299847603
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

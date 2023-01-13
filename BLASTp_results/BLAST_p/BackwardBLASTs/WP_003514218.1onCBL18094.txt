@@ -1,0 +1,229 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V4RB7XU01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_015559000.1 deoxynucleoside kinase [Ruminococcus champanell...  185     8e-60  44%
+WP_015557924.1 guanylate kinase [Ruminococcus champanellensis]     26.6    1.00   32%
+WP_242855060.1 hypothetical protein [Ruminococcus champanellen...  26.2    1.6    36%
+WP_015557795.1 DEAD/DEAH box helicase family protein [Ruminoco...  26.6    1.6    36%
+WP_015559223.1 signal recognition particle protein [Ruminococc...  25.4    2.9    38%
+WP_054685884.1 hypothetical protein [Ruminococcus champanellen...  24.6    3.6    39%
+WP_015558640.1 alpha-glucosidase [Ruminococcus champanellensis]    25.0    4.5    26%
+WP_015558331.1 signal recognition particle-docking protein Fts...  24.6    5.9    40%
+WP_015557227.1 RNA polymerase sporulation sigma factor SigE [R...  23.9    9.6    28%
+WP_041326267.1 GNAT family N-acetyltransferase [Ruminococcus c...  23.5    9.9    33%
+
+ALIGNMENTS
+>WP_015559000.1 deoxynucleoside kinase [Ruminococcus champanellensis]
+ CBL18094.1 thymidylate kinase [Ruminococcus champanellensis 18P13 = JCM
+17042]
+Length=234
+
+ Score = 185 bits (469),  Expect = 8e-60, Method: Compositional matrix adjust.
+ Identities = 98/221 (44%), Positives = 139/221 (63%), Gaps = 6/221 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+++ G D  GK+TQ   L +R+ Q G  V  I+FP+YD  SSALVK+YLNG+
+Sbjct  5    GKLIVLD-GLDGCGKSTQFQLLSQRMEQAGIPVLPISFPDYDHPSSALVKLYLNGEISPH  63
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+              DV+ Y AS+FYAVDR+ASY+  W Q Y  G  ILA RY TSN +HQ +K+   +E D
+Sbjct  64   AGDVNAYAASSFYAVDRYASYKRCWEQPYQQGTTILASRYVTSNAIHQMSKLP-RQEWDD  122
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEYLV  181
+            +L+WL  +E++  +LP PD V+FLDMP S +++L+ +R   + G E KKDIHE +  Y+
+Sbjct  123  YLEWLSAYEYDKLELPRPDLVLFLDMPVSAAQKLLCDR---YGGDETKKDIHESDVAYME  179
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVS  222
+                 +LY A++  W  I C +D     ++EI   V++ V
+Sbjct  180  RCRDAALYAAQQQGWQVIPCSRDAQPLTVEEIGDRVWKVVC  220
+
+
+>WP_015557924.1 guanylate kinase [Ruminococcus champanellensis]
+ CBL17017.1 guanylate kinase [Ruminococcus champanellensis 18P13 = JCM 17042]
+Length=201
+
+ Score = 26.6 bits (57),  Expect = 1.00, Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 25/59 (42%), Gaps = 7/59 (12%)
+
+Query  139  VPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWI  197
+             PD V     PPS   E ++ R NK   E  + I ER     V      L  A +Y++I
+Sbjct  113  CPDAVFLFIAPPSV--EELRRRLNKRGTEAAEVIEER-----VSQAARELSYADRYDYI  164
+
+
+>WP_242855060.1 hypothetical protein [Ruminococcus champanellensis]
+Length=224
+
+ Score = 26.2 bits (56),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 21/47 (45%), Gaps = 7/47 (15%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGV  206
+            R +KFT E+K D  ER  E   E       VA       I C+ +GV
+Sbjct  74   RVSKFTSEEKSDERERIKEEFAEGKHLQALVA-------IRCLDEGV  113
+
+
+>WP_015557795.1 DEAD/DEAH box helicase family protein [Ruminococcus champanellensis]
+ CBL16888.1 DNA or RNA helicases of superfamily II [Ruminococcus champanellensis
+18P13 = JCM 17042]
+Length=722
+
+ Score = 26.6 bits (57),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 21/47 (45%), Gaps = 7/47 (15%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGV  206
+            R +KFT E+K D  ER  E   E       VA       I C+ +GV
+Sbjct  572  RVSKFTSEEKSDERERIKEEFAEGKHLQALVA-------IRCLDEGV  611
+
+
+>WP_015559223.1 signal recognition particle protein [Ruminococcus champanellensis]
+ CBL18317.1 signal recognition particle subunit FFH/SRP54 (srp54) [Ruminococcus
+champanellensis 18P13 = JCM 17042]
+Length=460
+
+ Score = 25.4 bits (54),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  6    IIIESGADASGKATQTNKLYERLVQEGYK  34
+            +I+  G   SGK T   KL + L +EG++
+Sbjct  103  VIMMCGLQGSGKTTHAAKLAKYLKREGHR  131
+
+
+>WP_054685884.1 hypothetical protein [Ruminococcus champanellensis]
+Length=134
+
+ Score = 24.6 bits (52),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 18/36 (50%), Gaps = 1/36 (3%)
+
+Query  143  VIFLDMPPSFSRELMKERANK-FTGEQKKDIHERND  177
+            V  LD+PP  +R +M+E   K  T    KD    ND
+Sbjct  97   VCELDVPPEEARAIMEETCRKHLTESGDKDGKTEND  132
+
+
+>WP_015558640.1 alpha-glucosidase [Ruminococcus champanellensis]
+ CBL17734.1 Alpha-glucosidases, family 31 of glycosyl hydrolases [Ruminococcus
+champanellensis 18P13 = JCM 17042]
+Length=659
+
+ Score = 25.0 bits (53),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 25/61 (41%), Gaps = 14/61 (23%)
+
+Query  134  IYKLPVPDCVIFLDMPPS--------------FSRELMKERANKFTGEQKKDIHERNDEY  179
+            +Y  P P   +  D+PPS              F+  L  E      GEQ + I++R  +Y
+Sbjct  6    LYGTPFPTNAVVTDIPPSTEQLPFFETDSKGTFTYPLQNEDIVYGLGEQIRGINKRGWQY  65
+
+Query  180  L  180
+            +
+Sbjct  66   V  66
+
+
+>WP_015558331.1 signal recognition particle-docking protein FtsY [Ruminococcus
+champanellensis]
+ CBL17424.1 signal recognition particle-docking protein FtsY [Ruminococcus
+champanellensis 18P13 = JCM 17042]
+Length=319
+
+ Score = 24.6 bits (52),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  6    IIIESGADASGKATQTNKLYERLVQEGYKV  35
+            II+  G + +GK T   KL  +  Q+G KV
+Sbjct  102  IILVIGVNGAGKTTTIGKLCHQYKQQGKKV  131
+
+
+>WP_015557227.1 RNA polymerase sporulation sigma factor SigE [Ruminococcus champanellensis]
+ CBL16319.1 RNA polymerase, sigma 29 subunit, SigE [Ruminococcus champanellensis
+18P13 = JCM 17042]
+Length=232
+
+ Score = 23.9 bits (50),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 20/47 (43%), Gaps = 3/47 (6%)
+
+Query  148  MPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKY  194
+            +PP  S+E     A  F      D        +V + R  +Y+AKK+
+Sbjct  28   LPPPLSKE---AEAEAFARLGTGDAESARQTLIVHNLRLVVYIAKKF  71
+
+
+>WP_041326267.1 GNAT family N-acetyltransferase [Ruminococcus champanellensis]
+Length=157
+
+ Score = 23.5 bits (49),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 24/52 (46%), Gaps = 6/52 (12%)
+
+Query  147  DMPPSFSRELMKERANKFTGEQ--KKDIHERNDEYLVESYRNSLYVAKKYNW  196
+            D  PSF+  L+KE  N   G +  K  +HE  D      Y+ S    +K N+
+Sbjct  84   DETPSFAISLLKEYRNYGIGTELMKTMLHELRD----CGYKQSSLAVQKQNY  131
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 1,110,796
+  Number of sequences in database:  3,845
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 3845
+Number of Hits to DB: 6046
+Number of extensions: 273
+Number of successful extensions: 15
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 10
+Length of query: 227
+Length of database: 1110796
+Length adjustment: 79
+Effective length of query: 148
+Effective length of database: 807041
+Effective search space: 119442068
+Effective search space used: 119442068
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 30 (16.2 bits)
+S2: 41 (20.4 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,116 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZJGPMS016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ANU55009 5'-nucleotidase [Hungateiclostridiaceae bacterium]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517935.1 exodeoxyribonuclease III [Acetivibrio thermocel...  25.4    8.2    23%
+NLU25910.1 exodeoxyribonuclease III [Acetivibrio thermocellus]     25.4    9.0    23%
+
+ALIGNMENTS
+>WP_003517935.1 exodeoxyribonuclease III [Acetivibrio thermocellus]
+ CDG35172.1 Exodeoxyribonuclease [Acetivibrio thermocellus BC1]
+ ABN51696.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus ATCC 27405]
+ ADU74819.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus DSM 1313]
+ ALX08772.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus AD2]
+ ANV76523.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus DSM 2360]
+Length=251
+
+ Score = 25.4 bits (54),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 20/88 (23%), Positives = 36/88 (41%), Gaps = 23/88 (26%)
+
+Query  64   AWAVSGTPADCTRLGLMNF----------------APGPVDLVIAGPNRGCNLSQDLLYS  107
+            +W V+G  A C   G +++                 PG ++L + G ++  N ++   YS
+Sbjct  6    SWNVNGLRA-CINKGFLDYFKKADADIFCIQESKVQPGQIELELDGYHQYWNYAERKGYS  64
+
+Query  108  GTVAAALEAAMMGVKAIALSAPIDADDH  135
+            GT      A    +K + +   I  D+H
+Sbjct  65   GT------AVFTRIKPLCVQNGIGIDEH  86
+
+
+>NLU25910.1 exodeoxyribonuclease III [Acetivibrio thermocellus]
+Length=251
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 20/88 (23%), Positives = 36/88 (41%), Gaps = 23/88 (26%)
+
+Query  64   AWAVSGTPADCTRLGLMNF----------------APGPVDLVIAGPNRGCNLSQDLLYS  107
+            +W V+G  A C   G +++                 PG ++L + G ++  N ++   YS
+Sbjct  6    SWNVNGLRA-CINKGFLDYFKKADADIFCIQESKVQPGQIELELDGYHQYWNYAERKGYS  64
+
+Query  108  GTVAAALEAAMMGVKAIALSAPIDADDH  135
+            GT      A    +K + +   I  D+H
+Sbjct  65   GT------AVFTRIKPLYVQNGIGIDEH  86
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.139    0.447
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16015
+Number of extensions: 700
+Number of successful extensions: 11
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 3
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

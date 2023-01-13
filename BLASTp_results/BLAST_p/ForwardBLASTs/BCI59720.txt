@@ -1,0 +1,344 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WJ12KSS013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCI59720 5'-nucleotidase [Solibaculum mannosilyticum]
+
+Length=597
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]   35.4    0.018  24%
+WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]   34.7    0.025  24%
+CDG37445.1 hypothetical protein CTHBC1_2868 [Acetivibrio therm...  29.3    0.33   30%
+ABN54153.1 hypothetical protein Cthe_2955 [Acetivibrio thermoc...  29.3    0.38   30%
+WP_003512318.1 metallophosphoesterase [Acetivibrio thermocellus]   30.4    0.57   27%
+NLU26361.1 metallophosphoesterase [Acetivibrio thermocellus]       30.4    0.59   27%
+WP_003520694.1 recombinase family protein [Acetivibrio thermoc...  27.7    5.7    22%
+ANV75254.1 hypothetical protein LQRI_0509 [Acetivibrio thermoc...  27.3    5.8    28%
+WP_003518584.1 signal recognition particle-docking protein Fts...  27.3    7.2    33%
+WP_136479672.1 recombinase family protein [Acetivibrio thermoc...  27.3    7.2    22%
+WP_235825074.1 signal recognition particle-docking protein Fts...  26.9    7.4    33%
+WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetiv...  26.6    9.2    25%
+WP_136479124.1 DNA repair exonuclease [Acetivibrio thermocellus]   26.9    9.5    24%
+WP_003513248.1 DNA repair exonuclease [Acetivibrio thermocellus]   26.9    9.5    24%
+
+ALIGNMENTS
+>CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+Length=273
+
+ Score = 35.4 bits (80),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 63/148 (43%), Gaps = 23/148 (16%)
+
+Query  4    MKRLWSLVLSAAMVCTTLLGG----------TSALAQEGDASDEVTVK-VVHTNDIHGRS  52
+            MKR W++ LS    C  +L            T    ++GD  +    K +V  +DIH
+Sbjct  1    MKRKWNIFLSILTACILILAYMFIEPYWLKITYMEIRDGDIPNSFDGKRIVFVSDIH---  57
+
+Query  53   GYQEGTAFGFEKLATLIQQ---EDPDLVLDAGDLFHGQAFATLEEGESIAELVKAVG-YD  108
+                G  F  +++  L+++    +PD++   GD             E ++ L  ++G Y
+Sbjct  58   ---HGPFFSGKRVRNLVKKINNLNPDIIFVGGDYVEKGGQYIKPCFEELSGLKASLGKYG  114
+
+Query  109  AMTPGNHDWNYGKDRLKELGNVAGLPIL  136
+             +  GNHD+    D +++    AG+ +L
+Sbjct  115  VL--GNHDYYRNGDLVRQSMREAGITLL  140
+
+
+>WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]
+ ABN53371.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75808.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09840.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+ ANV77614.1 metallophosphoesterase [Acetivibrio thermocellus DSM 2360]
+ EIC03645.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=273
+
+ Score = 34.7 bits (78),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 62/148 (42%), Gaps = 23/148 (16%)
+
+Query  4    MKRLWSLVLSAAMVCTTLLGG----------TSALAQEGDASDEVTVK-VVHTNDIHGRS  52
+            MKR W++ LS    C  +L            T    ++GD  +    K +V  +DIH
+Sbjct  1    MKRKWNIFLSILTACILILAYMFIEPYWLKITYMEIRDGDIPNSFDGKRIVFVSDIH---  57
+
+Query  53   GYQEGTAFGFEKLATLIQQ---EDPDLVLDAGDLFHGQAFATLEEGESIAELVKAVG-YD  108
+                G  F  +++  L+++    +PD++   GD             E ++ L   +G Y
+Sbjct  58   ---HGPFFSGKRVRNLVKKINNLNPDIIFVGGDYVEKGGQYIKPCFEELSGLKAPLGKYG  114
+
+Query  109  AMTPGNHDWNYGKDRLKELGNVAGLPIL  136
+             +  GNHD+    D +++    AG+ +L
+Sbjct  115  VL--GNHDYYRNGDLVRQSMREAGITLL  140
+
+
+>CDG37445.1 hypothetical protein CTHBC1_2868 [Acetivibrio thermocellus BC1]
+Length=72
+
+ Score = 29.3 bits (64),  Expect = 0.33, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 28/53 (53%), Gaps = 4/53 (8%)
+
+Query  92   LEEGESIAELVKAVGYDAMTPGNH----DWNYGKDRLKELGNVAGLPILAGNI  140
+             EEG++I+++ K  G+D  T  N+    DWN    +LK+  + + L     +I
+Sbjct  15   FEEGKNISQIAKETGHDRKTVRNYLYKEDWNKELPKLKKQPSFSKLEPFKADI  67
+
+
+>ABN54153.1 hypothetical protein Cthe_2955 [Acetivibrio thermocellus ATCC
+27405]
+Length=79
+
+ Score = 29.3 bits (64),  Expect = 0.38, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 28/53 (53%), Gaps = 4/53 (8%)
+
+Query  92   LEEGESIAELVKAVGYDAMTPGNH----DWNYGKDRLKELGNVAGLPILAGNI  140
+             EEG++I+++ K  G+D  T  N+    DWN    +LK+  + + L     +I
+Sbjct  22   FEEGKNISQIAKETGHDRKTVRNYLYKEDWNKELPKLKKQPSFSKLEPFKADI  74
+
+
+>WP_003512318.1 metallophosphoesterase [Acetivibrio thermocellus]
+ CDG34898.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+ ABN51459.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75058.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ANV76782.1 Calcineurin-like phosphoesterase superfamily domain containing
+protein [Acetivibrio thermocellus DSM 2360]
+ EIC04933.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=268
+
+ Score = 30.4 bits (67),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 34/81 (42%), Gaps = 15/81 (19%)
+
+Query  41   KVVHTNDIHGRSGYQEGTAFGFEKLATLIQQEDPDLVLDAGDLF----HGQAFATLEEGE  96
+            K+VH +D+H +            K+  +++ E PDLV+  GD      H  AF    E
+Sbjct  40   KIVHMSDLHIKF-----LNVDINKVVKVLETEKPDLVVLTGDYIDNPKHIPAFIKFLES-  93
+
+Query  97   SIAELVKAVGYDAMTPGNHDW  117
+                 +K      +  GNHD+
+Sbjct  94   -----IKGNYKICLCFGNHDY  109
+
+
+>NLU26361.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=268
+
+ Score = 30.4 bits (67),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 34/81 (42%), Gaps = 15/81 (19%)
+
+Query  41   KVVHTNDIHGRSGYQEGTAFGFEKLATLIQQEDPDLVLDAGDLF----HGQAFATLEEGE  96
+            K+VH +D+H +            K+  +++ E PDLV+  GD      H  AF    E
+Sbjct  40   KIVHMSDLHIKF-----LNVDINKVVKVLETEKPDLVVLTGDYIDNPKHIPAFIKFLES-  93
+
+Query  97   SIAELVKAVGYDAMTPGNHDW  117
+                 +K      +  GNHD+
+Sbjct  94   -----IKGNYKICLCFGNHDY  109
+
+
+>WP_003520694.1 recombinase family protein [Acetivibrio thermocellus]
+ ADU75393.1 Resolvase domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX09391.1 Resolvase domain-containing protein [Acetivibrio thermocellus
+AD2]
+ ANV77145.1 Resolvase domain-containing protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04515.1 Resolvase domain-containing protein [Acetivibrio thermocellus
+YS]
+ PFH03668.1 DNA invertase Pin-like site-specific DNA recombinase [Acetivibrio
+thermocellus AD2]
+Length=522
+
+ Score = 27.7 bits (60),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 24/107 (22%), Positives = 45/107 (42%), Gaps = 7/107 (7%)
+
+Query  230  VMIAGHEHVVLDESYPDADGKPVKVVEAGCYFENVGILSITYDPSEDAVVSMEEEVISAS  289
+            ++  G+ H +    + +  GK   V       EN G+        ED   +++E+++ A
+Sbjct  331  MVFCGNCHEIFRRVHWNNRGKKSIVWRCVSRLENTGLFCTASTILED---TLKEKIVEAI  387
+
+Query  290  QAGDVASDETVSALLGNIQERQAAQLTQVVGSTGRDLDGRWEELRVE  336
+                   +  ++ L  NI+   +  L +    T  D+D R EEL+ E
+Sbjct  388  NVAVSGKNSFLAILKKNIETVLSVDLDE----TTADIDKRLEELQTE  430
+
+
+>ANV75254.1 hypothetical protein LQRI_0509 [Acetivibrio thermocellus DSM
+2360]
+ EIC03389.1 hypothetical protein YSBL_2877 [Acetivibrio thermocellus YS]
+ PFH01779.1 transposase [Acetivibrio thermocellus AD2]
+ SOD27098.1 Transposase [Acetivibrio thermocellus]
+Length=310
+
+ Score = 27.3 bits (59),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 28/53 (53%), Gaps = 4/53 (8%)
+
+Query  92   LEEGESIAELVKAVGYDAMTPGNH----DWNYGKDRLKELGNVAGLPILAGNI  140
+             EEG++I+++ K  G+D  T  N+    +WN    +LK+  + + L     +I
+Sbjct  15   FEEGKNISQIAKETGHDRKTVRNYLYKENWNKELPKLKKQPSFSKLEPFKADI  67
+
+
+>WP_003518584.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+ CDG35619.1 Signal recognition particle receptor FtsY [Acetivibrio thermocellus
+BC1]
+ ABN52160.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74354.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus DSM 1313]
+ ALX08298.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus AD2]
+ ANV76046.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus DSM 2360]
+Length=302
+
+ Score = 27.3 bits (59),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query  48   IHGRSGYQEGTAFGFEKLATLIQQEDPDLVLDAGDLFHGQAFATLE  93
+            + G +G  + T+ G  K+A L++ +   ++L AGD F   A   LE
+Sbjct  106  VVGVNGVGKTTSIG--KIANLLKSQGKKVILAAGDTFRAAAIDQLE  149
+
+
+>WP_136479672.1 recombinase family protein [Acetivibrio thermocellus]
+ THJ76755.1 recombinase family protein [Acetivibrio thermocellus]
+Length=522
+
+ Score = 27.3 bits (59),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 24/107 (22%), Positives = 45/107 (42%), Gaps = 7/107 (7%)
+
+Query  230  VMIAGHEHVVLDESYPDADGKPVKVVEAGCYFENVGILSITYDPSEDAVVSMEEEVISAS  289
+            ++  G+ H +    + +  GK   V       EN G+        ED   +++E+++ A
+Sbjct  331  MVFCGNCHEIFRRVHWNNRGKKSIVWRCVSRLENTGLFCTASTILED---TLKEKIVEAI  387
+
+Query  290  QAGDVASDETVSALLGNIQERQAAQLTQVVGSTGRDLDGRWEELRVE  336
+                   +  ++ L  NI+   +  L +    T  D+D R EEL+ E
+Sbjct  388  NVAVSGKNTFLAILKKNIETVLSVDLDE----TTADIDKRLEELQTE  430
+
+
+>WP_235825074.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+Length=308
+
+ Score = 26.9 bits (58),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 25/46 (54%), Gaps = 2/46 (4%)
+
+Query  48   IHGRSGYQEGTAFGFEKLATLIQQEDPDLVLDAGDLFHGQAFATLE  93
+            + G +G  + T+ G  K+A L++ +   ++L AGD F   A   LE
+Sbjct  112  VVGVNGVGKTTSIG--KIANLLKSQGKKVILAAGDTFRAAAIDQLE  155
+
+
+>WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetivibrio thermocellus]
+ CDG35786.1 putative protein ymdB [Acetivibrio thermocellus BC1]
+ ABN52322.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU74187.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX08130.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+AD2]
+ ANV75877.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+DSM 2360]
+Length=260
+
+ Score = 26.6 bits (57),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 35/79 (44%), Gaps = 8/79 (10%)
+
+Query  40   VKVVHTNDIHGRSGYQEGTAFGFEKLATLIQQEDPDLVLDAGDLFHGQAFATLEEGESIA  99
+            +K++   DI G  G +       E +  L ++   D  +  G+   G +  T      +A
+Sbjct  1    MKILFIGDIFGNPGRKAAK----EMVQKLKKERQIDFCIANGENAAGGSGITY----VVA  52
+
+Query  100  ELVKAVGYDAMTPGNHDWN  118
+            + +   G DA+T GNH W+
+Sbjct  53   QELYKYGIDAITLGNHTWS  71
+
+
+>WP_136479124.1 DNA repair exonuclease [Acetivibrio thermocellus]
+ THJ79191.1 DNA repair exonuclease [Acetivibrio thermocellus]
+Length=381
+
+ Score = 26.9 bits (58),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 22/93 (24%), Positives = 46/93 (49%), Gaps = 17/93 (18%)
+
+Query  39   TVKVVHTNDIHGRSGYQE-GTAFG-----------FEKLATLIQQEDPDLVLDAGDLFHG  86
+            ++K +H +DIH  + +   G+ F            F ++  L ++E  D++L +GDL+
+Sbjct  3    SLKFLHFSDIHLDAPFSSLGSKFAAEQRRRDLLEVFGRIIDLAKKEAVDIILISGDLYEH  62
+
+Query  87   QAF--ATLEE-GESIAELVKAVGYDAMTPGNHD  116
+            +    +T+    +  +E+ +   +  + PGNHD
+Sbjct  63   EYVRKSTIHYINKKFSEIPETKVF--IVPGNHD  93
+
+
+>WP_003513248.1 DNA repair exonuclease [Acetivibrio thermocellus]
+ CDG36934.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+ ABN53613.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU73142.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX07053.1 Calcineurin-like phosphoesterase superfamily domain containing
+protein [Acetivibrio thermocellus AD2]
+ ANV74789.1 Calcineurin-like phosphoesterase superfamily domain containing
+protein [Acetivibrio thermocellus DSM 2360]
+Length=381
+
+ Score = 26.9 bits (58),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 22/93 (24%), Positives = 46/93 (49%), Gaps = 17/93 (18%)
+
+Query  39   TVKVVHTNDIHGRSGYQE-GTAFG-----------FEKLATLIQQEDPDLVLDAGDLFHG  86
+            ++K +H +DIH  + +   G+ F            F ++  L ++E  D++L +GDL+
+Sbjct  3    SLKFLHFSDIHLDAPFSSLGSKFAAEQRRRDLLEVFGRIIDLAKKEAVDIILISGDLYEH  62
+
+Query  87   QAF--ATLEE-GESIAELVKAVGYDAMTPGNHD  116
+            +    +T+    +  +E+ +   +  + PGNHD
+Sbjct  63   EYVRKSTIHYINKKFSEIPETKVF--IVPGNHD  93
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.313    0.132    0.374
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 44119
+Number of extensions: 2017
+Number of successful extensions: 23
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 6
+Length of query: 597
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 502
+Effective length of database: 2069853
+Effective search space: 1039066206
+Effective search space used: 1039066206
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

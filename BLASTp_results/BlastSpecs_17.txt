@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+tmt Thermoanaerobacter mathranii 	
+tbo Thermoanaerobacter brockii 	
+twi Thermoanaerobacter wiegelii 	
+tki Thermoanaerobacter kivui 	
+chy Carboxydothermus hydrogenoformans 	
+mta Moorella thermoacetica ATCC 39073 	
+mtho Moorella thermoacetica DSM 521 	
+mthz Moorella thermoacetica DSM 2955 	
+adg Ammonifex degensii 	
+tpz Thermacetogenium phaeum 	
+gek Gelria sp. Kuro-4 	

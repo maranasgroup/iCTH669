@@ -1,0 +1,341 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8VAFPX0801N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_138157399.1 thymidylate kinase [Ruminococcus bovis]             217     7e-73  50%
+WP_138156238.1 adenylyl-sulfate kinase [Ruminococcus bovis]        27.3    0.44   27%
+WP_138155980.1 DUF975 family protein [Ruminococcus bovis]          26.2    1.3    35%
+WP_138156727.1 pyruvate:ferredoxin (flavodoxin) oxidoreductase...  26.2    1.4    24%
+WP_175405363.1 extracellular solute-binding protein [Ruminococ...  25.8    1.8    28%
+QCT06485.1 extracellular solute-binding protein [Ruminococcus ...  25.8    1.9    27%
+WP_138156809.1 glycogen/starch/alpha-glucan phosphorylase [Rum...  25.0    3.0    35%
+WP_138156320.1 cytidylate kinase-like family protein [Ruminoco...  24.6    3.1    40%
+WP_138156920.1 Hsp20/alpha crystallin family protein [Ruminoco...  24.3    3.4    35%
+WP_138155983.1 ATP-binding protein [Ruminococcus bovis]            24.6    3.7    21%
+WP_138156993.1 hypothetical protein [Ruminococcus bovis]           24.3    4.4    37%
+WP_138157845.1 methionine gamma-lyase family protein [Ruminoco...  24.3    5.1    30%
+WP_138156155.1 EFR1 family ferrodoxin [Ruminococcus bovis]         23.9    5.9    33%
+WP_138157281.1 DUF262 domain-containing protein [Ruminococcus ...  23.9    6.9    41%
+WP_138157843.1 nucleoside deaminase [Ruminococcus bovis]           23.1    8.5    30%
+WP_138156039.1 F0F1 ATP synthase subunit A [Ruminococcus bovis]    23.1    9.5    28%
+WP_138157475.1 hypothetical protein [Ruminococcus bovis]           23.5    9.6    38%
+WP_138156621.1 hypothetical protein [Ruminococcus bovis]           22.3    9.9    50%
+
+ALIGNMENTS
+>WP_138157399.1 thymidylate kinase [Ruminococcus bovis]
+ QCT07374.1 thymidylate kinase [Ruminococcus bovis]
+Length=221
+
+ Score = 217 bits (553),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 111/223 (50%), Positives = 153/223 (69%), Gaps = 4/223 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GK+I+IE G D SGKATQT+ LY++L+ EG  VKK+TFP YDSDSSALVKMYL G+ G
+Sbjct  1    MAGKIIVIE-GLDGSGKATQTDLLYKKLLSEGKNVKKLTFPCYDSDSSALVKMYLGGELG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DPN V+PY AS FYAVDR AS+  +W   Y++G I L DRY+TSN ++Q +K+ +  E
+Sbjct  60   DDPNLVNPYTASAFYAVDRVASFLKDWKNDYDNGTIFLCDRYSTSNPIYQLSKLNE-NEY  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +L+WL +FE    ++P PD V++L+MP   S++LM +R N    E +KDIHE+N  +L
+Sbjct  119  DEYLEWLNDFEHIKLEIPAPDFVLYLNMPIEVSQKLMAKRYN--GDENRKDIHEKNISFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSG  223
+             + + ++ Y A K  W  ++C  +G  + I+EI  EVY  V G
+Sbjct  177  EKCHSSAKYCADKLGWEVVDCAFNGEPRSIEEISNEVYSKVKG  219
+
+
+>WP_138156238.1 adenylyl-sulfate kinase [Ruminococcus bovis]
+ QCT06146.1 adenylyl-sulfate kinase [Ruminococcus bovis]
+Length=207
+
+ Score = 27.3 bits (59),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 25/91 (27%), Positives = 38/91 (42%), Gaps = 23/91 (25%)
+
+Query  10   SGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPY  69
+            +G   SGK+T  N++ +RLV  G     +     D D+   V+M LN + G
+Sbjct  44   TGLSGSGKSTLANEIEKRLVAMGKHTMLL-----DGDN---VRMGLNNNLG---------  86
+
+Query  70   VASTFYAVDRFASYR--TEWGQAYNDGWIIL  98
+                F   DR  + R   E  +  ND  +I+
+Sbjct  87   ----FSDEDRVENIRRIAETAKLMNDAGLIV  113
+
+
+>WP_138155980.1 DUF975 family protein [Ruminococcus bovis]
+ QCT05873.1 DUF975 family protein [Ruminococcus bovis]
+Length=627
+
+ Score = 26.2 bits (56),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 20/34 (59%), Gaps = 0/34 (0%)
+
+Query  47  SSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRF  80
+           S+ +VK + +     D   VSP+VA+T+  +D F
+Sbjct  38  STDIVKAFTSDTSQTDITSVSPFVANTYSLIDNF  71
+
+
+>WP_138156727.1 pyruvate:ferredoxin (flavodoxin) oxidoreductase [Ruminococcus
+bovis]
+ QCT06675.1 pyruvate:ferredoxin (flavodoxin) oxidoreductase [Ruminococcus
+bovis]
+Length=1186
+
+ Score = 26.2 bits (56),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 38/78 (49%), Gaps = 2/78 (3%)
+
+Query  148  MPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVL  207
+            +P   +++ +K+ A K   ++ + I + N + +     N + V     W    CV D V
+Sbjct  573  IPAEDAKQYLKDAATKSYSKKGQAIVDMNHKAIDMGMENFVKVEVPAEWSN--CVDDSVE  630
+
+Query  208  KKIDEIQKEVYEAVSGII  225
+              + E ++EV + V+GI+
+Sbjct  631  HVVTEGREEVVKYVNGIL  648
+
+
+>WP_175405363.1 extracellular solute-binding protein [Ruminococcus bovis]
+Length=526
+
+ Score = 25.8 bits (55),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 24/47 (51%), Gaps = 0/47 (0%)
+
+Query  79   RFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLD  125
+            RF ++ + +G  YN      A   + S+ V+  A   +M+E+  F+D
+Sbjct  425  RFITFDSNYGDTYNVTVNKDALNNSISSFVYGGADFDEMKEQQSFMD  471
+
+
+>QCT06485.1 extracellular solute-binding protein [Ruminococcus bovis]
+Length=533
+
+ Score = 25.8 bits (55),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 13/49 (27%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  77   VDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLD  125
+            + RF ++ + +G  YN      A   + S+ V+  A   +M+E+  F+D
+Sbjct  430  MQRFITFDSNYGDTYNVTVNKDALNNSISSFVYGGADFDEMKEQQSFMD  478
+
+
+>WP_138156809.1 glycogen/starch/alpha-glucan phosphorylase [Ruminococcus bovis]
+ QCT06755.1 glycogen/starch/alpha-glucan phosphorylase [Ruminococcus bovis]
+Length=785
+
+ Score = 25.0 bits (53),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 18/51 (35%), Positives = 25/51 (49%), Gaps = 3/51 (6%)
+
+Query  180  LVESYRNSLYVAKKYN---WIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            LV   R + YV    N   WI  E +KD VLK+  E+  E ++  +  I Q
+Sbjct  386  LVHMARLACYVGSYVNGVAWIHTEILKDDVLKEWYELYPERFQNKTNGITQ  436
+
+
+>WP_138156320.1 cytidylate kinase-like family protein [Ruminococcus bovis]
+ QCT06233.1 cytidylate kinase-like family protein [Ruminococcus bovis]
+Length=207
+
+ Score = 24.6 bits (52),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 17/35 (49%), Gaps = 0/35 (0%)
+
+Query  86   EWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            +WGQ  N    I + R T  N+V   A   DM EK
+Sbjct  173  KWGQPQNYDLCINSSRMTQENVVDIIANYVDMLEK  207
+
+
+>WP_138156920.1 Hsp20/alpha crystallin family protein [Ruminococcus bovis]
+ QCT06840.1 Hsp20/alpha crystallin family protein [Ruminococcus bovis]
+Length=147
+
+ Score = 24.3 bits (51),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 11/31 (35%), Positives = 18/31 (58%), Gaps = 1/31 (3%)
+
+Query  150  PSFSRELMKERANKFTGE-QKKDIHERNDEY  179
+            P F+R++ K+   K   +  K D+HE +D Y
+Sbjct  19   PDFNRDVEKKLYGKHAAQIMKTDVHEHDDHY  49
+
+
+>WP_138155983.1 ATP-binding protein [Ruminococcus bovis]
+ QCT05876.1 ATP-binding protein [Ruminococcus bovis]
+Length=334
+
+ Score = 24.6 bits (52),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/90 (21%), Positives = 36/90 (40%), Gaps = 6/90 (7%)
+
+Query  7    IIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDV  66
+            I+  GA   GK   +  +   ++Q G+ V  ++ P      S L K +   D+  +   +
+Sbjct  192  IMMRGATGLGKTHLSLAIANEVIQNGFGVIYVSAPML---LSTLEKSHFKYDYDTEEETI  248
+
+Query  67   SPYVASTFYAVDRFASYRTEWGQAYNDGWI  96
+            +  V      +D      TE+  +Y+   I
+Sbjct  249  NSLVTCDLLIIDDLG---TEFQSSYSTSTI  275
+
+
+>WP_138156993.1 hypothetical protein [Ruminococcus bovis]
+ QCT06915.1 hypothetical protein E5Z56_05850 [Ruminococcus bovis]
+Length=264
+
+ Score = 24.3 bits (51),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 3/38 (8%)
+
+Query  190  VAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            V+  Y     EC KDG +K  D     VY++   II+Q
+Sbjct  72   VSHAYPLESFECDKDGTIKSGD---INVYDSNHNIIKQ  106
+
+
+>WP_138157845.1 methionine gamma-lyase family protein [Ruminococcus bovis]
+ QCT07867.1 hypothetical protein E5Z56_11100 [Ruminococcus bovis]
+Length=417
+
+ Score = 24.3 bits (51),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 36/82 (44%), Gaps = 14/82 (17%)
+
+Query  135  YKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKY  194
+            Y  PVPD     D+P   S+ +M   A  FT      I    D  L E +  ++++   +
+Sbjct  348  YVTPVPD-----DLPGYDSKVIMA--AGTFT--LGSSIELSADAPLREPF--AVWMQGSF  396
+
+Query  195  NWIKIECVKDGVLKKIDEIQKE  216
+            N+    C K GVL   D I K+
+Sbjct  397  NF---HCGKTGVLIAADRILKK  415
+
+
+>WP_138156155.1 EFR1 family ferrodoxin [Ruminococcus bovis]
+ QCT06057.1 hypothetical protein E5Z56_01165 [Ruminococcus bovis]
+Length=247
+
+ Score = 23.9 bits (50),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 24/42 (57%), Gaps = 4/42 (10%)
+
+Query  134  IYKLPVPDCVIFLDMPPS-FSRELMK---ERANKFTGEQKKD  171
+            +YKL +P+       PPS +S+ ++K   ++ NK   E K+D
+Sbjct  103  VYKLKMPENYTLTFTPPSIYSKLVLKNSHKKINKIIAELKQD  144
+
+
+>WP_138157281.1 DUF262 domain-containing protein [Ruminococcus bovis]
+ QCT07238.1 DUF262 domain-containing protein [Ruminococcus bovis]
+Length=927
+
+ Score = 23.9 bits (50),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 20/29 (69%), Gaps = 5/29 (17%)
+
+Query  154  RELMKERANKFTGEQKKDIHERNDEYLVE  182
+            +E+M++ A+  TGE +KDI     +YL+E
+Sbjct  4    QEIMRDIASGLTGENEKDI-----QYLME  27
+
+
+>WP_138157843.1 nucleoside deaminase [Ruminococcus bovis]
+ QCT07865.1 nucleoside deaminase [Ruminococcus bovis]
+Length=151
+
+ Score = 23.1 bits (48),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 19/54 (35%), Gaps = 4/54 (7%)
+
+Query  93   DGWIILADRYT---TSNMVHQAAKIKDMEEKDRFLDW-LWNFEFEIYKLPVPDC  142
+            DG +I     T   T N +H A  I           W LW  E  +   P P C
+Sbjct  32   DGVVIAKAHNTREKTKNALHHAEVIAIDNACKELSGWRLWQCEMYVTMEPCPMC  85
+
+
+>WP_138156039.1 F0F1 ATP synthase subunit A [Ruminococcus bovis]
+ QCT05937.1 F0F1 ATP synthase subunit A [Ruminococcus bovis]
+Length=230
+
+ Score = 23.1 bits (48),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 11/40 (28%), Positives = 20/40 (50%), Gaps = 4/40 (10%)
+
+Query  95   WIILADRYTTSNMVHQAAKIKDMEEKDRFLD----WLWNF  130
+            WII+A       ++ +  ++K+   K  FL+    WL+ F
+Sbjct  36   WIIMAVFLALCLILVRNLRVKNPSRKQVFLEFCVNWLYKF  75
+
+
+>WP_138157475.1 hypothetical protein [Ruminococcus bovis]
+ QCT07467.1 hypothetical protein E5Z56_08930 [Ruminococcus bovis]
+Length=2149
+
+ Score = 23.5 bits (49),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 18/34 (53%), Gaps = 4/34 (12%)
+
+Query  18    ATQTNKLYERLVQEGYKVKKITFPNYDSDSSALV  51
+             AT T+K+     QEG     +T PNY  +S  +V
+Sbjct  1585  ATDTDKVIGTYYQEG----SVTIPNYTENSGKIV  1614
+
+
+>WP_138156621.1 hypothetical protein [Ruminococcus bovis]
+ QCT06559.1 hypothetical protein E5Z56_03925 [Ruminococcus bovis]
+Length=92
+
+ Score = 22.3 bits (46),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 14/24 (58%), Gaps = 2/24 (8%)
+
+Query  59  FGKDPNDVSPY--VASTFYAVDRF  80
+           F  +PNDVS Y  +AS   AV  F
+Sbjct  57  FSLEPNDVSTYSGMASCLVAVVGF  80
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 767,394
+  Number of sequences in database:  2,464
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 2464
+Number of Hits to DB: 2169
+Number of extensions: 102
+Number of successful extensions: 2
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 2
+Number of HSP's successfully gapped: 1
+Length of query: 227
+Length of database: 767394
+Length adjustment: 77
+Effective length of query: 150
+Effective length of database: 577666
+Effective search space: 86649900
+Effective search space used: 86649900
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 30 (16.2 bits)
+S2: 40 (20.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,199 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZFGEVX016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AET68834 5'-nucleotidase [Desulfosporosinus orientis]
+
+Length=253
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG34933.1 histidine kinase [Acetivibrio thermocellus BC1]         28.1    1.3    28%
+WP_003518163.1 substrate-binding domain-containing protein [Ac...  28.1    1.3    28%
+NLU27651.1 substrate-binding domain-containing protein [Acetiv...  28.1    1.3    28%
+WP_136479388.1 substrate-binding domain-containing protein [Ac...  28.1    1.3    28%
+NLU27192.1 IS256 family transposase [Acetivibrio thermocellus]     26.2    5.7    35%
+NLU27297.1 rubrerythrin family protein [Acetivibrio thermocellus]  25.8    6.5    30%
+WP_003517401.1 Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase su...  25.8    7.2    31%
+
+ALIGNMENTS
+>CDG34933.1 histidine kinase [Acetivibrio thermocellus BC1]
+Length=712
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  108  YSGTVSAAMEGVILGIPALAVSVASYEFVNFEPSAEYLAESLDHIVQGHQTGLLNINFPG  167
+            YS   +  ++G+I+    +A  ++  EFV F    E +      IV  H T +L  N PG
+Sbjct  59   YSFVDNTRLDGIIITSATIACFISDEEFVEFCKRYEGIPLVSLGIVVPHATSILVDNKPG  118
+
+Query  168  NPRESWSGIKVTRLGRAVY  186
+               +    IK     + VY
+Sbjct  119  MKSQVEHLIKDHGFKKIVY  137
+
+
+>WP_003518163.1 substrate-binding domain-containing protein [Acetivibrio thermocellus]
+ ABN51495.1 histidine kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75020.1 histidine kinase [Acetivibrio thermocellus DSM 1313]
+ ALX08988.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+AD2]
+Length=712
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  108  YSGTVSAAMEGVILGIPALAVSVASYEFVNFEPSAEYLAESLDHIVQGHQTGLLNINFPG  167
+            YS   +  ++G+I+    +A  ++  EFV F    E +      IV  H T +L  N PG
+Sbjct  59   YSFVDNTRLDGIIITSATIACFISDEEFVEFCKRYEGIPLVSLGIVVPHATSILVDNKPG  118
+
+Query  168  NPRESWSGIKVTRLGRAVY  186
+               +    IK     + VY
+Sbjct  119  MKSQVEHLIKDHGFKKIVY  137
+
+
+>NLU27651.1 substrate-binding domain-containing protein [Acetivibrio thermocellus]
+Length=712
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  108  YSGTVSAAMEGVILGIPALAVSVASYEFVNFEPSAEYLAESLDHIVQGHQTGLLNINFPG  167
+            YS   +  ++G+I+    +A  ++  EFV F    E +      IV  H T +L  N PG
+Sbjct  59   YSFVDNTRLDGIIITSATIACFISDEEFVEFCKRYEGIPLVSLGIVVPHATSILVDNKPG  118
+
+Query  168  NPRESWSGIKVTRLGRAVY  186
+               +    IK     + VY
+Sbjct  119  MKSQVEHLIKDHGFKKIVY  137
+
+
+>WP_136479388.1 substrate-binding domain-containing protein [Acetivibrio thermocellus]
+ THJ78080.1 histidine kinase [Acetivibrio thermocellus]
+Length=712
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  108  YSGTVSAAMEGVILGIPALAVSVASYEFVNFEPSAEYLAESLDHIVQGHQTGLLNINFPG  167
+            YS   +  ++G+I+    +A  ++  EFV F    E +      IV  H T +L  N PG
+Sbjct  59   YSFVDNTRLDGIIITSATIACFISDEEFVEFCKRYEGIPLVSLGIVVPHATSILVDNKPG  118
+
+Query  168  NPRESWSGIKVTRLGRAVY  186
+               +    IK     + VY
+Sbjct  119  MKSQVEHLIKDHGFKKIVY  137
+
+
+>NLU27192.1 IS256 family transposase [Acetivibrio thermocellus]
+Length=408
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query  114  AAMEGVILGIPALAVSVASYEFVNFEPSAEYLAE---SLDHIVQGHQTGLLN-INFP  166
+            A ME V+ G+    +   +YE    E S   ++E   +LD IVQG  +  LN   FP
+Sbjct  106  ALMEMVVNGVSTRKIEEITYELCGSEFSRSTISELCKNLDPIVQGWISRPLNEKRFP  162
+
+
+>NLU27297.1 rubrerythrin family protein [Acetivibrio thermocellus]
+Length=292
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 13/44 (30%), Positives = 23/44 (52%), Gaps = 0/44 (0%)
+
+Query  207  NLSKDLDEDTDLRAIQENYISITPMHSDLTDFKRIENYKKTFQK  250
+            N   D D    L+  Q+N I+  P++S L+ F + E+  K  ++
+Sbjct  2    NYKIDADTIESLKKAQKNEITEYPIYSKLSSFIKTEHNSKVLKQ  45
+
+
+>WP_003517401.1 Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA [Acetivibrio
+thermocellus]
+ ADU75332.1 glutamyl-tRNA(Gln) amidotransferase, A subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX09325.1 Glutamyl-tRNA(Gln) amidotransferase subunit A [Acetivibrio thermocellus
+AD2]
+ ANV77079.1 Glutamyl-tRNA(Gln) amidotransferase subunit A [Acetivibrio thermocellus
+DSM 2360]
+ EIC04652.1 Glutamyl-tRNA(Gln) amidotransferase subunit A [Acetivibrio thermocellus
+YS]
+ PFH03602.1 aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit A [Acetivibrio
+thermocellus AD2]
+Length=486
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 25/81 (31%), Positives = 35/81 (43%), Gaps = 5/81 (6%)
+
+Query  144  YLAESLDHIVQGHQTGLLNINFPG-NPR---ESWSGIKVTRLGRAVYDNVFERRVNPRGR  199
+            YLAE LD  V+G + G+    F G NP    +    IK+     AV +N+    +
+Sbjct  244  YLAECLDRDVKGMRIGVAEEFFDGINPEIKSKIEEAIKLFERNGAVIENIRLPALKLALP  303
+
+Query  200  VYY-WQCGNLSKDLDEDTDLR  219
+            VYY   C   S +L     +R
+Sbjct  304  VYYIIACAEASSNLGRYDGIR  324
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.135    0.396
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16387
+Number of extensions: 689
+Number of successful extensions: 13
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 6
+Length of query: 253
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 166
+Effective length of database: 2134357
+Effective search space: 354303262
+Effective search space used: 354303262
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,562 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBFNBJX016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= UAG19423 5'-nucleotidase [Paraclostridium bifermentans]
+
+Length=1217
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      35.4    0.047  24%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      35.0    0.062  24%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      35.0    0.064  24%
+WP_041734212.1 aminobenzoate synthetase [Acetivibrio thermocel...  32.0    0.23   30%
+WP_003518944.1 para-aminobenzoate synthase [Acetivibrio thermo...  32.0    0.23   30%
+CDG34705.1 para-aminobenzoate synthase component I [Acetivibri...  30.8    0.59   30%
+WP_003511618.1 tRNA threonylcarbamoyladenosine dehydratase [Ac...  30.0    1.8    29%
+WP_003519740.1 tRNA threonylcarbamoyladenosine dehydratase [Ac...  30.0    1.9    29%
+WP_041734506.1 3-isopropylmalate dehydratase small subunit [Ac...  28.9    3.3    28%
+WP_011838073.1 ferrous iron transport protein B [Acetivibrio t...  29.6    3.7    42%
+WP_003520743.1 ferrous iron transport protein B [Acetivibrio t...  29.3    3.8    42%
+ABN53412.1 3-isopropylmalate dehydratase, small subunit [Aceti...  28.5    4.2    28%
+WP_003520446.1 3-isopropylmalate dehydratase small subunit [Ac...  28.1    5.8    28%
+WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetiv...  28.5    5.8    25%
+WP_136479170.1 polynucleotide kinase-phosphatase [Acetivibrio ...  28.5    7.4    26%
+NLU27880.1 polynucleotide kinase-phosphatase [Acetivibrio ther...  28.5    7.8    34%
+WP_003514395.1 polynucleotide kinase-phosphatase [Acetivibrio ...  28.5    7.9    34%
+WP_020457916.1 polynucleotide kinase-phosphatase [Acetivibrio ...  28.5    7.9    34%
+WP_003513006.1 metallophosphatase family protein [Acetivibrio ...  27.3    8.5    37%
+WP_003515480.1 metallophosphatase family protein [Acetivibrio ...  27.3    8.8    37%
+ABN51413.1 hypothetical protein Cthe_0172 [Acetivibrio thermoc...  26.2    9.3    23%
+WP_003518684.1 copper amine oxidase N-terminal domain-containi...  28.1    9.4    23%
+
+ALIGNMENTS
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 35.4 bits (80),  Expect = 0.047, Method: Compositional matrix adjust.
+ Identities = 55/230 (24%), Positives = 98/230 (43%), Gaps = 27/230 (12%)
+
+Query  84   DKDTKNKNIDNSILVDNGDVIQGN---PLSTVYAMNEETKVKPGEKYPV---YEALDILG  137
+            +KD     ++   ++  GDV+ GN   P+++  + +  T +K G KY +    EA++ +
+Sbjct  102  NKDFTYPFLEVRYILRKGDVVFGNLEEPITS--STHSLTGIKEGGKYVLKNDVEAIEGIK  159
+
+Query  138  YDATTLGNHEFNYGLDFLKQITKKNVMRTKLVNANVLDNNGKNIFNPYNIINETVIDSNG  197
+            Y    L N   N+ LD+ +        R      ++LD NG         + E    +
+Sbjct  160  YAGFNLMNLANNHILDYYE--------RGLFDTMDILDKNGIKYAGAGRNLEEARKPAIM  211
+
+Query  198  KKQKVKIGITGVVPPQILNWDKKNLQGKVKVEDMKTSV--------EKITKELKE-KHKV  248
+            + + +K+G+        + + K N   K    + K  V        + I K+++E + KV
+Sbjct  212  EVKSMKVGMLAYTDMAEIVY-KGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKV  270
+
+Query  249  DIVIALAHTGTGESDEHIMNSENAAYQLTKVKGLDVVVAGHSHSTTQTEM  298
+            DI+I   H G  ES E +      A+ L    G+DV++  H H     E+
+Sbjct  271  DILIVSLHWGVEESFEVLPEQREFAHSLID-NGVDVILGHHPHQFQGIEI  319
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 35.0 bits (79),  Expect = 0.062, Method: Compositional matrix adjust.
+ Identities = 53/217 (24%), Positives = 93/217 (43%), Gaps = 27/217 (12%)
+
+Query  97   LVDNGDVIQGN---PLSTVYAMNEETKVKPGEKYPV---YEALDILGYDATTLGNHEFNY  150
+            ++  GDV+ GN   P+++  + +  T +K G KY +    EA++ + Y    L N   N+
+Sbjct  115  ILRKGDVVFGNLEEPITS--STHSLTGIKEGGKYVLKNDVEAIEGIKYAGFNLMNLANNH  172
+
+Query  151  GLDFLKQITKKNVMRTKLVNANVLDNNGKNIFNPYNIINETVIDSNGKKQKVKIGITGVV  210
+             LD+ +        R      ++LD NG         + E    +  + + +K+G+
+Sbjct  173  ILDYYE--------RGLFDTMDILDKNGIKYAGAGRNLEEARKPAIMEVKSMKVGMLAYT  224
+
+Query  211  PPQILNWDKKNLQGKVKVEDMKTSV--------EKITKELKE-KHKVDIVIALAHTGTGE  261
+                + + K N   K    + K  V        + I K+++E + KVDI+I   H G  E
+Sbjct  225  DMAEIVY-KGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKVDILIVSLHWGVEE  283
+
+Query  262  SDEHIMNSENAAYQLTKVKGLDVVVAGHSHSTTQTEM  298
+            S E +      A+ L    G+DV++  H H     E+
+Sbjct  284  SFEVLPEQREFAHSLID-NGVDVILGHHPHQFQGIEI  319
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 35.0 bits (79),  Expect = 0.064, Method: Compositional matrix adjust.
+ Identities = 53/217 (24%), Positives = 93/217 (43%), Gaps = 27/217 (12%)
+
+Query  97   LVDNGDVIQGN---PLSTVYAMNEETKVKPGEKYPV---YEALDILGYDATTLGNHEFNY  150
+            ++  GDV+ GN   P+++  + +  T +K G KY +    EA++ + Y    L N   N+
+Sbjct  115  ILRKGDVVFGNLEEPITS--STHSLTGIKEGGKYVLKNDVEAIEGIKYAGFNLMNLANNH  172
+
+Query  151  GLDFLKQITKKNVMRTKLVNANVLDNNGKNIFNPYNIINETVIDSNGKKQKVKIGITGVV  210
+             LD+ +        R      ++LD NG         + E    +  + + +K+G+
+Sbjct  173  ILDYYE--------RGLFDTMDILDKNGIKYAGAGRNLEEARKPAIMEVKSMKVGMLAYT  224
+
+Query  211  PPQILNWDKKNLQGKVKVEDMKTSV--------EKITKELKE-KHKVDIVIALAHTGTGE  261
+                + + K N   K    + K  V        + I K+++E + KVDI+I   H G  E
+Sbjct  225  DMAEIVY-KGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKVDILIVSLHWGVEE  283
+
+Query  262  SDEHIMNSENAAYQLTKVKGLDVVVAGHSHSTTQTEM  298
+            S E +      A+ L    G+DV++  H H     E+
+Sbjct  284  SFEVLPEQREFAHSLID-NGVDVILGHHPHQFQGIEI  319
+
+
+>WP_041734212.1 aminobenzoate synthetase [Acetivibrio thermocellus]
+ HBW26651.1 hypothetical protein [Acetivibrio thermocellus]
+Length=146
+
+ Score = 32.0 bits (71),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 46/91 (51%), Gaps = 6/91 (7%)
+
+Query  958   LPIDPKNISADKAVTLMVQKAREDVKPLLERKVGFAEEFISRNIEGANGESELGRMIADA  1017
+             + ID K      AV+ +  + RED+  +LERK+    E I +  EG+  +S  G+  A+
+Sbjct  55    IIIDHKCNKVYAAVSSIGFERREDINQVLERKIN---EIIKKVCEGS-VKSTTGKKAAEG  110
+
+Query  1018  QLWAAKEKGEDVQISMMNIGGVRADLQQGDV  1048
+             Q + A     +   S+  IG V+  ++ GD+
+Sbjct  111   QSYVASNFTFEEYCSI--IGKVKEYIKNGDI  139
+
+
+>WP_003518944.1 para-aminobenzoate synthase [Acetivibrio thermocellus]
+ ANV76976.1 Anthranilate synthase component I domain protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04799.1 Anthranilate synthase component I domain protein [Acetivibrio
+thermocellus YS]
+ ALX09224.1 Anthranilate synthase component I domain protein [Acetivibrio
+thermocellus AD2]
+ NLU27848.1 hypothetical protein [Acetivibrio thermocellus]
+ PFH03499.1 para-aminobenzoate synthetase component 1 [Acetivibrio thermocellus
+AD2]
+Length=146
+
+ Score = 32.0 bits (71),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 46/91 (51%), Gaps = 6/91 (7%)
+
+Query  958   LPIDPKNISADKAVTLMVQKAREDVKPLLERKVGFAEEFISRNIEGANGESELGRMIADA  1017
+             + ID K      AV+ +  + RED+  +LERK+    E I +  EG+  +S  G+  A+
+Sbjct  55    IIIDHKCNKVYAAVSSIGFERREDINQVLERKIN---EIIKKVCEGS-VKSTTGKKAAEG  110
+
+Query  1018  QLWAAKEKGEDVQISMMNIGGVRADLQQGDV  1048
+             Q + A     +   S+  IG V+  ++ GD+
+Sbjct  111   QSYVASNFTFEEYCSI--IGKVKEYIKNGDI  139
+
+
+>CDG34705.1 para-aminobenzoate synthase component I [Acetivibrio thermocellus
+BC1]
+Length=152
+
+ Score = 30.8 bits (68),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 24/79 (30%), Positives = 42/79 (53%), Gaps = 6/79 (8%)
+
+Query  970   AVTLMVQKAREDVKPLLERKVGFAEEFISRNIEGANGESELGRMIADAQLWAAKEKGEDV  1029
+             AV+ +  + RED+  +LERK+    E I +  EG+  +S  G+  A+ Q + A     +
+Sbjct  73    AVSSIGFERREDINQVLERKIN---EIIKKVCEGS-VKSTTGKKAAEGQSYVASNFTFEE  128
+
+Query  1030  QISMMNIGGVRADLQQGDV  1048
+               S+  IG V+  ++ GD+
+Sbjct  129   YCSI--IGKVKEYIKNGDI  145
+
+
+>WP_003511618.1 tRNA threonylcarbamoyladenosine dehydratase [Acetivibrio thermocellus]
+ ABN54305.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79080.1 tRNA threonylcarbamoyladenosine dehydratase [Acetivibrio thermocellus]
+ CDG37589.1 UBA/THIF-type NAD/FAD binding fold protein [Acetivibrio thermocellus
+BC1]
+ HBW28036.1 tRNA threonylcarbamoyladenosine dehydratase [Acetivibrio thermocellus]
+Length=254
+
+ Score = 30.0 bits (66),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 56/126 (44%), Gaps = 35/126 (28%)
+
+Query  490  INPTSN----------EDQQLFNPAYRSYNFDSIEGLTYEIDVTKKAKYDSNGNTINQDS  539
+            INP +N          E+   F+ A  SY  D+I+ +T +I++  KAK         +
+Sbjct  88   INPKANVTVHRCFFLPENSDQFDFASYSYIVDAIDTVTAKIELVMKAK---------EFG  138
+
+Query  540  QRISNLKYNGKNLDPNQEFLVVTNNYRASGTFP------------GIKDAQVVYSSPDEN  587
+              I +    G  +DP Q  L V + Y+ S   P            GIK+ +VVYS+ +E
+Sbjct  139  VPIISAMGAGNKIDPTQ--LKVADIYKTS-VCPLARVMRYELRKRGIKNLKVVYST-EEP  194
+
+Query  588  RQAVMD  593
+            R+ V D
+Sbjct  195  RKPVED  200
+
+
+>WP_003519740.1 tRNA threonylcarbamoyladenosine dehydratase [Acetivibrio thermocellus]
+ ADU73741.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07671.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+AD2]
+ ANV75413.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC03287.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+YS]
+ PFH01939.1 tRNA A37 threonylcarbamoyladenosine dehydratase [Acetivibrio
+thermocellus AD2]
+Length=254
+
+ Score = 30.0 bits (66),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 37/126 (29%), Positives = 56/126 (44%), Gaps = 35/126 (28%)
+
+Query  490  INPTSN----------EDQQLFNPAYRSYNFDSIEGLTYEIDVTKKAKYDSNGNTINQDS  539
+            INP +N          E+   F+ A  SY  D+I+ +T +I++  KAK         +
+Sbjct  88   INPKANVTVHRCFFLPENSDQFDFASYSYIVDAIDTVTAKIELVMKAK---------EFG  138
+
+Query  540  QRISNLKYNGKNLDPNQEFLVVTNNYRASGTFP------------GIKDAQVVYSSPDEN  587
+              I +    G  +DP Q  L V + Y+ S   P            GIK+ +VVYS+ +E
+Sbjct  139  VPIISAMGAGNKIDPTQ--LKVADIYKTS-VCPLARVMRYELRKRGIKNLKVVYST-EEP  194
+
+Query  588  RQAVMD  593
+            R+ V D
+Sbjct  195  RKPVED  200
+
+
+>WP_041734506.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus]
+ HBW27710.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus]
+Length=167
+
+ Score = 28.9 bits (63),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 13/79 (16%)
+
+Query  209  VVPPQILNWDKKNLQGKVKVEDMKTSVEKITKELKEKHKVDIVIALAHTGTGESDEHIMN  268
+            ++P + LN    N   K  +ED+ T        + +  K DI++A  + G G S EH
+Sbjct  19   IIPARYLNTSDPNELAKHCMEDIDTEF------VSKVQKGDIIVAGKNFGCGSSREH---  69
+
+Query  269  SENAAYQLTKVKGLDVVVA  287
+                A    K  G+  V+A
+Sbjct  70   ----APIAIKASGISCVIA  84
+
+
+>WP_011838073.1 ferrous iron transport protein B [Acetivibrio thermocellus]
+ ABN52635.1 Ferrous iron transport protein B domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27394.1 ferrous iron transport protein B [Acetivibrio thermocellus]
+Length=716
+
+ Score = 29.6 bits (65),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/45 (42%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  374  GETTKELNSF--FSLVSDNESVELVAQAQKWYAKNKIEQGQDELK  416
+            G   + LN+F  F+L+ DNE  ELV  A+K    N I  GQ++L+
+Sbjct  236  GALLESLNNFLGFNLLDDNELAELVDMAKKHLLNNGI--GQNQLR  278
+
+
+>WP_003520743.1 ferrous iron transport protein B [Acetivibrio thermocellus]
+ CDG36080.1 Ferrous iron transport protein B homolog [Acetivibrio thermocellus
+BC1]
+ ADU73914.1 Ferrous iron transport protein B domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX07852.1 ferrous iron transport protein B [Acetivibrio thermocellus AD2]
+ ANV75597.1 ferrous iron transport protein B [Acetivibrio thermocellus DSM
+2360]
+ EIC03218.1 GTP-binding protein HSR1-related protein [Acetivibrio thermocellus
+YS]
+Length=716
+
+ Score = 29.3 bits (64),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 19/45 (42%), Positives = 27/45 (60%), Gaps = 4/45 (9%)
+
+Query  374  GETTKELNSF--FSLVSDNESVELVAQAQKWYAKNKIEQGQDELK  416
+            G   + LN+F  F+L+ DNE  ELV  A+K    N I  GQ++L+
+Sbjct  236  GALLESLNNFLGFNLLDDNELAELVDMAKKHLLNNGI--GQNQLR  278
+
+
+>ABN53412.1 3-isopropylmalate dehydratase, small subunit [Acetivibrio thermocellus
+ATCC 27405]
+Length=189
+
+ Score = 28.5 bits (62),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 13/79 (16%)
+
+Query  209  VVPPQILNWDKKNLQGKVKVEDMKTSVEKITKELKEKHKVDIVIALAHTGTGESDEHIMN  268
+            ++P + LN    N   K  +ED+ T        + +  K DI++A  + G G S EH
+Sbjct  41   IIPARYLNTSDPNELAKHCMEDIDTEF------VSKVQKGDIIVAGKNFGCGSSREH---  91
+
+Query  269  SENAAYQLTKVKGLDVVVA  287
+                A    K  G+  V+A
+Sbjct  92   ----APIAIKASGISCVIA  106
+
+
+>WP_003520446.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus]
+ CDG36724.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus
+BC1]
+ ADU75863.1 3-isopropylmalate dehydratase, small subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX09895.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus
+AD2]
+ ANV77669.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus
+DSM 2360]
+ EIC03908.1 3-isopropylmalate dehydratase small subunit [Acetivibrio thermocellus
+YS]
+Length=167
+
+ Score = 28.1 bits (61),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 13/79 (16%)
+
+Query  209  VVPPQILNWDKKNLQGKVKVEDMKTSVEKITKELKEKHKVDIVIALAHTGTGESDEHIMN  268
+            ++P + LN    N   K  +ED+ T        + +  K DI++A  + G G S EH
+Sbjct  19   IIPARYLNTSDPNELAKHCMEDIDTEF------VSKVQKGDIMVAGKNFGCGSSREH---  69
+
+Query  269  SENAAYQLTKVKGLDVVVA  287
+                A    K  G+  V+A
+Sbjct  70   ----APIAIKASGISCVIA  84
+
+
+>WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetivibrio thermocellus]
+ CDG35786.1 putative protein ymdB [Acetivibrio thermocellus BC1]
+ ABN52322.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU74187.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX08130.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+AD2]
+ ANV75877.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+DSM 2360]
+Length=260
+
+ Score = 28.5 bits (62),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 44/175 (25%), Positives = 68/175 (39%), Gaps = 38/175 (22%)
+
+Query  124  GEKYPVYEALDILGYDATTLGNHEFNYGLDFLKQITKKNVMRTKLVNANVLDNNGKNIFN  183
+            G  Y V + L   G DA TLGNH +          +KK +M       N +D++  NI
+Sbjct  46   GITYVVAQELYKYGIDAITLGNHTW----------SKKEIM-------NFIDSD-SNIVR  87
+
+Query  184  PYNIINETVIDSNGKKQKVKIGITGVVPPQILNWDKKNLQGKVKVEDMKTSVEKITKELK  243
+            P N      ++  G+   V  G  G V   IL     NL G++ ++ +    +   +EL+
+Sbjct  88   PAN----YPVELPGRGSTVICGENGKV--GIL-----NLMGRIYMDSIDCPFKAAERELE  136
+
+Query  244  E-KHKVDIVIALAHTGTGESDEHIMNSENAAYQLTKVKGLDVVVAGHSHSTTQTE  297
+              K+   ++I   H            SE  A        +  V+  H+H  T  E
+Sbjct  137  YLKNNCKVIIVDMHAEA--------TSEKCALAWYLDGRVSCVLGTHTHVQTADE  183
+
+
+>WP_136479170.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ THJ79496.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 28.5 bits (62),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 34/132 (26%), Positives = 51/132 (39%), Gaps = 27/132 (20%)
+
+Query  639  KKVKDLDNEMATYAYDLSKGEGDKNTVDVQLLLFN---DLHGQFDVDSKLGGGIDNLSAY  695
+            K +K L  E   Y Y L+  E  +  V  +  L+N   D HG FD+   + G  D L
+Sbjct  139  KSIKGLQREGFRYVYILNSPEEVEEVVFERQPLWNNKKDEHGPFDIIGDIHGCYDELKML  198
+
+Query  696  LKKL-------------------QSENKNTLTLSAGDAVGGSPAVTALKQDQPTLEIMKE  736
+            L+KL                     E +  L L  GD V   P +T + +    +  M +
+Sbjct  199  LEKLGYLIEEVEGGVGSGKYRVTHPEGRKVLFL--GDLVDRGPKITEVLK---LVMGMVK  253
+
+Query  737  MNVDVVTTGNHE  748
+              + +   GNH+
+Sbjct  254  SGIALCVPGNHD  265
+
+
+>NLU27880.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 28.5 bits (62),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 30/64 (47%), Gaps = 3/64 (5%)
+
+Query  639  KKVKDLDNEMATYAYDLSKGEGDKNTVDVQLLLFN---DLHGQFDVDSKLGGGIDNLSAY  695
+            K +K L  E   Y Y L+  E  +  V  +  L+N   D HG FD+   + G  D L
+Sbjct  139  KSIKGLQREGFRYVYILNSPEEVEEVVFERQPLWNNKKDEHGPFDIIGDIHGCYDELKML  198
+
+Query  696  LKKL  699
+            L+KL
+Sbjct  199  LEKL  202
+
+
+>WP_003514395.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ CDG37289.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+ ADU73447.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX07369.1 Polynucleotide kinase-phosphatase, bacterial [Acetivibrio thermocellus
+AD2]
+ ANV75107.1 Polynucleotide kinase-phosphatase, bacterial [Acetivibrio thermocellus
+DSM 2360]
+ EIC04164.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=870
+
+ Score = 28.5 bits (62),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 30/64 (47%), Gaps = 3/64 (5%)
+
+Query  639  KKVKDLDNEMATYAYDLSKGEGDKNTVDVQLLLFN---DLHGQFDVDSKLGGGIDNLSAY  695
+            K +K L  E   Y Y L+  E  +  V  +  L+N   D HG FD+   + G  D L
+Sbjct  139  KSIKGLQREGFRYVYILNSPEEVEEVVFERQPLWNNKKDEHGPFDIIGDIHGCYDELKML  198
+
+Query  696  LKKL  699
+            L+KL
+Sbjct  199  LEKL  202
+
+
+>WP_020457916.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ ABN53967.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ HBW27480.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 28.5 bits (62),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 22/64 (34%), Positives = 30/64 (47%), Gaps = 3/64 (5%)
+
+Query  639  KKVKDLDNEMATYAYDLSKGEGDKNTVDVQLLLFN---DLHGQFDVDSKLGGGIDNLSAY  695
+            K +K L  E   Y Y L+  E  +  V  +  L+N   D HG FD+   + G  D L
+Sbjct  139  KSIKGLQREGFRYVYILNSPEEVEEVVFERQPLWNNKKDEHGPFDIIGDIHGCYDELKML  198
+
+Query  696  LKKL  699
+            L+KL
+Sbjct  199  LEKL  202
+
+
+>WP_003513006.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ CDG37043.1 phosphodiesterase [Acetivibrio thermocellus BC1]
+ ABN53780.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus ATCC
+27405]
+ NLU27557.1 metallophosphoesterase family protein [Acetivibrio thermocellus]
+ THJ79311.1 metallophosphoesterase [Acetivibrio thermocellus]
+ HBW25807.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=161
+
+ Score = 27.3 bits (59),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  282  LDVVVAGHSHSTTQTEMNGVQIIQPAN  308
+            +D VV GHSH+     ++GV  + P +
+Sbjct  106  VDCVVFGHSHAPYNERIDGVLYVNPGS  132
+
+
+>WP_003515480.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ ADU73262.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+1313]
+ ALX07180.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus AD2]
+ ANV74916.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+2360]
+ EIC04354.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus YS]
+ PFH01442.1 hypothetical protein M972_11174 [Acetivibrio thermocellus AD2]
+Length=161
+
+ Score = 27.3 bits (59),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  282  LDVVVAGHSHSTTQTEMNGVQIIQPAN  308
+            +D VV GHSH+     ++GV  + P +
+Sbjct  106  VDCVVFGHSHAPYNERIDGVLYVNPGS  132
+
+
+>ABN51413.1 hypothetical protein Cthe_0172 [Acetivibrio thermocellus ATCC
+27405]
+Length=80
+
+ Score = 26.2 bits (56),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 13/56 (23%), Positives = 28/56 (50%), Gaps = 0/56 (0%)
+
+Query  238  ITKELKEKHKVDIVIALAHTGTGESDEHIMNSENAAYQLTKVKGLDVVVAGHSHST  293
+            +++E  E+     ++ +A TG    +E ++      YQ+TK K L  ++   S ++
+Sbjct  5    LSEEFMERQSQQYILNIAFTGAINREELLLKKYEHYYQITKDKELKNILRDFSQTS  60
+
+
+>WP_003518684.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ CDG35098.1 copper amine oxidase-like protein [Acetivibrio thermocellus BC1]
+ ABN51640.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74875.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08830.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76580.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=732
+
+ Score = 28.1 bits (61),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 33/145 (23%), Positives = 67/145 (46%), Gaps = 19/145 (13%)
+
+Query  459  LYVYD-NTISILKINGAQIKEWLEMTSGMYNTINPTSNEDQQLFNPAYRSYNFDSIEGLT  517
+            +YVYD  TIS + + G +IK  +    G+  T+    N+   L      +Y    +E L
+Sbjct  191  VYVYDGQTISSISLKGNEIKNAITYNGGLLITLFDVENDTNNLV-----TYRNGKLEVLI  245
+
+Query  518  YEIDVTKKAKYDSNGNTI----NQDSQRISNLKYNGKNLDPNQEFLVVTNNYRASGTFPG  573
+               ++  K + + NGN +    ++  ++ S  +++GKN+       ++ +N+ A G +
+Sbjct  246  SNFEI--KGQVEFNGNLLLHGYDRRQKKDSLYRFDGKNI------YLIADNF-AMGHYVI  296
+
+Query  574  IKDAQVVYSSPDENRQAVMDYIKEA  598
+              D  V+    D  R +++ + K +
+Sbjct  297  FNDKLVINKYDDLRRYSLLVFDKSS  321
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.311    0.131    0.364
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 121535
+Number of extensions: 6521
+Number of successful extensions: 50
+Number of sequences better than 100: 14
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 50
+Number of HSP's successfully gapped: 22
+Length of query: 1217
+Length of database: 2835838
+Length adjustment: 100
+Effective length of query: 1117
+Effective length of database: 2029538
+Effective search space: 2266993946
+Effective search space used: 2266993946
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 52 (24.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

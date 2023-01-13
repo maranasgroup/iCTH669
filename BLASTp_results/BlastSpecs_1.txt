@@ -1,0 +1,62 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+amt Alkaliphilus metalliredigens 	
+aoe Alkaliphilus oremlandii 	
+asf Candidatus Arthromitus sp. SFB-mouse-Japan 	
+asm Candidatus Arthromitus sp. SFB-mouse-Yit 	
+aso Candidatus Arthromitus sp. SFB-mouse-NL 	
+asb Candidatus Arthromitus sp. SFB-rat-Yit 	
+gfe Geosporobacter ferrireducens 	
+hhw Hathewaya histolytica 	
+cale Caloramator sp. E03 	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+csc Caldicellulosiruptor saccharolyticus 	
+ate Caldicellulosiruptor bescii 	
+cob Caldicellulosiruptor obsidiansis 	
+chd Caldicellulosiruptor hydrothermalis 	
+cow Caldicellulosiruptor owensensis 	
+cki Caldicellulosiruptor kristjanssonii 	
+clc Caldicellulosiruptor lactoaceticus 	
+ckn Caldicellulosiruptor kronotskyensis 	
+ccha Caldicellulosiruptor changbaiensis 	
+ttm Thermoanaerobacterium thermosaccharolyticum DSM 571 	
+tto Thermoanaerobacterium thermosaccharolyticum M0795 	
+txy Thermoanaerobacterium xylanolyticum 	
+tsh Thermoanaerobacterium saccharolyticum 	
+tnr Thermodesulfobium narugense 	
+taci Thermodesulfobium acidiphilum 	
+mas Mahella australiensis 	
+tep Tepidanaerobacter acetatoxydans Re1 	
+tae Tepidanaerobacter acetatoxydans Re1 	
+toc Thermosediminibacter oceani 	
+nth Natranaerobius thermophilus 	
+hor Halothermothrix orenii 	
+has Halanaerobium hydrogeniformans 	
+hpk Halanaerobium praevalens 	
+hals Halocella sp. SP3-1 	
+ifn Iocasia fonsfrigidae 	
+aar Acetohalobium arabaticum 	
+hhl Halobacteroides halobius 	
+aft Anoxybacter fermentans 	
+kme Koleobacter methoxysyntrophicus

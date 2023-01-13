@@ -1,0 +1,257 @@
+Start time: 6 June 2022 9:10:55
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+Found gene for related organism tmt:Thermoanaerobacter mathranii
+Tmath_0379-------------------------------------------------------------------------------------
+Building FASTA report for gene Tmath_0379 (Accession: ADH60156)
+Tmath_1189-------------------------------------------------------------------------------------
+Building FASTA report for gene Tmath_1189 (Accession: ADH60906)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+Found gene for related organism tbo:Thermoanaerobacter brockii
+Thebr_1176-------------------------------------------------------------------------------------
+Building FASTA report for gene Thebr_1176 (Accession: ADV79752)
+Thebr_1985-------------------------------------------------------------------------------------
+Building FASTA report for gene Thebr_1985 (Accession: ADV80504)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+Found gene for related organism twi:Thermoanaerobacter wiegelii
+Thewi_0397-------------------------------------------------------------------------------------
+Building FASTA report for gene Thewi_0397 (Accession: AEM77883)
+Thewi_1293-------------------------------------------------------------------------------------
+Building FASTA report for gene Thewi_1293 (Accession: AEM78716)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+Found gene for related organism tki:Thermoanaerobacter kivui
+TKV_c02870-------------------------------------------------------------------------------------
+Building FASTA report for gene TKV_c02870 (Accession: AIS51492)
+TKV_c12610-------------------------------------------------------------------------------------
+Building FASTA report for gene TKV_c12610 (Accession: AIS52432)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+Found gene for related organism chy:Carboxydothermus hydrogenoformans
+CHY_0957-------------------------------------------------------------------------------------
+Building FASTA report for gene CHY_0957 (Accession: ABB14913)
+CHY_2488-------------------------------------------------------------------------------------
+Building FASTA report for gene CHY_2488 (Accession: ABB14599)
+
+Using Organism: Moorella thermoacetica (mta)
+Found gene for related organism mta:Moorella thermoacetica
+Moth_1144-------------------------------------------------------------------------------------
+Building FASTA report for gene Moth_1144 (Accession: ABC19458)
+
+Using Organism: Moorella thermoacetica (mtho)
+Found gene for related organism mtho:Moorella thermoacetica
+MOTHE_c11090-------------------------------------------------------------------------------------
+Building FASTA report for gene MOTHE_c11090 (Accession: AKX93908)
+
+Using Organism: Moorella thermoacetica (mthz)
+Found gene for related organism mthz:Moorella thermoacetica
+MOTHA_c11970-------------------------------------------------------------------------------------
+Building FASTA report for gene MOTHA_c11970 (Accession: AKX96549)
+
+Using Organism: Ammonifex degensii (adg)
+Found gene for related organism adg:Ammonifex degensii
+Adeg_0596-------------------------------------------------------------------------------------
+Building FASTA report for gene Adeg_0596 (Accession: ACX51744)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+Found gene for related organism tpz:Thermacetogenium phaeum
+Tph_c14920-------------------------------------------------------------------------------------
+Building FASTA report for gene Tph_c14920 (Accession: AFV11700)
+Tph_c20770-------------------------------------------------------------------------------------
+Building FASTA report for gene Tph_c20770 (Accession: AFV12271)
+
+Using Organism: Gelria sp. (gek)
+Found gene for related organism gek:Gelria sp.
+kuro4_18450-------------------------------------------------------------------------------------
+Building FASTA report for gene kuro4_18450 (Accession: BCV25072)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Thermoanaerobacter mathranii (tmt)
+
+Using Organism: Thermoanaerobacter brockii (tbo)
+
+Using Organism: Thermoanaerobacter wiegelii (twi)
+
+Using Organism: Thermoanaerobacter kivui (tki)
+
+Using Organism: Carboxydothermus hydrogenoformans (chy)
+
+Using Organism: Moorella thermoacetica (mta)
+
+Using Organism: Moorella thermoacetica (mtho)
+
+Using Organism: Moorella thermoacetica (mthz)
+
+Using Organism: Ammonifex degensii (adg)
+
+Using Organism: Thermacetogenium phaeum (tpz)
+
+Using Organism: Gelria sp. (gek)
+end time: 6 June 2022 17:6:17

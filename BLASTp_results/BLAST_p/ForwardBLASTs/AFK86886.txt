@@ -1,0 +1,233 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WA6F7JT013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AFK86886 5'-nucleotidase [Thermoanaerobacterium saccharolyticum]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516495.1 thiazole synthase [Acetivibrio thermocellus]        28.5    0.76   27%
+WP_003517023.1 radical SAM family heme chaperone HemW [Acetivi...  28.1    1.1    44%
+WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]      26.6    4.9    30%
+NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]          26.6    4.9    30%
+WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]      26.6    4.9    30%
+WP_014253643.1 hypothetical protein [Acetivibrio]                  24.3    6.3    43%
+WP_003513787.1 sulfite exporter TauE/SafE family protein [Acet...  25.8    8.2    26%
+WP_003518911.1 sulfite exporter TauE/SafE family protein [Acet...  25.8    8.2    26%
+NLU26516.1 heavy metal transporter [Acetivibrio thermocellus]      25.8    8.2    26%
+
+ALIGNMENTS
+>WP_003516495.1 thiazole synthase [Acetivibrio thermocellus]
+ A3DD04.1 RecName: Full=Thiazole synthase [Acetivibrio thermocellus ATCC
+27405]
+ CDG35288.1 Thiazole synthase [Acetivibrio thermocellus BC1]
+ ABN51833.1 thiazole biosynthesis family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74692.1 thiazole biosynthesis family protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08635.1 Thiazole synthase [Acetivibrio thermocellus AD2]
+ ANV76384.1 Thiazole synthase [Acetivibrio thermocellus DSM 2360]
+Length=255
+
+ Score = 28.5 bits (62),  Expect = 0.76, Method: Compositional matrix adjust.
+ Identities = 22/81 (27%), Positives = 37/81 (46%), Gaps = 5/81 (6%)
+
+Query  154  LPKNCLLNVNIPNVSDEFNGIKITKLGQRNYTENFTKRIDPRGRDYYWLAGKVLENANDE  213
+            +PK+C+L  N     +    ++I +L + +   NF K I+    + Y L     +N
+Sbjct  61   IPKDCILMPNTSGARNAEEAVRIARLARASGCGNFIK-IEVISDNRYLLP----DNLETI  115
+
+Query  214  DSDIIAVKNGFISITPIQLDL  234
+             +  I VK GFI +  +  DL
+Sbjct  116  KATEILVKEGFIVLPYMNPDL  136
+
+
+>WP_003517023.1 radical SAM family heme chaperone HemW [Acetivibrio thermocellus]
+ CDG35998.1 coproporphyrinogen III oxidase, anaerobic [Acetivibrio thermocellus
+BC1]
+ ABN52557.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73998.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 1313]
+ ALX07936.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus AD2]
+ ANV75682.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 2360]
+Length=380
+
+ Score = 28.1 bits (61),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 19/25 (76%), Gaps = 0/25 (0%)
+
+Query  217  IIAVKNGFISITPIQLDLTMYSFID  241
+            ++AV+NGFI +T + LDL   +F++
+Sbjct  354  LVAVENGFIKLTRLGLDLANQAFME  378
+
+
+>WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ CDG35000.1 Valine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ADU74953.1 valyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08914.1 Valyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV76664.1 Valyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC05100.1 Valyl-tRNA synthetase [Acetivibrio thermocellus YS]
+Length=884
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/33 (30%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  217  IIAVKNGFISITPIQLDLTMYSFIDNLKNWDMS  249
+            I  VKNG I   P +     +++++N+++W +S
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+>NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/33 (30%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  217  IIAVKNGFISITPIQLDLTMYSFIDNLKNWDMS  249
+            I  VKNG I   P +     +++++N+++W +S
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+>WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ ABN51562.1 valyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ HBW26065.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/33 (30%), Positives = 20/33 (61%), Gaps = 0/33 (0%)
+
+Query  217  IIAVKNGFISITPIQLDLTMYSFIDNLKNWDMS  249
+            I  VKNG I   P +     +++++N+++W +S
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+>WP_014253643.1 MULTISPECIES: hypothetical protein [Acetivibrio]
+ AEO12411.1 hypothetical protein Cthe_3342 [Acetivibrio thermocellus ATCC
+27405]
+Length=67
+
+ Score = 24.3 bits (51),  Expect = 6.3, Method: Composition-based stats.
+ Identities = 10/23 (43%), Positives = 15/23 (65%), Gaps = 1/23 (4%)
+
+Query  224  FISITPIQLDLTMYSFIDNLKNW  246
+             ++I P  L +TMY  IDN++ W
+Sbjct  39   LLAIIPF-LIVTMYLMIDNIREW  60
+
+
+>WP_003513787.1 sulfite exporter TauE/SafE family protein [Acetivibrio thermocellus]
+ ABN53070.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27324.1 heavy metal transporter [Acetivibrio thermocellus]
+Length=499
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 23/42 (55%), Gaps = 3/42 (7%)
+
+Query  190  KRIDPRGRDYYWLAGKVLENANDEDSDIIAVKNGFISITPIQ  231
+            ++I PR    +   G+ + NA ++   ++ + NGF+   P+Q
+Sbjct  249  RKITPRMPKIF---GRKISNAKNKGPLLVGLLNGFMPCGPLQ  287
+
+
+>WP_003518911.1 sulfite exporter TauE/SafE family protein [Acetivibrio thermocellus]
+ ADU75545.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX09536.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+AD2]
+ ANV77308.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04474.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+YS]
+ PFH03817.1 sulfite exporter TauE/SafE [Acetivibrio thermocellus AD2]
+Length=499
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 23/42 (55%), Gaps = 3/42 (7%)
+
+Query  190  KRIDPRGRDYYWLAGKVLENANDEDSDIIAVKNGFISITPIQ  231
+            ++I PR    +   G+ + NA ++   ++ + NGF+   P+Q
+Sbjct  249  RKITPRMPKIF---GRKISNAKNKGPLLVGLLNGFMPCGPLQ  287
+
+
+>NLU26516.1 heavy metal transporter [Acetivibrio thermocellus]
+ CDG36375.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+BC1]
+Length=499
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/42 (26%), Positives = 23/42 (55%), Gaps = 3/42 (7%)
+
+Query  190  KRIDPRGRDYYWLAGKVLENANDEDSDIIAVKNGFISITPIQ  231
+            ++I PR    +   G+ + NA ++   ++ + NGF+   P+Q
+Sbjct  249  RKITPRMPKIF---GRKISNAKNKGPLLVGLLNGFMPCGPLQ  287
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.139    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22499
+Number of extensions: 1098
+Number of successful extensions: 35
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 35
+Number of HSP's successfully gapped: 9
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

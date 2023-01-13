@@ -1,0 +1,279 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WB6NZFK016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEG15000 5'-nucleotidase [Desulfofundulus kuznetsovii]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU27932.1 hypothetical protein [Acetivibrio thermocellus]         27.7    1.4    30%
+CDG37226.1 hypothetical protein CTHBC1_2643 [Acetivibrio therm...  28.1    1.4    41%
+WP_003512523.1 hypothetical protein [Acetivibrio thermocellus]     27.3    2.3    30%
+WP_020458102.1 IS3 family transposase [Acetivibrio thermocellus]   26.9    3.2    31%
+WP_004463758.1 glycosyltransferase family 4 protein [Acetivibr...  26.2    5.5    23%
+ABN51453.1 beta-galactosidase [Acetivibrio thermocellus ATCC 2...  25.8    7.2    50%
+WP_003512307.1 GH1 family beta-glucosidase [Acetivibrio thermo...  25.8    7.3    50%
+THJ78314.1 beta-glucosidase [Acetivibrio thermocellus]             25.8    7.4    50%
+CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocel...  25.8    7.4    24%
+WP_003511639.1 glycosyltransferase family 4 protein [Acetivibr...  25.8    7.5    24%
+WP_207670175.1 GH1 family beta-glucosidase [Acetivibrio thermo...  25.8    7.5    50%
+5OGZ_A Chain A, Beta-glucosidase A [Acetivibrio thermocellus A...  25.8    7.6    50%
+NLU25578.1 glycosyltransferase family 4 protein [Acetivibrio t...  25.8    7.7    23%
+
+ALIGNMENTS
+>NLU27932.1 hypothetical protein [Acetivibrio thermocellus]
+Length=226
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 26/56 (46%), Gaps = 5/56 (9%)
+
+Query  3    VLLSNDDGIHAPGLKALAESLQELGDLYIVAPD-----RERSATGHGITVHRPLRL  53
+            V  SN++  + P +    + L ++G +  V  D     RER+A   G    R LRL
+Sbjct  166  VKWSNENSFYDPSVYDCCKKLVDMGWMDSVVADTMLKFRERNAVKLGDETERALRL  221
+
+
+>CDG37226.1 hypothetical protein CTHBC1_2643 [Acetivibrio thermocellus BC1]
+Length=661
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 20/41 (49%), Gaps = 2/41 (5%)
+
+Query  186  NIFHKRTDPR--GRIYYWMAGEPLDLEENGDDTDVQAIKQN  224
+            NIF   TDPR    I +W     L LE  GD +D + I  N
+Sbjct  140  NIFRLLTDPRYFNEILHWTDRRKLLLEVCGDVSDAEVIASN  180
+
+
+>WP_003512523.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG34997.1 TPR repeat-containing protein [Acetivibrio thermocellus BC1]
+ ABN51559.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74956.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08917.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76667.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=321
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 26/56 (46%), Gaps = 5/56 (9%)
+
+Query  3    VLLSNDDGIHAPGLKALAESLQELGDLYIVAPD-----RERSATGHGITVHRPLRL  53
+            V  SN++  + P +    + L ++G +  V  D     RER+A   G    R LRL
+Sbjct  261  VKWSNENSFYDPSVYDCCKKLVDMGWMDSVVADTMLKFRERNAVKLGDETERALRL  316
+
+
+>WP_020458102.1 IS3 family transposase [Acetivibrio thermocellus]
+ ABN53107.2 transposase IS3/IS911 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=383
+
+ Score = 26.9 bits (58),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 28/52 (54%), Gaps = 0/52 (0%)
+
+Query  204  GEPLDLEENGDDTDVQAIKQNFISITPIQLDLTDYQSLQILRQQWEEITFHF  255
+            G  + ++E G   D Q I++ F S    +L L + +++Q LRQ  +E   H+
+Sbjct  303  GIKISMDEKGRALDNQRIERFFRSYKWEKLYLEECETVQQLRQITKEYVEHY  354
+
+
+>WP_004463758.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+Length=384
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 17/73 (23%), Positives = 29/73 (40%), Gaps = 2/73 (3%)
+
+Query  62   KAMAWAVDGTPADCVKLAVEDLLPNPPAVVVAGINQGPNLGTDVLYSGTVSAAIEGTING  121
+            K +  A D +  D     ++D+  +   ++  G  QG  L    LYS      +   + G
+Sbjct  238  KKLVIAGDASDTDSFVHEIKDMAKDDKRIIFTGFVQGRILQE--LYSNAYVYVLPSDLEG  295
+
+Query  122  FPALAISLTSYGS  134
+             P   +   SYG+
+Sbjct  296  MPLSLLEAMSYGN  308
+
+
+>ABN51453.1 beta-galactosidase [Acetivibrio thermocellus ATCC 27405]
+ ALX09039.1 beta-galactosidase [Acetivibrio thermocellus AD2]
+ ANV76788.1 beta-galactosidase [Acetivibrio thermocellus DSM 2360]
+ EIC04939.1 beta-galactosidase [Acetivibrio thermocellus YS]
+ CDG34892.1 Beta-glucosidase A [Acetivibrio thermocellus BC1]
+ SOD24106.1 broad-specificity cellobiase [Acetivibrio thermocellus]
+Length=471
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1    MIVLLSNDDGIHAPGLKALAESLQ  24
+            ++ LL +  GIHAPG+K L  SL+
+Sbjct  192  VVSLLGHFLGIHAPGIKDLRTSLE  215
+
+
+>WP_003512307.1 GH1 family beta-glucosidase [Acetivibrio thermocellus]
+ P26208.1 RecName: Full=Beta-glucosidase A; AltName: Full=Beta-D-glucoside
+glucohydrolase; AltName: Full=Cellobiase; AltName: Full=Gentiobiase
+[Acetivibrio thermocellus ATCC 27405]
+ ADU75064.1 beta-galactosidase [Acetivibrio thermocellus DSM 1313]
+ CAA42814.1 beta-glucosidase [Acetivibrio thermocellus ATCC 27405]
+Length=448
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1    MIVLLSNDDGIHAPGLKALAESLQ  24
+            ++ LL +  GIHAPG+K L  SL+
+Sbjct  169  VVSLLGHFLGIHAPGIKDLRTSLE  192
+
+
+>THJ78314.1 beta-glucosidase [Acetivibrio thermocellus]
+Length=471
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1    MIVLLSNDDGIHAPGLKALAESLQ  24
+            ++ LL +  GIHAPG+K L  SL+
+Sbjct  192  VVSLLGHFLGIHAPGIKDLRTSLE  215
+
+
+>CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocellus BC1]
+Length=391
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 24/102 (24%), Positives = 45/102 (44%), Gaps = 10/102 (10%)
+
+Query  15   GLKALAESLQELGDL-YIVAPDRERSATGHGITVHRPLRLETISIPGIKAMAWAVDGTPA  73
+            G++A+A+  ++  D+ Y++              V+R   ++ +   G+K   W VD
+Sbjct  209  GIEAVAKLAKKYKDIVYLILGQTHPCVKREFGEVYREKLVQMVEELGVKEHVWFVD----  264
+
+Query  74   DCVKLAVEDLLPNPPAVVVAGINQGPNLGTDVLYSGTVSAAI  115
+               K    D + N   + ++ I   P LG D   SGT++ A+
+Sbjct  265  ---KYLTRDEIMN--YLQLSDIYMTPYLGKDQAVSGTLAYAV  301
+
+
+>WP_003511639.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+ ABN54309.1 glycosyl transferase group 1 [Acetivibrio thermocellus ATCC 27405]
+ ADU73747.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 1313]
+ ALX07677.1 glycosyl transferase group 1 [Acetivibrio thermocellus AD2]
+ ANV75419.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 2360]
+ EIC05635.1 glycosyl transferase group 1 [Acetivibrio thermocellus YS]
+Length=391
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 24/102 (24%), Positives = 45/102 (44%), Gaps = 10/102 (10%)
+
+Query  15   GLKALAESLQELGDL-YIVAPDRERSATGHGITVHRPLRLETISIPGIKAMAWAVDGTPA  73
+            G++A+A+  ++  D+ Y++              V+R   ++ +   G+K   W VD
+Sbjct  209  GIEAVAKLAKKYKDIVYLILGQTHPCVKREFGEVYREKLVQMVEELGVKEHVWFVD----  264
+
+Query  74   DCVKLAVEDLLPNPPAVVVAGINQGPNLGTDVLYSGTVSAAI  115
+               K    D + N   + ++ I   P LG D   SGT++ A+
+Sbjct  265  ---KYLTRDEIMN--YLQLSDIYMTPYLGKDQAVSGTLAYAV  301
+
+
+>WP_207670175.1 GH1 family beta-glucosidase [Acetivibrio thermocellus]
+Length=448
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1    MIVLLSNDDGIHAPGLKALAESLQ  24
+            ++ LL +  GIHAPG+K L  SL+
+Sbjct  169  VVSLLGHFLGIHAPGIKDLRTSLE  192
+
+
+>5OGZ_A Chain A, Beta-glucosidase A [Acetivibrio thermocellus ATCC 27405]
+ 5OGZ_B Chain B, Beta-glucosidase A [Acetivibrio thermocellus ATCC 27405]
+Length=456
+
+ Score = 25.8 bits (55),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  1    MIVLLSNDDGIHAPGLKALAESLQ  24
+            ++ LL +  GIHAPG+K L  SL+
+Sbjct  169  VVSLLGHFLGIHAPGIKDLRTSLE  192
+
+
+>NLU25578.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+ THJ78027.1 glycosyltransferase [Acetivibrio thermocellus]
+Length=371
+
+ Score = 25.8 bits (55),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 17/73 (23%), Positives = 29/73 (40%), Gaps = 2/73 (3%)
+
+Query  62   KAMAWAVDGTPADCVKLAVEDLLPNPPAVVVAGINQGPNLGTDVLYSGTVSAAIEGTING  121
+            K +  A D +  D     ++D+  +   ++  G  QG  L    LYS      +   + G
+Sbjct  225  KKLVIAGDASDTDSFVHEIKDMAKDDKRIIFTGFVQGRILQE--LYSNAYVYVLPSDLEG  282
+
+Query  122  FPALAISLTSYGS  134
+             P   +   SYG+
+Sbjct  283  MPLSLLEAMSYGN  295
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.407
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19861
+Number of extensions: 850
+Number of successful extensions: 22
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 2
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

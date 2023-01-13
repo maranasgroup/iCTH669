@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+sgy Syntrophobotulus glycolicus 	
+dor Desulfosporosinus orientis 	
+dai Desulfosporosinus acidiphilus 	
+dmi Desulfosporosinus meridiei 	
+ded Dehalobacter sp. DCA 	
+dec Dehalobacter sp. CF 	
+drs Dehalobacter restrictus 	
+tfr Thermoanaerosceptrum fracticalcis 	
+fwa Candidatus Formimonas warabiya 	
+aacx Acididesulfobacillus acetoxydans 	
+dgi Desulfoscipio gibsoniae 	

@@ -1,0 +1,235 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V1VYCA3016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= ANU40580 dTMP kinase [Flavonifractor plautii]
+
+Length=223
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       204     3e-67  45%
+WP_003515987.1 ABC transporter ATP-binding protein [Clostridia]    26.2    4.2    52%
+WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]  26.2    4.9    31%
+WP_011838262.1 DNA repair protein RadA [Acetivibrio thermocellus]  26.2    4.9    31%
+WP_003519437.1 ATP-binding cassette domain-containing protein ...  25.4    6.7    43%
+WP_003517350.1 ABC transporter ATP-binding protein [Acetivibri...  25.4    7.5    41%
+WP_136479484.1 ABC transporter ATP-binding protein [Acetivibri...  25.0    8.8    41%
+WP_004463929.1 ABC transporter ATP-binding protein [Acetivibri...  25.0    9.0    41%
+CDG36114.1 hypothetical protein CTHBC1_1473 [Acetivibrio therm...  23.9    9.8    42%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 204 bits (520),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 101/226 (45%), Positives = 147/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MQGNLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+            M+G LI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+
+Query  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSMEDIHRDIWAAAARIL  222
+                + +L  A    W+KI CV   G L+ +++I ++++ A + I+
+Sbjct  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+
+
+>WP_003515987.1 MULTISPECIES: ABC transporter ATP-binding protein [Clostridia]
+ ADU75430.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09427.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77181.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC04551.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+Length=225
+
+ Score = 26.2 bits (56),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 12/23 (52%), Positives = 13/23 (57%), Gaps = 0/23 (0%)
+
+Query  2   QGNLIVFEGTDGSGKSTQFRMLC  24
+           +G LI   G  GSGKST   ML
+Sbjct  31  KGELIAIMGDSGSGKSTLLHMLA  53
+
+
+>WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ ADU75473.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 1313]
+ ALX09473.1 DNA repair protein RadA [Acetivibrio thermocellus AD2]
+ ANV77227.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 2360]
+ EIC04597.1 DNA repair protein RadA [Acetivibrio thermocellus YS]
+Length=454
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  1    MQGNLIVFEGTDGSGKSTQFRMLCERMEREGR  32
+            ++G+LI+  G  G GKST    +C++++   +
+Sbjct  85   VKGSLILVGGDPGIGKSTLLLQICDKIKTNAK  116
+
+
+>WP_011838262.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ CDG36307.1 DNA repair protein RadA homolog [Acetivibrio thermocellus BC1]
+ ABN53007.1 DNA repair protein RadA [Acetivibrio thermocellus ATCC 27405]
+ NLU25810.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ THJ78774.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ HBW26452.1 DNA repair protein RadA [Acetivibrio thermocellus]
+Length=454
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  1    MQGNLIVFEGTDGSGKSTQFRMLCERMEREGR  32
+            ++G+LI+  G  G GKST    +C++++   +
+Sbjct  85   VKGSLILVGGDPGIGKSTLLLQICDKIKTNAK  116
+
+
+>WP_003519437.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG35865.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN52421.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74134.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08076.1 ABC transporter related protein [Acetivibrio thermocellus AD2]
+ ANV75823.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+2360]
+Length=322
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 10/23 (43%), Positives = 16/23 (70%), Gaps = 0/23 (0%)
+
+Query  2   QGNLIVFEGTDGSGKSTQFRMLC  24
+           +G L+ F G +G+GKST  ++L
+Sbjct  48  KGELVGFLGPNGAGKSTTLKILT  70
+
+
+>WP_003517350.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU75360.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09354.1 Taurine-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77108.1 Taurine-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+ EIC04681.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+Length=267
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+
+Query  90   YRGGGLVLSDRYTTSNAVHQASKLPEAEW  118
+            +RGG   LS R      +H AS LP+ E+
+Sbjct  237  HRGGTKFLSLRRNILEKLHLASALPQPEY  265
+
+
+>WP_136479484.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ THJ77661.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=267
+
+ Score = 25.0 bits (53),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+
+Query  90   YRGGGLVLSDRYTTSNAVHQASKLPEAEW  118
+            +RGG   LS R      +H AS LP+ E+
+Sbjct  237  HRGGTEFLSLRRNILEKLHLASALPQPEY  265
+
+
+>WP_004463929.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52798.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+Length=267
+
+ Score = 25.0 bits (53),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+
+Query  90   YRGGGLVLSDRYTTSNAVHQASKLPEAEW  118
+            +RGG   LS R      +H AS LP+ E+
+Sbjct  237  HRGGTEFLSLRRNILEKLHLASALPQPEY  265
+
+
+>CDG36114.1 hypothetical protein CTHBC1_1473 [Acetivibrio thermocellus BC1]
+Length=74
+
+ Score = 23.9 bits (50),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 11/26 (42%), Positives = 12/26 (46%), Gaps = 0/26 (0%)
+
+Query  67  PYAASTFYAVDRYASWKKVWGDYYRG  92
+           PY  S FY    Y +W  V G  Y G
+Sbjct  44  PYVRSKFYFRANYDAWSYVDGFLYVG  69
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 8, 2022  2:43 AM
+  Number of letters in database: 2,834,975
+  Number of sequences in database:  8,061
+
+Lambda      K        H
+   0.322    0.138    0.441
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8061
+Number of Hits to DB: 22098
+Number of extensions: 947
+Number of successful extensions: 15
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 4
+Length of query: 223
+Length of database: 2834975
+Length adjustment: 86
+Effective length of query: 137
+Effective length of database: 2141729
+Effective search space: 293416873
+Effective search space used: 293416873
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

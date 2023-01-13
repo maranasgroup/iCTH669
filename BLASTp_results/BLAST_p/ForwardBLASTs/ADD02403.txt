@@ -1,0 +1,285 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WVVPC4J01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADD02403 5'-nucleotidase [Thermoanaerobacter italicus]
+
+Length=253
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517023.1 radical SAM family heme chaperone HemW [Acetivi...  28.5    1.1    33%
+WP_004463512.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibri...  28.1    1.5    27%
+WP_003515678.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibri...  27.3    2.5    35%
+NLU27476.1 response regulator [Acetivibrio thermocellus]           26.9    3.1    58%
+WP_011838144.1 phage tail protein [Acetivibrio thermocellus]       26.9    3.8    31%
+WP_003515596.1 stage IV sporulation protein A [Acetivibrio the...  26.2    6.1    38%
+WP_003517324.1 response regulator [Acetivibrio thermocellus]       25.8    6.5    24%
+WP_136479425.1 phage tail protein [Acetivibrio thermocellus]       25.8    7.6    31%
+WP_003519324.1 HAMP domain-containing histidine kinase [Acetiv...  25.8    7.8    34%
+WP_011838302.1 HAMP domain-containing histidine kinase [Acetiv...  25.8    8.2    34%
+
+ALIGNMENTS
+>WP_003517023.1 radical SAM family heme chaperone HemW [Acetivibrio thermocellus]
+ CDG35998.1 coproporphyrinogen III oxidase, anaerobic [Acetivibrio thermocellus
+BC1]
+ ABN52557.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73998.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 1313]
+ ALX07936.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus AD2]
+ ANV75682.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 2360]
+Length=380
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 23/36 (64%), Gaps = 0/36 (0%)
+
+Query  210  EIENDERTDIVSVKNGYISITPIHFDLTCYDMIEFI  245
+            +I+N  +  +V+V+NG+I +T +  DL     +EF+
+Sbjct  345  QIKNLSKRGLVAVENGFIKLTRLGLDLANQAFMEFV  380
+
+
+>WP_004463512.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ A3DEB6.1 RecName: Full=Probable tRNA sulfurtransferase; AltName: Full=Sulfur
+carrier protein ThiS sulfurtransferase; AltName: Full=Thiamine
+biosynthesis protein ThiI; AltName: Full=tRNA 4-thiouridine
+synthase [Acetivibrio thermocellus ATCC 27405]
+ CDG35758.1 putative tRNA sulfurtransferase [Acetivibrio thermocellus BC1]
+ ABN52295.1 thiamine biosynthesis/tRNA modification protein ThiI [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26633.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ THJ76921.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ HBW26166.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+Length=392
+
+ Score = 28.1 bits (61),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 41/95 (43%), Gaps = 23/95 (24%)
+
+Query  150  KVLKKGLPRNTLLNVNIPDLKKGIKG---VKTTILGKRIYIETFQKNYDPRGKEYYWMAG  206
+            ++L KGL R    +  + ++K+ I     V+ T    RIYIE  ++NYD
+Sbjct  11   EILLKGLNRPIFEDKLMSNIKRAIHKLGKVRITKSQARIYIEPLEENYD-----------  59
+
+Query  207  KISEIENDERTDIVSVKNGYISITP---IHFDLTC  238
+                   DE   ++S   G +S++P   I  D  C
+Sbjct  60   ------FDEALKLLSKVFGIVSVSPVWKIDSDFEC  88
+
+
+>WP_003515678.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ ADU74215.1 thiamine biosynthesis/tRNA modification protein ThiI [Acetivibrio
+thermocellus DSM 1313]
+ ALX08158.1 tRNA sulfurtransferase [Acetivibrio thermocellus AD2]
+ ANV75905.1 tRNA sulfurtransferase [Acetivibrio thermocellus DSM 2360]
+ EIC05908.1 tRNA sulfurtransferase [Acetivibrio thermocellus YS]
+Length=392
+
+ Score = 27.3 bits (59),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 27/49 (55%), Gaps = 3/49 (6%)
+
+Query  150  KVLKKGLPRNTLLNVNIPDLKKGIKG---VKTTILGKRIYIETFQKNYD  195
+            ++L KGL R    +  + ++K+ I     V+ T    RIYIE  ++NYD
+Sbjct  11   EILLKGLNRPIFEDKLMSNIKRAIHKLGKVRITKSQARIYIEPLEENYD  59
+
+
+>NLU27476.1 response regulator [Acetivibrio thermocellus]
+Length=521
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 16/19 (84%), Gaps = 0/19 (0%)
+
+Query  77  KLGMEVVLEEKPDIVISGI  95
+           K G++++L EKPDIVI+ I
+Sbjct  38  KDGLDIILREKPDIVITDI  56
+
+
+>WP_011838144.1 phage tail protein [Acetivibrio thermocellus]
+ ABN52840.1 phage minor structural protein [Acetivibrio thermocellus ATCC
+27405]
+Length=840
+
+ Score = 26.9 bits (58),  Expect = 3.8, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 30/61 (49%), Gaps = 4/61 (7%)
+
+Query  95   INEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSCVETVNIEDRLMYKFVENLIEKVLKK  154
+            +N G  + T+   SGT  A+ +A   G+P +  S  +TV    R  Y F   +  + L+K
+Sbjct  758  VNSGFEVDTENGVSGT--ASFKAV--GVPGMKKSLSQTVYPATRKSYTFSAQIASESLEK  813
+
+Query  155  G  155
+            G
+Sbjct  814  G  814
+
+
+>WP_003515596.1 stage IV sporulation protein A [Acetivibrio thermocellus]
+ CDG35715.1 Stage IV sporulation protein A [Acetivibrio thermocellus BC1]
+ ABN52253.1 stage IV sporulation protein A [Acetivibrio thermocellus ATCC
+27405]
+ ADU74257.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+1313]
+ ALX08200.1 stage IV sporulation protein A [Acetivibrio thermocellus AD2]
+ ANV75948.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+2360]
+Length=492
+
+ Score = 26.2 bits (56),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 29/50 (58%), Gaps = 9/50 (18%)
+
+Query  118  AIYGIPAIAVSCVETVNIEDRLMYKFVENLIEKVLKKGLPRNTLLNVNIP  167
+            A Y +P I V+C + + IED      + N++E+VL +  P N  + VNIP
+Sbjct  206  AKYNVPVIGVNCAQ-LRIED------LNNIMERVLLE-FPINE-IGVNIP  246
+
+
+>WP_003517324.1 response regulator [Acetivibrio thermocellus]
+ ABN52810.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75372.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 1313]
+ ALX09366.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus AD2]
+ ANV77120.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 2360]
+Length=259
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 34/144 (24%), Positives = 57/144 (40%), Gaps = 19/144 (13%)
+
+Query  67   AINGTPSDCVKLGMEVVLEEKPDIVISGINEGLNLGTDILYSGTVSAAIEAAI-------  119
+            A+NG        G+E + + +PDIVI+ IN  +  G ++L         +A I
+Sbjct  34   AVNGQD------GLEKIQKYRPDIVIADINMPVMDGLEMLEKSIREYGYDAIIVSGYGEF  87
+
+Query  120  -YGIPAIAVSCVETV--NIEDRLMYKFVENLIEKVLKKGLPRNTLLNVNIPDLKKGIKGV  176
+             Y    I++   E +   I+   +Y+ +  +  K       +N +  ++    K GI
+Sbjct  88   EYARRGISLGVTEYLLKPIDYSKLYEAIRKIQAKRNADTNIKNAIRQIDAEKKKLGILEY  147
+
+Query  177  KTTILGKR---IYIETFQKNYDPR  197
+            K    G R     I+T   NY  R
+Sbjct  148  KERKTGNRYVDFMIQTIHDNYHTR  171
+
+
+>WP_136479425.1 phage tail protein [Acetivibrio thermocellus]
+ THJ77873.1 hypothetical protein EPD62_09015 [Acetivibrio thermocellus]
+Length=840
+
+ Score = 25.8 bits (55),  Expect = 7.6, Method: Composition-based stats.
+ Identities = 19/61 (31%), Positives = 29/61 (48%), Gaps = 4/61 (7%)
+
+Query  95   INEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSCVETVNIEDRLMYKFVENLIEKVLKK  154
+            +N G  + T+   SGT  A+ +A   G+P +  S   TV    R  Y F   +  + L+K
+Sbjct  758  VNSGFEVDTENGVSGT--ASFKAV--GVPGMTKSLSHTVYPATRKSYTFSAQIASENLEK  813
+
+Query  155  G  155
+            G
+Sbjct  814  G  814
+
+
+>WP_003519324.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ADU75590.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 1313]
+ ALX09583.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus AD2]
+ ANV77355.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 2360]
+ EIC04429.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+YS]
+Length=463
+
+ Score = 25.8 bits (55),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 7/62 (11%)
+
+Query  150  KVLKKGLPRNTLLNVNIPDLKKGI---KGVKTTILGKRIYIETFQKNYDPRGKEYYWMAG  206
+            KVL + +P NT+  V I D  KG+     ++ ++ GK+  ++ +  N    GKE  W  G
+Sbjct  68   KVLLESMPGNTVAQVQIID-DKGVLIADSIEPSMEGKK--LDNYDVNMALNGKEAAW-KG  123
+
+Query  207  KI  208
+            KI
+Sbjct  124  KI  125
+
+
+>WP_011838302.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ABN53134.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus ATCC 27405]
+ NLU26501.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ CDG36431.1 periplasmic sensor signal transduction histidine kinase [Acetivibrio
+thermocellus BC1]
+ HBW27095.1 sensor histidine kinase [Acetivibrio thermocellus]
+Length=463
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 21/62 (34%), Positives = 33/62 (53%), Gaps = 7/62 (11%)
+
+Query  150  KVLKKGLPRNTLLNVNIPDLKKGI---KGVKTTILGKRIYIETFQKNYDPRGKEYYWMAG  206
+            KVL + +P NT+  V I D  KG+     ++ ++ GK+  ++ +  N    GKE  W  G
+Sbjct  68   KVLLESMPGNTVAQVQIID-DKGVLIADSIEPSMEGKK--LDNYDVNMALNGKEAAW-KG  123
+
+Query  207  KI  208
+            KI
+Sbjct  124  KI  125
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.317    0.137    0.388
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 11978
+Number of extensions: 528
+Number of successful extensions: 15
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 4
+Length of query: 253
+Length of database: 2859109
+Length adjustment: 87
+Effective length of query: 166
+Effective length of database: 2149015
+Effective search space: 356736490
+Effective search space used: 356736490
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

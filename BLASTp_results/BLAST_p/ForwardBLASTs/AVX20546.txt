@@ -1,0 +1,202 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WFWZHKK016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AVX20546 5'-nucleotidase [Carboxydocella thermautotrophica]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_020457849.1 RNA polymerase sigma factor SigI [Acetivibrio t...  27.3    2.2    37%
+WP_003513122.1 RNA polymerase sigma factor SigI [Acetivibrio t...  26.9    2.3    37%
+WP_003517463.1 phosphoenolpyruvate synthase [Acetivibrio therm...  26.6    4.5    27%
+WP_004463638.1 phosphoenolpyruvate synthase [Acetivibrio therm...  26.6    4.5    27%
+WP_003517447.1 phosphoribosylamine--glycine ligase [Acetivibri...  26.2    6.2    29%
+WP_020457801.1 TIR domain-containing protein [Acetivibrio ther...  24.6    9.9    33%
+
+ALIGNMENTS
+>WP_020457849.1 RNA polymerase sigma factor SigI [Acetivibrio thermocellus]
+ A3DIE4.1 RecName: Full=RNA polymerase sigma factor SigI7 [Acetivibrio
+thermocellus ATCC 27405]
+ ABN53723.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+ATCC 27405]
+ HBW25745.1 RNA polymerase sigma-I factor [Acetivibrio thermocellus]
+Length=235
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  107  LYSGTVSAAIEAIINEVPGIAVSLASYQDFNFAATGKV  144
+            +YS T++  +EAI N    I + +  Y+ F  A T KV
+Sbjct  1    MYSVTINQRVEAIKNNEEEINLFVEEYKPFIAACTQKV  38
+
+
+>WP_003513122.1 RNA polymerase sigma factor SigI [Acetivibrio thermocellus]
+ CDG36996.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+BC1]
+ ADU73201.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+DSM 1313]
+ ALX07116.1 RNA polymerase, alternative sigma subunit, sigma-I7, SigI7 [Acetivibrio
+thermocellus AD2]
+ ANV74852.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+DSM 2360]
+ EIC03964.1 RNA polymerase sigma-I factor [Acetivibrio thermocellus YS]
+Length=235
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  107  LYSGTVSAAIEAIINEVPGIAVSLASYQDFNFAATGKV  144
+            +YS T++  +EAI N    I + +  Y+ F  A T KV
+Sbjct  1    MYSVTINQRVEAIKNNEEEINLFVEEYKPFIAACTQKV  38
+
+
+>WP_003517463.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ ADU74073.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08011.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus AD2]
+ ANV75758.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC06209.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus YS]
+ PFH02282.1 pyruvate phosphate dikinase-like enzyme [Acetivibrio thermocellus
+AD2]
+Length=860
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 27/99 (27%), Positives = 40/99 (40%), Gaps = 19/99 (19%)
+
+Query  166  NVPPLPLDKLKGIKVTRLGQRRYQNAF----HERRDPRGRVYYWIGGEPIDLDASQDTDI  221
+            N  PL L+ + G+K+ +L   R   AF    H   D  GR  +++     DL  +  TD+
+Sbjct  62   NHEPL-LEYMDGLKIYQLNANRGFEAFTVEVHNIIDKEGREAFYVFDSLSDLQVAWSTDL  120
+
+Query  222  -----------WAIEAGYVAVTPI---HFDLTNYKIIQE  246
+                       +  E   VA+ P+   H D      IQE
+Sbjct  121  MMGNFFCVTCPYLFELDTVALFPVLRGHHDFATIARIQE  159
+
+
+>WP_004463638.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ CDG35922.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus BC1]
+ ABN52485.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26887.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ THJ79005.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ HBW28224.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+Length=860
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 27/99 (27%), Positives = 40/99 (40%), Gaps = 19/99 (19%)
+
+Query  166  NVPPLPLDKLKGIKVTRLGQRRYQNAF----HERRDPRGRVYYWIGGEPIDLDASQDTDI  221
+            N  PL L+ + G+K+ +L   R   AF    H   D  GR  +++     DL  +  TD+
+Sbjct  62   NHEPL-LEYMDGLKIYQLNANRGFEAFTVEVHNIIDKEGREAFYVFDSLSDLQVAWSTDL  120
+
+Query  222  -----------WAIEAGYVAVTPI---HFDLTNYKIIQE  246
+                       +  E   VA+ P+   H D      IQE
+Sbjct  121  MMGNFFCVTCPYLFELDTVALFPVLRGHHDFATIARIQE  159
+
+
+>WP_003517447.1 phosphoribosylamine--glycine ligase [Acetivibrio thermocellus]
+ CDG35914.1 Phosphoribosylamine-glycine ligase [Acetivibrio thermocellus
+BC1]
+ ABN52477.1 phosphoribosylamine/glycine ligase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74081.1 phosphoribosylamine/glycine ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08019.1 Phosphoribosylamine--glycine ligase [Acetivibrio thermocellus
+AD2]
+ ANV75766.1 Phosphoribosylamine--glycine ligase [Acetivibrio thermocellus
+DSM 2360]
+Length=419
+
+ Score = 26.2 bits (56),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 22/51 (43%), Gaps = 0/51 (0%)
+
+Query  192  FHERRDPRGRVYYWIGGEPIDLDASQDTDIWAIEAGYVAVTPIHFDLTNYK  242
+            FH         YY  GG  + + A ++T   AI+  Y  V  I F   +Y+
+Sbjct  363  FHAGTKRENGKYYTAGGRVLGVTAMENTLDEAIKKAYEGVGKIKFQDMHYR  413
+
+
+>WP_020457801.1 TIR domain-containing protein [Acetivibrio thermocellus]
+ ABN53658.1 Domain of unknown function DUF1863 [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27864.1 nuclease [Acetivibrio thermocellus]
+Length=140
+
+ Score = 24.6 bits (52),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 22/45 (49%), Gaps = 4/45 (9%)
+
+Query  56   VDFG--ITGVQAWSVEGTPADCVKLGIEVLTAGSRPDVVVSGINK  98
+            VD+G  I G++ W  E  P     + IE++  G   D +V  I K
+Sbjct  95   VDYGKPIIGIKPWGQERIPKAVSDVAIEIV--GWNTDAIVEAIRK  137
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.139    0.419
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19147
+Number of extensions: 832
+Number of successful extensions: 19
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 2
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

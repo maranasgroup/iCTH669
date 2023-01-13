@@ -1,0 +1,358 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UNB828101N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_148810574.1 thymidylate kinase [Crassaminicella thermophila]    293     1e-102  63%
+WP_148809457.1 septum site-determining protein MinD [Crassamin...  28.1    0.33    42%
+WP_148808777.1 molecular chaperone HtpG [Crassaminicella therm...  28.1    0.47    35%
+WP_148809818.1 spore coat protein [Crassaminicella thermophila]    25.0    2.3     29%
+WP_148809947.1 8-amino-7-oxononanoate synthase [Crassaminicell...  25.4    2.7     37%
+WP_148810152.1 Mrp/NBP35 family ATP-binding protein [Crassamin...  25.0    3.4     38%
+WP_148809571.1 hypothetical protein [Crassaminicella thermophila]  24.6    3.6     52%
+WP_148808949.1 ATP-binding protein [Crassaminicella thermophila]   25.0    4.5     24%
+QEK13756.1 hypothetical protein FQB35_15635 [Crassaminicella t...  24.3    4.8     31%
+WP_148808176.1 methylmalonyl Co-A mutase-associated GTPase Mea...  24.3    6.2     39%
+WP_231701919.1 ERF family protein [Crassaminicella thermophila]    23.5    6.6     31%
+WP_148809681.1 aspartate-semialdehyde dehydrogenase [Crassamin...  24.3    7.1     21%
+WP_168198231.1 hypothetical protein [Crassaminicella thermophila]  22.3    7.1     56%
+WP_148808821.1 ERF family protein [Crassaminicella thermophila]    23.9    7.4     31%
+WP_231701870.1 cell wall metabolism sensor histidine kinase Wa...  23.9    7.8     31%
+WP_148810396.1 ATP synthase subunit I [Crassaminicella thermop...  23.5    8.0     38%
+QEK12053.1 cell wall metabolism sensor histidine kinase WalK [...  23.9    8.1     31%
+WP_148809575.1 YjiH family protein [Crassaminicella thermophila]   23.9    8.5     29%
+WP_148809411.1 MinD/ParA family protein [Crassaminicella therm...  23.9    9.3     38%
+WP_148808718.1 HPr(Ser) kinase/phosphatase [Crassaminicella th...  23.9    9.4     30%
+
+ALIGNMENTS
+>WP_148810574.1 thymidylate kinase [Crassaminicella thermophila]
+ QEK13402.1 thymidylate kinase [Crassaminicella thermophila]
+Length=225
+
+ Score = 293 bits (751),  Expect = 1e-102, Method: Compositional matrix adjust.
+ Identities = 141/223 (63%), Positives = 177/223 (79%), Gaps = 0/223 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKL +IESG DASGKATQ+ KLY+RL+ +G KVKKITFPNY+S SSALVKMYLNGDFG
+Sbjct  1    MKGKLFVIESGVDASGKATQSEKLYKRLIDDGRKVKKITFPNYESQSSALVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            +  +DV+PY ASTFYAVDRFASY TEW   Y +G II+ADRYTTSNMVHQA+K    EEK
+Sbjct  61   QKADDVNPYTASTFYAVDRFASYVTEWKDFYQNGGIIIADRYTTSNMVHQASKFDCKEEK  120
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              FL+WLW+ EF   KLP+PD VIFL+M    S +L+K R+NK TG+ +KDIHER+ EYL
+Sbjct  121  LDFLEWLWDLEFIKMKLPIPDEVIFLNMNLEVSYQLIKNRSNKITGQIEKDIHERDFEYL  180
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSG  223
+             ++Y N+L+VAK+Y+W +I C ++ +LK I+EI +E+Y+ V
+Sbjct  181  QKTYENALWVAKQYHWFEINCTQNDMLKSIEEIHEEIYQKVKA  223
+
+
+>WP_148809457.1 septum site-determining protein MinD [Crassaminicella thermophila]
+ QEK12302.1 septum site-determining protein MinD [Crassaminicella thermophila]
+Length=264
+
+ Score = 28.1 bits (61),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  3   GKLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           G++I+I SG    GK T T  +   L  EG KV
+Sbjct  2   GEVIVITSGKGGVGKTTTTANIGTGLALEGKKV  34
+
+
+>WP_148808777.1 molecular chaperone HtpG [Crassaminicella thermophila]
+ QEK11622.1 molecular chaperone HtpG [Crassaminicella thermophila]
+Length=622
+
+ Score = 28.1 bits (61),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 29/55 (53%), Gaps = 6/55 (11%)
+
+Query  97   ILADRYTTSNMVHQAAK-IKDMEEKDR-----FLDWLWNFEFEIYKLPVPDCVIF  145
+            I AD+    N+ H   + +K++ EKD+     + D L+N    I  LP+PD V F
+Sbjct  559  IKADKVLEININHDVFRSLKEIYEKDKDKFKLYTDLLYNQALLIEGLPLPDPVEF  613
+
+
+>WP_148809818.1 spore coat protein [Crassaminicella thermophila]
+ QEK12667.1 spore coat protein [Crassaminicella thermophila]
+Length=158
+
+ Score = 25.0 bits (53),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 24/51 (47%), Gaps = 1/51 (2%)
+
+Query  175  RNDEYLV-ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGI  224
+            +ND  L  +S     +V+  YN    EC    + + ++ IQKE  +   GI
+Sbjct  95   QNDAKLCKDSLMTEKFVSGAYNTTIFECTDKNLRQVLNHIQKEEQQHGEGI  145
+
+
+>WP_148809947.1 8-amino-7-oxononanoate synthase [Crassaminicella thermophila]
+ QEK12811.1 8-amino-7-oxononanoate synthase [Crassaminicella thermophila]
+Length=389
+
+ Score = 25.4 bits (54),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 18/35 (51%), Gaps = 0/35 (0%)
+
+Query  16   GKATQTNKLYERLVQEGYKVKKITFPNYDSDSSAL  50
+            G A + NKL E L++EG  +  I  P     +S L
+Sbjct  323  GDAKKANKLSENLLEEGIYIPAIRPPTVPKGTSRL  357
+
+
+>WP_148810152.1 Mrp/NBP35 family ATP-binding protein [Crassaminicella thermophila]
+ QEK13015.1 Mrp/NBP35 family ATP-binding protein [Crassaminicella thermophila]
+Length=263
+
+ Score = 25.0 bits (53),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           K+I + SG    GK++ T+ +   L  +GYKV
+Sbjct  15  KIIAVMSGKGGVGKSSVTSLMAVSLRNKGYKV  46
+
+
+>WP_148809571.1 hypothetical protein [Crassaminicella thermophila]
+ QEK12416.1 hypothetical protein FQB35_08525 [Crassaminicella thermophila]
+Length=159
+
+ Score = 24.6 bits (52),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 14/27 (52%), Positives = 19/27 (70%), Gaps = 2/27 (7%)
+
+Query  194  YNWIKIECVKDGVLKKIDEIQKEVYEA  220
+            YN  KIE   + ++KKIDEIQ E+ +A
+Sbjct  119  YNIPKIEM--EIIMKKIDEIQDEIQKA  143
+
+
+>WP_148808949.1 ATP-binding protein [Crassaminicella thermophila]
+ QEK11794.1 AAA family ATPase [Crassaminicella thermophila]
+Length=789
+
+ Score = 25.0 bits (53),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 19/79 (24%), Positives = 34/79 (43%), Gaps = 23/79 (29%)
+
+Query  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSR-----------ELMKERANKFTGEQKKDIH  173
+            DW + + F+    P+      L+MPP   +           EL++E    FT E+    +
+Sbjct  88   DWCYVYNFDNSSRPIA-----LNMPPGMGKIFCDDMNELINELLEEVPKAFTDEE----Y  138
+
+Query  174  ERNDEYLVESY---RNSLY  189
+            E+    +++ Y   RN L+
+Sbjct  139  EKEKSEIIKKYQEERNKLF  157
+
+
+>QEK13756.1 hypothetical protein FQB35_15635 [Crassaminicella thermophila]
+Length=141
+
+ Score = 24.3 bits (51),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 22/52 (42%), Gaps = 0/52 (0%)
+
+Query  165  TGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKE  216
+            T    K   ++  + L E+    LY     N    ECVK  VLKK  + + E
+Sbjct  70   TNNHGKGDKDKQSKKLSEAQVKRLYAIGAKNGYDAECVKKAVLKKYSKTKAE  121
+
+
+>WP_148808176.1 methylmalonyl Co-A mutase-associated GTPase MeaB [Crassaminicella
+thermophila]
+ QEK11101.1 methylmalonyl Co-A mutase-associated GTPase MeaB [Crassaminicella
+thermophila]
+Length=309
+
+ Score = 24.3 bits (51),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  10  SGADASGKATQTNKLYERLVQEGYKVKKITF  40
+           +G   +GK+T T+KL + L +EG  V  I
+Sbjct  49  TGPPGAGKSTLTDKLVKALRKEGKTVGIIAV  79
+
+
+>WP_231701919.1 ERF family protein [Crassaminicella thermophila]
+Length=126
+
+ Score = 23.5 bits (49),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 22/52 (42%), Gaps = 0/52 (0%)
+
+Query  165  TGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKE  216
+            T    K   ++  + L E+    LY     N    ECVK  VLKK  + + E
+Sbjct  55   TNNHGKGDKDKQSKKLSEAQVKRLYAIGAKNGYDAECVKKAVLKKYSKTKAE  106
+
+
+>WP_148809681.1 aspartate-semialdehyde dehydrogenase [Crassaminicella thermophila]
+ QEK12527.1 aspartate-semialdehyde dehydrogenase [Crassaminicella thermophila]
+Length=333
+
+ Score = 24.3 bits (51),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 24/112 (21%), Positives = 44/112 (39%), Gaps = 7/112 (6%)
+
+Query  29   VQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDV-----SPYVASTFYAVDRFA--  81
+            + + YK+K+I +  Y + S + VK   + + G   ND+      P   +    +D F
+Sbjct  142  LHDHYKIKRIVYSTYQAVSGSGVKGVADLEEGLKGNDIKTAYPHPIAGNCLPHIDVFLEN  201
+
+Query  82   SYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLDWLWNFEFE  133
+             Y  E  +  N+   IL D             +KD   +   +++   FE +
+Sbjct  202  GYTKEEMKMINETKKILNDYDLKITATTVRVPVKDCHSESINIEFEKPFELD  253
+
+
+>WP_168198231.1 hypothetical protein [Crassaminicella thermophila]
+Length=56
+
+ Score = 22.3 bits (46),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 10/18 (56%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  19  TQTNKLYERLVQEGYKVK  36
+           T  +K+  RLVQEG+ VK
+Sbjct  12  TDADKIKLRLVQEGFLVK  29
+
+
+>WP_148808821.1 ERF family protein [Crassaminicella thermophila]
+ QEK11666.1 recombinase [Crassaminicella thermophila]
+Length=199
+
+ Score = 23.9 bits (50),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 22/52 (42%), Gaps = 0/52 (0%)
+
+Query  165  TGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKE  216
+            T    K   ++  + L E+    LY     N    ECVK  VLKK  + + E
+Sbjct  128  TNNHGKGDKDKQSKKLSEAQVKRLYAIGAKNGYDAECVKKAVLKKYSKTKAE  179
+
+
+>WP_231701870.1 cell wall metabolism sensor histidine kinase WalK [Crassaminicella
+thermophila]
+Length=448
+
+ Score = 23.9 bits (50),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 5/55 (9%)
+
+Query  31   EGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRT  85
+            EG K+K   +  +D     ++K+  NG  G  P +  PY+   FY VD+  + +T
+Sbjct  354  EGGKIKISLYTEHDE---VIIKIQDNG-IGI-PEESLPYIFERFYRVDKARARKT  403
+
+
+>WP_148810396.1 ATP synthase subunit I [Crassaminicella thermophila]
+ QEK13224.1 ATP synthase subunit I [Crassaminicella thermophila]
+Length=142
+
+ Score = 23.5 bits (49),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 8/21 (38%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  117  MEEKDRFLDWLWNFEFEIYKL  137
+            ME K + L + WN + +I+K+
+Sbjct  1    MERKCKPLGYTWNLQLKIFKI  21
+
+
+>QEK12053.1 cell wall metabolism sensor histidine kinase WalK [Crassaminicella
+thermophila]
+Length=453
+
+ Score = 23.9 bits (50),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 5/55 (9%)
+
+Query  31   EGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRT  85
+            EG K+K   +  +D     ++K+  NG  G  P +  PY+   FY VD+  + +T
+Sbjct  359  EGGKIKISLYTEHDE---VIIKIQDNG-IGI-PEESLPYIFERFYRVDKARARKT  408
+
+
+>WP_148809575.1 YjiH family protein [Crassaminicella thermophila]
+ QEK12420.1 YjiH family protein [Crassaminicella thermophila]
+Length=452
+
+ Score = 23.9 bits (50),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 20/48 (42%), Gaps = 5/48 (10%)
+
+Query  52   KMYLNGDFGKDPNDVSPY-----VASTFYAVDRFASYRTEWGQAYNDG  94
+            +M LN  F     +VSP      +  T +A+  F     EW  + N G
+Sbjct  81   QMILNSKFLNTLFNVSPLWFSSRILGTIFAISTFYKIGPEWIWSENTG  128
+
+
+>WP_148809411.1 MinD/ParA family protein [Crassaminicella thermophila]
+ QEK12256.1 MinD/ParA family protein [Crassaminicella thermophila]
+Length=306
+
+ Score = 23.9 bits (50),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 18/32 (56%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           ++I + SG    GK+  T  L   L++ GYKV
+Sbjct  38  RVITVTSGKGGVGKSNFTINLGLALIKLGYKV  69
+
+
+>WP_148808718.1 HPr(Ser) kinase/phosphatase [Crassaminicella thermophila]
+ QEK11563.1 HPr kinase/phosphorylase [Crassaminicella thermophila]
+Length=305
+
+ Score = 23.9 bits (50),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 16/54 (30%), Positives = 27/54 (50%), Gaps = 1/54 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQ-EGYKVKKITFPNYDSDSSALVKMYL  55
+            G L+I ESG   S  A +  K   RLV  +  ++KKI     +  +  L++ ++
+Sbjct  148  GILLIGESGIGKSETALELIKRGHRLVADDAVEIKKIDNNTLEGSAPELIRHFM  201
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 985,702
+  Number of sequences in database:  3,308
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 3308
+Number of Hits to DB: 4166
+Number of extensions: 199
+Number of successful extensions: 13
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 1
+Length of query: 227
+Length of database: 985702
+Length adjustment: 78
+Effective length of query: 149
+Effective length of database: 727678
+Effective search space: 108424022
+Effective search space used: 108424022
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 30 (16.2 bits)
+S2: 41 (20.4 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

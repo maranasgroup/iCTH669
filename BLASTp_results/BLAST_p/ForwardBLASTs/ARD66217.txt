@@ -1,0 +1,166 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WTG5U26016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ARD66217 5'-nucleotidase [Eubacterium limosum]
+
+Length=769
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      31.2    0.58   24%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      31.2    0.61   24%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      31.2    0.61   24%
+
+ALIGNMENTS
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 31.2 bits (69),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 46/191 (24%), Positives = 81/191 (42%), Gaps = 33/191 (17%)
+
+Query  123  QGGTLAALSQGADVITLMNAAKYDAMALGN-HEFDYGQDVLFENVRNADFPVLSANTVYK  181
+            +GG    L    + I  +  A ++ M L N H  DY +  LF+ +      +L  N
+Sbjct  142  EGGKYV-LKNDVEAIEGIKYAGFNLMNLANNHILDYYERGLFDTM-----DILDKN----  191
+
+Query  182  DTGRPILEGVPYAGGTQT--NNGQYTIVERNGVKIGIFGVT-TPETATKTNP-------K  231
+                    G+ YAG  +      +  I+E   +K+G+   T   E   K NP       +
+Sbjct  192  --------GIKYAGAGRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGE  243
+
+Query  232  GIEGIAFNPV--EPVAREMIKALKAQGAEVIICLAHLGVDPSTSKENSSVGLAEALGPDS  289
+               G+A  P+  +   ++ I+ L+++  +++I   H GV+ S          A +L  D+
+Sbjct  244  DKPGVAPRPLKFDDSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSL-IDN  301
+
+Query  290  GLDMIIDGHSH  300
+            G+D+I+  H H
+Sbjct  302  GVDVILGHHPH  312
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 31.2 bits (69),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 46/191 (24%), Positives = 81/191 (42%), Gaps = 33/191 (17%)
+
+Query  123  QGGTLAALSQGADVITLMNAAKYDAMALGN-HEFDYGQDVLFENVRNADFPVLSANTVYK  181
+            +GG    L    + I  +  A ++ M L N H  DY +  LF+ +      +L  N
+Sbjct  142  EGGKYV-LKNDVEAIEGIKYAGFNLMNLANNHILDYYERGLFDTM-----DILDKN----  191
+
+Query  182  DTGRPILEGVPYAGGTQT--NNGQYTIVERNGVKIGIFGVT-TPETATKTNP-------K  231
+                    G+ YAG  +      +  I+E   +K+G+   T   E   K NP       +
+Sbjct  192  --------GIKYAGAGRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGE  243
+
+Query  232  GIEGIAFNPV--EPVAREMIKALKAQGAEVIICLAHLGVDPSTSKENSSVGLAEALGPDS  289
+               G+A  P+  +   ++ I+ L+++  +++I   H GV+ S          A +L  D+
+Sbjct  244  DKPGVAPRPLKFDDSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSL-IDN  301
+
+Query  290  GLDMIIDGHSH  300
+            G+D+I+  H H
+Sbjct  302  GVDVILGHHPH  312
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 31.2 bits (69),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 46/191 (24%), Positives = 81/191 (42%), Gaps = 33/191 (17%)
+
+Query  123  QGGTLAALSQGADVITLMNAAKYDAMALGN-HEFDYGQDVLFENVRNADFPVLSANTVYK  181
+            +GG    L    + I  +  A ++ M L N H  DY +  LF+ +      +L  N
+Sbjct  142  EGGKYV-LKNDVEAIEGIKYAGFNLMNLANNHILDYYERGLFDTM-----DILDKN----  191
+
+Query  182  DTGRPILEGVPYAGGTQT--NNGQYTIVERNGVKIGIFGVT-TPETATKTNP-------K  231
+                    G+ YAG  +      +  I+E   +K+G+   T   E   K NP       +
+Sbjct  192  --------GIKYAGAGRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGE  243
+
+Query  232  GIEGIAFNPV--EPVAREMIKALKAQGAEVIICLAHLGVDPSTSKENSSVGLAEALGPDS  289
+               G+A  P+  +   ++ I+ L+++  +++I   H GV+ S          A +L  D+
+Sbjct  244  DKPGVAPRPLKFDDSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSL-IDN  301
+
+Query  290  GLDMIIDGHSH  300
+            G+D+I+  H H
+Sbjct  302  GVDVILGHHPH  312
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.311    0.130    0.366
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 57217
+Number of extensions: 2766
+Number of successful extensions: 34
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 34
+Number of HSP's successfully gapped: 4
+Length of query: 769
+Length of database: 2835838
+Length adjustment: 97
+Effective length of query: 672
+Effective length of database: 2053727
+Effective search space: 1380104544
+Effective search space used: 1380104544
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

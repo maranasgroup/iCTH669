@@ -1,0 +1,423 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8WX4B93P01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_015514383.1 dTMP kinase [Coprococcus catus]                     188     3e-60  44%
+WP_221717471.1 nucleoside kinase [Coprococcus catus]               30.4    0.61   39%
+WP_215632745.1 nucleoside kinase [Coprococcus catus]               30.4    0.61   39%
+MBD9001646.1 nucleoside kinase [Coprococcus catus]                 29.6    0.97   37%
+WP_015514002.1 nucleoside kinase [Coprococcus catus]               29.6    1.0    37%
+WP_227081418.1 nucleoside kinase [Coprococcus catus]               29.6    1.0    37%
+RGB80297.1 nucleoside kinase [Coprococcus catus]                   29.6    1.1    37%
+WP_117539435.1 nucleoside kinase [Coprococcus catus]               29.6    1.1    37%
+WP_215689377.1 nucleoside kinase [Coprococcus catus]               29.6    1.1    37%
+WP_178437877.1 metal-dependent transcriptional regulator [Copr...  26.9    4.0    41%
+WP_215632666.1 polyphosphate:AMP phosphotransferase [Coprococc...  27.3    4.8    42%
+WP_221717574.1 polyphosphate:AMP phosphotransferase [Coprococc...  27.3    4.9    42%
+WP_215689350.1 FAD:protein FMN transferase [Coprococcus catus]     27.3    5.1    24%
+WP_015514162.1 Polyphosphate:AMP phosphotransferase [Coprococc...  27.3    5.2    34%
+WP_117526887.1 phosphate--AMP phosphotransferase [Coprococcus ...  27.3    5.2    34%
+WP_227082778.1 phosphate--AMP phosphotransferase [Coprococcus ...  27.3    5.2    34%
+MBD8966642.1 phosphate--AMP phosphotransferase [Coprococcus ca...  27.3    5.3    34%
+WP_117540173.1 phosphate--AMP phosphotransferase [Coprococcus ...  27.3    5.5    34%
+WP_215689509.1 phosphate--AMP phosphotransferase [Coprococcus ...  27.3    5.6    34%
+WP_215632708.1 helix-turn-helix domain-containing protein [Cop...  26.6    7.7    37%
+WP_246612125.1 aldo/keto reductase [Coprococcus catus]             26.2    8.6    23%
+WP_215689349.1 helix-turn-helix domain-containing protein [Cop...  26.6    9.4    37%
+
+ALIGNMENTS
+>WP_015514383.1 dTMP kinase [Coprococcus catus]
+ CBK80815.1 thymidylate kinase [Coprococcus catus GD/7]
+Length=223
+
+ Score = 188 bits (477),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 97/218 (44%), Positives = 145/218 (67%), Gaps = 9/218 (4%)
+
+Query  4    KLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDP  63
+            K I+IE G D SGKATQ+  L E ++++G   +K++FPNY SDSSALVK YL G +GK
+Sbjct  2    KFIVIE-GNDGSGKATQSQLLLETMLEKGIDARKLSFPNYQSDSSALVKGYLAGRYGK-R  59
+
+Query  64   NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+            +D+SPY A++FYA DR ASY  +W + Y  G +I+ADRYTTSN ++Q A++     + RF
+Sbjct  60   DDISPYAAASFYAADRIASYMEDWKRDYEKGKLIIADRYTTSNAIYQCARLP-RMRRRRF  118
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVES  183
+            L WL+ +E+++  LP PD VI+LD+ P  S +L+++R       +KKDIHE + EY+ +
+Sbjct  119  LQWLYEYEYDLLGLPEPDMVIYLDVDPDISMQLIEQRG------EKKDIHEEDAEYMRQV  172
+
+Query  184  YRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+            +  S + A+K  W +I C KDG +   + I + + +A+
+Sbjct  173  HEASKFCARKGGWERINCCKDGKILPPERIHEMIMDAI  210
+
+
+>WP_221717471.1 nucleoside kinase [Coprococcus catus]
+ MBX9229919.1 nucleoside kinase [Coprococcus catus]
+Length=553
+
+ Score = 30.4 bits (67),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G K   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLKPHPIPVDNY  326
+
+
+>WP_215632745.1 nucleoside kinase [Coprococcus catus]
+ MBT9773816.1 nucleoside kinase [Coprococcus catus]
+Length=553
+
+ Score = 30.4 bits (67),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G K   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLKPHPIPVDNY  326
+
+
+>MBD9001646.1 nucleoside kinase [Coprococcus catus]
+Length=435
+
+ Score = 29.6 bits (65),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  326
+
+
+>WP_015514002.1 nucleoside kinase [Coprococcus catus]
+ CBK80433.1 Uridine kinase [Coprococcus catus GD/7]
+Length=553
+
+ Score = 29.6 bits (65),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  326
+
+
+>WP_227081418.1 nucleoside kinase [Coprococcus catus]
+ MCB6491583.1 nucleoside kinase [Coprococcus catus]
+Length=553
+
+ Score = 29.6 bits (65),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  326
+
+
+>RGB80297.1 nucleoside kinase [Coprococcus catus]
+Length=558
+
+ Score = 29.6 bits (65),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  291  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  331
+
+
+>WP_117539435.1 nucleoside kinase [Coprococcus catus]
+ MBD8965352.1 nucleoside kinase [Coprococcus catus]
+ RGC48794.1 nucleoside kinase [Coprococcus catus]
+Length=553
+
+ Score = 29.6 bits (65),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  326
+
+
+>WP_215689377.1 nucleoside kinase [Coprococcus catus]
+ MBT9769112.1 nucleoside kinase [Coprococcus catus]
+Length=553
+
+ Score = 29.6 bits (65),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 23/41 (56%), Gaps = 0/41 (0%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+            GK II+ +G  +SGK T +++L  +L   G +   I   NY
+Sbjct  286  GKRIILIAGPSSSGKTTFSHRLSIQLRAHGLRPHPIPVDNY  326
+
+
+>WP_178437877.1 metal-dependent transcriptional regulator [Coprococcus catus]
+ MBT9774724.1 helix-turn-helix domain-containing protein [Coprococcus catus]
+ MBX9231624.1 metal-dependent transcriptional regulator [Coprococcus catus]
+Length=138
+
+ Score = 26.9 bits (58),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  3   GKLIIIESGADASGKATQTNKLYERLVQE  31
+           GK+I+ ESG+D +     TNK+  R + E
+Sbjct  64  GKIILTESGSDMAKNILDTNKIIYRFLTE  92
+
+
+>WP_215632666.1 polyphosphate:AMP phosphotransferase [Coprococcus catus]
+ MBT9773684.1 polyphosphate:AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  5   LIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           ++I+  G  ASGK T  N+L + L   G+KV
+Sbjct  41  VMIVFEGWGASGKGTLINRLIQPLDPRGFKV  71
+
+
+ Score = 27.3 bits (59),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>WP_221717574.1 polyphosphate:AMP phosphotransferase [Coprococcus catus]
+ MBX9230099.1 polyphosphate:AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  5   LIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           ++I+  G  ASGK T  N+L + L   G+KV
+Sbjct  41  VMIVFEGWGASGKGTLINRLIQPLDPRGFKV  71
+
+
+ Score = 27.3 bits (59),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>WP_215689350.1 FAD:protein FMN transferase [Coprococcus catus]
+ MBT9769065.1 hypothetical protein [Coprococcus catus]
+ MCB6491536.1 FAD:protein FMN transferase [Coprococcus catus]
+Length=365
+
+ Score = 27.3 bits (59),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 23/95 (24%), Positives = 36/95 (38%), Gaps = 13/95 (14%)
+
+Query  59   FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDME  118
+            F +D +D+        Y  D   S+R E   AY       AD      +   A ++   +
+Sbjct  56   FAEDASDIMQEAEQALYGCDSLLSWREEGSLAYRFNTEHQADMSEMKEVFEDALQVS-KD  114
+
+Query  119  EKDRF------LDWLWNF------EFEIYKLPVPD  141
+             +  F      L  LWNF      +F++  + VPD
+Sbjct  115  SQGAFDLTVLPLSQLWNFDKLGDSDFDVSTMKVPD  149
+
+
+>WP_015514162.1 Polyphosphate:AMP phosphotransferase [Coprococcus catus]
+ CBK80594.1 Polyphosphate:AMP phosphotransferase [Coprococcus catus GD/7]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>WP_117526887.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+ RGB82010.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>WP_227082778.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+ MBD9001394.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+ MCB6493865.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>MBD8966642.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+ Score = 26.6 bits (57),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  5   LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+           ++I+  G  ASGK T  ++L + L   G+KV  I   N
+Sbjct  41  VMIVFEGWGASGKGTMISRLIQPLDPRGFKVFTIQAEN  78
+
+
+>WP_117540173.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+ RGC47080.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+ Score = 26.6 bits (57),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  5   LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+           ++I+  G  ASGK T  ++L + L   G+KV  I   N
+Sbjct  41  VMIVFEGWGASGKGTMISRLIQPLDPRGFKVFTIQAEN  78
+
+
+>WP_215689509.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+ MBT9769317.1 phosphate--AMP phosphotransferase [Coprococcus catus]
+Length=498
+
+ Score = 27.3 bits (59),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 13/38 (34%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPN  42
+            +++   G DA+GK     +L E L   GY+V     PN
+Sbjct  305  VVVALEGWDAAGKGGAIKRLTEPLDPRGYEVVPTAAPN  342
+
+
+>WP_215632708.1 helix-turn-helix domain-containing protein [Coprococcus catus]
+ MBT9773765.1 PucR family transcriptional regulator [Coprococcus catus]
+ MBX9229868.1 PucR family transcriptional regulator [Coprococcus catus]
+Length=362
+
+ Score = 26.6 bits (57),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 16/30 (53%), Gaps = 6/30 (20%)
+
+Query  134  IYKLPVPDCVIFLD------MPPSFSRELM  157
+            IY+LP+P C +F+D       P  F  E +
+Sbjct  264  IYQLPIPLCKMFMDEVFPGTTPDEFDEETL  293
+
+
+>WP_246612125.1 aldo/keto reductase [Coprococcus catus]
+Length=222
+
+ Score = 26.2 bits (56),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 34/145 (23%), Positives = 59/145 (41%), Gaps = 29/145 (20%)
+
+Query  20   QTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN------------DVS  67
+            +T +  E+LV+EG K+++    N+D+D    +    NGD                  D+
+Sbjct  90   ETVECMEQLVKEG-KIRRWGVSNFDTDDMEELFSVKNGDHCTVNQVLYHLGSRGVEYDLM  148
+
+Query  68   PYVASTFYAVDRFASYRTEWGQA----YNDGWIILADRYTTSNMVHQAAKIKDMEEKDRF  123
+            P++      +  +     + G       N+  + +   +   N  +QAA+IK  EEK R
+Sbjct  149  PWLEEHHVPLMAYCPL-AQGGDLRRGLLNNKAVQMVAEHVLEN--YQAAEIKLTEEKYRL  205
+
+Query  124  LDWLWNFEFEIYKLPVPDCVIFLDM  148
+            LD            P PD  ++LD+
+Sbjct  206  LD---------RAFPAPDHKVWLDI  221
+
+
+>WP_215689349.1 helix-turn-helix domain-containing protein [Coprococcus catus]
+ MBT9769064.1 PucR family transcriptional regulator [Coprococcus catus]
+ MCB6491535.1 helix-turn-helix domain-containing protein [Coprococcus catus]
+Length=362
+
+ Score = 26.6 bits (57),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 16/30 (53%), Gaps = 6/30 (20%)
+
+Query  134  IYKLPVPDCVIFLD------MPPSFSRELM  157
+            IY+LP+P C +F+D       P  F  E +
+Sbjct  264  IYQLPIPLCKMFIDEIFPGTTPDEFDEETL  293
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 7,436,083
+  Number of sequences in database:  22,740
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 22740
+Number of Hits to DB: 29248
+Number of extensions: 1357
+Number of successful extensions: 22
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 4
+Length of query: 227
+Length of database: 7436083
+Length adjustment: 92
+Effective length of query: 135
+Effective length of database: 5344003
+Effective search space: 721440405
+Effective search space used: 721440405
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

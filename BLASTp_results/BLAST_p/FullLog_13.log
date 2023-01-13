@@ -1,0 +1,259 @@
+Start time: 6 June 2022 9:11:40
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+Found gene for related organism sgy:Syntrophobotulus glycolicus
+Sgly_2064-------------------------------------------------------------------------------------
+Building FASTA report for gene Sgly_2064 (Accession: ADY56357)
+
+Using Organism: Desulfosporosinus orientis (dor)
+Found gene for related organism dor:Desulfosporosinus orientis
+Desor_3336-------------------------------------------------------------------------------------
+Building FASTA report for gene Desor_3336 (Accession: AET68834)
+Desor_3760-------------------------------------------------------------------------------------
+Building FASTA report for gene Desor_3760 (Accession: AET69223)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+Found gene for related organism dai:Desulfosporosinus acidiphilus
+Desaci_2887-------------------------------------------------------------------------------------
+Building FASTA report for gene Desaci_2887 (Accession: AFM41799)
+Desaci_3065-------------------------------------------------------------------------------------
+Building FASTA report for gene Desaci_3065 (Accession: AFM41972)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+Found gene for related organism dmi:Desulfosporosinus meridiei
+Desmer_2601-------------------------------------------------------------------------------------
+Building FASTA report for gene Desmer_2601 (Accession: AFQ44515)
+
+Using Organism: Dehalobacter sp. (ded)
+Found gene for related organism ded:Dehalobacter sp.
+DHBDCA_p680-------------------------------------------------------------------------------------
+Building FASTA report for gene DHBDCA_p680 (Accession: AFV01709)
+DHBDCA_p801-------------------------------------------------------------------------------------
+Building FASTA report for gene DHBDCA_p801 (Accession: AFV01830)
+
+Using Organism: Dehalobacter sp. (dec)
+Found gene for related organism dec:Dehalobacter sp.
+DCF50_p740-------------------------------------------------------------------------------------
+Building FASTA report for gene DCF50_p740 (Accession: AFV04747)
+DCF50_p860-------------------------------------------------------------------------------------
+Building FASTA report for gene DCF50_p860 (Accession: AFV04867)
+
+Using Organism: Dehalobacter restrictus (drs)
+Found gene for related organism drs:Dehalobacter restrictus
+DEHRE_08450-------------------------------------------------------------------------------------
+Building FASTA report for gene DEHRE_08450 (Accession: AHF10105)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+Found gene for related organism tfr:Thermoanaerosceptrum fracticalcis
+BR63_05370-------------------------------------------------------------------------------------
+Building FASTA report for gene BR63_05370 (Accession: QNB45792)
+
+Using Organism: Candidatus Formimonas (fwa)
+Found gene for related organism fwa:Candidatus Formimonas
+DCMF_02725-------------------------------------------------------------------------------------
+Building FASTA report for gene DCMF_02725 (Accession: ATW28313)
+DCMF_05665-------------------------------------------------------------------------------------
+Building FASTA report for gene DCMF_05665 (Accession: ATW28384)
+DCMF_28790-------------------------------------------------------------------------------------
+Building FASTA report for gene DCMF_28790 (Accession: ATW28223)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+Found gene for related organism aacx:Acididesulfobacillus acetoxydans
+DEACI_1938-------------------------------------------------------------------------------------
+Building FASTA report for gene DEACI_1938 (Accession: CAA7601284)
+DEACI_2151-------------------------------------------------------------------------------------
+Building FASTA report for gene DEACI_2151 (Accession: CAA7601484)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+Found gene for related organism dgi:Desulfoscipio gibsoniae
+Desgi_2002-------------------------------------------------------------------------------------
+Building FASTA report for gene Desgi_2002 (Accession: AGL01444)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Syntrophobotulus glycolicus (sgy)
+
+Using Organism: Desulfosporosinus orientis (dor)
+
+Using Organism: Desulfosporosinus acidiphilus (dai)
+
+Using Organism: Desulfosporosinus meridiei (dmi)
+
+Using Organism: Dehalobacter sp. (ded)
+
+Using Organism: Dehalobacter sp. (dec)
+
+Using Organism: Dehalobacter restrictus (drs)
+
+Using Organism: Thermoanaerosceptrum fracticalcis (tfr)
+
+Using Organism: Candidatus Formimonas (fwa)
+
+Using Organism: Acididesulfobacillus acetoxydans (aacx)
+
+Using Organism: Desulfoscipio gibsoniae (dgi)
+end time: 6 June 2022 18:56:10

@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+csc Caldicellulosiruptor saccharolyticus
+ate Caldicellulosiruptor bescii
+cob Caldicellulosiruptor obsidiansis
+chd Caldicellulosiruptor hydrothermalis
+cow Caldicellulosiruptor owensensis
+cki Caldicellulosiruptor kristjanssonii
+clc Caldicellulosiruptor lactoaceticus
+ckn Caldicellulosiruptor kronotskyensis
+ccha Caldicellulosiruptor changbaiensis
+ttm Thermoanaerobacterium thermosaccharolyticum DSM 571

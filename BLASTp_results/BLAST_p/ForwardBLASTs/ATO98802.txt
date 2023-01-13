@@ -1,0 +1,361 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGRM8HG013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ATO98802 5'-nucleotidase [Faecalibacterium prausnitzii]
+
+Length=591
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_131538028.1 heavy metal translocating P-type ATPase [Acetiv...  29.3    2.1    31%
+WP_235836027.1 heavy metal translocating P-type ATPase [Acetiv...  29.3    2.2    31%
+WP_003513786.1 heavy metal translocating P-type ATPase [Acetiv...  29.3    2.2    31%
+3TY9_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphod...  27.7    4.5    25%
+3TY5_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphod...  27.7    4.9    25%
+3TY8_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphod...  27.7    4.9    25%
+4DRF_A Chain A, Metallophosphoesterase [Acetivibrio thermocell...  27.7    5.1    25%
+NLU27880.1 polynucleotide kinase-phosphatase [Acetivibrio ther...  27.7    5.8    24%
+WP_003514395.1 polynucleotide kinase-phosphatase [Acetivibrio ...  27.7    6.1    24%
+WP_020457916.1 polynucleotide kinase-phosphatase [Acetivibrio ...  27.7    6.5    24%
+WP_136479170.1 polynucleotide kinase-phosphatase [Acetivibrio ...  27.3    6.8    24%
+WP_011838173.1 hypothetical protein [Acetivibrio thermocellus]     27.3    7.8    38%
+WP_003519505.1 M15 family metallopeptidase [Acetivibrio thermo...  26.6    10.0   26%
+
+ALIGNMENTS
+>WP_131538028.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ NLU26515.1 copper-translocating P-type ATPase [Acetivibrio thermocellus]
+Length=731
+
+ Score = 29.3 bits (64),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 30/68 (44%), Gaps = 9/68 (13%)
+
+Query  276  DASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTYEGLDAAVAATASNWISAVDDML  335
+            +AS   +TL   G Y + + K         T+E I    GL A  A    N +   +D+
+Sbjct  191  EASSTIITLILLGKYLEAVAKGK-------TSEAIKKLMGLQAKTARVVRNGVE--EDIP  241
+
+Query  336  GEEIAVGD  343
+             EE+ VGD
+Sbjct  242  VEEVQVGD  249
+
+
+>WP_235836027.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ THJ77699.1 copper-translocating P-type ATPase [Acetivibrio thermocellus]
+Length=743
+
+ Score = 29.3 bits (64),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 30/68 (44%), Gaps = 9/68 (13%)
+
+Query  276  DASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTYEGLDAAVAATASNWISAVDDML  335
+            +AS   +TL   G Y + + K         T+E I    GL A  A    N +   +D+
+Sbjct  203  EASSTIITLILLGKYLEAVAKGK-------TSEAIKKLMGLQAKTARVVRNGVE--EDIP  253
+
+Query  336  GEEIAVGD  343
+             EE+ VGD
+Sbjct  254  VEEVQVGD  261
+
+
+>WP_003513786.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ ABN53069.1 copper-translocating P-type ATPase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75544.1 copper-translocating P-type ATPase [Acetivibrio thermocellus
+DSM 1313]
+ CDG36374.1 putative copper-importing P-type ATPase A [Acetivibrio thermocellus
+BC1]
+ ALX09535.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus
+AD2]
+ ANV77307.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus
+DSM 2360]
+Length=743
+
+ Score = 29.3 bits (64),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 30/68 (44%), Gaps = 9/68 (13%)
+
+Query  276  DASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTYEGLDAAVAATASNWISAVDDML  335
+            +AS   +TL   G Y + + K         T+E I    GL A  A    N +   +D+
+Sbjct  203  EASSTIITLILLGKYLEAVAKGK-------TSEAIKKLMGLQAKTARVVRNGVE--EDIP  253
+
+Query  336  GEEIAVGD  343
+             EE+ VGD
+Sbjct  254  VEEVQVGD  261
+
+
+>3TY9_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+ 3TY9_B Chain B, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+ 3TY9_C Chain C, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+ 3TY9_D Chain D, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+Length=393
+
+ Score = 27.7 bits (60),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 10/104 (10%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  102  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  156
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY  313
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +
+Sbjct  157  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRF  195
+
+
+>3TY5_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+ 3TY5_B Chain B, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+Length=413
+
+ Score = 27.7 bits (60),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 10/104 (10%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  122  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  176
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY  313
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +
+Sbjct  177  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRF  215
+
+
+>3TY8_A Chain A, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+ 3TY8_B Chain B, Polynucleotide 2',3'-cyclic phosphate phosphodiesterase
+/ polynucleotide 5'-hydroxyl-kinase / polynucleotide 3'-phosphatase
+[Acetivibrio thermocellus ATCC 27405]
+Length=413
+
+ Score = 27.7 bits (60),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 10/104 (10%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  122  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  176
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY  313
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +
+Sbjct  177  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRF  215
+
+
+>4DRF_A Chain A, Metallophosphoesterase [Acetivibrio thermocellus ATCC
+27405]
+ 4DRF_C Chain C, Metallophosphoesterase [Acetivibrio thermocellus ATCC
+27405]
+ 4E6N_A Chain A, Metallophosphoesterase [Acetivibrio thermocellus ATCC
+27405]
+ 4E6N_C Chain C, Metallophosphoesterase [Acetivibrio thermocellus ATCC
+27405]
+Length=427
+
+ Score = 27.7 bits (60),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 26/104 (25%), Positives = 49/104 (47%), Gaps = 10/104 (10%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  136  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  190
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY  313
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +
+Sbjct  191  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRF  229
+
+
+>NLU27880.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 27.7 bits (60),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 32/131 (24%), Positives = 61/131 (47%), Gaps = 16/131 (12%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  579  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  633
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY----EGLDAAVAATAS  325
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +    E +   V A
+Sbjct  634  LDEAVKLL--KQTSLNKTVSF--DVSRQTSGKNADI-NELLQRFTERSEMMQKYVEAYRK  688
+
+Query  326  -NW-ISAVDDM  334
+              W ++++DD+
+Sbjct  689  YCWPVNSIDDL  699
+
+
+>WP_003514395.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ CDG37289.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+ ADU73447.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX07369.1 Polynucleotide kinase-phosphatase, bacterial [Acetivibrio thermocellus
+AD2]
+ ANV75107.1 Polynucleotide kinase-phosphatase, bacterial [Acetivibrio thermocellus
+DSM 2360]
+ EIC04164.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=870
+
+ Score = 27.7 bits (60),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 32/131 (24%), Positives = 61/131 (47%), Gaps = 16/131 (12%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  579  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  633
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY----EGLDAAVAATAS  325
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +    E +   V A
+Sbjct  634  LDEAVKLL--KQTSLNKTVSF--DVSRQTSGKNADI-NELLQRFTERSEMMQKYVEAYRK  688
+
+Query  326  -NW-ISAVDDM  334
+              W ++++DD+
+Sbjct  689  YCWPVNSIDDL  699
+
+
+>WP_020457916.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ ABN53967.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ HBW27480.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 27.7 bits (60),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 32/131 (24%), Positives = 61/131 (47%), Gaps = 16/131 (12%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  579  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  633
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY----EGLDAAVAATAS  325
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +    E +   V A
+Sbjct  634  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRFTERSEMMQKYVEAYRK  688
+
+Query  326  -NW-ISAVDDM  334
+              W ++++DD+
+Sbjct  689  YCWPVNSIDDL  699
+
+
+>WP_136479170.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+ THJ79496.1 polynucleotide kinase-phosphatase [Acetivibrio thermocellus]
+Length=870
+
+ Score = 27.3 bits (59),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 32/131 (24%), Positives = 61/131 (47%), Gaps = 16/131 (12%)
+
+Query  210  KLYDAVQKAIDKAEFWGADTIIGLGHLGVDPSSSPWTSEEVIAHTHGFTAFIDGHSHTVM  269
+            +L D V+K +DK+ FWG         + +D    PW+++        ++A   G S  V+
+Sbjct  579  ELIDRVRKVLDKSGFWGD---FNTDWVCLDCELMPWSAKAQKLLEEQYSAV--GISGRVV  633
+
+Query  270  ANKQVTDASGKAVTLTQTGSYFKNIGKMTVGADGTITTELIDTY----EGLDAAVAATAS  325
+             ++ V     K  +L +T S+  ++ + T G +  I  EL+  +    E +   V A
+Sbjct  634  LDEAVKLL--KQASLNKTVSF--DVSRQTSGKNADI-NELLQRFTERSEMMQKYVEAYRK  688
+
+Query  326  -NW-ISAVDDM  334
+              W ++++DD+
+Sbjct  689  YCWPVNSIDDL  699
+
+
+>WP_011838173.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52877.1 hypothetical protein Cthe_1654 [Acetivibrio thermocellus ATCC
+27405]
+Length=639
+
+ Score = 27.3 bits (59),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 20/34 (59%), Gaps = 1/34 (3%)
+
+Query  488  VEIYDKTTGTYQPLDPNATYALAGMN-YTLRNLG  520
+            +E YD+   TY+PL+ +    L   N Y +RN+G
+Sbjct  200  IEYYDRNERTYKPLEVSRGTILVDPNVYFMRNIG  233
+
+
+>WP_003519505.1 M15 family metallopeptidase [Acetivibrio thermocellus]
+ CDG36417.1 Serine-type D-Ala-D-Ala carboxypeptidase [Acetivibrio thermocellus
+BC1]
+ ADU75574.1 Serine-type D-Ala-D-Ala carboxypeptidase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09566.1 Serine-type D-Ala-D-Ala carboxypeptidase [Acetivibrio thermocellus
+AD2]
+ ANV77338.1 Serine-type D-Ala-D-Ala carboxypeptidase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04459.1 peptidase M15B and M15C DD-carboxypeptidase VanY/endolysin [Acetivibrio
+thermocellus YS]
+Length=289
+
+ Score = 26.6 bits (57),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 31/118 (26%), Positives = 46/118 (39%), Gaps = 26/118 (22%)
+
+Query  68   AIAALKKSIEDTGRD---VLLVDAGDHIQGTA---YGS-----MDDGATIIELMNEAGYD  116
+            AI  LKK IED  R+   V+ V +    +GT    Y +     M+ G +  E    A
+Sbjct  138  AIDDLKKLIEDCRRETGGVIWVQSAYRDRGTQERLYNNKVTQYMNSGKSREEAEKLAAAS  197
+
+Query  117  LATPGNHEFDYGMARAKAVIQEADFPYVSCNWVDLRTGFNVLPSVKFFFVGGRKIAFV  174
+            ++ PG  E + G+A         DF Y +        GF    + K+      K  F+
+Sbjct  198  VSKPGTSEHEVGLA--------VDFNYAN-------PGFENTKAFKWLMENAHKYGFI  240
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.134    0.401
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 40473
+Number of extensions: 1870
+Number of successful extensions: 15
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 3
+Length of query: 591
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 497
+Effective length of database: 2077916
+Effective search space: 1032724252
+Effective search space used: 1032724252
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

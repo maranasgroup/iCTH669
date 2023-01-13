@@ -1,0 +1,357 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WEZTJ09013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AFM00780 5'-nucleotidase [Desulfitobacterium dehalogenans]
+
+Length=252
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU28099.1 hypothetical protein [Acetivibrio thermocellus]         27.3    2.3    30%
+CDG36982.1 type 3a cellulose-binding domain protein [Acetivibr...  27.3    2.4    30%
+WP_081303233.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_014522588.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_081321372.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_136479134.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_003522528.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_020457846.1 S-layer homology domain-containing protein [Ace...  27.3    2.4    30%
+WP_235825082.1 glycosyl transferase [Acetivibrio thermocellus]     26.6    5.1    32%
+THJ78879.1 glycosyl transferase [Acetivibrio thermocellus]         26.6    5.1    32%
+WP_235715135.1 glycosyl transferase [Acetivibrio thermocellus]     26.6    5.2    32%
+WP_011838029.1 glycosyl transferase [Acetivibrio thermocellus]     26.6    5.2    32%
+HBW28264.1 TPA: glycosyl transferase [Acetivibrio thermocellus]    26.6    5.2    32%
+WP_235835991.1 glycosyl transferase [Acetivibrio thermocellus]     26.6    5.2    32%
+WP_003518893.1 glycosyl transferase [Acetivibrio thermocellus]     26.6    5.2    32%
+CDG35892.1 glycosyltransferase 36 [Acetivibrio thermocellus BC1]   26.6    5.3    32%
+NLU25706.1 glycosyl transferase [Acetivibrio thermocellus]         26.6    5.4    32%
+WP_003515596.1 stage IV sporulation protein A [Acetivibrio the...  26.2    5.6    31%
+
+ALIGNMENTS
+>NLU28099.1 hypothetical protein [Acetivibrio thermocellus]
+Length=995
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103  DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+            D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  884  DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  938
+
+Query  154  PGLI  157
+             GL+
+Sbjct  939  KGLV  942
+
+
+>CDG36982.1 type 3a cellulose-binding domain protein [Acetivibrio thermocellus
+BC1]
+Length=1059
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  948   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1002
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1003  KGLV  1006
+
+
+>WP_081303233.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ANV74838.1 Cadherin-like beta sandwich domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+ SOD21670.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=1103
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  992   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1046
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1047  KGLV  1050
+
+
+>WP_014522588.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73187.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+Length=1059
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  948   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1002
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1003  KGLV  1006
+
+
+>WP_081321372.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ALX07102.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ PFH01364.1 outer membrane biosynthesis protein TonB [Acetivibrio thermocellus
+AD2]
+Length=1091
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  980   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1034
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1035  KGLV  1038
+
+
+>WP_136479134.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ79238.1 hypothetical protein EPD62_00530 [Acetivibrio thermocellus]
+Length=1093
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  982   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1036
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1037  KGLV  1040
+
+
+>WP_003522528.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ EIC03978.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+Length=1103
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103   DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+             D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  992   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  1046
+
+Query  154   PGLI  157
+              GL+
+Sbjct  1047  KGLV  1050
+
+
+>WP_020457846.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ABN53708.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW25732.1 hypothetical protein [Acetivibrio thermocellus]
+Length=1013
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 32/64 (50%), Gaps = 14/64 (22%)
+
+Query  103  DVFYSGTVSAAMEGVLLGMPAIAVSLASFSATDY---KPAAQFVAKWLQKLH------LG  153
+            D +Y    SAA  G+++G P       SF+  ++   +  A  +AK+L+K H      +G
+Sbjct  902  DWYYKSVSSAAAFGIVVGRPD-----GSFAPNEFITRQDMAVVIAKFLEKKHDGNLEGMG  956
+
+Query  154  PGLI  157
+             GL+
+Sbjct  957  KGLV  960
+
+
+>WP_235825082.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2885
+
+ Score = 26.6 bits (57),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  401  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  445
+
+
+>THJ78879.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2922
+
+ Score = 26.6 bits (57),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  438  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  482
+
+
+>WP_235715135.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2880
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  396  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  440
+
+
+>WP_011838029.1 glycosyl transferase [Acetivibrio thermocellus]
+ ABN52453.1 glycosyltransferase 36 [Acetivibrio thermocellus ATCC 27405]
+Length=2922
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  438  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  482
+
+
+>HBW28264.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2922
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  438  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  482
+
+
+>WP_235835991.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2880
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  396  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  440
+
+
+>WP_003518893.1 glycosyl transferase [Acetivibrio thermocellus]
+ ANV75789.1 Protein of unknown function DUF2329 [Acetivibrio thermocellus
+DSM 2360]
+ EIC06062.1 glycosyltransferase 36 [Acetivibrio thermocellus YS]
+ ADU74104.1 glycosyltransferase 36 [Acetivibrio thermocellus DSM 1313]
+ ALX08042.1 Protein of unknown function DUF2329 [Acetivibrio thermocellus
+AD2]
+ PFH02313.1 cellobiose phosphorylase [Acetivibrio thermocellus AD2]
+Length=2922
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  438  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  482
+
+
+>CDG35892.1 glycosyltransferase 36 [Acetivibrio thermocellus BC1]
+Length=2922
+
+ Score = 26.6 bits (57),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  438  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  482
+
+
+>NLU25706.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2824
+
+ Score = 26.6 bits (57),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 5/50 (10%)
+
+Query  46   ITLFEPLFITKYSLNNGIGYAVSGKPADCVKIAIQGNIIPKPDLVISGIN  95
+            IT+   L +TKYSL     Y ++        IA+   IIP  D+ ++ +N
+Sbjct  340  ITVLLLLCVTKYSLFRAEKYGIA-----LSIIAVLATIIPATDIAVNFVN  384
+
+
+>WP_003515596.1 stage IV sporulation protein A [Acetivibrio thermocellus]
+ CDG35715.1 Stage IV sporulation protein A [Acetivibrio thermocellus BC1]
+ ABN52253.1 stage IV sporulation protein A [Acetivibrio thermocellus ATCC
+27405]
+ ADU74257.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+1313]
+ ALX08200.1 stage IV sporulation protein A [Acetivibrio thermocellus AD2]
+ ANV75948.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+2360]
+Length=492
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 25/49 (51%), Gaps = 6/49 (12%)
+
+Query  39   KSATGHSITLFEPLFI----TKYSLNNGIGYAVSGKPADCVKIAIQGNI  83
+            +SA+G +I   EP F+     K  L+  + + V  +  DCV   ++G I
+Sbjct  61   QSASGRTIMTTEPKFVPNEAIKIELDENVHFKV--RLVDCVGYMVKGAI  107
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.135    0.397
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19155
+Number of extensions: 883
+Number of successful extensions: 23
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 4
+Length of query: 252
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 165
+Effective length of database: 2134357
+Effective search space: 352168905
+Effective search space used: 352168905
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

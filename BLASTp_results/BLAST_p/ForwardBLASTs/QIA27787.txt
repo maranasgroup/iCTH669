@@ -1,0 +1,206 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WZWME8R016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QIA27787 5'-nucleotidase [Thermaerobacter sp.]
+
+Length=548
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_235835984.1 peptidoglycan-binding protein [Acetivibrio ther...  31.6    0.32   24%
+WP_003516159.1 peptidoglycan-binding protein [Acetivibrio ther...  31.6    0.36   26%
+ABN54318.1 von Willebrand factor type A [Acetivibrio thermocel...  31.2    0.49   26%
+WP_003513331.1 DNA topoisomerase (ATP-hydrolyzing) subunit B [...  30.8    0.61   33%
+CDG37604.1 Peptidoglycan-binding domain 1 protein [Acetivibrio...  30.0    0.83   24%
+WP_003517431.1 fibronectin type III domain-containing protein ...  27.3    6.1    23%
+
+ALIGNMENTS
+>WP_235835984.1 peptidoglycan-binding protein [Acetivibrio thermocellus]
+Length=824
+
+ Score = 31.6 bits (70),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 36/149 (24%), Positives = 65/149 (44%), Gaps = 25/149 (17%)
+
+Query  205  TPTIVTPT-GVAGVRFLDEAESVNRYVAELKR-------QGVETIIVLLHQGGEGDRRGG  256
+            TP    PT  V  +++ D +     Y+ E+          G+E + +     G G +  G
+Sbjct  481  TPEEPKPTENVFPLKYGDTSAVKGSYIKEVHDLLSKNLGSGLEYLKIADGDAGYG-KNYG  539
+
+Query  257  PISGAIVPIVE-----AMDDEVDVVLSGHTHRGYWGII---DGKLVTQAYSSGTAFADVD  308
+            P + A+V + +     A++ ++D        +G W ++   +GK V +     + F   +
+Sbjct  540  PKTTALVKLYQSQNGAAVNGQIDEATLNKLRKGEWKVVAPSEGKYVIKGSYQDSYF---E  596
+
+Query  309  LVLDRA-----TGDVIDKRARIVDTYADV  332
+            LV+D+A     TGD   K  R+V+ Y D
+Sbjct  597  LVVDKAPDISDTGDFSLKLKRLVEEYTDF  625
+
+
+>WP_003516159.1 peptidoglycan-binding protein [Acetivibrio thermocellus]
+ ADU73756.1 Peptidoglycan-binding domain 1 protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07686.1 Peptidoglycan-binding domain 1 protein [Acetivibrio thermocellus
+AD2]
+ ANV75428.1 Peptidoglycan-binding domain 1 protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC05644.1 Peptidoglycan-binding domain 1 protein [Acetivibrio thermocellus
+YS]
+ PFH01954.1 putative peptidoglycan binding protein [Acetivibrio thermocellus
+AD2]
+Length=1153
+
+ Score = 31.6 bits (70),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 28/108 (26%), Positives = 51/108 (47%), Gaps = 17/108 (16%)
+
+Query  237  GVETIIVLLHQGGEGDRRGGPISGAIVPIVE-----AMDDEVDVVLSGHTHRGYWGII--  289
+            G+E + +     G G +  GP + A+V + +     A++ ++D        +G W ++
+Sbjct  850  GLEYLKIADGDAGYG-KNYGPKTTALVKLYQSQNGAAVNGQIDEATLNKLRKGEWKVVAP  908
+
+Query  290  -DGKLVTQAYSSGTAFADVDLVLDRA-----TGDVIDKRARIVDTYAD  331
+             +GK V +     + F   +LV+D+A     TGD   K  R+V+ Y D
+Sbjct  909  SEGKYVIKGSYQDSYF---ELVVDKAPDISDTGDFSLKLKRLVEEYTD  953
+
+
+>ABN54318.1 von Willebrand factor type A [Acetivibrio thermocellus ATCC 27405]
+Length=1300
+
+ Score = 31.2 bits (69),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 28/108 (26%), Positives = 51/108 (47%), Gaps = 17/108 (16%)
+
+Query  237   GVETIIVLLHQGGEGDRRGGPISGAIVPIVE-----AMDDEVDVVLSGHTHRGYWGII--  289
+             G+E + +     G G +  GP + A+V + +     A++ ++D        +G W ++
+Sbjct  997   GLEYLKIADGDAGYG-KNYGPKTTALVKLYQSQNGAAVNGQIDEATLNKLRKGEWKVVAP  1055
+
+Query  290   -DGKLVTQAYSSGTAFADVDLVLDRA-----TGDVIDKRARIVDTYAD  331
+              +GK V +     + F   +LV+D+A     TGD   K  R+V+ Y D
+Sbjct  1056  SEGKYVIKGSYQDSYF---ELVVDKAPDISDTGDFSLKLKRLVEEYTD  1100
+
+
+>WP_003513331.1 DNA topoisomerase (ATP-hydrolyzing) subunit B [Acetivibrio thermocellus]
+ CDG36899.1 DNA gyrase subunit B [Acetivibrio thermocellus BC1]
+ ABN53578.1 DNA gyrase, B subunit [Acetivibrio thermocellus ATCC 27405]
+ ADU73106.1 DNA gyrase, B subunit [Acetivibrio thermocellus DSM 1313]
+ ALX07017.1 DNA gyrase B subunit [Acetivibrio thermocellus AD2]
+ ANV74754.1 DNA gyrase B subunit [Acetivibrio thermocellus DSM 2360]
+Length=641
+
+ Score = 30.8 bits (68),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 30/55 (55%), Gaps = 6/55 (11%)
+
+Query  238  VETIIVLLHQGGEGDRRGGPISGAI----VPIVEAMDD--EVDVVLSGHTHRGYW  286
+            VE +  +LH GG+ D +G  +SG +      +V A+ +  EV+V   GH +R  +
+Sbjct  96   VEVVHTILHAGGKFDGQGYKVSGGLHGVGASVVNALSEFLEVEVFRDGHIYRQRY  150
+
+
+>CDG37604.1 Peptidoglycan-binding domain 1 protein [Acetivibrio thermocellus
+BC1]
+Length=377
+
+ Score = 30.0 bits (66),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 36/148 (24%), Positives = 65/148 (44%), Gaps = 25/148 (17%)
+
+Query  205  TPTIVTPT-GVAGVRFLDEAESVNRYVAELKR-------QGVETIIVLLHQGGEGDRRGG  256
+            TP    PT  V  +++ D +     Y+ E+          G+E + +     G G +  G
+Sbjct  34   TPEEPKPTENVFPLKYGDTSAVKGSYIKEVHDLLSKNLGSGLEYLKIADGDAGYG-KNYG  92
+
+Query  257  PISGAIVPIVE-----AMDDEVDVVLSGHTHRGYWGII---DGKLVTQAYSSGTAFADVD  308
+            P + A+V + +     A++ ++D        +G W ++   +GK V +     + F   +
+Sbjct  93   PKTTALVKLYQSQNGAAVNGQIDEATLNKLRKGEWKVVAPSEGKYVIKGSYQDSYF---E  149
+
+Query  309  LVLDRA-----TGDVIDKRARIVDTYAD  331
+            LV+D+A     TGD   K  R+V+ Y D
+Sbjct  150  LVVDKAPDISDTGDFSLKLKRLVEEYTD  177
+
+
+>WP_003517431.1 fibronectin type III domain-containing protein, partial [Acetivibrio
+thermocellus]
+ EIC06225.1 Fibronectin type III domain protein, partial [Acetivibrio thermocellus
+YS]
+Length=497
+
+ Score = 27.3 bits (59),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 44/189 (23%), Positives = 73/189 (39%), Gaps = 25/189 (13%)
+
+Query  244  LLHQGGEGDRRGGP--ISGAIVPIVEAMDDEVDVVLSGH------THRGYWGIIDGKLVT  295
+            L+H GG  +  GG   + G      E+++ +  +   G       T+   +  ++G  VT
+Sbjct  196  LIHSGGTLNINGGKLIVKGDYRIQKESVNAQGQITYGGSDGILHMTNENDYVCVEGNFVT  255
+
+Query  296  QAYSSGTAFADVDLVLDRATGDVIDKRARIVDTYADVPPGTEPDKQI---ARLVARAEEQ  352
+            Q+Y S ++    D VL+   GD I K+ +    Y D    +   K I    +L   + E
+Sbjct  256  QSYYSHSSRL-TDGVLE-VKGDFIQKKHQSSYAYRDNFYASGKHKTILSGEKLQKVSFET  313
+
+Query  353  VEPIIN--RVVGTAADDITRQQTPAGESELGNLIADAQRWAMGTQVAFMNPGGIRADIAA  410
+             E   N   +   + D +   Q     + + N          G +V F   G I   +A
+Sbjct  314  AESRFNILELRNYSEDGVEFNQPLNANTFIDN----------GCKVKFAGSGAIGWTLAD  363
+
+Query  411  GEVTWGELY  419
+             E   G+LY
+Sbjct  364  DETYEGDLY  372
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.414
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 45728
+Number of extensions: 2090
+Number of successful extensions: 14
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 2
+Length of query: 548
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 454
+Effective length of database: 2077916
+Effective search space: 943373864
+Effective search space used: 943373864
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

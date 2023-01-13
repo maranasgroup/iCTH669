@@ -1,0 +1,279 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X1CDXX8016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QUI24468 5'-nucleotidase [Vallitalea pronyensis]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838286.1 ATP-dependent endonuclease [Acetivibrio thermoc...  28.9    0.90   25%
+NLU26199.1 2-hydroxy-3-oxopropionate reductase [Acetivibrio th...  26.6    3.6    21%
+WP_003512097.1 iron-containing alcohol dehydrogenase [Acetivib...  26.6    3.7    21%
+WP_003517294.1 DNA methylase [Acetivibrio thermocellus]            26.6    4.8    25%
+WP_003514114.1 CRISPR-associated protein Csx20 [Acetivibrio th...  26.2    5.9    28%
+WP_003512867.1 HU family DNA-binding protein [Acetivibrio ther...  24.6    6.6    28%
+WP_020457955.1 C39 family peptidase [Acetivibrio thermocellus]     25.8    7.4    29%
+WP_003514559.1 C39 family peptidase [Acetivibrio thermocellus]     25.4    7.6    29%
+WP_003520969.1 glycoside hydrolase family 9 protein [Acetivibr...  25.4    9.4    29%
+
+ALIGNMENTS
+>WP_011838286.1 ATP-dependent endonuclease [Acetivibrio thermocellus]
+ ABN53104.1 SMC domain protein [Acetivibrio thermocellus ATCC 27405]
+Length=688
+
+ Score = 28.9 bits (63),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 37/84 (44%), Gaps = 1/84 (1%)
+
+Query  82   QLVESDIDMVISGINIGYNLGTDVLYSGTVSAAVEATLCGLPAIAVSTHH-DAEISMYDT  140
+            QL+++  D +  GINI  N G + L     +    A +  L +   S  H ++ + + +
+Sbjct  287  QLLQNTKDDIYKGINIFVNDGVEGLLEDKGTGIQSAVVISLFSYYCSKFHKNSSLLVVEE  346
+
+Query  141  AATYVHQVIEKAVKNKLQNDIVLN  164
+               Y+H    + V NK    + LN
+Sbjct  347  PEIYLHPQARRVVSNKFDEFVNLN  370
+
+
+>NLU26199.1 2-hydroxy-3-oxopropionate reductase [Acetivibrio thermocellus]
+Length=295
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 17/81 (21%), Positives = 36/81 (44%), Gaps = 1/81 (1%)
+
+Query  101  LGTDVLYSGTVSAAVEATLCGLPAIAVSTHHDAEISMYDTAATYVHQVIEKAVKNKLQND  160
+            +G+  ++ G + A     L     +A++    +E  M    A    +++  A+K  L
+Sbjct  153  MGSSAVHCGDIGAGNTTKLANQVIVALNIAAVSEAFMLAKKAGVDPKLVFDAIKGGLAGS  212
+
+Query  161  IVLNVNVPSI-EKQYIKGLKV  180
+             V+N  +P I ++ +  G K+
+Sbjct  213  TVMNAKIPMILDRNFKPGFKI  233
+
+
+>WP_003512097.1 iron-containing alcohol dehydrogenase [Acetivibrio thermocellus]
+ CDG34784.1 putative NADH-dependent butanol dehydrogenase 1 [Acetivibrio
+thermocellus BC1]
+ ABN51342.1 iron-containing alcohol dehydrogenase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75171.1 iron-containing alcohol dehydrogenase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09146.1 Alcohol dehydrogenase (NADP(+)) [Acetivibrio thermocellus AD2]
+ ANV76898.1 Alcohol dehydrogenase (NADP(+)) [Acetivibrio thermocellus DSM
+2360]
+Length=389
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 27/128 (21%), Positives = 54/128 (42%), Gaps = 17/128 (13%)
+
+Query  81   DQLVESDIDMVISGINIG------YNLGTDVLYSGTVSAAVEATLCGLPAIAVSTHHDAE  134
+            D+L E+ +  +I  + I       YN   +++++GT++      L G   I     H+ E
+Sbjct  214  DRLCEATLKTMIKNVPIALEEPDNYNARAEIMWAGTIA---HNGLLGTGRIEDWASHNIE  270
+
+Query  135  ---ISMYDTA-----ATYVHQVIEKAVKNKLQNDIVLNVNVPSIEKQYIKGLKVCKIGTL  186
+                ++YD A     A      ++   KN L   +   V V ++E  + +  +    G
+Sbjct  271  HEISAIYDVAHGAGLAVVFPAWMKYVYKNNLDRFVQFAVRVWNVEMNFDEPERTALEGIE  330
+
+Query  187  QYRAFYRE  194
+            + + F++E
+Sbjct  331  RLKKFFKE  338
+
+
+>WP_003517294.1 DNA methylase [Acetivibrio thermocellus]
+ ADU75385.1 DNA methylase N-4/N-6 domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX09381.1 DNA methylase N-4/N-6 domain protein [Acetivibrio thermocellus
+AD2]
+ ANV77135.1 DNA methylase N-4/N-6 domain protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04708.1 DNA methylase N-4/N-6 domain protein [Acetivibrio thermocellus
+YS]
+ PFH03658.1 DNA methylase [Acetivibrio thermocellus AD2]
+Length=851
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 30/119 (25%), Positives = 47/119 (39%), Gaps = 17/119 (14%)
+
+Query  107  YSGTVSAAVEATLCGLPAIAVSTHHDAEISMYDTAATYVHQVIEKAVKNKLQ---NDIVL  163
+            + GT    V A +CG P   +    +AE+        YV     KA+ N L      I
+Sbjct  111  FCGTGMTGVAAQMCGNPDPELKARIEAEMP-------YVKWGARKAILNDLSPAATFIAY  163
+
+Query  164  NVNVP----SIEKQYIKGLKVCKIGTLQYRAFYRESKREDESRVYTLEGEEIVDQIEET  218
+            N N P      EK+  + L+ C+    +Y   Y      +    Y ++G+ I+ +I  T
+Sbjct  164  NYNTPVDVAEFEKEAKRILEECE---KEYGWMYETQHTINGEIQYGIDGKPIMGRINYT  219
+
+
+>WP_003514114.1 CRISPR-associated protein Csx20 [Acetivibrio thermocellus]
+ CDG36557.1 CRISPR-associated TM1812 family protein [Acetivibrio thermocellus
+BC1]
+ ABN53264.1 CRISPR-associated protein, TM1812 family [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75698.1 CRISPR-associated protein, TM1812 family [Acetivibrio thermocellus
+DSM 1313]
+ ALX09727.1 CRISPR-associated protein, TM1812 family [Acetivibrio thermocellus
+AD2]
+ ANV77502.1 CRISPR-associated protein, TM1812 family [Acetivibrio thermocellus
+DSM 2360]
+Length=610
+
+ Score = 26.2 bits (56),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 1/75 (1%)
+
+Query  45   ITIREPLIVKKVELPGLKSKAYSVSGTPADCVRMGLDQLVESDIDMVISGINIGYNLGTD  104
+            I I    +VKK +L  +   A+ V GTP    ++ L++      D+        + +G D
+Sbjct  155  IVINYARVVKKCKLKSIYYGAFEVLGTPETVAKIPLEERNAPIFDLTSFVDLFDWTMGID  214
+
+Query  105  -VLYSGTVSAAVEAT  118
+              L +G VS   E T
+Sbjct  215  RYLNTGDVSVVHELT  229
+
+
+>WP_003512867.1 HU family DNA-binding protein [Acetivibrio thermocellus]
+ CDG37121.1 nucleoid protein Hbs [Acetivibrio thermocellus BC1]
+ ABN53856.1 histone family protein DNA-binding protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73340.1 histone family protein DNA-binding protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07258.1 histone family protein DNA-binding protein [Acetivibrio thermocellus
+AD2]
+ ANV74994.1 histone family protein DNA-binding protein [Acetivibrio thermocellus
+DSM 2360]
+Length=91
+
+ Score = 24.6 bits (52),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 23/82 (28%), Positives = 40/82 (49%), Gaps = 4/82 (5%)
+
+Query  145  VHQVIEKAVKNKLQNDIVLNVNVPSIEKQYIKGLKVCKIGTLQYRAFYRESKREDESRVY  204
+            +  + EK+  +K   +  LN  + S+E+   KG K+  +G   + +F    + E + R
+Sbjct  7    IASMAEKSQLSKKDAEKALNAFIESVEEALAKGDKIQLVG---FGSFEVRERAERKGRNP  63
+
+Query  205  TLEGEEIVDQIEETDAYYVGKG  226
+              + EEIV    +T  + VGKG
+Sbjct  64   QTK-EEIVIPATKTPIFKVGKG  84
+
+
+>WP_020457955.1 C39 family peptidase [Acetivibrio thermocellus]
+ ABN54076.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27142.1 peptidase C39 [Acetivibrio thermocellus]
+Length=297
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 32/73 (44%), Gaps = 5/73 (7%)
+
+Query  110  TVSAAVEATLCGLPAIAVSTHHDAEISMYDTAATYVHQVIEKAVKNKLQNDI-----VLN  164
+            T   A  AT+     I+ S    A  +   ++ T    +I  A KN L+ ++     + +
+Sbjct  149  TCGPAALATIFNYYGISKSEEEIARAAFSSSSGTENWYLIRYAEKNGLETEVSYKNSLND  208
+
+Query  165  VNVPSIEKQYIKG  177
+            V VPSI   YI G
+Sbjct  209  VPVPSIIGTYING  221
+
+
+>WP_003514559.1 C39 family peptidase [Acetivibrio thermocellus]
+ CDG37368.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+BC1]
+ ADU73508.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+DSM 1313]
+ ALX07430.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+AD2]
+ ANV75169.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+DSM 2360]
+ EIC04103.1 peptidase C39 bacteriocin processing [Acetivibrio thermocellus
+YS]
+Length=297
+
+ Score = 25.4 bits (54),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 32/73 (44%), Gaps = 5/73 (7%)
+
+Query  110  TVSAAVEATLCGLPAIAVSTHHDAEISMYDTAATYVHQVIEKAVKNKLQNDI-----VLN  164
+            T   A  AT+     I+ S    A  +   ++ T    +I  A KN L+ ++     + +
+Sbjct  149  TCGPAALATIFNYYGISKSEEEIARAAFSSSSGTENWYLIRYAEKNGLETEVSYKNSLND  208
+
+Query  165  VNVPSIEKQYIKG  177
+            V VPSI   YI G
+Sbjct  209  VPVPSIIGTYING  221
+
+
+>WP_003520969.1 glycoside hydrolase family 9 protein [Acetivibrio thermocellus]
+ CDG35316.1 Endoglucanase F [Acetivibrio thermocellus BC1]
+ ABN51860.1 glycoside hydrolase family 9 [Acetivibrio thermocellus ATCC 27405]
+ ADU74664.1 glycoside hydrolase family 9 [Acetivibrio thermocellus DSM 1313]
+ ALX08607.1 glycoside hydrolase family 9 [Acetivibrio thermocellus AD2]
+ ANV76356.1 glycoside hydrolase family 9 [Acetivibrio thermocellus DSM 2360]
+Length=710
+
+ Score = 25.4 bits (54),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 23/52 (44%), Gaps = 7/52 (13%)
+
+Query  166  NVPSIEKQYIKGLKVCKIGTLQYRAFYRESKREDESRVYTLEGEEIVDQIEE  217
+            N+  I+  YI G  +C IG  QY A       E + R+   +G +  D   +
+Sbjct  552  NIYYIKISYIDGTNICPIGQEQYAA-------ELQFRIAAPQGTKFWDPTND  596
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.134    0.381
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19249
+Number of extensions: 803
+Number of successful extensions: 22
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 4
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

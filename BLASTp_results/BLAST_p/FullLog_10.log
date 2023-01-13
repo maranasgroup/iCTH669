@@ -1,0 +1,229 @@
+Start time: 6 June 2022 9:4:46
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Clostridioides difficile (pdc)
+Found gene for related organism pdc:Clostridioides difficile
+CDIF630_02789-------------------------------------------------------------------------------------
+Building FASTA report for gene CDIF630_02789 (Accession: AJP12284)
+
+Using Organism: Clostridioides difficile (cdc)
+Found gene for related organism cdc:Clostridioides difficile
+CD196_2377-------------------------------------------------------------------------------------
+Building FASTA report for gene CD196_2377 (Accession: CBA64557)
+
+Using Organism: Clostridioides difficile (cdl)
+Found gene for related organism cdl:Clostridioides difficile
+CDR20291_2424-------------------------------------------------------------------------------------
+Building FASTA report for gene CDR20291_2424 (Accession: CBE05737)
+
+Using Organism: Clostridioides difficile (pdf)
+Found gene for related organism pdf:Clostridioides difficile
+CD630DERM_25370-------------------------------------------------------------------------------------
+Building FASTA report for gene CD630DERM_25370 (Accession: CEJ99160)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+Found gene for related organism eac:Peptoclostridium acidaminophilum
+EAL2_c12640-------------------------------------------------------------------------------------
+Building FASTA report for gene EAL2_c12640 (Accession: AHM56559)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+Found gene for related organism cst:Acetoanaerobium sticklandii
+CLOST_0281-------------------------------------------------------------------------------------
+Building FASTA report for gene CLOST_0281 (Accession: CBH20411)
+CLOST_2074-------------------------------------------------------------------------------------
+Building FASTA report for gene CLOST_2074 (Accession: CBH22194)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+Found gene for related organism psor:Paeniclostridium sordellii
+RSJ16_10695-------------------------------------------------------------------------------------
+Building FASTA report for gene RSJ16_10695 (Accession: AUN16030)
+
+Using Organism: Romboutsia sp. (roc)
+Found gene for related organism roc:Romboutsia sp.
+HF520_03880-------------------------------------------------------------------------------------
+Building FASTA report for gene HF520_03880 (Accession: QJA08136)
+HF520_06615-------------------------------------------------------------------------------------
+Building FASTA report for gene HF520_06615 (Accession: QJA08632)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+Found gene for related organism phx:Peptacetobacter hiranonis
+KGNDJEFE_01923-------------------------------------------------------------------------------------
+Building FASTA report for gene KGNDJEFE_01923 (Accession: QEK21435)
+KGNDJEFE_02244-------------------------------------------------------------------------------------
+Building FASTA report for gene KGNDJEFE_02244 (Accession: QEK21746)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Clostridioides difficile (pdc)
+
+Using Organism: Clostridioides difficile (cdc)
+
+Using Organism: Clostridioides difficile (cdl)
+
+Using Organism: Clostridioides difficile (pdf)
+
+Using Organism: Peptoclostridium acidaminophilum (eac)
+
+Using Organism: Acetoanaerobium sticklandii (cst)
+
+Using Organism: Filifactor alocis (faa)
+
+Using Organism: Paeniclostridium sordellii (psor)
+
+Using Organism: Romboutsia sp. (roc)
+
+Using Organism: Peptacetobacter hiranonis (phx)
+end time: 6 June 2022 16:4:53

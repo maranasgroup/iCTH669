@@ -1,0 +1,298 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WF5PDEV016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABX41631 5'-nucleotidase [Lachnoclostridium phytofermentans]
+
+Length=392
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003521001.1 hypothetical protein [Acetivibrio thermocellus]     26.9    4.4    29%
+WP_235825026.1 chemotaxis protein CheA [Acetivibrio thermocellus]  27.3    4.9    47%
+WP_003518814.1 chemotaxis protein CheA [Acetivibrio thermocellus]  26.9    5.2    47%
+WP_003514496.1 chemotaxis protein CheA [Acetivibrio thermocellus]  26.9    5.3    47%
+WP_136479621.1 tyrosine-type recombinase/integrase [Acetivibri...  26.6    6.5    29%
+WP_003515363.1 DNA-directed RNA polymerase subunit beta' [Acet...  26.9    6.9    28%
+WP_020457901.1 DNA-directed RNA polymerase subunit beta' [Acet...  26.9    7.0    28%
+WP_003512117.1 HPr(Ser) kinase/phosphatase [Acetivibrio thermo...  26.6    7.1    31%
+WP_003519973.1 sporulation peptidase YabG [Acetivibrio thermoc...  26.2    8.3    38%
+NLU28046.1 sporulation peptidase YabG [Acetivibrio thermocellus]   26.2    8.4    38%
+WP_003514716.1 hypothetical protein [Acetivibrio thermocellus]     26.2    8.8    29%
+WP_020457968.1 hypothetical protein [Acetivibrio thermocellus]     26.2    9.1    29%
+
+ALIGNMENTS
+>WP_003521001.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73591.1 hypothetical protein Clo1313_0502 [Acetivibrio thermocellus DSM
+1313]
+ ALX07512.1 hypothetical protein AD2_00506 [Acetivibrio thermocellus AD2]
+ ANV75251.1 hypothetical protein LQRI_0506 [Acetivibrio thermocellus DSM
+2360]
+ EIC03392.1 hypothetical protein YSBL_2880 [Acetivibrio thermocellus YS]
+ PFH01776.1 hypothetical protein M972_11520 [Acetivibrio thermocellus AD2]
+Length=210
+
+ Score = 26.9 bits (58),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 24/51 (47%), Gaps = 6/51 (12%)
+
+Query  117  NHDYEYGTNRLVDLANKLNFPVLGSNVIDLTTNHLLFGEHVLIEKNGVTYG  167
+            + D+ YG N+     +  N  + G+N+ D+T  +  F      E NGV  G
+Sbjct  63   DSDFTYGQNKAAFFKSGFNVAIRGTNLYDITDENGYF------EINGVPSG  107
+
+
+>WP_235825026.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+Length=522
+
+ Score = 27.3 bits (59),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  351  PNDNISILAENTAVETSVTTMVGYQEKEQQ  380
+            PNDN S  AEN  VE    T+    EK+Q+
+Sbjct  140  PNDNNSDTAENAEVEQKNQTIFMLDEKQQE  169
+
+
+>WP_003518814.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+ ADU73495.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07417.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+AD2]
+ ANV75156.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04116.1 CheW domain protein [Acetivibrio thermocellus YS]
+ PFH01681.1 two-component system chemotaxis sensor kinase CheA [Acetivibrio
+thermocellus AD2]
+Length=602
+
+ Score = 26.9 bits (58),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  351  PNDNISILAENTAVETSVTTMVGYQEKEQQ  380
+            PNDN S  AEN  VE    T+    EK+Q+
+Sbjct  140  PNDNNSDTAENAEVEQKNQTIFMLDEKQQE  169
+
+
+>WP_003514496.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+ ABN54017.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+ATCC 27405]
+ NLU26069.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+ THJ77941.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+ CDG37337.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+BC1]
+Length=602
+
+ Score = 26.9 bits (58),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 14/30 (47%), Positives = 17/30 (57%), Gaps = 0/30 (0%)
+
+Query  351  PNDNISILAENTAVETSVTTMVGYQEKEQQ  380
+            PNDN S  AEN  VE    T+    EK+Q+
+Sbjct  140  PNDNNSDTAENAEVEQKNQTIFMLDEKQQE  169
+
+
+>WP_136479621.1 tyrosine-type recombinase/integrase [Acetivibrio thermocellus]
+ THJ76953.1 integrase [Acetivibrio thermocellus]
+Length=301
+
+ Score = 26.6 bits (57),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 43/80 (54%), Gaps = 10/80 (13%)
+
+Query  256  VNPRKSTLLVSSDQYLNAIGVVVVDKNMKMKAYSLTQSMLDDLNVLTKESDDLEIDEKKA  315
+            ++ RK TL +     LN +  + + K+++    ++T  +    N+ T E D+L I E+K
+Sbjct  170  ISDRKGTLKIVGK--LNKVRYIPLHKDVRD---AITNWLEIRKNIKT-EYDNLFISERKT  223
+
+Query  316  PYTKA-VNEILQNAIKECSQ  334
+            PYT++ + +I +   K C Q
+Sbjct  224  PYTRSGIWKIFK---KYCEQ  240
+
+
+>WP_003515363.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ ADU73405.1 DNA-directed RNA polymerase, beta' subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX07327.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+AD2]
+ ANV75065.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+DSM 2360]
+ EIC04206.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+YS]
+ NLU28024.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+Length=1165
+
+ Score = 26.9 bits (58),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 32/69 (46%), Gaps = 10/69 (14%)
+
+Query  278  VVDKNMKMKAYSLTQSMLDDLNVL----------TKESDDLEIDEKKAPYTKAVNEILQN  327
+            ++DK++K+   + T  +LD +  L          T    D+ I E KA Y K   E ++
+Sbjct  599  IIDKSIKVHGTTKTAILLDKIKELGFKYSTKGAITISISDMVIPEVKAKYIKETEEKIEK  658
+
+Query  328  AIKECSQGL  336
+              K+  +GL
+Sbjct  659  ITKQYKRGL  667
+
+
+>WP_020457901.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ A3DIZ5.1 RecName: Full=DNA-directed RNA polymerase subunit beta'; Short=RNAP
+subunit beta'; AltName: Full=RNA polymerase subunit beta';
+AltName: Full=Transcriptase subunit beta' [Acetivibrio
+thermocellus ATCC 27405]
+ CDG37189.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus
+BC1]
+ ABN53924.1 DNA-directed RNA polymerase, beta' subunit [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79456.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ HBW27521.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+Length=1165
+
+ Score = 26.9 bits (58),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 32/69 (46%), Gaps = 10/69 (14%)
+
+Query  278  VVDKNMKMKAYSLTQSMLDDLNVL----------TKESDDLEIDEKKAPYTKAVNEILQN  327
+            ++DK++K+   + T  +LD +  L          T    D+ I E KA Y K   E ++
+Sbjct  599  IIDKSIKVHGTTKTAILLDKIKELGFKYSTKGAITISISDMVIPEVKAKYIKETEEKIEK  658
+
+Query  328  AIKECSQGL  336
+              K+  +GL
+Sbjct  659  ITKQYKRGL  667
+
+
+>WP_003512117.1 HPr(Ser) kinase/phosphatase [Acetivibrio thermocellus]
+ CDG34793.1 HPr kinase/phosphorylase [Acetivibrio thermocellus BC1]
+ ABN51351.1 HPr kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75162.1 HPr kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09137.1 HPr kinase [Acetivibrio thermocellus AD2]
+ ANV76889.1 HPr kinase [Acetivibrio thermocellus DSM 2360]
+Length=318
+
+ Score = 26.6 bits (57),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 36/62 (58%), Gaps = 2/62 (3%)
+
+Query  177  MTLNDARKVEHITIMSP-VDSARME-VGYLKSAGADVIIALGHLGINDKSRLNSIDVLSK  234
+            +T +D  ++E+I + SP V+   ++ VGYL+  G D I  +G +  +  + L S +  S+
+Sbjct  23   VTADDEDRLENILVTSPEVNRPGLQLVGYLEYFGTDRIQMIGKVETSYLAGLTSEERYSR  82
+
+Query  235  VD  236
+            +D
+Sbjct  83   LD  84
+
+
+>WP_003519973.1 sporulation peptidase YabG [Acetivibrio thermocellus]
+ CDG36923.1 Sporulation-specific protease YabG [Acetivibrio thermocellus
+BC1]
+ ABN53602.1 sporulation peptidase YabG [Acetivibrio thermocellus ATCC 27405]
+ ADU73131.1 sporulation peptidase YabG [Acetivibrio thermocellus DSM 1313]
+ ALX07042.1 sporulation peptidase YabG [Acetivibrio thermocellus AD2]
+ ANV74778.1 sporulation peptidase YabG [Acetivibrio thermocellus DSM 2360]
+Length=291
+
+ Score = 26.2 bits (56),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  271  LNAIGVVVVDKNMKMKAYSLTQSMLDDLNVLT  302
+            ++A+GV V +K   +K Y+L +    D+ VLT
+Sbjct  131  MDAVGVYVKEKEQPLKIYNLLKEHKPDILVLT  162
+
+
+>NLU28046.1 sporulation peptidase YabG [Acetivibrio thermocellus]
+Length=291
+
+ Score = 26.2 bits (56),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  271  LNAIGVVVVDKNMKMKAYSLTQSMLDDLNVLT  302
+            ++A+GV V +K   +K Y+L +    D+ VLT
+Sbjct  131  MDAVGVYVKEKEQPLKIYNLLKEHKPDILVLT  162
+
+
+>WP_003514716.1 hypothetical protein [Acetivibrio thermocellus]
+ NLU26876.1 carboxypeptidase-like regulatory domain-containing protein [Acetivibrio
+thermocellus]
+ THJ76587.1 hypothetical protein EPD62_15745 [Acetivibrio thermocellus]
+Length=241
+
+ Score = 26.2 bits (56),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 24/51 (47%), Gaps = 6/51 (12%)
+
+Query  117  NHDYEYGTNRLVDLANKLNFPVLGSNVIDLTTNHLLFGEHVLIEKNGVTYG  167
+            + D+ YG N+     +  N  + G+N+ D+T  +  F      E NGV  G
+Sbjct  114  DSDFTYGQNKAAFFKSGFNVAIRGTNLYDITDENGYF------EINGVPSG  158
+
+
+>WP_020457968.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN54149.1 hypothetical protein Cthe_2951 [Acetivibrio thermocellus ATCC
+27405]
+ HBW28086.1 hypothetical protein [Acetivibrio thermocellus]
+Length=241
+
+ Score = 26.2 bits (56),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 24/51 (47%), Gaps = 6/51 (12%)
+
+Query  117  NHDYEYGTNRLVDLANKLNFPVLGSNVIDLTTNHLLFGEHVLIEKNGVTYG  167
+            + D+ YG N+     +  N  + G+N+ D+T  +  F      E NGV  G
+Sbjct  114  DSDFTYGQNKAAFFKSGFNVAIRGTNLYDITDENGYF------EINGVPSG  158
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.134    0.369
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 31380
+Number of extensions: 1366
+Number of successful extensions: 21
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 6
+Length of query: 392
+Length of database: 2835838
+Length adjustment: 91
+Effective length of query: 301
+Effective length of database: 2102105
+Effective search space: 632733605
+Effective search space used: 632733605
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 35 (18.1 bits)
+S2: 47 (22.7 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

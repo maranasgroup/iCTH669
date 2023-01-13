@@ -1,0 +1,237 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WUN8H8A016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ARD66473 5'-nucleotidase [Eubacterium limosum]
+
+Length=645
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838167.1 hypothetical protein [Firmicutes]                   28.9    1.1    50%
+NLU26722.1 polysaccharide deacetylase family protein [Acetivib...  29.3    1.8    30%
+WP_003518303.1 tryptophan synthase subunit alpha [Acetivibrio ...  28.5    2.8    25%
+WP_003512660.1 NADP-specific glutamate dehydrogenase [Acetivib...  28.5    3.7    23%
+WP_003519284.1 hypothetical protein [Acetivibrio thermocellus]     28.1    4.0    34%
+WP_003515509.1 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-...  27.7    6.2    27%
+WP_003511683.1 alpha-ribazole phosphatase [Acetivibrio thermoc...  26.9    8.0    50%
+CDG36845.1 hypothetical protein CTHBC1_2247 [Acetivibrio therm...  26.2    9.1    23%
+
+ALIGNMENTS
+>WP_011838167.1 MULTISPECIES: hypothetical protein [Firmicutes]
+ ABN52871.1 hypothetical protein Cthe_1648 [Acetivibrio thermocellus ATCC
+27405]
+Length=141
+
+ Score = 28.9 bits (63),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 11/22 (50%), Positives = 14/22 (64%), Gaps = 0/22 (0%)
+
+Query  523  SISRIQTAGAYQPKPYDACVRI  544
+            SIS+    G Y P PY+A +RI
+Sbjct  2    SISKFNAEGYYDPTPYEALLRI  23
+
+
+>NLU26722.1 polysaccharide deacetylase family protein [Acetivibrio thermocellus]
+Length=489
+
+ Score = 29.3 bits (64),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 34/63 (54%), Gaps = 7/63 (11%)
+
+Query  458  GQLLDPEDDKTPVILVIDEAKIDGGDGYTMLMNLPELGDGGILETVF--RDWLSKITAEK  515
+            G  L+PE +KT ++L  D+++     G       P + + GI  T++  R+ +S IT E+
+Sbjct  240  GIYLNPEHEKTKLLLSFDDSQ-----GSLFTNGFPYMKENGIKATLYVCRNHVSDITPEE  294
+
+Query  516  GAV  518
+            G +
+Sbjct  295  GYM  297
+
+
+>WP_003518303.1 tryptophan synthase subunit alpha [Acetivibrio thermocellus]
+ CDG36088.1 Tryptophan synthase alpha chain [Acetivibrio thermocellus BC1]
+ ABN52642.1 tryptophan synthase, alpha subunit [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73906.1 tryptophan synthase, alpha subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX07845.1 Tryptophan synthase alpha chain [Acetivibrio thermocellus AD2]
+ ANV75590.1 Tryptophan synthase alpha chain [Acetivibrio thermocellus DSM
+2360]
+Length=256
+
+ Score = 28.5 bits (62),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 34/136 (25%), Positives = 55/136 (40%), Gaps = 23/136 (17%)
+
+Query  67   LMNAAGYDAMAAGNHEFDYGLDTLLSNARRADFPILSANSSRDGKPVLAGEAYNGGHKIN  126
+            ++  A Y A++AG    D   D +    +  D PI     +    P+
+Sbjct  58   VIQEADYRALSAGTTT-DKIFDMVGRIRKSCDIPIAFMTYA---NPIF-----------T  102
+
+Query  127  NGAYTLLKRQGITVGIFGITTPEIANGAGE-----AEPKEVRGIHFISPLTSSREIIRKL  181
+             G+   LKR G T GI  +  P+I     E      +  +VR I  I+P  +S+E IR +
+Sbjct  103  YGSEKFLKRCGET-GIDALIVPDIPFEEKEELAPFCKEYDVRFISMIAP--TSKERIRMI  159
+
+Query  182  KELGAEIIICLAHLGI  197
+                   I C++ +G+
+Sbjct  160  AREAEGFIYCVSSMGV  175
+
+
+>WP_003512660.1 NADP-specific glutamate dehydrogenase [Acetivibrio thermocellus]
+ CDG35050.1 NADP-specific glutamate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN51612.1 Glu/Leu/Phe/Val dehydrogenase [Acetivibrio thermocellus ATCC
+27405]
+ ADU74900.1 Glu/Leu/Phe/Val dehydrogenase [Acetivibrio thermocellus DSM 1313]
+ ALX08858.1 Glutamate dehydrogenase (NADP(+)) [Acetivibrio thermocellus AD2]
+ ANV76608.1 Glutamate dehydrogenase (NADP(+)) [Acetivibrio thermocellus DSM
+2360]
+Length=444
+
+ Score = 28.5 bits (62),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 22/95 (23%), Positives = 46/95 (48%), Gaps = 8/95 (8%)
+
+Query  386  LPFGNRLYFREATPRILYQALENGVSRVRGQDPETGRIIGAGGGFPQISGVTMVYSPDRP  445
+            L +G  L   EAT   L   +E  +  ++G+  E   ++ +G      SG   +Y+ ++
+Sbjct  196  LTWGGSLVRTEATGYGLCYFMEEAMKTIKGKSFEGATVVISG------SGNVAIYATEKA  249
+
+Query  446  --VGERVMSVTLDSGQLLDPEDDKTPVILVIDEAK  478
+              +G +V++++  +G + DP+  K   +  I E +
+Sbjct  250  QQLGAKVVALSDSNGYVYDPDGIKLDTVKQIKEVE  284
+
+
+>WP_003519284.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG34973.1 hypothetical protein CTHBC1_0301 [Acetivibrio thermocellus BC1]
+ ABN51534.1 hypothetical protein Cthe_0296 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74980.1 hypothetical protein Clo1313_1930 [Acetivibrio thermocellus DSM
+1313]
+ ALX08942.1 hypothetical protein AD2_01952 [Acetivibrio thermocellus AD2]
+ ANV76692.1 hypothetical protein LQRI_1951 [Acetivibrio thermocellus DSM
+2360]
+Length=491
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 23/44 (52%), Gaps = 3/44 (7%)
+
+Query  345  KSQMTGACIFEDMPVIALHNGGGIRASLHRGQITAGDCLDVLPF  388
+            K  +TGAC +  + ++ + N G +R S   G +     LDVL F
+Sbjct  11   KLVVTGACAYVLLILLFMLNSGLVRVS---GNVLLNKSLDVLFF  51
+
+
+>WP_003515509.1 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate
+ligase [Acetivibrio thermocellus]
+ CDG35669.1 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate-2,6-diaminopimelate
+ligase [Acetivibrio thermocellus BC1]
+ ABN52210.1 UDP-N-acetylmuramyl-tripeptide synthetase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74304.1 UDP-N-acetylmuramyl-tripeptide synthetase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08246.1 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate
+ligase [Acetivibrio thermocellus AD2]
+ ANV75994.1 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate
+ligase [Acetivibrio thermocellus DSM 2360]
+Length=485
+
+ Score = 27.7 bits (60),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 42/97 (43%), Gaps = 12/97 (12%)
+
+Query  97   ADFPILSANSSRDGKPVLAGEAYNGGHKINNGAYTLL--KRQGITVGIFGITTPEIANGA  154
+            ADF I+++++ R   P         G K   G YT +  +R+ I   +      +I   A
+Sbjct  391  ADFTIITSDNPRTEDPDAIIRDIEEGIKQTGGLYTTITDRREAIKYALMNAKPKDIILLA  450
+
+Query  155  GEAEPKEV----RGIHFISPLTSSREIIRK-LKELGA  186
+            G+     +    + IHF       RE++R  LKEL +
+Sbjct  451  GKGHETYIILKDKTIHF-----DEREVVRDILKELDS  482
+
+
+>WP_003511683.1 alpha-ribazole phosphatase [Acetivibrio thermocellus]
+ CDG37636.1 alpha-ribazole phosphatase [Acetivibrio thermocellus BC1]
+ ABN54348.1 alpha-ribazole phosphatase [Acetivibrio thermocellus ATCC 27405]
+ ADU73782.1 alpha-ribazole phosphatase [Acetivibrio thermocellus DSM 1313]
+ ALX07715.1 alpha-ribazole phosphatase [Acetivibrio thermocellus AD2]
+ ANV75457.1 alpha-ribazole phosphatase [Acetivibrio thermocellus DSM 2360]
+Length=196
+
+ Score = 26.9 bits (58),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  201  SAPENQSVGLAEALGENSGLDIII  224
+            S+P  ++V  AE + EN GL+III
+Sbjct  53   SSPFKRTVKTAEIINENYGLEIII  76
+
+
+>CDG36845.1 hypothetical protein CTHBC1_2247 [Acetivibrio thermocellus BC1]
+Length=127
+
+ Score = 26.2 bits (56),  Expect = 9.1, Method: Composition-based stats.
+ Identities = 7/30 (23%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  159  PKEVRGIHFISPLTSSREIIRKLKELGAEI  188
+            P+ ++ +  I+ ++ + +I+++LKE+G  +
+Sbjct  10   PEHLKKVELIAEMSCTLQIVKRLKEIGFSV  39
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.136    0.396
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 56640
+Number of extensions: 2468
+Number of successful extensions: 22
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 8
+Length of query: 645
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 550
+Effective length of database: 2069853
+Effective search space: 1138419150
+Effective search space used: 1138419150
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

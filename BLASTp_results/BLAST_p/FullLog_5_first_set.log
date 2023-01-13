@@ -1,0 +1,338 @@
+Start time: 25 May 2022 15:56:48
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+Found gene for related organism ova:Oscillibacter valericigenes
+OBV_04120-------------------------------------------------------------------------------------
+Building FASTA report for gene OBV_04120 (Accession: BAK97610)
+OBV_26790-------------------------------------------------------------------------------------
+Building FASTA report for gene OBV_26790 (Accession: BAK99877)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+Found gene for related organism obj:Oscillospiraceae bacterium
+EIO64_03180-------------------------------------------------------------------------------------
+Building FASTA report for gene EIO64_03180 (Accession: QCI58355)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+Found gene for related organism caml:Caproicibacterium amylolyticum
+H6X83_01400-------------------------------------------------------------------------------------
+Building FASTA report for gene H6X83_01400 (Accession: QNO18349)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+Found gene for related organism sman:Solibaculum mannosilyticum
+C12CBH8_03590-------------------------------------------------------------------------------------
+Building FASTA report for gene C12CBH8_03590 (Accession: BCI59720)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+Found gene for related organism vfa:Vescimonas fastidiosa
+MM35RIKEN_08900-------------------------------------------------------------------------------------
+Building FASTA report for gene MM35RIKEN_08900 (Accession: BCK78698)
+MM35RIKEN_12130-------------------------------------------------------------------------------------
+Building FASTA report for gene MM35RIKEN_12130 (Accession: BCK79021)
+
+Using Organism: Vescimonas coprocola (vcop)
+Found gene for related organism vcop:Vescimonas coprocola
+MM50RIKEN_05540-------------------------------------------------------------------------------------
+Building FASTA report for gene MM50RIKEN_05540 (Accession: BCK80791)
+MM50RIKEN_07430-------------------------------------------------------------------------------------
+Building FASTA report for gene MM50RIKEN_07430 (Accession: BCK80980)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+Found gene for related organism bpb:Butyrivibrio proteoclasticus
+bpr_I0023-------------------------------------------------------------------------------------
+Building FASTA report for gene bpr_I0023 (Accession: ADL32775)
+bpr_III055-------------------------------------------------------------------------------------
+Building FASTA report for gene bpr_III055 (Accession: ADL35744)
+
+
+2.7.4.9-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.4.9 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+Found gene for related organism obj:Oscillospiraceae bacterium
+EIO64_18215-------------------------------------------------------------------------------------
+Building FASTA report for gene EIO64_18215 (Accession: QCI60900)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+Found gene for related organism caml:Caproicibacterium amylolyticum
+H6X83_05730-------------------------------------------------------------------------------------
+Building FASTA report for gene H6X83_05730 (Accession: QNO19441)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+Found gene for related organism clf:Caproicibacterium lactatifermentans
+GJQ69_07575-------------------------------------------------------------------------------------
+Building FASTA report for gene GJQ69_07575 (Accession: QKN24354)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+Found gene for related organism sman:Solibaculum mannosilyticum
+C12CBH8_21290-------------------------------------------------------------------------------------
+Building FASTA report for gene C12CBH8_21290 (Accession: BCI61490)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+Found gene for related organism pfaa:Pusillimonas faecalis
+MM59RIKEN_33010-------------------------------------------------------------------------------------
+Building FASTA report for gene MM59RIKEN_33010 (Accession: BCK85982)
+accession: WP_003514218.1, fraction positive substitution: 0.64
+Found a significant match, eval: 7e-68
+building FASTA report for Clostridium thermocellum gene WP_003514218.1
+
+Using Organism: Vescimonas fastidiosa (vfa)
+Found gene for related organism vfa:Vescimonas fastidiosa
+MM35RIKEN_07220-------------------------------------------------------------------------------------
+Building FASTA report for gene MM35RIKEN_07220 (Accession: BCK78530)
+accession: WP_003514218.1, fraction positive substitution: 0.64
+Found a significant match, eval: 6e-68
+building FASTA report for Clostridium thermocellum gene WP_003514218.1
+
+Using Organism: Vescimonas coprocola (vcop)
+Found gene for related organism vcop:Vescimonas coprocola
+MM50RIKEN_05840-------------------------------------------------------------------------------------
+Building FASTA report for gene MM50RIKEN_05840 (Accession: BCK80821)
+accession: WP_003514218.1, fraction positive substitution: 0.65
+Found a significant match, eval: 4e-68
+building FASTA report for Clostridium thermocellum gene WP_003514218.1
+
+Using Organism: Caproicibacter fermentans (cfem)
+Found gene for related organism cfem:Caproicibacter fermentans
+HCR03_03930-------------------------------------------------------------------------------------
+Building FASTA report for gene HCR03_03930 (Accession: QNK41437)
+accession: WP_003514218.1, fraction positive substitution: 0.67
+Found a significant match, eval: 5e-66
+building FASTA report for Clostridium thermocellum gene WP_003514218.1
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+Found gene for related organism ova:Oscillibacter valericigenes
+OBV_04120-------------------------------------------------------------------------------------
+Building FASTA report for gene OBV_04120 (Accession: BAK97610)
+OBV_26790-------------------------------------------------------------------------------------
+Building FASTA report for gene OBV_26790 (Accession: BAK99877)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+Found gene for related organism obj:Oscillospiraceae bacterium
+EIO64_03180-------------------------------------------------------------------------------------
+Building FASTA report for gene EIO64_03180 (Accession: QCI58355)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+Found gene for related organism caml:Caproicibacterium amylolyticum
+H6X83_01400-------------------------------------------------------------------------------------
+Building FASTA report for gene H6X83_01400 (Accession: QNO18349)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+Found gene for related organism sman:Solibaculum mannosilyticum
+C12CBH8_03590-------------------------------------------------------------------------------------
+Building FASTA report for gene C12CBH8_03590 (Accession: BCI59720)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+Found gene for related organism vfa:Vescimonas fastidiosa
+MM35RIKEN_08900-------------------------------------------------------------------------------------
+Building FASTA report for gene MM35RIKEN_08900 (Accession: BCK78698)
+MM35RIKEN_12130-------------------------------------------------------------------------------------
+Building FASTA report for gene MM35RIKEN_12130 (Accession: BCK79021)
+
+Using Organism: Vescimonas coprocola (vcop)
+Found gene for related organism vcop:Vescimonas coprocola
+MM50RIKEN_05540-------------------------------------------------------------------------------------
+Building FASTA report for gene MM50RIKEN_05540 (Accession: BCK80791)
+MM50RIKEN_07430-------------------------------------------------------------------------------------
+Building FASTA report for gene MM50RIKEN_07430 (Accession: BCK80980)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+Found gene for related organism bpb:Butyrivibrio proteoclasticus
+bpr_I0023-------------------------------------------------------------------------------------
+Building FASTA report for gene bpr_I0023 (Accession: ADL32775)
+bpr_III055-------------------------------------------------------------------------------------
+Building FASTA report for gene bpr_III055 (Accession: ADL35744)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.6.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.12 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+
+
+3.6.1.65-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.65 genes
+
+Using Organism: Oscillibacter valericigenes (ova)
+
+Using Organism: Oscillospiraceae bacterium (obj)
+
+Using Organism: Caproicibacterium amylolyticum (caml)
+
+Using Organism: Caproicibacterium lactatifermentans (clf)
+
+Using Organism: Solibaculum mannosilyticum (sman)
+
+Using Organism: Pusillimonas faecalis (pfaa)
+
+Using Organism: Vescimonas fastidiosa (vfa)
+
+Using Organism: Vescimonas coprocola (vcop)
+
+Using Organism: Caproicibacter fermentans (cfem)
+
+Using Organism: Butyrivibrio proteoclasticus (bpb)
+end time: 25 May 2022 21:10:18

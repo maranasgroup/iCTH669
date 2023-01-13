@@ -1,0 +1,323 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W4PUW8D016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AKT47466 5'-nucleotidase [Eubacterium sulci]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517493.1 phospho-sugar mutase [Acetivibrio thermocellus]     28.5    1.1    26%
+WP_011838040.1 phospho-sugar mutase [Acetivibrio thermocellus]     28.1    1.4    26%
+WP_069195135.1 hypothetical protein [Acetivibrio thermocellus]     26.2    1.5    44%
+WP_041734319.1 bifunctional DNA primase/polymerase [Acetivibri...  27.3    1.9    27%
+WP_011837818.1 glutamine-hydrolyzing GMP synthase [Acetivibrio...  26.2    4.9    25%
+WP_003512661.1 glutamine-hydrolyzing GMP synthase [Acetivibrio...  26.2    4.9    25%
+WP_003513028.1 NAD-dependent epimerase/dehydratase family prot...  25.8    6.7    34%
+CDG36243.1 hypothetical protein CTHBC1_1603 [Acetivibrio therm...  25.8    6.8    26%
+WP_003516031.1 hypothetical protein [Acetivibrio thermocellus]     25.8    7.2    26%
+WP_020458078.1 hypothetical protein [Acetivibrio thermocellus]     24.3    7.2    38%
+WP_136479427.1 phage tail tape measure protein [Acetivibrio th...  25.8    8.1    29%
+WP_011838146.1 hypothetical protein [Acetivibrio thermocellus]     25.4    9.7    26%
+
+ALIGNMENTS
+>WP_003517493.1 phospho-sugar mutase [Acetivibrio thermocellus]
+ ADU74061.1 phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain
+I [Acetivibrio thermocellus DSM 1313]
+ ALX07999.1 phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain
+I [Acetivibrio thermocellus AD2]
+ ANV75745.1 phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain
+I [Acetivibrio thermocellus DSM 2360]
+ EIC06197.1 phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain
+I [Acetivibrio thermocellus YS]
+ NLU26552.1 phospho-sugar mutase [Acetivibrio thermocellus]
+Length=578
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 21/82 (26%), Positives = 34/82 (41%), Gaps = 6/82 (7%)
+
+Query  11   IHADGIKALAKAMSEVGDVYVCAPSTQQSGKSHSITL------DEEIFVRPIEFPCAKMA  64
+            +H  G K + + + E+G   V     Q+   S   T+      + E F   IE    +
+Sbjct  237  LHGTGNKPVRRILDEIGFKNVLVVKEQELPDSEFSTVKSPNPEEREAFELAIELAKKENV  296
+
+Query  65   WMVSGTPSDCTKVGIQMCEANG  86
+             ++ GT  DC +VGI +    G
+Sbjct  297  DLIIGTDPDCDRVGIVVRNKEG  318
+
+
+>WP_011838040.1 phospho-sugar mutase [Acetivibrio thermocellus]
+ ABN52497.1 phosphoglucomutase/phosphomannomutase alpha/beta/alpha domain
+I [Acetivibrio thermocellus ATCC 27405]
+ THJ78993.1 phospho-sugar mutase [Acetivibrio thermocellus]
+ CDG35935.1 Phosphoglucomutase [Acetivibrio thermocellus BC1]
+ HBW28212.1 phospho-sugar mutase [Acetivibrio thermocellus]
+Length=578
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 21/82 (26%), Positives = 34/82 (41%), Gaps = 6/82 (7%)
+
+Query  11   IHADGIKALAKAMSEVGDVYVCAPSTQQSGKSHSITL------DEEIFVRPIEFPCAKMA  64
+            +H  G K + + + E+G   V     Q+   S   T+      + E F   IE    +
+Sbjct  237  LHGAGNKPVRRILDEIGFKNVLVVKEQELPDSEFSTVKSPNPEEREAFELAIELAKKENV  296
+
+Query  65   WMVSGTPSDCTKVGIQMCEANG  86
+             ++ GT  DC +VGI +    G
+Sbjct  297  DLIIGTDPDCDRVGIVVRNKEG  318
+
+
+>WP_069195135.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76766.1 hypothetical protein EPD62_14805 [Acetivibrio thermocellus]
+Length=76
+
+ Score = 26.2 bits (56),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  213  DDVDVFYNACNYITITPLRVDLTDY  237
+            DDV+  +  C Y +I  L+ DL DY
+Sbjct  46   DDVNALFIDCYYRSIADLKRDLKDY  70
+
+
+>WP_041734319.1 bifunctional DNA primase/polymerase [Acetivibrio thermocellus]
+Length=268
+
+ Score = 27.3 bits (59),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 37/137 (27%), Positives = 52/137 (38%), Gaps = 12/137 (9%)
+
+Query  18   ALAKAMSEVGDVYVCAPSTQQSGKSHSITLDEEIFVR-PIEFPCAKMAWMVSGTPSDCTK  76
+            AL       G + V APS   SG  +    D   F R P E P    AW++     +  +
+Sbjct  139  ALGLDTRSTGGLIVVAPSIHVSGNRYEWIKDHSPFDRTPAEAP----AWLLKLMERE--E  192
+
+Query  77   VGIQMCEANGIELDIVYSGINMGSNLGTDTVYSGTVGAALEATMRGYKAVAVSVNDRDSS  136
+            V +   E   I      +GI  GS   T T  +GT+ A        Y A+    N R +
+Sbjct  193  VLLTPFEGRSI-----VAGIKEGSRNSTLTSLAGTMRARGMTEEGIYTALLAENNARCNP  247
+
+Query  137  HFDGACRAAIYLIDYVK  153
+              D A    IY + + +
+Sbjct  248  PLDEAEIKKIYSLGFQR  264
+
+
+>WP_011837818.1 glutamine-hydrolyzing GMP synthase [Acetivibrio thermocellus]
+ A3DCD4.1 RecName: Full=GMP synthase [glutamine-hydrolyzing]; AltName:
+Full=GMP synthetase; AltName: Full=Glutamine amidotransferase
+[Acetivibrio thermocellus ATCC 27405]
+ ABN51613.1 GMP synthase, large subunit [Acetivibrio thermocellus ATCC 27405]
+ HBW25903.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+Length=511
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 34/136 (25%), Positives = 54/136 (40%), Gaps = 10/136 (7%)
+
+Query  66   MVSGTPSDCTKVGIQMCEANGIELDIVYSGINMGSNLGTDTVYSGTVGAALE-ATMRGYK  124
+            + +G P+        +C+    EL I   GI  G  L      S  +G  +E A  R Y
+Sbjct  51   IFTGGPASVLDPKAPICDREVFELGIPILGICYGMQL-----MSHMLGGTVEKAEQREYG  105
+
+Query  125  AVAVSVNDRDSSHFDGACRAAIYLID--YVKNELAPKTILNINSPNKPVEELKGIKLSKL  182
+             V ++  D  S  F+G  + +   +   Y  N L    +   ++PN PV  ++  +  KL
+Sbjct  106  KVNITF-DTSSMLFEGIEKESTCWMSHTYYVNNLPEGFVKCADTPNCPVAAIEN-REKKL  163
+
+Query  183  GPGYFNDGFVHVEDDR  198
+                F+   VH    R
+Sbjct  164  YGVQFHPEVVHTPKGR  179
+
+
+>WP_003512661.1 glutamine-hydrolyzing GMP synthase [Acetivibrio thermocellus]
+ CDG35051.1 GMP synthase glutamine-hydrolyzing [Acetivibrio thermocellus
+BC1]
+ ADU74899.1 GMP synthase, large subunit [Acetivibrio thermocellus DSM 1313]
+ ALX08857.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+AD2]
+ ANV76607.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+DSM 2360]
+ EIC05197.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+YS]
+Length=511
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 34/136 (25%), Positives = 54/136 (40%), Gaps = 10/136 (7%)
+
+Query  66   MVSGTPSDCTKVGIQMCEANGIELDIVYSGINMGSNLGTDTVYSGTVGAALE-ATMRGYK  124
+            + +G P+        +C+    EL I   GI  G  L      S  +G  +E A  R Y
+Sbjct  51   IFTGGPASVLDPKAPICDREVFELGIPILGICYGMQL-----MSHMLGGTVEKAEQREYG  105
+
+Query  125  AVAVSVNDRDSSHFDGACRAAIYLID--YVKNELAPKTILNINSPNKPVEELKGIKLSKL  182
+             V ++  D  S  F+G  + +   +   Y  N L    +   ++PN PV  ++  +  KL
+Sbjct  106  KVNITF-DTSSMLFEGIEKESTCWMSHTYYVNNLPEGFVKCADTPNCPVAAIEN-REKKL  163
+
+Query  183  GPGYFNDGFVHVEDDR  198
+                F+   VH    R
+Sbjct  164  YGVQFHPEVVHTPKGR  179
+
+
+>WP_003513028.1 NAD-dependent epimerase/dehydratase family protein [Acetivibrio
+thermocellus]
+ ABN53759.1 NAD-dependent epimerase/dehydratase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73240.1 NAD-dependent epimerase/dehydratase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07157.1 NAD-dependent epimerase/dehydratase [Acetivibrio thermocellus
+AD2]
+ ANV74893.1 NAD-dependent epimerase/dehydratase [Acetivibrio thermocellus
+DSM 2360]
+ EIC03923.1 NAD-dependent epimerase/dehydratase [Acetivibrio thermocellus
+YS]
+Length=305
+
+ Score = 25.8 bits (55),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 30/59 (51%), Gaps = 8/59 (14%)
+
+Query  109  SGTVGAAL--EATMRGYKAVAVSVNDRDSSHFDGACRAAIYLIDY-----VKNELAPKT  160
+            SG VG +L  E + +GY+ +A+  N    S FD     ++ + D      +KN L PKT
+Sbjct  10   SGFVGKSLVKELSAKGYEVLAIIRNKNKVSEFDDLSNVSVVVCDLRDISNLKNFL-PKT  67
+
+
+>CDG36243.1 hypothetical protein CTHBC1_1603 [Acetivibrio thermocellus BC1]
+Length=724
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 25/97 (26%), Positives = 40/97 (41%), Gaps = 17/97 (18%)
+
+Query  121  RGYKAVAVSVNDRDSSHFDGACRAAIYLIDYVKNELAPKTILNINSPNKPVEELKGIKLS  180
+             G K++   + D+ S  F G       ++D VKN       L I SP+   E + G
+Sbjct  593  EGIKSLGSWIKDKVSGFFSG-------IVDGVKN------FLGIRSPSTVFEGIGGNMAL  639
+
+Query  181  KLGPGYFNDGFVHVEDDRYKLKGHIPDHKENKDDVDV  217
+             +G G F+     V DD   ++  +P       D++V
+Sbjct  640  GIGEG-FDKAMARVADD---MQNAVPTDFNISPDINV  672
+
+
+>WP_003516031.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU75404.1 hypothetical protein Clo1313_2387 [Acetivibrio thermocellus DSM
+1313]
+ ALX09402.1 hypothetical protein AD2_02416 [Acetivibrio thermocellus AD2]
+ ANV77156.1 hypothetical protein LQRI_2415 [Acetivibrio thermocellus DSM
+2360]
+ EIC04526.1 hypothetical protein YSBL_1702 [Acetivibrio thermocellus YS]
+ PFH03679.1 phage-related protein [Acetivibrio thermocellus AD2]
+Length=728
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 25/97 (26%), Positives = 40/97 (41%), Gaps = 17/97 (18%)
+
+Query  121  RGYKAVAVSVNDRDSSHFDGACRAAIYLIDYVKNELAPKTILNINSPNKPVEELKGIKLS  180
+             G K++   + D+ S  F G       ++D VKN       L I SP+   E + G
+Sbjct  597  EGIKSLGSWIKDKVSGFFSG-------IVDGVKN------FLGIRSPSTVFEGIGGNMAL  643
+
+Query  181  KLGPGYFNDGFVHVEDDRYKLKGHIPDHKENKDDVDV  217
+             +G G F+     V DD   ++  +P       D++V
+Sbjct  644  GIGEG-FDKAMARVADD---MQNAVPTDFNISPDINV  676
+
+
+>WP_020458078.1 hypothetical protein [Acetivibrio thermocellus]
+ AEO12410.1 hypothetical protein Cthe_3341 [Acetivibrio thermocellus ATCC
+27405]
+Length=72
+
+ Score = 24.3 bits (51),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 17/29 (59%), Gaps = 0/29 (0%)
+
+Query  209  KENKDDVDVFYNACNYITITPLRVDLTDY  237
+            + + DDV+  +  C Y +I  L+ DL DY
+Sbjct  42   ENSADDVNALFIDCYYRSIADLKRDLKDY  70
+
+
+>WP_136479427.1 phage tail tape measure protein, partial [Acetivibrio thermocellus]
+ THJ77857.1 phage tail tape measure protein, partial [Acetivibrio thermocellus]
+Length=540
+
+ Score = 25.8 bits (55),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 22/76 (29%), Positives = 33/76 (43%), Gaps = 14/76 (18%)
+
+Query  122  GYKAVAVSVNDRDSSHFDGACRAAIYLIDYVKNELAPKTILNINSPNKPVEELKGIKLSK  181
+            G K++   + D+ S  F G       ++D VKN       L I+SP+   E + G
+Sbjct  410  GIKSLGSWIKDKVSGFFSG-------IVDGVKN------FLGIHSPSTVFEGIGGNMALG  456
+
+Query  182  LGPGYFNDGFVHVEDD  197
+            +G G F+     V DD
+Sbjct  457  IGEG-FDKAMARVADD  471
+
+
+>WP_011838146.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52842.1 tail tape measure protein TP901 core region [Acetivibrio thermocellus
+ATCC 27405]
+Length=762
+
+ Score = 25.4 bits (54),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 25/96 (26%), Positives = 40/96 (42%), Gaps = 17/96 (18%)
+
+Query  122  GYKAVAVSVNDRDSSHFDGACRAAIYLIDYVKNELAPKTILNINSPNKPVEELKGIKLSK  181
+            G K++   + D+ S  F G       ++D VKN       L I SP+   E + G
+Sbjct  632  GIKSLGSWIKDKVSGFFSG-------IVDGVKN------FLGIRSPSTVFEGIGGNMALG  678
+
+Query  182  LGPGYFNDGFVHVEDDRYKLKGHIPDHKENKDDVDV  217
+            +G G F+     V DD   ++  +P       D++V
+Sbjct  679  IGEG-FDKAMARVADD---MQNAVPTDFNISPDINV  710
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.136    0.407
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 24489
+Number of extensions: 1120
+Number of successful extensions: 30
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 29
+Number of HSP's successfully gapped: 9
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

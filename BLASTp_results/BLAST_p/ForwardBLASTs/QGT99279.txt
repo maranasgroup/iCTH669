@@ -1,0 +1,231 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WAN12TU016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QGT99279 5'-nucleotidase [Candidatus Syntrophocurvum]
+
+Length=262
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513915.1 glutamate racemase [Acetivibrio thermocellus]       29.3    0.46   27%
+WP_168796739.1 hypothetical protein [Acetivibrio thermocellus]     26.6    4.3    60%
+CDG35429.1 Cell surface glycoprotein 1 [Acetivibrio thermocell...  26.6    4.6    31%
+NLU25933.1 cellulosome anchor protein [Acetivibrio thermocellus]   26.6    4.7    31%
+WP_003516263.1 cohesin domain-containing protein [Acetivibrio ...  26.6    4.7    31%
+WP_011837893.1 cohesin domain-containing protein [Acetivibrio ...  26.6    4.8    31%
+NLU25912.1 type I DNA topoisomerase [Acetivibrio thermocellus]     25.8    8.4    25%
+WP_003517938.1 type I DNA topoisomerase [Acetivibrio thermocel...  25.8    8.7    25%
+CDG37245.1 phage portal protein, lambda family [Acetivibrio th...  25.4    9.2    33%
+
+ALIGNMENTS
+>WP_003513915.1 glutamate racemase [Acetivibrio thermocellus]
+ CDG36454.1 Glutamate racemase [Acetivibrio thermocellus BC1]
+ ABN53155.1 glutamate racemase [Acetivibrio thermocellus ATCC 27405]
+ ADU75608.1 glutamate racemase [Acetivibrio thermocellus DSM 1313]
+ ALX09601.1 Glutamate racemase [Acetivibrio thermocellus AD2]
+ ANV77375.1 Glutamate racemase [Acetivibrio thermocellus DSM 2360]
+Length=268
+
+ Score = 29.3 bits (64),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 47/109 (43%), Gaps = 19/109 (17%)
+
+Query  52   KAVNIDLPEVKKGWVIGGTPVDCVKLALCRLIEDDIDLVVSGINHGANLGTDVLYSGTVS  111
+            KA  + +P V++GW      +   +  L  L E +ID +V G  H       +LY+
+Sbjct  142  KACPLFVPLVEEGWWENDIALRIAEEYLLPLKEKNIDTLVLGCTH-----YPLLYNTISK  196
+
+Query  112  AAAEGVVMGVPSIAVSLDSFEPEKDFSIAAKIVKNLIQKVFYNKLEKTN  160
+               +GV +   ++ V              AK+VK +I+K   N+ EK N
+Sbjct  197  VMGDGVKLVSSALEV--------------AKVVKEMIEKSNLNRDEKLN  231
+
+
+>WP_168796739.1 hypothetical protein [Acetivibrio thermocellus]
+Length=494
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 13/15 (87%), Gaps = 0/15 (0%)
+
+Query  57   DLPEVKKGWVIGGTP  71
+            D+P+V KG +IGG+P
+Sbjct  391  DIPKVTKGVIIGGSP  405
+
+
+>CDG35429.1 Cell surface glycoprotein 1 [Acetivibrio thermocellus BC1]
+Length=1305
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  2    KILVTNDDGIHARGIHALTKELSNIAELYLVSPDRERSG  40
+            +++V ++ G  +  +H LTK + N A++Y+   D   SG
+Sbjct  867  ELIVNSEYGATSMVVHDLTKGVLNFAQIYVFMEDYRNSG  905
+
+
+>NLU25933.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=1305
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  2    KILVTNDDGIHARGIHALTKELSNIAELYLVSPDRERSG  40
+            +++V ++ G  +  +H LTK + N A++Y+   D   SG
+Sbjct  867  ELIVNSEYGATSMVVHDLTKGVLNFAQIYVFMEDYRNSG  905
+
+
+>WP_003516263.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ADU74549.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+ ALX08493.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ ANV76242.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ EIC05433.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+YS]
+ PFH02766.1 cohesin domain-containing protein [Acetivibrio thermocellus AD2]
+Length=1305
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  2    KILVTNDDGIHARGIHALTKELSNIAELYLVSPDRERSG  40
+            +++V ++ G  +  +H LTK + N A++Y+   D   SG
+Sbjct  867  ELIVNSEYGATSMVVHDLTKGVLNFAQIYVFMEDYRNSG  905
+
+
+>WP_011837893.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ABN51971.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26815.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=1305
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 23/39 (59%), Gaps = 0/39 (0%)
+
+Query  2    KILVTNDDGIHARGIHALTKELSNIAELYLVSPDRERSG  40
+            +++V ++ G  +  +H LTK + N A++Y+   D   SG
+Sbjct  867  ELIVNSEYGATSMVVHDLTKGVLNFAQIYVFMEDYRNSG  905
+
+
+>NLU25912.1 type I DNA topoisomerase [Acetivibrio thermocellus]
+ CDG35174.1 DNA topoisomerase 1 [Acetivibrio thermocellus BC1]
+Length=702
+
+ Score = 25.8 bits (55),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 41/164 (25%), Positives = 67/164 (41%), Gaps = 28/164 (17%)
+
+Query  11   IHARG--IHALTKELSNIAELYLVS-PDRERSG-TGHSITVY--DPIKAVNIDLPEVKKG  64
+            I  +G  I  L KE  N + +YL + PDRE    + H  T+   D  +   I   E+ K
+Sbjct  57   IRGKGEIISKLKKEAKNASTIYLATDPDREGEAISWHLATLLNIDKNEKCRITFNEITKN  116
+
+Query  65   WVIGG--TP----VDCVKLALCRLIEDDI------DLVVSGINHGANLGTDVLYSGTVSA  112
+             V     +P    +D V     R + D I       L+   +  G       L +G V +
+Sbjct  117  AVKNAIKSPREINMDLVDAQQARRVLDRIVGYKISPLLWKKVKKG-------LSAGRVQS  169
+
+Query  113  AAEGVVMGVPSIAVSLDSFEPEKDFSIAAKIVKNLIQKVFYNKL  156
+             A  ++         ++ F PE+ ++I AK++K  ++  F  K
+Sbjct  170  VATRLICDREE---EIEKFVPEEYWTITAKLLKGGVKAPFEAKF  210
+
+
+>WP_003517938.1 type I DNA topoisomerase [Acetivibrio thermocellus]
+ ABN51698.1 DNA topoisomerase I [Acetivibrio thermocellus ATCC 27405]
+ ADU74817.1 DNA topoisomerase I [Acetivibrio thermocellus DSM 1313]
+ ALX08770.1 DNA topoisomerase I [Acetivibrio thermocellus AD2]
+ ANV76521.1 DNA topoisomerase I [Acetivibrio thermocellus DSM 2360]
+ EIC05278.1 DNA topoisomerase I [Acetivibrio thermocellus YS]
+Length=702
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 41/164 (25%), Positives = 67/164 (41%), Gaps = 28/164 (17%)
+
+Query  11   IHARG--IHALTKELSNIAELYLVS-PDRERSG-TGHSITVY--DPIKAVNIDLPEVKKG  64
+            I  +G  I  L KE  N + +YL + PDRE    + H  T+   D  +   I   E+ K
+Sbjct  57   IRGKGEIISKLKKEAKNASTIYLATDPDREGEAISWHLATLLNIDKNEKCRITFNEITKN  116
+
+Query  65   WVIGG--TP----VDCVKLALCRLIEDDI------DLVVSGINHGANLGTDVLYSGTVSA  112
+             V     +P    +D V     R + D I       L+   +  G       L +G V +
+Sbjct  117  AVKNAIKSPREINMDLVDAQQARRVLDRIVGYKISPLLWKKVKKG-------LSAGRVQS  169
+
+Query  113  AAEGVVMGVPSIAVSLDSFEPEKDFSIAAKIVKNLIQKVFYNKL  156
+             A  ++         ++ F PE+ ++I AK++K  ++  F  K
+Sbjct  170  VATRLICDREE---EIEKFVPEEYWTITAKLLKGGVKAPFEAKF  210
+
+
+>CDG37245.1 phage portal protein, lambda family [Acetivibrio thermocellus
+BC1]
+Length=547
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 26/46 (57%), Gaps = 2/46 (4%)
+
+Query  114  AEGVVMGVPSIAVSLDSFEPE--KDFSIAAKIVKNLIQKVFYNKLE  157
+            A G + G+P+I   +DS  PE  +  S  A++++ L+Q   Y + E
+Sbjct  245  AYGKLTGLPNILQIMDSERPEQYRGVSYLAQVIEPLLQMRRYTESE  290
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.137    0.392
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22651
+Number of extensions: 1138
+Number of successful extensions: 24
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 24
+Number of HSP's successfully gapped: 4
+Length of query: 262
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 175
+Effective length of database: 2134357
+Effective search space: 373512475
+Effective search space used: 373512475
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

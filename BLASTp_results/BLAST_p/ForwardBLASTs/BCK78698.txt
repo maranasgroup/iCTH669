@@ -1,0 +1,292 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WJSTZEU016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCK78698 5'-nucleotidase [Vescimonas fastidiosa]
+
+Length=271
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003511974.1 hypothetical protein [Acetivibrio thermocellus]     32.0    0.094  37%
+WP_235715175.1 hypothetical protein [Acetivibrio thermocellus]     32.0    0.095  37%
+WP_003518388.1 hypothetical protein [Acetivibrio thermocellus]     32.0    0.096  37%
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  30.0    0.22   25%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  30.0    0.30   24%
+THJ76539.1 hypothetical protein EPD62_16075 [Acetivibrio therm...  30.0    0.40   28%
+CDG34729.1 hypothetical protein CTHBC1_0050 [Acetivibrio therm...  29.6    0.56   37%
+NLU25943.1 hypothetical protein [Acetivibrio thermocellus]         29.6    0.56   37%
+WP_003521183.1 helix-turn-helix domain-containing protein [Ace...  26.6    3.9    33%
+WP_003518007.1 sodium ion-translocating decarboxylase subunit ...  26.6    4.4    30%
+ABN51746.1 sodium ion-translocating decarboxylase, beta subuni...  26.2    5.0    30%
+WP_003512634.1 helix-turn-helix domain-containing protein [Ace...  25.4    9.1    33%
+
+ALIGNMENTS
+>WP_003511974.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN51287.1 hypothetical protein Cthe_0046 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26673.1 hypothetical protein [Acetivibrio thermocellus]
+Length=900
+
+ Score = 32.0 bits (71),  Expect = 0.094, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  106  LLNAL-----YDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGAKLIGANSD  157
+            L+NAL     Y++ L   D N + V +  G   +L  LT A N  + G KLI  N D
+Sbjct  709  LVNALVNSFRYESNLIYVDDNGNPVNIANGSYKTLGVLTAAKNTGIGGKKLISVNRD  765
+
+
+>WP_235715175.1 hypothetical protein [Acetivibrio thermocellus]
+Length=881
+
+ Score = 32.0 bits (71),  Expect = 0.095, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  106  LLNAL-----YDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGAKLIGANSD  157
+            L+NAL     Y++ L   D N + V +  G   +L  LT A N  + G KLI  N D
+Sbjct  690  LVNALVNSFRYESNLIYVDDNGNPVNIANGSYKTLGVLTAAKNTGIGGKKLISVNRD  746
+
+
+>WP_003518388.1 hypothetical protein [Acetivibrio thermocellus]
+ EIC04920.1 hypothetical protein YSBL_1501 [Acetivibrio thermocellus YS]
+ ADU75226.1 hypothetical protein Clo1313_2186 [Acetivibrio thermocellus DSM
+1313]
+ ALX09201.1 hypothetical protein AD2_02213 [Acetivibrio thermocellus AD2]
+ ANV76953.1 hypothetical protein LQRI_2212 [Acetivibrio thermocellus DSM
+2360]
+ PFH03476.1 hypothetical protein M972_112287 [Acetivibrio thermocellus AD2]
+Length=900
+
+ Score = 32.0 bits (71),  Expect = 0.096, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  106  LLNAL-----YDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGAKLIGANSD  157
+            L+NAL     Y++ L   D N + V +  G   +L  LT A N  + G KLI  N D
+Sbjct  709  LVNALVNSFRYESNLIYVDDNGNPVNIANGSYKTLGVLTAAKNTGIGGKKLISVNRD  765
+
+
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 30.0 bits (66),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 14/55 (25%), Positives = 29/55 (53%), Gaps = 1/55 (2%)
+
+Query  188  CGKPNPLMMRTGLRMLHCHSAEAVMVGDRMDTDVISGLESGMSTVLVLSGVSTRE  242
+              KP        + +++  ++E  ++GD++ TD+  G +  M T+LV + +  RE
+Sbjct  90   ASKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV-TPIDKRE  143
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 30.0 bits (66),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 18/75 (24%), Positives = 32/75 (43%), Gaps = 1/75 (1%)
+
+Query  173  LIAPIEMATGKQAYFCGKPNPLMMRTGLRMLHCHSAEAVMVGDRMDTDVISGLESGMSTV  232
+            L+   ++  G +     KP+P  +   + M+ C   E + VGD    D  +   +G+  V
+Sbjct  126  LLQYFDVIVGGEDVAAHKPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFV  184
+
+Query  233  LVLSGVSTRETLQTY  247
+             VL+G +       Y
+Sbjct  185  AVLTGTTGANEFSEY  199
+
+
+>THJ76539.1 hypothetical protein EPD62_16075, partial [Acetivibrio thermocellus]
+Length=446
+
+ Score = 30.0 bits (66),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 22/79 (28%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  79   YTSALATAAFLKEQAPGCSVFAIGEAGLLNALYDAGLTMNDVNPDYVVVGEGRTYSLDTL  138
+            YT  + TA +   Q        +  A + +  Y++ L   D N + + +  G   +L  L
+Sbjct  233  YTFEITTATYKNNQNDTEEHKKLVNALVNSFRYESNLIYVDDNGNPINIANGSYKTLGVL  292
+
+Query  139  TKATNLVMAGAKLIGANSD  157
+            T A N  + G KLI  N D
+Sbjct  293  TAAKNTGIGGKKLISVNRD  311
+
+
+>CDG34729.1 hypothetical protein CTHBC1_0050 [Acetivibrio thermocellus BC1]
+Length=553
+
+ Score = 29.6 bits (65),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  106  LLNAL-----YDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGAKLIGANSD  157
+            L+NAL     Y++ L   D N + V +  G   +L  LT A N  + G KLI  N D
+Sbjct  362  LVNALVNSFRYESNLIYVDDNGNPVNIANGSYKTLGVLTAAKNTGIGGKKLISVNRD  418
+
+
+>NLU25943.1 hypothetical protein [Acetivibrio thermocellus]
+Length=692
+
+ Score = 29.6 bits (65),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 28/57 (49%), Gaps = 5/57 (9%)
+
+Query  106  LLNAL-----YDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGAKLIGANSD  157
+            L+NAL     Y++ L   D N + V +  G   +L  LT A N  + G KLI  N D
+Sbjct  501  LVNALVNSFRYESNLIYVDDNGNPVNIANGSYKTLGVLTAAKNTGIGGKKLISVNRD  557
+
+
+>WP_003521183.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+ ALX08868.1 helix-turn-helix domain protein [Acetivibrio thermocellus AD2]
+ EIC05155.1 helix-turn-helix domain protein [Acetivibrio thermocellus YS]
+ PFH03141.1 DNA-binding XRE family transcriptional regulator [Acetivibrio
+thermocellus AD2]
+Length=231
+
+ Score = 26.6 bits (57),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 37/80 (46%), Gaps = 12/80 (15%)
+
+Query  122  PDYVVVGEGRTY---SLDTLTKATNLVMAGAKLIGANSDV------SGPIENGIAPACRA  172
+            PDY V+ +   Y   S+D L   TN   A A +IG N D+         +   I+    A
+Sbjct  42   PDYEVLKKLADYFDVSIDYLLGRTNCRDATAAIIGKNIDLIRGNLTYKELSEDISAKLGA  101
+
+Query  173  LIAP--IEM-ATGKQAYFCG  189
+            LI P  +E+ A G++  F G
+Sbjct  102  LIFPEMLELYARGERMLFVG  121
+
+
+>WP_003518007.1 sodium ion-translocating decarboxylase subunit beta [Acetivibrio
+thermocellus]
+ CDG35221.1 Glutaconyl-CoA decarboxylase subunit beta [Acetivibrio thermocellus
+BC1]
+ ADU74769.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus DSM 1313]
+ ALX08721.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus AD2]
+ ANV76473.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus DSM 2360]
+ EIC05229.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus YS]
+Length=369
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  100  AIGEAGLLNALYDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGA  149
+            A+GE G+L+ LY+AG+   ++ P  + +  G       L K   ++  GA
+Sbjct  56   ALGEEGVLSILYNAGIK-TELFPVLIFIAVGAMIDFGPLLKNPFMLFFGA  104
+
+
+>ABN51746.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus ATCC 27405]
+Length=359
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 15/50 (30%), Positives = 26/50 (52%), Gaps = 1/50 (2%)
+
+Query  100  AIGEAGLLNALYDAGLTMNDVNPDYVVVGEGRTYSLDTLTKATNLVMAGA  149
+            A+GE G+L+ LY+AG+   ++ P  + +  G       L K   ++  GA
+Sbjct  46   ALGEEGVLSILYNAGIK-TELFPVLIFIAVGAMIDFGPLLKNPFMLFFGA  94
+
+
+>WP_003512634.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+ CDG35041.1 XRE family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN51602.1 helix-turn-helix domain protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74910.1 helix-turn-helix domain protein [Acetivibrio thermocellus DSM
+1313]
+ ANV76618.1 helix-turn-helix domain protein [Acetivibrio thermocellus DSM
+2360]
+ NLU27980.1 helix-turn-helix transcriptional regulator [Acetivibrio thermocellus]
+Length=231
+
+ Score = 25.4 bits (54),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 37/80 (46%), Gaps = 12/80 (15%)
+
+Query  122  PDYVVVGEGRTY---SLDTLTKATNLVMAGAKLIGANSDV------SGPIENGIAPACRA  172
+            PDY V+ +   Y   S+D L   TN   A A +IG N D+         +   I+    A
+Sbjct  42   PDYEVLKKLADYFDVSIDYLLGRTNCRDATAAIIGKNIDLIRGNLTYKELSEDISAKLGA  101
+
+Query  173  LIAP--IEM-ATGKQAYFCG  189
+            LI P  +E+ A G++  F G
+Sbjct  102  LIFPEMLELYARGERMPFVG  121
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.135    0.393
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20925
+Number of extensions: 864
+Number of successful extensions: 15
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 4
+Length of query: 271
+Length of database: 2835838
+Length adjustment: 88
+Effective length of query: 183
+Effective length of database: 2126294
+Effective search space: 389111802
+Effective search space used: 389111802
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

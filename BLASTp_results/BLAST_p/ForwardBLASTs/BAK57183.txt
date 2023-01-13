@@ -1,0 +1,235 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V259YKD01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= BAK57183 dTMP kinase [Candidatus Arthromitus]
+
+Length=215
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       158     3e-49  36%
+WP_136479131.1 oligoendopeptidase F [Acetivibrio thermocellus]     25.4    7.0    19%
+WP_003516932.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibri...  25.4    7.3    33%
+WP_003514919.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibri...  25.4    7.4    33%
+WP_003513166.1 oligoendopeptidase F [Acetivibrio thermocellus]     25.4    7.4    19%
+WP_003516362.1 hypothetical protein [Acetivibrio thermocellus]     24.3    7.5    23%
+WP_003516214.1 (d)CMP kinase [Acetivibrio thermocellus]            25.0    7.9    48%
+CDG35404.1 Cytidylate kinase [Acetivibrio thermocellus BC1]        25.0    8.2    48%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 158 bits (400),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 78/217 (36%), Positives = 131/217 (60%), Gaps = 10/217 (5%)
+
+Query  1    MIIVFEGLDGSGKETQTKLIEKRLNDIGLKTIRIEFPNYCNKYSLFVKEYLNGDFG---N  57
+            +II+  G D SGK TQT  + +RL   G K  +I FPNY +  S  VK YLNGDFG   N
+Sbjct  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+
+Query  58   NLNPYLISTFFGLDRFGVYKREMSGYIDEGYFILCDRYIYSNLIYQGSLIDNEDDRDKFF  117
+            +++PY+ STF+ +DRF  Y+ E     ++G+ IL DRY  SN+++Q + I + +++D+F
+Sbjct  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+
+Query  118  KWVLEFEYDICGLPKENMTFFMNLSLDINLDMIKKRNN-------KDIYEKDYDFIIKCY  170
+             W+  FE++I  LP  +   F+++    + +++K+R N       KDI+E++ +++++ Y
+Sbjct  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+
+Query  171  KTAQYVCSMYDFINIECDDGKSLFSIQSINEKIYSKI  207
+            + + YV   Y++I IEC     L  I  I +++Y  +
+Sbjct  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+
+
+>WP_136479131.1 oligoendopeptidase F [Acetivibrio thermocellus]
+ THJ79230.1 oligoendopeptidase F [Acetivibrio thermocellus]
+Length=602
+
+ Score = 25.4 bits (54),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 18/97 (19%), Positives = 44/97 (45%), Gaps = 7/97 (7%)
+
+Query  62   YLISTFFGLDRFGVYKREMSGYIDEGYFILCDRYIYSNLIYQGSLIDNEDDRDKFFKWVL  121
+            Y  ++F   +   + + +++ Y++E   +   R  +  ++ Q   + +E + +     +L
+Sbjct  110  YAATSFIVPEILTIPEEKLNKYLEENKDLQLYRQFFREILRQKEHVLSEKEEE-----LL  164
+
+Query  122  EFEYDICGLPKENMTFFMNLSLDINLDMIKKRNNKDI  158
+                ++ G P+E  T F N   DI    IK  + +++
+Sbjct  165  ALASEMAGSPREIFTMFNN--ADIKFPFIKDEDGEEV  199
+
+
+>WP_003516932.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ CDG37479.1 NADH:flavin oxidoreductase/NADH oxidase [Acetivibrio thermocellus
+BC1]
+ ADU73626.1 NADH:flavin oxidoreductase/NADH oxidase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07554.1 2,4-dienoyl-CoA reductase (NADPH) [Acetivibrio thermocellus AD2]
+ ANV75294.1 2,4-dienoyl-CoA reductase (NADPH) [Acetivibrio thermocellus DSM
+2360]
+ EIC03525.1 NADH:flavin oxidoreductase/NADH oxidase [Acetivibrio thermocellus
+YS]
+Length=645
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  6    EGLDGSGKETQTKLIEKRLNDIGLKTIRIEFPNYCNKYSLFVKEYL  51
+             G  G  +  +T  I KRL  IG+ T+ +   +Y N   L   EY+
+Sbjct  230  HGFPGGRELDETIEIAKRLKQIGIDTLHLRRGSYDNMNLLIPTEYM  275
+
+
+>WP_003514919.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ ABN54187.1 NADH:flavin oxidoreductase/NADH oxidase [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27775.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+Length=645
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 0/46 (0%)
+
+Query  6    EGLDGSGKETQTKLIEKRLNDIGLKTIRIEFPNYCNKYSLFVKEYL  51
+             G  G  +  +T  I KRL  IG+ T+ +   +Y N   L   EY+
+Sbjct  230  HGFPGGRELDETIEIAKRLKQIGIDTLHLRRGSYDNMNLLIPTEYM  275
+
+
+>WP_003513166.1 oligoendopeptidase F [Acetivibrio thermocellus]
+ CDG36974.1 Oligoendopeptidase F homolog [Acetivibrio thermocellus BC1]
+ ABN53654.1 oligoendopeptidase F [Acetivibrio thermocellus ATCC 27405]
+ ADU73180.1 oligoendopeptidase F [Acetivibrio thermocellus DSM 1313]
+ ALX07094.1 oligoendopeptidase F [Acetivibrio thermocellus AD2]
+ ANV74830.1 oligoendopeptidase F [Acetivibrio thermocellus DSM 2360]
+Length=602
+
+ Score = 25.4 bits (54),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 18/97 (19%), Positives = 44/97 (45%), Gaps = 7/97 (7%)
+
+Query  62   YLISTFFGLDRFGVYKREMSGYIDEGYFILCDRYIYSNLIYQGSLIDNEDDRDKFFKWVL  121
+            Y  ++F   +   + + +++ Y++E   +   R  +  ++ Q   + +E + +     +L
+Sbjct  110  YAATSFIVPEILTIPEEKLNKYLEENKDLQLYRQFFREILRQKEHVLSEKEEE-----LL  164
+
+Query  122  EFEYDICGLPKENMTFFMNLSLDINLDMIKKRNNKDI  158
+                ++ G P+E  T F N   DI    IK  + +++
+Sbjct  165  ALASEMAGSPREIFTMFNN--ADIKFPFIKDEDGEEV  199
+
+
+>WP_003516362.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35480.1 hypothetical protein CTHBC1_0820 [Acetivibrio thermocellus BC1]
+ ABN52020.1 hypothetical protein Cthe_0785 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74498.1 hypothetical protein Clo1313_1436 [Acetivibrio thermocellus DSM
+1313]
+ ALX08441.1 hypothetical protein AD2_01448 [Acetivibrio thermocellus AD2]
+ ANV76190.1 hypothetical protein LQRI_1449 [Acetivibrio thermocellus DSM
+2360]
+Length=100
+
+ Score = 24.3 bits (51),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 25/62 (40%), Gaps = 0/62 (0%)
+
+Query  32  IRIEFPNYCNKYSLFVKEYLNGDFGNNLNPYLISTFFGLDRFGVYKREMSGYIDEGYFIL  91
+           IR  +      +S    E +     ++  P L+      DRF  YK+E++ +  E    L
+Sbjct  37  IRFGYHTITKLFSKKTSEKIEIRLKDSTKPILVLKPMDWDRFDQYKQEITRFAKENRIRL  96
+
+Query  92  CD  93
+            +
+Sbjct  97  VE  98
+
+
+>WP_003516214.1 (d)CMP kinase [Acetivibrio thermocellus]
+ ABN51947.1 cytidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU74574.1 cytidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX08518.1 Cytidylate kinase [Acetivibrio thermocellus AD2]
+ ANV76267.1 Cytidylate kinase [Acetivibrio thermocellus DSM 2360]
+ EIC05458.1 Cytidylate kinase [Acetivibrio thermocellus YS]
+Length=227
+
+ Score = 25.0 bits (53),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  3   IVFEGLDGSGKETQTKLIEKRLN  25
+           I  +G  G+GK T  K+I K LN
+Sbjct  9   IAIDGPAGAGKSTIAKIISKTLN  31
+
+
+>CDG35404.1 Cytidylate kinase [Acetivibrio thermocellus BC1]
+Length=227
+
+ Score = 25.0 bits (53),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  3   IVFEGLDGSGKETQTKLIEKRLN  25
+           I  +G  G+GK T  K+I K LN
+Sbjct  9   IAIDGPAGAGKSTIAKIISKTLN  31
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.324    0.145    0.439
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 14806
+Number of extensions: 829
+Number of successful extensions: 23
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 21
+Number of HSP's successfully gapped: 6
+Length of query: 215
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 130
+Effective length of database: 2165339
+Effective search space: 281494070
+Effective search space used: 281494070
+T: 11
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+crs Crassaminicella thermophila 	
+cprf Crassaminicella profunda 	
+sarj Sarcina sp. JB2 	
+pbif Paraclostridium bifermentans 	
+cazo Caloranaerobacter azorensis 	
+clo Mageeibacillus indolicus 	
+fsa Fastidiosipila sanguinis 	
+ctx Hungateiclostridium thermocellum DSM 1313 	
+ccl Acetivibrio clariflavus 	
+hsc Acetivibrio saccincola

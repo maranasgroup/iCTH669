@@ -1,0 +1,4 @@
+EC,Related Organism Used,Relate Protein Name,Related Accession,Related Length,Match Protein Name,Match Accession,Match Length,Forward e-val,Forward %ID, Forward %+ subs, Forward % gaps,Backward e-val,Backward %ID,Backward %+ subs,Backward % gaps,Weigted sum
+3.5.4.4,Solibaculum mannosilyticum,adenosine deaminase,BCI60944,281,peptidoglycan editing factor PgeF,WP_136479565.1,279,8e-80,43%,62%,3%,2e-80,43%,62%,3%,
+3.5.4.4,Solibaculum mannosilyticum,adenosine deaminase,BCI60944,281,peptidoglycan editing factor PgeF,WP_004463410.1,279,8e-80,43%,62%,3%,2e-80,43%,62%,3%,
+3.5.4.4,Solibaculum mannosilyticum,adenosine deaminase,BCI60944,281,peptidoglycan editing factor PgeF,WP_003517276.1,279,1e-79,43%,63%,1%,3e-80,43%,63%,1%,

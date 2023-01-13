@@ -1,0 +1,146 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WNSVGCA013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AOT68114 5'-nucleotidase [Geosporobacter ferrireducens]
+
+Length=253
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG37230.1 hypothetical protein CTHBC1_2647 [Acetivibrio therm...  26.6    3.5    32%
+NLU27476.1 response regulator [Acetivibrio thermocellus]           25.8    7.2    31%
+WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]      25.8    7.2    37%
+NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]          25.8    7.3    37%
+WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]      25.8    7.3    37%
+
+ALIGNMENTS
+>CDG37230.1 hypothetical protein CTHBC1_2647 [Acetivibrio thermocellus BC1]
+Length=300
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 0/38 (0%)
+
+Query  32   VAPDRQRSATGHAITMHEPIRASKVKLLDRNFEAWSVS  69
+            VAP++  ++T  A   HEP  A  +KL+  +   ++ S
+Sbjct  112  VAPEKHHTSTVQAQEKHEPFPADSLKLIPDSLNPYTES  149
+
+
+>NLU27476.1 response regulator [Acetivibrio thermocellus]
+Length=521
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 24/39 (62%), Gaps = 1/39 (3%)
+
+Query  58  LLDRNFEAWSVSGTPTDCVKLGIEVLLRERPDLIFSGIN  96
+           +LD   E + + G   +  K G++++LRE+PD++ + I
+Sbjct  20  MLDWEKEGYHLIGEAENG-KDGLDIILREKPDIVITDIK  57
+
+
+>WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ CDG35000.1 Valine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ADU74953.1 valyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08914.1 Valyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV76664.1 Valyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC05100.1 Valyl-tRNA synthetase [Acetivibrio thermocellus YS]
+Length=884
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  223  VKNKMISITPIHFDLTKFNLIRDLESWNIS  252
+            VKN  I   P  F    FN + +++ W IS
+Sbjct  377  VKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+>NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  223  VKNKMISITPIHFDLTKFNLIRDLESWNIS  252
+            VKN  I   P  F    FN + +++ W IS
+Sbjct  377  VKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+>WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ ABN51562.1 valyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ HBW26065.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  223  VKNKMISITPIHFDLTKFNLIRDLESWNIS  252
+            VKN  I   P  F    FN + +++ W IS
+Sbjct  377  VKNGTIKFVPERFSKIYFNWMENIQDWCIS  406
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.137    0.401
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18556
+Number of extensions: 785
+Number of successful extensions: 25
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 5
+Length of query: 253
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 166
+Effective length of database: 2134357
+Effective search space: 354303262
+Effective search space used: 354303262
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

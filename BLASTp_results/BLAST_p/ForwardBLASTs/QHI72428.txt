@@ -1,0 +1,180 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZZWFZ5016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QHI72428 5'-nucleotidase [Aminipila terrae]
+
+Length=254
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_136479151.1 copper amine oxidase N-terminal domain-containi...  27.7    1.6    31%
+WP_003518624.1 histidine phosphatase family protein [Acetivibr...  26.6    3.0    32%
+NLU27563.1 translation initiation factor IF-2 [Acetivibrio the...  26.6    4.8    38%
+WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  25.8    6.4    27%
+WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  25.8    6.7    27%
+WP_136479451.1 hypothetical protein [Acetivibrio thermocellus]     25.4    7.3    40%
+
+ALIGNMENTS
+>WP_136479151.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ THJ79327.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=384
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 22/72 (31%), Positives = 32/72 (44%), Gaps = 14/72 (19%)
+
+Query  167  PDVPREKLKGVRITTLGPREYDGWFQNRPAEEGGSALYWYSGNPVVYDNLPE----HYDV  222
+            PDVP + + G  +  L       W     AE  GS + W  GN +V+ N P+       V
+Sbjct  39   PDVPPQIINGRTMVPLR------WV----AEALGSDVQWDEGNKIVWVNTPQLDKLQRQV  88
+
+Query  223  IAVQDGYASITP  234
+              ++D  A+ TP
+Sbjct  89   ALLEDAVAANTP  100
+
+
+>WP_003518624.1 histidine phosphatase family protein [Acetivibrio thermocellus]
+ CDG35639.1 phosphoglycerate mutase [Acetivibrio thermocellus BC1]
+ ABN52180.1 Phosphoglycerate mutase [Acetivibrio thermocellus ATCC 27405]
+ ADU74334.1 Phosphoglycerate mutase [Acetivibrio thermocellus DSM 1313]
+ ALX08278.1 Phosphoglycerate mutase [Acetivibrio thermocellus AD2]
+ ANV76026.1 Phosphoglycerate mutase [Acetivibrio thermocellus DSM 2360]
+Length=233
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 25/53 (47%), Gaps = 15/53 (28%)
+
+Query  165  NVPDVPREKLKGV-----------RITTLGPREYDGWFQNRPAEE---GGSAL  203
+            N+P +  +KLK +            +  L P EYD W +NRP E    GG ++
+Sbjct  74   NLPIIRTDKLKEINGGDWENREWEELPKLWPEEYDSW-ENRPHEHKMPGGESM  125
+
+
+>NLU27563.1 translation initiation factor IF-2 [Acetivibrio thermocellus]
+Length=698
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 19/40 (48%), Gaps = 1/40 (3%)
+
+Query  85   RGINIDMVFSGIN-HGGNLGTDTHYSGTVSAAIEGCICGI  123
+            R  NI +V  GI  H G LG+   +   V    EG  CG+
+Sbjct  635  RNANIRLVRDGIVVHEGKLGSLKRFKDDVREVAEGYECGL  674
+
+
+>WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ CDG36736.1 Glycosyltransferase 28 domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75875.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 1313]
+ ALX09907.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus AD2]
+ ANV77681.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 2360]
+ EIC03896.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus YS]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 11/41 (27%), Positives = 22/41 (54%), Gaps = 0/41 (0%)
+
+Query  102  LGTDTHYSGTVSAAIEGCICGIPSVAVSVNEHKPQHFEVAA  142
+            L +D   S   S   E C CG P++AV + +++ +  ++ +
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQREMVDMLS  293
+
+
+>WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ ABN53424.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27697.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 11/41 (27%), Positives = 22/41 (54%), Gaps = 0/41 (0%)
+
+Query  102  LGTDTHYSGTVSAAIEGCICGIPSVAVSVNEHKPQHFEVAA  142
+            L +D   S   S   E C CG P++AV + +++ +  ++ +
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQREMVDMLS  293
+
+
+>WP_136479451.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ77719.1 hypothetical protein EPD62_09740 [Acetivibrio thermocellus]
+Length=181
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 17/30 (57%), Gaps = 1/30 (3%)
+
+Query  32  CAPHVERSAAGHSITVRQGLEAREVPYENA  61
+           C  H+ +   G   TV+Q L+  E+P ENA
+Sbjct  24  CTLHIVKKLKGMGFTVKQVLQTIELP-ENA  52
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.136    0.406
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20714
+Number of extensions: 922
+Number of successful extensions: 20
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 3
+Length of query: 254
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 167
+Effective length of database: 2134357
+Effective search space: 356437619
+Effective search space used: 356437619
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

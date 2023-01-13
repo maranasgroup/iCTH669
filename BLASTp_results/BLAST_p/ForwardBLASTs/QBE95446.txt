@@ -1,0 +1,291 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W60XE2U016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QBE95446 5'-nucleotidase [Blautia producta]
+
+Length=491
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513006.1 metallophosphatase family protein [Acetivibrio ...  30.4    0.32   29%
+WP_003515480.1 metallophosphatase family protein [Acetivibrio ...  28.5    1.3    28%
+WP_003515625.1 NAD-dependent DNA ligase LigA [Acetivibrio ther...  28.9    2.0    31%
+CDG34711.1 hypothetical protein CTHBC1_0030 [Acetivibrio therm...  27.7    2.7    45%
+NLU27525.1 chemotaxis protein CheA [Acetivibrio thermocellus]      28.5    2.9    29%
+WP_003518456.1 chemotaxis protein CheA [Acetivibrio thermocellus]  28.5    3.0    29%
+WP_003511938.1 GyrI-like domain-containing protein [Acetivibri...  26.9    5.5    45%
+WP_011838262.1 DNA repair protein RadA [Acetivibrio thermocellus]  26.9    7.2    28%
+WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]  26.9    7.4    28%
+WP_003516017.1 gamma-glutamylcyclotransferase [Acetivibrio the...  25.8    9.7    29%
+WP_136479727.1 gamma-glutamylcyclotransferase [Acetivibrio the...  25.8    9.7    29%
+
+ALIGNMENTS
+>WP_003513006.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ CDG37043.1 phosphodiesterase [Acetivibrio thermocellus BC1]
+ ABN53780.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus ATCC
+27405]
+ NLU27557.1 metallophosphoesterase family protein [Acetivibrio thermocellus]
+ THJ79311.1 metallophosphoesterase [Acetivibrio thermocellus]
+ HBW25807.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=161
+
+ Score = 30.4 bits (67),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 25/87 (29%), Positives = 40/87 (46%), Gaps = 15/87 (17%)
+
+Query  186  FTILLTH-IGFAEDLKLAEQLDPKWGVDVIIGGHSHTYLEEPAEVNNILIVQAGIGTDQI  244
+            F I +TH  G    LK A     +  VD ++ GHSH    E   ++ +L V  G  TD+
+Sbjct  80   FKIGITHGYGGVNALKKAMATFARDSVDCVVFGHSHAPYNE--RIDGVLYVNPGSPTDK-  136
+
+Query  245  GRFEIEVNTDTNSVESYTWETVPIDDA  271
+             RF+          + Y++  + +DD+
+Sbjct  137  -RFQ----------KQYSYALLKVDDS  152
+
+
+>WP_003515480.1 metallophosphatase family protein [Acetivibrio thermocellus]
+ ADU73262.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+1313]
+ ALX07180.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus AD2]
+ ANV74916.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus DSM
+2360]
+ EIC04354.1 phosphodiesterase, MJ0936 family [Acetivibrio thermocellus YS]
+ PFH01442.1 hypothetical protein M972_11174 [Acetivibrio thermocellus AD2]
+Length=161
+
+ Score = 28.5 bits (62),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 24/87 (28%), Positives = 39/87 (45%), Gaps = 15/87 (17%)
+
+Query  186  FTILLTH-IGFAEDLKLAEQLDPKWGVDVIIGGHSHTYLEEPAEVNNILIVQAGIGTDQI  244
+            F I +TH  G    LK       +  VD ++ GHSH    E   ++ +L V  G  TD+
+Sbjct  80   FKIGITHGYGGVNALKKTMATFARDSVDCVVFGHSHAPYNE--RIDGVLYVNPGSPTDK-  136
+
+Query  245  GRFEIEVNTDTNSVESYTWETVPIDDA  271
+             RF+          + Y++  + +DD+
+Sbjct  137  -RFQ----------KQYSYALLKVDDS  152
+
+
+>WP_003515625.1 NAD-dependent DNA ligase LigA [Acetivibrio thermocellus]
+ A3DE88.1 RecName: Full=DNA ligase; AltName: Full=Polydeoxyribonucleotide
+synthase [NAD(+)] [Acetivibrio thermocellus ATCC 27405]
+ CDG35730.1 DNA ligase [Acetivibrio thermocellus BC1]
+ ABN52267.1 DNA ligase, NAD-dependent [Acetivibrio thermocellus ATCC 27405]
+ ADU74242.1 DNA ligase, NAD-dependent [Acetivibrio thermocellus DSM 1313]
+ ALX08185.1 DNA ligase [Acetivibrio thermocellus AD2]
+ ANV75933.1 DNA ligase [Acetivibrio thermocellus DSM 2360]
+Length=663
+
+ Score = 28.9 bits (63),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 22/72 (31%), Positives = 38/72 (53%), Gaps = 3/72 (4%)
+
+Query  344  EIGPIITVGDLLNMYPYDETLVRVELTGKELKEGVLHAMKKSVSVEGSDFEYYQFSKGIR  403
+            E G I  + DL  ++   ETLV +E  GK+  E +L +++KS   + ++ +   F  GIR
+Sbjct  457  EKGLIKEIADLYYLHKEKETLVNIERMGKKSVENLLASIEKS---KQNNIDRLIFGFGIR  513
+
+Query  404  MVYSTGRQELTD  415
+             +     Q L++
+Sbjct  514  HIGLRAAQLLSE  525
+
+
+>CDG34711.1 hypothetical protein CTHBC1_0030 [Acetivibrio thermocellus BC1]
+Length=152
+
+ Score = 27.7 bits (60),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 15/33 (45%), Positives = 19/33 (58%), Gaps = 2/33 (6%)
+
+Query  276  NEELEHLIY--DFKKVTDEKYGAILTSMVRKAT  306
+            NE L H IY  D +KV   KY  ++   V+KAT
+Sbjct  119  NERLHHEIYLSDPRKVEPAKYKTVIRHPVKKAT  151
+
+
+>NLU27525.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+Length=702
+
+ Score = 28.5 bits (62),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 26/90 (29%), Positives = 41/90 (46%), Gaps = 15/90 (17%)
+
+Query  299  TSMVRKATHPGRYQSTSAGNLFCDALKMQFGLDIVMLGSGSLRAEEIGPIITVGDLLNMY  358
+            +S V+ AT   R   T    +  D  +++  +D+V    G L  E+I       +L N Y
+Sbjct  281  SSGVKTATEEKRVVHT----VRIDVDRLERMMDLV----GELVIEQIRIAQVANNLYNQY  332
+
+Query  359  PYDETL-------VRVELTGKELKEGVLHA  381
+            P DET+        RV +   EL+EG++
+Sbjct  333  PSDETVDDLIGISNRVSILINELQEGIMKT  362
+
+
+>WP_003518456.1 chemotaxis protein CheA [Acetivibrio thermocellus]
+ CDG36800.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+BC1]
+ ABN53486.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75937.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09970.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+AD2]
+ ANV77744.1 CheA signal transduction histidine kinase [Acetivibrio thermocellus
+DSM 2360]
+Length=702
+
+ Score = 28.5 bits (62),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 26/90 (29%), Positives = 41/90 (46%), Gaps = 15/90 (17%)
+
+Query  299  TSMVRKATHPGRYQSTSAGNLFCDALKMQFGLDIVMLGSGSLRAEEIGPIITVGDLLNMY  358
+            +S V+ AT   R   T    +  D  +++  +D+V    G L  E+I       +L N Y
+Sbjct  281  SSGVKTATEEKRVVHT----VRIDVDRLERMMDLV----GELVIEQIRIAQVANNLYNQY  332
+
+Query  359  PYDETL-------VRVELTGKELKEGVLHA  381
+            P DET+        RV +   EL+EG++
+Sbjct  333  PSDETVDDLIGISNRVSILINELQEGIMKT  362
+
+
+>WP_003511938.1 GyrI-like domain-containing protein [Acetivibrio thermocellus]
+ ABN51270.1 Protein of unknown function DUF2174-like protein [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26257.1 transcriptional regulator [Acetivibrio thermocellus]
+ THJ77244.1 transcriptional regulator [Acetivibrio thermocellus]
+ HBW26657.1 transcriptional regulator [Acetivibrio thermocellus]
+Length=212
+
+ Score = 26.9 bits (58),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 15/33 (45%), Positives = 19/33 (58%), Gaps = 2/33 (6%)
+
+Query  276  NEELEHLIY--DFKKVTDEKYGAILTSMVRKAT  306
+            NE L H IY  D +KV   KY  ++   V+KAT
+Sbjct  179  NERLHHEIYLSDPRKVEPAKYKTVIRHPVKKAT  211
+
+
+>WP_011838262.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ CDG36307.1 DNA repair protein RadA homolog [Acetivibrio thermocellus BC1]
+ ABN53007.1 DNA repair protein RadA [Acetivibrio thermocellus ATCC 27405]
+ NLU25810.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ THJ78774.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ HBW26452.1 DNA repair protein RadA [Acetivibrio thermocellus]
+Length=454
+
+ Score = 26.9 bits (58),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 26/46 (57%), Gaps = 1/46 (2%)
+
+Query  172  VGIICNSYKNVDIDF-TILLTHIGFAEDLKLAEQLDPKWGVDVIIG  216
+            V  I +S++N+ +D  T+L+  +G   +++   Q+D +    V IG
+Sbjct  370  VTAIASSFRNIPVDMDTVLIGEVGLTGEVRAVSQIDKRIREAVRIG  415
+
+
+>WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ ADU75473.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 1313]
+ ALX09473.1 DNA repair protein RadA [Acetivibrio thermocellus AD2]
+ ANV77227.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 2360]
+ EIC04597.1 DNA repair protein RadA [Acetivibrio thermocellus YS]
+ PFH03750.1 DNA repair protein RadA/Sms [Acetivibrio thermocellus AD2]
+Length=454
+
+ Score = 26.9 bits (58),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 26/46 (57%), Gaps = 1/46 (2%)
+
+Query  172  VGIICNSYKNVDIDF-TILLTHIGFAEDLKLAEQLDPKWGVDVIIG  216
+            V  I +S++N+ +D  T+L+  +G   +++   Q+D +    V IG
+Sbjct  370  VTAIASSFRNIPVDMDTVLIGEVGLTGEVRAVSQIDKRIREAVRIG  415
+
+
+>WP_003516017.1 gamma-glutamylcyclotransferase [Acetivibrio thermocellus]
+ ADU75417.1 AIG2 family protein [Acetivibrio thermocellus DSM 1313]
+ ALX09415.1 AIG2 family protein [Acetivibrio thermocellus AD2]
+ ANV77169.1 AIG2 family protein [Acetivibrio thermocellus DSM 2360]
+ EIC04539.1 AIG2 family protein [Acetivibrio thermocellus YS]
+ PFH03692.1 gamma-glutamyl AIG2-like cyclotransferase [Acetivibrio thermocellus
+AD2]
+Length=155
+
+ Score = 25.8 bits (55),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 32/85 (38%), Gaps = 12/85 (14%)
+
+Query  257  SVESYTWETVPIDDAHCERNEELEHLIYDFKKVTDEKYGAILTSMV------RKATHPGR  310
+            SV    W   P D+   +R E   HL Y  + V     G  + +MV      R    PGR
+Sbjct  61   SVPVMLWRITPYDEEALDRYEGYPHL-YRKETVKVRFKGQWVPAMVYIMNEGRPLGAPGR  119
+
+Query  311  YQSTSAGNLFCDALKMQFGLDIVML  335
+            Y   +    + DA     G DI  L
+Sbjct  120  YYYEAIRQGYIDA-----GFDISFL  139
+
+
+>WP_136479727.1 gamma-glutamylcyclotransferase [Acetivibrio thermocellus]
+ THJ76497.1 gamma-glutamylcyclotransferase [Acetivibrio thermocellus]
+Length=155
+
+ Score = 25.8 bits (55),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 25/85 (29%), Positives = 32/85 (38%), Gaps = 12/85 (14%)
+
+Query  257  SVESYTWETVPIDDAHCERNEELEHLIYDFKKVTDEKYGAILTSMV------RKATHPGR  310
+            SV    W   P D+   +R E   HL Y  + V     G  + +MV      R    PGR
+Sbjct  61   SVPVMLWRITPYDEEALDRYEGYPHL-YRKETVKVRFKGQWVPAMVYIMNEGRPLGAPGR  119
+
+Query  311  YQSTSAGNLFCDALKMQFGLDIVML  335
+            Y   +    + DA     G DI  L
+Sbjct  120  YYYEAIRQGYIDA-----GFDISFL  139
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.138    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 42689
+Number of extensions: 1965
+Number of successful extensions: 18
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 3
+Length of query: 491
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 398
+Effective length of database: 2085979
+Effective search space: 830219642
+Effective search space used: 830219642
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

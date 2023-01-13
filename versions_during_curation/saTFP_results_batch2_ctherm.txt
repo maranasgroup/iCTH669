@@ -1,0 +1,161 @@
+Stand-Alone TIC-Finding Problem Solutions
+Model: iCTH728
+
+End of solutions for phi = 0
+Solution time: 0.13801145553588867 s
+
+End of solutions for phi = 1
+Solution time: 114.11202478408813 s
+
+End of solutions for phi = 2
+Solution time: 346.5329909324646 s
+
+End of solutions for phi = 3
+Solution time: 3588.34356546402 s
+
+TFP SOLUTION #0
+PHI = 4
+OBJECTIVE VALUE: 4.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.49949999999990047
+ATPM	model	->		0.49949999999990047
+THRt2r	model	->		0.9989999999998009
+THRabc	model	<-		-0.9989999999998009
+time to get solution: 21.123117923736572 s
+
+RESOLUTION: THRt2r CAUSES SEVERAL TICS WHEN THRabc IS ALSO PRESENT
+
+End of solutions for phi = 4
+Solution time: 745.1574010848999 s
+
+TFP SOLUTION #1
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.4995
+NTD2	model	->		0.4995
+URIK1	model	->		0.4995
+THRt2r	model	->		0.999
+THRabc	model	<-		-0.999
+time to get solution: 6.481732368469238 s
+
+
+TFP SOLUTION #2
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.49949999999999994
+NTD4	model	->		0.49949999999999994
+CYTDK1	model	->		0.49949999999999994
+THRt2r	model	->		0.9989999999999999
+THRabc	model	<-		-0.9989999999999999
+time to get solution: 19.31483745574951 s
+
+
+TFP SOLUTION #3
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.002
+Kabc	model	->		0.001
+THRt2r	model	->		0.003
+Kt3	model	->		0.001
+THRabc	model	<-		-0.003
+time to get solution: 3.2632040977478027 s
+
+
+TFP SOLUTION #4
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.4995
+NT5C	model	->		0.4995
+NICRNS	model	->		0.4995
+THRt2r	model	->		0.999
+THRabc	model	<-		-0.999
+time to get solution: 2.5006203651428223 s
+
+
+TFP SOLUTION #5
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.499499999999945
+NMNR	model	->		0.4994999999999449
+RNMK	model	->		0.4994999999999449
+THRt2r	model	->		0.99899999999989
+THRabc	model	<-		-0.99899999999989
+time to get solution: 4.525129556655884 s
+
+
+TFP SOLUTION #6
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.49949999999996
+DCTPD2	model	->		0.49949999999996003
+CTPS1	model	->		0.49949999999996003
+THRt2r	model	->		0.99899999999992
+THRabc	model	<-		-0.99899999999992
+time to get solution: 16.67066717147827 s
+
+
+TFP SOLUTION #7
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.666
+PPCOAC	model	->		0.33299999999999996
+THRt2r	model	->		0.9990000000000001
+MMCD	model	->		0.33299999999999996
+THRabc	model	<-		-0.9990000000000001
+time to get solution: 13.020951747894287 s
+
+
+TFP SOLUTION #8
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.49949999999999994
+DAGK	model	->		0.49949999999999983
+DAGP	model	->		0.49949999999999983
+THRt2r	model	->		0.9989999999999998
+THRabc	model	<-		-0.9989999999999998
+time to get solution: 40.81244492530823 s
+
+
+TFP SOLUTION #9
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPS	model	->		0.999
+THRt2r	model	->		0.999
+PNTOt2r	model	->		0.999
+PNTOt2r2	model	<-		-0.999
+THRabc	model	<-		-0.999
+time to get solution: 19.121049404144287 s
+
+
+TFP SOLUTION #10
+PHI = 5
+OBJECTIVE VALUE: 5.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+ATPM	model	->		0.998999999999999
+THRt2r	model	->		0.9989999999999996
+PNTOt2r	model	<-		-0.999
+PNTOt2r2	model	->		0.999
+THRabc	model	<-		-0.9989999999999996
+time to get solution: 130.63333225250244 s
+
+

@@ -1,0 +1,236 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ9M3AZ013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADL68869 5'-nucleotidase [Thermoanaerobacterium thermosaccharolyticum]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517023.1 radical SAM family heme chaperone HemW [Acetivi...  27.7    1.9    40%
+NLU27476.1 response regulator [Acetivibrio thermocellus]           26.6    3.7    33%
+NLU25717.1 response regulator [Acetivibrio thermocellus]           26.6    4.8    45%
+WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]      26.2    5.7    34%
+NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]          26.2    5.7    34%
+WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]      26.2    5.7    34%
+WP_003516151.1 AraC family transcriptional regulator [Acetivib...  25.8    6.8    30%
+WP_003512661.1 glutamine-hydrolyzing GMP synthase [Acetivibrio...  25.8    6.9    21%
+WP_011837818.1 glutamine-hydrolyzing GMP synthase [Acetivibrio...  25.8    6.9    21%
+
+ALIGNMENTS
+>WP_003517023.1 radical SAM family heme chaperone HemW [Acetivibrio thermocellus]
+ CDG35998.1 coproporphyrinogen III oxidase, anaerobic [Acetivibrio thermocellus
+BC1]
+ ABN52557.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73998.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 1313]
+ ALX07936.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus AD2]
+ ANV75682.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 2360]
+Length=380
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 18/45 (40%), Positives = 25/45 (56%), Gaps = 6/45 (13%)
+
+Query  197  REYYWLAGK-VLENINEE-----DSDIVAVKNGFISITPIQFDLT  235
+            RE+Y   G+ VLE   E+        +VAV+NGFI +T +  DL
+Sbjct  328  REFYERFGENVLEVFKEQIKNLSKRGLVAVENGFIKLTRLGLDLA  372
+
+
+>NLU27476.1 response regulator [Acetivibrio thermocellus]
+Length=521
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 9/27 (33%), Positives = 19/27 (70%), Gaps = 4/27 (15%)
+
+Query  78  GIDVVMKDKPDIIVSGIN----DGFNL  100
+           G+D+++++KPDI+++ I     DG  +
+Sbjct  40  GLDIILREKPDIVITDIKMPVMDGLQM  66
+
+
+>NLU25717.1 response regulator [Acetivibrio thermocellus]
+Length=546
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 18/31 (58%), Gaps = 1/31 (3%)
+
+Query  65  FHANGTPSDCVKLGIDVVMKDKPDIIVSGIN  95
+           F   G  SD     ID++ KD PDII++ IN
+Sbjct  28  FKLLGEASDGYT-AIDMIKKDTPDIIITDIN  57
+
+
+>WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ CDG35000.1 Valine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ADU74953.1 valyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08914.1 Valyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV76664.1 Valyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC05100.1 Valyl-tRNA synthetase [Acetivibrio thermocellus YS]
+Length=884
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  217  IVAVKNGFISITPIQFDLTMYNLIDTLKKWDI  248
+            I  VKNG I   P +F    +N ++ ++ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  217  IVAVKNGFISITPIQFDLTMYNLIDTLKKWDI  248
+            I  VKNG I   P +F    +N ++ ++ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ ABN51562.1 valyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ HBW26065.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Composition-based stats.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  217  IVAVKNGFISITPIQFDLTMYNLIDTLKKWDI  248
+            I  VKNG I   P +F    +N ++ ++ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>WP_003516151.1 AraC family transcriptional regulator [Acetivibrio thermocellus]
+ CDG37627.1 AraC family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN54339.1 transcriptional regulator, AraC family [Acetivibrio thermocellus
+ATCC 27405]
+ ALX07706.1 transcriptional regulator with only HTH domain, AraC family [Acetivibrio
+thermocellus AD2]
+ ANV75448.1 transcriptional regulator with only HTH domain, AraC family [Acetivibrio
+thermocellus DSM 2360]
+ EIC05664.1 helix-turn-helix domain-containing protein AraC type [Acetivibrio
+thermocellus YS]
+Length=243
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/53 (30%), Positives = 24/53 (45%), Gaps = 2/53 (4%)
+
+Query  119  NGFSSIAISLEAGSDITDKALLFIKKLIKSVAKNGLPKNALLNVNIPNISDNY  171
+             GFSS+ I  + G +  D   +FI  L +  A + LPK+     N     + Y
+Sbjct  186  QGFSSLPILTKTGEEYVDGKDIFI--LTRGFAGSPLPKSDRFGDNRVKFGEKY  236
+
+
+>WP_003512661.1 glutamine-hydrolyzing GMP synthase [Acetivibrio thermocellus]
+ CDG35051.1 GMP synthase glutamine-hydrolyzing [Acetivibrio thermocellus
+BC1]
+ ADU74899.1 GMP synthase, large subunit [Acetivibrio thermocellus DSM 1313]
+ ALX08857.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+AD2]
+ ANV76607.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+DSM 2360]
+ EIC05197.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+YS]
+Length=511
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 18/84 (21%), Positives = 42/84 (50%), Gaps = 8/84 (10%)
+
+Query  17   NKLADILKGSYNVVVVAPDRERSAVGHAITMHKPLRIKKIKDEENLKIFHANGTPSDCVK  76
+            +++ ++ K  +++ ++  + E   +     +  P R +KI  EE +++F          K
+Sbjct  259  DQVEEVFKKQFDISLIRVNAEDRFLEKLKGVTDPERKRKIIGEEFIRVFEEEAK-----K  313
+
+Query  77   LG-IDVVMKDK--PDIIVSGINDG  97
+            +G +D +++    PD+I SG+ D
+Sbjct  314  IGTVDFLVQGTIYPDVIESGVGDA  337
+
+
+>WP_011837818.1 glutamine-hydrolyzing GMP synthase [Acetivibrio thermocellus]
+ A3DCD4.1 RecName: Full=GMP synthase [glutamine-hydrolyzing]; AltName:
+Full=GMP synthetase; AltName: Full=Glutamine amidotransferase
+[Acetivibrio thermocellus ATCC 27405]
+ ABN51613.1 GMP synthase, large subunit [Acetivibrio thermocellus ATCC 27405]
+ HBW25903.1 GMP synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+Length=511
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 18/84 (21%), Positives = 42/84 (50%), Gaps = 8/84 (10%)
+
+Query  17   NKLADILKGSYNVVVVAPDRERSAVGHAITMHKPLRIKKIKDEENLKIFHANGTPSDCVK  76
+            +++ ++ K  +++ ++  + E   +     +  P R +KI  EE +++F          K
+Sbjct  259  DQVEEVFKKQFDISLIRVNAEDRFLEKLKGVTDPERKRKIIGEEFIRVFEEEAK-----K  313
+
+Query  77   LG-IDVVMKDK--PDIIVSGINDG  97
+            +G +D +++    PD+I SG+ D
+Sbjct  314  IGTVDFLVQGTIYPDVIESGVGDA  337
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.138    0.393
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18148
+Number of extensions: 810
+Number of successful extensions: 26
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 9
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

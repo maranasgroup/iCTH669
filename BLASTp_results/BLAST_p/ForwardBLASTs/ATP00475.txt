@@ -1,0 +1,331 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WH56KM7013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ATP00475 5'-nucleotidase [Faecalibacterium prausnitzii]
+
+Length=495
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517987.1 chemotaxis response regulator protein-glutamate...  28.9    2.0    34%
+WP_235715189.1 cupin domain-containing protein [Acetivibrio th...  26.6    3.3    26%
+CDG36528.1 hypothetical protein CTHBC1_1922 [Acetivibrio therm...  28.1    4.3    23%
+WP_080514911.1 cupin domain-containing protein [Acetivibrio th...  26.9    4.4    26%
+HBW27390.1 TPA: hypothetical protein [Acetivibrio thermocellus]    27.7    4.4    23%
+WP_020457690.1 hypothetical protein [Acetivibrio thermocellus]     27.7    4.4    23%
+WP_003522631.1 hypothetical protein [Acetivibrio thermocellus]     27.7    4.5    23%
+WP_136479266.1 hypothetical protein [Acetivibrio thermocellus]     27.7    4.6    23%
+NLU26702.1 hypothetical protein [Acetivibrio thermocellus]         27.7    4.6    23%
+WP_003513874.1 hypothetical protein [Acetivibrio thermocellus]     27.7    4.7    29%
+NLU26500.1 hypothetical protein [Acetivibrio thermocellus]         27.3    5.0    29%
+WP_004463666.1 ATP-dependent DNA helicase RecG [Acetivibrio th...  26.9    8.5    34%
+WP_003520560.1 ATP-dependent DNA helicase RecG [Acetivibrio th...  26.9    8.5    34%
+WP_020458089.1 hypothetical protein [Eubacteriales]                24.6    8.7    47%
+
+ALIGNMENTS
+>WP_003517987.1 chemotaxis response regulator protein-glutamate methylesterase
+[Acetivibrio thermocellus]
+ CDG35203.1 Chemotaxis response regulator protein-glutamate methylesterase
+[Acetivibrio thermocellus BC1]
+ ABN51727.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74788.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08740.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus AD2]
+ ANV76492.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus DSM 2360]
+Length=354
+
+ Score = 28.9 bits (63),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 17/50 (34%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query  62   VIDSEYKGLSTIEIMNALAPDIVTIG-NHEVDYGIAHLLFIEKCARFPII  110
+            VID+   GL  IE    L PD++T+     V  G+  L  + +  R P+I
+Sbjct  36   VIDTAKNGLEAIEKAQKLKPDVITLDLKMPVMDGLECLRKLNETMRIPVI  85
+
+
+>WP_235715189.1 cupin domain-containing protein [Acetivibrio thermocellus]
+Length=90
+
+ Score = 26.6 bits (57),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 30/68 (44%), Gaps = 5/68 (7%)
+
+Query  364  MFKVTGQQLRQMLHYMLREEAYTGH---TEFYQLPSTLRLRYDRAKGDFDYFTYCGKEVG  420
+            M K+     +    Y +R++ Y G    TEF  +P +    ++ + GD  Y    G
+Sbjct  25   MRKIHSHTNQDEFQYYIRDKYYKGRARMTEF--MPDSKARTFNYSPGDVGYVPVGGFHYV  82
+
+Query  421  KEIGDDAL  428
+            + IGD+ L
+Sbjct  83   QNIGDEPL  90
+
+
+>CDG36528.1 hypothetical protein CTHBC1_1922 [Acetivibrio thermocellus BC1]
+Length=2004
+
+ Score = 28.1 bits (61),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>WP_080514911.1 cupin domain-containing protein [Acetivibrio thermocellus]
+ THJ76970.1 cupin domain-containing protein [Acetivibrio thermocellus]
+Length=137
+
+ Score = 26.9 bits (58),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 30/68 (44%), Gaps = 5/68 (7%)
+
+Query  364  MFKVTGQQLRQMLHYMLREEAYTGH---TEFYQLPSTLRLRYDRAKGDFDYFTYCGKEVG  420
+            M K+     +    Y +R++ Y G    TEF  +P +    ++ + GD  Y    G
+Sbjct  72   MRKIHSHTNQDEFQYYIRDKYYKGRARMTEF--MPDSKARTFNYSPGDVGYVPVGGFHYV  129
+
+Query  421  KEIGDDAL  428
+            + IGD+ L
+Sbjct  130  QNIGDEPL  137
+
+
+>HBW27390.1 hypothetical protein [Acetivibrio thermocellus]
+Length=2004
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>WP_020457690.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53243.1 hypothetical protein Cthe_2032 [Acetivibrio thermocellus ATCC
+27405]
+Length=2004
+
+ Score = 27.7 bits (60),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>WP_003522631.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU75676.1 hypothetical protein Clo1313_2687 [Acetivibrio thermocellus DSM
+1313]
+ ALX09697.1 hypothetical protein AD2_02717 [Acetivibrio thermocellus AD2]
+ ANV77470.1 hypothetical protein LQRI_2729 [Acetivibrio thermocellus DSM
+2360]
+ EIC03595.1 hypothetical protein YSBL_2746 [Acetivibrio thermocellus YS]
+ PFH03980.1 hypothetical protein M972_112799 [Acetivibrio thermocellus AD2]
+Length=2004
+
+ Score = 27.7 bits (60),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>WP_136479266.1 hypothetical protein, partial [Acetivibrio thermocellus]
+ THJ78724.1 hypothetical protein EPD62_04580, partial [Acetivibrio thermocellus]
+Length=1916
+
+ Score = 27.7 bits (60),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>NLU26702.1 hypothetical protein [Acetivibrio thermocellus]
+Length=1946
+
+ Score = 27.7 bits (60),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/62 (23%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  357  PYDDGVFMFKVTGQQLRQMLHYMLREEAYTGHTEFYQLPSTLRLRYDRAKGDFDYFTYCG  416
+            P  DG F + +T +Q  +  ++   + A     +    P T+ ++ D+ K +   FT+
+Sbjct  623  PIADGTFSYTITTEQNNEKFYFYAIDNA-----DNMSEPKTIDVKIDKTKPEITEFTFRK  677
+
+Query  417  KE  418
+            K+
+Sbjct  678  KQ  679
+
+
+>WP_003513874.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36430.1 TPR repeat-containing protein [Acetivibrio thermocellus BC1]
+ ABN53133.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75589.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX09582.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV77354.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=426
+
+ Score = 27.7 bits (60),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  446  NISYDTICKIQKPRSVATSCQDILMEYFREHEMLDAAVDGR  486
+            +I Y  I  I+  R +    + +LM Y  + EM ++  +GR
+Sbjct  186  SIKYSEIVGIEDRRGINNEIKPVLMMYLFDEEMYESENEGR  226
+
+
+>NLU26500.1 hypothetical protein [Acetivibrio thermocellus]
+Length=426
+
+ Score = 27.3 bits (59),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  446  NISYDTICKIQKPRSVATSCQDILMEYFREHEMLDAAVDGR  486
+            +I Y  I  I+  R +    + +LM Y  + EM ++  +GR
+Sbjct  186  SIKYSEIVGIEDRRGINNEIKPVLMMYLFDEEMYESENEGR  226
+
+
+>WP_004463666.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+ CDG35948.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus BC1]
+ ABN52510.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus ATCC
+27405]
+ ADU74048.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus DSM
+1313]
+ ANV75732.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus DSM
+2360]
+ NLU27737.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+Length=694
+
+ Score = 26.9 bits (58),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 30/67 (45%), Gaps = 25/67 (37%)
+
+Query  334  GSGSIRAE---KLGPIVTYGDLIEGFPYD---------------------DGVFMFKVTG  369
+            G G  RA+   KLG I +  DLI  FPYD                     +G+ M KVT
+Sbjct  18   GVGDARAKLFHKLG-IFSIEDLITHFPYDYEDRSNIKKICQLTEGESCTFEGIIMSKVTE  76
+
+Query  370  QQLRQML  376
+            +++RQ L
+Sbjct  77   RKIRQGL  83
+
+
+>WP_003520560.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+ ALX07986.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus AD2]
+ EIC06184.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus YS]
+ PFH02257.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus AD2]
+Length=694
+
+ Score = 26.9 bits (58),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 30/67 (45%), Gaps = 25/67 (37%)
+
+Query  334  GSGSIRAE---KLGPIVTYGDLIEGFPYD---------------------DGVFMFKVTG  369
+            G G  RA+   KLG I +  DLI  FPYD                     +G+ M KVT
+Sbjct  18   GVGDARAKLFHKLG-IFSIEDLITHFPYDYEDRSNIKKICQLTEGESCTFEGIIMSKVTE  76
+
+Query  370  QQLRQML  376
+            +++RQ L
+Sbjct  77   RKIRQGL  83
+
+
+>WP_020458089.1 MULTISPECIES: hypothetical protein [Eubacteriales]
+ AEO12412.1 hypothetical protein Cthe_3343 [Acetivibrio thermocellus ATCC
+27405]
+Length=69
+
+ Score = 24.6 bits (52),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 8/17 (47%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  439  KNIESFFNISYDTICKI  455
+            KN+  F N+S+D +CK+
+Sbjct  49   KNLTDFRNLSWDELCKL  65
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.322    0.140    0.416
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 45478
+Number of extensions: 2158
+Number of successful extensions: 18
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 5
+Length of query: 495
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 402
+Effective length of database: 2085979
+Effective search space: 838563558
+Effective search space used: 838563558
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

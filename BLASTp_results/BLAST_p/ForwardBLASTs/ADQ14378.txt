@@ -1,0 +1,185 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W05BF0Z016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADQ14378 5'-nucleotidase [Halanaerobium hydrogeniformans]
+
+Length=295
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837736.1 DUF1538 domain-containing protein [Acetivibrio ...  26.9    4.1    43%
+WP_003511913.1 DUF1538 domain-containing protein [Acetivibrio ...  26.9    4.1    43%
+NLU26060.1 AAA domain-containing protein [Acetivibrio thermoce...  25.8    9.4    35%
+CDG34988.1 Chaperone protein ClpB [Acetivibrio thermocellus BC1]   25.8    9.4    35%
+WP_011837804.1 ATP-dependent Clp protease ATP-binding subunit ...  25.8    9.5    35%
+WP_003519329.1 ATP-dependent Clp protease ATP-binding subunit ...  25.8    9.6    35%
+WP_136479593.1 ATP-dependent Clp protease ATP-binding subunit ...  25.8    9.6    35%
+
+ALIGNMENTS
+>WP_011837736.1 DUF1538 domain-containing protein [Acetivibrio thermocellus]
+ ABN51259.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26641.1 DUF1538 domain-containing protein [Acetivibrio thermocellus]
+Length=620
+
+ Score = 26.9 bits (58),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  204  AESVSGIDLIVDGHSHDLLPSGKMVGETMI  233
+            A  V G  L +DG +  +LP GK+VG ++I
+Sbjct  55   ASVVFGQALFLDGLNISILPIGKLVGGSLI  84
+
+
+>WP_003511913.1 DUF1538 domain-containing protein [Acetivibrio thermocellus]
+ CDG34696.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+BC1]
+ ADU75251.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09233.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+AD2]
+ ANV76985.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+DSM 2360]
+ EIC04808.1 protein of unknown function DUF1538 [Acetivibrio thermocellus
+YS]
+Length=620
+
+ Score = 26.9 bits (58),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  204  AESVSGIDLIVDGHSHDLLPSGKMVGETMI  233
+            A  V G  L +DG +  +LP GK+VG ++I
+Sbjct  55   ASVVFGQALFLDGLNISILPIGKLVGGSLI  84
+
+
+>NLU26060.1 AAA domain-containing protein [Acetivibrio thermocellus]
+Length=803
+
+ Score = 25.8 bits (55),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  46   FKDYQSNYDNLLILD----AGDTLHGRPITDQLEGESAVKLMNEAGYTA  90
+             KDY  +Y  + I D    A   L  R ITD+   + A+ +++EAG  A
+Sbjct  336  IKDYYESYHRVKISDEVIRAAVILSERYITDRFLPDKAIDVLDEAGSRA  384
+
+
+>CDG34988.1 Chaperone protein ClpB [Acetivibrio thermocellus BC1]
+Length=803
+
+ Score = 25.8 bits (55),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  46   FKDYQSNYDNLLILD----AGDTLHGRPITDQLEGESAVKLMNEAGYTA  90
+             KDY  +Y  + I D    A   L  R ITD+   + A+ +++EAG  A
+Sbjct  336  IKDYYESYHRVKISDEVIRAAVILSERYITDRFLPDKAIDVLDEAGSRA  384
+
+
+>WP_011837804.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ ABN51550.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26077.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+Length=803
+
+ Score = 25.8 bits (55),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  46   FKDYQSNYDNLLILD----AGDTLHGRPITDQLEGESAVKLMNEAGYTA  90
+             KDY  +Y  + I D    A   L  R ITD+   + A+ +++EAG  A
+Sbjct  336  IKDYYESYHRVKISDEVIRAAVILSERYITDRFLPDKAIDVLDEAGSRA  384
+
+
+>WP_003519329.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ ADU74965.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08926.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus AD2]
+ ANV76676.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC05112.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus YS]
+ PFH03199.1 ATP-dependent Clp protease ATP-binding subunit ClpE [Acetivibrio
+thermocellus AD2]
+Length=803
+
+ Score = 25.8 bits (55),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  46   FKDYQSNYDNLLILD----AGDTLHGRPITDQLEGESAVKLMNEAGYTA  90
+             KDY  +Y  + I D    A   L  R ITD+   + A+ +++EAG  A
+Sbjct  336  IKDYYESYHRVKISDEVIRAAVILSERYITDRFLPDKAIDVLDEAGSRA  384
+
+
+>WP_136479593.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ THJ77174.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+Length=803
+
+ Score = 25.8 bits (55),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 4/49 (8%)
+
+Query  46   FKDYQSNYDNLLILD----AGDTLHGRPITDQLEGESAVKLMNEAGYTA  90
+             KDY  +Y  + I D    A   L  R ITD+   + A+ +++EAG  A
+Sbjct  336  IKDYYESYHRVKISDEVIRAAVILSERYITDRFLPDKAIDVLDEAGSRA  384
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.137    0.381
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 24098
+Number of extensions: 1120
+Number of successful extensions: 22
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 21
+Number of HSP's successfully gapped: 6
+Length of query: 295
+Length of database: 2835838
+Length adjustment: 88
+Effective length of query: 207
+Effective length of database: 2126294
+Effective search space: 440142858
+Effective search space used: 440142858
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 46 (22.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

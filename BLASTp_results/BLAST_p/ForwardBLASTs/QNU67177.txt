@@ -1,0 +1,965 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V1JNS7C01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= QNU67177 dTMP kinase [Ruminiclostridium herbifermentans]
+
+Length=206
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       45.1    2e-06  26%
+WP_003514745.1 ABC transporter ATP-binding protein [Acetivibri...  28.5    0.62   22%
+CDG36232.1 putative ABC transporter ATP-binding protein MJ0089...  28.5    0.66   33%
+ABN54365.1 ABC transporter related protein [Acetivibrio thermo...  27.7    0.94   52%
+WP_003521401.1 ABC transporter ATP-binding protein [Acetivibri...  27.7    1.0    52%
+WP_041734433.1 ABC transporter ATP-binding protein [Acetivibri...  27.7    1.0    52%
+WP_003511717.1 ABC transporter ATP-binding protein [Acetivibri...  27.7    1.1    52%
+WP_003517604.1 metal ABC transporter ATP-binding protein [Acet...  27.7    1.2    48%
+WP_004464062.1 ABC transporter ATP-binding protein [Acetivibri...  27.7    1.2    41%
+WP_003515952.1 ABC transporter ATP-binding protein [Acetivibri...  27.7    1.2    41%
+WP_011838165.1 VRR-NUC domain-containing protein [Acetivibrio ...  26.6    1.3    55%
+WP_003519437.1 ATP-binding cassette domain-containing protein ...  27.7    1.3    37%
+WP_003518584.1 signal recognition particle-docking protein Fts...  27.7    1.3    43%
+WP_235825074.1 signal recognition particle-docking protein Fts...  27.3    1.4    43%
+CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]      27.3    1.7    36%
+WP_003515992.1 VRR-NUC domain-containing protein [Eubacteriales]   26.2    1.8    55%
+WP_014256603.1 VRR-NUC domain-containing protein [Eubacteriales]   26.2    1.8    55%
+WP_004463929.1 ABC transporter ATP-binding protein [Acetivibri...  26.6    2.4    38%
+WP_136479484.1 ABC transporter ATP-binding protein [Acetivibri...  26.6    2.4    38%
+WP_003517350.1 ABC transporter ATP-binding protein [Acetivibri...  26.6    2.4    38%
+WP_003518906.1 cell division ATP-binding protein FtsE [Acetivi...  26.6    2.8    52%
+WP_003517588.1 ABC transporter ATP-binding protein [Acetivibri...  26.2    3.2    46%
+WP_003516824.1 ABC transporter ATP-binding protein [Acetivibri...  26.2    3.2    37%
+WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydr...  26.2    3.8    30%
+NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofol...  26.2    4.0    30%
+WP_003517368.1 ABC transporter ATP-binding protein [Acetivibri...  25.8    4.2    40%
+WP_136479702.1 ATP-binding cassette domain-containing protein ...  25.8    4.6    38%
+NLU26991.1 ABC transporter ATP-binding protein [Acetivibrio th...  25.8    4.6    42%
+WP_003514696.1 ATP-binding cassette domain-containing protein ...  25.8    4.7    38%
+WP_003512125.1 YvcK family protein [Acetivibrio thermocellus]      25.8    5.0    30%
+4RY2_A Chain A, ABC-type bacteriocin transporter [Acetivibrio ...  25.8    5.0    33%
+CDG35227.1 bacteriocin-processing peptidase [Acetivibrio therm...  25.8    5.2    33%
+WP_011837864.1 peptidase domain-containing ABC transporter [Ac...  25.8    5.2    33%
+6V9Z_A Chain A, ABC-type bacteriocin transporter [Acetivibrio ...  25.8    5.2    33%
+4S0F_A Chain A, ABC-type bacteriocin transporter [Acetivibrio ...  25.8    5.3    33%
+WP_003512286.1 ANTAR domain-containing protein [Acetivibrio th...  25.4    5.5    46%
+WP_003517571.1 peptidase domain-containing ABC transporter [Ac...  25.8    5.5    33%
+WP_003517318.1 ABC transporter ATP-binding protein [Acetivibri...  25.8    5.5    42%
+WP_003514222.1 ABC transporter ATP-binding protein [Acetivibri...  25.4    5.5    28%
+WP_003516357.1 hypothetical protein [Acetivibrio thermocellus]     25.8    5.7    34%
+WP_011837776.1 ANTAR domain-containing protein [Acetivibrio th...  25.4    5.7    46%
+WP_235715146.1 hypothetical protein [Acetivibrio thermocellus]     25.8    5.8    34%
+ABN54132.1 ABC transporter related protein [Acetivibrio thermo...  25.4    6.2    44%
+NLU26004.1 energy-coupling factor transporter ATPase [Acetivib...  25.4    6.6    44%
+WP_003518543.1 energy-coupling factor transporter ATPase [Acet...  25.4    6.7    44%
+CDG37425.1 Energy-coupling factor transporter ATP-binding prot...  25.4    6.8    44%
+WP_003515378.1 ATP-binding cassette domain-containing protein ...  25.4    6.8    32%
+WP_041734410.1 energy-coupling factor transporter ATPase [Acet...  25.4    6.9    44%
+CDG37631.1 ABC transporter related protein [Acetivibrio thermo...  25.4    7.0    42%
+WP_003516150.1 ABC transporter ATP-binding protein/permease [A...  25.4    7.2    42%
+WP_136479186.1 ABC transporter ATP-binding protein/permease [A...  25.4    7.2    42%
+NLU27941.1 ABC transporter ATP-binding protein [Acetivibrio th...  25.4    7.3    42%
+WP_173668649.1 ABC transporter ATP-binding protein [Acetivibri...  25.0    7.3    43%
+ABN52728.1 ABC transporter transmembrane region [Acetivibrio t...  25.4    7.4    42%
+ABN52984.1 ABC transporter related protein [Acetivibrio thermo...  25.0    7.4    43%
+WP_003517773.1 ABC transporter ATP-binding protein/permease [A...  25.4    7.4    42%
+WP_041734264.1 ABC transporter ATP-binding protein/permease [A...  25.4    7.4    42%
+WP_011837823.1 ABC transporter ATP-binding protein/permease [A...  25.4    8.5    44%
+WP_136479305.1 ABC transporter ATP-binding protein/permease [A...  25.4    8.5    44%
+WP_003516284.1 ABC transporter ATP-binding protein [Acetivibri...  25.0    8.7    38%
+WP_003518681.1 ABC transporter ATP-binding protein/permease [A...  25.0    8.7    44%
+CDG35093.1 ABC transporter related protein [Acetivibrio thermo...  25.0    8.9    44%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 45.1 bits (105),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 62/235 (26%), Positives = 95/235 (40%), Gaps = 44/235 (19%)
+
+Query  4    GKFITFE-GTDGSGKTTQIKLLEEYLKNKGYEVVLSREPG-GTKVSELIR-----DLILD  56
+            GK I  E G D SGK TQ   L E L  +GY+V     P   +  S L++     D   D
+Sbjct  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+
+Query  57   PANTEIDPLTEMILYAASRAQHIAQIIKPSIEAGKIVICDRFVDSSYAYQGFG-------  109
+            P   ++ P      YA  R          +   G I++ DR+  S+  +Q
+Sbjct  63   P--NDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  110  -RGID--LRLIADVNRVAIDGISPDITFFLDIDPETA---IKRRINA-TGADRIEQEKLD  162
+             R +D       ++ ++ +    PD   FLD+ P  +   +K R N  TG     ++K D
+Sbjct  121  DRFLDWLWNFEFEIYKLPV----PDCVIFLDMPPSFSRELMKERANKFTG-----EQKKD  171
+
+Query  163  FHKR----VYEGYKKMSLLFPDRIMTIDAE-------KPMDEISSQINEYIDTIL  206
+             H+R    + E Y+  SL    +   I  E       K +DEI  ++ E +  I+
+Sbjct  172  IHERNDEYLVESYRN-SLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+
+
+>WP_003514745.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG37458.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN54167.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73604.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07531.1 ABC transporter related protein [Acetivibrio thermocellus AD2]
+ ANV75271.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+2360]
+Length=283
+
+ Score = 28.5 bits (62),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 28/126 (22%), Positives = 52/126 (41%), Gaps = 28/126 (22%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIRDLILDPANTEID  63
+            G  +   G +G+GKTT +KL+            +SR+ G  KV      L +D    E +
+Sbjct  28   GSIMGLVGENGAGKTTTLKLIMN---------AISRDSGSVKV------LGVDNQAKEFN  72
+
+Query  64   PLTEMILYAASRA--------QHIAQIIKPSIEAGKIVICDRFVD-----SSYAYQGFGR  110
+             + E I      A        +H+ +++K +           F++      + A++ F R
+Sbjct  73   AVKEDIGVVLDEAYFPEVLTPKHVGKVMKNTYRNWDDTCYYNFLERFKLPETKAFKDFSR  132
+
+Query  111  GIDLRL  116
+            G+ ++L
+Sbjct  133  GMKMKL  138
+
+
+>CDG36232.1 putative ABC transporter ATP-binding protein MJ0089 [Acetivibrio
+thermocellus BC1]
+Length=250
+
+ Score = 28.5 bits (62),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 4/51 (8%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+           +  G+F+   G +G+GK+T +K +   LK +   V L    G  +VS L R
+Sbjct  25  LNGGEFMAILGNNGAGKSTLLKCINRILKPRKGVVYL----GEDRVSALTR  71
+
+
+>ABN54365.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+Length=217
+
+ Score = 27.7 bits (60),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLL  24
+           G+F  F GT GSGK+T + +L
+Sbjct  13  GEFCCFLGTSGSGKSTLLNVL  33
+
+
+>WP_003521401.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG37653.1 putative ABC transporter ATP-binding protein TM_0352 [Acetivibrio
+thermocellus BC1]
+ ALX07732.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75474.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC05690.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ NIK04123.1 putative ABC transport system ATP-binding protein [Acetivibrio
+thermocellus]
+Length=223
+
+ Score = 27.7 bits (60),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLL  24
+           G+F  F GT GSGK+T + +L
+Sbjct  19  GEFCCFLGTSGSGKSTLLNVL  39
+
+
+>WP_041734433.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ HBW27978.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=245
+
+ Score = 27.7 bits (60),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLL  24
+           G+F  F GT GSGK+T + +L
+Sbjct  41  GEFCCFLGTSGSGKSTLLNVL  61
+
+
+>WP_003511717.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU73799.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ NLU27512.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ THJ79136.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ SOD26676.1 putative ABC transport system ATP-binding protein [Acetivibrio
+thermocellus]
+Length=245
+
+ Score = 27.7 bits (60),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLL  24
+           G+F  F GT GSGK+T + +L
+Sbjct  41  GEFCCFLGTSGSGKSTLLNVL  61
+
+
+>WP_003517604.1 metal ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG35241.1 Zinc uptake system ATP-binding protein ZurA [Acetivibrio thermocellus
+BC1]
+ ABN51784.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74746.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08697.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV76449.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=259
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLK  29
+           ++ G F+   G +GSGK+T IKLL   LK
+Sbjct  27  VEKGDFVGIIGPNGSGKSTLIKLLLRQLK  55
+
+
+>WP_004464062.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG36277.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN52973.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ NLU27547.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ THJ77881.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ HBW26486.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=266
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLK  29
+           M+ G+F    G +GSGKTT +K +   L+
+Sbjct  31  MEKGRFYGILGPNGSGKTTLLKSMARALR  59
+
+
+>WP_003515952.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU75440.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09440.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77194.1 Iron-chelate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC04564.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ NIK05872.1 iron complex transport system ATP-binding protein [Acetivibrio
+thermocellus]
+Length=266
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLK  29
+           M+ G+F    G +GSGKTT +K +   L+
+Sbjct  31  MEKGRFYGILGPNGSGKTTLLKSMARALR  59
+
+
+>WP_011838165.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus]
+ ABN52869.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ THJ76508.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus]
+Length=100
+
+ Score = 26.6 bits (57),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  3   NGKFITFEGTDGSGKTTQIK  22
+           NG+FI FE    SGKTT+++
+Sbjct  43  NGRFIAFEVKTPSGKTTKLQ  62
+
+
+>WP_003519437.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG35865.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN52421.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74134.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08076.1 ABC transporter related protein [Acetivibrio thermocellus AD2]
+ ANV75823.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+2360]
+Length=322
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 22/35 (63%), Gaps = 0/35 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLKNKGYEV  35
+           M+ G+ + F G +G+GK+T +K+L   L   G +V
+Sbjct  46  MEKGELVGFLGPNGAGKSTTLKILTGILFPTGGKV  80
+
+
+>WP_003518584.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+ CDG35619.1 Signal recognition particle receptor FtsY [Acetivibrio thermocellus
+BC1]
+ ABN52160.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74354.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus DSM 1313]
+ ALX08298.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus AD2]
+ ANV76046.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus DSM 2360]
+Length=302
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  11   GTDGSGKTTQIKLLEEYLKNKGYEVVLS  38
+            G +G GKTT I  +   LK++G +V+L+
+Sbjct  108  GVNGVGKTTSIGKIANLLKSQGKKVILA  135
+
+
+>WP_235825074.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+Length=308
+
+ Score = 27.3 bits (59),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/28 (43%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  11   GTDGSGKTTQIKLLEEYLKNKGYEVVLS  38
+            G +G GKTT I  +   LK++G +V+L+
+Sbjct  114  GVNGVGKTTSIGKIANLLKSQGKKVILA  141
+
+
+>CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]
+Length=277
+
+ Score = 27.3 bits (59),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 23/45 (51%), Gaps = 1/45 (2%)
+
+Query  8   TFEGTDGSGKTTQIKLLEEYLKNKGYEV-VLSREPGGTKVSELIR  51
+              G  G GK+T   L+ E L  KGY+V VL  +  G  +  L++
+Sbjct  35  VMSGKGGVGKSTVSALIAEELNKKGYKVGVLDADITGPSIPRLLK  79
+
+
+>WP_003515992.1 MULTISPECIES: VRR-NUC domain-containing protein [Eubacteriales]
+ ADU75428.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09425.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV77179.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+Length=95
+
+ Score = 26.2 bits (56),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  3   NGKFITFEGTDGSGKTTQIK  22
+           NG+FI FE    SGKTT+++
+Sbjct  43  NGRFIAFEIKTPSGKTTKLQ  62
+
+
+>WP_014256603.1 MULTISPECIES: VRR-NUC domain-containing protein [Eubacteriales]
+ THJ76437.1 VRR-NUC domain-containing protein [Acetivibrio thermocellus]
+Length=95
+
+ Score = 26.2 bits (56),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  3   NGKFITFEGTDGSGKTTQIK  22
+           NG+FI FE    SGKTT+++
+Sbjct  43  NGRFIAFEIKTPSGKTTKLQ  62
+
+
+>WP_004463929.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52798.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+Length=267
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           ++ G+F++  G+ G GKTT ++L+
+Sbjct  40  VRRGEFLSIIGSSGCGKTTLLRLI  63
+
+
+>WP_136479484.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ THJ77661.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=267
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           ++ G+F++  G+ G GKTT ++L+
+Sbjct  40  VRRGEFLSIIGSSGCGKTTLLRLI  63
+
+
+>WP_003517350.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU75360.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09354.1 Taurine-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77108.1 Taurine-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+ EIC04681.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ NIK05781.1 NitT/TauT family transport system ATP-binding protein/sulfonate
+transport system ATP-binding protein [Acetivibrio thermocellus]
+Length=267
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 9/24 (38%), Positives = 18/24 (75%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           ++ G+F++  G+ G GKTT ++L+
+Sbjct  40  VRRGEFLSIIGSSGCGKTTLLRLI  63
+
+
+>WP_003518906.1 cell division ATP-binding protein FtsE [Acetivibrio thermocellus]
+ CDG36386.1 Cell division ATP-binding protein FtsE [Acetivibrio thermocellus
+BC1]
+ ABN53081.1 cell division ATP-binding protein FtsE [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75556.1 cell division ATP-binding protein FtsE [Acetivibrio thermocellus
+DSM 1313]
+ ALX09547.1 cell division ATP-binding protein FtsE [Acetivibrio thermocellus
+AD2]
+ ANV77319.1 cell division ATP-binding protein FtsE [Acetivibrio thermocellus
+DSM 2360]
+Length=235
+
+ Score = 26.6 bits (57),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLL  24
+           G+F  F G  GSGK+T +KL+
+Sbjct  28  GEFAFFVGPSGSGKSTLLKLI  48
+
+
+>WP_003517588.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG35232.1 Lipoprotein-releasing system ATP-binding protein LolD 2 [Acetivibrio
+thermocellus BC1]
+ ABN51775.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74755.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08706.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV76458.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=227
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           +K G+FI   G  GSGK+T + +L
+Sbjct  30  VKKGEFIAIVGPSGSGKSTLLHIL  53
+
+
+>WP_003516824.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ADU75846.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09878.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77652.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC03607.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ NIK06325.1 putative ABC transport system ATP-binding protein [Acetivibrio
+thermocellus]
+Length=255
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 21/35 (60%), Gaps = 0/35 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLS  38
+           G++++  G  GSGKTT + +L    K    +V+LS
+Sbjct  35  GEYVSIMGESGSGKTTLLNILAALDKPTSGDVLLS  69
+
+
+>WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+ CDG36060.1 FolC bifunctional protein [Acetivibrio thermocellus BC1]
+ ABN52616.1 FolC bifunctional protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73932.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 1313]
+ ALX07870.1 FolC bifunctional protein [Acetivibrio thermocellus AD2]
+ ANV75616.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 2360]
+Length=428
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 24/47 (51%), Gaps = 2/47 (4%)
+
+Query  5   KFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+           K++   GT+G G T  +  +   LK  GY+V +   P   + +E I+
+Sbjct  40  KYVHVAGTNGKGST--VAFISSILKESGYKVGIYTSPYIERFTERIK  84
+
+
+>NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+Length=428
+
+ Score = 26.2 bits (56),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 24/47 (51%), Gaps = 2/47 (4%)
+
+Query  5   KFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+           K++   GT+G G T  +  +   LK  GY+V +   P   + +E I+
+Sbjct  40  KYVHVAGTNGKGST--VAFISSILKESGYKVGIYTSPYIERFTERIK  84
+
+
+>WP_003517368.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52789.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75351.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09345.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77099.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=223
+
+ Score = 25.8 bits (55),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 17/35 (49%), Gaps = 0/35 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLKNKGYEV  35
+           MK G F    G  GSGKTT + L+   +   G  V
+Sbjct  29  MKAGDFAIIIGRSGSGKTTLLNLIGGLISPTGGHV  63
+
+
+>WP_136479702.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ THJ76596.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+Length=251
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLK  29
+           +K G+     G +G+GKTT +++L   LK
+Sbjct  24  VKEGEVFGLLGENGAGKTTTLRMLATMLK  52
+
+
+>NLU26991.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=367
+
+ Score = 25.8 bits (55),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           +K G+F T  G  G GKTT ++++
+Sbjct  27  IKPGEFFTLLGPSGCGKTTLLRMI  50
+
+
+>WP_003514696.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG37433.1 ATP-binding transport protein NatA [Acetivibrio thermocellus
+BC1]
+ ABN54140.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73582.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07503.1 Sulfate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75242.1 Sulfate-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=251
+
+ Score = 25.8 bits (55),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 18/29 (62%), Gaps = 0/29 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYLK  29
+           +K G+     G +G+GKTT +++L   LK
+Sbjct  24  VKEGEVFGLLGENGAGKTTTLRMLATMLK  52
+
+
+>WP_003512125.1 YvcK family protein [Acetivibrio thermocellus]
+ CDG34797.1 UPF0052 protein [Acetivibrio thermocellus BC1]
+ ABN51355.1 protein of unknown function UPF0052 and CofD [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75158.1 protein of unknown function UPF0052 and CofD [Acetivibrio thermocellus
+DSM 1313]
+ ALX09133.1 putative protein family UPF0052 [Acetivibrio thermocellus AD2]
+ ANV76885.1 putative protein family UPF0052 [Acetivibrio thermocellus DSM
+2360]
+Length=439
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 20/66 (30%), Positives = 33/66 (50%), Gaps = 11/66 (17%)
+
+Query  14   GSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSEL---------IRDLILDPANTEIDP  64
+            G+G +T ++ L+E   N    V ++ + GG+ +            IR+ IL  ANTE  P
+Sbjct  107  GTGLSTMLRGLKECSSNITAVVTVADDGGGSGILRQDLGILPPGDIRNCILALANTE--P  164
+
+Query  65   LTEMIL  70
+            + E +L
+Sbjct  165  IMEKLL  170
+
+
+>4RY2_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+ 4RY2_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+ 7T54_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T54_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T55_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T55_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T56_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T56_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T57_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+ 7T57_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus]
+Length=730
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  515  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  562
+
+
+>CDG35227.1 bacteriocin-processing peptidase [Acetivibrio thermocellus BC1]
+Length=727
+
+ Score = 25.8 bits (55),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  512  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  559
+
+
+>WP_011837864.1 peptidase domain-containing ABC transporter [Acetivibrio thermocellus]
+ ABN51770.1 ABC-type bacteriocin transporter [Acetivibrio thermocellus ATCC
+27405]
+ HBW26934.1 peptidase domain-containing ABC transporter [Acetivibrio thermocellus]
+Length=727
+
+ Score = 25.8 bits (55),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  512  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  559
+
+
+>6V9Z_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+ 6V9Z_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+Length=730
+
+ Score = 25.8 bits (55),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  515  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  562
+
+
+>4S0F_A Chain A, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+ 4S0F_B Chain B, ABC-type bacteriocin transporter [Acetivibrio thermocellus
+ATCC 27405]
+Length=730
+
+ Score = 25.8 bits (55),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  515  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  562
+
+
+>WP_003512286.1 ANTAR domain-containing protein [Acetivibrio thermocellus]
+ CDG34882.1 response regulator receiver and ANTAR domain protein [Acetivibrio
+thermocellus BC1]
+ ADU75073.1 ANTAR domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX09048.1 response regulator receiver and ANTAR domain protein [Acetivibrio
+thermocellus AD2]
+ ANV76799.1 response regulator receiver and ANTAR domain protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04950.1 ANTAR domain protein [Acetivibrio thermocellus YS]
+Length=190
+
+ Score = 25.4 bits (54),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 21/46 (46%), Positives = 25/46 (54%), Gaps = 5/46 (11%)
+
+Query  24  LEEYLK-NKGY-EVVLSREPGGTKVSELIRDLILDPANTEIDPLTE  67
+           LEE LK N  Y E+V++R  G  K   L RD  L   NT   PLT+
+Sbjct  17  LEELLKFNSSYNEIVMARNAGEAKRILLDRDFDLCIINT---PLTD  59
+
+
+>WP_003517571.1 peptidase domain-containing ABC transporter [Acetivibrio thermocellus]
+ ADU74760.1 ABC-type bacteriocin transporter [Acetivibrio thermocellus DSM
+1313]
+ ALX08711.1 ABC-type bacteriocin transporter [Acetivibrio thermocellus AD2]
+ ANV76463.1 ABC-type bacteriocin transporter [Acetivibrio thermocellus DSM
+2360]
+ EIC05353.1 ABC-type bacteriocin transporter [Acetivibrio thermocellus YS]
+ NIK05120.1 ATP-binding cassette subfamily B protein [Acetivibrio thermocellus]
+Length=727
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 24/48 (50%), Gaps = 0/48 (0%)
+
+Query  4    GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLSREPGGTKVSELIR  51
+            GK +   G  GSGKTT  KLL  +   +  +++++         ELIR
+Sbjct  512  GKTVAIVGESGSGKTTLAKLLMNFYSPEKGDILINGHSIKNISLELIR  559
+
+
+>WP_003517318.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52813.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75375.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09369.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77123.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=367
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLL  24
+           +K G+F T  G  G GKTT ++++
+Sbjct  27  IKPGEFFTLLGPSGCGKTTLLRMI  50
+
+
+>WP_003514222.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG36613.1 Bacitracin export ATP-binding protein BceA [Acetivibrio thermocellus
+BC1]
+ ABN53317.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75753.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09783.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77557.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=257
+
+ Score = 25.4 bits (54),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYLKNKGYEVVLS-REPGGTKVSEL  49
+           G+F+   G+ GSGK+T +  +   ++  G ++++  +E    K +EL
+Sbjct  34  GEFLGIMGSSGSGKSTLLNCIATVIQPTGGKIIMCGKEVQSLKGAEL  80
+
+
+>WP_003516357.1 hypothetical protein [Acetivibrio thermocellus]
+ ANV76193.1 ABC transporter substrate binding protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC05385.1 hypothetical protein YSBL_0767 [Acetivibrio thermocellus YS]
+ ADU74501.1 protein of unknown function DUF534 [Acetivibrio thermocellus
+DSM 1313]
+ ALX08444.1 ABC transporter substrate binding protein [Acetivibrio thermocellus
+AD2]
+ PFH02717.1 putative ABC transport system substrate-binding protein [Acetivibrio
+thermocellus AD2]
+Length=390
+
+ Score = 25.8 bits (55),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 39/80 (49%), Gaps = 10/80 (13%)
+
+Query  124  AIDGISPDITFFLDIDPETAIKRRINATGADRIEQEKLDFHKRVYEGYKKMSLLFPDRIM  183
+            A  G++ D+T   +   E A+ R +N  G D I+  K++  K+VY  Y KM+    DR
+Sbjct  313  AFGGVTVDLTALAEQQTEIAV-RLLN--GED-IKSIKIEDPKKVYIYYNKMT---ADR--  363
+
+Query  184  TIDAEKPMDEISSQINEYID  203
+             I  E P+  I S    Y D
+Sbjct  364  -IGVELPLQAIESAYRVYTD  382
+
+
+>WP_011837776.1 ANTAR domain-containing protein [Acetivibrio thermocellus]
+ ABN51444.1 ANTAR domain protein [Acetivibrio thermocellus ATCC 27405]
+ HBW25958.1 ANTAR domain-containing protein [Acetivibrio thermocellus]
+Length=190
+
+ Score = 25.4 bits (54),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 21/46 (46%), Positives = 25/46 (54%), Gaps = 5/46 (11%)
+
+Query  24  LEEYLK-NKGY-EVVLSREPGGTKVSELIRDLILDPANTEIDPLTE  67
+           LEE LK N  Y E+V++R  G  K   L RD  L   NT   PLT+
+Sbjct  17  LEELLKFNSSYNEIVMARNAGEAKRILLDRDFDLCIINT---PLTD  59
+
+
+>WP_235715146.1 hypothetical protein [Acetivibrio thermocellus]
+ NIK04849.1 putative ABC transport system substrate-binding protein [Acetivibrio
+thermocellus]
+Length=394
+
+ Score = 25.8 bits (55),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 39/80 (49%), Gaps = 10/80 (13%)
+
+Query  124  AIDGISPDITFFLDIDPETAIKRRINATGADRIEQEKLDFHKRVYEGYKKMSLLFPDRIM  183
+            A  G++ D+T   +   E A+ R +N  G D I+  K++  K+VY  Y KM+    DR
+Sbjct  317  AFGGVTVDLTALAEQQTEIAV-RLLN--GED-IKSIKIEDPKKVYIYYNKMT---ADR--  367
+
+Query  184  TIDAEKPMDEISSQINEYID  203
+             I  E P+  I S    Y D
+Sbjct  368  -IGVELPLQAIESAYRVYTD  386
+
+
+>ABN54132.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+Length=299
+
+ Score = 25.4 bits (54),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYL  28
+           G+F+   G +GSGK+T  +LL   L
+Sbjct  52  GEFVAVIGRNGSGKSTFARLLNAIL  76
+
+
+>NLU26004.1 energy-coupling factor transporter ATPase [Acetivibrio thermocellus]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYL  28
+           G+F+   G +GSGK+T  +LL   L
+Sbjct  38  GEFVAVIGRNGSGKSTFARLLNAIL  62
+
+
+>WP_003518543.1 energy-coupling factor transporter ATPase [Acetivibrio thermocellus]
+ ADU73565.1 Cobalt ATP-binding cassette-like protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07486.1 Polyamine-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75225.1 Polyamine-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+ EIC03418.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ NIK03865.1 energy-coupling factor transport system ATP-binding protein [Acetivibrio
+thermocellus]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYL  28
+           G+F+   G +GSGK+T  +LL   L
+Sbjct  38  GEFVAVIGRNGSGKSTFARLLNAIL  62
+
+
+>CDG37425.1 Energy-coupling factor transporter ATP-binding protein EcfA 1
+[Acetivibrio thermocellus BC1]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYL  28
+           G+F+   G +GSGK+T  +LL   L
+Sbjct  38  GEFVAVIGRNGSGKSTFARLLNAIL  62
+
+
+>WP_003515378.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG37172.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN53905.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73388.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07310.1 Sulfate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75048.1 Sulfate-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=369
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 9/28 (32%), Positives = 19/28 (68%), Gaps = 0/28 (0%)
+
+Query  1   MKNGKFITFEGTDGSGKTTQIKLLEEYL  28
+           ++ G+ + F G +G+GK+T + ++  YL
+Sbjct  24  VEKGEIVGFLGPNGAGKSTTMNIITGYL  51
+
+
+>WP_041734410.1 energy-coupling factor transporter ATPase [Acetivibrio thermocellus]
+ A3DJK3.2 RecName: Full=Energy-coupling factor transporter ATP-binding
+protein EcfA1; Short=ECF transporter A component EcfA1 [Acetivibrio
+thermocellus ATCC 27405]
+ THJ77426.1 energy-coupling factor transporter ATPase [Acetivibrio thermocellus]
+ HBW28069.1 energy-coupling factor transporter ATPase [Acetivibrio thermocellus]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  4   GKFITFEGTDGSGKTTQIKLLEEYL  28
+           G+F+   G +GSGK+T  +LL   L
+Sbjct  38  GEFVAVIGRNGSGKSTFARLLNAIL  62
+
+
+>CDG37631.1 ABC transporter related protein [Acetivibrio thermocellus BC1]
+Length=632
+
+ Score = 25.4 bits (54),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  2    KNGKFITFEGTDGSGKTTQIKLLEEY  27
+            K G+ + F G  G+GKTT   LL  +
+Sbjct  417  KPGQKVAFVGATGAGKTTITNLLNRF  442
+
+
+>WP_003516150.1 ABC transporter ATP-binding protein/permease [Acetivibrio thermocellus]
+ ABN54343.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73777.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07710.1 Xenobiotic-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75452.1 Xenobiotic-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC05668.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+Length=632
+
+ Score = 25.4 bits (54),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 15/26 (58%), Gaps = 0/26 (0%)
+
+Query  2    KNGKFITFEGTDGSGKTTQIKLLEEY  27
+            K G+ + F G  G+GKTT   LL  +
+Sbjct  417  KPGQKVAFVGATGAGKTTITNLLNRF  442
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.319    0.139    0.389
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 11434
+Number of extensions: 506
+Number of successful extensions: 13
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 6
+Length of query: 206
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 121
+Effective length of database: 2165339
+Effective search space: 262006019
+Effective search space used: 262006019
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

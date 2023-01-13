@@ -1,0 +1,262 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WJ4B5HG016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= SOB72114 5'-nucleotidase [Anaerobutyricum hallii]
+
+Length=257
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  30.8    0.12   31%
+CDG36657.1 daunorubicin resistance ABC transporter ATP-binding...  26.6    3.6    29%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  26.2    4.1    24%
+NLU26763.1 hypothetical protein [Acetivibrio thermocellus]         25.4    5.9    52%
+WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibr...  25.8    6.0    27%
+WP_003513185.1 transketolase [Acetivibrio thermocellus]            25.8    6.5    39%
+WP_003512586.1 malate dehydrogenase [Acetivibrio thermocellus]     25.8    7.8    33%
+WP_011837813.1 malate dehydrogenase [Acetivibrio thermocellus]     25.8    7.9    33%
+WP_003520441.1 cyanophycin synthetase [Acetivibrio thermocellus]   25.8    8.8    25%
+WP_020457738.1 cyanophycin synthetase [Acetivibrio thermocellus]   25.8    8.8    25%
+
+ALIGNMENTS
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 30.8 bits (68),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  180  YYVGKPNPLMMRTGLQILGVHSSEAVMIGDRMDTDIIAGIETGLDTALV  228
+            +   KP        ++I+   +SE  +IGD++ TDI  G +  + T LV
+Sbjct  88   HRASKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>CDG36657.1 daunorubicin resistance ABC transporter ATP-binding subunit [Acetivibrio
+thermocellus BC1]
+Length=321
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 38/79 (48%), Gaps = 4/79 (5%)
+
+Query  11   ICDMDGVIYHGNQLLPG-VKEFVEWLQKEEKQFLFLTNASSRSPKELQNKLYRMGLEIGE  69
+            ICD    I +G  +  G V E +  +++E K  L L  +     +EL+N +    +EI E
+Sbjct  200  ICDRIAFIVNGRIVKIGTVTELMASVEREHKIRLQLDRSIKDIKEELENNIENCRVEIPE  259
+
+Query  70   EHFYTSALATAKFLQSQAP  88
+            E+   S L  +K   + +P
+Sbjct  260  EN---SCLVISKERIALSP  275
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 26.2 bits (56),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 14/58 (24%), Positives = 25/58 (43%), Gaps = 1/58 (2%)
+
+Query  184  KPNPLMMRTGLQILGVHSSEAVMIGDRMDTDIIAGIETGLDTALVLSGVSTRATIKEF  241
+            KP+P  +   + ++G    E + +GD    D       G+D   VL+G +      E+
+Sbjct  143  KPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFVAVLTGTTGANEFSEY  199
+
+
+>NLU26763.1 hypothetical protein [Acetivibrio thermocellus]
+Length=142
+
+ Score = 25.4 bits (54),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 17/25 (68%), Gaps = 0/25 (0%)
+
+Query  46   TNASSRSPKELQNKLYRMGLEIGEE  70
+            T+AS RS KEL+  L   G+EI +E
+Sbjct  82   TSASHRSQKELRAILENKGIEIVDE  106
+
+
+>WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibrio thermocellus]
+ CDG35644.1 Orotidine 5'-phosphate decarboxylase [Acetivibrio thermocellus
+BC1]
+Length=314
+
+ Score = 25.8 bits (55),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  11   ICDMDGVIYHGNQLLPGVKEFVEWLQKEEKQFLFLTNASSRSPKELQNKLYRMGLEIGE  69
+            + D+D +  +    + G+K F++   K  K    L   S++S  E+Q+ L + G  I E
+Sbjct  135  VFDVDALTVNPYLGVDGIKPFIDDCVKYNKGIFVLVKTSNKSSGEIQDILTQEGRSIYE  193
+
+
+>WP_003513185.1 transketolase [Acetivibrio thermocellus]
+ CDG36967.1 transketolase subunit B [Acetivibrio thermocellus BC1]
+ ABN53646.1 Transketolase domain-containing protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73173.1 Transketolase domain-containing protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07087.1 1-deoxy-D-xylulose-5-phosphate synthase [Acetivibrio thermocellus
+AD2]
+ ANV74823.1 1-deoxy-D-xylulose-5-phosphate synthase [Acetivibrio thermocellus
+DSM 2360]
+Length=313
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 21/41 (51%), Gaps = 0/41 (0%)
+
+Query  156  IEGGIAPACRAFVAPIEATTGKKAYYVGKPNPLMMRTGLQI  196
+            +E GIA      +A   A+ GKKAY VG  +   MR   Q+
+Sbjct  50   VELGIAEQNAVTMAAGMASVGKKAYVVGPASFYSMRAAEQV  90
+
+
+>WP_003512586.1 malate dehydrogenase [Acetivibrio thermocellus]
+ ADU74931.1 malic protein NAD-binding protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08891.1 Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))
+[Acetivibrio thermocellus AD2]
+ ANV76641.1 Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))
+[Acetivibrio thermocellus DSM 2360]
+ EIC05123.1 malic protein NAD-binding protein [Acetivibrio thermocellus YS]
+ NLU25904.1 NAD-dependent malic enzyme [Acetivibrio thermocellus]
+Length=390
+
+ Score = 25.8 bits (55),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 18/39 (46%), Gaps = 0/39 (0%)
+
+Query  3    SLRAKKGFICDMDGVIYHGNQLLPGVKEFVEWLQKEEKQ  41
+            S+  KK  +CD  G IY G   L   K  +  +   EK+
+Sbjct  205  SMGLKKVILCDTKGAIYDGRDNLNSEKALIAKISNLEKK  243
+
+
+>WP_011837813.1 malate dehydrogenase [Acetivibrio thermocellus]
+ ABN51582.1 malic protein NAD-binding protein [Acetivibrio thermocellus ATCC
+27405]
+ CDG35022.1 putative NAD-dependent malic enzyme 4 [Acetivibrio thermocellus
+BC1]
+ HBW26045.1 NAD-dependent malic enzyme [Acetivibrio thermocellus]
+Length=390
+
+ Score = 25.8 bits (55),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 18/39 (46%), Gaps = 0/39 (0%)
+
+Query  3    SLRAKKGFICDMDGVIYHGNQLLPGVKEFVEWLQKEEKQ  41
+            S+  KK  +CD  G IY G   L   K  +  +   EK+
+Sbjct  205  SMGLKKVILCDTKGAIYDGRDNLNSEKALIAKISNLEKK  243
+
+
+>WP_003520441.1 cyanophycin synthetase [Acetivibrio thermocellus]
+ ADU75857.1 cyanophycin synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX09889.1 cyanophycin synthetase [Acetivibrio thermocellus AD2]
+ ANV77663.1 cyanophycin synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC03914.1 cyanophycin synthetase [Acetivibrio thermocellus YS]
+ PFH04174.1 cyanophycin synthetase [Acetivibrio thermocellus AD2]
+Length=882
+
+ Score = 25.8 bits (55),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 27/109 (25%), Positives = 45/109 (41%), Gaps = 18/109 (17%)
+
+Query  60   LYRMGLEIGEEHFYTSALATAKFLQSQAPGCSAYVIGDHGLYNALYDAGITINDVDPDY-  118
+            +Y+ G EI  + F    +     L+ + PG  A +     LY+A+  +G    +V+  Y
+Sbjct  775  IYKAG-EICSKCFSKIYIKEDSDLRGREPGEVAGI-----LYDAVISSGTKKENVEIIYS  828
+
+Query  119  -----------VVVGETVTYGYEHIITAMNLVNKGARLIATNTDITGPI  156
+                          G+ V   YE+   A  +V +  R +  NTD  GP+
+Sbjct  829  EDRALEKALLDAQPGDFVVMFYENFERAAEVVERVRRELLENTDTAGPV  877
+
+
+>WP_020457738.1 cyanophycin synthetase [Acetivibrio thermocellus]
+ ABN53406.1 cyanophycin synthetase [Acetivibrio thermocellus ATCC 27405]
+ NLU26419.1 cyanophycin synthetase [Acetivibrio thermocellus]
+ HBW27716.1 cyanophycin synthetase [Acetivibrio thermocellus]
+Length=882
+
+ Score = 25.8 bits (55),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 27/109 (25%), Positives = 45/109 (41%), Gaps = 18/109 (17%)
+
+Query  60   LYRMGLEIGEEHFYTSALATAKFLQSQAPGCSAYVIGDHGLYNALYDAGITINDVDPDY-  118
+            +Y+ G EI  + F    +     L+ + PG  A +     LY+A+  +G    +V+  Y
+Sbjct  775  IYKAG-EICSKCFSKIYIKEDSDLRGREPGEVAGI-----LYDAVISSGTKKENVEIIYS  828
+
+Query  119  -----------VVVGETVTYGYEHIITAMNLVNKGARLIATNTDITGPI  156
+                          G+ V   YE+   A  +V +  R +  NTD  GP+
+Sbjct  829  EDRALEKALLDAQPGDFVVMFYENFERAAEVVERVRRELLENTDTAGPV  877
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.401
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 15773
+Number of extensions: 655
+Number of successful extensions: 19
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 2
+Length of query: 257
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 170
+Effective length of database: 2134357
+Effective search space: 362840690
+Effective search space used: 362840690
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

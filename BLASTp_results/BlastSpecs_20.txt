@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+has Halanaerobium hydrogeniformans 	
+hpk Halanaerobium praevalens 	
+hals Halocella sp. SP3-1 	
+ifn Iocasia fonsfrigidae 	
+aar Acetohalobium arabaticum 	
+hhl Halobacteroides halobius 	
+aft Anoxybacter fermentans 	
+kme Koleobacter methoxysyntrophicus
+tto Thermoanaerobacterium thermosaccharolyticum M0795 	
+tit Thermoanaerobacter italicus 	

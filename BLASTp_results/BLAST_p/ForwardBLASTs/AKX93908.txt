@@ -1,0 +1,130 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGS5DYD013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AKX93908 5'-nucleotidase [Moorella thermoacetica]
+
+Length=260
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837866.1 ABC transporter permease [Acetivibrio thermocel...  26.2    6.2    37%
+WP_003517590.1 ABC transporter permease [Acetivibrio thermocel...  26.2    6.2    37%
+NLU27893.1 4Fe-4S ferredoxin [Acetivibrio thermocellus]            24.6    9.3    25%
+
+ALIGNMENTS
+>WP_011837866.1 ABC transporter permease [Acetivibrio thermocellus]
+ ABN51776.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+ATCC 27405]
+ NLU25959.1 ABC transporter permease [Acetivibrio thermocellus]
+ THJ77841.1 FtsX-like permease family protein [Acetivibrio thermocellus]
+ HBW26940.1 ABC transporter permease [Acetivibrio thermocellus]
+Length=868
+
+ Score = 26.2 bits (56),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 2/38 (5%)
+
+Query  198  RGRAYYWLAGEVEDLDQEPDTDIGALGQGRISITPLHL  235
+            R   Y WL G   +   +P   IGA+G+G     P+HL
+Sbjct  86   RKIGYAWLEGSQNEY--KPYLFIGAMGEGFKDSMPIHL  121
+
+
+>WP_003517590.1 ABC transporter permease [Acetivibrio thermocellus]
+ CDG35233.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+BC1]
+ ADU74754.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+DSM 1313]
+ ALX08705.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+AD2]
+ ANV76457.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+DSM 2360]
+ EIC05347.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+YS]
+Length=868
+
+ Score = 26.2 bits (56),  Expect = 6.2, Method: Composition-based stats.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 2/38 (5%)
+
+Query  198  RGRAYYWLAGEVEDLDQEPDTDIGALGQGRISITPLHL  235
+            R   Y WL G   +   +P   IGA+G+G     P+HL
+Sbjct  86   RKIGYAWLEGSQNEY--KPYLFIGAMGEGFKDSMPIHL  121
+
+
+>NLU27893.1 4Fe-4S ferredoxin [Acetivibrio thermocellus]
+Length=111
+
+ Score = 24.6 bits (52),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 7/28 (25%), Positives = 16/28 (57%), Gaps = 0/28 (0%)
+
+Query  141  ADFTSRLAGVIIKRGLPAGTLLNLNIPC  168
+             D+T +L  +I    + + T++ + +PC
+Sbjct  50   VDYTEKLTAIIKNNNIKSVTVVRMEVPC  77
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.138    0.413
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18783
+Number of extensions: 814
+Number of successful extensions: 18
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 5
+Length of query: 260
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 173
+Effective length of database: 2134357
+Effective search space: 369243761
+Effective search space used: 369243761
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

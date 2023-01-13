@@ -1,0 +1,320 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WFM3M5R016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABX42349 5'-nucleotidase [Lachnoclostridium phytofermentans]
+
+Length=298
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512078.1 methylglyoxal synthase [Acetivibrio thermocellus]   28.1    0.75   36%
+WP_011837991.1 toll/interleukin-1 receptor domain-containing p...  26.9    3.7    31%
+WP_003517379.1 MetQ/NlpA family ABC transporter substrate-bind...  26.2    5.6    30%
+NLU27423.1 DUF3369 domain-containing protein [Acetivibrio ther...  26.2    7.0    29%
+ADU73938.1 response regulator receiver modulated metal depende...  26.2    7.4    29%
+WP_003518225.1 DUF3369 domain-containing protein [Acetivibrio ...  26.2    7.4    29%
+WP_011838067.1 DUF3369 domain-containing protein [Acetivibrio ...  26.2    7.5    29%
+WP_136479408.1 BsuPI-related putative proteinase inhibitor [Ac...  25.8    8.6    28%
+WP_003517807.1 membrane protein [Acetivibrio thermocellus]         25.8    8.7    22%
+WP_003514556.1 BsuPI-related putative proteinase inhibitor [Ac...  25.8    8.7    28%
+WP_136479317.1 hypothetical protein [Acetivibrio thermocellus]     25.8    8.8    22%
+CDG36146.1 membrane protein-like protein [Acetivibrio thermoce...  25.8    8.9    22%
+WP_011838094.1 membrane protein [Acetivibrio thermocellus]         25.8    9.1    22%
+
+ALIGNMENTS
+>WP_003512078.1 methylglyoxal synthase [Acetivibrio thermocellus]
+ CDG34778.1 methylglyoxal synthase [Acetivibrio thermocellus BC1]
+ ABN51336.1 methylglyoxal synthase [Acetivibrio thermocellus ATCC 27405]
+ ADU75177.1 methylglyoxal synthase [Acetivibrio thermocellus DSM 1313]
+ ALX09152.1 Methylglyoxal synthase [Acetivibrio thermocellus AD2]
+ ANV76904.1 Methylglyoxal synthase [Acetivibrio thermocellus DSM 2360]
+Length=131
+
+ Score = 28.1 bits (61),  Expect = 0.75, Method: Compositional matrix adjust.
+ Identities = 25/70 (36%), Positives = 36/70 (51%), Gaps = 11/70 (16%)
+
+Query  13   ISSRALFDLEEENTIFERDGLRAYSD----YQILHENDI------LKPGTAFPLVKALQN  62
+            IS+RA ++ E +  IF RD + A SD    + +L E DI         GTA  L+K L+
+Sbjct  62   ISARAAYN-ELDLVIFFRDPISAKSDEPDIHSLLRECDINNIPFATNLGTAEMLIKGLER  120
+
+Query  63   LNTDERHLTE  72
+             + D R L +
+Sbjct  121  GDLDWRELIK  130
+
+
+>WP_011837991.1 toll/interleukin-1 receptor domain-containing protein [Acetivibrio
+thermocellus]
+ ABN52367.1 SEFIR domain protein [Acetivibrio thermocellus ATCC 27405]
+Length=324
+
+ Score = 26.9 bits (58),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  80   SADTSLRIF-NSIEHYGLKISRAALVGGVKISPYLNAFRTDLFLSANEDDVQEA  132
+            S  T +R + N +E Y +KI    L GG  ++ YL+  R ++    + +DV E
+Sbjct  229  SQKTIMRFYINGMEKYAVKIWLGNLFGGRSLNIYLSYGRFNIDSDNSFNDVIEC  282
+
+
+>WP_003517379.1 MetQ/NlpA family ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ ABN52781.1 NLPA lipoprotein [Acetivibrio thermocellus ATCC 27405]
+ ADU75343.1 NLPA lipoprotein [Acetivibrio thermocellus DSM 1313]
+ ALX09337.1 NLPA lipoprotein [Acetivibrio thermocellus AD2]
+ ANV77091.1 NLPA lipoprotein [Acetivibrio thermocellus DSM 2360]
+ EIC04664.1 NLPA lipoprotein [Acetivibrio thermocellus YS]
+Length=294
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 40/93 (43%), Gaps = 12/93 (13%)
+
+Query  31   DGLRAYSDYQILHENDILK--PGTAFPLVKALQNLNTDERHLTEIIIMSKNSA-------  81
+            DG   Y   +IL EN  +K  P TA  L  ++ ++     +L  I I+  +SA
+Sbjct  160  DGTNEYRALRILEENGFIKLNPQTANSLTASVSDI---AEYLRPIRIVELDSAQIIPTKD  216
+
+Query  82   DTSLRIFNSIEHYGLKISRAALVGGVKISPYLN  114
+            D    I N+ +    KI+ A L      SPY N
+Sbjct  217  DYDFFITNTNKALEAKITSARLFSEGSDSPYAN  249
+
+
+>NLU27423.1 DUF3369 domain-containing protein [Acetivibrio thermocellus]
+Length=506
+
+ Score = 26.2 bits (56),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 29/52 (56%), Gaps = 2/52 (4%)
+
+Query  166  DAVIFSDESEQLFQSKGLKAFAEHEHINAQEP--LPEGPFAKLLKTLSFVQQ  215
+            D +I  D++E LF+  G+   +  + I+  EP  L E    + LK +++V++
+Sbjct  185  DNLIGDDKNESLFKGMGIYDVSPDKFIDMLEPAFLEEMGRTRTLKQIAYVEK  236
+
+
+>ADU73938.1 response regulator receiver modulated metal dependent phosphohydrolase
+[Acetivibrio thermocellus DSM 1313]
+ ANV75622.1 response regulator receiver modulated metal dependent phosphohydrolase
+[Acetivibrio thermocellus DSM 2360]
+ EIC03243.1 metal-dependent phosphohydrolase HD sub domain-containing protein
+[Acetivibrio thermocellus YS]
+ CDG36054.1 response regulator receiver modulated metal dependent phosphohydrolase
+[Acetivibrio thermocellus BC1]
+ SOD26389.1 Response regulator receiver domain-containing protein [Acetivibrio
+thermocellus]
+Length=530
+
+ Score = 26.2 bits (56),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 29/52 (56%), Gaps = 2/52 (4%)
+
+Query  166  DAVIFSDESEQLFQSKGLKAFAEHEHINAQEP--LPEGPFAKLLKTLSFVQQ  215
+            D +I  D++E LF+  G+   +  + I+  EP  L E    + LK +++V++
+Sbjct  209  DNLIGDDKNESLFKGMGIYDVSPDKFIDMLEPAFLEEMGRTRTLKQIAYVEK  260
+
+
+>WP_003518225.1 DUF3369 domain-containing protein [Acetivibrio thermocellus]
+ ALX07876.1 response regulator receiver modulated metal dependent phosphohydrolase
+[Acetivibrio thermocellus AD2]
+ PFH02147.1 response regulator receiver domain-containing protein [Acetivibrio
+thermocellus AD2]
+ THJ79028.1 DUF3369 domain-containing protein [Acetivibrio thermocellus]
+Length=506
+
+ Score = 26.2 bits (56),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 29/52 (56%), Gaps = 2/52 (4%)
+
+Query  166  DAVIFSDESEQLFQSKGLKAFAEHEHINAQEP--LPEGPFAKLLKTLSFVQQ  215
+            D +I  D++E LF+  G+   +  + I+  EP  L E    + LK +++V++
+Sbjct  185  DNLIGDDKNESLFKGMGIYDVSPDKFIDMLEPAFLEEMGRTRTLKQIAYVEK  236
+
+
+>WP_011838067.1 DUF3369 domain-containing protein [Acetivibrio thermocellus]
+ ABN52610.1 response regulator receiver modulated metal dependent phosphohydrolase
+[Acetivibrio thermocellus ATCC 27405]
+ HBW26098.1 DUF3369 domain-containing protein [Acetivibrio thermocellus]
+Length=506
+
+ Score = 26.2 bits (56),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 29/52 (56%), Gaps = 2/52 (4%)
+
+Query  166  DAVIFSDESEQLFQSKGLKAFAEHEHINAQEP--LPEGPFAKLLKTLSFVQQ  215
+            D +I  D++E LF+  G+   +  + I+  EP  L E    + LK +++V++
+Sbjct  185  DNLIGDDKNESLFKGMGIYDVSPDKFIDMLEPAFLEEMGRTRTLKQIAYVEK  236
+
+
+>WP_136479408.1 BsuPI-related putative proteinase inhibitor [Acetivibrio thermocellus]
+ THJ77930.1 S-layer protein [Acetivibrio thermocellus]
+Length=585
+
+ Score = 25.8 bits (55),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 35/71 (49%), Gaps = 9/71 (13%)
+
+Query  148  LPIEPNQEIDQIRIAFDG---DAVIFSDESEQLFQSKGLKAFAEHEHINAQEPLPEGP--  202
+            L I+ N + D +   F G   D V+  D+ E+L++  G +AF E   I     +P G
+Sbjct  237  LTIKNNSKKDVVIQHFSGQKYDFVLLDDKKEELYRWSGDRAFVE---ILTSTEIPAGKTV  293
+
+Query  203  -FAKLLKTLSF  212
+             F+++L   ++
+Sbjct  294  EFSEILDAKTY  304
+
+
+>WP_003517807.1 membrane protein [Acetivibrio thermocellus]
+ ADU75275.1 hypothetical protein Clo1313_2243 [Acetivibrio thermocellus DSM
+1313]
+ ALX09264.1 X-X-X-Leu-X-X-Gly heptad repeat protein [Acetivibrio thermocellus
+AD2]
+ ANV77016.1 X-X-X-Leu-X-X-Gly heptad repeat protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04732.1 membrane protein-like protein [Acetivibrio thermocellus YS]
+ PFH03539.1 putative membrane protein [Acetivibrio thermocellus AD2]
+Length=770
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 19/88 (22%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  199  PEGPFAKLLKTLSFVQQQFPKETVPIRTALVTARNAPAHERVI---RTLRAWNVRIDEAF  255
+            P+G   K++ +  +++     E +   T L    N    E         R W+ + ++ +
+Sbjct  72   PDGTVQKIIVS-DWIKNTLSSEKITDVTELENTENIKGDESYTLGGNNTRVWDAQGNDIY  130
+
+Query  256  FLGGIEKSEVLKAFGANIFFDDQTVHTD  283
+            + G IEK E+      +   D +TV  D
+Sbjct  131  YQGTIEK-ELPVDLSVSYKLDGKTVSAD  157
+
+
+>WP_003514556.1 BsuPI-related putative proteinase inhibitor [Acetivibrio thermocellus]
+ ABN54075.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73507.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07429.1 Intracellular proteinase inhibitor [Acetivibrio thermocellus
+AD2]
+ ANV75168.1 Intracellular proteinase inhibitor [Acetivibrio thermocellus
+DSM 2360]
+ EIC04104.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+Length=585
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 35/71 (49%), Gaps = 9/71 (13%)
+
+Query  148  LPIEPNQEIDQIRIAFDG---DAVIFSDESEQLFQSKGLKAFAEHEHINAQEPLPEGP--  202
+            L I+ N + D +   F G   D V+  D+ E+L++  G +AF E   I     +P G
+Sbjct  237  LTIKNNSKKDVVIQHFSGQKYDFVLLDDKKEELYRWSGDRAFVE---ILTSTEIPAGKTV  293
+
+Query  203  -FAKLLKTLSF  212
+             F+++L   ++
+Sbjct  294  EFSEILDAKTY  304
+
+
+>WP_136479317.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78521.1 hypothetical protein EPD62_05490 [Acetivibrio thermocellus]
+Length=770
+
+ Score = 25.8 bits (55),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 19/88 (22%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  199  PEGPFAKLLKTLSFVQQQFPKETVPIRTALVTARNAPAHERVI---RTLRAWNVRIDEAF  255
+            P+G   K++ +  +++     E +   T L    N    E         R W+ + ++ +
+Sbjct  72   PDGTVQKIIVS-DWIKNTLSSEKITDVTELENTENIKGDESYTLGGNNTRVWDAQGNDIY  130
+
+Query  256  FLGGIEKSEVLKAFGANIFFDDQTVHTD  283
+            + G IEK E+      +   D +TV  D
+Sbjct  131  YQGTIEK-ELPVDLSVSYKLDGKTVSAD  157
+
+
+>CDG36146.1 membrane protein-like protein [Acetivibrio thermocellus BC1]
+Length=770
+
+ Score = 25.8 bits (55),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 19/88 (22%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  199  PEGPFAKLLKTLSFVQQQFPKETVPIRTALVTARNAPAHERVI---RTLRAWNVRIDEAF  255
+            P+G   K++ +  +++     E +   T L    N    E         R W+ + ++ +
+Sbjct  72   PDGTVQKIIVS-DWIKNTLSSEKITDVTELENTENIKGDESYTLGGNNTRVWDAQGNDIY  130
+
+Query  256  FLGGIEKSEVLKAFGANIFFDDQTVHTD  283
+            + G IEK E+      +   D +TV  D
+Sbjct  131  YQGTIEK-ELPVDLSVSYKLDGKTVSAD  157
+
+
+>WP_011838094.1 membrane protein [Acetivibrio thermocellus]
+ ABN52710.1 X-X-X-Leu-X-X-Gly heptad repeat-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26665.1 hypothetical protein [Acetivibrio thermocellus]
+ HBW27222.1 hypothetical protein [Acetivibrio thermocellus]
+Length=770
+
+ Score = 25.8 bits (55),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 19/88 (22%), Positives = 36/88 (41%), Gaps = 5/88 (6%)
+
+Query  199  PEGPFAKLLKTLSFVQQQFPKETVPIRTALVTARNAPAHERVI---RTLRAWNVRIDEAF  255
+            P+G   K++ +  +++     E +   T L    N    E         R W+ + ++ +
+Sbjct  72   PDGTVQKIIVS-DWIKNTLSSEKITDVTELENTENIKGDESYTLGGNNTRVWDAQGNDIY  130
+
+Query  256  FLGGIEKSEVLKAFGANIFFDDQTVHTD  283
+            + G IEK E+      +   D +TV  D
+Sbjct  131  YQGTIEK-ELPVDLSVSYKLDGKTVSAD  157
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.136    0.384
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 23322
+Number of extensions: 991
+Number of successful extensions: 16
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 5
+Length of query: 298
+Length of database: 2835838
+Length adjustment: 88
+Effective length of query: 210
+Effective length of database: 2126294
+Effective search space: 446521740
+Effective search space used: 446521740
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 46 (22.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

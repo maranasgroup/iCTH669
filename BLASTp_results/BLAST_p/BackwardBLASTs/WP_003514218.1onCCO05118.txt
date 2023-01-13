@@ -1,0 +1,776 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V6J2M3001N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_038672000.1 deoxynucleoside kinase [Ruminococcus bicirculans]   178     2e-56  48%
+MBS6819020.1 deoxynucleoside kinase [Ruminococcus bicirculans]     177     7e-56  48%
+MBS6202000.1 deoxynucleoside kinase [Ruminococcus bicirculans]     176     2e-55  47%
+WP_195519636.1 deoxynucleoside kinase [Ruminococcus bicirculans]   175     3e-55  47%
+MBD8912465.1 thymidylate kinase [Ruminococcus bicirculans]         175     3e-55  47%
+MBS7206014.1 deoxynucleoside kinase [Ruminococcus bicirculans]     175     4e-55  47%
+MBS4925266.1 deoxynucleoside kinase [Ruminococcus bicirculans]     175     5e-55  47%
+WP_195220839.1 deoxynucleoside kinase [Ruminococcus bicirculans]   175     6e-55  44%
+WP_195389168.1 deoxynucleoside kinase [Ruminococcus bicirculans]   174     7e-55  47%
+MBS6632187.1 deoxynucleoside kinase [Ruminococcus bicirculans]     174     7e-55  47%
+MBS6407096.1 deoxynucleoside kinase [Ruminococcus bicirculans]     174     7e-55  47%
+WP_195249306.1 deoxynucleoside kinase [Ruminococcus bicirculans]   174     8e-55  47%
+WP_195551678.1 deoxynucleoside kinase [Ruminococcus bicirculans]   174     8e-55  47%
+MBS6920157.1 deoxynucleoside kinase [Ruminococcus bicirculans]     174     9e-55  47%
+WP_117863820.1 deoxynucleoside kinase [Ruminococcus]               174     9e-55  47%
+MBS7189763.1 deoxynucleoside kinase [Ruminococcus bicirculans]     174     1e-54  47%
+WP_186489750.1 deoxynucleoside kinase [Ruminococcus bicirculans]   174     2e-54  47%
+WP_215648914.1 deoxynucleoside kinase [Ruminococcus bicirculans]   173     2e-54  47%
+WP_215650549.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.5    3.8    33%
+WP_195519496.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.5    3.8    33%
+MBS7188008.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.5    3.9    33%
+OLA46494.1 polyphosphate:AMP phosphotransferase [Ruminococcus ...  28.5    3.9    33%
+MBS6201593.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.5    3.9    33%
+MBD8913554.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.5    3.9    33%
+WP_195249246.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.5    3.9    33%
+WP_022288523.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.5    4.0    33%
+MBS6406802.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.5    4.0    33%
+WP_195220644.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.1    4.0    33%
+WP_038670762.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.1    4.0    33%
+MBS7204714.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.1    4.0    33%
+MBS6633941.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.1    4.0    33%
+MBS6819801.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.1    4.0    33%
+MBS4925654.1 polyphosphate:AMP phosphotransferase [Ruminococcu...  28.1    4.1    33%
+WP_186490021.1 polyphosphate:AMP phosphotransferase [Ruminococ...  28.1    4.1    33%
+WP_195388340.1 hypothetical protein [Ruminococcus bicirculans]     27.7    5.4    28%
+WP_186490443.1 hypothetical protein [Ruminococcus bicirculans]     27.3    6.4    23%
+WP_195388066.1 polyphosphate:AMP phosphotransferase [Ruminococ...  27.3    9.1    31%
+WP_195552081.1 polyphosphate:AMP phosphotransferase [Ruminococ...  26.9    9.4    31%
+
+ALIGNMENTS
+>WP_038672000.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+ CCO05118.1 putative thymidylate kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 178 bits (452),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 96/200 (48%), Positives = 129/200 (65%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+DWL N+E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIDWLENYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>MBS6819020.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+ OLA47137.1 thymidylate kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 177 bits (449),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 95/200 (48%), Positives = 130/200 (65%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+DWL ++E++   LP PD VIFLDMP   S++LM  R      E+KKDIHE N EYL
+Sbjct  122  DFIDWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDERKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWNIIPC  199
+
+
+>MBS6202000.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 176 bits (446),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 96/203 (47%), Positives = 129/203 (64%), Gaps = 4/203 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI+IE G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVIE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKD  204
+            +    +L+ A+K +W  I C  D
+Sbjct  180  KCREAALFTAEKQDWDIIPCSDD  202
+
+
+>WP_195519636.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 175 bits (444),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++ + LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKFGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K  W  I C
+Sbjct  180  KCREAALFTAEKQGWDIIPC  199
+
+
+>MBD8912465.1 thymidylate kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 175 bits (444),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++ + LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKFGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K  W  I C
+Sbjct  180  KCREAALFTAEKQGWDIIPC  199
+
+
+>MBS7206014.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 175 bits (443),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 96/205 (47%), Positives = 131/205 (64%), Gaps = 5/205 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGV  206
+            +    +L+ A+K +W  I C  DG+
+Sbjct  180  KCREAALFTAEKQDWDIIPC-SDGI  203
+
+
+>MBS4925266.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 175 bits (443),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSSYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLSK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>WP_195220839.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 175 bits (443),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 99/226 (44%), Positives = 140/226 (62%), Gaps = 8/226 (4%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNSSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            +    +L+ A+K +W  I C  DG        + +++E + G+I +
+Sbjct  180  KCREAALFTAEKQDWDIIPC-NDGSEPY---TKDKIFEDILGLINR  221
+
+
+>WP_195389168.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (442),  Expect = 7e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 129/200 (65%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L +   +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSDYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKRDWDIIPC  199
+
+
+>MBS6632187.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (442),  Expect = 7e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>MBS6407096.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (442),  Expect = 7e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDVKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>WP_195249306.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (442),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   + +D
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPKEQWQD  122
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  123  -FIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>WP_195551678.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (442),  Expect = 8e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>MBS6920157.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (441),  Expect = 9e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDRVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>WP_117863820.1 MULTISPECIES: deoxynucleoside kinase [Ruminococcus]
+Length=222
+
+ Score = 174 bits (441),  Expect = 9e-55, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>MBS7189763.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (440),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 94/200 (47%), Positives = 127/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K  W  I C
+Sbjct  180  KCREAALFTAEKQGWDIIPC  199
+
+
+>WP_186489750.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+ MBC3512744.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 174 bits (440),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 93/200 (47%), Positives = 128/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  L+++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLVVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K +W  I C
+Sbjct  180  KCREAALFTAEKQDWDIIPC  199
+
+
+>WP_215648914.1 deoxynucleoside kinase [Ruminococcus bicirculans]
+ MBT9624369.1 thymidylate kinase [Ruminococcus bicirculans]
+Length=222
+
+ Score = 173 bits (439),  Expect = 2e-54, Method: Compositional matrix adjust.
+ Identities = 93/200 (47%), Positives = 127/200 (64%), Gaps = 4/200 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +  LI++E G D SGK+TQ  +L     +   K K I+FP+YD+ SSALVKMYLNG+ GK
+Sbjct  4    RSGLIVLE-GLDGSGKSTQFERLSAYFSENDIKHKAISFPDYDNPSSALVKMYLNGEIGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+FYAVDR+A Y+  W   Y +G ++LA RY TSN ++Q  K+   E+ +
+Sbjct  63   TPADVNAYAASSFYAVDRYACYKQFWEHDYKEGSLVLAARYVTSNCIYQMTKLPK-EQWE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL ++E++   LP PD VIFLDMP   S++LM  R      E KKDIHE N EYL
+Sbjct  122  DFIGWLEDYEYDKLGLPRPDKVIFLDMPIEISQKLMSGRYG--GDESKKDIHEANVEYLK  179
+
+Query  182  ESYRNSLYVAKKYNWIKIEC  201
+            +    +L+ A+K  W  + C
+Sbjct  180  KCREAALFTAEKQGWDIVPC  199
+
+
+>WP_215650549.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+ MBT9626354.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_195519496.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS7188008.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>OLA46494.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS6201593.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBD8913554.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_195249246.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_022288523.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS6406802.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.5 bits (62),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_195220644.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_038670762.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+ CCO04225.1 conserved hypothetical protein [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS7204714.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS6633941.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS6819801.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>MBS4925654.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_186490021.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+ MBC3513008.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 28.1 bits (61),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +II   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIICYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_195388340.1 hypothetical protein [Ruminococcus bicirculans]
+Length=442
+
+ Score = 27.7 bits (60),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 20/71 (28%), Positives = 35/71 (49%), Gaps = 4/71 (6%)
+
+Query  93   DGWIILADRYTTSNMVHQAAKIKDMEEKDRFLDWLWNF-EFEIYKLPVPDCVIFLDMPPS  151
+            + W   AD+Y   N++    ++ D +E    LD  WN  E ++ ++ VPD    +D
+Sbjct  282  EAWNQQADQYHLDNVIPAQEELYDCQE---LLDTYWNSEEIKLMEIVVPDKYQSVDAINF  338
+
+Query  152  FSRELMKERAN  162
+            F   L+ +RA+
+Sbjct  339  FVNLLVTKRAD  349
+
+
+>WP_186490443.1 hypothetical protein [Ruminococcus bicirculans]
+ MBC3513396.1 hypothetical protein [Ruminococcus bicirculans]
+Length=261
+
+ Score = 27.3 bits (59),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 50/216 (23%), Positives = 89/216 (41%), Gaps = 37/216 (17%)
+
+Query  33   YKVKKITFPNYDSDSSALVKMYLNGDFGK-DPNDVSPYVASTFYAVDRFASYRTEWGQAY  91
+            Y VK +   N + D   +V++   G + K   ND   Y +  F  ++R A+       A
+Sbjct  41   YMVKGVEDLN-ELDFDLMVRLIACGLYEKRQCNDKYSYSSKLFAGINRLAAL-----AAV  94
+
+Query  92   NDGWIILADRYTTSNMVHQAAKIKDMEEKDRFLDWL--WNFEF--EIYKLPVPDCVIFLD  147
+            N+ + +L+D +  + + + A K   M        W   WN +F   + K  +      ++
+Sbjct  95   NEQYDMLSDLHECAFIENYAVKPVKM--------WFEGWNSDFVKSVKKFDLYHTNALIE  146
+
+Query  148  MPPSFSRELMKERANKFTGEQK---KDIHERNDEYLVESYRNSLYVA-------------  191
+            +  +    L  +  +  +  +K    D+ +R    L+ +  N LYVA
+Sbjct  147  LSENRRYTLTDDCVDLISDSEKDYVNDLEQRYIYTLLTNLPNELYVAVRRFIVENPICAD  206
+
+Query  192  KKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            +K +  K+E  +D   K I++I  E YE V   IRQ
+Sbjct  207  EKMSEFKMEHCQD--FKMINKIFSEAYENVPNCIRQ  240
+
+
+>WP_195388066.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 27.3 bits (59),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +I+   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIMCYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+>WP_195552081.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+ MBS6918836.1 polyphosphate:AMP phosphotransferase [Ruminococcus bicirculans]
+Length=503
+
+ Score = 26.9 bits (58),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 24/51 (47%), Gaps = 4/51 (8%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+            +I+   G DA+GK     ++   L   GY+V  I  P    + S L + YL
+Sbjct  305  VIMCYEGWDAAGKGGNIKRIAAALDPRGYEVHPIAAP----EPSELARHYL  351
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 11,328,286
+  Number of sequences in database:  31,842
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 31842
+Number of Hits to DB: 51927
+Number of extensions: 2432
+Number of successful extensions: 13
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 2
+Length of query: 227
+Length of database: 11328286
+Length adjustment: 95
+Effective length of query: 132
+Effective length of database: 8303296
+Effective search space: 1096035072
+Effective search space used: 1096035072
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 38 (19.2 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

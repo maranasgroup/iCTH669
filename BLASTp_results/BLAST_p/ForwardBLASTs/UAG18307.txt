@@ -1,0 +1,270 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UVENDZB01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= UAG18307 dTMP kinase [Paraclostridium bifermentans]
+
+Length=229
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       320     9e-113  65%
+WP_003520287.1 FAD-dependent oxidoreductase [Acetivibrio therm...  28.5    1.0     26%
+WP_136479319.1 FAD-dependent oxidoreductase [Acetivibrio therm...  28.5    1.0     26%
+WP_004463842.1 FAD-dependent oxidoreductase [Acetivibrio therm...  28.5    1.0     26%
+CDG36127.1 putative Rieske 2Fe-2S iron-sulfur protein YhfW [Ac...  28.1    1.0     26%
+WP_003519073.1 PRK06851 family protein [Acetivibrio thermocellus]  27.3    1.8     38%
+WP_011837954.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate lig...  26.9    2.6     56%
+WP_003521240.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate lig...  26.9    2.6     56%
+THJ76860.1 type I restriction endonuclease subunit R [Acetivib...  26.6    3.3     50%
+WP_034843322.1 DUF1444 family protein [Acetivibrio thermocellus]   25.0    9.9     33%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 320 bits (820),  Expect = 9e-113, Method: Compositional matrix adjust.
+ Identities = 146/225 (65%), Positives = 189/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGVIIADRYTTSNMVHQASKM-DEQER  119
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G +I+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+
+Query  180  TRSYNNSLYIANKYNWNKIDCIEDEKLRSIDSIHEEVYKVVKKTI  224
+              SY NSLY+A KYNW KI+C++D  L+ ID I +EVY+ V   I
+Sbjct  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+
+
+>WP_003520287.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ ADU73864.1 FAD dependent oxidoreductase [Acetivibrio thermocellus DSM 1313]
+ ALX07801.1 FAD dependent oxidoreductase [Acetivibrio thermocellus AD2]
+ ANV75543.1 FAD dependent oxidoreductase [Acetivibrio thermocellus DSM 2360]
+ EIC03290.1 FAD dependent oxidoreductase [Acetivibrio thermocellus YS]
+ NIK04193.1 glycine/D-amino acid oxidase-like deaminating enzyme/nitrite
+reductase/ring-hydroxylating ferredoxin subunit [Acetivibrio
+thermocellus]
+Length=523
+
+ Score = 28.5 bits (62),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 41/104 (39%), Gaps = 14/104 (13%)
+
+Query  3    GKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYK---SDSASLVKMYLNGDF  59
+            G+LI++   S  +G+   T K Y  LI+   K   VE   Y+    D  +L  +   G F
+Sbjct  291  GELILVGGESHKTGQGEDTIKHYEALIDYATKTFTVEDIPYRWSTQDCMTLDGLPYVGHF  350
+
+Query  60   GKNANDV---DAY--------VASTFFAADRYASFKTEWESFYN  92
+              N  ++     Y        +AS     D     K+ W+  YN
+Sbjct  351  TSNTPNMYIATGYGKWGMTNSIASAMILRDLIIEGKSPWQDVYN  394
+
+
+>WP_136479319.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ THJ78540.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+Length=521
+
+ Score = 28.5 bits (62),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 41/104 (39%), Gaps = 14/104 (13%)
+
+Query  3    GKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYK---SDSASLVKMYLNGDF  59
+            G+LI++   S  +G+   T K Y  LI+   K   VE   Y+    D  +L  +   G F
+Sbjct  291  GELILVGGESHKTGQGEDTIKHYEALIDYATKTFTVEDIPYRWSTQDCMTLDGLPYVGHF  350
+
+Query  60   GKNANDV---DAY--------VASTFFAADRYASFKTEWESFYN  92
+              N  ++     Y        +AS     D     K+ W+  YN
+Sbjct  351  TSNTPNMYIATGYGKWGMTNSIASAMILRDLIIEGKSPWQDVYN  394
+
+
+>WP_004463842.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ ABN52690.1 FAD dependent oxidoreductase [Acetivibrio thermocellus ATCC 27405]
+ HBW27446.1 (2Fe-2S)-binding protein [Acetivibrio thermocellus]
+Length=521
+
+ Score = 28.5 bits (62),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 41/104 (39%), Gaps = 14/104 (13%)
+
+Query  3    GKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYK---SDSASLVKMYLNGDF  59
+            G+LI++   S  +G+   T K Y  LI+   K   VE   Y+    D  +L  +   G F
+Sbjct  291  GELILVGGESHKTGQGEDTIKHYEALIDYATKTFTVEDIPYRWSTQDCMTLDGLPYVGHF  350
+
+Query  60   GKNANDV---DAY--------VASTFFAADRYASFKTEWESFYN  92
+              N  ++     Y        +AS     D     K+ W+  YN
+Sbjct  351  TSNTPNMYIATGYGKWGMTNSIASAMILRDLIIEGKSPWQDVYN  394
+
+
+>CDG36127.1 putative Rieske 2Fe-2S iron-sulfur protein YhfW [Acetivibrio
+thermocellus BC1]
+Length=521
+
+ Score = 28.1 bits (61),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 41/104 (39%), Gaps = 14/104 (13%)
+
+Query  3    GKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYK---SDSASLVKMYLNGDF  59
+            G+LI++   S  +G+   T K Y  LI+   K   VE   Y+    D  +L  +   G F
+Sbjct  291  GELILVGGESHKTGQGEDTIKHYEALIDYATKTFTVEDIPYRWSTQDCMTLDGLPYVGHF  350
+
+Query  60   GKNANDV---DAY--------VASTFFAADRYASFKTEWESFYN  92
+              N  ++     Y        +AS     D     K+ W+  YN
+Sbjct  351  TSNTPNMYIATGYGKWGMTNSIASAMILRDLIIEGKSPWQDVYN  394
+
+
+>WP_003519073.1 PRK06851 family protein [Acetivibrio thermocellus]
+ CDG35148.1 ATPase [Acetivibrio thermocellus BC1]
+ ABN51672.1 ATPase [Acetivibrio thermocellus ATCC 27405]
+ ADU74843.1 ATPase [Acetivibrio thermocellus DSM 1313]
+ ALX08797.1 ArgK protein [Acetivibrio thermocellus AD2]
+ ANV76548.1 ArgK protein [Acetivibrio thermocellus DSM 2360]
+Length=366
+
+ Score = 27.3 bits (59),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 17/45 (38%), Positives = 24/45 (53%), Gaps = 3/45 (7%)
+
+Query  6   IIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASL  50
+           II   G    GK+T  KK+   ++E GY    VE+ +  SD+ SL
+Sbjct  35  IICIKGGPGVGKSTFMKKIGKEMVERGY---DVEFMHCSSDNNSL  76
+
+
+>WP_011837954.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+ A3DE94.1 RecName: Full=UDP-N-acetylmuramoylalanine--D-glutamate ligase;
+AltName: Full=D-glutamic acid-adding enzyme; AltName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+synthetase [Acetivibrio
+thermocellus ATCC 27405]
+ ABN52273.1 UDP-N-acetylmuramoylalanine/D-glutamate ligase [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26187.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+Length=466
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 14/25 (56%), Positives = 16/25 (64%), Gaps = 2/25 (8%)
+
+Query  10   SGSDASGKATQTKKLYNRLIEDGYK  34
+            +GSD  GK T T  +YN L E GYK
+Sbjct  123  TGSD--GKTTTTTLIYNMLKEQGYK  145
+
+
+>WP_003521240.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+ CDG35736.1 UDP-N-acetylmuramoylalanine-D-glutamate ligase [Acetivibrio thermocellus
+BC1]
+ ADU74236.1 UDP-N-acetylmuramoylalanine/D-glutamate ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08179.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus AD2]
+ ANV75927.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus DSM 2360]
+ EIC05931.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus YS]
+Length=466
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 14/25 (56%), Positives = 16/25 (64%), Gaps = 2/25 (8%)
+
+Query  10   SGSDASGKATQTKKLYNRLIEDGYK  34
+            +GSD  GK T T  +YN L E GYK
+Sbjct  123  TGSD--GKTTTTTLIYNMLKEQGYK  145
+
+
+>THJ76860.1 type I restriction endonuclease subunit R, partial [Acetivibrio
+thermocellus]
+Length=516
+
+ Score = 26.6 bits (57),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 14/28 (50%), Positives = 17/28 (61%), Gaps = 0/28 (0%)
+
+Query  144  FLDVPVEFSKKLMENRKNKFTGEEKKDI  171
+             +DV VE  KKL E RK  F+G+  K I
+Sbjct  299  LIDVAVERFKKLEEQRKQDFSGQATKYI  326
+
+
+>WP_034843322.1 DUF1444 family protein [Acetivibrio thermocellus]
+ THJ78294.1 DUF1444 family protein [Acetivibrio thermocellus]
+Length=244
+
+ Score = 25.0 bits (53),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 12/36 (33%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  43   YKSDSASLVKMYLNGDFGKNANDVDAYVASTFFAAD  78
+            +K D  ++  M  + DFGK  N++  Y   TF   D
+Sbjct  74   FKVDYNNVYPMLKSRDFGKGENNIQFYREQTFLDVD  109
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.315    0.132    0.380
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 11355
+Number of extensions: 549
+Number of successful extensions: 19
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 5
+Length of query: 229
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 143
+Effective length of database: 2157177
+Effective search space: 308476311
+Effective search space used: 308476311
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

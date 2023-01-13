@@ -1,0 +1,236 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WC9KHM2016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEE96147 5'-nucleotidase [Mahella australiensis]
+
+Length=257
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837763.1 type I polyketide synthase [Acetivibrio thermoc...  27.7    2.0    61%
+WP_003512162.1 type I polyketide synthase [Acetivibrio thermoc...  27.7    2.0    61%
+WP_003514537.1 hypothetical protein [Acetivibrio]                  25.4    2.1    48%
+WP_003519464.1 DUF4474 domain-containing protein [Acetivibrio ...  26.9    3.4    24%
+WP_003518875.1 TrpB-like pyridoxal phosphate-dependent enzyme ...  26.6    4.5    27%
+WP_003519528.1 polymorphic toxin-type HINT domain-containing p...  26.2    4.7    48%
+NLU27396.1 DUF4474 domain-containing protein [Acetivibrio ther...  26.2    4.9    24%
+WP_003512873.1 hypothetical protein [Acetivibrio thermocellus]     25.0    10.0   38%
+
+ALIGNMENTS
+>WP_011837763.1 type I polyketide synthase [Acetivibrio thermocellus]
+ ABN51376.1 Acyl transferase [Acetivibrio thermocellus ATCC 27405]
+ HBW27111.1 type I polyketide synthase [Acetivibrio thermocellus]
+Length=2754
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  79   GIDVLMDDKPDVVFSGIN  96
+            G+DV +D+ P VVFS IN
+Sbjct  248  GVDVTLDESPFVVFSAIN  265
+
+
+>WP_003512162.1 type I polyketide synthase [Acetivibrio thermocellus]
+ CDG34817.1 Beta-ketoacyl synthase [Acetivibrio thermocellus BC1]
+ ADU75138.1 Beta-ketoacyl synthase [Acetivibrio thermocellus DSM 1313]
+ ALX09113.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus AD2]
+ ANV76865.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus DSM 2360]
+ EIC04832.1 short-chain dehydrogenase/reductase SDR [Acetivibrio thermocellus
+YS]
+Length=2754
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 11/18 (61%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  79   GIDVLMDDKPDVVFSGIN  96
+            G+DV +D+ P VVFS IN
+Sbjct  248  GVDVTLDESPFVVFSAIN  265
+
+
+>WP_003514537.1 MULTISPECIES: hypothetical protein [Acetivibrio]
+Length=61
+
+ Score = 25.4 bits (54),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 12/25 (48%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  62  GVRAYAIEGTPADCIKLGIDVLMDD  86
+           GV+AY  EGTP + I   I  L  D
+Sbjct  31  GVKAYFAEGTPQNVIDFAIKKLGTD  55
+
+
+>WP_003519464.1 DUF4474 domain-containing protein [Acetivibrio thermocellus]
+ CDG36107.1 hypothetical protein CTHBC1_1466 [Acetivibrio thermocellus BC1]
+ ABN52661.1 hypothetical protein Cthe_1430 [Acetivibrio thermocellus ATCC
+27405]
+ ADU73887.1 hypothetical protein Clo1313_0818 [Acetivibrio thermocellus DSM
+1313]
+ ALX07826.1 hypothetical protein AD2_00831 [Acetivibrio thermocellus AD2]
+ ANV75571.1 hypothetical protein LQRI_0830 [Acetivibrio thermocellus DSM
+2360]
+Length=337
+
+ Score = 26.9 bits (58),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 38/160 (24%), Positives = 69/160 (43%), Gaps = 19/160 (12%)
+
+Query  80   IDVLMDDKPDVVFSGINRGA---NLGTDVIYSGTVSAAIEGAI-FNIPAVAMSVTSYEYL  135
+            + V   DKPD+   G+ +G    ++  D     + +    G + F        +T ++
+Sbjct  148  VGVYATDKPDINIPGLFKGTFYNSIKDDEFLWMSFTLKKNGKVLFERGDRHWWLTGFKLG  207
+
+Query  136  DYSAAAVLAADICRTLIEHDMPSNILLNVNIPPMPIDKIKGIHITHMGVKRYKNNYEQRY  195
+            ++S    L  +I  TL +  M S            ID +K    T+  +KRY N+    +
+Sbjct  208  EFSQPWELTMEITITLKDAVMCSAF----------IDGLKRAGYTNKEIKRYGNSVRVIF  257
+
+Query  196  D-PRG-RPYYW--LTGELIEEANDETSDII-AVEQGYVSI  230
+            D PR  +P+    +T E+I++ N    D+   V +G V++
+Sbjct  258  DKPRTPQPFTRTKVTDEIIQKKNKLLCDLYNEVTKGCVTL  297
+
+
+>WP_003518875.1 TrpB-like pyridoxal phosphate-dependent enzyme [Acetivibrio thermocellus]
+ CDG35882.1 Tryptophan synthase beta chain 2 [Acetivibrio thermocellus BC1]
+ ABN52443.1 pyridoxal-phosphate dependent TrpB-like enzyme [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74114.1 pyridoxal-phosphate dependent TrpB-like enzyme [Acetivibrio thermocellus
+DSM 1313]
+ ALX08052.1 Tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+ ANV75799.1 Tryptophan synthase beta chain [Acetivibrio thermocellus DSM
+2360]
+Length=454
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 27/67 (40%), Gaps = 6/67 (9%)
+
+Query  84   MDDKPDVVFSGINRGANLGTDVI------YSGTVSAAIEGAIFNIPAVAMSVTSYEYLDY  137
+            +D+ PDVVF+    G+N            + GT   A+       P +   V +Y+Y D
+Sbjct  255  LDEYPDVVFACCGGGSNFAGIAFPFLMDKFKGTKVRAVAVEPTACPTLTKGVYAYDYSDT  314
+
+Query  138  SAAAVLA  144
+                 LA
+Sbjct  315  GKIGPLA  321
+
+
+>WP_003519528.1 polymorphic toxin-type HINT domain-containing protein [Acetivibrio
+thermocellus]
+ ANV77465.1 Hedgehog/intein hint domain-containing protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC03578.1 Hedgehog/intein hint domain-containing protein [Acetivibrio thermocellus
+YS]
+ ADU75673.1 protein of unknown function DUF1557 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09692.1 Hedgehog/intein hint domain-containing protein [Acetivibrio thermocellus
+AD2]
+ PFH03975.1 intein [Acetivibrio thermocellus AD2]
+Length=318
+
+ Score = 26.2 bits (56),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  62   GVRAYAIEGTPADCIKLGIDVLMDD  86
+            GV+AY  EGTP + I   I  L  D
+Sbjct  288  GVKAYFAEGTPQNVIDFAIKKLGTD  312
+
+
+>NLU27396.1 DUF4474 domain-containing protein [Acetivibrio thermocellus]
+Length=337
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 38/160 (24%), Positives = 69/160 (43%), Gaps = 19/160 (12%)
+
+Query  80   IDVLMDDKPDVVFSGINRGA---NLGTDVIYSGTVSAAIEGAI-FNIPAVAMSVTSYEYL  135
+            + V   DKPD+   G+ +G    ++  D     + +    G + F        +T ++
+Sbjct  148  VGVYATDKPDINIPGLFKGTFYNSIKDDEFLWMSFNLKKNGKVLFERGDRHWWLTGFKLG  207
+
+Query  136  DYSAAAVLAADICRTLIEHDMPSNILLNVNIPPMPIDKIKGIHITHMGVKRYKNNYEQRY  195
+            ++S    L  +I  TL +  M S            ID +K    T+  +KRY N+    +
+Sbjct  208  EFSQPWELTMEITITLKDAVMCSAF----------IDGLKRAGYTNKEIKRYGNSVRVIF  257
+
+Query  196  D-PRG-RPYYW--LTGELIEEANDETSDII-AVEQGYVSI  230
+            D PR  +P+    +T E+I++ N    D+   V +G V++
+Sbjct  258  DKPRTPQPFTRTKVTDEIIQKKNKLLCDLYNEVTKGCVTL  297
+
+
+>WP_003512873.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG37118.1 PHP-like protein [Acetivibrio thermocellus BC1]
+ ABN53853.1 Protein-tyrosine-phosphatase [Acetivibrio thermocellus ATCC 27405]
+ ADU73337.1 Protein-tyrosine-phosphatase [Acetivibrio thermocellus DSM 1313]
+ ALX07255.1 Protein-tyrosine-phosphatase [Acetivibrio thermocellus AD2]
+ ANV74991.1 Protein-tyrosine-phosphatase [Acetivibrio thermocellus DSM 2360]
+Length=236
+
+ Score = 25.0 bits (53),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 14/29 (48%), Gaps = 0/29 (0%)
+
+Query  10   GIHASGLHALAASLADIGHVTVAAPDRER  38
+            GIH SG+   A  L D+  V   A D  +
+Sbjct  165  GIHGSGVKRFAKKLIDLKLVQFVASDAHK  193
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.137    0.405
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16697
+Number of extensions: 777
+Number of successful extensions: 14
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 6
+Length of query: 257
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 170
+Effective length of database: 2134357
+Effective search space: 362840690
+Effective search space used: 362840690
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,316 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UZ48RM701N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= ABR46325 dTMP kinase [Alkaliphilus metalliredigens]
+
+Length=211
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       48.5    1e-07  24%
+WP_003517588.1 ABC transporter ATP-binding protein [Acetivibri...  26.9    2.1    28%
+CDG36842.1 restriction endonuclease S subunit [Acetivibrio the...  26.6    3.4    50%
+WP_003518584.1 signal recognition particle-docking protein Fts...  25.8    5.5    41%
+WP_235825074.1 signal recognition particle-docking protein Fts...  25.8    5.6    41%
+WP_003519437.1 ATP-binding cassette domain-containing protein ...  25.8    5.8    35%
+WP_003517353.1 ABC transporter substrate-binding protein [Acet...  25.4    6.7    37%
+CDG36232.1 putative ABC transporter ATP-binding protein MJ0089...  25.0    8.2    29%
+WP_003517711.1 sensor histidine kinase [Acetivibrio thermocellus]  25.0    9.3    24%
+NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofol...  25.0    9.8    31%
+ADU74243.1 hypothetical protein Clo1313_1179 [Acetivibrio ther...  22.7    9.8    45%
+WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydr...  25.0    9.9    31%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 57/233 (24%), Positives = 105/233 (45%), Gaps = 31/233 (13%)
+
+Query  1    MKNGLFISFEGVDGAGKSTQIHYAKDFFEERGYKVSLTREPGGTRISEIIREAILD----  56
+            MK  L I   G D +GK+TQ +   +   + GYKV     P     S  + +  L+
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  57   RTHQEMTHRTEALLYAASRAQHVEEFILPALAEGRVVLCDRFVDSSMVYQG--------R  108
+            +   +++    +  YA  R          A  +G ++L DR+  S+MV+Q         +
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  109  GRGLGFDAVRNINQFATGGLE-PDLTIFFNIHPQVSLGRINVKEKGDRLE-QEKMAFH--  164
+             R L  D + N  +F    L  PD  IF ++ P  S  R  +KE+ ++   ++K   H
+Sbjct  121  DRFL--DWLWNF-EFEIYKLPVPDCVIFLDMPP--SFSRELMKERANKFTGEQKKDIHER  175
+
+Query  165  ---YTVYESYHD----LAQMNSSRIKVIEAN--QEVEKIKSEVEKIMTNLLRR  208
+               Y V ESY +      + N  +I+ ++    +++++I+ EV + ++ ++R+
+Sbjct  176  NDEYLV-ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+
+
+>WP_003517588.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ CDG35232.1 Lipoprotein-releasing system ATP-binding protein LolD 2 [Acetivibrio
+thermocellus BC1]
+ ABN51775.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74755.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08706.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV76458.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=227
+
+ Score = 26.9 bits (58),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 27/98 (28%), Positives = 43/98 (44%), Gaps = 5/98 (5%)
+
+Query  1    MKNGLFISFEGVDGAGKSTQIHYAKDFFEERGYKVSLTREPGGTRISEIIREAILDRTHQ  60
+            +K G FI+  G  G+GKST +H      +    KV +  +    +  E  + AI  R
+Sbjct  30   VKKGEFIAIVGPSGSGKSTLLHILGGVDKPTSGKVFMDGKDVYAQNDE--QLAIFRRRQV  87
+
+Query  61   EMTHRTEALLYAASRAQHVEEFILPALAEGRVVLCDRF  98
+             + ++   L+   +    VE   LP L +GR V  +R
+Sbjct  88   GLIYQFYNLIPVLN---VVENITLPVLMDGRKVNKERL  122
+
+
+>CDG36842.1 restriction endonuclease S subunit [Acetivibrio thermocellus
+BC1]
+Length=440
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 14/20 (70%), Gaps = 0/20 (0%)
+
+Query  57  RTHQEMTHRTEALLYAASRA  76
+           +TH E +H  EAL++AA  A
+Sbjct  43  KTHNEYSHDCEALVFAAGAA  62
+
+
+>WP_003518584.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+ CDG35619.1 Signal recognition particle receptor FtsY [Acetivibrio thermocellus
+BC1]
+ ABN52160.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74354.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus DSM 1313]
+ ALX08298.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus AD2]
+ ANV76046.1 cell division transporter substrate-binding protein FtsY [Acetivibrio
+thermocellus DSM 2360]
+Length=302
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  11   GVDGAGKSTQIHYAKDFFEERGYKVSL  37
+            GV+G GK+T I    +  + +G KV L
+Sbjct  108  GVNGVGKTTSIGKIANLLKSQGKKVIL  134
+
+
+>WP_235825074.1 signal recognition particle-docking protein FtsY [Acetivibrio
+thermocellus]
+Length=308
+
+ Score = 25.8 bits (55),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  11   GVDGAGKSTQIHYAKDFFEERGYKVSL  37
+            GV+G GK+T I    +  + +G KV L
+Sbjct  114  GVNGVGKTTSIGKIANLLKSQGKKVIL  140
+
+
+>WP_003519437.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG35865.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN52421.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74134.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08076.1 ABC transporter related protein [Acetivibrio thermocellus AD2]
+ ANV75823.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+2360]
+Length=322
+
+ Score = 25.8 bits (55),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 18/37 (49%), Gaps = 0/37 (0%)
+
+Query  1   MKNGLFISFEGVDGAGKSTQIHYAKDFFEERGYKVSL  37
+           M+ G  + F G +GAGKST +          G KV +
+Sbjct  46  MEKGELVGFLGPNGAGKSTTLKILTGILFPTGGKVDI  82
+
+
+>WP_003517353.1 ABC transporter substrate-binding protein [Acetivibrio thermocellus]
+ ABN52796.1 extracellular solute-binding protein family 3 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75358.1 extracellular solute-binding protein family 3 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09352.1 ABC-type transporter, periplasmic subunit family 3 [Acetivibrio
+thermocellus AD2]
+ ANV77106.1 ABC-type transporter, periplasmic subunit family 3 [Acetivibrio
+thermocellus DSM 2360]
+Length=353
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 20/41 (49%), Gaps = 2/41 (5%)
+
+Query  7   ISFEGVDGA--GKSTQIHYAKDFFEERGYKVSLTREPGGTR  45
+           I   G DG+  G    I Y K FF++ G+ V+L      TR
+Sbjct  50  IDIPGKDGSLCGAPIYIAYEKGFFKQEGFDVNLISADTETR  90
+
+
+>CDG36232.1 putative ABC transporter ATP-binding protein MJ0089 [Acetivibrio
+thermocellus BC1]
+Length=250
+
+ Score = 25.0 bits (53),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 30/68 (44%), Gaps = 5/68 (7%)
+
+Query  1   MKNGLFISFEGVDGAGKSTQIHYAKDFFEERGYKVSLTREPGGTRISEIIREAILDRTHQ  60
+           +  G F++  G +GAGKST +       + R   V L    G  R+S + R  +  R
+Sbjct  25  LNGGEFMAILGNNGAGKSTLLKCINRILKPRKGVVYL----GEDRVSALTRMQVAQRIGY  80
+
+Query  61  EMTHRTEA  68
+            +  R EA
+Sbjct  81  -VAQRNEA  87
+
+
+>WP_003517711.1 sensor histidine kinase [Acetivibrio thermocellus]
+ ADU75322.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 1313]
+ ALX09314.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus AD2]
+ ANV77066.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 2360]
+ EIC04782.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+YS]
+ NIK05735.1 signal transduction histidine kinase [Acetivibrio thermocellus]
+Length=343
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 15/62 (24%), Positives = 29/62 (47%), Gaps = 5/62 (8%)
+
+Query  41   PGGTRISEIIREAILDRTHQEMTHRTEALLYAASRAQHVEEFILPALAEGRVVL--CDRF  98
+            P G R+ EI+   I++  ++E    TE L       + + ++I   + E ++ L  C+
+Sbjct  85   PQGNRLEEILIRDIIELKNKEKLEETEKL---KKNLEEINDYITKWVHEIKIPLSVCELI  141
+
+Query  99   VD  100
+             D
+Sbjct  142  AD  143
+
+
+>NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+Length=428
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 11/36 (31%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  16  GKSTQIHYAKDFFEERGYKVSLTREPGGTRISEIIR  51
+           GK + + +     +E GYKV +   P   R +E I+
+Sbjct  49  GKGSTVAFISSILKESGYKVGIYTSPYIERFTERIK  84
+
+
+>ADU74243.1 hypothetical protein Clo1313_1179 [Acetivibrio thermocellus DSM
+1313]
+ AEO12405.1 hypothetical protein Cthe_3336 [Acetivibrio thermocellus ATCC
+27405]
+ ALX08186.1 hypothetical protein AD2_01193 [Acetivibrio thermocellus AD2]
+ ANV75934.1 hypothetical protein LQRI_1193 [Acetivibrio thermocellus DSM
+2360]
+ EIC05938.1 hypothetical protein YSBL_0511 [Acetivibrio thermocellus YS]
+ NIK04587.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35729.1 hypothetical protein CTHBC1_1075 [Acetivibrio thermocellus BC1]
+Length=39
+
+ Score = 22.7 bits (47),  Expect = 9.8, Method: Composition-based stats.
+ Identities = 10/22 (45%), Positives = 15/22 (68%), Gaps = 0/22 (0%)
+
+Query  185  IEANQEVEKIKSEVEKIMTNLL  206
+            I  N E +K K+ ++K+M NLL
+Sbjct  6    IRCNLEGKKSKNTLKKVMVNLL  27
+
+
+>WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+ CDG36060.1 FolC bifunctional protein [Acetivibrio thermocellus BC1]
+ ABN52616.1 FolC bifunctional protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73932.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 1313]
+ ALX07870.1 FolC bifunctional protein [Acetivibrio thermocellus AD2]
+ ANV75616.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 2360]
+Length=428
+
+ Score = 25.0 bits (53),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 11/36 (31%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  16  GKSTQIHYAKDFFEERGYKVSLTREPGGTRISEIIR  51
+           GK + + +     +E GYKV +   P   R +E I+
+Sbjct  49  GKGSTVAFISSILKESGYKVGIYTSPYIERFTERIK  84
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.319    0.136    0.380
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 10801
+Number of extensions: 455
+Number of successful extensions: 16
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 6
+Length of query: 211
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 126
+Effective length of database: 2165339
+Effective search space: 272832714
+Effective search space used: 272832714
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

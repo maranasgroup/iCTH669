@@ -1,0 +1,782 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V1X204T016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+TCO97539.1 thymidylate kinase [Flavonifractor plautii DSM 6740]    206     4e-67  45%
+WP_021630693.1 dTMP kinase [Flavonifractor plautii]                206     5e-67  45%
+WP_196058485.1 thymidylate kinase [Flavonifractor plautii]         206     9e-67  45%
+WP_148342608.1 thymidylate kinase [Flavonifractor plautii]         206     9e-67  45%
+WP_065534333.1 thymidylate kinase [Flavonifractor plautii]         204     2e-66  45%
+KGF53883.1 thymidylate kinase [Flavonifractor plautii 1_3_50AFAA]  204     4e-66  45%
+WP_007495787.1 thymidylate kinase [Flavonifractor plautii]         204     5e-66  45%
+WP_204704413.1 thymidylate kinase [Flavonifractor plautii]         203     9e-66  45%
+CUP62696.1 thymidylate kinase [Flavonifractor plautii]             201     4e-65  46%
+WP_138307920.1 thymidylate kinase [Flavonifractor plautii]         201     5e-65  44%
+WP_154024883.1 thymidylate kinase [Flavonifractor plautii]         201     5e-65  45%
+CUP05663.1 Thymidylate kinase [Flavonifractor plautii]             157     2e-48  44%
+WP_204706956.1 adenylyl-sulfate kinase [Flavonifractor plautii]    30.8    0.95   37%
+MBM6665230.1 phosphate--AMP phosphotransferase [Flavonifractor...  30.4    1.3    27%
+CUQ26150.1 DNA repair protein RadA [Flavonifractor plautii]        29.6    2.4    23%
+WP_138308607.1 hypothetical protein [Flavonifractor plautii]       28.1    2.9    29%
+WP_195309231.1 hypothetical protein [Flavonifractor plautii]       28.1    3.1    29%
+ANU40952.1 hypothetical protein A4U99_07670 [Flavonifractor pl...  28.1    3.1    29%
+WP_225123458.1 hypothetical protein [Flavonifractor plautii]       28.1    3.2    40%
+WP_009261180.1 hypothetical protein [Flavonifractor plautii]       28.1    3.2    29%
+WP_195325389.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.8    33%
+WP_055269963.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.8    33%
+WP_148342162.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.8    33%
+WP_044938312.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.9    33%
+WP_154024636.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.9    33%
+WP_007495669.1 nucleoside kinase [Flavonifractor plautii]          29.3    3.9    33%
+WP_054339571.1 nucleoside kinase [Flavonifractor plautii]          28.9    3.9    33%
+WP_196057892.1 nucleoside kinase [Flavonifractor plautii]          28.9    3.9    33%
+WP_226916294.1 nucleoside kinase [Flavonifractor plautii]          28.9    4.0    33%
+WP_021631060.1 nucleoside kinase [Flavonifractor plautii]          28.9    4.0    33%
+WP_065535644.1 nucleoside kinase [Flavonifractor plautii]          28.9    4.0    33%
+WP_154250580.1 nucleoside kinase [Flavonifractor plautii]          28.9    4.0    33%
+WP_024725302.1 nucleoside kinase [Flavonifractor plautii]          28.9    4.0    33%
+CUP88800.1 uridine kinase [Flavonifractor plautii]                 28.5    5.3    33%
+CUP62266.1 polyphosphate:nucleotide phosphotransferase%2C PPK2...  28.1    7.9    30%
+WP_148342624.1 4Fe-4S dicluster domain-containing protein [Fla...  28.1    8.3    27%
+WP_065534528.1 4Fe-4S dicluster domain-containing protein [Fla...  28.1    8.6    27%
+WP_055180862.1 4Fe-4S dicluster domain-containing protein [Fla...  28.1    8.9    27%
+WP_238047328.1 4Fe-4S dicluster domain-containing protein [Fla...  28.1    9.4    27%
+WP_131971132.1 hypothetical protein [Flavonifractor plautii]       27.7    9.9    30%
+
+ALIGNMENTS
+>TCO97539.1 thymidylate kinase [Flavonifractor plautii DSM 6740]
+ CUP52623.1 Thymidylate kinase [Flavonifractor plautii]
+ CUQ49854.1 thymidylate kinase [Flavonifractor plautii]
+Length=225
+
+ Score = 206 bits (525),  Expect = 4e-67, Method: Compositional matrix adjust.
+ Identities = 102/226 (45%), Positives = 148/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  3    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  61
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  62   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  121
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  122  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  178
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+ +++I ++++ A + I+
+Sbjct  179  ALCRKTALRAADCLGWVKIPCVDGAGALRSMEDIHRDIWAAAARIL  224
+
+
+>WP_021630693.1 dTMP kinase [Flavonifractor plautii]
+ MBM6791955.1 thymidylate kinase [Flavonifractor plautii]
+ MCB5583363.1 thymidylate kinase [Flavonifractor plautii]
+ MCB5778359.1 thymidylate kinase [Flavonifractor plautii]
+ MCB5853449.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 206 bits (524),  Expect = 5e-67, Method: Compositional matrix adjust.
+ Identities = 102/226 (45%), Positives = 148/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+ +++I ++++ A + I+
+Sbjct  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSMEDIHRDIWAAAARIL  222
+
+
+>WP_196058485.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 206 bits (523),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 102/226 (45%), Positives = 147/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+  ++I ++++ A + I+
+Sbjct  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSTEDIHRDIWAAAARIL  222
+
+
+>WP_148342608.1 thymidylate kinase [Flavonifractor plautii]
+ HJF01152.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 206 bits (523),  Expect = 9e-67, Method: Compositional matrix adjust.
+ Identities = 102/226 (45%), Positives = 147/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+ + +I ++++ A + I+
+Sbjct  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSMADIHRDIWAAAARIL  222
+
+
+>WP_065534333.1 thymidylate kinase [Flavonifractor plautii]
+ ANU40580.1 thymidylate kinase [Flavonifractor plautii]
+ MCB5375720.1 thymidylate kinase [Flavonifractor plautii]
+ OXE44725.1 thymidylate kinase [Flavonifractor plautii]
+ QQR06641.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 204 bits (520),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 101/226 (45%), Positives = 147/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+G LI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MQGNLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+ +++I ++++ A + I+
+Sbjct  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSMEDIHRDIWAAAARIL  222
+
+
+>KGF53883.1 thymidylate kinase [Flavonifractor plautii 1_3_50AFAA]
+ CUP89698.1 Thymidylate kinase [Flavonifractor plautii]
+Length=225
+
+ Score = 204 bits (518),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 101/226 (45%), Positives = 146/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  3    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  61
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  62   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  121
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  122  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  178
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+  ++I ++++   + I+
+Sbjct  179  ALCRKTALRAADCLGWVKIPCVDGAGALRSTEDIHRDIWAVAARIL  224
+
+
+>WP_007495787.1 thymidylate kinase [Flavonifractor plautii]
+ EHM37652.1 dTMP kinase [Flavonifractor plautii ATCC 29863]
+ MCB7042133.1 thymidylate kinase [Flavonifractor plautii]
+ MCB7361182.1 thymidylate kinase [Flavonifractor plautii]
+ MSB03290.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 204 bits (518),  Expect = 5e-66, Method: Compositional matrix adjust.
+ Identities = 101/226 (45%), Positives = 146/226 (65%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    MQGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  120  G-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+                + +L  A    W+KI CV   G L+  ++I ++++   + I+
+Sbjct  177  ALCRKTALRAADCLGWVKIPCVDGAGALRSTEDIHRDIWAVAARIL  222
+
+
+>WP_204704413.1 thymidylate kinase [Flavonifractor plautii]
+ MBM6663601.1 thymidylate kinase [Flavonifractor plautii]
+Length=223
+
+ Score = 203 bits (516),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 102/227 (45%), Positives = 145/227 (64%), Gaps = 5/227 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+ E G D SGK+TQ   L +R+  EG   +++ FP Y   SSAL++MYL G+FG
+Sbjct  1    MAGKLIVFE-GTDGSGKSTQFRLLCQRMESEGIPFRRLVFPQYQEPSSALLRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + ++
+Sbjct  60   SHPSDVNPYAASTFYAVDRYASWKKVWGDYYRSGGLVLSDRYTTSNAVHQASKLPE-DQW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + F  WL++FE     LP PD VI+LDMP   + EL++ R  +     K DIHE + +YL
+Sbjct  119  EEFFHWLFDFECTKLGLPFPDQVIYLDMPTQRAVELLRSR--EAATHTKGDIHEVDTDYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGIIR  226
+                R +L  A    W K+ CV + G L+  +EI + ++  V+ II+
+Sbjct  177  ALCRRTALRAADCLGWHKVPCVDEAGNLRSAEEIHRSIWAMVAQIIK  223
+
+
+>CUP62696.1 thymidylate kinase [Flavonifractor plautii]
+Length=229
+
+ Score = 201 bits (512),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 103/226 (46%), Positives = 145/226 (64%), Gaps = 5/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M G+LI++E G D SGK+TQ + L   + +EG   +K+ FP Y   SSALVKMYLNG+FG
+Sbjct  1    MAGRLIVLE-GTDGSGKSTQFSLLCGHMDREGRPFRKLIFPQYQEPSSALVKMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+ASY+  WG AY  G +IL+DRYTTSN VHQ  K+ + E +
+Sbjct  60   PHPSDVNPYAASTFYAVDRYASYQKVWGTAYRAGELILSDRYTTSNAVHQTGKLPEGEWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + FL WL+ FE+    LP PD V++LDMP   + E+++ R  +     K DIHE +  YL
+Sbjct  120  E-FLRWLFTFEYGRLGLPEPDLVLWLDMPTERAVEMLRRREGET--HTKGDIHEVDTAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECV-KDGVLKKIDEIQKEVYEAVSGII  225
+                  +   A+   W +I CV   G ++  +EI +E++ AV+ ++
+Sbjct  177  ARCRSVAATAARLGGWKRISCVDGSGRVRAQEEIHREIWGAVAPLL  222
+
+
+>WP_138307920.1 thymidylate kinase [Flavonifractor plautii]
+Length=224
+
+ Score = 201 bits (511),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 100/225 (44%), Positives = 145/225 (64%), Gaps = 5/225 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  3    EGKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  62   HPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWEG  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  122  -FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+               + +L  A    W+KI CV   G L+  ++I ++++   + I+
+Sbjct  179  LCRKTALRAADCLGWVKIPCVDGAGALRSTEDIHRDIWAVAARIL  223
+
+
+>WP_154024883.1 thymidylate kinase, partial [Flavonifractor plautii]
+Length=221
+
+ Score = 201 bits (511),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 100/224 (45%), Positives = 144/224 (64%), Gaps = 5/224 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+ E G D SGK+TQ   L ER+ +EG   +++ FP Y   SSAL+KMYLNG+FG
+Sbjct  1    GKLIVFE-GTDGSGKSTQFRMLCERMEREGRPFRRLIFPQYQEPSSALLKMYLNGEFGSH  59
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+K+ + E +
+Sbjct  60   PSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQASKLPEAEWEG-  118
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DIHE +  YL
+Sbjct  119  FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDIHEVDTGYLAL  176
+
+Query  183  SYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+              + +L  A    W+KI CV   G L+  ++I ++++   + I+
+Sbjct  177  CRKTALRAADCLGWVKIPCVDGAGALRSTEDIHRDIWAVAARIL  220
+
+
+>CUP05663.1 Thymidylate kinase [Flavonifractor plautii]
+Length=172
+
+ Score = 157 bits (397),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 76/174 (44%), Positives = 113/174 (65%), Gaps = 4/174 (2%)
+
+Query  53   MYLNGDFGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAA  112
+            MYLNG+FG  P+DV+PY ASTFYAVDR+AS++  WG  Y  G ++L+DRYTTSN VHQA+
+Sbjct  1    MYLNGEFGSHPSDVNPYAASTFYAVDRYASWKKVWGDYYRGGGLVLSDRYTTSNAVHQAS  60
+
+Query  113  KIKDMEEKDRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDI  172
+            K+ + E +  F  WL++FE     LP+PD V++LDMP   +  L++ R  + +   K DI
+Sbjct  61   KLPEAEWEG-FFRWLFDFECGKLGLPLPDLVVYLDMPTEQAVRLLRSR--EASTHTKGDI  117
+
+Query  173  HERNDEYLVESYRNSLYVAKKYNWIKIECVKD-GVLKKIDEIQKEVYEAVSGII  225
+            HE +  YL    + +L  A    W+KI CV   G L+ +++I ++++ A + I+
+Sbjct  118  HEVDTGYLALCRKTALRAADCLGWVKIPCVDGAGALRSMEDIHRDIWAAAARIL  171
+
+
+>WP_204706956.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+ MBM6665769.1 Flp pilus assembly complex ATPase component TadA [Flavonifractor
+plautii]
+Length=314
+
+ Score = 30.8 bits (68),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 21/43 (49%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   KL + L + G     I+  NY
+Sbjct  42  MKVSPIVLLSGPSGSGKTTTALKLEQELERRGVNTHTISMDNY  84
+
+
+>MBM6665230.1 phosphate--AMP phosphotransferase [Flavonifractor plautii]
+Length=248
+
+ Score = 30.4 bits (67),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 27/100 (27%), Positives = 47/100 (47%), Gaps = 14/100 (14%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            K  ++I+  G DA+GK     +L   L   GY+V  I  P  D     L + YL   + +
+Sbjct  48   KVPVVIVYEGWDAAGKGGNIKRLASALDPRGYEVLPIAAPTKDE----LARHYLWRFWTR  103
+
+Query  62   DPNDVSPYVA---STFYA---VDRFASYRT--EWGQAYND  93
+             P   + ++A    ++Y    V+R   + T  +W +AY++
+Sbjct  104  LPK--TGHIAIFDRSWYGRVMVERLEGFCTTDDWQRAYDE  141
+
+
+>CUQ26150.1 DNA repair protein RadA [Flavonifractor plautii]
+Length=348
+
+ Score = 29.6 bits (65),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 18/78 (23%), Positives = 32/78 (41%), Gaps = 4/78 (5%)
+
+Query  141  DCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYV----AKKYNW  196
+            DCV++ +  P  S  +++   N+F    +  + E  D  L      S  +     K
+Sbjct  127  DCVLYFEGEPHMSYRILRAAKNRFGATNEIGVFEMEDSGLAAVPNPSEVLLSGRPKDAPG  186
+
+Query  197  IKIECVKDGVLKKIDEIQ  214
+              + CV +GV   + E+Q
+Sbjct  187  TCVTCVMEGVRPVLAEVQ  204
+
+
+>WP_138308607.1 hypothetical protein [Flavonifractor plautii]
+ MCB5377600.1 hypothetical protein [Flavonifractor plautii]
+ MCB5581701.1 hypothetical protein [Flavonifractor plautii]
+ MCB7042479.1 hypothetical protein [Flavonifractor plautii]
+ MSB04933.1 hypothetical protein [Flavonifractor plautii]
+ MSB09194.1 hypothetical protein [Flavonifractor plautii]
+Length=96
+
+ Score = 28.1 bits (61),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 25/58 (43%), Gaps = 8/58 (14%)
+
+Query  59   FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKD  116
+             G  P +VSPYV    YA D F        Q YN G     ++    NM  +  ++++
+Sbjct  25   LGYSPTEVSPYVTWKCYAYDNF--------QGYNYGRYFGDEQAARKNMKQRVDELRE  74
+
+
+>WP_195309231.1 hypothetical protein [Flavonifractor plautii]
+Length=96
+
+ Score = 28.1 bits (61),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 25/58 (43%), Gaps = 8/58 (14%)
+
+Query  59   FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKD  116
+             G  P +VSPYV    YA D F        Q YN G     ++    NM  +  ++++
+Sbjct  25   LGYSPTEVSPYVTWKCYAYDNF--------QGYNYGRYFGDEQAARKNMKQRVDELRE  74
+
+
+>ANU40952.1 hypothetical protein A4U99_07670 [Flavonifractor plautii]
+ OUO84723.1 hypothetical protein B5F52_03235 [Flavonifractor plautii]
+ OXE45104.1 hypothetical protein ADH75_16280 [Flavonifractor plautii]
+Length=91
+
+ Score = 28.1 bits (61),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 25/58 (43%), Gaps = 8/58 (14%)
+
+Query  59   FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKD  116
+             G  P +VSPYV    YA D F        Q YN G     ++    NM  +  ++++
+Sbjct  20   LGYSPTEVSPYVTWKCYAYDNF--------QGYNYGRYFGDEQAARKNMKQRVDELRE  69
+
+
+>WP_225123458.1 hypothetical protein [Flavonifractor plautii]
+ MCB5780298.1 hypothetical protein [Flavonifractor plautii]
+ UBS62937.1 hypothetical protein LCR02_08615 [Flavonifractor plautii]
+Length=96
+
+ Score = 28.1 bits (61),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 18/35 (51%), Gaps = 2/35 (6%)
+
+Query  59  FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYND  93
+            G  P +VSPYV    YA D F  Y   +G+ + D
+Sbjct  25  LGYSPTEVSPYVTWKCYAYDNFQGY--NYGRYFGD  57
+
+
+>WP_009261180.1 hypothetical protein [Flavonifractor plautii]
+ KGF54250.1 hypothetical protein HMPREF9460_03044 [Flavonifractor plautii
+1_3_50AFAA]
+ MCB7361279.1 hypothetical protein [Flavonifractor plautii]
+Length=96
+
+ Score = 28.1 bits (61),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 25/58 (43%), Gaps = 8/58 (14%)
+
+Query  59   FGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKD  116
+             G  P +VSPYV    YA D F        Q YN G     ++    NM  +  ++++
+Sbjct  25   LGYSPTEVSPYVTWKCYAYDNF--------QGYNYGRYFGDEQAARKNMKQRVDELRE  74
+
+
+>WP_195325389.1 nucleoside kinase [Flavonifractor plautii]
+ MCB5582419.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_055269963.1 nucleoside kinase [Flavonifractor plautii]
+ MCB6873329.1 nucleoside kinase [Flavonifractor plautii]
+ MCB7362096.1 nucleoside kinase [Flavonifractor plautii]
+ MSB21377.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+ MSB84213.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+ CUP27519.1 Uridine kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_148342162.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_044938312.1 nucleoside kinase [Flavonifractor plautii]
+ KGF57380.1 hypothetical protein HMPREF9460_00194 [Flavonifractor plautii
+1_3_50AFAA]
+ MCB7043572.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_154024636.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_007495669.1 nucleoside kinase [Flavonifractor plautii]
+ EHM37758.1 phosphoribulokinase/uridine kinase family protein [Flavonifractor
+plautii ATCC 29863]
+ MCB5852866.1 nucleoside kinase [Flavonifractor plautii]
+ QIA32550.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 29.3 bits (64),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_054339571.1 nucleoside kinase [Flavonifractor plautii]
+ MBM6790112.1 nucleoside kinase [Flavonifractor plautii]
+ OUO82321.1 nucleoside kinase [Flavonifractor plautii]
+ CUQ01871.1 Uridine kinase [Flavonifractor plautii]
+ CUQ31735.1 uridine kinase [Flavonifractor plautii]
+ HJF01454.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_196057892.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_226916294.1 nucleoside kinase [Flavonifractor plautii]
+ MCB5375119.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_021631060.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_065535644.1 nucleoside kinase [Flavonifractor plautii]
+ ANU42783.1 nucleoside kinase [Flavonifractor plautii]
+ OXE46240.1 nucleoside kinase [Flavonifractor plautii]
+ QQR04313.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_154250580.1 nucleoside kinase [Flavonifractor plautii]
+ MSB04165.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+ MSB08486.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+ MSB49865.1 adenylyl-sulfate kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>WP_024725302.1 nucleoside kinase [Flavonifractor plautii]
+ MCB5777897.1 nucleoside kinase [Flavonifractor plautii]
+ TCO98582.1 uridine kinase [Flavonifractor plautii DSM 6740]
+ UBS60132.1 nucleoside kinase [Flavonifractor plautii]
+ UOX44608.1 nucleoside kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.9 bits (63),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           MK   I++ SG   SGK T   K+   L + G     ++  NY
+Sbjct  42  MKESPIVLLSGPSGSGKTTTAMKVERELERRGVNAHTVSMDNY  84
+
+
+>CUP88800.1 uridine kinase [Flavonifractor plautii]
+Length=314
+
+ Score = 28.5 bits (62),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  1   MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           M    +++ SG   SGK T   KL + L + G     I+  NY
+Sbjct  42  MAESPVVLLSGPSGSGKTTTALKLEQELERRGINTHTISMDNY  84
+
+
+>CUP62266.1 polyphosphate:nucleotide phosphotransferase%2C PPK2 family [Flavonifractor
+plautii]
+Length=448
+
+ Score = 28.1 bits (61),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 29/98 (30%), Positives = 43/98 (44%), Gaps = 10/98 (10%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            K  ++I   G DA+GK     +L   L   G+ V  I  P  D    AL + YL   + +
+Sbjct  250  KVPVVIGFEGWDAAGKGGAIRRLSWALDPRGFDVVPIAAPTPD----ALARHYLWRFWRE  305
+
+Query  62   DPNDVSPYV-ASTFYA---VDRFASYRTE--WGQAYND  93
+             P D    +   T+Y    V+R     +E  W QAY++
+Sbjct  306  LPKDGHVVLFDRTWYGRVMVERIEGLASEVRWRQAYDE  343
+
+
+>WP_148342624.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+Length=400
+
+ Score = 28.1 bits (61),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  18   ATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYA  76
+            A  +N L + + + G+  +   F NY +    LV +   G+F +    V+P+V + F A
+Sbjct  185  ACMSNTLADYIRRLGWPARSDAFNNYVTIMPRLVALAGLGEFSRLGIVVNPFVGAAFKA  243
+
+
+>WP_065534528.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+ ANU40890.1 dehalogenase [Flavonifractor plautii]
+ OXE45040.1 dehalogenase [Flavonifractor plautii]
+ QQR06325.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+Length=400
+
+ Score = 28.1 bits (61),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  18   ATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYA  76
+            A  +N L + + + G+  +   F NY +    LV +   G+F +    V+P+V + F A
+Sbjct  185  ACMSNTLADYIRRLGWPARSDAFNNYVTIMPRLVALAGLGEFSRLGIVVNPFVGAAFKA  243
+
+
+>WP_055180862.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+ MCB5583452.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+ CUQ31296.1 3-chloro-4-hydroxyphenylacetate reductive dehalogenase precursor
+[Flavonifractor plautii]
+ CUQ53866.1 reductive dehalogenase [Flavonifractor plautii]
+ HJF02700.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+Length=400
+
+ Score = 28.1 bits (61),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  18   ATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYA  76
+            A  +N L + + + G+  +   F NY +    LV +   G+F +    V+P+V + F A
+Sbjct  185  ACMSNTLADYIRRLGWPARSDAFNNYVTIMPRLVALAGLGEFSRLGIVVNPFVGAAFKA  243
+
+
+>WP_238047328.1 4Fe-4S dicluster domain-containing protein [Flavonifractor plautii]
+Length=400
+
+ Score = 28.1 bits (61),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 29/59 (49%), Gaps = 0/59 (0%)
+
+Query  18   ATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYA  76
+            A  +N L + + + G+  +   F NY +    LV +   G+F +    V+P+V + F A
+Sbjct  185  ACMSNTLADYIRRLGWPARSDAFNNYVTIMPRLVALAGLGEFSRLGIVVNPFVGAAFKA  243
+
+
+>WP_131971132.1 hypothetical protein [Flavonifractor plautii]
+ TCO97326.1 hypothetical protein EV206_108130 [Flavonifractor plautii DSM
+6740]
+Length=298
+
+ Score = 27.7 bits (60),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 27/47 (57%), Gaps = 1/47 (2%)
+
+Query  177  DEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSG  223
+            D +  E ++ + Y A +   +++ C+ + V KK DE+ +E  E +SG
+Sbjct  22   DRFFCEQHQAA-YHAARSALLELRCIWEDVEKKQDELLQETKELLSG  67
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 8, 2022  2:43 AM
+  Number of letters in database: 22,210,382
+  Number of sequences in database:  67,953
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 67953
+Number of Hits to DB: 129432
+Number of extensions: 5397
+Number of successful extensions: 25
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 4
+Length of query: 227
+Length of database: 22210382
+Length adjustment: 99
+Effective length of query: 128
+Effective length of database: 15483035
+Effective search space: 1981828480
+Effective search space used: 1981828480
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 51 (24.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

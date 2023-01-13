@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+acel Anaerocolumna cellulosilytica
+acht Anaerocolumna chitinilytica
+eel Eubacterium eligens
+rto Ruminococcus torques
+rgn Ruminococcus gnavus
+cbol Enterocloster bolteae
+ere Eubacterium rectale ATCC 33656
+ert Eubacterium rectale DSM 17629
+era Eubacterium rectale M104/1
+lbw Lachnospiraceae bacterium oral taxon 500
+cdf Clostridioides difficile 630

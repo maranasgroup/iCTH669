@@ -1,0 +1,310 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WB8UXWT013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ASN98642 5'-nucleotidase [Enterocloster bolteae]
+
+Length=614
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+HBW25712.1 TPA: peptidoglycan-binding protein [Acetivibrio the...  41.2    1e-04  40%
+WP_020457833.1 LysM peptidoglycan-binding domain-containing pr...  38.9    0.001  40%
+THJ77867.1 LysM peptidoglycan-binding domain-containing protei...  36.6    0.008  42%
+CDG36227.1 Peptidoglycan-binding LysM [Acetivibrio thermocellu...  36.6    0.008  42%
+WP_004400093.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  36.6    0.008  42%
+WP_003520686.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  36.6    0.009  42%
+WP_136479432.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  35.8    0.014  37%
+WP_003514742.1 EFR1 family ferrodoxin [Acetivibrio thermocellus]   30.4    0.57   29%
+WP_136479437.1 EFR1 family ferrodoxin [Acetivibrio thermocellus]   30.4    0.59   29%
+WP_003515738.1 YgiQ family radical SAM protein [Acetivibrio th...  28.9    2.8    27%
+WP_011838100.1 helix-turn-helix transcriptional regulator [Ace...  26.9    3.0    25%
+WP_003517785.1 helix-turn-helix transcriptional regulator [Ace...  26.6    4.7    30%
+WP_003512652.1 TIGR01212 family radical SAM protein [Acetivibr...  26.9    9.8    28%
+
+ALIGNMENTS
+>HBW25712.1 peptidoglycan-binding protein [Acetivibrio thermocellus]
+Length=172
+
+ Score = 41.2 bits (95),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 24/60 (40%), Positives = 36/60 (60%), Gaps = 2/60 (3%)
+
+Query  306  VPAADLDRE--YTVQEHDSLSRIAKRELGSYNRWIDIYNSNLDKIKNADVIPVGLNIVIP  363
+            VPA  L     + VQ  D+L  IAK+  G+ N++  IY +N ++IKN ++I  G  +VIP
+Sbjct  112  VPAVSLKANDYHVVQPGDTLWGIAKKYYGNGNQYQKIYEANKNQIKNPNLIYPGQKLVIP  171
+
+
+>WP_020457833.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+ ABN53691.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+Length=219
+
+ Score = 38.9 bits (89),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 36/60 (60%), Gaps = 2/60 (3%)
+
+Query  306  VPAADLDRE--YTVQEHDSLSRIAKRELGSYNRWIDIYNSNLDKIKNADVIPVGLNIVIP  363
+            VPA  L     + VQ  D+L  IAK+  G+ N++  IY +N ++IKN ++I  G  +VIP
+Sbjct  159  VPAVSLKANDYHVVQPGDTLWGIAKKYYGNGNQYQKIYEANKNQIKNPNLIYPGQKLVIP  218
+
+
+>THJ77867.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=334
+
+ Score = 36.6 bits (83),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  302  LVSEVPAADLDREYTVQEHDSLSRIAKRELGSYNRWIDIYNSN  344
+            +V+ +P    +R YTVQ+ D+L RIA++ELG   R+ +I   N
+Sbjct  275  IVNSIPDNKGNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLN  317
+
+
+>CDG36227.1 Peptidoglycan-binding LysM [Acetivibrio thermocellus BC1]
+Length=334
+
+ Score = 36.6 bits (83),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  302  LVSEVPAADLDREYTVQEHDSLSRIAKRELGSYNRWIDIYNSN  344
+            +V+ +P    +R YTVQ+ D+L RIA++ELG   R+ +I   N
+Sbjct  275  IVNSIPDNKGNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLN  317
+
+
+>WP_004400093.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ ABN52835.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+ATCC 27405]
+Length=334
+
+ Score = 36.6 bits (83),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  302  LVSEVPAADLDREYTVQEHDSLSRIAKRELGSYNRWIDIYNSN  344
+            +V+ +P    +R YTVQ+ D+L RIA++ELG   R+ +I   N
+Sbjct  275  IVNSIPDNKGNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLN  317
+
+
+>WP_003520686.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ ADU75397.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09395.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+AD2]
+ ANV77149.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+DSM 2360]
+ EIC04519.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH03672.1 LysM domain-containing protein [Acetivibrio thermocellus AD2]
+Length=334
+
+ Score = 36.6 bits (83),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 18/43 (42%), Positives = 28/43 (65%), Gaps = 0/43 (0%)
+
+Query  302  LVSEVPAADLDREYTVQEHDSLSRIAKRELGSYNRWIDIYNSN  344
+            +V+ +P    +R YTVQ+ D+L RIA++ELG   R+ +I   N
+Sbjct  275  IVNSIPDNKGNRTYTVQKGDTLWRIAEKELGRGTRFPEIKKLN  317
+
+
+>WP_136479432.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ THJ77862.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=334
+
+ Score = 35.8 bits (81),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 32/54 (59%), Gaps = 2/54 (4%)
+
+Query  302  LVSEVPAADLDREYTVQEHDSLSRIAKRELGSYNRWIDIYNSNLDKIKNADVIP  355
+            +V+ +     +R YTVQ+ DSL +IA+RELG   R+ +I    L+ +K   + P
+Sbjct  275  IVNNITDNKSNRTYTVQKGDSLWKIAERELGRGTRYKEI--KELNSLKTDTIYP  326
+
+
+>WP_003514742.1 EFR1 family ferrodoxin [Acetivibrio thermocellus]
+ ABN54165.1 flavodoxin/nitric oxide synthase [Acetivibrio thermocellus ATCC
+27405]
+ NLU27418.1 4Fe-4S ferredoxin [Acetivibrio thermocellus]
+ CDG37456.1 4Fe-4S ferredoxin, iron-sulfur binding [Acetivibrio thermocellus
+BC1]
+ HBW27750.1 4Fe-4S ferredoxin [Acetivibrio thermocellus]
+Length=259
+
+ Score = 30.4 bits (67),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 30/69 (43%), Gaps = 1/69 (1%)
+
+Query  5    SFKWLRSLFLAIVLTTVTVAGLPLTGGPVTALAADKDIVVLYTNDVHCGVDDNIGYAGLA  64
+            S KW +   +A  +   T  GL     PV  +  DKD +  + N V C    +   A
+Sbjct  180  SRKWAKKNLVAD-MCKCTRCGLCQKQCPVNNIKVDKDSITFFENCVSCQRCVHRCPANAF  238
+
+Query  65   LYKKEMQQQ  73
+            LYK ++ +Q
+Sbjct  239  LYKNKVIEQ  247
+
+
+>WP_136479437.1 EFR1 family ferrodoxin [Acetivibrio thermocellus]
+ THJ77813.1 4Fe-4S ferredoxin [Acetivibrio thermocellus]
+Length=259
+
+ Score = 30.4 bits (67),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 20/69 (29%), Positives = 30/69 (43%), Gaps = 1/69 (1%)
+
+Query  5    SFKWLRSLFLAIVLTTVTVAGLPLTGGPVTALAADKDIVVLYTNDVHCGVDDNIGYAGLA  64
+            S KW +   +A  +   T  GL     PV  +  DKD +  + N V C    +   A
+Sbjct  180  SRKWAKKNLVAD-MCKCTRCGLCQKQCPVNNIKVDKDSITFFENCVSCQRCVHRCPANAF  238
+
+Query  65   LYKKEMQQQ  73
+            LYK ++ +Q
+Sbjct  239  LYKNKVIEQ  247
+
+
+>WP_003515738.1 YgiQ family radical SAM protein [Acetivibrio thermocellus]
+ CDG35790.1 UPF0313 protein [Acetivibrio thermocellus BC1]
+ ABN52326.1 Radical SAM domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU74183.1 Radical SAM domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08126.1 UPF0313 protein ygiQ [Acetivibrio thermocellus AD2]
+ ANV75873.1 UPF0313 protein ygiQ [Acetivibrio thermocellus DSM 2360]
+Length=639
+
+ Score = 28.9 bits (63),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 47/109 (43%), Gaps = 17/109 (16%)
+
+Query  177  TKSTPAY-FQDSQGNYIYSFCEDESGQKLYD---------QVQASVDAARTA--GADYVI  224
+             ++ PAY   + + + IYS   + +   +YD         +VQ S+ + R    G  +
+Sbjct  270  AQNPPAYPLSEKEMDRIYSLPYERTYHPVYDKDGGVPAIEEVQFSITSHRGCYGGCSFCA  329
+
+Query  225  LAGHLGENGITQKWSSASVIANTTGIDAC--IDGHSHET-VPSENVKNK  270
+            L  H G   I QK S AS+I     +       G+ H+   P+ N +NK
+Sbjct  330  LNFHQGR--IIQKRSQASIINEARKLTWLPGFKGYIHDVGGPTANFRNK  376
+
+
+>WP_011838100.1 helix-turn-helix transcriptional regulator [Acetivibrio thermocellus]
+ ABN52719.1 transcriptional regulator PadR family protein [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27230.1 PadR family transcriptional regulator [Acetivibrio thermocellus]
+Length=105
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 20/79 (25%), Positives = 39/79 (49%), Gaps = 11/79 (14%)
+
+Query  272  GQNVVLTQTGTKLNHIGKLTISA-------DGSIRTELVSEVPAADLDRE-YTVQEHDSL  323
+            G    + Q   +L+  G++ I+A       +  ++ +L++ VP++D  R+ Y   E  +
+Sbjct  24   GHGYAVMQKAEELSE-GRVRIAAGTMYGALENLLKQKLIASVPSSDPRRKMYKTTEEGA-  81
+
+Query  324  SRIAKRELGSYNRWIDIYN  342
+             R+ K E+      +DIYN
+Sbjct  82   -RVLKLEVQRLKHMVDIYN  99
+
+
+>WP_003517785.1 helix-turn-helix transcriptional regulator [Acetivibrio thermocellus]
+ CDG36156.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+BC1]
+ ADU75285.1 transcriptional regulator PadR family protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX09274.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+AD2]
+ ANV77026.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+DSM 2360]
+ EIC04742.1 transcriptional regulator PadR family protein [Acetivibrio thermocellus
+YS]
+Length=105
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 14/46 (30%), Positives = 26/46 (57%), Gaps = 3/46 (7%)
+
+Query  298  IRTELVSEVPAADLDRE-YTVQEHDSLSRIAKRELGSYNRWIDIYN  342
+            ++ +L++ VP++D  R+ Y   E  +  R+ K E+      +DIYN
+Sbjct  56   LKQKLIASVPSSDPRRKMYKTTEEGA--RVLKLEVQRLKHMVDIYN  99
+
+
+>WP_003512652.1 TIGR01212 family radical SAM protein [Acetivibrio thermocellus]
+ CDG35047.1 putative radical SAM protein [Acetivibrio thermocellus BC1]
+ ABN51608.1 conserved hypothetical protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74904.1 conserved hypothetical protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08862.1 Conserved hypothetical protein CHP01212 [Acetivibrio thermocellus
+AD2]
+ ANV76612.1 Conserved hypothetical protein CHP01212 [Acetivibrio thermocellus
+DSM 2360]
+Length=313
+
+ Score = 26.9 bits (58),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 42/151 (28%), Positives = 65/151 (43%), Gaps = 24/151 (16%)
+
+Query  388  NQYNETLKTVLGTTPYELTVNDPATG-NRIIRNAETNLGDLTADAYRAELGADI-GLSNG  445
+            N+++  LK   GT  Y+L +N P T  NR  R +           +  E GA    L N
+Sbjct  4    NKFSTYLKQKYGTKVYKLPLNLPVTCPNRDGRISSKGC------IFCGEEGAGFENLPNF  57
+
+Query  446  GGIRSVIKPG------NITYNDTLAVFP-YGNMGCVIEATGQQIKDALE-------MASR  491
+             GI+  +K        N      +A F  Y N    +E   + I DALE       +++R
+Sbjct  58   LGIKEQLKLNSRYIGKNYGSEKFIAYFQNYTNTYLPLEDFKRHINDALEENIVAVYISTR  117
+
+Query  492  -NCPEESG-GFLQVSGLTYTIDTSVKSGVQT  520
+             +C  +S   FL+   L+  +D  ++ G+QT
+Sbjct  118  PDCVRDSYLSFLKEIKLSKGVDIVIELGLQT  148
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.135    0.392
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 48291
+Number of extensions: 2311
+Number of successful extensions: 31
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 10
+Length of query: 614
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 519
+Effective length of database: 2069853
+Effective search space: 1074253707
+Effective search space used: 1074253707
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

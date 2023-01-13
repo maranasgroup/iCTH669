@@ -1,0 +1,353 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WD4KHJ2013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AMJ40839 5'-nucleotidase [Anaerotignum propionicum]
+
+Length=258
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  33.9    0.015  29%
+WP_020457911.1 glycoside hydrolase family 9 protein [Acetivibr...  28.5    1.1    27%
+WP_003514383.1 glycoside hydrolase family 9 protein [Acetivibr...  28.5    1.1    27%
+WP_003519329.1 ATP-dependent Clp protease ATP-binding subunit ...  27.3    2.9    25%
+CDG34988.1 Chaperone protein ClpB [Acetivibrio thermocellus BC1]   27.3    2.9    25%
+NLU26060.1 AAA domain-containing protein [Acetivibrio thermoce...  26.9    3.0    25%
+WP_011837804.1 ATP-dependent Clp protease ATP-binding subunit ...  26.9    3.1    25%
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  26.2    3.7    26%
+WP_136479593.1 ATP-dependent Clp protease ATP-binding subunit ...  26.9    3.8    24%
+CDG36657.1 daunorubicin resistance ABC transporter ATP-binding...  25.8    7.1    29%
+WP_003511763.1 IS110-like element ISCth8 family transposase [A...  25.8    8.0    53%
+WP_011838287.1 IS110 family transposase [Acetivibrio thermocel...  25.8    8.0    53%
+WP_003517296.1 DEAD/DEAH box helicase [Acetivibrio thermocellus]   25.4    9.5    30%
+
+ALIGNMENTS
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 33.9 bits (76),  Expect = 0.015, Method: Compositional matrix adjust.
+ Identities = 21/73 (29%), Positives = 35/73 (48%), Gaps = 3/73 (4%)
+
+Query  184  KPNPLMMRTGIQMLGVHSKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDLYPY  243
+            KP+P  +   I M+G   ++ + +GD    D      +G+D V VL+G T     +   Y
+Sbjct  143  KPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFVAVLTGTTGAN--EFSEY  199
+
+Query  244  RPRLVIDGIGDLV  256
+             P  VI+ +  L+
+Sbjct  200  NPGAVIEDLSGLL  212
+
+
+>WP_020457911.1 glycoside hydrolase family 9 protein [Acetivibrio thermocellus]
+ ABN53960.1 glycoside hydrolase family 9 [Acetivibrio thermocellus ATCC 27405]
+ CAP78917.1 endo-1,4-beta-glucanase [Acetivibrio thermocellus]
+ HBW27487.1 glycoside hydrolase [Acetivibrio thermocellus]
+Length=707
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 33/124 (27%), Positives = 59/124 (48%), Gaps = 14/124 (11%)
+
+Query  82   FLSKQMPNCSAYVIGDPGLYHA---LY---DAGITISNTNPDYVVVGETKSYNYESICLA  135
+            F   QMP  +  + G+P +Y+A   +Y   ++GIT+      Y +V  T    YES  L+
+Sbjct  459  FGQGQMPEDTPGIEGEPPVYYADAKIYEENESGITVDLNM--YNIV--TSPPQYESD-LS  513
+
+Query  136  VKFVLNGAKLIGTNSDLTGPSESGIIPACRALVAPIEAATG-KNAYFV--GKPNPLMMRT  192
+             ++ ++ ++  G N D++            A ++ ++     KN Y+V    PNP+  RT
+Sbjct  514  CRYFVDLSEYAGENIDMSKFVTKVYYSPAGATISELKPYDKEKNIYYVEISFPNPVYART  573
+
+Query  193  GIQM  196
+             +Q
+Sbjct  574  YVQF  577
+
+
+>WP_003514383.1 glycoside hydrolase family 9 protein [Acetivibrio thermocellus]
+ CDG37282.1 Endoglucanase F [Acetivibrio thermocellus BC1]
+ ADU73440.1 glycoside hydrolase family 9 [Acetivibrio thermocellus DSM 1313]
+ ALX07362.1 glycoside hydrolase family 9 [Acetivibrio thermocellus AD2]
+ ANV75100.1 glycoside hydrolase family 9 [Acetivibrio thermocellus DSM 2360]
+ EIC04171.1 glycoside hydrolase family 9 [Acetivibrio thermocellus YS]
+Length=707
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 33/124 (27%), Positives = 59/124 (48%), Gaps = 14/124 (11%)
+
+Query  82   FLSKQMPNCSAYVIGDPGLYHA---LY---DAGITISNTNPDYVVVGETKSYNYESICLA  135
+            F   QMP  +  + G+P +Y+A   +Y   ++GIT+      Y +V  T    YES  L+
+Sbjct  459  FGQGQMPEDTPGIEGEPPVYYADAKIYEENESGITVDLNM--YNIV--TSPPQYESD-LS  513
+
+Query  136  VKFVLNGAKLIGTNSDLTGPSESGIIPACRALVAPIEAATG-KNAYFV--GKPNPLMMRT  192
+             ++ ++ ++  G N D++            A ++ ++     KN Y+V    PNP+  RT
+Sbjct  514  CRYFVDLSEYAGENIDMSKFVTKVYYSPAGATISELKPYDKEKNIYYVEISFPNPVYART  573
+
+Query  193  GIQM  196
+             +Q
+Sbjct  574  YVQF  577
+
+
+>WP_003519329.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ ADU74965.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08926.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus AD2]
+ ANV76676.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC05112.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus YS]
+ PFH03199.1 ATP-dependent Clp protease ATP-binding subunit ClpE [Acetivibrio
+thermocellus AD2]
+Length=803
+
+ Score = 27.3 bits (59),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 64/160 (40%), Gaps = 28/160 (18%)
+
+Query  94   VIGDPGLYHALYDAGITISNTNPDYVVVGETKSYNYESICLAVKFVLNGAKLIGTNSDLT  153
+            +IG+PG+       G+ +   N D  V    K +N E   L +  ++ G +  G   +
+Sbjct  188  LIGEPGVGKTAIAEGLALRIVNRDVPV----KLFNAEVYVLDLTSIVAGTQFRGQFENRM  243
+
+Query  154  GPSESGIIPACRALVAPI-------------EAATGKNAYFVGKPNPLMMRTGIQMLGVH  200
+                 GII  C+AL   I             EA    NA  + K  P + +  IQ++G
+Sbjct  244  ----KGIIEECKALGNIILVIDEIHNIMGAGEAEGAMNAANILK--PALAKGEIQVIGAT  297
+
+Query  201  SKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDL  240
+            + D      R   +  + +E     VLV    + EETI++
+Sbjct  298  TLDEY----RKHIEKDSALERRFQPVLV-DEPSVEETIEI  332
+
+
+>CDG34988.1 Chaperone protein ClpB [Acetivibrio thermocellus BC1]
+Length=803
+
+ Score = 27.3 bits (59),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 64/160 (40%), Gaps = 28/160 (18%)
+
+Query  94   VIGDPGLYHALYDAGITISNTNPDYVVVGETKSYNYESICLAVKFVLNGAKLIGTNSDLT  153
+            +IG+PG+       G+ +   N D  V    K +N E   L +  ++ G +  G   +
+Sbjct  188  LIGEPGVGKTAIAEGLALRIVNRDVPV----KLFNAEVYVLDLTSIVAGTQFRGQFENRM  243
+
+Query  154  GPSESGIIPACRALVAPI-------------EAATGKNAYFVGKPNPLMMRTGIQMLGVH  200
+                 GII  C+AL   I             EA    NA  + K  P + +  IQ++G
+Sbjct  244  ----KGIIEECKALGNIILVIDEIHNIMGAGEAEGAMNAANILK--PALAKGEIQVIGAT  297
+
+Query  201  SKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDL  240
+            + D      R   +  + +E     VLV    + EETI++
+Sbjct  298  TLDEY----RKHIEKDSALERRFQPVLV-DEPSVEETIEI  332
+
+
+>NLU26060.1 AAA domain-containing protein [Acetivibrio thermocellus]
+Length=803
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 64/160 (40%), Gaps = 28/160 (18%)
+
+Query  94   VIGDPGLYHALYDAGITISNTNPDYVVVGETKSYNYESICLAVKFVLNGAKLIGTNSDLT  153
+            +IG+PG+       G+ +   N D  V    K +N E   L +  ++ G +  G   +
+Sbjct  188  LIGEPGVGKTAIAEGLALRIVNRDVPV----KLFNAEVYVLDLTSIVAGTQFRGQFENRM  243
+
+Query  154  GPSESGIIPACRALVAPI-------------EAATGKNAYFVGKPNPLMMRTGIQMLGVH  200
+                 GII  C+AL   I             EA    NA  + K  P + +  IQ++G
+Sbjct  244  ----KGIIEECKALGNIILVIDEIHNIMGAGEAEGAMNAANILK--PALAKGEIQVIGAT  297
+
+Query  201  SKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDL  240
+            + D      R   +  + +E     VLV    + EETI++
+Sbjct  298  TLDEY----RKHIEKDSALERRFQPVLV-DEPSVEETIEI  332
+
+
+>WP_011837804.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ ABN51550.1 ATPase AAA-2 domain protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26077.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+Length=803
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 64/160 (40%), Gaps = 28/160 (18%)
+
+Query  94   VIGDPGLYHALYDAGITISNTNPDYVVVGETKSYNYESICLAVKFVLNGAKLIGTNSDLT  153
+            +IG+PG+       G+ +   N D  V    K +N E   L +  ++ G +  G   +
+Sbjct  188  LIGEPGVGKTAIAEGLALRIVNRDVPV----KLFNAEVYVLDLTSIVAGTQFRGQFENRM  243
+
+Query  154  GPSESGIIPACRALVAPI-------------EAATGKNAYFVGKPNPLMMRTGIQMLGVH  200
+                 GII  C+AL   I             EA    NA  + K  P + +  IQ++G
+Sbjct  244  ----KGIIEECKALGNIILVIDEIHNIMGAGEAEGAMNAANILK--PALAKGEIQVIGAT  297
+
+Query  201  SKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDL  240
+            + D      R   +  + +E     VLV    + EETI++
+Sbjct  298  TLDEY----RKHIEKDSALERRFQPVLV-DEPSVEETIEI  332
+
+
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 12/46 (26%), Positives = 24/46 (52%), Gaps = 0/46 (0%)
+
+Query  183  GKPNPLMMRTGIQMLGVHSKDAVMIGDRMDTDIIAGIESGLDTVLV  228
+             KP        ++++   + +  +IGD++ TDI  G +  + T+LV
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>WP_136479593.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+ THJ77174.1 ATP-dependent Clp protease ATP-binding subunit [Acetivibrio thermocellus]
+Length=803
+
+ Score = 26.9 bits (58),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 39/160 (24%), Positives = 64/160 (40%), Gaps = 28/160 (18%)
+
+Query  94   VIGDPGLYHALYDAGITISNTNPDYVVVGETKSYNYESICLAVKFVLNGAKLIGTNSDLT  153
+            +IG+PG+       G+ +   N D  V    K +N E   L +  ++ G +  G   +
+Sbjct  188  LIGEPGVGKTAIAEGLALRIVNRDVPV----KLFNAEVYVLDLTSIVAGTQFRGQFENRM  243
+
+Query  154  GPSESGIIPACRAL-------------VAPIEAATGKNAYFVGKPNPLMMRTGIQMLGVH  200
+                 GII  C+AL             +   EA    NA  + K  P + +  IQ++G
+Sbjct  244  ----KGIIEECKALGNIMLVIDEIHNIMGAGEAEGAMNAANILK--PALAKGEIQVIGAT  297
+
+Query  201  SKDAVMIGDRMDTDIIAGIESGLDTVLVLSGVTSEETIDL  240
+            + D      R   +  + +E     VLV    + EETI++
+Sbjct  298  TLDEY----RKHIEKDSALERRFQPVLV-DEPSVEETIEI  332
+
+
+>CDG36657.1 daunorubicin resistance ABC transporter ATP-binding subunit [Acetivibrio
+thermocellus BC1]
+Length=321
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 31/62 (50%), Gaps = 1/62 (2%)
+
+Query  11   ICDMDGVIYHGNNLLAGT-KEFVHWLYRENKEFLFLTNSSNRTPKELQQKLQMLGLEVDE  69
+            ICD    I +G  +  GT  E +  + RE+K  L L  S     +EL+  ++   +E+ E
+Sbjct  200  ICDRIAFIVNGRIVKIGTVTELMASVEREHKIRLQLDRSIKDIKEELENNIENCRVEIPE  259
+
+Query  70   KH  71
+            ++
+Sbjct  260  EN  261
+
+
+>WP_003511763.1 IS110-like element ISCth8 family transposase [Acetivibrio thermocellus]
+ ABN52777.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53969.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  100  LYHALYDAGITISNTNP  116
+            L+H+LY AG  +S  NP
+Sbjct  73   LFHSLYKAGFEVSVINP  89
+
+
+>WP_011838287.1 IS110 family transposase [Acetivibrio thermocellus]
+ ABN53105.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53686.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 12/17 (71%), Gaps = 0/17 (0%)
+
+Query  100  LYHALYDAGITISNTNP  116
+            L+H+LY AG  +S  NP
+Sbjct  73   LFHSLYKAGFEVSVINP  89
+
+
+>WP_003517296.1 DEAD/DEAH box helicase [Acetivibrio thermocellus]
+ ADU75384.1 SNF2-related protein [Acetivibrio thermocellus DSM 1313]
+ ALX09380.1 SNF2-related protein [Acetivibrio thermocellus AD2]
+ ANV77134.1 SNF2-related protein [Acetivibrio thermocellus DSM 2360]
+ EIC04707.1 helicase domain-containing protein [Acetivibrio thermocellus
+YS]
+ PFH03657.1 SNF2 domain-containing protein [Acetivibrio thermocellus AD2]
+Length=889
+
+ Score = 25.4 bits (54),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 27/64 (42%), Gaps = 5/64 (8%)
+
+Query  66   EVDEKHFYTSALATAKFLSKQMPNCSAYVI-----GDPGLYHALYDAGITISNTNPDYVV  120
+            E+ EKH+  S L     LSK     S  ++     G   L H L+     +SN N  Y++
+Sbjct  52   EIPEKHYNESYLRYVALLSKIKNKISQGILSKLSCGIIPLPHQLHVLNRALSNNNVRYIL  111
+
+Query  121  VGET  124
+              E
+Sbjct  112  ADEV  115
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.137    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19840
+Number of extensions: 887
+Number of successful extensions: 18
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 6
+Length of query: 258
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 171
+Effective length of database: 2134357
+Effective search space: 364975047
+Effective search space used: 364975047
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

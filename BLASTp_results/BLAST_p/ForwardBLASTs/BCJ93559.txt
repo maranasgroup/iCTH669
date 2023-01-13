@@ -1,0 +1,270 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VYVBSSE016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCJ93559 5'-nucleotidase [Anaerocolumna cellulosilytica]
+
+Length=213
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517217.1 hypothetical protein [Acetivibrio thermocellus]     28.9    0.32   25%
+WP_003515850.1 elongation factor G [Acetivibrio thermocellus]      26.6    3.1    28%
+WP_003516107.1 tRNA-guanine transglycosylase [Acetivibrio ther...  26.2    3.7    22%
+HBW25925.1 TPA: tRNA-guanine transglycosylase [Acetivibrio the...  26.2    3.8    22%
+WP_020458047.1 tRNA-guanine transglycosylase [Acetivibrio ther...  26.2    4.1    22%
+WP_003521394.1 tRNA-guanine transglycosylase [Acetivibrio ther...  26.2    4.1    22%
+CDG37239.1 hypothetical protein CTHBC1_2656 [Acetivibrio therm...  25.0    6.8    30%
+WP_003519075.1 tetratricopeptide repeat protein [Acetivibrio t...  25.4    7.7    23%
+WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermo...  25.4    8.0    32%
+THJ79180.1 hypothetical protein EPD62_02695 [Acetivibrio therm...  23.5    9.7    41%
+
+ALIGNMENTS
+>WP_003517217.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35576.1 flagellar protein [Acetivibrio thermocellus BC1]
+ ABN52117.1 regulatory protein, MerR [Acetivibrio thermocellus ATCC 27405]
+ ADU74400.1 regulatory protein, MerR [Acetivibrio thermocellus DSM 1313]
+ ALX08343.1 hypothetical protein AD2_01350 [Acetivibrio thermocellus AD2]
+ ANV76091.1 regulatory protein MerR [Acetivibrio thermocellus DSM 2360]
+Length=139
+
+ Score = 28.9 bits (63),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 31/126 (25%), Positives = 51/126 (40%), Gaps = 10/126 (8%)
+
+Query  25   KLYE-PGYFYNLKPI-----PNVVNAIKEIVNNHPDIEVYILSAVLTDSEYALEEKKMWL  78
+            +LY  P  F+ + P       N    IK+ +N HP  +++    V+ D   ++++ K +L
+Sbjct  12   RLYNNPSGFFRVCPTCYENDENEFQKIKDYLNVHPCAKIF---DVVADLNISIKQIKRYL  68
+
+Query  79   DKYLLEMDEAHRMFTPCGQDKKDYVNIRESDYLLDDYTHNLNLWQPPAKGIKLLNGIN-H  137
+             +  LE+ E    F  C    K     R  D    +   N+      +  IK  N I
+Sbjct  69   RESRLEILEKDNHFLLCESCGKSIRTGRYCDECYKNRHKNIRAVYSGSSNIKHSNAIRFR  128
+
+Query  138  TNGTWK  143
+            T+G  K
+Sbjct  129  TDGNSK  134
+
+
+>WP_003515850.1 elongation factor G [Acetivibrio thermocellus]
+ CDG36316.1 Elongation factor G [Acetivibrio thermocellus BC1]
+ ABN53015.1 translation elongation factor G [Acetivibrio thermocellus ATCC
+27405]
+ ADU75480.1 translation elongation factor G [Acetivibrio thermocellus DSM
+1313]
+ ALX09481.1 translation elongation factor G [Acetivibrio thermocellus AD2]
+ ANV77235.1 translation elongation factor G [Acetivibrio thermocellus DSM
+2360]
+Length=695
+
+ Score = 26.6 bits (57),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 11/39 (28%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  43   NAIKEIVNNHPDIEVYILSAVLTDSEYALEEKKMWLDKY  81
+            N I+++V   P+ E++  +  LT         KMW ++Y
+Sbjct  632  NGIQQVVAEVPEAEMFKYATDLTSMTQGRGSFKMWFERY  670
+
+
+>WP_003516107.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus]
+ NLU27031.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus]
+Length=359
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 20/92 (22%), Positives = 46/92 (50%), Gaps = 6/92 (7%)
+
+Query  17   FNKVDTLEKLYEPGYFYNLKPIPNVVNAIKEIVNNHPDIE---VYILSAVLTDSEYALEE  73
+            +  V+ LE L + GY  N  PI +   A + +++N  ++    ++ +  V+ +  +AL+
+Sbjct  269  YGAVNQLELLEQIGYVCNC-PICSSHGAEENVMSNTENLSAHNLWTICHVIEEIRFALDN  327
+
+Query  74   KKMWLDKYLLEMDEAHRMFTPCGQDKKDYVNI  105
+                L+K + ++ E H++  P    K  ++ +
+Sbjct  328  DT--LEKMISDILEKHQLIFPGSMLKSSFIEL  357
+
+
+>HBW25925.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus]
+Length=359
+
+ Score = 26.2 bits (56),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 20/92 (22%), Positives = 46/92 (50%), Gaps = 6/92 (7%)
+
+Query  17   FNKVDTLEKLYEPGYFYNLKPIPNVVNAIKEIVNNHPDIE---VYILSAVLTDSEYALEE  73
+            +  V+ LE L + GY  N  PI +   A + +++N  ++    ++ +  V+ +  +AL+
+Sbjct  269  YGAVNQLELLEQIGYVCNC-PICSSHGAEENVMSNTENLSAHNLWTICHVIEEIRFALDN  327
+
+Query  74   KKMWLDKYLLEMDEAHRMFTPCGQDKKDYVNI  105
+                L+K + ++ E H++  P    K  ++ +
+Sbjct  328  DT--LEKMISDILEKHQLIFPGSMLKSSFIEL  357
+
+
+>WP_020458047.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus]
+ ABN54380.1 tRNA-guanine transglycosylase, various specificities [Acetivibrio
+thermocellus ATCC 27405]
+Length=344
+
+ Score = 26.2 bits (56),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 20/92 (22%), Positives = 46/92 (50%), Gaps = 6/92 (7%)
+
+Query  17   FNKVDTLEKLYEPGYFYNLKPIPNVVNAIKEIVNNHPDIE---VYILSAVLTDSEYALEE  73
+            +  V+ LE L + GY  N  PI +   A + +++N  ++    ++ +  V+ +  +AL+
+Sbjct  254  YGAVNQLELLEQIGYVCNC-PICSSHGAEENVMSNTENLSAHNLWTICHVIEEIRFALDN  312
+
+Query  74   KKMWLDKYLLEMDEAHRMFTPCGQDKKDYVNI  105
+                L+K + ++ E H++  P    K  ++ +
+Sbjct  313  DT--LEKMISDILEKHQLIFPGSMLKSSFIEL  342
+
+
+>WP_003521394.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus]
+ ANV75487.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus DSM 2360]
+ EIC05703.1 tRNA-guanine transglycosylase [Acetivibrio thermocellus YS]
+ CDG37667.1 tRNA-guanine transglycosylase, various specificities [Acetivibrio
+thermocellus BC1]
+ ADU73812.1 tRNA-guanine transglycosylase, various specificities [Acetivibrio
+thermocellus DSM 1313]
+ ALX07745.1 tRNA-guanine transglycosylase, various specificity [Acetivibrio
+thermocellus AD2]
+Length=344
+
+ Score = 26.2 bits (56),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 20/92 (22%), Positives = 46/92 (50%), Gaps = 6/92 (7%)
+
+Query  17   FNKVDTLEKLYEPGYFYNLKPIPNVVNAIKEIVNNHPDIE---VYILSAVLTDSEYALEE  73
+            +  V+ LE L + GY  N  PI +   A + +++N  ++    ++ +  V+ +  +AL+
+Sbjct  254  YGAVNQLELLEQIGYVCNC-PICSSHGAEENVMSNTENLSAHNLWTICHVIEEIRFALDN  312
+
+Query  74   KKMWLDKYLLEMDEAHRMFTPCGQDKKDYVNI  105
+                L+K + ++ E H++  P    K  ++ +
+Sbjct  313  DT--LEKMISDILEKHQLIFPGSMLKSSFIEL  342
+
+
+>CDG37239.1 hypothetical protein CTHBC1_2656 [Acetivibrio thermocellus BC1]
+Length=157
+
+ Score = 25.0 bits (53),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 13/44 (30%), Positives = 21/44 (48%), Gaps = 11/44 (25%)
+
+Query  115  YTHNLNLWQPPAKGIKLLNGINHTNGTWKSDCLRYDKKPELLAK  158
+            Y   L+ WQPPA+ +  + G N           R+D  P+ +A+
+Sbjct  98   YGLALDGWQPPAEMVAKMEGKN-----------RFDMSPDEMAE  130
+
+
+>WP_003519075.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+ CDG35150.1 hypothetical protein CTHBC1_0484 [Acetivibrio thermocellus BC1]
+ ABN51674.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74841.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08795.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76546.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=1056
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 10/44 (23%), Positives = 21/44 (48%), Gaps = 0/44 (0%)
+
+Query  112  LDDYTHNLNLWQPPAKGIKLLNGINHTNGTWKSDCLRYDKKPEL  155
+            L++Y + +NLW   A+    +  +    G + +  + YD+   L
+Sbjct  839  LENYNYAINLWHEFAECYSAIGHLYFLVGNYTNSMIFYDRAESL  882
+
+
+>WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermocellus]
+ CDG35349.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+BC1]
+ ABN51891.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74630.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 1313]
+ ALX08573.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+AD2]
+ ANV76322.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 25.4 bits (54),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 33/62 (53%), Gaps = 8/62 (13%)
+
+Query  153  PELLAKNIVDIMQGRESIQDIKPFVEDIIARDGDRTCGVFSKRYGTRSIN-FKEKRANGK  211
+            P+ + ++ VD++QG     D+KP   DI A   + T   F++   TR ++ +  KR   K
+Sbjct  148  PKNILQSYVDVLQG----LDLKPLAVDIPA---NSTAKFFNREILTRDMDEYYSKRKYKK  200
+
+Query  212  VE  213
+            VE
+Sbjct  201  VE  202
+
+
+>THJ79180.1 hypothetical protein EPD62_02695 [Acetivibrio thermocellus]
+Length=64
+
+ Score = 23.5 bits (49),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  5   RLFVDMDGTLAHFNKVDTLEKLYEPGY  31
+           RL+V    TL   NKV+   + Y+PG
+Sbjct  7   RLYVSKAWTLFEMNKVNEAIECYKPGI  33
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.138    0.415
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20331
+Number of extensions: 995
+Number of successful extensions: 29
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 29
+Number of HSP's successfully gapped: 6
+Length of query: 213
+Length of database: 2835838
+Length adjustment: 85
+Effective length of query: 128
+Effective length of database: 2150483
+Effective search space: 275261824
+Effective search space used: 275261824
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

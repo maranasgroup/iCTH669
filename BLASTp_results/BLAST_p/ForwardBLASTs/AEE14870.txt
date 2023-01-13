@@ -1,0 +1,222 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WAW28WT016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEE14870 5'-nucleotidase [Thermodesulfobium narugense]
+
+Length=251
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518468.1 hypothetical protein [Acetivibrio thermocellus]     27.3    2.4    27%
+WP_020458014.1 cache domain-containing protein [Acetivibrio th...  27.3    2.6    24%
+WP_003521725.1 cache domain-containing protein [Acetivibrio th...  27.3    2.6    24%
+WP_136479748.1 cache domain-containing protein [Acetivibrio th...  27.3    2.7    24%
+NLU26570.1 peptidase M56 [Acetivibrio thermocellus]                24.3    5.4    31%
+WP_003511713.1 YegS/Rv2252/BmrU family lipid kinase [Acetivibr...  25.8    6.3    27%
+WP_003514223.1 ABC transporter permease [Acetivibrio thermocel...  25.4    9.2    31%
+
+ALIGNMENTS
+>WP_003518468.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36787.1 hypothetical protein CTHBC1_2187 [Acetivibrio thermocellus BC1]
+ ABN53475.1 hypothetical protein Cthe_2273 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75926.1 hypothetical protein Clo1313_2946 [Acetivibrio thermocellus DSM
+1313]
+ ALX09958.1 hypothetical protein AD2_02980 [Acetivibrio thermocellus AD2]
+ ANV77732.1 hypothetical protein LQRI_2991 [Acetivibrio thermocellus DSM
+2360]
+Length=373
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 38/77 (49%), Gaps = 7/77 (9%)
+
+Query  80   YALLPRKPDL--LISGINRGANLGTDVLYSGTVAAAMEGAFLGIPSIAVSHVSFERKKDY  137
+            +A LP K  +   I GI  GA+    +L+ G       G F  + +  +  + ++    Y
+Sbjct  47   FACLPFKTIMGDFIYGIEHGADW---ILFGGGCGQCRFGYFGKLQAEILKSIGYDVNFIY  103
+
+Query  138  INSSNLTLKFINIIEKI  154
+            I+ SN+++K   ++EKI
+Sbjct  104  IDLSNISVK--EVLEKI  118
+
+
+>WP_020458014.1 cache domain-containing protein [Acetivibrio thermocellus]
+ ABN54258.1 hypothetical protein Cthe_3062 [Acetivibrio thermocellus ATCC
+27405]
+ NLU26283.1 histidine kinase [Acetivibrio thermocellus]
+ CDG37539.1 signal transduction histidine kinase regulating citrate/malate
+metabolism [Acetivibrio thermocellus BC1]
+ HBW25999.1 histidine kinase [Acetivibrio thermocellus]
+Length=460
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 24/100 (24%), Positives = 43/100 (43%), Gaps = 15/100 (15%)
+
+Query  150  IIEKILEPGIIFNVNIPDCLENEIKGFKLVSLQLRNYKNLIETRVDPKGEKY-YWLYGIP  208
+            ++E +L+ G+++     + +  E    K V L+            D  GE    W  G+P
+Sbjct  127  VVESVLQKGVVYTG--TENILGETYAVKYVPLK------------DRSGEVLGMWFVGMP  172
+
+Query  209  DETISDHDSDISAIKKNYVSITPLHWDLTNSILLERIKKM  248
+               I   DS I  ++ + V I+ L   L  ++L+  +KK
+Sbjct  173  KSNIGSKDSQILIMRISIVVISVLCGILGCALLMLYVKKF  212
+
+
+>WP_003521725.1 cache domain-containing protein [Acetivibrio thermocellus]
+ ADU73692.1 hypothetical protein Clo1313_0612 [Acetivibrio thermocellus DSM
+1313]
+ ALX07622.1 signal transduction histidine kinase regulating citrate/malate
+metabolism [Acetivibrio thermocellus AD2]
+ ANV75364.1 signal transduction histidine kinase regulating citrate/malate
+metabolism [Acetivibrio thermocellus DSM 2360]
+ EIC03551.1 signal transduction histidine kinase regulating citrate/malate
+metabolism [Acetivibrio thermocellus YS]
+ PFH01890.1 single cache domain-containing protein [Acetivibrio thermocellus
+AD2]
+Length=460
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 24/100 (24%), Positives = 43/100 (43%), Gaps = 15/100 (15%)
+
+Query  150  IIEKILEPGIIFNVNIPDCLENEIKGFKLVSLQLRNYKNLIETRVDPKGEKY-YWLYGIP  208
+            ++E +L+ G+++     + +  E    K V L+            D  GE    W  G+P
+Sbjct  127  VVESVLQKGVVYTG--TENILGETYAVKYVPLK------------DRSGEVLGMWFVGMP  172
+
+Query  209  DETISDHDSDISAIKKNYVSITPLHWDLTNSILLERIKKM  248
+               I   DS I  ++ + V I+ L   L  ++L+  +KK
+Sbjct  173  KSNIGSKDSQILIMRISIVVISVLCGILGCALLMLYVKKF  212
+
+
+>WP_136479748.1 cache domain-containing protein [Acetivibrio thermocellus]
+ THJ76455.1 histidine kinase [Acetivibrio thermocellus]
+Length=460
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 24/100 (24%), Positives = 43/100 (43%), Gaps = 15/100 (15%)
+
+Query  150  IIEKILEPGIIFNVNIPDCLENEIKGFKLVSLQLRNYKNLIETRVDPKGEKY-YWLYGIP  208
+            ++E +L+ G+++     + +  E    K V L+            D  GE    W  G+P
+Sbjct  127  VVESVLQKGVVYTG--TENILGETYAVKYVPLK------------DRSGEVLGMWFVGMP  172
+
+Query  209  DETISDHDSDISAIKKNYVSITPLHWDLTNSILLERIKKM  248
+               I   DS I  ++ + V I+ L   L  ++L+  +KK
+Sbjct  173  KSNIGSKDSQILIMRISIVVISVLCGILGCALLMLYVKKF  212
+
+
+>NLU26570.1 peptidase M56 [Acetivibrio thermocellus]
+Length=65
+
+ Score = 24.3 bits (51),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 22/48 (46%), Gaps = 5/48 (10%)
+
+Query  160  IFNVNIPDCLENEIKGFKLVSLQLRNYKNLIETRVDPKGEKYYWLYGI  207
+            IFNV     L   + G  L+ +     KNL++ R+ PK     W+  I
+Sbjct  4    IFNVVWVTSLYGTVVGIALILI-----KNLLKNRLSPKWHYLIWIVFI  46
+
+
+>WP_003511713.1 YegS/Rv2252/BmrU family lipid kinase [Acetivibrio thermocellus]
+ CDG37651.1 putative lipid kinase [Acetivibrio thermocellus BC1]
+ ABN54363.1 diacylglycerol kinase catalytic region [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73797.1 diacylglycerol kinase catalytic region [Acetivibrio thermocellus
+DSM 1313]
+ ALX07730.1 Conserved hypothetical protein CHP00147 [Acetivibrio thermocellus
+AD2]
+ ANV75472.1 Conserved hypothetical protein CHP00147 [Acetivibrio thermocellus
+DSM 2360]
+Length=292
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 14/51 (27%), Positives = 32/51 (63%), Gaps = 2/51 (4%)
+
+Query  147  FINIIEKILEPGIIFNVNIPDCLENEIKG--FKLVSLQLRNYKNLIETRVD  195
+            F N+++ + + G++  V I DC + E+    +K+++ +L+N KN++  R +
+Sbjct  204  FHNLMDAVYDDGLMDIVIIKDCRKIELPAIFYKVINNELQNDKNVVTIRTN  254
+
+
+>WP_003514223.1 ABC transporter permease [Acetivibrio thermocellus]
+ CDG36614.1 hypothetical protein CTHBC1_2011 [Acetivibrio thermocellus BC1]
+ ABN53318.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75754.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09784.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+AD2]
+ ANV77558.1 protein of unknown function DUF214 [Acetivibrio thermocellus
+DSM 2360]
+Length=685
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 23/49 (47%), Gaps = 9/49 (18%)
+
+Query  169  LENEIKGFKLVSLQL---RNYKNLI------ETRVDPKGEKYYWLYGIP  208
+            + N I G + ++ Q    R YK L+      ET     G++  W +GIP
+Sbjct  566  IANTIIGVQFLTWQQKTSRRYKTLVRLGASYETLCHSAGKQINWYFGIP  614
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20533
+Number of extensions: 901
+Number of successful extensions: 20
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 6
+Length of query: 251
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 164
+Effective length of database: 2134357
+Effective search space: 350034548
+Effective search space used: 350034548
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

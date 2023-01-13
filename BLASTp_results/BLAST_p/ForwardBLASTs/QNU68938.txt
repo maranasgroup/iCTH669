@@ -1,0 +1,277 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V4CJK3Z01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= QNU68938 dTMP kinase [Ruminiclostridium herbifermentans]
+
+Length=228
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       38.1    5e-04  21%
+WP_003513590.1 polysaccharide biosynthesis protein [Acetivibri...  28.5    0.89   44%
+WP_003512628.1 Lrp/AsnC family transcriptional regulator [Acet...  27.3    1.2    26%
+NLU27790.1 DUF3883 domain-containing protein [Acetivibrio ther...  26.9    3.2    33%
+WP_136479514.1 site-specific DNA-methyltransferase [Acetivibri...  25.8    6.3    24%
+WP_011838220.1 phage major capsid protein [Acetivibrio thermoc...  25.4    7.7    28%
+WP_003520982.1 tryptophan--tRNA ligase [Acetivibrio thermocellus]  25.0    9.1    32%
+NLU27811.1 tryptophan--tRNA ligase [Acetivibrio thermocellus]      25.0    9.3    32%
+ABN51921.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocel...  25.0    9.3    32%
+WP_020457805.1 helix-turn-helix transcriptional regulator [Ace...  24.6    9.6    27%
+WP_003517098.1 glycosyl transferase [Acetivibrio thermocellus]     25.0    9.9    52%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 38.1 bits (87),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 34/160 (21%), Positives = 60/160 (38%), Gaps = 18/160 (11%)
+
+Query  5    KGILIVFE-GISGCGKSKGVEDLYRELLSRGVKTKVIEWNSIYIIRKIVKKLH-------  56
+            KG LI+ E G    GK+     LY  L+  G K K I + +       + K++
+Sbjct  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+
+Query  57   SMNLLTSWIYSILQWISFLLHYFVEIKPCLGKGYILIADRYIYTGLTRDIANGVKGKTGK  116
+              N ++ ++ S    +     Y  E       G+I++ADRY  + +    A     +
+Sbjct  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+
+Query  117  RVTKFVRK----------PDLILFYDIDVKVCYERIERRG  146
+            R   ++            PD ++F D+      E ++ R
+Sbjct  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERA  161
+
+
+>WP_003513590.1 polysaccharide biosynthesis protein [Acetivibrio thermocellus]
+ CDG36746.1 putative membrane protein MJ1061 [Acetivibrio thermocellus BC1]
+ ABN53434.1 polysaccharide biosynthesis protein CapD [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75885.1 polysaccharide biosynthesis protein CapD [Acetivibrio thermocellus
+DSM 1313]
+ ALX09917.1 polysaccharide biosynthesis protein CapD [Acetivibrio thermocellus
+AD2]
+ ANV77691.1 polysaccharide biosynthesis protein CapD [Acetivibrio thermocellus
+DSM 2360]
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  24   EDLYRELLSRGVKTKVIEWNSIYII  48
+            E +Y EL+S    TK +E N +Y+I
+Sbjct  265  EKMYEELMSEDESTKAVELNDMYVI  289
+
+
+>WP_003512628.1 Lrp/AsnC family transcriptional regulator [Acetivibrio thermocellus]
+ CDG35039.1 AsnC family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN51600.1 transcriptional regulator, AsnC family [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74912.1 transcriptional regulator, AsnC family [Acetivibrio thermocellus
+DSM 1313]
+ ALX08870.1 transcriptional regulator, AsnC family [Acetivibrio thermocellus
+AD2]
+ ANV76620.1 transcriptional regulator, AsnC family [Acetivibrio thermocellus
+DSM 2360]
+Length=159
+
+ Score = 27.3 bits (59),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 48/96 (50%), Gaps = 21/96 (22%)
+
+Query  44   SIYIIRKIVKKLHSMNLLTSWIYSILQW-------ISFLLHYFVEIKPCLGKGYILIADR  96
+            S+  +R+ +KK    N++  ++ S++ W       ++ L+   V++ P  G+G+  +A+R
+Sbjct  26   SVEEVREAIKKYEEDNVILGYM-SLINWEKTSKESVTALIE--VKVTPQRGEGFDKVAER  82
+
+Query  97   ----------YIYTGLTRDIANGVKGKTGKRVTKFV  122
+                      Y+ +G   D+   V+GKT K V  FV
+Sbjct  83   IYRFPEVKACYLMSG-GFDLTVIVEGKTMKEVALFV  117
+
+
+>NLU27790.1 DUF3883 domain-containing protein [Acetivibrio thermocellus]
+Length=583
+
+ Score = 26.9 bits (58),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 10/30 (33%), Positives = 14/30 (47%), Gaps = 0/30 (0%)
+
+Query  77   HYFVEIKPCLGKGYILIADRYIYTGLTRDI  106
+             YFVE+K   GK +I+  D   +     D
+Sbjct  512  EYFVEVKTSDGKSFIITPDELAFANQNSDF  541
+
+
+>WP_136479514.1 site-specific DNA-methyltransferase [Acetivibrio thermocellus]
+ THJ77618.1 DNA modification methylase [Acetivibrio thermocellus]
+Length=421
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 13/54 (24%), Positives = 26/54 (48%), Gaps = 3/54 (6%)
+
+Query  132  DIDVKVCYERIERRGKILFRPNRRVQCNKVLKTENLNYLEEMHKEYLNL-FKDP  184
+            D D+++  E + +RG I      R+ C       ++  L  M +++ ++ F DP
+Sbjct  146  DFDIELPEEPVTKRGDIWLLGKHRLMCGDACSESDVAAL--MREDFADMVFTDP  197
+
+
+>WP_011838220.1 phage major capsid protein [Acetivibrio thermocellus]
+ ABN52940.1 phage major capsid protein, HK97 family [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26522.1 phage major capsid protein [Acetivibrio thermocellus]
+Length=429
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 47/97 (48%), Gaps = 18/97 (19%)
+
+Query  46   YIIRKIVKKLHSMNL----------LTSWIYSILQWISFLLHYFVEIKPC--LGK-GYIL  92
+            YI ++I  +L++M L          + S   +  Q+ + L    + I+ C  LGK G I+
+Sbjct  304  YINQEIEPQLYTMALNIGAGGAPVFMPSGGAAASQYSTLLNRPIIPIEQCSPLGKKGDII  363
+
+Query  93   IADRYIY-----TGLTRDIANGVKGKTGKRVTKFVRK  124
+            +AD   Y      GLT D++  V+    ++V +F+ K
+Sbjct  364  LADPTQYIGIDKKGLTSDVSIHVRFLYDEQVFRFIYK  400
+
+
+>WP_003520982.1 tryptophan--tRNA ligase [Acetivibrio thermocellus]
+ ADU74599.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ANV76292.1 Tryptophan-tRNA ligase, bacterial-type [Acetivibrio thermocellus
+DSM 2360]
+ CDG35379.1 Tryptophan-tRNA ligase [Acetivibrio thermocellus BC1]
+ SOD25056.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus]
+Length=341
+
+ Score = 25.0 bits (53),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  156  VQCNKVLKTENLNYLEEMHKEYLNLFKDPELVKE  189
+            VQC K L  + + +LE ++++   + ++P +VKE
+Sbjct  279  VQCKKNLADKMVEHLEPIYEKRQKIVENPSIVKE  312
+
+
+>NLU27811.1 tryptophan--tRNA ligase [Acetivibrio thermocellus]
+Length=329
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  156  VQCNKVLKTENLNYLEEMHKEYLNLFKDPELVKE  189
+            VQC K L  + + +LE ++++   + ++P +VKE
+Sbjct  267  VQCKKNLADKMVEHLEPIYEKRQKIVENPSIVKE  300
+
+
+>ABN51921.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ ALX08543.1 Tryptophan-tRNA ligase, bacterial-type [Acetivibrio thermocellus
+AD2]
+ EIC05483.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus YS]
+ NIK04949.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus]
+ PFH02816.1 tryptophanyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+Length=329
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 11/34 (32%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  156  VQCNKVLKTENLNYLEEMHKEYLNLFKDPELVKE  189
+            VQC K L  + + +LE ++++   + ++P +VKE
+Sbjct  267  VQCKKNLADKMVEHLEPIYEKRQKIVENPSIVKE  300
+
+
+>WP_020457805.1 helix-turn-helix transcriptional regulator [Acetivibrio thermocellus]
+ ABN53662.1 helix-turn-helix domain protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW27860.1 XRE family transcriptional regulator [Acetivibrio thermocellus]
+Length=142
+
+ Score = 24.6 bits (52),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 25/94 (27%), Positives = 41/94 (44%), Gaps = 11/94 (12%)
+
+Query  104  RDIANGV--------KGKTGKRVTKFVRKPDLILFYDIDVKVCYERIERRGKILFRPNRR  155
+            +D+A+ +        K +TGK    FV    L  FY + V     R + R   +  P
+Sbjct  19   KDVADAIGVDRTTYTKYETGKSQPDFVTIQKLAEFYSVSVDYLLGRTDIRNPYI--PEEY  76
+
+Query  156  VQCNKVLKTENLNYLEEMHKEYLNLFKDPELVKE  189
+             Q +KV K + + Y E+  K+    F + E+ +E
+Sbjct  77   TQKHKVTKRDLMQY-EDFIKQAGIFFMNDEVAEE  109
+
+
+>WP_003517098.1 glycosyl transferase [Acetivibrio thermocellus]
+ CDG36031.1 glycosyltransferase [Acetivibrio thermocellus BC1]
+ ABN52588.1 glycosyltransferase [Acetivibrio thermocellus ATCC 27405]
+ ADU73965.1 glycosyltransferase [Acetivibrio thermocellus DSM 1313]
+ ALX07903.1 hypothetical protein AD2_00908 [Acetivibrio thermocellus AD2]
+ ANV75649.1 glycosyltransferase [Acetivibrio thermocellus DSM 2360]
+Length=301
+
+ Score = 25.0 bits (53),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 15/21 (71%), Gaps = 0/21 (0%)
+
+Query  201  EVTKMIIKNSVEGYISEKTGE  221
+            E TKM+ K  V+ Y++EK GE
+Sbjct  69   EYTKMVDKYEVKKYVAEKIGE  89
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.322    0.142    0.418
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 14013
+Number of extensions: 689
+Number of successful extensions: 16
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 3
+Length of query: 228
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 142
+Effective length of database: 2157177
+Effective search space: 306319134
+Effective search space used: 306319134
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

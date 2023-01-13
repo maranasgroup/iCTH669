@@ -1,0 +1,147 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WB7R6TC016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AUW93674 5'-nucleotidase [Sulfobacillus thermotolerans]
+
+Length=263
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516589.1 hypothetical protein [Acetivibrio thermocellus]     28.1    1.4    30%
+WP_003517364.1 oxidoreductase/nitrogenase component 1 [Acetivi...  26.6    4.3    27%
+WP_136479486.1 nitrogenase [Acetivibrio thermocellus]              26.6    4.5    27%
+
+ALIGNMENTS
+>WP_003516589.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35336.1 hypothetical protein CTHBC1_0672 [Acetivibrio thermocellus BC1]
+ ABN51878.1 uncharacterized membrane protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74644.1 uncharacterized membrane protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08587.1 hypothetical protein AD2_01594 [Acetivibrio thermocellus AD2]
+ ANV76336.1 membrane protein [Acetivibrio thermocellus DSM 2360]
+Length=357
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 29/56 (52%), Gaps = 2/56 (4%)
+
+Query  19   IKLLTGMLSAVARVYVVAPELERSAMGHAI--TMHKPLHATPVEIEGATQAWRING  72
+            + +LTG+   +  + VV P L  SA+G ++   +  PL   P E+  A ++   NG
+Sbjct  131  LTVLTGINGVINSISVVVPFLVTSAVGISLASILLMPLRTNPYELVAAAESVSRNG  186
+
+
+>WP_003517364.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus]
+ ABN52791.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75353.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09347.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+AD2]
+ ANV77101.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+DSM 2360]
+Length=491
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 44/163 (27%), Positives = 62/163 (38%), Gaps = 40/163 (25%)
+
+Query  35   VAPELERSAMGHAITMHKPLHATPVEIEGATQAWRINGTPAD---------CAKLGVE--  83
+            V  EL   A+G AI  H P++ +  E E    A R+    AD         C K   E
+Sbjct  346  VLGELGIKAVGAAIFHHDPIYDSGRE-ENDQLAQRV----ADYGNVFNYNVCNKQEFELV  400
+
+Query  84   -ALLPARPDLLLSGINHGSNLGRDIYYSGTVSAAMEGMFLGVPSMALSYAGDDR-----E  137
+             AL   RPD+LL+   HG                + G  LG+PS+ +   GD+      E
+Sbjct  401  NALNRLRPDVLLA--RHG-------------GMTLWGAKLGIPSLLI---GDEHYSMGYE  442
+
+Query  138  GLEWSARFVRWWVTQSEFIQPPNGMLYNVNFPQWNHQPPHQMV  180
+            GL      +   +   EF++       N     W  QPP+  +
+Sbjct  443  GLVNYGERILEVIENDEFVKNLEKHAINPYTKWWLEQPPYYFL  485
+
+
+>WP_136479486.1 nitrogenase [Acetivibrio thermocellus]
+ THJ77668.1 nitrogenase [Acetivibrio thermocellus]
+Length=491
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 44/163 (27%), Positives = 62/163 (38%), Gaps = 40/163 (25%)
+
+Query  35   VAPELERSAMGHAITMHKPLHATPVEIEGATQAWRINGTPAD---------CAKLGVE--  83
+            V  EL   A+G AI  H P++ +  E E    A R+    AD         C K   E
+Sbjct  346  VLGELGIKAVGAAIFHHDPIYDSGRE-ENDQLAQRV----ADYGDVFNYNVCNKQEFELV  400
+
+Query  84   -ALLPARPDLLLSGINHGSNLGRDIYYSGTVSAAMEGMFLGVPSMALSYAGDDR-----E  137
+             AL   RPD+LL+   HG                + G  LG+PS+ +   GD+      E
+Sbjct  401  NALNRLRPDVLLA--RHG-------------GMTLWGAKLGIPSLLI---GDEHYSMGYE  442
+
+Query  138  GLEWSARFVRWWVTQSEFIQPPNGMLYNVNFPQWNHQPPHQMV  180
+            GL      +   +   EF++       N     W  QPP+  +
+Sbjct  443  GLVNYGERILEVIENDEFVKNLEKHAINPYTKWWLEQPPYYFL  485
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.137    0.434
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22344
+Number of extensions: 935
+Number of successful extensions: 11
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 3
+Length of query: 263
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 176
+Effective length of database: 2134357
+Effective search space: 375646832
+Effective search space used: 375646832
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

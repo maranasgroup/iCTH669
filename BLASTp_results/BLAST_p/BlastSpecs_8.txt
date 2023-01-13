@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+csh Clostridium saccharolyticum WM1
+cso Clostridium cf. saccharolyticum K10
+bprl Anaerostipes hadrus
+arf Anaerostipes rhamnosivorans
+acac Anaerostipes caccae
+hsd Herbinix luporum
+cpro Anaerotignum propionicum
+lua Lachnoanaerobaculum umeaense
+ehl Anaerobutyricum hallii
+pxv Pseudobutyrivibrio xylanivorans
+anr Anaerocolumna sedimenticola

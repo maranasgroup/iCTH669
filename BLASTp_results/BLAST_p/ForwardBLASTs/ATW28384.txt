@@ -1,0 +1,353 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WZGB1NU016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ATW28384 5'-nucleotidase [Candidatus Formimonas]
+
+Length=238
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517447.1 phosphoribosylamine--glycine ligase [Acetivibri...  27.7    1.4    34%
+WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]      27.3    2.4    31%
+WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]      27.3    2.4    31%
+NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]          27.3    2.4    31%
+WP_003516668.1 pyrimidine-nucleoside phosphorylase [Acetivibri...  25.8    6.9    33%
+CDG35122.1 portal protein SPP1 [Acetivibrio thermocellus BC1]      25.8    7.1    39%
+WP_003518642.1 bifunctional pyr operon transcriptional regulat...  25.4    7.2    31%
+WP_003517463.1 phosphoenolpyruvate synthase [Acetivibrio therm...  25.8    7.2    21%
+WP_004463638.1 phosphoenolpyruvate synthase [Acetivibrio therm...  25.8    7.6    21%
+WP_136479572.1 bifunctional pyr operon transcriptional regulat...  25.0    8.0    31%
+WP_003511763.1 IS110-like element ISCth8 family transposase [A...  25.4    8.3    23%
+WP_011838287.1 IS110 family transposase [Acetivibrio thermocel...  25.4    8.3    23%
+WP_003514203.1 DUF2600 family protein [Acetivibrio thermocellus]   25.0    9.8    63%
+WP_136479601.1 DUF2600 family protein [Acetivibrio thermocellus]   25.0    9.9    63%
+
+ALIGNMENTS
+>WP_003517447.1 phosphoribosylamine--glycine ligase [Acetivibrio thermocellus]
+ CDG35914.1 Phosphoribosylamine-glycine ligase [Acetivibrio thermocellus
+BC1]
+ ABN52477.1 phosphoribosylamine/glycine ligase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74081.1 phosphoribosylamine/glycine ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08019.1 Phosphoribosylamine--glycine ligase [Acetivibrio thermocellus
+AD2]
+ ANV75766.1 Phosphoribosylamine--glycine ligase [Acetivibrio thermocellus
+DSM 2360]
+Length=419
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 20/41 (49%), Gaps = 0/41 (0%)
+
+Query  183  EYFWLAGDVVNVEGNGNTDVDAIRNNYISVSPIHFDLTHYK  223
+            +Y+   G V+ V    NT  +AI+  Y  V  I F   HY+
+Sbjct  373  KYYTAGGRVLGVTAMENTLDEAIKKAYEGVGKIKFQDMHYR  413
+
+
+>WP_011837808.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ ABN51562.1 valyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ HBW26065.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  202  VDAIRNNYISVSPIHFDLTHYKVMETIQSWGI  233
+            ++ ++N  I   P  F   ++  ME IQ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>WP_003519337.1 valine--tRNA ligase [Acetivibrio thermocellus]
+ CDG35000.1 Valine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ADU74953.1 valyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08914.1 Valyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV76664.1 Valyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC05100.1 Valyl-tRNA synthetase [Acetivibrio thermocellus YS]
+Length=884
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  202  VDAIRNNYISVSPIHFDLTHYKVMETIQSWGI  233
+            ++ ++N  I   P  F   ++  ME IQ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>NLU25601.1 valine--tRNA ligase [Acetivibrio thermocellus]
+Length=884
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 16/32 (50%), Gaps = 0/32 (0%)
+
+Query  202  VDAIRNNYISVSPIHFDLTHYKVMETIQSWGI  233
+            ++ ++N  I   P  F   ++  ME IQ W I
+Sbjct  374  IEVVKNGTIKFVPERFSKIYFNWMENIQDWCI  405
+
+
+>WP_003516668.1 pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus]
+ CDG35371.1 Pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus
+BC1]
+ ABN51913.1 pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74607.1 pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08551.1 pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus
+AD2]
+ ANV76300.1 pyrimidine-nucleoside phosphorylase [Acetivibrio thermocellus
+DSM 2360]
+Length=433
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 4/49 (8%)
+
+Query  128  KLCQLLRLKGFPTDTLLNVNIPNSEPDSIKGVKIAALGSRHYINTVQCR  176
+            KL +L+R++G  TD + N   PN  P + K +++ +  +  YIN+V
+Sbjct  308  KLKELIRIQGGNTDVVDN---PNLLPQAEKHIEVKS-STAGYINSVNAE  352
+
+
+>CDG35122.1 portal protein SPP1 [Acetivibrio thermocellus BC1]
+Length=436
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 24/38 (63%), Gaps = 2/38 (5%)
+
+Query  100  MINGLPAVAVSLNDDTVLDFSFAAQFAAKLCQLLRLKG  137
+            M+  L +V   LN+D++LD  F  ++  K+ +LL LKG
+Sbjct  332  MMYSLASVKARLNEDSLLD-GFIQRW-EKIKKLLSLKG  367
+
+
+>WP_003518642.1 bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase
+PyrR [Acetivibrio thermocellus]
+ A3DE09.1 RecName: Full=Bifunctional protein PyrR; Includes: RecName: Full=Pyrimidine
+operon regulatory protein; Includes: RecName:
+Full=Uracil phosphoribosyltransferase; Short=UPRTase [Acetivibrio
+thermocellus ATCC 27405]
+ ABN52188.1 phosphoribosyltransferase [Acetivibrio thermocellus ATCC 27405]
+ ADU74325.1 phosphoribosyltransferase [Acetivibrio thermocellus DSM 1313]
+ ALX08269.1 Bifunctional protein pyrR [Acetivibrio thermocellus AD2]
+ ANV76017.1 Bifunctional protein pyrR [Acetivibrio thermocellus DSM 2360]
+ EIC05826.1 phosphoribosyltransferase [Acetivibrio thermocellus YS]
+Length=184
+
+ Score = 25.4 bits (54),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 40/89 (45%), Gaps = 14/89 (16%)
+
+Query  86   DVLYSG-TVSAAIEAMIN-GLPAVA--VSLNDDTVLDFSFAAQFAAKLCQLLRLKGFPTD  141
+            DVLY+G TV AAI+A+++ G P +     L D    +      +  K          PT
+Sbjct  104  DVLYTGRTVRAAIDALMDAGRPKMVQLAVLIDRGHRELPIRPDYVGK--------NVPTS  155
+
+Query  142  TLLNVNIPNSEPDSIKGVKIAAL--GSRH  168
+             L  VN+   E D +  V I+ +  G RH
+Sbjct  156  RLEVVNVKLYEIDGVNCVTISDIEKGVRH  184
+
+
+>WP_003517463.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ ADU74073.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08011.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus AD2]
+ ANV75758.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC06209.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus YS]
+ PFH02282.1 pyruvate phosphate dikinase-like enzyme [Acetivibrio thermocellus
+AD2]
+Length=860
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 28/135 (21%), Positives = 57/135 (42%), Gaps = 12/135 (9%)
+
+Query  96   AIEAMINGLPAV-----AVSLNDDTVLDFSFAAQFAAKLCQLLRLKGFPTDTLLNVNIPN  150
+            A E + +G+P++      + L D+ V+  +    F   +   +         ++ +   N
+Sbjct  3    AFERVRSGIPSLDKVLDNIRLGDNVVIQVTCLNDFKRIVHPFVNQSIEDKRNIIYIRFSN  62
+
+Query  151  SEP--DSIKGVKIAAL----GSRHYINTVQCRTDPRGREYFWLAGDVVNVEGNGNTDVDA  204
+             EP  + + G+KI  L    G   +   V    D  GRE F++   + +++   +TD+
+Sbjct  63   HEPLLEYMDGLKIYQLNANRGFEAFTVEVHNIIDKEGREAFYVFDSLSDLQVAWSTDL-M  121
+
+Query  205  IRNNYISVSPIHFDL  219
+            + N +    P  F+L
+Sbjct  122  MGNFFCVTCPYLFEL  136
+
+
+>WP_004463638.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ CDG35922.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus BC1]
+ ABN52485.1 pyruvate phosphate dikinase PEP/pyruvate-binding protein [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26887.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ THJ79005.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+ HBW28224.1 phosphoenolpyruvate synthase [Acetivibrio thermocellus]
+Length=860
+
+ Score = 25.8 bits (55),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 28/135 (21%), Positives = 57/135 (42%), Gaps = 12/135 (9%)
+
+Query  96   AIEAMINGLPAV-----AVSLNDDTVLDFSFAAQFAAKLCQLLRLKGFPTDTLLNVNIPN  150
+            A E + +G+P++      + L D+ V+  +    F   +   +         ++ +   N
+Sbjct  3    AFERVRSGIPSLDKVLDNIRLGDNVVIQVTCLNDFKRIVHPFVNQSIEDKRNIIYIRFSN  62
+
+Query  151  SEP--DSIKGVKIAAL----GSRHYINTVQCRTDPRGREYFWLAGDVVNVEGNGNTDVDA  204
+             EP  + + G+KI  L    G   +   V    D  GRE F++   + +++   +TD+
+Sbjct  63   HEPLLEYMDGLKIYQLNANRGFEAFTVEVHNIIDKEGREAFYVFDSLSDLQVAWSTDL-M  121
+
+Query  205  IRNNYISVSPIHFDL  219
+            + N +    P  F+L
+Sbjct  122  MGNFFCVTCPYLFEL  136
+
+
+>WP_136479572.1 bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase
+PyrR [Acetivibrio thermocellus]
+ THJ77368.1 bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase
+PyrR [Acetivibrio thermocellus]
+Length=184
+
+ Score = 25.0 bits (53),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 28/89 (31%), Positives = 40/89 (45%), Gaps = 14/89 (16%)
+
+Query  86   DVLYSG-TVSAAIEAMIN-GLPAVA--VSLNDDTVLDFSFAAQFAAKLCQLLRLKGFPTD  141
+            DVLY+G TV AAI+A+++ G P +     L D    +      +  K          PT
+Sbjct  104  DVLYTGRTVRAAIDALMDAGRPKMVQLAVLIDRGHRELPIRPDYVGK--------NVPTS  155
+
+Query  142  TLLNVNIPNSEPDSIKGVKIAAL--GSRH  168
+             L  VN+   E D +  V I+ +  G RH
+Sbjct  156  RLEVVNVKLYEIDGVNCVTISDIEKGVRH  184
+
+
+>WP_003511763.1 IS110-like element ISCth8 family transposase [Acetivibrio thermocellus]
+ ABN52777.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53969.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 22/94 (23%), Positives = 39/94 (41%), Gaps = 8/94 (9%)
+
+Query  140  TDTLLNVNIPNSEPDSIKGVKIAALGSRHYINT-------VQCRTDPRGREYFWLAGDVV  192
+            TD++ N+ I   + D +   KIA L     + T       ++C      R+Y+ L+ ++
+Sbjct  92   TDSIKNIGIRKVKNDKVDARKIALLYRFQELKTTNIPDEDIEC-LRSLCRQYYKLSDELT  150
+
+Query  193  NVEGNGNTDVDAIRNNYISVSPIHFDLTHYKVME  226
+              +      VD +  N+  V P  F      V+E
+Sbjct  151  AYKNRLMGIVDQLMLNFKDVFPNIFSKAALAVLE  184
+
+
+>WP_011838287.1 IS110 family transposase [Acetivibrio thermocellus]
+ ABN53105.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53686.1 transposase IS116/IS110/IS902 family protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 22/94 (23%), Positives = 39/94 (41%), Gaps = 8/94 (9%)
+
+Query  140  TDTLLNVNIPNSEPDSIKGVKIAALGSRHYINT-------VQCRTDPRGREYFWLAGDVV  192
+            TD++ N+ I   + D +   KIA L     + T       ++C      R+Y+ L+ ++
+Sbjct  92   TDSIKNIGIRKVKNDKVDARKIALLYRFQELKTTNIPDEDIEC-LRSLCRQYYKLSDELT  150
+
+Query  193  NVEGNGNTDVDAIRNNYISVSPIHFDLTHYKVME  226
+              +      VD +  N+  V P  F      V+E
+Sbjct  151  AYKNRLMGIVDQLMLNFKDVFPNIFSKAALAVLE  184
+
+
+>WP_003514203.1 DUF2600 family protein [Acetivibrio thermocellus]
+ CDG36599.1 hypothetical protein CTHBC1_1996 [Acetivibrio thermocellus BC1]
+ ABN53304.1 Protein of unknown function DUF2600 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75739.1 Protein of unknown function DUF2600 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09769.1 Protein of unknown function DUF2600 [Acetivibrio thermocellus
+AD2]
+ ANV77543.1 Protein of unknown function DUF2600 [Acetivibrio thermocellus
+DSM 2360]
+Length=347
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  122  AAQFAAKLCQLLRLKG  137
+            AA+F   LC+LLRL G
+Sbjct  330  AARFYYNLCKLLRLSG  345
+
+
+>WP_136479601.1 DUF2600 family protein [Acetivibrio thermocellus]
+ THJ77117.1 DUF2600 family protein [Acetivibrio thermocellus]
+Length=347
+
+ Score = 25.0 bits (53),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  122  AAQFAAKLCQLLRLKG  137
+            AA+F   LC+LLRL G
+Sbjct  330  AARFYYNLCKLLRLSG  345
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.135    0.397
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17390
+Number of extensions: 728
+Number of successful extensions: 16
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 1
+Length of query: 238
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 152
+Effective length of database: 2142420
+Effective search space: 325647840
+Effective search space used: 325647840
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

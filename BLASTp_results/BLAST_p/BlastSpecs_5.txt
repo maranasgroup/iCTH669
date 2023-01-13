@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+ova Oscillibacter valericigenes
+obj Oscillospiraceae bacterium J115
+caml Caproicibacterium amylolyticum
+clf Caproicibacterium lactatifermentans
+sman Solibaculum mannosilyticum
+pfaa Pusillimonas faecalis
+vfa Vescimonas fastidiosa
+vcop Vescimonas coprocola
+cfem Caproicibacter fermentans
+bpb Butyrivibrio proteoclasticus

@@ -1,0 +1,720 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UXSC9RX01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_148552032.1 deoxynucleoside kinase [Paraclostridium biferme...  320     3e-112  65%
+WP_021434231.1 deoxynucleoside kinase [Paraclostridium biferme...  320     4e-112  65%
+WP_021430404.1 deoxynucleoside kinase [Paraclostridium]            320     6e-112  65%
+WP_035118406.1 deoxynucleoside kinase [Paraclostridium biferme...  319     9e-112  65%
+WP_168932680.1 deoxynucleoside kinase [Paraclostridium biferme...  319     1e-111  65%
+WP_148324942.1 thymidylate kinase [Clostridiaceae]                 315     3e-110  66%
+WP_021431601.1 deoxynucleoside kinase [Paraclostridium biferme...  29.3    1.6     21%
+WP_195947072.1 deoxynucleoside kinase [Paraclostridium biferme...  29.3    1.7     21%
+WP_150887026.1 pentapeptide repeat-containing protein [Paraclo...  29.6    1.8     31%
+MBS5955107.1 preprotein translocase subunit SecE [Paraclostrid...  27.3    2.4     32%
+WP_195947718.1 pentapeptide repeat-containing protein [Paraclo...  28.9    2.5     29%
+WP_025161357.1 deoxynucleoside kinase [Paraclostridium biferme...  28.9    2.5     21%
+WP_148549827.1 pentapeptide repeat-containing protein [Paraclo...  28.9    2.6     29%
+WP_220796642.1 pentapeptide repeat-containing protein [Paraclo...  28.9    2.6     29%
+WP_021428329.1 deoxynucleoside kinase [Paraclostridium]            28.9    2.7     21%
+WP_150886833.1 deoxynucleoside kinase [Paraclostridium biferme...  28.5    2.7     21%
+WP_195514655.1 Mrp/NBP35 family ATP-binding protein [Paraclost...  28.9    3.0     39%
+WP_234248848.1 pentapeptide repeat-containing protein [Paraclo...  28.5    3.3     29%
+WP_021433763.1 pentapeptide repeat-containing protein [Paraclo...  28.5    3.3     29%
+WP_021429612.1 pentapeptide repeat-containing protein [Paraclo...  28.5    3.3     29%
+WP_224170622.1 hypothetical protein [Paraclostridium biferment...  28.5    3.7     29%
+WP_216560831.1 pentapeptide repeat-containing protein [Paraclo...  28.5    4.1     29%
+WP_085282365.1 pentapeptide repeat-containing protein [Paraclo...  28.1    4.3     29%
+WP_247011870.1 glycosyltransferase [Paraclostridium bifermentans]  28.1    5.6     36%
+WP_247011955.1 pentapeptide repeat-containing protein [Paraclo...  27.7    6.2     29%
+WP_021432609.1 aminotransferase class V-fold PLP-dependent enz...  27.7    6.4     26%
+MBS6506922.1 M42 family metallopeptidase [Paraclostridium bife...  27.7    6.8     44%
+WP_148549965.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    6.8     44%
+WP_195946197.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    6.8     44%
+WP_021433613.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    6.8     44%
+WP_114543142.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    6.9     44%
+WP_025161600.1 M42 family metallopeptidase [Paraclostridium]       27.7    6.9     44%
+WP_035115031.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    7.0     44%
+WP_021429747.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    7.0     44%
+WP_142729940.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    7.1     44%
+WP_224170414.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    7.2     44%
+WP_150843148.1 M42 family metallopeptidase [Paraclostridium bi...  27.7    7.2     44%
+
+ALIGNMENTS
+>WP_148552032.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBS5954362.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBS6509313.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBU5289804.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=229
+
+ Score = 320 bits (821),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 147/225 (65%), Positives = 189/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G II+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGIIIADRYTTSNMVHQASKM-DEQER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              SY NSLY+A KYNW KI+C++D  L+ ID I +EVY+ V   I
+Sbjct  180  TRSYNNSLYIANKYNWNKIDCIEDEKLRSIDSIHEEVYKVVKKTI  224
+
+
+>WP_021434231.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ EQK40879.1 deoxynucleoside kinase family protein [[Clostridium] bifermentans
+ATCC 638] [Paraclostridium bifermentans ATCC 638]
+ RIZ58141.1 thymidylate kinase [Paraclostridium bifermentans]
+ UAG18307.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=229
+
+ Score = 320 bits (820),  Expect = 4e-112, Method: Compositional matrix adjust.
+ Identities = 146/225 (65%), Positives = 189/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G +I+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGVIIADRYTTSNMVHQASKM-DEQER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              SY NSLY+A KYNW KI+C++D  L+ ID I +EVY+ V   I
+Sbjct  180  TRSYNNSLYIANKYNWNKIDCIEDEKLRSIDSIHEEVYKVVKKTI  224
+
+
+>WP_021430404.1 MULTISPECIES: deoxynucleoside kinase [Paraclostridium]
+ EQK44620.1 deoxynucleoside kinase family protein [[Clostridium] bifermentans
+ATCC 19299] [Paraclostridium bifermentans ATCC 19299]
+ MBZ6006996.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MCE9677081.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ QEZ69315.1 thymidylate kinase [Paraclostridium bifermentans]
+ TQO59847.1 thymidylate kinase [Paraclostridium bifermentans]
+Length=229
+
+ Score = 320 bits (819),  Expect = 6e-112, Method: Compositional matrix adjust.
+ Identities = 146/225 (65%), Positives = 188/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G II+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGIIIADRYTTSNMVHQASKM-DEQER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              SY NSLY+A KYNW KI+C+ D  L+ ID I +E+Y+ V   I
+Sbjct  180  TRSYNNSLYIANKYNWNKIDCINDEKLRSIDSIHEEIYKVVKKTI  224
+
+
+>WP_035118406.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ OSB08335.1 thymidylate kinase [Paraclostridium bifermentans]
+ GIM31160.1 thymidylate kinase [Paraclostridium bifermentans subsp. muricolitidis]
+Length=229
+
+ Score = 319 bits (818),  Expect = 9e-112, Method: Compositional matrix adjust.
+ Identities = 146/225 (65%), Positives = 188/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G II+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGIIIADRYTTSNMVHQASKM-DEQER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              SY NSLY+A KYNW KI+C+ D  L+ ID I +E+Y+ V   I
+Sbjct  180  TRSYNNSLYIANKYNWNKIDCIDDEKLRSIDSIHEEIYKVVKKTI  224
+
+
+>WP_168932680.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBN8049225.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ NME10830.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=229
+
+ Score = 319 bits (818),  Expect = 1e-111, Method: Compositional matrix adjust.
+ Identities = 146/225 (65%), Positives = 188/225 (84%), Gaps = 1/225 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY RL+++GYKVKK+ +PNY SDS++LVKMYLNGDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTKKLYNRLIEDGYKVKKVEYPNYKSDSASLVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K+ NDV  YVASTF+A DR+AS++TEW   YN+G II+ADRYTTSNMVHQA+K+ D +E+
+Sbjct  61   KNANDVDAYVASTFFAADRYASFKTEWESFYNEGGIIIADRYTTSNMVHQASKM-DEKER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D++++WL++FEF +YK+P PDCV+FLD+P  FS++LM+ R NKFTGE+KKDIHE + +YL
+Sbjct  120  DKYINWLFDFEFNLYKIPQPDCVVFLDVPVEFSKKLMENRKNKFTGEEKKDIHESDIDYL  179
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              SY NSLY+A KYNW KI+C+ D  L+ ID I +E+Y+ V   I
+Sbjct  180  TRSYNNSLYIANKYNWNKIDCINDEKLRSIDSIHEEIYKVVKKTI  224
+
+
+>WP_148324942.1 MULTISPECIES: thymidylate kinase [Clostridiaceae]
+Length=225
+
+ Score = 315 bits (808),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 148/224 (66%), Positives = 186/224 (83%), Gaps = 1/224 (0%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLIIIESG+DASGKATQ+ +LY+RL+ EG K  KITFP+Y+SDSSALVKMYLNGDFGK
+Sbjct  3    KGKLIIIESGSDASGKATQSERLYQRLISEGKKCMKITFPDYESDSSALVKMYLNGDFGK  62
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            +PNDVSPY++STFYA DR+ASY+T+WG+ YN+G II++DRYTTSNMVHQAAKI +  EK+
+Sbjct  63   NPNDVSPYISSTFYAADRYASYKTKWGEFYNNGGIIISDRYTTSNMVHQAAKI-ESPEKE  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+            +FL+WL++ EF IY +P PD VIFLD+ P  S+ELMK R NK TG++ KDIHE N EYL+
+Sbjct  122  KFLEWLYDLEFNIYGIPRPDEVIFLDVEPEVSQELMKNRMNKITGQEDKDIHESNKEYLI  181
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            +SY NSLYVA KYNW  I+C K+G L+ I++I  E+Y+ +   I
+Sbjct  182  DSYNNSLYVADKYNWKIIKCTKEGKLRSIEDINNEIYDNIKNYI  225
+
+
+>WP_021431601.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ EQK45511.1 deoxyguanosine kinase [[Clostridium] bifermentans ATCC 638] [Paraclostridium
+bifermentans ATCC 638]
+ MBS5954207.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBS6509049.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBU5289564.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ RIZ57554.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=220
+
+ Score = 29.3 bits (64),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 29/136 (21%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  65   DVSPYVAST--FYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            D+  Y   T  F+  +R            + G  I++D +   N++     + +M+
+Sbjct  50   DIKEYALQTESFFLFNRIKQLEDAEKNLLSQGTSIVSDYHIIKNLIFAGITLDNMQ----  105
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKD-IHERNDEYLV  181
+            F  +   +   I  LP PD +I+L+         +  R   F  +  ++ I E + EY
+Sbjct  106  FYKYKQMYNIFINDLPQPDIIIYLNSNTDVLMNRIAMRDRSFERQMDRNYIQELSTEY--  163
+
+Query  182  ESYRNSLYVAKKYNWI  197
+            + Y N L +  K+N++
+Sbjct  164  KYYFNPLSI--KHNFV  177
+
+
+>WP_195947072.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=220
+
+ Score = 29.3 bits (64),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 28/136 (21%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  65   DVSPYVAST--FYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            D+  Y   T  F+  +R            + G  +++D +   N++     + +M+
+Sbjct  50   DIKEYALQTESFFLFNRIKQLEDTEKNLLSQGMSVVSDYHIIKNLIFAGITLDNMQ----  105
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKD-IHERNDEYLV  181
+            F  +   +   I  LP PD +I+L+         +  R   F  +  ++ I E + EY
+Sbjct  106  FYKYKQMYNIFINDLPQPDIIIYLNSNTDVLMNRIAMRDRSFERQMDRNYIQELSTEY--  163
+
+Query  182  ESYRNSLYVAKKYNWI  197
+            + Y N L +  K+N++
+Sbjct  164  KYYFNPLSI--KHNFV  177
+
+
+>WP_150887026.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ QEZ70057.1 hypothetical protein D4A35_14595 [Paraclostridium bifermentans]
+Length=332
+
+ Score = 29.6 bits (65),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ VL+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKNSVLR  100
+
+
+>MBS5955107.1 preprotein translocase subunit SecE [Paraclostridium bifermentans]
+Length=76
+
+ Score = 27.3 bits (59),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 24/41 (59%), Gaps = 0/41 (0%)
+
+Query  15  SGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYL  55
+           +GKA Q + L+    +   +VKKIT+P+ +    AL+ + +
+Sbjct  9   TGKAVQKSSLFSFFREVKAEVKKITWPSKNETKKALIAVLI  49
+
+
+>WP_195947718.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.9 bits (63),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_025161357.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=220
+
+ Score = 28.9 bits (63),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 28/136 (21%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  65   DVSPYVAST--FYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            D+  Y   T  F+  +R            + G  +++D +   N++     + +M+
+Sbjct  50   DIKEYALQTESFFLFNRIKQLEDTEKNLLSQGTSVVSDYHIIKNLIFAGITLDNMQ----  105
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKD-IHERNDEYLV  181
+            F  +   +   I  LP PD +I+L+         +  R   F  +  ++ I E + EY
+Sbjct  106  FYKYKQMYNIFINDLPQPDIIIYLNSNTDVLMNRIAMRDRSFERQMDRNYIQELSTEY--  163
+
+Query  182  ESYRNSLYVAKKYNWI  197
+            + Y N L +  K+N++
+Sbjct  164  KYYFNPLSI--KHNFV  177
+
+
+>WP_148549827.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ MBS6509177.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.9 bits (63),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_220796642.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ GIM32295.1 hypothetical protein PAGU1678_15650 [Paraclostridium bifermentans
+subsp. muricolitidis]
+Length=332
+
+ Score = 28.9 bits (63),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_021428329.1 MULTISPECIES: deoxynucleoside kinase [Paraclostridium]
+ EQK48723.1 deoxyguanosine kinase [[Clostridium] bifermentans ATCC 19299]
+[Paraclostridium bifermentans ATCC 19299]
+ MBN8049065.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MBZ6006427.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ MCE9676519.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=220
+
+ Score = 28.9 bits (63),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 28/136 (21%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  65   DVSPYVAST--FYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            D+  Y   T  F+  +R            + G  +++D +   N++     + +M+
+Sbjct  50   DIKEYALQTESFFLFNRIKQLEDTEKNLLSQGTSVVSDYHIIKNLIFAGITLDNMQ----  105
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKD-IHERNDEYLV  181
+            F  +   +   I  LP PD +I+L+         +  R   F  +  ++ I E + EY
+Sbjct  106  FYKYKQMYNIFINDLPQPDIIIYLNSNTDVLMNRIAMRDRSFERQMDRNYIQELSTEY--  163
+
+Query  182  ESYRNSLYVAKKYNWI  197
+            + Y N L +  K+N++
+Sbjct  164  KYYFNPLSI--KHNFV  177
+
+
+>WP_150886833.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ QEZ69469.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+ QEZ69595.1 deoxynucleoside kinase [Paraclostridium bifermentans]
+Length=220
+
+ Score = 28.5 bits (62),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 28/136 (21%), Positives = 56/136 (41%), Gaps = 11/136 (8%)
+
+Query  65   DVSPYVAST--FYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            D+  Y   T  F+  +R            + G  +++D +   N++     + +M+
+Sbjct  50   DIKEYALQTESFFLFNRIKQLEDAEKNLLSQGTSVVSDYHIIKNLIFAGITLDNMQ----  105
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKD-IHERNDEYLV  181
+            F  +   +   I  LP PD +I+L+         +  R   F  +  ++ I E + EY
+Sbjct  106  FYKYKQMYNIFINDLPQPDIIIYLNSNTDVLMNRIAMRDRSFERQMDRNYIQELSTEY--  163
+
+Query  182  ESYRNSLYVAKKYNWI  197
+            + Y N L +  K+N++
+Sbjct  164  KYYFNPLSI--KHNFV  177
+
+
+>WP_195514655.1 Mrp/NBP35 family ATP-binding protein [Paraclostridium bifermentans]
+Length=280
+
+ Score = 28.9 bits (63),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  5   LIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           +I + SG    GK+T +  +  +LVQ GY+V
+Sbjct  33  IIAVMSGKGGVGKSTMSVMMARQLVQRGYRV  63
+
+
+>WP_234248848.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ MCE9675673.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSVFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_021433763.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ EQK43720.1 pentapeptide repeats family protein [[Clostridium] bifermentans
+ATCC 638] [Paraclostridium bifermentans ATCC 638]
+ RIZ59581.1 hypothetical protein CHH45_05630 [Paraclostridium bifermentans]
+ UAG17555.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSVFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_021429612.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ EQK45853.1 pentapeptide repeats family protein [[Clostridium] bifermentans
+ATCC 19299] [Paraclostridium bifermentans ATCC 19299]
+ MBN8048066.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ MBZ6006009.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ NME08099.1 hypothetical protein [Paraclostridium bifermentans]
+ TQO58735.1 hypothetical protein D5S05_03690 [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 31/51 (61%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+ +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSVFINCKFNKVRFIDCNFKNSILR  100
+
+
+>WP_224170622.1 hypothetical protein [Paraclostridium bifermentans]
+ MBZ6005716.1 hypothetical protein [Paraclostridium bifermentans]
+Length=385
+
+ Score = 28.5 bits (62),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 37/75 (49%), Gaps = 11/75 (15%)
+
+Query  154  RELMKERANKFTGEQKKDIHERND----------EYLVESYRNSLY-VAKKYNWIKIECV  202
+            ++L +E   +   E+KKD  E+ND          EY+ +  R S Y +   Y W+  E +
+Sbjct  52   KKLGQEYEGQVITEEKKDYLEKNDIQIREKDNKGEYVTDKERVSAYGINDFYMWVNPEYL  111
+
+Query  203  KDGVLKKIDEIQKEV  217
+             +    K D+I+KE+
+Sbjct  112  INNRFYKFDDIKKEI  126
+
+
+>WP_216560831.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ MBS5952935.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ MBU5287552.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.5 bits (62),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 30/51 (59%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K  +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKSSILR  100
+
+
+>WP_085282365.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ OSB10740.1 hypothetical protein B2H97_07280 [Paraclostridium bifermentans]
+Length=332
+
+ Score = 28.1 bits (61),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 30/51 (59%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K  +L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKSSILR  100
+
+
+>WP_247011870.1 glycosyltransferase [Paraclostridium bifermentans]
+ UOW67240.1 glycosyltransferase [Paraclostridium bifermentans]
+Length=407
+
+ Score = 28.1 bits (61),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 36/76 (47%), Gaps = 4/76 (5%)
+
+Query  28   LVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD-PNDVSPYVASTFYAVDRF-ASYRT  85
+            L    YKVKK TF N D+ S  +V  +L     +   N  + YV      +D+F AS  T
+Sbjct  166  LTSTMYKVKKDTFANLDNISIVVVSNWLKKICKESFLNKHNTYVIENGINLDKFKASNNT  225
+
+Query  86   EWGQAYN--DGWIILA  99
+               + YN  D +IIL
+Sbjct  226  ALKEKYNIKDKFIILG  241
+
+
+>WP_247011955.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+ UOW67293.1 pentapeptide repeat-containing protein [Paraclostridium bifermentans]
+Length=332
+
+ Score = 27.7 bits (60),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 15/51 (29%), Positives = 30/51 (59%), Gaps = 2/51 (4%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIK-IEC-VKDGVLK  208
+            +  KF   + KD+   N E++  S+ NS+++  K+N ++ I+C  K+  L+
+Sbjct  50   KNTKFESRKIKDMQFENIEFINCSFENSIFINCKFNKVRFIDCNFKNSTLR  100
+
+
+>WP_021432609.1 aminotransferase class V-fold PLP-dependent enzyme [Paraclostridium
+bifermentans]
+ EQK42480.1 aluminum resistance protein [[Clostridium] bifermentans ATCC
+638] [Paraclostridium bifermentans ATCC 638]
+ RIZ59993.1 hypothetical protein CHH45_03495 [Paraclostridium bifermentans]
+ UAG19315.1 methionine gamma-lyase family protein [Paraclostridium bifermentans]
+Length=425
+
+ Score = 27.7 bits (60),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 39/76 (51%), Gaps = 2/76 (3%)
+
+Query  151  SFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKI  210
+            + S E+M++  ++F  E+ K+  E N   ++++ + S      +NW       D   +KI
+Sbjct  21   NLSNEVMEDIKSRF--EEIKETREYNQYKVLKAMQESNLSDNHFNWTTGYGYNDIGREKI  78
+
+Query  211  DEIQKEVYEAVSGIIR  226
+            +EI  +V+ A   I+R
+Sbjct  79   EEIYSKVFNAEDAIVR  94
+
+
+>MBS6506922.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_148549965.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_195946197.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_021433613.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ EQK43560.1 M42 glutamyl aminopeptidase family protein [[Clostridium] bifermentans
+ATCC 638] [Paraclostridium bifermentans ATCC 638]
+ RIZ59728.1 aminopeptidase [Paraclostridium bifermentans]
+ UAG17408.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_114543142.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ MBS5953112.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ MBU5287375.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_025161600.1 MULTISPECIES: M42 family metallopeptidase [Paraclostridium]
+ QEZ70225.1 M42 family peptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_035115031.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ OSB10592.1 aminopeptidase [Paraclostridium bifermentans]
+ GIM31625.1 aminopeptidase [Paraclostridium bifermentans subsp. muricolitidis]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_021429747.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ EQK45989.1 M42 glutamyl aminopeptidase family protein [[Clostridium] bifermentans
+ATCC 19299] [Paraclostridium bifermentans ATCC 19299]
+ MCE9675838.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ UOW67123.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_142729940.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ TQO58899.1 M42 family peptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_224170414.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ MBZ6005055.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+>WP_150843148.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ MBN8047884.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+ NME08280.1 M42 family metallopeptidase [Paraclostridium bifermentans]
+Length=343
+
+ Score = 27.7 bits (60),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 16/36 (44%), Positives = 22/36 (61%), Gaps = 8/36 (22%)
+
+Query  23   KLYERLVQE------GYKVKKITFPNYDSDSSALVK  52
+            +L  RL+Q       GYKV   T+PNY SD+ A++K
+Sbjct  270  ELTNRLIQIAKDNNIGYKVD--TYPNYGSDAGAMLK  303
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 13,275,950
+  Number of sequences in database:  40,924
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 40924
+Number of Hits to DB: 54575
+Number of extensions: 2728
+Number of successful extensions: 27
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 26
+Number of HSP's successfully gapped: 7
+Length of query: 227
+Length of database: 13275950
+Length adjustment: 96
+Effective length of query: 131
+Effective length of database: 9347246
+Effective search space: 1224489226
+Effective search space used: 1224489226
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 38 (19.2 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

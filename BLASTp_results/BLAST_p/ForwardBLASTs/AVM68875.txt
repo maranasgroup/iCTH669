@@ -1,0 +1,167 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBK1J7G013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AVM68875 5'-nucleotidase [Lachnospiraceae bacterium]
+
+Length=490
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513910.1 CPBP family intramembrane metalloprotease [Acet...  29.3    1.1    37%
+WP_235825048.1 metallophosphoesterase [Acetivibrio thermocellus]   27.3    4.8    34%
+WP_003519504.1 metallophosphoesterase [Acetivibrio thermocellus]   27.3    4.9    34%
+WP_003513837.1 metallophosphoesterase [Acetivibrio thermocellus]   27.3    4.9    34%
+NLU25931.1 peptidase M23 [Acetivibrio thermocellus]                26.6    5.8    31%
+WP_003516261.1 peptidoglycan DD-metalloendopeptidase family pr...  26.9    6.5    31%
+
+ALIGNMENTS
+>WP_003513910.1 CPBP family intramembrane metalloprotease [Acetivibrio thermocellus]
+ CDG36451.1 abortive infection protein [Acetivibrio thermocellus BC1]
+ ABN53152.1 Abortive infection protein [Acetivibrio thermocellus ATCC 27405]
+ ADU75605.1 Abortive infection protein [Acetivibrio thermocellus DSM 1313]
+ ALX09598.1 Abortive infection protein [Acetivibrio thermocellus AD2]
+ ANV77372.1 Abortive infection protein [Acetivibrio thermocellus DSM 2360]
+Length=225
+
+ Score = 29.3 bits (64),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 33/59 (56%), Gaps = 7/59 (12%)
+
+Query  282  HLIRKYKDVTDQKYARIVTRFSRPLTH-PQRNTETALGNLF-ADIFKNSLGVDIMLLGS  338
+             L++K++++ D KYA ++T     L H P+   +   GNLF A+   NS  V  MLL S
+Sbjct  140  FLLQKFEEIMDSKYANLLTAVLFLLIHFPKWYMQ---GNLFVAEFMVNS--VLFMLLFS  193
+
+
+>WP_235825048.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=236
+
+ Score = 27.3 bits (59),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 21/47 (45%), Gaps = 6/47 (13%)
+
+Query  187  FTVLLTHIGFEADKELAALLRPEWGVDLIIGGHSHTLMDQPYTVAGI  233
+            + +LLTH    AD          WG DL + GH H  M +   V G+
+Sbjct  145  YNILLTHNPLYADT------YSNWGADLTLSGHIHGGMIRIPFVGGL  185
+
+
+>WP_003519504.1 metallophosphoesterase [Acetivibrio thermocellus]
+Length=238
+
+ Score = 27.3 bits (59),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 21/47 (45%), Gaps = 6/47 (13%)
+
+Query  187  FTVLLTHIGFEADKELAALLRPEWGVDLIIGGHSHTLMDQPYTVAGI  233
+            + +LLTH    AD          WG DL + GH H  M +   V G+
+Sbjct  147  YNILLTHNPLYADT------YSNWGADLTLSGHIHGGMIRIPFVGGL  187
+
+
+>WP_003513837.1 metallophosphoesterase [Acetivibrio thermocellus]
+ EIC04457.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+ CDG36415.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+ ABN53116.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75572.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09564.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+Length=253
+
+ Score = 27.3 bits (59),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 21/47 (45%), Gaps = 6/47 (13%)
+
+Query  187  FTVLLTHIGFEADKELAALLRPEWGVDLIIGGHSHTLMDQPYTVAGI  233
+            + +LLTH    AD          WG DL + GH H  M +   V G+
+Sbjct  162  YNILLTHNPLYADT------YSNWGADLTLSGHIHGGMIRIPFVGGL  202
+
+
+>NLU25931.1 peptidase M23 [Acetivibrio thermocellus]
+Length=174
+
+ Score = 26.6 bits (57),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  275  PVDEQMEHLIRKYKDVTDQKYARIVTRFSRPLTHPQRNTETALGNLFAD  323
+             +D Q+E      KD T+++YA+ +  F   L    RN+  +  N+ AD
+Sbjct  83   ALDSQIESYETSLKD-TEERYAKTLKAFEERLVTMYRNSYVSYLNILAD  130
+
+
+>WP_003516261.1 peptidoglycan DD-metalloendopeptidase family protein [Acetivibrio
+thermocellus]
+ CDG35427.1 peptidase M23B [Acetivibrio thermocellus BC1]
+ ABN51969.1 Peptidase M23 [Acetivibrio thermocellus ATCC 27405]
+ ADU74551.1 Peptidase M23 [Acetivibrio thermocellus DSM 1313]
+ ALX08495.1 Peptidase M23 [Acetivibrio thermocellus AD2]
+ ANV76244.1 Peptidase M23 [Acetivibrio thermocellus DSM 2360]
+Length=373
+
+ Score = 26.9 bits (58),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 25/49 (51%), Gaps = 1/49 (2%)
+
+Query  275  PVDEQMEHLIRKYKDVTDQKYARIVTRFSRPLTHPQRNTETALGNLFAD  323
+             +D Q+E      KD T+++YA+ +  F   L    RN+  +  N+ AD
+Sbjct  83   ALDSQIESYETSLKD-TEERYAKTLKAFEERLVTMYRNSYVSYLNILAD  130
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.323    0.140    0.412
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 36216
+Number of extensions: 1699
+Number of successful extensions: 22
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 9
+Length of query: 490
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 397
+Effective length of database: 2085979
+Effective search space: 828133663
+Effective search space used: 828133663
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

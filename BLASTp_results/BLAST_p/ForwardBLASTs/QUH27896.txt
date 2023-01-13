@@ -1,0 +1,169 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WYXEV8A016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QUH27896 5'-nucleotidase [Vallitalea guaymasensis]
+
+Length=250
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513808.1 S41 family peptidase [Acetivibrio thermocellus]     29.3    0.55   32%
+CDG36383.1 carboxyl-terminal protease [Acetivibrio thermocellu...  29.3    0.56   32%
+WP_003515463.1 L-threonylcarbamoyladenylate synthase [Acetivib...  27.7    1.8    27%
+AAA23224.1 endo-beta-1,4-glucanase [Acetivibrio thermocellus]      26.6    4.0    40%
+WP_173668642.1 NADH-quinone oxidoreductase subunit NuoF [Aceti...  25.4    10.0   27%
+
+ALIGNMENTS
+>WP_003513808.1 S41 family peptidase [Acetivibrio thermocellus]
+ ABN53078.1 carboxyl-terminal protease [Acetivibrio thermocellus ATCC 27405]
+ ADU75553.1 carboxyl-terminal protease [Acetivibrio thermocellus DSM 1313]
+ ALX09544.1 carboxyl-terminal protease [Acetivibrio thermocellus AD2]
+ ANV77316.1 carboxyl-terminal protease [Acetivibrio thermocellus DSM 2360]
+ EIC04482.1 carboxyl-terminal protease [Acetivibrio thermocellus YS]
+Length=429
+
+ Score = 29.3 bits (64),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 31/68 (46%), Gaps = 8/68 (12%)
+
+Query  138  YENAAKYI------KKVIEVAVSNKLHEDIVLNVNVPPIKDEDIKGIKVCKIGKLQFHHY  191
+            YE   KY+       KV E   +NK   D  +  +   +  E+IK  K  K+ KL   HY
+Sbjct  32   YERNPKYVVLSEEEAKVFEKKSNNKFDADYAITFDKNSVDIENIK--KYNKVKKLLTSHY  89
+
+Query  192  YKETGKEQ  199
+            Y+E  + Q
+Sbjct  90   YQEVDQNQ  97
+
+
+>CDG36383.1 carboxyl-terminal protease [Acetivibrio thermocellus BC1]
+Length=429
+
+ Score = 29.3 bits (64),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 31/68 (46%), Gaps = 8/68 (12%)
+
+Query  138  YENAAKYI------KKVIEVAVSNKLHEDIVLNVNVPPIKDEDIKGIKVCKIGKLQFHHY  191
+            YE   KY+       KV E   +NK   D  +  +   +  E+IK  K  K+ KL   HY
+Sbjct  32   YERNPKYVVLSEEEAKVFEKKSNNKFDADYAITFDKNSVDIENIK--KYNKVKKLLTSHY  89
+
+Query  192  YKETGKEQ  199
+            Y+E  + Q
+Sbjct  90   YQEVDQNQ  97
+
+
+>WP_003515463.1 L-threonylcarbamoyladenylate synthase [Acetivibrio thermocellus]
+ ADU73277.1 Sua5/YciO/YrdC/YwlC family protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07195.1 Sua5/YciO/YrdC/YwlC family protein [Acetivibrio thermocellus
+AD2]
+ ANV74931.1 Sua5/YciO/YrdC/YwlC family protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04339.1 Sua5/YciO/YrdC/YwlC family protein [Acetivibrio thermocellus
+YS]
+ PFH01457.1 translation factor SUA5 [Acetivibrio thermocellus AD2]
+Length=351
+
+ Score = 27.7 bits (60),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 36/67 (54%), Gaps = 4/67 (6%)
+
+Query  40   ATSHSITIAKPLIVKEVELPDIKSKAYSVSGTPADCVRVATDQIIKDKVDMVVSGINIGY  99
+            A SH I +A   +++E  +P I + + ++SG P+  V       + D+VD+++ G N
+Sbjct  124  APSHPIALA---LIREAGIP-IAAPSANLSGRPSPTVPKHVIDDLYDRVDVIIDGGNANI  179
+
+Query  100  NLGTDIL  106
+             + + +L
+Sbjct  180  GVESTVL  186
+
+
+>AAA23224.1 endo-beta-1,4-glucanase [Acetivibrio thermocellus]
+Length=814
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 1/35 (3%)
+
+Query  204  YKLEGERVVNHVEETDSYYVDNGYVTVTPLHYDLT  238
+            YK++ E  +N VEE  +Y +D G   +  LH+D T
+Sbjct  119  YKID-EAWLNRVEEVVNYVLDCGMYAIINLHHDNT  152
+
+
+>WP_173668642.1 NADH-quinone oxidoreductase subunit NuoF [Acetivibrio thermocellus]
+Length=626
+
+ Score = 25.4 bits (54),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 17/64 (27%), Positives = 28/64 (44%), Gaps = 9/64 (14%)
+
+Query  192  YKETG----KEQENLVYKLEGERVVNHVEETDS-----YYVDNGYVTVTPLHYDLTNFNI  242
+            YK+ G    K+ E   YK +   V+ H  + DS     Y    GY  +    +D+T   I
+Sbjct  125  YKQNGVVYKKQDEIPFYKKQTRLVLEHCGQIDSTSITEYLATGGYYALEKALFDMTGDEI  184
+
+Query  243  LKDV  246
+            + ++
+Sbjct  185  INEI  188
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.134    0.382
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17264
+Number of extensions: 823
+Number of successful extensions: 23
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 6
+Length of query: 250
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 163
+Effective length of database: 2134357
+Effective search space: 347900191
+Effective search space used: 347900191
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

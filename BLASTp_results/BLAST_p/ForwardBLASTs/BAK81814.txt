@@ -1,0 +1,353 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V8KZX13013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= BAK81814 dTMP kinase [Candidatus Arthromitus]
+
+Length=215
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       159     2e-49  36%
+WP_003516362.1 hypothetical protein [Acetivibrio thermocellus]     29.3    0.13   23%
+AAR87745.1 cellobiohydrolase [Acetivibrio thermocellus JW20]       28.5    0.94   24%
+1RQ5_A Chain A, Cellobiohydrolase [Acetivibrio thermocellus]       28.1    0.96   24%
+1UT9_A Chain A, CELLULOSE 1,4-BETA-CELLOBIOSIDASE [Acetivibrio...  28.1    0.97   24%
+WP_011837763.1 type I polyketide synthase [Acetivibrio thermoc...  28.1    1.4    31%
+WP_003512162.1 type I polyketide synthase [Acetivibrio thermoc...  27.7    1.6    31%
+WP_003520925.1 sigma-70 family RNA polymerase sigma factor [Ac...  27.3    1.6    25%
+THJ77306.1 sigma-70 family RNA polymerase sigma factor [Acetiv...  26.9    1.9    25%
+WP_003514075.1 hypothetical protein [Acetivibrio thermocellus]     26.6    2.2    29%
+NLU26690.1 sigma-70 family RNA polymerase sigma factor [Acetiv...  25.4    4.9    29%
+WP_003516214.1 (d)CMP kinase [Acetivibrio thermocellus]            25.0    7.6    48%
+CDG35404.1 Cytidylate kinase [Acetivibrio thermocellus BC1]        25.0    7.6    48%
+WP_003513352.1 ribonuclease P protein component [Acetivibrio t...  24.3    9.2    31%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 159 bits (401),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 79/217 (36%), Positives = 131/217 (60%), Gaps = 10/217 (5%)
+
+Query  1    MIIVFEGLDGSGKETQTKLIEKRLNDIGIKTVRIGFPNYSNKYSIFVKEYLNGNFGSDLN  60
+            +II+  G D SGK TQT  + +RL   G K  +I FPNY +  S  VK YLNG+FG D N
+Sbjct  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+
+Query  61   ---PYLISTFFGLDRFGVYKNEMIRYIRQGYIIVCDRYIYSNLIYQGSFISDVEDRNKFF  117
+               PY+ STF+ +DRF  Y+ E  +    G+II+ DRY  SN+++Q + I D+E++++F
+Sbjct  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+
+Query  118  EWVLDFEYGICGLPKEDMTFFMDLSIDINLDIIKKRCN-------KDIYEKDYDFMIKCY  170
+            +W+ +FE+ I  LP  D   F+D+    + +++K+R N       KDI+E++ +++++ Y
+Sbjct  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+
+Query  171  ETAKHLRDRYNFINIKCDDGENLFSILDINESIYNRI  207
+              + ++  +YN+I I+C     L  I +I + +Y  +
+Sbjct  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+
+
+>WP_003516362.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35480.1 hypothetical protein CTHBC1_0820 [Acetivibrio thermocellus BC1]
+ ABN52020.1 hypothetical protein Cthe_0785 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74498.1 hypothetical protein Clo1313_1436 [Acetivibrio thermocellus DSM
+1313]
+ ALX08441.1 hypothetical protein AD2_01448 [Acetivibrio thermocellus AD2]
+ ANV76190.1 hypothetical protein LQRI_1449 [Acetivibrio thermocellus DSM
+2360]
+Length=100
+
+ Score = 29.3 bits (64),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 15/65 (23%), Positives = 27/65 (42%), Gaps = 0/65 (0%)
+
+Query  29  IKTVRIGFPNYSNKYSIFVKEYLNGNFGSDLNPYLISTFFGLDRFGVYKNEMIRYIRQGY  88
+           I  +R G+   +  +S    E +         P L+      DRF  YK E+ R+ ++
+Sbjct  34  ISEIRFGYHTITKLFSKKTSEKIEIRLKDSTKPILVLKPMDWDRFDQYKQEITRFAKENR  93
+
+Query  89  IIVCD  93
+           I + +
+Sbjct  94  IRLVE  98
+
+
+>AAR87745.1 cellobiohydrolase, partial [Acetivibrio thermocellus JW20]
+Length=607
+
+ Score = 28.5 bits (62),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 50/126 (40%), Gaps = 10/126 (8%)
+
+Query  59   LNPYLISTFFGLDRFGVYKNEMIRYIRQ--GYIIVCDRYIYSNLIYQGSFISDVEDRN--  114
+            +N Y  +   GLD +G Y++  +    Q  GY  + D   +    ++   +++ ED +
+Sbjct  196  MNMYERAKIRGLDNWGPYRDGGMNIPEQNNGYPDILDEARWEIEFFKKMQVTEKEDPSIA  255
+
+Query  115  -KFFEWVLDFEYGICG-LPKEDMT--FFMDLSIDINLDIIKKRCNKDIYEKDYD--FMIK  168
+                  + DF +   G LP ED    +   +S    L+            KDYD  F
+Sbjct  256  GMVHHKIHDFRWTALGMLPHEDPQPRYLRPVSTAATLNFAATLAQSARLWKDYDPTFAAD  315
+
+Query  169  CYETAK  174
+            C E A+
+Sbjct  316  CLEKAE  321
+
+
+>1RQ5_A Chain A, Cellobiohydrolase [Acetivibrio thermocellus]
+Length=610
+
+ Score = 28.1 bits (61),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 50/126 (40%), Gaps = 10/126 (8%)
+
+Query  59   LNPYLISTFFGLDRFGVYKNEMIRYIRQ--GYIIVCDRYIYSNLIYQGSFISDVEDRN--  114
+            +N Y  +   GLD +G Y++  +    Q  GY  + D   +    ++   +++ ED +
+Sbjct  195  MNMYERAKIRGLDNWGPYRDGGMNIPEQNNGYPDILDEARWEIEFFKKMQVTEKEDPSIA  254
+
+Query  115  -KFFEWVLDFEYGICG-LPKEDMT--FFMDLSIDINLDIIKKRCNKDIYEKDYD--FMIK  168
+                  + DF +   G LP ED    +   +S    L+            KDYD  F
+Sbjct  255  GMVHHKIHDFRWTALGMLPHEDPQPRYLRPVSTAATLNFAATLAQSARLWKDYDPTFAAD  314
+
+Query  169  CYETAK  174
+            C E A+
+Sbjct  315  CLEKAE  320
+
+
+>1UT9_A Chain A, CELLULOSE 1,4-BETA-CELLOBIOSIDASE [Acetivibrio thermocellus]
+Length=609
+
+ Score = 28.1 bits (61),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 50/126 (40%), Gaps = 10/126 (8%)
+
+Query  59   LNPYLISTFFGLDRFGVYKNEMIRYIRQ--GYIIVCDRYIYSNLIYQGSFISDVEDRN--  114
+            +N Y  +   GLD +G Y++  +    Q  GY  + D   +    ++   +++ ED +
+Sbjct  195  MNMYERAKIRGLDNWGPYRDGGMNIPEQNNGYPDILDEARWEIEFFKKMQVTEKEDPSIA  254
+
+Query  115  -KFFEWVLDFEYGICG-LPKEDMT--FFMDLSIDINLDIIKKRCNKDIYEKDYD--FMIK  168
+                  + DF +   G LP ED    +   +S    L+            KDYD  F
+Sbjct  255  GMVHHKIHDFRWTALGMLPHEDPQPRYLRPVSTAATLNFAATLAQSARLWKDYDPTFAAD  314
+
+Query  169  CYETAK  174
+            C E A+
+Sbjct  315  CLEKAE  320
+
+
+>WP_011837763.1 type I polyketide synthase [Acetivibrio thermocellus]
+ ABN51376.1 Acyl transferase [Acetivibrio thermocellus ATCC 27405]
+ HBW27111.1 type I polyketide synthase [Acetivibrio thermocellus]
+Length=2754
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  114   NKFFEWVLDFEYGICGLPKEDMTFFMDLSIDINLDIIKK  152
+             N   + +LD    I G PKE +   M++  D+ +D +K+
+Sbjct  1589  NAIVDEILDIYSKITGYPKEMLDLNMEIEADLGIDTVKQ  1627
+
+
+>WP_003512162.1 type I polyketide synthase [Acetivibrio thermocellus]
+ CDG34817.1 Beta-ketoacyl synthase [Acetivibrio thermocellus BC1]
+ ADU75138.1 Beta-ketoacyl synthase [Acetivibrio thermocellus DSM 1313]
+ ALX09113.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus AD2]
+ ANV76865.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus DSM 2360]
+ EIC04832.1 short-chain dehydrogenase/reductase SDR [Acetivibrio thermocellus
+YS]
+Length=2754
+
+ Score = 27.7 bits (60),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 12/39 (31%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  114   NKFFEWVLDFEYGICGLPKEDMTFFMDLSIDINLDIIKK  152
+             N   + +LD    I G PKE +   M++  D+ +D +K+
+Sbjct  1589  NAIVDEILDIYSEITGYPKEMLDLNMEIEADLGIDTVKQ  1627
+
+
+>WP_003520925.1 sigma-70 family RNA polymerase sigma factor [Acetivibrio thermocellus]
+ CDG35583.1 ECF subfamily RNA polymerase sigma-24 factor [Acetivibrio thermocellus
+BC1]
+ ABN52124.1 RNA polymerase, sigma-24 subunit, ECF subfamily [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74393.1 RNA polymerase, sigma-24 subunit, ECF subfamily [Acetivibrio
+thermocellus DSM 1313]
+ ALX08336.1 RNA polymerase, sigma-24 subunit, RpoE, ECF subfamily [Acetivibrio
+thermocellus AD2]
+ ANV76084.1 RNA polymerase, sigma-24 subunit, RpoE, ECF subfamily [Acetivibrio
+thermocellus DSM 2360]
+Length=220
+
+ Score = 27.3 bits (59),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 31/63 (49%), Gaps = 0/63 (0%)
+
+Query  136  TFFMDLSIDINLDIIKKRCNKDIYEKDYDFMIKCYETAKHLRDRYNFINIKCDDGENLFS  195
+            T+   ++ +  LD I+KR NK +   D D  +   E  + ++D      +K +D E   +
+Sbjct  93   TWIYKVTTNACLDEIRKRKNKKVVYLDEDIELGGNEIKRQIKDDSPGPELKAEDNELKRA  152
+
+Query  196  ILD  198
+            ++D
+Sbjct  153  VMD  155
+
+
+>THJ77306.1 sigma-70 family RNA polymerase sigma factor [Acetivibrio thermocellus]
+ HBW27288.1 RNA polymerase subunit sigma-24 [Acetivibrio thermocellus]
+Length=198
+
+ Score = 26.9 bits (58),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 16/63 (25%), Positives = 31/63 (49%), Gaps = 0/63 (0%)
+
+Query  136  TFFMDLSIDINLDIIKKRCNKDIYEKDYDFMIKCYETAKHLRDRYNFINIKCDDGENLFS  195
+            T+   ++ +  LD I+KR NK +   D D  +   E  + ++D      +K +D E   +
+Sbjct  71   TWIYKVTTNACLDEIRKRKNKKVVYLDEDIELGGNEIKRQIKDDSPGPELKAEDNELKRA  130
+
+Query  196  ILD  198
+            ++D
+Sbjct  131  VMD  133
+
+
+>WP_003514075.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU75672.1 hypothetical protein Clo1313_2682 [Acetivibrio thermocellus DSM
+1313]
+ ALX09691.1 hypothetical protein AD2_02711 [Acetivibrio thermocellus AD2]
+ ANV77464.1 hypothetical protein LQRI_2723 [Acetivibrio thermocellus DSM
+2360]
+ EIC03579.1 hypothetical protein YSBL_2750 [Acetivibrio thermocellus YS]
+ PFH03974.1 hypothetical protein M972_112793 [Acetivibrio thermocellus AD2]
+Length=199
+
+ Score = 26.6 bits (57),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 23/78 (29%), Positives = 36/78 (46%), Gaps = 20/78 (26%)
+
+Query  30  KTVRIGFPNYSNKYSIFV----------KEYLNGNFGSDLNPYLISTFFG-LDRFGVYKN  78
+           K +R+  PN +NK  ++           KE L     SD++ YLI  ++  +D
+Sbjct  28  KGIRLELPN-TNKVQVWTTEGEMLNIEKKELLQNT--SDISDYLIQFWWPQMDDVA----  80
+
+Query  79  EMIRYIRQGYIIVCDRYI  96
+             I+   QGY+ VCD Y+
+Sbjct  81  --IKLTCQGYLCVCDIYL  96
+
+
+>NLU26690.1 sigma-70 family RNA polymerase sigma factor [Acetivibrio thermocellus]
+Length=127
+
+ Score = 25.4 bits (54),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 15/52 (29%), Positives = 26/52 (50%), Gaps = 0/52 (0%)
+
+Query  147  LDIIKKRCNKDIYEKDYDFMIKCYETAKHLRDRYNFINIKCDDGENLFSILD  198
+            LD I+KR NK +   D D  +   E  + ++D      +K +D E   +++D
+Sbjct  11   LDEIRKRKNKKVVYLDEDIELGGNEIKRQIKDDSPGPELKAEDNELKRAVMD  62
+
+
+>WP_003516214.1 (d)CMP kinase [Acetivibrio thermocellus]
+ ABN51947.1 cytidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU74574.1 cytidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX08518.1 Cytidylate kinase [Acetivibrio thermocellus AD2]
+ ANV76267.1 Cytidylate kinase [Acetivibrio thermocellus DSM 2360]
+ EIC05458.1 Cytidylate kinase [Acetivibrio thermocellus YS]
+Length=227
+
+ Score = 25.0 bits (53),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  3   IVFEGLDGSGKETQTKLIEKRLN  25
+           I  +G  G+GK T  K+I K LN
+Sbjct  9   IAIDGPAGAGKSTIAKIISKTLN  31
+
+
+>CDG35404.1 Cytidylate kinase [Acetivibrio thermocellus BC1]
+Length=227
+
+ Score = 25.0 bits (53),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 11/23 (48%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  3   IVFEGLDGSGKETQTKLIEKRLN  25
+           I  +G  G+GK T  K+I K LN
+Sbjct  9   IAIDGPAGAGKSTIAKIISKTLN  31
+
+
+>WP_003513352.1 ribonuclease P protein component [Acetivibrio thermocellus]
+ CDG36893.1 ribonuclease P [Acetivibrio thermocellus BC1]
+ ABN53571.1 ribonuclease P protein component [Acetivibrio thermocellus ATCC
+27405]
+ ADU76010.1 ribonuclease P protein component [Acetivibrio thermocellus DSM
+1313]
+ ALX10045.1 Ribonuclease P protein component [Acetivibrio thermocellus AD2]
+ ANV77819.1 Ribonuclease P protein component [Acetivibrio thermocellus DSM
+2360]
+Length=126
+
+ Score = 24.3 bits (51),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 28/59 (47%), Gaps = 12/59 (20%)
+
+Query  42  KYSIFVKEYLNGNF--GSDLNPYLISTFFGLDRFG----------VYKNEMIRYIRQGY  88
+           K S F++ Y  G F  G ++  Y++    G++R G          V +N M R IR+ Y
+Sbjct  9   KNSEFLRLYKKGKFFAGKNIVLYVMKNDLGINRLGITVGKKFGKSVKRNRMKRLIRENY  67
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 8, 2022  2:43 AM
+  Number of letters in database: 2,834,975
+  Number of sequences in database:  8,061
+
+Lambda      K        H
+   0.325    0.147    0.442
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8061
+Number of Hits to DB: 21305
+Number of extensions: 1099
+Number of successful extensions: 23
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 9
+Length of query: 215
+Length of database: 2834975
+Length adjustment: 85
+Effective length of query: 130
+Effective length of database: 2149790
+Effective search space: 279472700
+Effective search space used: 279472700
+T: 11
+A: 40
+X1: 15 (7.0 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

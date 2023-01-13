@@ -1,0 +1,156 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W6FC5UR013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AHM56559 5'-nucleotidase [Peptoclostridium acidaminophilum]
+
+Length=254
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516134.1 glucose-1-phosphate adenylyltransferase [Acetiv...  30.0    0.30   31%
+WP_020458039.1 glucose-1-phosphate adenylyltransferase [Acetiv...  30.0    0.31   31%
+WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermo...  25.8    8.0    33%
+
+ALIGNMENTS
+>WP_003516134.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus]
+ ADU73795.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07728.1 Glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+AD2]
+ ANV75470.1 Glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+DSM 2360]
+ EIC05686.1 Glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+YS]
+Length=426
+
+ Score = 30.0 bits (66),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 50/105 (48%), Gaps = 22/105 (21%)
+
+Query  109  YSGTVSAALE-AYMLDKSSIAISYDANGDSSHEYKIAANYMADFIKGNYMENDDLQSSVL  167
+            Y GT +A  +  + +DK S       +GD  H YK+  + M DF K N   N D   SV+
+Sbjct  100  YKGTANAVFQNIHYVDKYSPKYVIILSGD--HVYKMNYSQMLDFHKEN---NADATISVI  154
+
+Query  168  NINFPNMHGRDPLGYRSTRLGI-RRYEN----SFEER-KDPRGNI  206
+            N+ +            ++R GI   YEN     FEE+ ++P+ N+
+Sbjct  155  NVPWE----------EASRYGIMNTYENGKIYEFEEKPQNPKSNL  189
+
+
+>WP_020458039.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus]
+ A3DK82.1 RecName: Full=Glucose-1-phosphate adenylyltransferase; AltName:
+Full=ADP-glucose pyrophosphorylase; Short=ADPGlc PPase; AltName:
+Full=ADP-glucose synthase [Acetivibrio thermocellus
+ATCC 27405]
+ CDG37649.1 Glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+BC1]
+ ABN54361.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus
+ATCC 27405]
+ NLU27516.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus]
+ THJ79132.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus]
+ HBW27982.1 glucose-1-phosphate adenylyltransferase [Acetivibrio thermocellus]
+Length=426
+
+ Score = 30.0 bits (66),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 50/105 (48%), Gaps = 22/105 (21%)
+
+Query  109  YSGTVSAALE-AYMLDKSSIAISYDANGDSSHEYKIAANYMADFIKGNYMENDDLQSSVL  167
+            Y GT +A  +  + +DK S       +GD  H YK+  + M DF K N   N D   SV+
+Sbjct  100  YKGTANAVFQNIHYVDKYSPKYVIILSGD--HVYKMNYSQMLDFHKEN---NADATISVI  154
+
+Query  168  NINFPNMHGRDPLGYRSTRLGI-RRYEN----SFEER-KDPRGNI  206
+            N+ +            ++R GI   YEN     FEE+ ++P+ N+
+Sbjct  155  NVPWE----------EASRYGIMNTYENGKIYEFEEKPQNPKSNL  189
+
+
+>WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermocellus]
+ CDG35349.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+BC1]
+ ABN51891.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74630.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 1313]
+ ALX08573.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+AD2]
+ ANV76322.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 33/67 (49%), Gaps = 12/67 (18%)
+
+Query  64   IDAYAVSGTPADCVKLGIEALLRDIEIDLVLSGI------NNGSNLGSDVIYSGTVSAAL  117
+            I+ Y +  TP DC+K G  A+    ++D VLS I       N     + +I SGT +
+Sbjct  37   IENYGIVPTPPDCIKNG--AIY---DVDRVLSVIKSVIREQNMKAKNAKIIMSGT-NIIT  90
+
+Query  118  EAYMLDK  124
+              Y++DK
+Sbjct  91   RIYLIDK  97
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.135    0.387
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16177
+Number of extensions: 753
+Number of successful extensions: 15
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 4
+Length of query: 254
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 167
+Effective length of database: 2134357
+Effective search space: 356437619
+Effective search space used: 356437619
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,243 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WFHXVAZ016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABB14913 5'-nucleotidase [Carboxydothermus hydrogenoformans]
+
+Length=264
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512954.1 DUF2325 domain-containing protein [Acetivibrio ...  31.2    0.15   35%
+WP_136479154.1 DUF2325 domain-containing protein [Acetivibrio ...  31.2    0.15   35%
+WP_020457938.1 polymorphic toxin-type HINT domain-containing p...  26.6    4.4    25%
+WP_003519168.1 nicotinate phosphoribosyltransferase [Acetivibr...  26.6    4.5    26%
+WP_136479694.1 nicotinate phosphoribosyltransferase [Acetivibr...  26.6    4.6    26%
+NLU27182.1 nicotinate phosphoribosyltransferase [Acetivibrio t...  26.6    4.7    26%
+CDG36847.1 recombinase [Acetivibrio thermocellus BC1]              26.2    6.4    31%
+CDG35853.1 Nicotinate phosphoribosyltransferase [Acetivibrio t...  25.8    7.3    26%
+WP_003516296.1 pyridoxal phosphate-dependent aminotransferase ...  25.8    7.5    27%
+
+ALIGNMENTS
+>WP_003512954.1 DUF2325 domain-containing protein [Acetivibrio thermocellus]
+ CDG37073.1 hypothetical protein CTHBC1_2483 [Acetivibrio thermocellus BC1]
+ ABN53810.1 hypothetical protein Cthe_2610 [Acetivibrio thermocellus ATCC
+27405]
+ ADU73292.1 hypothetical protein Clo1313_0197 [Acetivibrio thermocellus DSM
+1313]
+ ALX07210.1 putative conserved protein UCP020408 [Acetivibrio thermocellus
+AD2]
+ ANV74946.1 putative conserved protein UCP020408 [Acetivibrio thermocellus
+DSM 2360]
+Length=584
+
+ Score = 31.2 bits (69),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 33/60 (55%), Gaps = 3/60 (5%)
+
+Query  54   RAFDI-TFKNSKVRGVSVDGTPADCVKLAVEALLDKPPDLVLSGINSGPNLGTDVLYSGT  112
+            R FDI TFK      + +DGT  D +K  +E+LL+    ++ +  +SG N   DV+  G+
+Sbjct  5    RLFDIKTFKQITEHSIYMDGTIKDKIKNNLESLLN--VRIIETDFDSGENEKVDVIALGS  62
+
+
+>WP_136479154.1 DUF2325 domain-containing protein [Acetivibrio thermocellus]
+ THJ79348.1 DUF2325 domain-containing protein [Acetivibrio thermocellus]
+Length=584
+
+ Score = 31.2 bits (69),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 21/60 (35%), Positives = 33/60 (55%), Gaps = 3/60 (5%)
+
+Query  54   RAFDI-TFKNSKVRGVSVDGTPADCVKLAVEALLDKPPDLVLSGINSGPNLGTDVLYSGT  112
+            R FDI TFK      + +DGT  D +K  +E+LL+    ++ +  +SG N   DV+  G+
+Sbjct  5    RLFDIKTFKQITEHSIYMDGTIKDKIKNNLESLLN--VRIIETDFDSGENEKVDVIALGS  62
+
+
+>WP_020457938.1 polymorphic toxin-type HINT domain-containing protein [Acetivibrio
+thermocellus]
+ ABN54037.1 protein of unknown function DUF1557 [Acetivibrio thermocellus
+ATCC 27405]
+Length=613
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 26/103 (25%), Positives = 43/103 (42%), Gaps = 3/103 (3%)
+
+Query  7    NDDGIYAPGIKALRQVLEKEGKYELTVVAPDREKSATGHGITVHR-PLRAFDITFKNSKV  65
+            ND+ I    +K  R  L+++G+   T  +PD +      GI V+  P          SK
+Sbjct  476  NDNLINNQSLKEERYNLKRKGRSAPT--SPDDKIVKGIDGIYVNEDPNSNIKYVINESKF  533
+
+Query  66   RGVSVDGTPADCVKLAVEALLDKPPDLVLSGINSGPNLGTDVL  108
+                +  T     +++ E LL+K    +L  +N    L  D+L
+Sbjct  534  NSAQLGKTKKGIKQMSDEWLLEKQGKRILKAVNGDRKLQKDIL  576
+
+
+>WP_003519168.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus]
+ ABN52409.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74146.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08088.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+AD2]
+ ANV75835.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+DSM 2360]
+ EIC06021.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+YS]
+Length=486
+
+ Score = 26.6 bits (57),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 16/102 (16%)
+
+Query  109  YSGTVSAAIEAMINGIPAIAISMGSFAFEDEEYLRAAEIFARLLPRILE------HPWPR  162
+            Y G V  A  A I G    A ++    F        A  + +L P  LE        +P
+Sbjct  170  YDGAVLGARAAYIGGCAGTACAIADRDFGVPASGTMAHSWVQLFPSELEAFRAYARVYPD  229
+
+Query  163  DTILNINIPNVPLEEIKGIAITRLGVRKYINVFEERKDPRGL  204
+            + +L ++  NV           + GV   I VF+E   PRG
+Sbjct  230  NCVLLVDTYNV----------LKSGVPNAIKVFKEEVVPRGF  261
+
+
+>WP_136479694.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus]
+ THJ76629.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus]
+Length=486
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 16/102 (16%)
+
+Query  109  YSGTVSAAIEAMINGIPAIAISMGSFAFEDEEYLRAAEIFARLLPRILE------HPWPR  162
+            Y G V  A  A I G    A ++    F        A  + +L P  LE        +P
+Sbjct  170  YDGAVLGARAAYIGGCAGTACAIADRDFGVPASGTMAHSWVQLFPSELEAFRAYARVYPD  229
+
+Query  163  DTILNINIPNVPLEEIKGIAITRLGVRKYINVFEERKDPRGL  204
+            + +L ++  NV           + GV   I VF+E   PRG
+Sbjct  230  NCVLLVDTYNV----------LKSGVPNAIKVFKEEVVPRGF  261
+
+
+>NLU27182.1 nicotinate phosphoribosyltransferase [Acetivibrio thermocellus]
+Length=486
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 16/102 (16%)
+
+Query  109  YSGTVSAAIEAMINGIPAIAISMGSFAFEDEEYLRAAEIFARLLPRILE------HPWPR  162
+            Y G V  A  A I G    A ++    F        A  + +L P  LE        +P
+Sbjct  170  YDGAVLGARAAYIGGCAGTACAIADRDFGVPASGTMAHSWVQLFPSELEAFRAYARVYPD  229
+
+Query  163  DTILNINIPNVPLEEIKGIAITRLGVRKYINVFEERKDPRGL  204
+            + +L ++  NV           + GV   I VF+E   PRG
+Sbjct  230  NCVLLVDTYNV----------LKSGVPNAIKVFKEEVVPRGF  261
+
+
+>CDG36847.1 recombinase [Acetivibrio thermocellus BC1]
+Length=705
+
+ Score = 26.2 bits (56),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 17/55 (31%), Positives = 27/55 (49%), Gaps = 9/55 (16%)
+
+Query  160  WPRDTILNINIPNVPLEEIKGI--------AITRLGVRKYINVFEERKDP-RGLS  205
+            W + TI +IN  ++PL   + I        A+ RL  R+ + V E   D  RG++
+Sbjct  277  WEKKTIFDINFYDLPLGNHQAIIPEDVFLEALERLRSRRKVRVNENTADAMRGIT  331
+
+
+>CDG35853.1 Nicotinate phosphoribosyltransferase [Acetivibrio thermocellus
+BC1]
+Length=486
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 38/102 (37%), Gaps = 16/102 (16%)
+
+Query  109  YSGTVSAAIEAMINGIPAIAISMGSFAFEDEEYLRAAEIFARLLPRILE------HPWPR  162
+            Y G V  A  A I G    A ++    F        A  + +L P  LE        +P
+Sbjct  170  YDGAVLGARAAYIGGCVGTACAIADRDFGVPASGTMAHSWVQLFPSELEAFRAYARVYPD  229
+
+Query  163  DTILNINIPNVPLEEIKGIAITRLGVRKYINVFEERKDPRGL  204
+            + +L ++  NV           + GV   I VF+E   PRG
+Sbjct  230  NCVLLVDTYNV----------LKSGVPNAIKVFKEEVVPRGF  261
+
+
+>WP_003516296.1 pyridoxal phosphate-dependent aminotransferase [Acetivibrio thermocellus]
+ CDG35450.1 Aspartate aminotransferase [Acetivibrio thermocellus BC1]
+ ABN51990.1 aminotransferase class I and II [Acetivibrio thermocellus ATCC
+27405]
+ ADU74529.1 aminotransferase class I and II [Acetivibrio thermocellus DSM
+1313]
+ ALX08472.1 Aspartate transaminase [Acetivibrio thermocellus AD2]
+ ANV76221.1 Aspartate transaminase [Acetivibrio thermocellus DSM 2360]
+Length=395
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 22/83 (27%), Positives = 40/83 (48%), Gaps = 4/83 (5%)
+
+Query  45   HGITVHRPLRAFDITFKNSKVRGVSVDGTPADCVKLAVEALLDKPPDLVLSGINSGPNLG  104
+            +G++  +P  AF +    SK+ G  + G          EALL+K    ++ G  SG   G
+Sbjct  311  NGVSCIKPNGAFYVMMNISKLIGKEIAGMKITGSDSFAEALLEKANVALVPG--SG--FG  366
+
+Query  105  TDVLYSGTVSAAIEAMINGIPAI  127
+            TD+    + + ++E ++ G+  I
+Sbjct  367  TDIHVRLSYATSMENIVEGLNRI  389
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.137    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 23373
+Number of extensions: 1054
+Number of successful extensions: 28
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 28
+Number of HSP's successfully gapped: 9
+Length of query: 264
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 177
+Effective length of database: 2134357
+Effective search space: 377781189
+Effective search space used: 377781189
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

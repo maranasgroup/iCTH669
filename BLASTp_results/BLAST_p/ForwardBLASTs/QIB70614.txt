@@ -1,0 +1,244 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W2DYDCP016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QIB70614 5'-nucleotidase [Aminipila butyrica]
+
+Length=260
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_136479160.1 stage II sporulation protein E [Acetivibrio the...  27.7    2.0    33%
+WP_003512814.1 stage II sporulation protein E [Acetivibrio the...  27.7    2.0    33%
+WP_003513639.1 3-isopropylmalate dehydrogenase [Acetivibrio th...  27.3    2.2    28%
+WP_003518645.1 TIGR04086 family membrane protein [Acetivibrio ...  26.2    3.2    31%
+WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  25.8    7.1    41%
+WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  25.8    7.3    41%
+WP_003518454.1 S-layer homology domain-containing protein [Ace...  25.8    7.4    37%
+WP_003513906.1 S-layer homology domain-containing protein [Ace...  25.8    7.6    37%
+
+ALIGNMENTS
+>WP_136479160.1 stage II sporulation protein E [Acetivibrio thermocellus]
+ THJ79415.1 stage II sporulation protein E [Acetivibrio thermocellus]
+Length=798
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 36/80 (45%), Gaps = 5/80 (6%)
+
+Query  62   QLAYEISGT---PADCVKLGVLLLRNRGIDVDMVFSGINHGGNLGTDIHYSGTVSAAIEG  118
+             LA EI G     +D   + +  LRN+GI V+ V    N  G    +I ++G   A
+Sbjct  482  NLAVEIDGEIKFKSDMEDVLLFELRNKGIKVNDVVVCENKWGKYEVNIFHNGCAGA--NK  539
+
+Query  119  CICGIPSVAVSIHGTVPVNG  138
+            C+  I  VA S+ G   V G
+Sbjct  540  CLDYIEEVASSVLGRRMVRG  559
+
+
+>WP_003512814.1 stage II sporulation protein E [Acetivibrio thermocellus]
+ CDG37145.1 serine phosphatase [Acetivibrio thermocellus BC1]
+ ABN53880.1 protein serine/threonine phosphatase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73362.1 stage II sporulation protein E, protein serine/threonine phosphatase
+[Acetivibrio thermocellus DSM 1313]
+ ALX07284.1 stage II sporulation protein E, protein serine/threonine phosphatase
+[Acetivibrio thermocellus AD2]
+ ANV75022.1 stage II sporulation protein E, protein serine/threonine phosphatase
+[Acetivibrio thermocellus DSM 2360]
+Length=798
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 26/80 (33%), Positives = 36/80 (45%), Gaps = 5/80 (6%)
+
+Query  62   QLAYEISGT---PADCVKLGVLLLRNRGIDVDMVFSGINHGGNLGTDIHYSGTVSAAIEG  118
+             LA EI G     +D   + +  LRN+GI V+ V    N  G    +I ++G   A
+Sbjct  482  NLAVEIDGEIKFKSDMEDVLLFELRNKGIKVNDVVVCENKWGKYEVNIFHNGCAGA--NK  539
+
+Query  119  CICGIPSVAVSIHGTVPVNG  138
+            C+  I  VA S+ G   V G
+Sbjct  540  CLDYIEEVASSVLGRRMVRG  559
+
+
+>WP_003513639.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus]
+ CDG36723.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus BC1]
+ ABN53411.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus ATCC
+27405]
+ ADU75862.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus DSM
+1313]
+ ALX09894.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus AD2]
+ ANV77668.1 3-isopropylmalate dehydrogenase [Acetivibrio thermocellus DSM
+2360]
+Length=362
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 42/97 (43%), Gaps = 25/97 (26%)
+
+Query  113  SAAIEGCICGIPSVAVS---------IHGTVPVNGYEPKHFDVAAELAVQAMLK-SFGKL  162
+            ++ I G I  +PS ++          IHG+ P    + K   +A  L+V  M+K SFG
+Sbjct  255  ASMITGSIGMLPSASLGEGSLGLYEPIHGSAPDIAGQDKANPIATILSVAMMMKYSFGLE  314
+
+Query  163  D-----DKTVLN----------INVPDVPKKKLKGVK  184
+            D     +  V+N          I  PD P++ + G K
+Sbjct  315  DAFRAIENAVVNVLGMGYRTADIASPDTPRENIVGTK  351
+
+
+>WP_003518645.1 TIGR04086 family membrane protein [Acetivibrio thermocellus]
+ CDG35649.1 hypothetical protein CTHBC1_0993 [Acetivibrio thermocellus BC1]
+ ABN52189.1 hypothetical protein Cthe_0955 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74324.1 hypothetical protein Clo1313_1261 [Acetivibrio thermocellus DSM
+1313]
+ ALX08268.1 Protein of unknown function DUF3792, transmembrane [Acetivibrio
+thermocellus AD2]
+ ANV76016.1 Protein of unknown function DUF3792, transmembrane [Acetivibrio
+thermocellus DSM 2360]
+Length=136
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 26/59 (44%), Gaps = 5/59 (8%)
+
+Query  174  DVPKKKLK-GVKVTTLGTRVYEGWFHQQEVEDTGACQYWYSGKPVKCQDLTEEYDVMAI  231
+            D P K +   V +TTL + V  GW   + V+  G    W +G  V    +   Y V +I
+Sbjct  48   DFPLKYMSTAVIITTLLSIVIAGWISTKNVKSKG----WLNGAIVGFIYMLILYLVSSI  102
+
+
+>WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ ABN53424.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27697.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+
+Query  102  LGTDIHYSGTVSAAIEGCICGIPSVAVSI  130
+            L +D+  S   S   E C CG P++AV I
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVI  281
+
+
+>WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ CDG36736.1 Glycosyltransferase 28 domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75875.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 1313]
+ ALX09907.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus AD2]
+ ANV77681.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 2360]
+ EIC03896.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus YS]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 16/29 (55%), Gaps = 0/29 (0%)
+
+Query  102  LGTDIHYSGTVSAAIEGCICGIPSVAVSI  130
+            L +D+  S   S   E C CG P++AV I
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVI  281
+
+
+>WP_003518454.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU75603.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09596.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV77370.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC04373.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+ PFH03879.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=1001
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 20/41 (49%), Gaps = 1/41 (2%)
+
+Query  87   IDVDMV-FSGINHGGNLGTDIHYSGTVSAAIEGCICGIPSV  126
+            ID+D + F   N  G +   + YS  V   IEG I GI  +
+Sbjct  403  IDMDSISFDFRNSDGTVDATLVYSNIVKVFIEGRIAGIRDI  443
+
+
+>WP_003513906.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ CDG36449.1 S-layer-like domain-containing protein [Acetivibrio thermocellus
+BC1]
+ ABN53150.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ NLU26832.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ78136.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ HBW27168.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=1001
+
+ Score = 25.8 bits (55),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 20/41 (49%), Gaps = 1/41 (2%)
+
+Query  87   IDVDMV-FSGINHGGNLGTDIHYSGTVSAAIEGCICGIPSV  126
+            ID+D + F   N  G +   + YS  V   IEG I GI  +
+Sbjct  403  IDMDSISFDFRNSDGTVDATLVYSNIVKVFIEGRIAGIRDI  443
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.135    0.403
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18279
+Number of extensions: 841
+Number of successful extensions: 19
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 6
+Length of query: 260
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 173
+Effective length of database: 2134357
+Effective search space: 369243761
+Effective search space used: 369243761
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

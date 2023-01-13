@@ -1,0 +1,15 @@
+Stand-Alone TIC-Finding Problem Solutions
+Model: iCTH754
+
+End of solutions for phi = 0
+Solution time: 0.0578157901763916 s
+
+End of solutions for phi = 1
+Solution time: 23.27043080329895 s
+
+End of solutions for phi = 2
+Solution time: 256.1755154132843 s
+
+End of solutions for phi = 3
+Solution time: 1018.741840839386 s
+

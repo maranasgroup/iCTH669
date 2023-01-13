@@ -1,0 +1,1360 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8VE3W5T701N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_158401712.1 deoxynucleoside kinase [Faecalibacterium prausn...  230     4e-76  51%
+MBS7161962.1 thymidylate kinase [Faecalibacterium prausnitzii]     229     1e-75  50%
+MBS5513465.1 thymidylate kinase [Faecalibacterium prausnitzii]     229     1e-75  50%
+WP_158394654.1 deoxynucleoside kinase [Faecalibacterium prausn...  228     5e-75  50%
+OLA32981.1 thymidylate kinase [Faecalibacterium prausnitzii]       228     5e-75  49%
+WP_158404615.1 deoxynucleoside kinase [Faecalibacterium prausn...  228     6e-75  50%
+WP_158390020.1 thymidylate kinase [Faecalibacterium prausnitzii]   227     8e-75  50%
+WP_217210107.1 deoxynucleoside kinase [Faecalibacterium prausn...  227     8e-75  50%
+WP_223385815.1 thymidylate kinase [Faecalibacterium prausnitzii]   227     8e-75  50%
+MBD9126263.1 thymidylate kinase [Faecalibacterium prausnitzii]     227     1e-74  50%
+MBL6450413.1 thymidylate kinase [Faecalibacterium prausnitzii]     227     1e-74  50%
+WP_158402579.1 thymidylate kinase [Faecalibacterium prausnitzii]   226     2e-74  50%
+MBS7082244.1 thymidylate kinase [Faecalibacterium prausnitzii]     226     2e-74  48%
+WP_097775433.1 deoxynucleoside kinase [Faecalibacterium prausn...  226     2e-74  50%
+WP_005941476.1 deoxynucleoside kinase [Faecalibacterium]           226     2e-74  50%
+MBS6621711.1 thymidylate kinase [Faecalibacterium prausnitzii]     226     3e-74  50%
+MBS7058124.1 thymidylate kinase [Faecalibacterium prausnitzii]     226     3e-74  50%
+MBS5310024.1 thymidylate kinase [Faecalibacterium prausnitzii]     225     4e-74  50%
+WP_158398999.1 thymidylate kinase [Faecalibacterium prausnitzii]   225     6e-74  50%
+WP_097782218.1 deoxynucleoside kinase [Faecalibacterium prausn...  225     6e-74  50%
+MBS4920429.1 thymidylate kinase [Faecalibacterium prausnitzii]     225     7e-74  49%
+WP_097801847.1 deoxynucleoside kinase [Faecalibacterium prausn...  224     1e-73  49%
+WP_005926082.1 deoxynucleoside kinase [Faecalibacterium]           224     1e-73  50%
+WP_097777683.1 deoxynucleoside kinase [Faecalibacterium]           224     2e-73  50%
+MBD9003726.1 thymidylate kinase [Faecalibacterium prausnitzii]     223     2e-73  50%
+WP_097783917.1 deoxynucleoside kinase [Faecalibacterium prausn...  223     3e-73  50%
+WP_112120755.1 deoxynucleoside kinase [Faecalibacterium prausn...  223     6e-73  50%
+WP_113991871.1 deoxynucleoside kinase [Faecalibacterium prausn...  222     7e-73  50%
+WP_097780200.1 deoxynucleoside kinase [Faecalibacterium prausn...  222     7e-73  50%
+WP_129872122.1 deoxynucleoside kinase [Faecalibacterium prausn...  222     7e-73  50%
+MBD8927300.1 thymidylate kinase [Faecalibacterium prausnitzii]     222     8e-73  50%
+WP_117948113.1 deoxynucleoside kinase [Faecalibacterium prausn...  222     8e-73  50%
+WP_015563905.1 thymidylate kinase [Faecalibacterium prausnitzii]   222     9e-73  50%
+WP_112089839.1 deoxynucleoside kinase [Faecalibacterium prausn...  222     1e-72  50%
+MBS6135462.1 deoxynucleoside kinase [Faecalibacterium prausnit...  222     1e-72  47%
+WP_055191287.1 deoxynucleoside kinase [Faecalibacterium prausn...  220     5e-72  49%
+MBS7029008.1 deoxynucleoside kinase [Faecalibacterium prausnit...  219     6e-72  50%
+OLA34430.1 thymidylate kinase [Faecalibacterium prausnitzii]       219     7e-72  50%
+WP_238077959.1 deoxynucleoside kinase [Faecalibacterium prausn...  219     7e-72  48%
+WP_118552560.1 deoxynucleoside kinase [Faecalibacterium]           219     9e-72  49%
+MBS7019079.1 deoxynucleoside kinase [Faecalibacterium prausnit...  218     2e-71  49%
+MBS5362673.1 deoxynucleoside kinase [Faecalibacterium prausnit...  218     2e-71  50%
+MBS6699579.1 deoxynucleoside kinase [Faecalibacterium prausnit...  218     3e-71  48%
+WP_097793350.1 deoxynucleoside kinase [Faecalibacterium prausn...  218     5e-71  48%
+WP_156071023.1 deoxynucleoside kinase [Faecalibacterium prausn...  217     9e-71  48%
+WP_005936151.1 deoxynucleoside kinase [Faecalibacterium]           216     1e-70  48%
+WP_156066632.1 deoxynucleoside kinase [Faecalibacterium prausn...  216     2e-70  47%
+WP_097773775.1 deoxynucleoside kinase [Faecalibacterium prausn...  216     2e-70  48%
+WP_097771764.1 deoxynucleoside kinase [Faecalibacterium prausn...  216     3e-70  47%
+WP_117534098.1 deoxynucleoside kinase [Faecalibacterium prausn...  215     3e-70  47%
+WP_156076769.1 deoxynucleoside kinase [Faecalibacterium prausn...  215     3e-70  48%
+WP_156058239.1 deoxynucleoside kinase [Faecalibacterium prausn...  215     4e-70  47%
+WP_117504260.1 deoxynucleoside kinase [Faecalibacterium]           215     5e-70  47%
+WP_117477437.1 deoxynucleoside kinase [Faecalibacterium prausn...  215     6e-70  47%
+WP_022256265.1 deoxynucleoside kinase [Faecalibacterium prausn...  214     1e-69  48%
+RAW62285.1 thymidylate kinase [Faecalibacterium prausnitzii]       214     1e-69  49%
+WP_112149097.1 deoxynucleoside kinase [Faecalibacterium prausn...  214     1e-69  48%
+WP_223383891.1 deoxynucleoside kinase [Faecalibacterium prausn...  213     4e-69  47%
+WP_156072201.1 deoxynucleoside kinase [Faecalibacterium prausn...  213     4e-69  47%
+WP_097838876.1 thymidylate kinase [Faecalibacterium prausnitzii]   211     1e-68  49%
+VDR34408.1 Thymidylate kinase [Faecalibacterium prausnitzii]       107     8e-28  29%
+WP_005937784.1 hypothetical protein [Faecalibacterium]             35.0    0.11   26%
+MBD9003483.1 nucleoside kinase [Faecalibacterium prausnitzii]      32.7    0.74   31%
+WP_117529641.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.75   31%
+WP_015538327.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.75   31%
+WP_117526458.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.76   31%
+MBD8927427.1 nucleoside kinase [Faecalibacterium prausnitzii]      32.7    0.76   31%
+WP_212792101.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.76   31%
+WP_236131753.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.77   31%
+WP_117948236.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.79   31%
+WP_112120852.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.79   31%
+WP_097783796.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.79   31%
+WP_055184823.1 phosphoribulokinase [Faecalibacterium prausnitzii]  32.7    0.80   31%
+WP_097780022.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.82   31%
+WP_154265320.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.82   31%
+WP_113992137.1 nucleoside kinase [Faecalibacterium prausnitzii]    32.7    0.82   31%
+WP_005926868.1 phosphoribulokinase [Faecalibacterium prausnitzii]  32.3    0.84   34%
+WP_156075463.1 hypothetical protein [Faecalibacterium prausnit...  31.2    2.5    35%
+MBS7019704.1 hypothetical protein [Faecalibacterium prausnitzii]   30.0    4.1    38%
+MBS7028773.1 hypothetical protein [Faecalibacterium prausnitzii]   30.0    4.6    38%
+RAW64960.1 hypothetical protein C4N21_08550 [Faecalibacterium ...  30.0    5.7    29%
+WP_181573312.1 ATP-binding protein [Faecalibacterium prausnitzii]  30.0    6.2    29%
+
+ALIGNMENTS
+>WP_158401712.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ RAW51445.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 230 bits (587),  Expect = 4e-76, Method: Compositional matrix adjust.
+ Identities = 110/216 (51%), Positives = 153/216 (71%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGCKVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R++ Y A+   W  I C ++G ++ I+EIQ EV
+Sbjct  179  RSRRSAEYCAEHLGWATIHCTENGAMRTIEEIQAEV  214
+
+
+>MBS7161962.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 229 bits (585),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+  +E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLP-LEQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>MBS5513465.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MBS6541577.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 229 bits (584),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+  +E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLP-LEQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>WP_158394654.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ AXA81050.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ RAW48477.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 228 bits (580),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGSKVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>OLA32981.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 228 bits (580),  Expect = 5e-75, Method: Compositional matrix adjust.
+ Identities = 109/224 (49%), Positives = 156/224 (70%), Gaps = 5/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKL+++E G D SGKATQ   L   L   G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGKLLVLE-GLDGSGKATQAKLLAAHLAGSGRRVMEITFPDYESDSSALVKMYLSGQFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   ++ D
+Sbjct  62   RPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-DQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W + +E+++  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  GFLRWAFEYEYQLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A+   W  + C  DG ++ I++IQ EV +A++G +
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTVDGAMRTIEDIQAEV-QALAGNV  221
+
+
+>WP_158404615.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ VUX00144.1 Thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 228 bits (580),  Expect = 6e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 150/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGSIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>WP_158390020.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 227 bits (579),  Expect = 8e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGRRVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYH--GDESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>WP_217210107.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBU8988754.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 227 bits (579),  Expect = 8e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 150/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGCKVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>WP_223385815.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 227 bits (579),  Expect = 8e-75, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 151/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAEGGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>MBD9126263.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 227 bits (578),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGCKVVEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>MBL6450413.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 227 bits (578),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 150/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGRRVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>WP_158402579.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ RGB92894.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 226 bits (576),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 151/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>MBS7082244.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 226 bits (576),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 107/224 (48%), Positives = 156/224 (70%), Gaps = 5/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L ++E G D SGKATQ   L + L   G +V ++TFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLFVLE-GLDGSGKATQAKLLADHLAGSGRRVMEVTFPDYESDSSALVKMYLSGQFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   ++ D
+Sbjct  62   RPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-DQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W + +E+++  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  GFLRWAFEYEYQLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A+   W  + C  DG ++ I++IQ EV +A++G +
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTVDGAMRTIEDIQAEV-QALAGNV  221
+
+
+>WP_097775433.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PDX68540.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 226 bits (576),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 110/220 (50%), Positives = 152/220 (69%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L   L + G+ V++ITFPNY+SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAAHLKERGFSVREITFPNYESDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E +KD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + Y A    W+ + C     ++ I++IQ EV E V
+Sbjct  179  RSRCAAEYCAAHLGWVVVHCTSGDNMRSIEDIQAEVQEIV  218
+
+
+>WP_005941476.1 MULTISPECIES: deoxynucleoside kinase [Faecalibacterium]
+ EFQ07153.1 dTMP kinase [Faecalibacterium cf. prausnitzii KLE1255]
+Length=223
+
+ Score = 226 bits (576),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 111/220 (50%), Positives = 152/220 (69%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L   L ++G+ V++ITFPNY+SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAAHLKEQGFSVREITFPNYESDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G II+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIIIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E +KD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + Y A    W  + C     ++ I++IQ EV E V
+Sbjct  179  RSRCAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQEIV  218
+
+
+>MBS6621711.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 226 bits (575),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 151/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASYLAESGRKVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>MBS7058124.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 226 bits (575),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 151/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGRRVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWN  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPTVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAAHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>MBS5310024.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MBS5686810.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 225 bits (574),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 150/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G KV +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAESGCKVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWN  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAVHLGWATVHCTENGAMRTIEEIQAEV  214
+
+
+>WP_158398999.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ VUX11682.1 Thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 225 bits (573),  Expect = 6e-74, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 149/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAEGGRRVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++G ++ I EIQ EV
+Sbjct  179  RSRRAAEYCAVHLGWATVHCTENGAMRTIGEIQAEV  214
+
+
+>WP_097782218.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PLK30867.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 225 bits (573),  Expect = 6e-74, Method: Compositional matrix adjust.
+ Identities = 110/220 (50%), Positives = 152/220 (69%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L   L ++G+ V++ITFPNY+SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAAHLKEQGFSVREITFPNYESDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E +KD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYHG--DESRKDMHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + Y A    W  + C     ++ I++IQ EV E V
+Sbjct  179  RSRCAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQEIV  218
+
+
+>MBS4920429.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 225 bits (573),  Expect = 7e-74, Method: Compositional matrix adjust.
+ Identities = 106/216 (49%), Positives = 152/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLASHLAESGRRVMEITFPDYESDSSALVKMYLSGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T+WG  Y  G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTKWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWN  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A+   W  + C ++G ++ I++IQ EV
+Sbjct  179  RSRRAAEYCAEHLGWATVHCTENGAMRTIEDIQAEV  214
+
+
+>WP_097801847.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PDX60500.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 224 bits (571),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 110/225 (49%), Positives = 153/225 (68%), Gaps = 4/225 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+LI++E G D SGKATQ   L   L  +G+ V+++TFPNY+SDSSALVKMYL G FG+
+Sbjct  3    KGRLIVLE-GLDGSGKATQAKLLAAHLAAQGFSVREVTFPNYESDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM  R +    E KKD+HE++ EYL
+Sbjct  121  AFLGWLFDFEFHLLGLPAPDKVIYLQVDPAVSQKLMTARYHG--DESKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIR  226
+             S   + Y A    W  + C   G ++ I++IQ EV   V G ++
+Sbjct  179  RSRAAAEYCAAHLGWQTVHCTSGGAMRSIEDIQAEVQGIVLGQLK  223
+
+
+>WP_005926082.1 MULTISPECIES: deoxynucleoside kinase [Faecalibacterium]
+ AXB28620.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ EDP19983.1 dTMP kinase [Faecalibacterium prausnitzii M21/2]
+ MBT9707538.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MBV0926552.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MSC50601.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 224 bits (570),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I+EIQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEV  214
+
+
+>WP_097777683.1 MULTISPECIES: deoxynucleoside kinase [Faecalibacterium]
+ PDX58023.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 224 bits (570),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 109/220 (50%), Positives = 152/220 (69%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L   L ++G+ V++ITFPNY+SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAAHLKEQGFSVREITFPNYESDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++EF +  LP PD VI+L + P+ S++LM +R +    E +KD+HE++ EYL
+Sbjct  121  SFLGWLFDYEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + Y A    W  + C     ++ I++IQ EV E V
+Sbjct  179  RSRCAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQEIV  218
+
+
+>MBD9003726.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 223 bits (569),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLRWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I+EIQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEV  214
+
+
+>WP_097783917.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PDX71374.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 223 bits (569),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 148/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C +   ++ I++IQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTRGDAMRSIEDIQQEV  214
+
+
+>WP_112120755.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBS6977157.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBV0896522.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MSC44360.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSC47496.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSC68400.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 223 bits (567),  Expect = 6e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I++IQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEDIQQEV  214
+
+
+>WP_113991871.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ RCH47762.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ RCH51561.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (566),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLSEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I++IQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEDIQQEV  214
+
+
+>WP_097780200.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PDX82957.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (566),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   ++ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QKQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I+EIQ+EV
+Sbjct  179  RSRTAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEV  214
+
+
+>WP_129872122.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MSC64646.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSC70554.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSC95518.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSD36483.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MSD49735.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (566),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I++IQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEDIQQEV  214
+
+
+>MBD8927300.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (566),  Expect = 8e-73, Method: Compositional matrix adjust.
+ Identities = 108/216 (50%), Positives = 146/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM  R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTLRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I+EIQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEV  214
+
+
+>WP_117948113.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ RGW80239.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (565),  Expect = 8e-73, Method: Compositional matrix adjust.
+ Identities = 108/218 (50%), Positives = 148/218 (68%), Gaps = 4/218 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAENLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QEQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  DYLRWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDVHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYE  219
+             S   + + A+   W  + C     ++ I+EIQ+EV +
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEVQQ  216
+
+
+>WP_015563905.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ CBK98165.1 thymidylate kinase [Faecalibacterium prausnitzii L2-6]
+Length=223
+
+ Score = 222 bits (565),  Expect = 9e-73, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 149/216 (69%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+L++IE G D SGKATQ   L   L + G +V +ITFP+Y+SDSSALVKMYL+G FG
+Sbjct  3    KGRLLVIE-GLDGSGKATQAKLLAAHLAEGGRRVMEITFPDYESDSSALVKMYLSGRFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+PY AS+FYAVDR+ASY+T WG  Y  G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNPYAASSFYAVDRYASYKTRWGSFYEAGGIVIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL W +++E+ +  LP PD V++L + P+ S++LM  R +    E +KD+HE++ EYL
+Sbjct  121  DFLRWAFDYEYRLLGLPAPDAVVYLQVDPAVSQKLMTGRYHG--DESRKDVHEKDIEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S R + Y A    W  + C ++  ++ I+EIQ EV
+Sbjct  179  RSRRAAEYCAVHLGWATVHCTENRAMRTIEEIQAEV  214
+
+
+>WP_112089839.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ RAW60595.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 222 bits (565),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/216 (50%), Positives = 147/216 (68%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L  +G  V+KITFP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLAAQGVPVQKITFPDYASDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+T WG  Y  G +I+ADRYTTSN VHQ +K+   ++ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKTSWGSFYEQGGVIIADRYTTSNAVHQCSKLP-QKQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             +L WL+++EF +  LP PD VI+L + P+ S+ LM +R +    E KKD+HE++  YL
+Sbjct  121  EYLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQRLMTQRYHG--DESKKDLHEKDTAYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S   + + A+   W  + C     ++ I+EIQ+EV
+Sbjct  179  RSRAAAEFCARHLGWDTVHCTSGDAMRSIEEIQQEV  214
+
+
+>MBS6135462.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=237
+
+ Score = 222 bits (566),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 107/227 (47%), Positives = 156/227 (69%), Gaps = 6/227 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGKATQ   L E L +EG  V+KITFP+Y+S +SALV+MYL G+FG
+Sbjct  3    KGKLIVLE-GLDGSGKATQAKLLAEHLEREGVPVRKITFPDYESQASALVRMYLAGEFGA  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P DV+ Y AS+F+AVDR+ASY+ +WG  Y  G +++ADRYTTSN VHQ +K+   E+
+Sbjct  62   KPEDVNAYAASSFFAVDRYASYKKDWGSFYQAGGVLIADRYTTSNGVHQCSKLPP-EQWP  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQ-KKDIHERNDEYL  180
+             FLDWL+++EF +  LP PD VI+L++ P+ S+ LM +R   + G+Q KKD+HE++ EYL
+Sbjct  121  PFLDWLFDYEFRLLGLPAPDSVIYLEVDPAVSQRLMDQR---YHGDQSKKDLHEKDREYL  177
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+              S + + + A++  W  + C + G ++ I EI+ +V+      + Q
+Sbjct  178  ARSRQAAEFCAQRLGWQTVHCTQQGQMRSIQEIEAQVWALAQQTLAQ  224
+
+
+>WP_055191287.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ CUO03657.1 Thymidylate kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 220 bits (560),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 106/216 (49%), Positives = 151/216 (70%), Gaps = 4/216 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGKATQ  +L   L  EG  V++ITFPNY+SDSSALV+MYL G FG+
+Sbjct  3    RGKLIVLE-GLDGSGKATQAKRLAAALTAEGRPVREITFPNYESDSSALVRMYLAGQFGE  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+ +WG+ Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKADWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++EF +  LP PD VI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  121  EFLHWLFDYEFRLLGLPAPDRVIYLQVDPAVSQKLMTQRYH--GDETKKDVHEKDVEYLN  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+             S + + + A    W  + C   G ++ I+EI +EV
+Sbjct  179  RSRKAAEFCAAHLGWCSVRCDAGGQMRSIEEIGEEV  214
+
+
+>MBS7029008.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=221
+
+ Score = 219 bits (559),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Identities = 109/220 (50%), Positives = 150/220 (68%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI IE G D SGKATQ   L   L  +G  V++++FP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIAIE-GLDGSGKATQAKLLAGYLAAQGLAVREVSFPDYGSDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S R + Y A   +W  + C     ++ I++IQ EV + V
+Sbjct  179  RSRRAAEYCAAHLDWAVVHCTSGDNMRSIEDIQAEVQKIV  218
+
+
+>OLA34430.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=221
+
+ Score = 219 bits (559),  Expect = 7e-72, Method: Compositional matrix adjust.
+ Identities = 109/220 (50%), Positives = 149/220 (68%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI IE G D SGKATQ   L   L  +G  V++++FP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIAIE-GLDGSGKATQAKLLAGYLAAQGLAVREVSFPDYGSDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S R + Y A    W  + C     ++ I++IQ EV + V
+Sbjct  179  RSRRAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQKIV  218
+
+
+>WP_238077959.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 219 bits (559),  Expect = 7e-72, Method: Compositional matrix adjust.
+ Identities = 108/224 (48%), Positives = 150/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L   G+ V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTGHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E KKD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ+EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQEEVRTLALAVI  222
+
+
+>WP_118552560.1 MULTISPECIES: deoxynucleoside kinase [Faecalibacterium]
+Length=224
+
+ Score = 219 bits (559),  Expect = 9e-72, Method: Compositional matrix adjust.
+ Identities = 109/223 (49%), Positives = 151/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI++E G D SGKATQ  +L   L  EG  V++ITFPNY SDSSALV+MYL G FG
+Sbjct  4    GKLIVLE-GLDGSGKATQAKRLAAALAAEGRLVREITFPNYASDSSALVRMYLAGQFGAR  62
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS+FYAVDR+A Y+ +WG+ Y +G I++ADRYTTSN VHQ +K+   EE ++
+Sbjct  63   PDDVNAYAASSFYAVDRYAGYKADWGRFYEEGGILIADRYTTSNAVHQCSKLPP-EEWEQ  121
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+++EF +  LP PDCVI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  122  FLHWLFDYEFHLLGLPAPDCVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDVEYLAR  179
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            S R + + A    W  + C     ++ I+EI +EV   V   +
+Sbjct  180  SRRAAEFCAAHLGWQTVPCTCGDGMRSIEEIGQEVRRRVDAAL  222
+
+
+>MBS7019079.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=221
+
+ Score = 218 bits (556),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 108/220 (49%), Positives = 149/220 (68%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI IE G D SGKATQ   L   L  +G  V++++FP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIAIE-GLDGSGKATQAKLLAGYLATQGLAVREVSFPDYGSDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G I++ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIVIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++EF +  LP PD VI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  121  SFLSWLFDYEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S R + Y A    W  + C     ++ I++IQ EV + V
+Sbjct  179  RSRRAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQKIV  218
+
+
+>MBS5362673.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=223
+
+ Score = 218 bits (556),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 109/220 (50%), Positives = 148/220 (67%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI IE G D SGKATQ   L   L  +G  V++++FP+Y SDSSALVKMYL G FG+
+Sbjct  3    KGKLIAIE-GLDGSGKATQAKLLAGYLAAQGLAVREVSFPDYGSDSSALVKMYLAGQFGQ  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+ASY+ +WG  Y +G II+ADRYTTSN VHQ +K+   E+ +
+Sbjct  62   HPDDVNAYAASSFYAVDRYASYKKDWGSFYENGGIIIADRYTTSNAVHQCSKLPP-EQWE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL++FEF +  LP PD VI+L + P+ S++LM +R +    E +KD+HE++ EYL
+Sbjct  121  SFLGWLFDFEFHLLGLPAPDEVIYLQVDPAVSQKLMTQRYHG--DESRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + Y A    W  + C     ++ I++IQ EV E V
+Sbjct  179  RSRCAAEYCAAHLGWAVVHCTSGDNMRSIEDIQAEVQEIV  218
+
+
+>MBS6699579.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=224
+
+ Score = 218 bits (555),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 108/223 (48%), Positives = 151/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI++E G D SGKATQ  +L   L  EG  V++ITFPNY SDSSALV+MYL G FG
+Sbjct  4    GKLIVLE-GLDGSGKATQAKRLAAALAAEGRPVREITFPNYASDSSALVRMYLAGQFGAR  62
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS+FYAVDR+A Y+ +WG+ Y +G I++ADRYTTSN VHQ +K+   EE ++
+Sbjct  63   PDDVNAYAASSFYAVDRYAGYKADWGRFYEEGGILIADRYTTSNAVHQCSKLPP-EEWEQ  121
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+++EF +  LP PDCVI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  122  FLHWLFDYEFHLLGLPAPDCVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDVEYLAR  179
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            S + + + A    W  + C     ++ I+EI +EV   V   +
+Sbjct  180  SRKAAEFCAAHLGWQTVPCTCGDGMRSIEEIGQEVRRRVDAAL  222
+
+
+>WP_097793350.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ PDX85908.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=224
+
+ Score = 218 bits (554),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 108/223 (48%), Positives = 151/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI++E G D SGKATQ  +L   L  EG  V++ITFPNY SDSSALV+MYL G FG
+Sbjct  4    GKLIVLE-GLDGSGKATQAKRLAAALAAEGRLVREITFPNYASDSSALVRMYLAGQFGAR  62
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS+FYAVDR+A Y+ +WG+ Y +G I++ADRYTTSN VHQ +K+   EE ++
+Sbjct  63   PDDVNAYAASSFYAVDRYAGYKADWGRFYEEGGILIADRYTTSNAVHQCSKLPP-EEWEQ  121
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+++EF +  LP PDCVI+L + P+ S++LM +R +    E KKD+HE++ EYL
+Sbjct  122  FLHWLFDYEFHLLGLPAPDCVIYLQVDPAVSQKLMTQRYH--GDESKKDVHEKDVEYLAR  179
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            S + + + A    W  + C     ++ I+EI +EV   V   +
+Sbjct  180  SRKAAEFCAAHLGWQTVPCTCGDGMRSIEEIGQEVRRRVDAAL  222
+
+
+>WP_156071023.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 217 bits (552),  Expect = 9e-71, Method: Compositional matrix adjust.
+ Identities = 107/224 (48%), Positives = 149/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTNHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E KKD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ+EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQEEVRTLALAVI  222
+
+
+>WP_005936151.1 MULTISPECIES: deoxynucleoside kinase [Faecalibacterium]
+ ATP01099.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MBD9047111.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ MBT9712086.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 216 bits (551),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 107/224 (48%), Positives = 149/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTDHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E KKD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ+EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQEEVRTLALAVI  222
+
+
+>WP_156066632.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 216 bits (550),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 106/224 (47%), Positives = 149/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTDHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGEFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E +KD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ+EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQEEVRTLALAVI  222
+
+
+>WP_097773775.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ ATL88833.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ PDX65337.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ PDX77140.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 216 bits (549),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 107/224 (48%), Positives = 148/224 (66%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTDHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E KKD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETKKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQGEVRTLALAVI  222
+
+
+>WP_097771764.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBS6368397.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBT9689322.1 thymidylate kinase [Faecalibacterium prausnitzii]
+ PDX88355.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 216 bits (549),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 106/224 (47%), Positives = 149/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTDHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E +KD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ+EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQEEVRTLALAVI  222
+
+
+>WP_117534098.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ MBS6771624.1 deoxynucleoside kinase [Faecalibacterium prausnitzii]
+ RGC38482.1 thymidylate kinase [Faecalibacterium prausnitzii]
+Length=222
+
+ Score = 215 bits (548),  Expect = 3e-70, Method: Compositional matrix adjust.
+ Identities = 106/224 (47%), Positives = 148/224 (66%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI++E G D SGK TQ   L + L    + V++ITFP+YDSDSSALVKMYL G FG
+Sbjct  3    KGKLIVLE-GLDGSGKGTQAKLLAKHLTVTNHLVREITFPDYDSDSSALVKMYLAGQFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y AS+FYAVDR+A Y+++WG+ Y +G I++ADRYTTSN VHQ +K+   E+ D
+Sbjct  62   KPDDVNAYAASSFYAVDRYAGYKSDWGKFYEEGGILIADRYTTSNAVHQCSKLPP-EQWD  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL WL+++E+ +  LP PD VI+L + P+ S+ LM  R +    E +KD+HE++ EYL
+Sbjct  121  TFLQWLFDYEYHLLGLPAPDKVIYLQVDPAVSQRLMTARYHG--DETRKDVHEKDTEYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S R + Y A    W  + C     ++ I++IQ EV      +I
+Sbjct  179  RSRRAAEYCAAHLGWDTVHCTAGEKMRSIEDIQGEVRTLALAVI  222
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 63,281,901
+  Number of sequences in database:  190,811
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 190811
+Number of Hits to DB: 249306
+Number of extensions: 10537
+Number of successful extensions: 31
+Number of sequences better than 100: 0
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 0
+Length of query: 227
+Length of database: 63281901
+Length adjustment: 106
+Effective length of query: 121
+Effective length of database: 43055935
+Effective search space: 5209768135
+Effective search space used: 5209768135
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 55 (25.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

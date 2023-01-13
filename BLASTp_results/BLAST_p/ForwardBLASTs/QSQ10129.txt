@@ -1,0 +1,202 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WUKTJUY013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QSQ10129 5'-nucleotidase [Koleobacter methoxysyntrophicus]
+
+Length=251
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG35023.1 L-lactate dehydrogenase [Acetivibrio thermocellus BC1]  28.1    1.1    38%
+WP_003519098.1 L-lactate dehydrogenase [Acetivibrio thermocellus]  28.1    1.2    38%
+CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocel...  25.8    7.4    33%
+WP_011837892.1 DUF4956 domain-containing protein [Acetivibrio ...  25.4    7.5    28%
+WP_003516256.1 DUF4956 domain-containing protein [Acetivibrio ...  25.4    7.7    28%
+WP_003511639.1 glycosyltransferase family 4 protein [Acetivibr...  25.8    7.9    33%
+CDG37251.1 hypothetical protein CTHBC1_2668 [Acetivibrio therm...  25.0    8.8    35%
+
+ALIGNMENTS
+>CDG35023.1 L-lactate dehydrogenase [Acetivibrio thermocellus BC1]
+Length=318
+
+ Score = 28.1 bits (61),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 25/48 (52%), Gaps = 10/48 (21%)
+
+Query  118  GMFGIPSIAVSL-------AVNEI---ELLPDYNDAARFSKKLALKVL  155
+            GM+GI  +A+SL        V E+    L P+  +A RFS +   KVL
+Sbjct  265  GMYGIEDVAISLPSIVNSEGVQEVLQFNLTPEEEEALRFSAEQVKKVL  312
+
+
+>WP_003519098.1 L-lactate dehydrogenase [Acetivibrio thermocellus]
+ 1Y6J_A Chain A, L-lactate dehydrogenase [Acetivibrio thermocellus]
+ ABN51583.1 L-lactate dehydrogenase [Acetivibrio thermocellus ATCC 27405]
+ ADU74930.1 L-lactate dehydrogenase [Acetivibrio thermocellus DSM 1313]
+ ALX08890.1 L-lactate dehydrogenase [Acetivibrio thermocellus AD2]
+ ANV76640.1 L-lactate dehydrogenase [Acetivibrio thermocellus DSM 2360]
+ EIC05122.1 L-lactate dehydrogenase [Acetivibrio thermocellus YS]
+Length=318
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 25/48 (52%), Gaps = 10/48 (21%)
+
+Query  118  GMFGIPSIAVSL-------AVNEI---ELLPDYNDAARFSKKLALKVL  155
+            GM+GI  +A+SL        V E+    L P+  +A RFS +   KVL
+Sbjct  265  GMYGIEDVAISLPSIVNSEGVQEVLQFNLTPEEEEALRFSAEQVKKVL  312
+
+
+>CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocellus BC1]
+Length=391
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 31/69 (45%), Gaps = 4/69 (6%)
+
+Query  92   FSGINRGPNLGNDVLYSGTVSAAVEGGMFGIP---SIAVSLAVNEIELLPDYNDAARFSK  148
+             S I   P LG D   SGT++ AV  G   I    S A  +      LL ++ DA   +K
+Sbjct  278  LSDIYMTPYLGKDQAVSGTLAYAVGYGRVIISTPYSYAKEMLAEGRGLLAEFEDADSLAK  337
+
+Query  149  KLALKVLEN  157
+             +   VL+N
+Sbjct  338  HIEY-VLDN  345
+
+
+>WP_011837892.1 DUF4956 domain-containing protein [Acetivibrio thermocellus]
+ ABN51965.1 hypothetical protein Cthe_0730 [Acetivibrio thermocellus ATCC
+27405]
+ NLU26834.1 DUF4956 domain-containing protein [Acetivibrio thermocellus]
+ THJ78013.1 DUF4956 domain-containing protein [Acetivibrio thermocellus]
+ HBW26821.1 DUF4956 domain-containing protein [Acetivibrio thermocellus]
+Length=227
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 29/102 (28%), Positives = 42/102 (41%), Gaps = 8/102 (8%)
+
+Query  105  VLYSGTVSAAVEGGMFGIPSIAVSLAVNEIELLPDYNDAARFSKKLALKVL--EN---QM  159
+            VL+S     A   G+FG  ++   L    + +L   N  A+ S +  LK+L  EN   Q
+Sbjct  100  VLFSMAAGLACGTGLFGYAALFTMLLCVFMVVLCKINFGAKKSCEKILKILIPENMNYQG  159
+
+Query  160  PSEIILNINVPPSNIAGIAITKLGTRR---YKNTFDKRKDPR  198
+              + IL        +  +  T LGT     Y  T D  KD +
+Sbjct  160  AFDDILKKYTTNYQLCRVKTTDLGTLFELVYTVTMDNEKDEK  201
+
+
+>WP_003516256.1 DUF4956 domain-containing protein [Acetivibrio thermocellus]
+ CDG35423.1 hypothetical protein CTHBC1_0763 [Acetivibrio thermocellus BC1]
+ ADU74555.1 hypothetical protein Clo1313_1493 [Acetivibrio thermocellus DSM
+1313]
+ ALX08499.1 hypothetical protein AD2_01506 [Acetivibrio thermocellus AD2]
+ ANV76248.1 hypothetical protein LQRI_1507 [Acetivibrio thermocellus DSM
+2360]
+ EIC05439.1 hypothetical protein YSBL_0821 [Acetivibrio thermocellus YS]
+Length=227
+
+ Score = 25.4 bits (54),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 29/102 (28%), Positives = 42/102 (41%), Gaps = 8/102 (8%)
+
+Query  105  VLYSGTVSAAVEGGMFGIPSIAVSLAVNEIELLPDYNDAARFSKKLALKVL--EN---QM  159
+            VL+S     A   G+FG  ++   L    + +L   N  A+ S +  LK+L  EN   Q
+Sbjct  100  VLFSMAAGLACGTGLFGYAALFTVLLCVFMVVLCKINFGAKKSCEKILKILIPENMNYQG  159
+
+Query  160  PSEIILNINVPPSNIAGIAITKLGTRR---YKNTFDKRKDPR  198
+              + IL        +  +  T LGT     Y  T D  KD +
+Sbjct  160  AFDDILKKYTTNYQLCRVKTTDLGTLFELVYTVTMDNEKDEK  201
+
+
+>WP_003511639.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+ ABN54309.1 glycosyl transferase group 1 [Acetivibrio thermocellus ATCC 27405]
+ ADU73747.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 1313]
+ ALX07677.1 glycosyl transferase group 1 [Acetivibrio thermocellus AD2]
+ ANV75419.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 2360]
+ EIC05635.1 glycosyl transferase group 1 [Acetivibrio thermocellus YS]
+Length=391
+
+ Score = 25.8 bits (55),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 23/69 (33%), Positives = 31/69 (45%), Gaps = 4/69 (6%)
+
+Query  92   FSGINRGPNLGNDVLYSGTVSAAVEGGMFGIP---SIAVSLAVNEIELLPDYNDAARFSK  148
+             S I   P LG D   SGT++ AV  G   I    S A  +      LL ++ DA   +K
+Sbjct  278  LSDIYMTPYLGKDQAVSGTLAYAVGYGRVIISTPYSYAKEMLAEGRGLLAEFEDADSLAK  337
+
+Query  149  KLALKVLEN  157
+             +   VL+N
+Sbjct  338  HIEY-VLDN  345
+
+
+>CDG37251.1 hypothetical protein CTHBC1_2668 [Acetivibrio thermocellus BC1]
+Length=208
+
+ Score = 25.0 bits (53),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 19/55 (35%), Positives = 31/55 (56%), Gaps = 5/55 (9%)
+
+Query  195  KDPRGKIYY--WLAGEVIEEPLEPDSDVWAIKNNFLSITPIKLNLTNLEFIDILK  247
+            +D  GK+YY  W + +  +E  + D++ W    NF  IT I+  L N E+I+ L+
+Sbjct  109  RDDEGKLYYKQWTSDDK-KEKFQRDAEGWRDVWNFADIT-IR-ELENAEYIEGLR  160
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.139    0.407
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20883
+Number of extensions: 954
+Number of successful extensions: 20
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 3
+Length of query: 251
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 164
+Effective length of database: 2134357
+Effective search space: 350034548
+Effective search space used: 350034548
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

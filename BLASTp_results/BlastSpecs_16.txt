@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+amij Aminipila luticellarii 	
+amic Aminipila terrae 	
+abut Aminipila butyrica 	
+euu Eubacterium sulci 	
+bprm Butyrate-producing bacterium SM4/1 	
+bprs Butyrate-producing bacterium SS3/4 	
+tte Caldanaerobacter subterraneus subsp. tengcongensis 	
+tex Thermoanaerobacter sp. X514 	
+thx Thermoanaerobacter sp. X513 	
+tpd Thermoanaerobacter pseudethanolicus 	

@@ -1,0 +1,394 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ5P0TV016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCK01014 5'-nucleotidase [Anaerocolumna chitinilytica]
+
+Length=560
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518251.1 2-isopropylmalate synthase [Acetivibrio thermoc...  30.4    0.72   28%
+WP_003512173.1 type I glyceraldehyde-3-phosphate dehydrogenase...  30.0    0.97   29%
+WP_003512606.1 peptidylprolyl isomerase [Acetivibrio thermocel...  28.5    3.0    28%
+CDG36846.1 hypothetical protein CTHBC1_2248 [Acetivibrio therm...  28.1    3.2    22%
+WP_003516296.1 pyridoxal phosphate-dependent aminotransferase ...  28.1    3.8    35%
+WP_003517235.1 Nif3-like dinuclear metal center hexameric prot...  27.7    5.2    27%
+WP_003516217.1 1-acyl-sn-glycerol-3-phosphate acyltransferase ...  26.9    7.0    41%
+NLU26229.1 insulinase family protein [Acetivibrio thermocellus]    27.3    7.2    31%
+WP_003519033.1 insulinase family protein [Acetivibrio thermoce...  26.9    7.6    31%
+WP_011837754.1 DNA-binding protein WhiA [Acetivibrio thermocel...  26.9    8.2    25%
+WP_003514104.1 hypothetical protein [Acetivibrio thermocellus]     26.2    8.4    28%
+CDG36649.1 Cobyrinic acid ac-diamide synthase [Acetivibrio the...  26.9    8.6    27%
+WP_003516598.1 hypothetical protein [Acetivibrio thermocellus]     25.8    8.7    34%
+ADU75156.1 protein of unknown function DUF199 [Acetivibrio the...  26.6    9.0    25%
+WP_136479370.1 hypothetical protein [Acetivibrio thermocellus]     25.8    9.3    34%
+
+ALIGNMENTS
+>WP_003518251.1 2-isopropylmalate synthase [Acetivibrio thermocellus]
+ A3DF94.1 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM
+synthase; AltName: Full=Alpha-isopropylmalate synthase
+[Acetivibrio thermocellus ATCC 27405]
+ CDG36067.1 2-isopropylmalate synthase [Acetivibrio thermocellus BC1]
+ ABN52623.1 2-isopropylmalate synthase [Acetivibrio thermocellus ATCC 27405]
+ ADU73925.1 2-isopropylmalate synthase [Acetivibrio thermocellus DSM 1313]
+ ALX07863.1 2-isopropylmalate synthase [Acetivibrio thermocellus AD2]
+ ANV75609.1 2-isopropylmalate synthase [Acetivibrio thermocellus DSM 2360]
+Length=511
+
+ Score = 30.4 bits (67),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 31/112 (28%), Positives = 53/112 (47%), Gaps = 18/112 (16%)
+
+Query  108  NKVGYDVVTLGNHEFDYQLDQLKVLTDELKSDVVSCNFKNM---KTGKSVYKNYVIKQYG  164
+             K+GYD   L     +   +  K LTD +K +V + + +++      K+V + YV++
+Sbjct  341  EKLGYD---LDEERLNKLFNDFKKLTD-VKKNVTTADLESLIIESAAKAVEEAYVLE---  393
+
+Query  165  KTKVAYVGITTPESITKSTPAYFQDANGNYVYGFCSDQTGKALYNRVQKAVN  216
+            K +V    I TP     S     +D+ GN +    ++QTG    + V KA+N
+Sbjct  394  KIRVVSGNIETP-----SAKVVIKDSKGNLLE---AEQTGNGPVDAVFKAIN  437
+
+
+>WP_003512173.1 type I glyceraldehyde-3-phosphate dehydrogenase [Acetivibrio
+thermocellus]
+ CDG34819.1 Glyceraldehyde-3-phosphate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN51378.1 glyceraldehyde-3-phosphate dehydrogenase, type I [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75136.1 glyceraldehyde-3-phosphate dehydrogenase, type I [Acetivibrio
+thermocellus DSM 1313]
+ ALX09111.1 glyceraldehyde-3-phosphate dehydrogenase, type I [Acetivibrio
+thermocellus AD2]
+Length=336
+
+ Score = 30.0 bits (66),  Expect = 0.97, Method: Compositional matrix adjust.
+ Identities = 33/115 (29%), Positives = 54/115 (47%), Gaps = 28/115 (24%)
+
+Query  277  NVLVSSTGTKFENIGKLVINKNGK-------IATNLVSLKDYT---KTDSGVSEYIASIK  326
+            N++ SSTG   + +GK++   NGK       + T  VS+ D T   +  +   E  A++K
+Sbjct  204  NIIPSSTGAA-KAVGKVIPELNGKLTGMAFRVPTLDVSVVDLTCRLEKPATYDEIKAAVK  262
+
+Query  327  KSYEAELSKVIGKTAVNLTTLNASTGKRAVRNAETNLGDFCADALRTVLDADAAI  381
+            K+ E EL  ++G T            + AV ++     DF  D   ++ DA+A I
+Sbjct  263  KASENELKGILGYT------------EDAVVSS-----DFIGDPRTSIFDAEAGI  300
+
+
+>WP_003512606.1 peptidylprolyl isomerase [Acetivibrio thermocellus]
+ CDG35028.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+BC1]
+ ABN51589.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74925.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08885.1 hypothetical protein AD2_01895 [Acetivibrio thermocellus AD2]
+ ANV76635.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+DSM 2360]
+Length=463
+
+ Score = 28.5 bits (62),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 27/95 (28%), Positives = 45/95 (47%), Gaps = 8/95 (8%)
+
+Query  254  DVMLDGHSHSTFAENTVKNKSGKNVLVSSTGTKFEN-IGKLVINKNGKIATNLVSLKDYT  312
+            D++LD        E+ V NKSG    V++T ++ E+ I + +  + G      +S + YT
+Sbjct  87   DMLLDQVIERLLLEDYVNNKSG----VTATDSEVEDYINRFIKPRYGDSLGTFMSSQGYT  142
+
+Query  313  KTD---SGVSEYIASIKKSYEAELSKVIGKTAVNL  344
+              +   +G+ EYI   K  Y+A   K +  T   L
+Sbjct  143  NEEEMKAGIKEYILKHKALYKAAKEKNVTLTEQEL  177
+
+
+>CDG36846.1 hypothetical protein CTHBC1_2248 [Acetivibrio thermocellus BC1]
+Length=361
+
+ Score = 28.1 bits (61),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 48/214 (22%), Positives = 91/214 (43%), Gaps = 17/214 (8%)
+
+Query  196  YGFCSDQTGKALYNR-VQKAVNDARKAGADYVVALAHLGTDGITDRWTSTSVIKNTTGID  254
+            Y   SD+  K  ++  +Q+ +   ++   D ++  A +G        T   +IKN    D
+Sbjct  145  YHLLSDEAIKLYFSMTLQEQLAGNKEWRIDEIMNFASIGKS------TFYRIIKNIIQFD  198
+
+Query  255  VMLDGHSHSTFAENTVKNKSGKNVLVSSTGTKFE--NIGKLVINKNGKIATNLVSLKDYT  312
+             ++  H+ S   +     +  KN+  ++  T FE   I  ++ N   K+    + L  Y
+Sbjct  199  -LIRKHAGSRRTQEKAIYRINKNLKHNNGYTPFEIETINNMLNNAEKKLTNGEIKLYSYL  257
+
+Query  313  KTDSGVSEYIASIKKSYEAELSKVIGKTAVNLTTLNASTGKRAVRNAETNLGDFCADALR  372
+               +G       IKKS +AE+ ++IG+    ++ L     ++     ET +G+      R
+Sbjct  258  CYLTGGK---GEIKKS-QAEIGRLIGRKRNTISELTDVLHEKGYIMKETYIGEDNQTRCR  313
+
+Query  373  -TVLDADAAIMNGGGIRADIAMG--DITYNSLLS  403
+              +++   + ++G   R  I +   D  Y SLLS
+Sbjct  314  YIIINKVYSYISGKEDRKKILVLSIDTEYTSLLS  347
+
+
+>WP_003516296.1 pyridoxal phosphate-dependent aminotransferase [Acetivibrio thermocellus]
+ CDG35450.1 Aspartate aminotransferase [Acetivibrio thermocellus BC1]
+ ABN51990.1 aminotransferase class I and II [Acetivibrio thermocellus ATCC
+27405]
+ ADU74529.1 aminotransferase class I and II [Acetivibrio thermocellus DSM
+1313]
+ ALX08472.1 Aspartate transaminase [Acetivibrio thermocellus AD2]
+ ANV76221.1 Aspartate transaminase [Acetivibrio thermocellus DSM 2360]
+Length=395
+
+ Score = 28.1 bits (61),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 29/52 (56%), Gaps = 3/52 (6%)
+
+Query  171  VGITTPESITKSTPAYFQDANGNYVYGFCSDQTG-KALYNRVQKAVNDARKA  221
+            V I TP  +  S P   + A+G  VY  CS++ G K   ++++KA+ D  +A
+Sbjct  117  VIIPTPAWV--SYPEMVKLADGVPVYIHCSEEEGFKFTIDKLEKAITDKTRA  166
+
+
+>WP_003517235.1 Nif3-like dinuclear metal center hexameric protein [Acetivibrio
+thermocellus]
+ CDG35585.1 UPF0135 protein [Acetivibrio thermocellus BC1]
+ ABN52126.1 protein of unknown function DUF34 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74391.1 protein of unknown function DUF34 [Acetivibrio thermocellus DSM
+1313]
+ ALX08334.1 NGG1p interacting factor 3 protein, NIF3 [Acetivibrio thermocellus
+AD2]
+ ANV76082.1 NGG1p interacting factor 3 protein, NIF3 [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 27.7 bits (60),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 33/123 (27%), Positives = 55/123 (45%), Gaps = 31/123 (25%)
+
+Query  318  VSEYIASIKKSYEAELSKVIGKTAVNLTTLNASTGKRAVRNAETNLGDFCADALRTVLDA  377
+            + E+IA +K+    +  +VIG+T       N    K AV         FC    R V++A
+Sbjct  255  LDEFIAVVKEKLGVKNVRVIGET-------NKEIEKVAV---------FCGSFDRDVMEA  298
+
+Query  378  DAAIMNGGGIRADIAM-GDITYNSLLSVFPWGNMGCVLQV----TGQQIKDAL-ELGAKN  431
+              +       +AD+ + GD+ Y+  + +   G   CV+      T + I D L +L  +N
+Sbjct  299  AKS-------KADVLVTGDVKYHDAVDMLEIGM--CVIDAGHFNTERIIADRLAQLIKEN  349
+
+Query  432  YPE  434
+            +PE
+Sbjct  350  FPE  352
+
+
+>WP_003516217.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus]
+ CDG35405.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus
+BC1]
+ ABN51948.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74573.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08517.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus
+AD2]
+ ANV76266.1 1-acyl-sn-glycerol-3-phosphate acyltransferase [Acetivibrio thermocellus
+DSM 2360]
+Length=203
+
+ Score = 26.9 bits (58),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 1/29 (3%)
+
+Query  251  TGIDVMLDGHSHSTFAENT-VKNKSGKNV  278
+            T + ++ +GH    F E T +KNK GKN+
+Sbjct  102  TALKLLEEGHIVGIFPEGTRLKNKKGKNI  130
+
+
+>NLU26229.1 insulinase family protein [Acetivibrio thermocellus]
+Length=419
+
+ Score = 27.3 bits (59),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 29/58 (50%), Gaps = 2/58 (3%)
+
+Query  164  GKTKVAYVGITTPESITKSTPAYFQDANGNYVYG-FCSDQTGKALYNRVQKAVNDARK  220
+            GK++V    I TP+ I K   A  Q++    +   FC D+   A+   ++K + D RK
+Sbjct  359  GKSEVLMDRIYTPDEILKKIDAVNQESVERVIKQIFCLDKISFAIVGNIKKEI-DIRK  415
+
+
+>WP_003519033.1 insulinase family protein [Acetivibrio thermocellus]
+ CDG35133.1 putative zinc protease YmxG [Acetivibrio thermocellus BC1]
+ ABN51657.1 peptidase M16 domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU74858.1 peptidase M16 domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08812.1 processing peptidase [Acetivibrio thermocellus AD2]
+ ANV76563.1 processing peptidase [Acetivibrio thermocellus DSM 2360]
+Length=419
+
+ Score = 26.9 bits (58),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 29/58 (50%), Gaps = 2/58 (3%)
+
+Query  164  GKTKVAYVGITTPESITKSTPAYFQDANGNYVYG-FCSDQTGKALYNRVQKAVNDARK  220
+            GK++V    I TP+ I K   A  Q++    +   FC D+   A+   ++K + D RK
+Sbjct  359  GKSEVLMDRIYTPDEILKKIDAVNQESVERVIKQIFCLDKISFAIVGNIKKEI-DIRK  415
+
+
+>WP_011837754.1 DNA-binding protein WhiA [Acetivibrio thermocellus]
+ A3DBM8.1 RecName: Full=Probable cell division protein WhiA [Acetivibrio
+thermocellus ATCC 27405]
+ ABN51357.1 protein of unknown function DUF199 [Acetivibrio thermocellus
+ATCC 27405]
+ NLU27327.1 DNA-binding protein WhiA [Acetivibrio thermocellus]
+Length=314
+
+ Score = 26.9 bits (58),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 22/88 (25%), Positives = 45/88 (51%), Gaps = 14/88 (16%)
+
+Query  65   SLAALKGDLQEKTKYVSLVSDGDFIQGGTIGAISKGQNIIDIMNKVGYDVVTLGNHEFDY  124
+            +LA    DL +  K  S V+     +G  +  + +G+NI+D +N        +G H
+Sbjct  157  ALATEVSDLMDSFKLHSKVTKR---KGNYVVYLKEGENIVDFLN-------IIGAHSALL  206
+
+Query  125  QLDQLKVLTDELKSDV---VSCNFKNMK  149
+            +L+ +++L  E++++V   V+C   N++
+Sbjct  207  ELENIRIL-KEMRNNVNRIVNCETANLQ  233
+
+
+>WP_003514104.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36552.1 hypothetical protein CTHBC1_1947 [Acetivibrio thermocellus BC1]
+ ABN53259.1 hypothetical protein Cthe_2052 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75693.1 hypothetical protein Clo1313_2709 [Acetivibrio thermocellus DSM
+1313]
+ ALX09722.1 hypothetical protein AD2_02744 [Acetivibrio thermocellus AD2]
+ ANV77497.1 hypothetical protein LQRI_2756 [Acetivibrio thermocellus DSM
+2360]
+Length=130
+
+ Score = 26.2 bits (56),  Expect = 8.4, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 32/71 (45%), Gaps = 9/71 (13%)
+
+Query  470  GAYRVENIKILNSKTGNYEALDLTKEYKLAGINYTLKSSGDGY-TMFKNAKVLKDDIAVD  528
+            G+  + ++ +L +    YE L L  EYK+A         G+G+   FK  +V  D+I
+Sbjct  36   GSSNIRSLAVLANNADCYEELRLFIEYKIA--------KGNGWDEKFKGDRVFGDEILHY  87
+
+Query  529  YDILSNYLTNN  539
+             D + N    N
+Sbjct  88   MDKIYNMCDKN  98
+
+
+>CDG36649.1 Cobyrinic acid ac-diamide synthase [Acetivibrio thermocellus
+BC1]
+Length=295
+
+ Score = 26.9 bits (58),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 16/59 (27%), Positives = 30/59 (51%), Gaps = 2/59 (3%)
+
+Query  476  NIKILNSKTGNYEALDLTKEYKLAGINY--TLKSSGDGYTMFKNAKVLKDDIAVDYDIL  532
+            NI IL+ K G  +    T    +AG NY        +G+   K +++ ++++ VDY ++
+Sbjct  19   NIAILSGKGGTGKTTISTNLSVIAGANYIDCDVEEPNGFIFLKPSQIKREEVKVDYPVV  77
+
+
+>WP_003516598.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35342.1 hypothetical protein CTHBC1_0679 [Acetivibrio thermocellus BC1]
+ ABN51884.1 hypothetical protein Cthe_0649 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74638.1 hypothetical protein Clo1313_1577 [Acetivibrio thermocellus DSM
+1313]
+ ALX08581.1 hypothetical protein AD2_01588 [Acetivibrio thermocellus AD2]
+ ANV76330.1 hypothetical protein LQRI_1589 [Acetivibrio thermocellus DSM
+2360]
+Length=109
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 24/53 (45%), Gaps = 8/53 (15%)
+
+Query  408  GNMGCVLQVTGQQIKD------ALELGAKNYPEESGGFLQVSGITYEINTSVP  454
+            GN GC++      I +        EL A     E  GFL V  I Y+IN ++P
+Sbjct  19   GNTGCLISCVATAITNLNVPITPKELNAA--LTEKDGFLGVDLIWYKINEAIP  69
+
+
+>ADU75156.1 protein of unknown function DUF199 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09131.1 sporulation transcription regulator whiA [Acetivibrio thermocellus
+AD2]
+ ANV76883.1 sporulation transcription regulator whiA [Acetivibrio thermocellus
+DSM 2360]
+ EIC04850.1 sporulation transcription regulator whiA [Acetivibrio thermocellus
+YS]
+ THJ78403.1 DNA-binding protein WhiA [Acetivibrio thermocellus]
+ CDG34799.1 putative sporulation transcription regulator WhiA [Acetivibrio
+thermocellus BC1]
+Length=317
+
+ Score = 26.6 bits (57),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 22/88 (25%), Positives = 45/88 (51%), Gaps = 14/88 (16%)
+
+Query  65   SLAALKGDLQEKTKYVSLVSDGDFIQGGTIGAISKGQNIIDIMNKVGYDVVTLGNHEFDY  124
+            +LA    DL +  K  S V+     +G  +  + +G+NI+D +N        +G H
+Sbjct  160  ALATEVSDLMDSFKLHSKVTKR---KGNYVVYLKEGENIVDFLN-------IIGAHSALL  209
+
+Query  125  QLDQLKVLTDELKSDV---VSCNFKNMK  149
+            +L+ +++L  E++++V   V+C   N++
+Sbjct  210  ELENIRIL-KEMRNNVNRIVNCETANLQ  236
+
+
+>WP_136479370.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78198.1 hypothetical protein EPD62_07220 [Acetivibrio thermocellus]
+Length=109
+
+ Score = 25.8 bits (55),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 18/53 (34%), Positives = 24/53 (45%), Gaps = 8/53 (15%)
+
+Query  408  GNMGCVLQVTGQQIKD------ALELGAKNYPEESGGFLQVSGITYEINTSVP  454
+            GN GC++      I +        EL A     E  GFL V  I Y+IN ++P
+Sbjct  19   GNTGCLISCVATAITNLNVPITPKELNAA--LTEKDGFLGVDLIWYKINEAIP  69
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.313    0.131    0.363
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 40233
+Number of extensions: 1960
+Number of successful extensions: 31
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 5
+Length of query: 560
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 466
+Effective length of database: 2077916
+Effective search space: 968308856
+Effective search space used: 968308856
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

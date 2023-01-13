@@ -1,0 +1,313 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ8KDJ0013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADY56357 5'-nucleotidase [Syntrophobotulus glycolicus]
+
+Length=258
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU27938.1 DNA mismatch repair protein MutS [Acetivibrio therm...  28.9    0.80   33%
+WP_003519014.1 MutS family DNA mismatch repair protein [Acetiv...  28.9    0.81   33%
+CDG34924.1 DNA mismatch repair protein MutS-like protein [Acet...  28.9    0.86   33%
+WP_003515596.1 stage IV sporulation protein A [Acetivibrio the...  28.9    0.88   42%
+WP_136479486.1 nitrogenase [Acetivibrio thermocellus]              28.1    1.3    25%
+NLU28046.1 sporulation peptidase YabG [Acetivibrio thermocellus]   26.9    3.1    30%
+WP_003519973.1 sporulation peptidase YabG [Acetivibrio thermoc...  26.9    3.2    30%
+WP_003517364.1 oxidoreductase/nitrogenase component 1 [Acetivi...  26.6    4.4    24%
+WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  26.2    4.8    39%
+WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  26.2    4.8    39%
+WP_136479658.1 MutS family DNA mismatch repair protein [Acetiv...  26.2    5.7    32%
+WP_003515378.1 ATP-binding cassette domain-containing protein ...  25.4    9.4    42%
+
+ALIGNMENTS
+>NLU27938.1 DNA mismatch repair protein MutS [Acetivibrio thermocellus]
+Length=601
+
+ Score = 28.9 bits (63),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 38/115 (33%), Positives = 53/115 (46%), Gaps = 11/115 (10%)
+
+Query  67   FAVDGTPTDCVKLALQGDLFSQKPELLISGINYGWNLGSDV-----FYSGTVAAAMEGVL  121
+            F  DGT     KLA Q  LF   PEL I  +   W L S V     F+   V A +  VL
+Sbjct  200  FCEDGTKLFRNKLAEQ--LFYILPELTIVFLVICW-LDSSVSLYIPFFLLGVQAVINIVL  256
+
+Query  122  LG-VPSIA--VSLAQSEMVDYTEPAGLIREWIGQEEFLQNCRASLLNINFPGSHQ  173
+             G V SI   VS  ++E+  + +   LI +   ++E+L   ++ L +   P S Q
+Sbjct  257  HGRVSSILGPVSRYKNEIKVFYKMIELIEKKEFEDEYLIELKSRLFDKKKPASEQ  311
+
+
+>WP_003519014.1 MutS family DNA mismatch repair protein [Acetivibrio thermocellus]
+ ABN51486.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75029.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08997.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus AD2]
+ ANV76747.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC05005.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus YS]
+Length=601
+
+ Score = 28.9 bits (63),  Expect = 0.81, Method: Compositional matrix adjust.
+ Identities = 38/115 (33%), Positives = 53/115 (46%), Gaps = 11/115 (10%)
+
+Query  67   FAVDGTPTDCVKLALQGDLFSQKPELLISGINYGWNLGSDV-----FYSGTVAAAMEGVL  121
+            F  DGT     KLA Q  LF   PEL I  +   W L S V     F+   V A +  VL
+Sbjct  200  FCEDGTKLFRNKLAEQ--LFYILPELTIVFLVICW-LDSSVSLYIPFFLLGVQAVINIVL  256
+
+Query  122  LG-VPSIA--VSLAQSEMVDYTEPAGLIREWIGQEEFLQNCRASLLNINFPGSHQ  173
+             G V SI   VS  ++E+  + +   LI +   ++E+L   ++ L +   P S Q
+Sbjct  257  HGRVSSILGPVSRYKNEIKVFYKMIELIEKKEFEDEYLIELKSRLFDKKKPASEQ  311
+
+
+>CDG34924.1 DNA mismatch repair protein MutS-like protein [Acetivibrio thermocellus
+BC1]
+Length=601
+
+ Score = 28.9 bits (63),  Expect = 0.86, Method: Compositional matrix adjust.
+ Identities = 38/115 (33%), Positives = 53/115 (46%), Gaps = 11/115 (10%)
+
+Query  67   FAVDGTPTDCVKLALQGDLFSQKPELLISGINYGWNLGSDV-----FYSGTVAAAMEGVL  121
+            F  DGT     KLA Q  LF   PEL I  +   W L S V     F+   V A +  VL
+Sbjct  200  FCEDGTKLFRNKLAEQ--LFYILPELTIVFLVICW-LDSSVSLYIPFFLLGVQAVINIVL  256
+
+Query  122  LG-VPSIA--VSLAQSEMVDYTEPAGLIREWIGQEEFLQNCRASLLNINFPGSHQ  173
+             G V SI   VS  ++E+  + +   LI +   ++E+L   ++ L +   P S Q
+Sbjct  257  HGRVSSILGPVSRYKNEIKVFYKMIELIEKKEFEDEYLIELKSRLFDKKKPASEQ  311
+
+
+>WP_003515596.1 stage IV sporulation protein A [Acetivibrio thermocellus]
+ CDG35715.1 Stage IV sporulation protein A [Acetivibrio thermocellus BC1]
+ ABN52253.1 stage IV sporulation protein A [Acetivibrio thermocellus ATCC
+27405]
+ ADU74257.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+1313]
+ ALX08200.1 stage IV sporulation protein A [Acetivibrio thermocellus AD2]
+ ANV75948.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+2360]
+Length=492
+
+ Score = 28.9 bits (63),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 20/48 (42%), Positives = 27/48 (56%), Gaps = 7/48 (15%)
+
+Query  40   RSATGRSITIHEPLFV----TKYELRQNVYGFAVDGTPTDCVKLALQG  83
+            +SA+GR+I   EP FV     K EL +NV+ F V     DCV   ++G
+Sbjct  61   QSASGRTIMTTEPKFVPNEAIKIELDENVH-FKV--RLVDCVGYMVKG  105
+
+
+>WP_136479486.1 nitrogenase [Acetivibrio thermocellus]
+ THJ77668.1 nitrogenase [Acetivibrio thermocellus]
+Length=491
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 33/134 (25%), Positives = 58/134 (43%), Gaps = 27/134 (20%)
+
+Query  42   ATGRSITIHEPLFVTKYELRQNVYGFAVDGTPTDCVKLALQGDLFS----QKPEL-LISG  96
+            A G +I  H+P++ +  E    +             ++A  GD+F+     K E  L++
+Sbjct  354  AVGAAIFHHDPIYDSGREENDQL-----------AQRVADYGDVFNYNVCNKQEFELVNA  402
+
+Query  97   INYGWNLGSDVFYSGTVAAAMEGVLLGVPSIAV-----SLAQSEMVDYTEPAGLIREWIG  151
+            +N    L  DV  +      + G  LG+PS+ +     S+    +V+Y E    I E I
+Sbjct  403  LN---RLRPDVLLARHGGMTLWGAKLGIPSLLIGDEHYSMGYEGLVNYGE---RILEVIE  456
+
+Query  152  QEEFLQNCRASLLN  165
+             +EF++N     +N
+Sbjct  457  NDEFVKNLEKHAIN  470
+
+
+>NLU28046.1 sporulation peptidase YabG [Acetivibrio thermocellus]
+Length=291
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  212  ISQDDPDTDLMAIKDGYVSITPLHSDLTDDEQIKVLSEWSRRERSNE  258
+            +  D P+TDL+   D YV       +   +E++K L+E   RE++ +
+Sbjct  43   LEADAPETDLIVQPDSYVREYNARVNRAINEKLKSLNESLMREKTKK  89
+
+
+>WP_003519973.1 sporulation peptidase YabG [Acetivibrio thermocellus]
+ CDG36923.1 Sporulation-specific protease YabG [Acetivibrio thermocellus
+BC1]
+ ABN53602.1 sporulation peptidase YabG [Acetivibrio thermocellus ATCC 27405]
+ ADU73131.1 sporulation peptidase YabG [Acetivibrio thermocellus DSM 1313]
+ ALX07042.1 sporulation peptidase YabG [Acetivibrio thermocellus AD2]
+ ANV74778.1 sporulation peptidase YabG [Acetivibrio thermocellus DSM 2360]
+Length=291
+
+ Score = 26.9 bits (58),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 14/47 (30%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  212  ISQDDPDTDLMAIKDGYVSITPLHSDLTDDEQIKVLSEWSRRERSNE  258
+            +  D P+TDL+   D YV       +   +E++K L+E   RE++ +
+Sbjct  43   LEADAPETDLIVQPDSYVREYNARVNRAINEKLKSLNESLMREKTKK  89
+
+
+>WP_003517364.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus]
+ ABN52791.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75353.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09347.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+AD2]
+ ANV77101.1 oxidoreductase/nitrogenase component 1 [Acetivibrio thermocellus
+DSM 2360]
+Length=491
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 32/135 (24%), Positives = 58/135 (43%), Gaps = 27/135 (20%)
+
+Query  41   SATGRSITIHEPLFVTKYELRQNVYGFAVDGTPTDCVKLALQGDLFS----QKPEL-LIS  95
+             A G +I  H+P++ +  E    +             ++A  G++F+     K E  L++
+Sbjct  353  KAVGAAIFHHDPIYDSGREENDQL-----------AQRVADYGNVFNYNVCNKQEFELVN  401
+
+Query  96   GINYGWNLGSDVFYSGTVAAAMEGVLLGVPSIAV-----SLAQSEMVDYTEPAGLIREWI  150
+             +N    L  DV  +      + G  LG+PS+ +     S+    +V+Y E    I E I
+Sbjct  402  ALN---RLRPDVLLARHGGMTLWGAKLGIPSLLIGDEHYSMGYEGLVNYGE---RILEVI  455
+
+Query  151  GQEEFLQNCRASLLN  165
+              +EF++N     +N
+Sbjct  456  ENDEFVKNLEKHAIN  470
+
+
+>WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ CDG36736.1 Glycosyltransferase 28 domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75875.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 1313]
+ ALX09907.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus AD2]
+ ANV77681.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 2360]
+ EIC03896.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus YS]
+Length=354
+
+ Score = 26.2 bits (56),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  103  LGSDVFYSGTVAAAMEGVLLGVPSIAVSLA--QSEMVDYTEPAGLI  146
+            L SDV  S   +   E    G P++AV +A  Q EMVD     G I
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQREMVDMLSSEGYI  298
+
+
+>WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ ABN53424.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27697.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+Length=354
+
+ Score = 26.2 bits (56),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/46 (39%), Positives = 22/46 (48%), Gaps = 2/46 (4%)
+
+Query  103  LGSDVFYSGTVAAAMEGVLLGVPSIAVSLA--QSEMVDYTEPAGLI  146
+            L SDV  S   +   E    G P++AV +A  Q EMVD     G I
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQREMVDMLSSEGYI  298
+
+
+>WP_136479658.1 MutS family DNA mismatch repair protein [Acetivibrio thermocellus]
+ THJ76793.1 DNA mismatch repair protein MutS [Acetivibrio thermocellus]
+Length=601
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 37/115 (32%), Positives = 52/115 (45%), Gaps = 11/115 (10%)
+
+Query  67   FAVDGTPTDCVKLALQGDLFSQKPELLISGINYGWNLGSDV-----FYSGTVAAAMEGVL  121
+            F  DGT     KLA Q  LF   PEL I  +   W L S V     F+   V A +  VL
+Sbjct  200  FCEDGTKLFRNKLAEQ--LFYILPELTIVFLVICW-LDSSVSLYIPFFLLGVQAVINIVL  256
+
+Query  122  LG-VPSIA--VSLAQSEMVDYTEPAGLIREWIGQEEFLQNCRASLLNINFPGSHQ  173
+               V SI   VS  ++E+  + +   LI +   ++E+L   ++ L +   P S Q
+Sbjct  257  HDRVSSILGPVSRYKNEIKVFYKMIELIEKKEFEDEYLIELKSRLFDKKKPASEQ  311
+
+
+>WP_003515378.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG37172.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN53905.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73388.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07310.1 Sulfate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75048.1 Sulfate-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=369
+
+ Score = 25.4 bits (54),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 17/24 (71%), Gaps = 0/24 (0%)
+
+Query  233  PLHSDLTDDEQIKVLSEWSRRERS  256
+            PL++D+T DE +  +SE  + E+S
+Sbjct  84   PLYTDMTVDEYLNFVSELKKVEKS  107
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.134    0.399
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 15038
+Number of extensions: 659
+Number of successful extensions: 12
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 2
+Length of query: 258
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 171
+Effective length of database: 2134357
+Effective search space: 364975047
+Effective search space used: 364975047
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

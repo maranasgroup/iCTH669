@@ -1,0 +1,378 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBMD80K016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AUN16030 5'-nucleotidase [Paeniclostridium sordellii]
+
+Length=251
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517222.1 hypothetical protein [Acetivibrio thermocellus]     26.9    0.66   35%
+WP_011837853.1 DEAD/DEAH box helicase family protein [Acetivib...  28.9    0.95   23%
+ABN53204.1 phage/plasmid primase, P4 family [Acetivibrio therm...  28.1    1.3    31%
+WP_049756138.1 phage/plasmid primase, P4 family [Acetivibrio t...  28.1    1.3    31%
+CDG36499.1 phage/plasmid primase, P4 family [Acetivibrio therm...  28.1    1.4    31%
+WP_235715232.1 bifunctional DNA primase/polymerase [Acetivibri...  26.6    3.0    33%
+EIC03323.1 Bifunctional DNA primase/polymerase [Acetivibrio th...  26.6    3.1    33%
+WP_235825101.1 bifunctional DNA primase/polymerase [Acetivibri...  26.6    3.5    33%
+WP_003514024.1 bifunctional DNA primase/polymerase [Acetivibri...  26.6    3.5    33%
+WP_003519516.1 hypothetical protein [Acetivibrio thermocellus]     24.3    4.0    30%
+WP_165775951.1 hypothetical protein [Acetivibrio thermocellus]     24.6    4.1    30%
+WP_003516923.1 NAD(P)-binding protein [Acetivibrio thermocellus]   26.2    5.6    27%
+WP_136479276.1 NAD(P)-binding protein [Acetivibrio thermocellus]   26.2    5.6    27%
+NLU26731.1 FAD-dependent oxidoreductase [Acetivibrio thermocel...  26.2    5.7    27%
+CDG37490.1 hydrogenase, Fe-only [Acetivibrio thermocellus BC1]     26.2    6.2    27%
+ABN54200.1 FAD-dependent pyridine nucleotide-disulfide oxidore...  25.8    6.6    27%
+CDG36234.1 periplasmic binding protein [Acetivibrio thermocell...  25.8    6.8    25%
+CDG37351.1 phage/plasmid primase, P4 family [Acetivibrio therm...  25.8    7.0    28%
+HBW28320.1 TPA: tetratricopeptide repeat protein [Acetivibrio ...  23.9    8.3    30%
+WP_011838126.1 radical SAM protein [Acetivibrio thermocellus]      25.4    9.8    37%
+
+ALIGNMENTS
+>WP_003517222.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35580.1 hypothetical protein CTHBC1_0922 [Acetivibrio thermocellus BC1]
+ ABN52121.1 hypothetical protein Cthe_0887 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74396.1 hypothetical protein Clo1313_1333 [Acetivibrio thermocellus DSM
+1313]
+ ALX08339.1 hypothetical protein AD2_01346 [Acetivibrio thermocellus AD2]
+ ANV76087.1 hypothetical protein LQRI_1346 [Acetivibrio thermocellus DSM
+2360]
+Length=70
+
+ Score = 26.9 bits (58),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 24/37 (65%), Gaps = 2/37 (5%)
+
+Query  145  FIVKLVKKLESNMSIF--EDCILNVNIPNRDIKGFKM  179
+            FI  +VK++E+  ++   +DC + V+IP R+ +G  M
+Sbjct  2    FIDAVVKRIENGYAVLVSDDCGVEVSIPVRECEGMYM  38
+
+
+>WP_011837853.1 DEAD/DEAH box helicase family protein [Acetivibrio thermocellus]
+ ABN51755.1 Type III site-specific deoxyribonuclease [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26920.1 type III restriction endonuclease subunit R [Acetivibrio thermocellus]
+Length=991
+
+ Score = 28.9 bits (63),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 28/120 (23%), Positives = 53/120 (44%), Gaps = 21/120 (18%)
+
+Query  57   NIEKGIIAYSISGTPADCVKV-GIESILKDIEIDLVLSGINNGPNLGTDVIYSGTVSAAI  115
+            N +KGI A        D +++    ++ KDI++D     ++N           G  SA
+Sbjct  431  NPQKGIYAKLFEKHYKDLIRLPKYNTLFKDIDLDTAAEEVHN-----------GYFSADK  479
+
+Query  116  EGLIQNKP-SIAISYDSYNICKDDYKKASEFIVKL--------VKKLESNMSIFEDCILN  166
+            +G++++   S     D+YN+   D ++   F  KL        +++   N ++F+ C LN
+Sbjct  480  KGVLKDTSGSTQDDEDTYNLIMKDKERLLSFDTKLRFIFSHSALREGWDNPNVFQICTLN  539
+
+
+>ABN53204.1 phage/plasmid primase, P4 family [Acetivibrio thermocellus ATCC
+27405]
+Length=717
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 6/59 (10%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDY------KKASEFIVKLVKKLESNMSIFEDCILNVNI  169
+            GLI   PSI +S + Y   KD         +A E+++KL+++ E  ++ FE   +   I
+Sbjct  147  GLIVAAPSIHVSGNRYEWIKDHSPFDRTPAEAPEWLLKLMEREEVLLTPFEGSSITAEI  205
+
+
+>WP_049756138.1 phage/plasmid primase, P4 family [Acetivibrio thermocellus]
+Length=719
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 6/59 (10%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDYK------KASEFIVKLVKKLESNMSIFEDCILNVNI  169
+            GLI   PSI +S + Y   KD         +A E+++KL+++ E  ++ FE   +   I
+Sbjct  149  GLIVAAPSIHVSGNRYEWIKDHSPFDRTPAEAPEWLLKLMEREEVLLTPFEGSSITAEI  207
+
+
+>CDG36499.1 phage/plasmid primase, P4 family [Acetivibrio thermocellus BC1]
+Length=719
+
+ Score = 28.1 bits (61),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 30/59 (51%), Gaps = 6/59 (10%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDY------KKASEFIVKLVKKLESNMSIFEDCILNVNI  169
+            GLI   PSI +S + Y   KD         +A E+++KL+++ E  ++ FE   +   I
+Sbjct  149  GLIVAAPSIHVSGNRYEWIKDHSPFDRTPAEAPEWLLKLMEREEVLLTPFEGSSITAEI  207
+
+
+>WP_235715232.1 bifunctional DNA primase/polymerase, partial [Acetivibrio thermocellus]
+Length=220
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 6/51 (12%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDYK------KASEFIVKLVKKLESNMSIFE  161
+            GLI   PSI +S + Y   KD         +A  +++KL++K E  ++ FE
+Sbjct  147  GLIAVAPSIHVSGNRYEWIKDHSPFDRTPAEAPAWLLKLMEKEEVLLTPFE  197
+
+
+>EIC03323.1 Bifunctional DNA primase/polymerase, partial [Acetivibrio thermocellus
+YS]
+Length=222
+
+ Score = 26.6 bits (57),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 6/51 (12%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDYK------KASEFIVKLVKKLESNMSIFE  161
+            GLI   PSI +S + Y   KD         +A  +++KL++K E  ++ FE
+Sbjct  149  GLIAVAPSIHVSGNRYEWIKDHSPFDRTPAEAPAWLLKLMEKEEVLLTPFE  199
+
+
+>WP_235825101.1 bifunctional DNA primase/polymerase [Acetivibrio thermocellus]
+Length=266
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 6/51 (12%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDYK------KASEFIVKLVKKLESNMSIFE  161
+            GLI   PSI +S + Y   KD         +A  +++KL++K E  ++ FE
+Sbjct  147  GLIAVAPSIHVSGNRYEWIKDHSPFDRTPAEAPAWLLKLMEKEEVLLTPFE  197
+
+
+>WP_003514024.1 bifunctional DNA primase/polymerase [Acetivibrio thermocellus]
+ ANV77434.1 Bifunctional DNA primase/polymerase [Acetivibrio thermocellus
+DSM 2360]
+ ADU75663.1 Bifunctional DNA primase/polymerase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09661.1 Bifunctional DNA primase/polymerase [Acetivibrio thermocellus
+AD2]
+ PFH03944.1 putative DNA primase/helicase [Acetivibrio thermocellus AD2]
+ SOD22835.1 Primase C terminal 1 (PriCT-1) [Acetivibrio thermocellus]
+Length=268
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 27/51 (53%), Gaps = 6/51 (12%)
+
+Query  117  GLIQNKPSIAISYDSYNICKDDYK------KASEFIVKLVKKLESNMSIFE  161
+            GLI   PSI +S + Y   KD         +A  +++KL++K E  ++ FE
+Sbjct  149  GLIAVAPSIHVSGNRYEWIKDHSPFDRTPAEAPAWLLKLMEKEEVLLTPFE  199
+
+
+>WP_003519516.1 hypothetical protein [Acetivibrio thermocellus]
+Length=46
+
+ Score = 24.3 bits (51),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 9/46 (20%)
+
+Query  73   DCVKVGIESILKDIEIDLVLSGINNGPNLGTDVIYSGTVSAAIEGL  118
+            +C K GI++  K++   + LS +         ++Y+G VS A+E L
+Sbjct  9    ECYKPGIKNNPKELSFYMSLSDL---------LLYAGNVSEAMECL  45
+
+
+>WP_165775951.1 hypothetical protein [Acetivibrio thermocellus]
+Length=55
+
+ Score = 24.6 bits (52),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 9/46 (20%)
+
+Query  73   DCVKVGIESILKDIEIDLVLSGINNGPNLGTDVIYSGTVSAAIEGL  118
+            +C K GI++  K++   + LS +         ++Y+G VS A+E L
+Sbjct  18   ECYKPGIKNNPKELSFYMSLSDL---------LLYAGNVSEAMECL  54
+
+
+>WP_003516923.1 NAD(P)-binding protein [Acetivibrio thermocellus]
+ ADU73638.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 1313]
+ ALX07566.1 hydrogenase, Fe-only [Acetivibrio thermocellus AD2]
+ ANV75306.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 2360]
+ EIC03513.1 hydrogenase, Fe-only [Acetivibrio thermocellus YS]
+ PFH01832.1 formate dehydrogenase major subunit [Acetivibrio thermocellus
+AD2]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 34/75 (45%), Gaps = 5/75 (7%)
+
+Query  29   VYVVAPDTQRSATGHAITIHDPIMI-----KEENIEKGIIAYSISGTPADCVKVGIESIL  83
+            V +++PD +R        I + ++I     K EN  K  +   +S   ADCV   + +
+Sbjct  59   VTLISPDGERDVKACQTPIKEGMVICTNTPKLENYRKIRLEQLLSDHNADCVAPCVMTCP  118
+
+Query  84   KDIEIDLVLSGINNG  98
+             +I+I   L  + NG
+Sbjct  119  ANIDIQSYLRHVGNG  133
+
+
+>WP_136479276.1 NAD(P)-binding protein [Acetivibrio thermocellus]
+ THJ78687.1 2Fe-2S iron-sulfur cluster binding domain-containing protein
+[Acetivibrio thermocellus]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 34/75 (45%), Gaps = 5/75 (7%)
+
+Query  29   VYVVAPDTQRSATGHAITIHDPIMI-----KEENIEKGIIAYSISGTPADCVKVGIESIL  83
+            V +++PD +R        I + ++I     K EN  K  +   +S   ADCV   + +
+Sbjct  59   VTLISPDGERDVKACQTPIKEGMVICTNTPKLENYRKIRLEQLLSDHNADCVAPCVMTCP  118
+
+Query  84   KDIEIDLVLSGINNG  98
+             +I+I   L  + NG
+Sbjct  119  ANIDIQSYLRHVGNG  133
+
+
+>NLU26731.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 34/75 (45%), Gaps = 5/75 (7%)
+
+Query  29   VYVVAPDTQRSATGHAITIHDPIMI-----KEENIEKGIIAYSISGTPADCVKVGIESIL  83
+            V +++PD +R        I + ++I     K EN  K  +   +S   ADCV   + +
+Sbjct  59   VTLISPDGERDVKACQTPIKEGMVICTNTPKLENYRKIRLEQLLSDHNADCVAPCVMTCP  118
+
+Query  84   KDIEIDLVLSGINNG  98
+             +I+I   L  + NG
+Sbjct  119  ANIDIQSYLRHVGNG  133
+
+
+>CDG37490.1 hydrogenase, Fe-only [Acetivibrio thermocellus BC1]
+Length=1092
+
+ Score = 26.2 bits (56),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 34/75 (45%), Gaps = 5/75 (7%)
+
+Query  29  VYVVAPDTQRSATGHAITIHDPIMI-----KEENIEKGIIAYSISGTPADCVKVGIESIL  83
+           V +++PD +R        I + ++I     K EN  K  +   +S   ADCV   + +
+Sbjct  2   VTLISPDGERDVKACQTPIKEGMVICTNTPKLENYRKIRLEQLLSDHNADCVAPCVMTCP  61
+
+Query  84  KDIEIDLVLSGINNG  98
+            +I+I   L  + NG
+Sbjct  62  ANIDIQSYLRHVGNG  76
+
+
+>ABN54200.1 FAD-dependent pyridine nucleotide-disulfide oxidoreductase [Acetivibrio
+thermocellus ATCC 27405]
+Length=493
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 20/75 (27%), Positives = 34/75 (45%), Gaps = 5/75 (7%)
+
+Query  29   VYVVAPDTQRSATGHAITIHDPIMI-----KEENIEKGIIAYSISGTPADCVKVGIESIL  83
+            V +++PD +R        I + ++I     K EN  K  +   +S   ADCV   + +
+Sbjct  59   VTLISPDGERDVKACQTPIKEGMVICTNTPKLENYRKIRLEQLLSDHNADCVAPCVMTCP  118
+
+Query  84   KDIEIDLVLSGINNG  98
+             +I+I   L  + NG
+Sbjct  119  ANIDIQSYLRHVGNG  133
+
+
+>CDG36234.1 periplasmic binding protein [Acetivibrio thermocellus BC1]
+Length=442
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 30/120 (25%), Positives = 49/120 (41%), Gaps = 29/120 (24%)
+
+Query  108  SGTVSAAIEGLIQNKPSI-AISYDSYNICKDDYKKASEFIVKLVKKLESNMSIFEDCILN  166
+            +G+V    E L++  P I  +   +++I ++DYKK S+F   L
+Sbjct  318  TGSVMIDKEKLLEWDPEIIFLDKGNFHIVEEDYKKNSQFYNSLQA---------------  362
+
+Query  167  VNIPNRDIKGFKMTKLGIRQYENDIDERLSPHGKRYVWIGGRVKILEQEEISDISAVEEG  226
+              + N  + G     L   QY  +ID  L+       W+G   KIL  +  +DI   E+
+Sbjct  363  --VKNSKVYGI----LPYNQYNTNIDTALA----NCYWVG---KILYPDRFNDIDPAEKA  409
+
+
+>CDG37351.1 phage/plasmid primase, P4 family [Acetivibrio thermocellus BC1]
+Length=719
+
+ Score = 25.8 bits (55),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 32/60 (53%), Gaps = 6/60 (10%)
+
+Query  108  SGTVSAAIEGLIQNKPSIAISYDSYNICKDDY------KKASEFIVKLVKKLESNMSIFE  161
+            SG  + +  GLI   PSI +S + Y   +          +A E+++KL++++E  ++ FE
+Sbjct  140  SGLDTRSTGGLIVVAPSIHVSGNQYQWLEGHSPFDRTPAEAPEWLLKLMERVEVLLTPFE  199
+
+
+>HBW28320.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+Length=74
+
+ Score = 23.9 bits (50),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 25/46 (54%), Gaps = 9/46 (20%)
+
+Query  73   DCVKVGIESILKDIEIDLVLSGINNGPNLGTDVIYSGTVSAAIEGL  118
+            +C K GI++  K++   + LS +         ++Y+G VS A+E L
+Sbjct  37   ECYKPGIKNNPKELSFYMSLSDL---------LLYAGNVSEAMECL  73
+
+
+>WP_011838126.1 radical SAM protein [Acetivibrio thermocellus]
+ ABN52794.1 Radical SAM domain protein [Acetivibrio thermocellus ATCC 27405]
+Length=291
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 16/43 (37%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  188  ENDIDERLSPHGKRYVWIGGRVKILEQEEISDISAVEEGYISI  230
+            +  I E +  HGKRY  I    KIL Q +++ I  V +  I+I
+Sbjct  147  QAQICEGIVYHGKRYTGIEA-AKILIQNQLAGIKKVSQSGITI  188
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.137    0.386
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21830
+Number of extensions: 1070
+Number of successful extensions: 35
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 35
+Number of HSP's successfully gapped: 10
+Length of query: 251
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 164
+Effective length of database: 2134357
+Effective search space: 350034548
+Effective search space used: 350034548
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

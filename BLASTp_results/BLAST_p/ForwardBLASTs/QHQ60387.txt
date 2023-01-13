@@ -1,0 +1,275 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WR76G99016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QHQ60387 5'-nucleotidase [Anaerocolumna sedimenticola]
+
+Length=249
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+HBW27836.1 TPA: hypothetical protein [Acetivibrio thermocellus]    26.6    3.2    44%
+WP_020457823.1 phage scaffolding protein [Acetivibrio thermoce...  26.6    3.3    44%
+NLU25654.1 dockerin [Acetivibrio thermocellus]                     26.6    4.3    33%
+WP_136479583.1 CotH kinase family protein [Acetivibrio thermoc...  26.6    4.7    33%
+WP_003511967.1 CotH kinase family protein [Acetivibrio thermoc...  26.6    4.7    33%
+CAB76936.1 putative cellulosomal protein [Acetivibrio thermoce...  26.2    4.8    33%
+WP_003518383.1 CotH kinase family protein [Acetivibrio thermoc...  26.2    4.8    33%
+CDG36328.1 Ig domain protein group 2 domain protein [Acetivibr...  25.8    7.5    31%
+NLU26732.1 dockerin [Acetivibrio thermocellus]                     25.8    7.9    31%
+NLU26545.1 hypothetical protein [Acetivibrio thermocellus]         25.8    8.0    32%
+WP_136479258.1 dockerin type I domain-containing protein [Acet...  25.8    8.7    31%
+HBW26432.1 TPA: dockerin [Acetivibrio thermocellus]                25.8    9.1    31%
+WP_011838264.1 dockerin type I domain-containing protein [Acet...  25.4    9.6    31%
+
+ALIGNMENTS
+>HBW27836.1 hypothetical protein [Acetivibrio thermocellus]
+Length=187
+
+ Score = 26.6 bits (57),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 17/32 (53%), Gaps = 1/32 (3%)
+
+Query  153  KDSKTIWNVNIPSCPL-ERYKGITRAPLSGHS  183
+            KD  TI  +N     L E YK +   PLSGH+
+Sbjct  130  KDDGTIEGLNEQIAALKENYKDLFEQPLSGHT  161
+
+
+>WP_020457823.1 phage scaffolding protein [Acetivibrio thermocellus]
+ ABN53680.1 minor structural GP20 protein [Acetivibrio thermocellus ATCC
+27405]
+Length=185
+
+ Score = 26.6 bits (57),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 17/32 (53%), Gaps = 1/32 (3%)
+
+Query  153  KDSKTIWNVNIPSCPL-ERYKGITRAPLSGHS  183
+            KD  TI  +N     L E YK +   PLSGH+
+Sbjct  128  KDDGTIEGLNEQIAALKENYKDLFEQPLSGHT  159
+
+
+>NLU25654.1 dockerin [Acetivibrio thermocellus]
+Length=524
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 32/67 (48%), Gaps = 22/67 (33%)
+
+Query  142  NTIIENFMKNNKD-----------SKTIWNVNIPSCPLERYKG---ITRAPLSGHSQYPF  187
+            N + + FM +N+D           + T W+V I      RYKG   +T A +S   +YPF
+Sbjct  65   NDVFKVFMMSNEDPIYVSATVKFNNHTWWHVGI------RYKGQSTLTGAMMSMSHKYPF  118
+
+Query  188  R--FKKY  192
+            R  F K+
+Sbjct  119  RLNFDKF  125
+
+
+>WP_136479583.1 CotH kinase family protein [Acetivibrio thermocellus]
+ THJ77258.1 dockerin [Acetivibrio thermocellus]
+Length=533
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 32/67 (48%), Gaps = 22/67 (33%)
+
+Query  142  NTIIENFMKNNKD-----------SKTIWNVNIPSCPLERYKG---ITRAPLSGHSQYPF  187
+            N + + FM +N+D           + T W+V I      RYKG   +T A +S   +YPF
+Sbjct  74   NDVFKVFMMSNEDPIYVSATVKFNNHTWWHVGI------RYKGQSTLTGAMMSMSHKYPF  127
+
+Query  188  R--FKKY  192
+            R  F K+
+Sbjct  128  RLNFDKF  134
+
+
+>WP_003511967.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ABN51285.1 Spore coat protein CotH [Acetivibrio thermocellus ATCC 27405]
+ CDG34727.1 dockerin type I cellulosome protein [Acetivibrio thermocellus
+BC1]
+ HBW26671.1 dockerin [Acetivibrio thermocellus]
+Length=533
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 32/67 (48%), Gaps = 22/67 (33%)
+
+Query  142  NTIIENFMKNNKD-----------SKTIWNVNIPSCPLERYKG---ITRAPLSGHSQYPF  187
+            N + + FM +N+D           + T W+V I      RYKG   +T A +S   +YPF
+Sbjct  74   NDVFKVFMMSNEDPIYVSATVKFNNHTWWHVGI------RYKGQSTLTGAMMSMSHKYPF  127
+
+Query  188  R--FKKY  192
+            R  F K+
+Sbjct  128  RLNFDKF  134
+
+
+>CAB76936.1 putative cellulosomal protein [Acetivibrio thermocellus]
+Length=533
+
+ Score = 26.2 bits (56),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 32/67 (48%), Gaps = 22/67 (33%)
+
+Query  142  NTIIENFMKNNKD-----------SKTIWNVNIPSCPLERYKG---ITRAPLSGHSQYPF  187
+            N + + FM +N+D           + T W+V I      RYKG   +T A +S   +YPF
+Sbjct  74   NDVFKVFMMSNEDPIYVPATVKFNNHTWWHVGI------RYKGQSTLTGAMMSMSHKYPF  127
+
+Query  188  R--FKKY  192
+            R  F K+
+Sbjct  128  RLNFDKF  134
+
+
+>WP_003518383.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ADU75228.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 1313]
+ ALX09203.1 Spore coat protein CotH [Acetivibrio thermocellus AD2]
+ ANV76955.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 2360]
+ EIC04922.1 Spore coat protein CotH [Acetivibrio thermocellus YS]
+ PFH03478.1 dockerin type I repeat protein [Acetivibrio thermocellus AD2]
+Length=533
+
+ Score = 26.2 bits (56),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 22/67 (33%), Positives = 32/67 (48%), Gaps = 22/67 (33%)
+
+Query  142  NTIIENFMKNNKD-----------SKTIWNVNIPSCPLERYKG---ITRAPLSGHSQYPF  187
+            N + + FM +N+D           + T W+V I      RYKG   +T A +S   +YPF
+Sbjct  74   NDVFKVFMMSNEDPIYVPATVKFNNHTWWHVGI------RYKGQSTLTGAMMSMSHKYPF  127
+
+Query  188  R--FKKY  192
+            R  F K+
+Sbjct  128  RLNFDKF  134
+
+
+>CDG36328.1 Ig domain protein group 2 domain protein [Acetivibrio thermocellus
+BC1]
+Length=1376
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  46   TVHEPLVVKEV--SYPVPVSKAYSVSGNPADCVRVALEDLLEEKPDLLISGINA  97
+            T  E + ++EV  S  + VSK   V+G     VR+   D+++  P +++S  NA
+Sbjct  721  TFAEDVTLEEVVASSEIAVSKFDEVTGTFGAAVRLTENDVVDMLPQIIVSDGNA  774
+
+
+>NLU26732.1 dockerin [Acetivibrio thermocellus]
+Length=1382
+
+ Score = 25.8 bits (55),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  46   TVHEPLVVKEV--SYPVPVSKAYSVSGNPADCVRVALEDLLEEKPDLLISGINA  97
+            T  E + ++EV  S  + VSK   V+G     VR+   D+++  P +++S  NA
+Sbjct  727  TFAEDVTLEEVVASSEIAVSKFDEVTGTFGAAVRLTENDVVDMLPQIIVSDGNA  780
+
+
+>NLU26545.1 hypothetical protein [Acetivibrio thermocellus]
+Length=630
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 30/94 (32%), Positives = 41/94 (44%), Gaps = 11/94 (12%)
+
+Query  23   VSEIGEVIVAAPSRQRSAVS-HGITVHEPLVVKEVSYPVPVSKAYSVSGNPADCVRVALE  81
+            V E  E+I      +R     HG  + E L   + +Y   +     + GN ADC    LE
+Sbjct  32   VQERDELIYENNIEKRDVKGYHGREILELLQNADDAYQKSI-----IEGNKADC---ELE  83
+
+Query  82   DLLEEKPDLLISGINAGPNFGQDVIYSGTVSGAI  115
+             L+E K ++L    N G  F +D I S  V G I
+Sbjct  84   VLIEFKNNVLTVS-NTGTVFDKDGIKS-IVQGNI  115
+
+
+>WP_136479258.1 dockerin type I domain-containing protein [Acetivibrio thermocellus]
+ THJ78755.1 dockerin [Acetivibrio thermocellus]
+Length=1974
+
+ Score = 25.8 bits (55),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  46    TVHEPLVVKEV--SYPVPVSKAYSVSGNPADCVRVALEDLLEEKPDLLISGINA  97
+             T  E + ++EV  S  + VSK   V+G     VR+   D+++  P +++S  NA
+Sbjct  1319  TFAEDVTLEEVVASSEIAVSKFDEVTGTFGAAVRLTENDVVDMLPQIIVSDGNA  1372
+
+
+>HBW26432.1 dockerin [Acetivibrio thermocellus]
+Length=1741
+
+ Score = 25.8 bits (55),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  46    TVHEPLVVKEV--SYPVPVSKAYSVSGNPADCVRVALEDLLEEKPDLLISGINA  97
+             T  E + ++EV  S  + VSK   V+G     VR+   D+++  P +++S  NA
+Sbjct  1086  TFAEDVTLEEVVASSEIAVSKFDEVTGTFGAAVRLTENDVVDMLPQIIVSDGNA  1139
+
+
+>WP_011838264.1 dockerin type I domain-containing protein [Acetivibrio thermocellus]
+ ABN53027.1 Ig domain protein group 2 domain protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=2177
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 29/54 (54%), Gaps = 2/54 (4%)
+
+Query  46    TVHEPLVVKEV--SYPVPVSKAYSVSGNPADCVRVALEDLLEEKPDLLISGINA  97
+             T  E + ++EV  S  + VSK   V+G     VR+   D+++  P +++S  NA
+Sbjct  1522  TFAEDVTLEEVVASSEIAVSKFDEVTGTFGAAVRLTENDVVDMLPQIIVSDGNA  1575
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.134    0.388
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21047
+Number of extensions: 1018
+Number of successful extensions: 27
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 27
+Number of HSP's successfully gapped: 9
+Length of query: 249
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 162
+Effective length of database: 2134357
+Effective search space: 345765834
+Effective search space used: 345765834
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,345 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGJBVJ6016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BAF60513 5'-nucleotidase [Pelotomaculum thermopropionicum]
+
+Length=363
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516835.1 carbohydrate-binding protein [Acetivibrio therm...  30.8    0.39   33%
+WP_020457736.1 carbohydrate-binding protein [Acetivibrio therm...  30.8    0.39   33%
+WP_011837898.1 CAP-associated domain-containing protein [Aceti...  28.1    2.3    39%
+CDG35474.1 copper amine oxidase domain protein [Acetivibrio th...  28.1    2.3    39%
+NLU25608.1 copper amine oxidase [Acetivibrio thermocellus]         28.1    2.3    39%
+WP_003516353.1 CAP-associated domain-containing protein [Aceti...  28.1    2.3    39%
+ADU73923.1 two component transcriptional regulator, winged hel...  26.6    4.9    40%
+HBW27271.1 TPA: DNA-binding response regulator [Acetivibrio th...  26.6    5.1    40%
+NLU26746.1 response regulator transcription factor [Acetivibri...  26.6    5.2    40%
+WP_037295225.1 response regulator transcription factor [Acetiv...  26.6    5.2    40%
+WP_011838071.1 response regulator transcription factor [Acetiv...  26.6    5.3    40%
+WP_003511911.1 ferritin [Acetivibrio thermocellus]                 25.8    6.8    35%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      26.6    6.8    29%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      26.6    7.2    29%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      26.6    7.3    29%
+WP_011837862.1 helix-turn-helix domain-containing protein [Ace...  24.6    9.5    50%
+
+ALIGNMENTS
+>WP_003516835.1 carbohydrate-binding protein [Acetivibrio thermocellus]
+ CDG36713.1 Carbohydrate binding family 6 [Acetivibrio thermocellus BC1]
+ ADU75839.1 Carbohydrate binding family 6 [Acetivibrio thermocellus DSM 1313]
+ ALX09871.1 Carbohydrate binding family 6 [Acetivibrio thermocellus AD2]
+ ANV77645.1 Carbohydrate binding family 6 [Acetivibrio thermocellus DSM 2360]
+ EIC03614.1 Carbohydrate binding family 6 [Acetivibrio thermocellus YS]
+Length=965
+
+ Score = 30.8 bits (68),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 30/90 (33%), Positives = 42/90 (47%), Gaps = 12/90 (13%)
+
+Query  221  FAFINS-GAIRVNIPRGDVTMGELYTFLPFGDFIMTADLTGAQIKALLEQA---VGDGGK  276
+            F F+NS G         D T   LY +L  G+ I T D+    ++ L+E A     +  K
+Sbjct  273  FEFLNSPGQFYF-----DKTEQMLYYYLRPGENIETIDVQAPMVEKLIEIAGTSTSNRVK  327
+
+Query  277  GIQTAGLTFA---YNPGAPGGSRIESISKS  303
+             I   G+TFA   YN    GGSR +S  ++
+Sbjct  328  NITFQGITFAYTDYNLVEVGGSRGKSTCQA  357
+
+
+>WP_020457736.1 carbohydrate-binding protein [Acetivibrio thermocellus]
+ ABN53397.1 Carbohydrate binding family 6 [Acetivibrio thermocellus ATCC
+27405]
+Length=965
+
+ Score = 30.8 bits (68),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 30/90 (33%), Positives = 42/90 (47%), Gaps = 12/90 (13%)
+
+Query  221  FAFINS-GAIRVNIPRGDVTMGELYTFLPFGDFIMTADLTGAQIKALLEQA---VGDGGK  276
+            F F+NS G         D T   LY +L  G+ I T D+    ++ L+E A     +  K
+Sbjct  273  FEFLNSPGQFYF-----DKTEQMLYYYLRPGENIETIDVQAPMVEKLIEIAGTSTSNRVK  327
+
+Query  277  GIQTAGLTFA---YNPGAPGGSRIESISKS  303
+             I   G+TFA   YN    GGSR +S  ++
+Sbjct  328  NITFQGITFAYTDYNLVEVGGSRGKSTCQA  357
+
+
+>WP_011837898.1 CAP-associated domain-containing protein [Acetivibrio thermocellus]
+ ABN52014.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW26772.1 copper amine oxidase [Acetivibrio thermocellus]
+Length=450
+
+ Score = 28.1 bits (61),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  212  VMKAKVNADFAFINSGAIRVNIP  234
+            V+  K+N++ A+IN  A+R+++P
+Sbjct  87   VITLKINSNIAYINDNAVRLDVP  109
+
+
+>CDG35474.1 copper amine oxidase domain protein [Acetivibrio thermocellus
+BC1]
+Length=450
+
+ Score = 28.1 bits (61),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  212  VMKAKVNADFAFINSGAIRVNIP  234
+            V+  K+N++ A+IN  A+R+++P
+Sbjct  87   VITLKINSNIAYINDNAVRLDVP  109
+
+
+>NLU25608.1 copper amine oxidase [Acetivibrio thermocellus]
+Length=436
+
+ Score = 28.1 bits (61),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  212  VMKAKVNADFAFINSGAIRVNIP  234
+            V+  K+N++ A+IN  A+R+++P
+Sbjct  73   VITLKINSNIAYINDNAVRLDVP  95
+
+
+>WP_003516353.1 CAP-associated domain-containing protein [Acetivibrio thermocellus]
+ ADU74505.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08448.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76197.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC05389.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH02721.1 uncharacterized protein YkwD [Acetivibrio thermocellus AD2]
+Length=450
+
+ Score = 28.1 bits (61),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 18/23 (78%), Gaps = 0/23 (0%)
+
+Query  212  VMKAKVNADFAFINSGAIRVNIP  234
+            V+  K+N++ A+IN  A+R+++P
+Sbjct  87   VITLKINSNIAYINDNAVRLDVP  109
+
+
+>ADU73923.1 two component transcriptional regulator, winged helix family
+[Acetivibrio thermocellus DSM 1313]
+ ALX07861.1 two component transcriptional regulator, winged helix family
+[Acetivibrio thermocellus AD2]
+ ANV75607.1 two component transcriptional regulator, winged helix family
+[Acetivibrio thermocellus DSM 2360]
+ EIC03228.1 response regulator receiver [Acetivibrio thermocellus YS]
+ THJ79043.1 response regulator transcription factor [Acetivibrio thermocellus]
+ CDG36069.1 Transcriptional regulatory protein YycF [Acetivibrio thermocellus
+BC1]
+Length=239
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  319  VAVNDHVAAGGDGFSVCKKANLNPAIFSIP  348
+            + V D +  G DGF +CKK   N  +  IP
+Sbjct  53   LFVLDIMLPGVDGFEICKKIKENYDLKKIP  82
+
+
+>HBW27271.1 DNA-binding response regulator [Acetivibrio thermocellus]
+Length=239
+
+ Score = 26.6 bits (57),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  319  VAVNDHVAAGGDGFSVCKKANLNPAIFSIP  348
+            + V D +  G DGF +CKK   N  +  IP
+Sbjct  53   LFVLDIMLPGVDGFEICKKIKENYDLKKIP  82
+
+
+>NLU26746.1 response regulator transcription factor [Acetivibrio thermocellus]
+Length=236
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  319  VAVNDHVAAGGDGFSVCKKANLNPAIFSIP  348
+            + V D +  G DGF +CKK   N  +  IP
+Sbjct  50   LFVLDIMLPGVDGFEICKKIKENYDLKKIP  79
+
+
+>WP_037295225.1 response regulator transcription factor [Acetivibrio thermocellus]
+Length=236
+
+ Score = 26.6 bits (57),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  319  VAVNDHVAAGGDGFSVCKKANLNPAIFSIP  348
+            + V D +  G DGF +CKK   N  +  IP
+Sbjct  50   LFVLDIMLPGVDGFEICKKIKENYDLKKIP  79
+
+
+>WP_011838071.1 response regulator transcription factor [Acetivibrio thermocellus]
+ ABN52626.1 two component transcriptional regulator, winged helix family
+[Acetivibrio thermocellus ATCC 27405]
+Length=236
+
+ Score = 26.6 bits (57),  Expect = 5.3, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 16/30 (53%), Gaps = 0/30 (0%)
+
+Query  319  VAVNDHVAAGGDGFSVCKKANLNPAIFSIP  348
+            + V D +  G DGF +CKK   N  +  IP
+Sbjct  50   LFVLDIMLPGVDGFEICKKIKENYDLKKIP  79
+
+
+>WP_003511911.1 ferritin [Acetivibrio thermocellus]
+ CDG34695.1 Ferritin and Dps [Acetivibrio thermocellus BC1]
+ ABN51258.1 Ferritin Dps family protein [Acetivibrio thermocellus ATCC 27405]
+ ADU75252.1 Ferritin Dps family protein [Acetivibrio thermocellus DSM 1313]
+ ALX09234.1 Ferritin Dps family protein [Acetivibrio thermocellus AD2]
+ ANV76986.1 Ferritin Dps family protein [Acetivibrio thermocellus DSM 2360]
+Length=159
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 19/40 (48%), Gaps = 1/40 (3%)
+
+Query  262  QIKALLEQAVGDGGKGIQTAGLTFAYNPGAPGGSRIESIS  301
+            Q+K  +E A G   K +Q  G    Y P  PG  + +SI
+Sbjct  44   QVKEEMEHA-GKIKKFLQDTGYGIKYRPLNPGDGKFDSIE  82
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 26.6 bits (57),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 31/72 (43%), Gaps = 4/72 (6%)
+
+Query  41   DNVRRAAQEARAEGAQIVIALIHAGDNYDSRTGP-VFEVAGRLGGAGGVVDAVLGGHTHN  99
+            D++++  +E R++   I+I  +H G        P   E A  L   G  VD +LG H H
+Sbjct  257  DSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNG--VDVILGHHPHQ  313
+
+Query  100  VVAATAANGTPV  111
+                    G PV
+Sbjct  314  FQGIEIYKGKPV  325
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 26.6 bits (57),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 31/72 (43%), Gaps = 4/72 (6%)
+
+Query  41   DNVRRAAQEARAEGAQIVIALIHAGDNYDSRTGP-VFEVAGRLGGAGGVVDAVLGGHTHN  99
+            D++++  +E R++   I+I  +H G        P   E A  L   G  VD +LG H H
+Sbjct  257  DSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNG--VDVILGHHPHQ  313
+
+Query  100  VVAATAANGTPV  111
+                    G PV
+Sbjct  314  FQGIEIYKGKPV  325
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 26.6 bits (57),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 31/72 (43%), Gaps = 4/72 (6%)
+
+Query  41   DNVRRAAQEARAEGAQIVIALIHAGDNYDSRTGP-VFEVAGRLGGAGGVVDAVLGGHTHN  99
+            D++++  +E R++   I+I  +H G        P   E A  L   G  VD +LG H H
+Sbjct  257  DSIKKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNG--VDVILGHHPHQ  313
+
+Query  100  VVAATAANGTPV  111
+                    G PV
+Sbjct  314  FQGIEIYKGKPV  325
+
+
+>WP_011837862.1 helix-turn-helix domain-containing protein [Acetivibrio thermocellus]
+ ABN51764.1 hypothetical protein Cthe_0527 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26928.1 DNA-binding protein [Acetivibrio thermocellus]
+Length=81
+
+ Score = 24.6 bits (52),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 13/26 (50%), Positives = 15/26 (58%), Gaps = 1/26 (4%)
+
+Query  20  EDLPDLVKPEQFKDYEAGSIVDNVRR  45
+           +D PDLV  EQF+    GSI D   R
+Sbjct  13  KDYPDLVTLEQFRQM-LGSIGDTTAR  37
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.136    0.403
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 25210
+Number of extensions: 1054
+Number of successful extensions: 13
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 4
+Length of query: 363
+Length of database: 2835838
+Length adjustment: 90
+Effective length of query: 273
+Effective length of database: 2110168
+Effective search space: 576075864
+Effective search space used: 576075864
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 35 (18.1 bits)
+S2: 47 (22.7 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,372 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WG8AFJF013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CAJ69424 5'-nucleotidase [Clostridioides difficile]
+
+Length=613
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      31.6    0.35   25%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      31.6    0.36   25%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      31.2    0.40   25%
+ALX09017.1 hypothetical protein AD2_02027 [Acetivibrio thermoc...  26.6    1.1    42%
+WP_011838029.1 glycosyl transferase [Acetivibrio thermocellus]     28.9    2.7    39%
+HBW28264.1 TPA: glycosyl transferase [Acetivibrio thermocellus]    28.9    2.8    39%
+NLU25966.1 zinc ABC transporter substrate-binding protein [Ace...  27.7    5.5    36%
+WP_003517602.1 metal ABC transporter substrate-binding protein...  27.7    5.5    36%
+WP_003520980.1 IMP dehydrogenase [Acetivibrio thermocellus]        27.3    6.6    29%
+WP_003516673.1 IMP dehydrogenase [Acetivibrio thermocellus]        27.3    6.6    29%
+WP_003520983.1 SMC-Scp complex subunit ScpB [Acetivibrio therm...  26.6    8.1    37%
+WP_041734308.1 hypothetical protein [Acetivibrio thermocellus]     27.3    8.1    25%
+WP_136479373.1 SMC-Scp complex subunit ScpB [Acetivibrio therm...  26.6    8.2    37%
+ABN53109.1 hypothetical protein Cthe_1888 [Acetivibrio thermoc...  27.3    8.3    25%
+WP_020457886.1 methyl-accepting chemotaxis protein [Acetivibri...  26.9    9.3    27%
+
+ALIGNMENTS
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 31.6 bits (70),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 59/240 (25%), Positives = 103/240 (43%), Gaps = 41/240 (17%)
+
+Query  89   AIELIKCAGYDYIT-PGNHDFNYGKDRLFELSKSANLGEHTLKFLSS--NIFENGKKVFD  145
+            AIE IK AG++ +    NH  +Y +  LF+      L ++ +K+  +  N+ E  K
+Sbjct  154  AIEGIKYAGFNLMNLANNHILDYYERGLFDTMDI--LDKNGIKYAGAGRNLEEARKPA--  209
+
+Query  146  SNDIKEIDGIKIGFFGLSTQE---TKSKTGFKNVEG----------LEFKNPIESATEQV  192
+               I E+  +K+G    +       K    +K   G          L+F + I+   + +
+Sbjct  210  ---IMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIK---KDI  263
+
+Query  193  NELKGKGANVIVAICHIGTNSLSK--PNSIDIANEV--QGIDLIIDGHSHTKFENGKQV-  247
+             EL+ K  ++++   H G     +  P   + A+ +   G+D+I+  H H +F+ G ++
+Sbjct  264  EELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH-QFQ-GIEIY  320
+
+Query  248  -GDTLIVSAGQYL------ENIGEIKLTLDTNDVENIKIENKSVRLIGKEEALKYKLDSA  300
+             G  +  S G ++      EN     +TLD        IE   VR IGK + +  K D A
+Sbjct  321  KGKPVFYSLGNFIFDQNDPENQESFIVTLDYKGSRLTGIEAVPVRTIGKIQVVPQKGDEA  380
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 31.6 bits (70),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 59/240 (25%), Positives = 103/240 (43%), Gaps = 41/240 (17%)
+
+Query  89   AIELIKCAGYDYIT-PGNHDFNYGKDRLFELSKSANLGEHTLKFLSS--NIFENGKKVFD  145
+            AIE IK AG++ +    NH  +Y +  LF+      L ++ +K+  +  N+ E  K
+Sbjct  154  AIEGIKYAGFNLMNLANNHILDYYERGLFDTMDI--LDKNGIKYAGAGRNLEEARKPA--  209
+
+Query  146  SNDIKEIDGIKIGFFGLSTQE---TKSKTGFKNVEG----------LEFKNPIESATEQV  192
+               I E+  +K+G    +       K    +K   G          L+F + I+   + +
+Sbjct  210  ---IMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIK---KDI  263
+
+Query  193  NELKGKGANVIVAICHIGTNSLSK--PNSIDIANEV--QGIDLIIDGHSHTKFENGKQV-  247
+             EL+ K  ++++   H G     +  P   + A+ +   G+D+I+  H H +F+ G ++
+Sbjct  264  EELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH-QFQ-GIEIY  320
+
+Query  248  -GDTLIVSAGQYL------ENIGEIKLTLDTNDVENIKIENKSVRLIGKEEALKYKLDSA  300
+             G  +  S G ++      EN     +TLD        IE   VR IGK + +  K D A
+Sbjct  321  KGKPVFYSLGNFIFDQNDPENQESFIVTLDYKGSRLTGIEAVPVRTIGKIQVVPQKGDEA  380
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 31.2 bits (69),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 59/240 (25%), Positives = 103/240 (43%), Gaps = 41/240 (17%)
+
+Query  89   AIELIKCAGYDYIT-PGNHDFNYGKDRLFELSKSANLGEHTLKFLSS--NIFENGKKVFD  145
+            AIE IK AG++ +    NH  +Y +  LF+      L ++ +K+  +  N+ E  K
+Sbjct  154  AIEGIKYAGFNLMNLANNHILDYYERGLFDTMDI--LDKNGIKYAGAGRNLEEARKPA--  209
+
+Query  146  SNDIKEIDGIKIGFFGLSTQE---TKSKTGFKNVEG----------LEFKNPIESATEQV  192
+               I E+  +K+G    +       K    +K   G          L+F + I+   + +
+Sbjct  210  ---IMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIK---KDI  263
+
+Query  193  NELKGKGANVIVAICHIGTNSLSK--PNSIDIANEV--QGIDLIIDGHSHTKFENGKQV-  247
+             EL+ K  ++++   H G     +  P   + A+ +   G+D+I+  H H +F+ G ++
+Sbjct  264  EELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH-QFQ-GIEIY  320
+
+Query  248  -GDTLIVSAGQYL------ENIGEIKLTLDTNDVENIKIENKSVRLIGKEEALKYKLDSA  300
+             G  +  S G ++      EN     +TLD        IE   VR IGK + +  K D A
+Sbjct  321  KGKPVFYSLGNFIFDQNDPENQESFIVTLDYKGSRLTGIEAVPVRTIGKIQVVPQKGDEA  380
+
+
+>ALX09017.1 hypothetical protein AD2_02027 [Acetivibrio thermocellus AD2]
+ ANV76767.1 hypothetical protein LQRI_2026 [Acetivibrio thermocellus DSM
+2360]
+ PFH03290.1 hypothetical protein M972_112093 [Acetivibrio thermocellus AD2]
+ CDG34904.1 hypothetical protein CTHBC1_0232 [Acetivibrio thermocellus BC1]
+ SOD24142.1 hypothetical protein SAMN04515622_1511 [Acetivibrio thermocellus]
+Length=42
+
+ Score = 26.6 bits (57),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 16/38 (42%), Positives = 20/38 (53%), Gaps = 5/38 (13%)
+
+Query  391  TKELTGAQIKDVLEHGVKLYPEKSSAFLQVGGISYYFN  428
+            T+E    Q+K     G KL P   SA  + GGI+ YFN
+Sbjct  5    TREKQFKQVK-----GYKLSPVLISALFRGGGITTYFN  37
+
+
+>WP_011838029.1 glycosyl transferase [Acetivibrio thermocellus]
+ ABN52453.1 glycosyltransferase 36 [Acetivibrio thermocellus ATCC 27405]
+Length=2922
+
+ Score = 28.9 bits (63),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (61%), Gaps = 1/38 (3%)
+
+Query  174   KNVEGLE-FKNPIESATEQVNELKGKGANVIVAICHIG  210
+             KN+EGL+  K  +E ATE  ++L  +  ++I  IC I
+Sbjct  1317  KNIEGLDRLKEALEGATESADKLVKRYVDLINRICRIA  1354
+
+
+>HBW28264.1 glycosyl transferase [Acetivibrio thermocellus]
+Length=2922
+
+ Score = 28.9 bits (63),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 23/38 (61%), Gaps = 1/38 (3%)
+
+Query  174   KNVEGLE-FKNPIESATEQVNELKGKGANVIVAICHIG  210
+             KN+EGL+  K  +E ATE  ++L  +  ++I  IC I
+Sbjct  1317  KNIEGLDRLKEALEGATESADKLVKRYVDLINRICRIA  1354
+
+
+>NLU25966.1 zinc ABC transporter substrate-binding protein [Acetivibrio thermocellus]
+Length=318
+
+ Score = 27.7 bits (60),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 24/36 (67%), Gaps = 2/36 (6%)
+
+Query  349  LLDKTKADISLFNGGNIRDTIEK--GNITRRDIVDV  382
+            +L+  KAD+ ++NG  +   +EK  G+IT +++V V
+Sbjct  80   ILEIEKADVFIYNGAGMEPWVEKVLGSITNKELVVV  115
+
+
+>WP_003517602.1 metal ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ CDG35240.1 putative zinc transport system zinc-binding lipoprotein AdcA
+[Acetivibrio thermocellus BC1]
+ ABN51783.1 periplasmic solute binding protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74747.1 periplasmic solute binding protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08698.1 ABC-type metal ion transporter, periplasmic subunit [Acetivibrio
+thermocellus AD2]
+ ANV76450.1 ABC-type metal ion transporter, periplasmic subunit [Acetivibrio
+thermocellus DSM 2360]
+Length=318
+
+ Score = 27.7 bits (60),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 24/36 (67%), Gaps = 2/36 (6%)
+
+Query  349  LLDKTKADISLFNGGNIRDTIEK--GNITRRDIVDV  382
+            +L+  KAD+ ++NG  +   +EK  G+IT +++V V
+Sbjct  80   ILEIEKADVFIYNGAGMEPWVEKVLGSITNKELVVV  115
+
+
+>WP_003520980.1 IMP dehydrogenase [Acetivibrio thermocellus]
+ CDG35374.1 Inosine-5'-monophosphate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN51916.1 IMP dehydrogenase [Acetivibrio thermocellus ATCC 27405]
+ ADU74604.1 IMP dehydrogenase [Acetivibrio thermocellus DSM 1313]
+ ALX08548.1 IMP dehydrogenase [Acetivibrio thermocellus AD2]
+ EIC05488.1 IMP dehydrogenase/GMP reductase [Acetivibrio thermocellus YS]
+Length=497
+
+ Score = 27.3 bits (59),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 28/98 (29%), Positives = 45/98 (46%), Gaps = 15/98 (15%)
+
+Query  492  EYKKEISKNVDGRIGIKSKDELISKNHESDLILSENEKN---INDNEENLSNNIKSSDSD  548
+            ++    SK V G++GI           E++ I+ EN+ N   I D+E+ L   +   D D
+Sbjct  165  DFMTPFSKLVVGKLGISLS--------EANDIIWENKLNCLPIVDDEQRLHYLVFRKDYD  216
+
+Query  549  KNKS----LDKTSSRESSNLGISKREAKEKSPKTGDLG  582
+             +K     L  ++ R     GI+ R+ KE+ P   D G
+Sbjct  217  DHKQNPYELLDSNKRLRVGAGINTRDYKERVPALVDAG  254
+
+
+>WP_003516673.1 IMP dehydrogenase [Acetivibrio thermocellus]
+ ANV76297.1 IMP dehydrogenase [Acetivibrio thermocellus DSM 2360]
+ SOD25046.1 IMP dehydrogenase [Acetivibrio thermocellus]
+Length=497
+
+ Score = 27.3 bits (59),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 28/98 (29%), Positives = 45/98 (46%), Gaps = 15/98 (15%)
+
+Query  492  EYKKEISKNVDGRIGIKSKDELISKNHESDLILSENEKN---INDNEENLSNNIKSSDSD  548
+            ++    SK V G++GI           E++ I+ EN+ N   I D+E+ L   +   D D
+Sbjct  165  DFMTPFSKLVVGKLGISLS--------EANDIIWENKLNCLPIVDDEQRLHYLVFRKDYD  216
+
+Query  549  KNKS----LDKTSSRESSNLGISKREAKEKSPKTGDLG  582
+             +K     L  ++ R     GI+ R+ KE+ P   D G
+Sbjct  217  DHKQNPYELLDSNKRLRVGAGINTRDYKERVPALVDAG  254
+
+
+>WP_003520983.1 SMC-Scp complex subunit ScpB [Acetivibrio thermocellus]
+ A3DD94.1 RecName: Full=Segregation and condensation protein B [Acetivibrio
+thermocellus ATCC 27405]
+ CDG35381.1 Segregation and condensation protein B [Acetivibrio thermocellus
+BC1]
+ ABN51923.1 chromosome segregation and condensation protein, ScpB [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74597.1 chromosome segregation and condensation protein, ScpB [Acetivibrio
+thermocellus DSM 1313]
+ ALX08541.1 chromosome segregation and condensation protein, ScpB [Acetivibrio
+thermocellus AD2]
+ ANV76290.1 chromosome segregation and condensation protein, ScpB [Acetivibrio
+thermocellus DSM 2360]
+Length=198
+
+ Score = 26.6 bits (57),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  12   IILITTSQSFISYGLERFEEITIFHTNDIH  41
+            ++  TT + F S+G +   ++ IF  NDIH
+Sbjct  145  VLYETTDEFFRSFGFKSDADLPIFELNDIH  174
+
+
+>WP_041734308.1 hypothetical protein [Acetivibrio thermocellus]
+Length=524
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 26/106 (25%), Positives = 46/106 (43%), Gaps = 4/106 (4%)
+
+Query  386  NNTIVTKELTGAQIKDVLEHGVKLYPEKSSAFLQVGGISYYFNPKQKEGEK-ITNIQKEG  444
+            N  I+T E +G+   + +E+ +      ++  +  G I+ + N K       I  I  E
+Sbjct  168  NYLIITGE-SGSGKSETVENVIMPMFAATNCTISSGQITRFVNAKMSASSNLIPMIITEY  226
+
+Query  445  KPLDLNKKYVVATNDYIASGGDEFPCFSKEP--ILKEFGNLESAVI  488
+            KP  LNK  +   +D + +  D  P +   P  IL E+  L   ++
+Sbjct  227  KPTKLNKNRMDEISDLLRNTYDRTPAYRGRPDLILNEYLPLAPIIL  272
+
+
+>WP_136479373.1 SMC-Scp complex subunit ScpB [Acetivibrio thermocellus]
+ THJ78233.1 SMC-Scp complex subunit ScpB [Acetivibrio thermocellus]
+Length=198
+
+ Score = 26.6 bits (57),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 11/30 (37%), Positives = 18/30 (60%), Gaps = 0/30 (0%)
+
+Query  12   IILITTSQSFISYGLERFEEITIFHTNDIH  41
+            ++  TT + F S+G +   ++ IF  NDIH
+Sbjct  145  VLYETTDEFFRSFGFKSDADLPIFELNDIH  174
+
+
+>ABN53109.1 hypothetical protein Cthe_1888 [Acetivibrio thermocellus ATCC
+27405]
+Length=527
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 26/106 (25%), Positives = 46/106 (43%), Gaps = 4/106 (4%)
+
+Query  386  NNTIVTKELTGAQIKDVLEHGVKLYPEKSSAFLQVGGISYYFNPKQKEGEK-ITNIQKEG  444
+            N  I+T E +G+   + +E+ +      ++  +  G I+ + N K       I  I  E
+Sbjct  171  NYLIITGE-SGSGKSETVENVIMPMFAATNCTISSGQITRFVNAKMSASSNLIPMIITEY  229
+
+Query  445  KPLDLNKKYVVATNDYIASGGDEFPCFSKEP--ILKEFGNLESAVI  488
+            KP  LNK  +   +D + +  D  P +   P  IL E+  L   ++
+Sbjct  230  KPTKLNKNRMDEISDLLRNTYDRTPAYRGRPDLILNEYLPLAPIIL  275
+
+
+>WP_020457886.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN53862.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ HBW25892.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=418
+
+ Score = 26.9 bits (58),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 36/70 (51%), Gaps = 5/70 (7%)
+
+Query  436  KITNIQKEGKPLDLNKKYVVATNDYIASGGDEFPCFSKEPILKEFGNLESAVIEYIEYKK  495
+            +I N+ +  + +  +K  V+AT + I++  +E   FSKE  +     L     +YI+  K
+Sbjct  341  RIENVNQAVEKMQNDKGEVIATIENISAVCEETAAFSKEVAMTTEHQL-----KYIDEMK  395
+
+Query  496  EISKNVDGRI  505
+            E S ++ G +
+Sbjct  396  EASSSLSGLV  405
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.312    0.134    0.365
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 50845
+Number of extensions: 2605
+Number of successful extensions: 45
+Number of sequences better than 100: 12
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 44
+Number of HSP's successfully gapped: 15
+Length of query: 613
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 518
+Effective length of database: 2069853
+Effective search space: 1072183854
+Effective search space used: 1072183854
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

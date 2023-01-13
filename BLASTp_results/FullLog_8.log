@@ -1,0 +1,817 @@
+Start time: 18 Mar 2022 16:36:30
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_04710-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_04710 (Accession: QHQ60169)
+accession: WP_003517805.1, fraction positive substitution: 0.53
+accession: WP_136479316.1, fraction positive substitution: 0.53
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_0385-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_0385 (Accession: ADL03022)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_11790-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_11790 (Accession: CBK76851)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_0816-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_0816 (Accession: ADL03438)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_16520-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_16520 (Accession: CBK77224)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08795-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08795 (Accession: QMW71373)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_01045-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_01045 (Accession: AYA98629)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0208-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0208 (Accession: SOB70976)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14225-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14225 (Accession: QFJ55964)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11070-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11070 (Accession: QHQ61246)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2417-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2417 (Accession: ADL04987)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_23870-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_23870 (Accession: CBK77798)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1909-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1909 (Accession: QCP35363)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08980-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08980 (Accession: QMW71407)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06210-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06210 (Accession: AYA99561)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0209-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0209 (Accession: SOB70977)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_05240-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_05240 (Accession: QFJ54305)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11075-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11075 (Accession: QHQ61247)
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2414-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2414 (Accession: ADL04984)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_23900-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_23900 (Accession: CBK77801)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1906-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1906 (Accession: QCP35360)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08965-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08965 (Accession: QMW73049)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06215-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06215 (Accession: AYA99562)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0201-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0201 (Accession: SOB70969)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14180-------------------------------------------------------------------------------------
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11095-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11095 (Accession: QHQ61251)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2416-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2416 (Accession: ADL04986)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_23880-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_23880 (Accession: CBK77799)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1908-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1908 (Accession: QCP35362)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08975-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08975 (Accession: QMW71406)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06275-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06275 (Accession: AYA99574)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0199-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0199 (Accession: SOB70967)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14190-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14190 (Accession: QFJ55958)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11085-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11085 (Accession: QHQ61249)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2415-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2415 (Accession: ADL04985)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_23890-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_23890 (Accession: CBK77800)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1907-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1907 (Accession: QCP35361)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08970-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08970 (Accession: QMW71405)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_08105-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_08105 (Accession: AYA99901)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0186-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0186 (Accession: SOB70954)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14185-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14185 (Accession: QFJ55957)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11090-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11090 (Accession: QHQ61250)
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2418-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2418 (Accession: ADL04988)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1910-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1910 (Accession: QCP35364)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08985-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08985 (Accession: QMW71408)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06205-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06205 (Accession: AYA99560)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0206-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0206 (Accession: SOB70974)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14195-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14195 (Accession: QFJ55959)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11080-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11080 (Accession: QHQ61248)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06220-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06220 (Accession: AYA99563)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0210-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0210 (Accession: SOB70978)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11100-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11100 (Accession: QHQ61252)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_23920-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_23920 (Accession: CBK77803)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1905-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1905 (Accession: QCP35359)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08960-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08960 (Accession: QMW71404)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06225-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06225 (Accession: AYA99564)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0207-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0207 (Accession: SOB70975)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14175-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14175 (Accession: QFJ55955)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11105-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11105 (Accession: QHQ61253)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1905-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1905 (Accession: QCP35359)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08960-------------------------------------------------------------------------------------
+Building FASTA report for gene EYQ97_08960 (Accession: QMW71404)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06225-------------------------------------------------------------------------------------
+Building FASTA report for gene D4A81_06225 (Accession: AYA99564)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0207-------------------------------------------------------------------------------------
+Building FASTA report for gene EHLA_0207 (Accession: SOB70975)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14175-------------------------------------------------------------------------------------
+Building FASTA report for gene FXF36_14175 (Accession: QFJ55955)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11105-------------------------------------------------------------------------------------
+Building FASTA report for gene Ana3638_11105 (Accession: QHQ61253)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+Found gene for related organism csh:Clostridium saccharolyticum
+Closa_2379-------------------------------------------------------------------------------------
+Building FASTA report for gene Closa_2379 (Accession: ADL04951)
+
+Using Organism: Clostridium cf. (cso)
+Found gene for related organism cso:Clostridium cf.
+CLS_24020-------------------------------------------------------------------------------------
+Building FASTA report for gene CLS_24020 (Accession: CBK77811)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+Found gene for related organism arf:Anaerostipes rhamnosivorans
+AR1Y2_1895-------------------------------------------------------------------------------------
+Building FASTA report for gene AR1Y2_1895 (Accession: QCP35349)
+
+Using Organism: Anaerostipes caccae (acac)
+Found gene for related organism acac:Anaerostipes caccae
+EYQ97_08910-------------------------------------------------------------------------------------
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+Found gene for related organism lua:Lachnoanaerobaculum umeaense
+D4A81_06290-------------------------------------------------------------------------------------
+
+Using Organism: Anaerobutyricum hallii (ehl)
+Found gene for related organism ehl:Anaerobutyricum hallii
+EHLA_0205-------------------------------------------------------------------------------------
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+Found gene for related organism pxv:Pseudobutyrivibrio xylanivorans
+FXF36_14200-------------------------------------------------------------------------------------
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+Found gene for related organism anr:Anaerocolumna sedimenticola
+Ana3638_11160-------------------------------------------------------------------------------------
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Clostridium saccharolyticum (csh)
+
+Using Organism: Clostridium cf. (cso)
+
+Using Organism: Anaerostipes hadrus (bprl)
+
+Using Organism: Anaerostipes rhamnosivorans (arf)
+
+Using Organism: Anaerostipes caccae (acac)
+
+Using Organism: Herbinix luporum (hsd)
+
+Using Organism: Anaerotignum propionicum (cpro)
+
+Using Organism: Lachnoanaerobaculum umeaense (lua)
+
+Using Organism: Anaerobutyricum hallii (ehl)
+
+Using Organism: Pseudobutyrivibrio xylanivorans (pxv)
+
+Using Organism: Anaerocolumna sedimenticola (anr)
+end time: 22 Mar 2022 19:49:52

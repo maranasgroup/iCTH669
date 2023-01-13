@@ -1,0 +1,258 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ014TB013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BAD40699 5'-nucleotidase [Symbiobacterium thermophilum]
+
+Length=256
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003520209.1 Ger(x)C family spore germination protein [Aceti...  26.9    3.1    27%
+CDG36565.1 spore germination B3 GerAC like [Acetivibrio thermo...  26.9    3.1    27%
+WP_020457701.1 Ger(x)C family spore germination protein [Aceti...  26.9    3.1    27%
+WP_003512224.1 response regulator [Acetivibrio thermocellus]       25.4    4.8    29%
+WP_003518540.1 DEAD/DEAH box helicase family protein [Acetivib...  26.6    5.0    31%
+THJ79543.1 restriction endonuclease subunit R [Acetivibrio the...  26.6    5.0    31%
+WP_235715231.1 DEAD/DEAH box helicase family protein [Acetivib...  26.6    5.0    31%
+WP_235835970.1 DEAD/DEAH box helicase family protein [Acetivib...  26.6    5.0    31%
+WP_011838144.1 phage tail protein [Acetivibrio thermocellus]       25.4    9.7    28%
+
+ALIGNMENTS
+>WP_003520209.1 Ger(x)C family spore germination protein [Acetivibrio thermocellus]
+ ADU75706.1 germination protein, Ger(x)C family [Acetivibrio thermocellus
+DSM 1313]
+ ALX09735.1 germination protein, Ger(x)C family [Acetivibrio thermocellus
+AD2]
+ ANV77510.1 germination protein, Ger(x)C family [Acetivibrio thermocellus
+DSM 2360]
+ EIC03750.1 germination protein, Ger(x)C family [Acetivibrio thermocellus
+YS]
+ PFH04020.1 spore germination protein KC/spore germination protein [Acetivibrio
+thermocellus AD2]
+Length=423
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 27/63 (43%), Gaps = 3/63 (5%)
+
+Query  55   FPVRVEIPGAVAPCIS---VTGTPADSAKLAIEAILPRRPDLVISGINRGANLGTDIFYS  111
+            F + V+I G  +  ++         D  + A EA      +  I  I +  +LG D F+
+Sbjct  321  FKINVDIKGNYSDSVNHPLTEKIDKDFIEKAEEAFEESIKEQCIKTIKKMQDLGVDTFHF  380
+
+Query  112  GTV  114
+            GTV
+Sbjct  381  GTV  383
+
+
+>CDG36565.1 spore germination B3 GerAC like [Acetivibrio thermocellus BC1]
+Length=423
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 27/63 (43%), Gaps = 3/63 (5%)
+
+Query  55   FPVRVEIPGAVAPCIS---VTGTPADSAKLAIEAILPRRPDLVISGINRGANLGTDIFYS  111
+            F + V+I G  +  ++         D  + A EA      +  I  I +  +LG D F+
+Sbjct  321  FKINVDIKGNYSDSVNHPLTEKIDKDFIEKAEEAFEESIKEQCIKTIKKMQDLGVDTFHF  380
+
+Query  112  GTV  114
+            GTV
+Sbjct  381  GTV  383
+
+
+>WP_020457701.1 Ger(x)C family spore germination protein [Acetivibrio thermocellus]
+ ABN53271.1 germination protein, Ger(x)C family [Acetivibrio thermocellus
+ATCC 27405]
+ NLU27614.1 Ger(x)C family spore germination protein [Acetivibrio thermocellus]
+ THJ77084.1 Ger(x)C family spore germination protein [Acetivibrio thermocellus]
+ HBW26312.1 Ger(x)C family spore germination protein [Acetivibrio thermocellus]
+Length=423
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 27/63 (43%), Gaps = 3/63 (5%)
+
+Query  55   FPVRVEIPGAVAPCIS---VTGTPADSAKLAIEAILPRRPDLVISGINRGANLGTDIFYS  111
+            F + V+I G  +  ++         D  + A EA      +  I  I +  +LG D F+
+Sbjct  321  FKINVDIKGNYSDSVNHPLTEKIDKDFIEKAEEAFEESIKEQCIKTIKKMQDLGVDTFHF  380
+
+Query  112  GTV  114
+            GTV
+Sbjct  381  GTV  383
+
+
+>WP_003512224.1 response regulator [Acetivibrio thermocellus]
+ CDG34846.1 response regulator receiver protein [Acetivibrio thermocellus
+BC1]
+ ABN51408.1 response regulator receiver [Acetivibrio thermocellus ATCC 27405]
+ ADU75107.1 response regulator receiver [Acetivibrio thermocellus DSM 1313]
+ ALX09083.1 response regulator receiver protein [Acetivibrio thermocellus
+AD2]
+ ANV76834.1 response regulator receiver protein [Acetivibrio thermocellus
+DSM 2360]
+Length=122
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 28/62 (45%), Gaps = 6/62 (10%)
+
+Query  82   AIEAILPRRPDLVISGINRGANLGTDIFYSGTVAAALEGPILGIPALAVSLDSMTSSDYS  141
+            AIE +   RPD +I  INR         Y   +A+ ++     I  +  S DS++  DY
+Sbjct  36   AIEKVQDMRPDYII--INRVMKE----IYGDELASKIKARFPEIKCILSSCDSISIDDYK  89
+
+Query  142  AA  143
+             +
+Sbjct  90   NS  91
+
+
+>WP_003518540.1 DEAD/DEAH box helicase family protein [Acetivibrio thermocellus]
+ ANV75227.1 type III restriction protein res subunit [Acetivibrio thermocellus
+DSM 2360]
+ EIC03416.1 type III restriction protein res subunit [Acetivibrio thermocellus
+YS]
+ ADU73567.1 type III restriction protein res subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX07488.1 type III restriction protein res subunit [Acetivibrio thermocellus
+AD2]
+ PFH01752.1 type III restriction/modification enzyme restriction subunit
+[Acetivibrio thermocellus AD2]
+Length=841
+
+ Score = 26.6 bits (57),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 32/70 (46%), Gaps = 7/70 (10%)
+
+Query  23   RMEQIPGLEVWAVAPDRERSASGHAITTYRPLFPVRVEI-----PGAVAPCISVTGTPAD  77
+            R+ ++  L+  AV  D    A G +IT    L  VR  I        +A CI++TGTP
+Sbjct  273  RLRKLEQLDNLAVFVDEAHHAFGTSITN--DLKRVRETINRLDRKSPLAGCINLTGTPYV  330
+
+Query  78   SAKLAIEAIL  87
+              K+  E +
+Sbjct  331  DGKMLPEVVF  340
+
+
+>THJ79543.1 restriction endonuclease subunit R [Acetivibrio thermocellus]
+Length=841
+
+ Score = 26.6 bits (57),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 32/70 (46%), Gaps = 7/70 (10%)
+
+Query  23   RMEQIPGLEVWAVAPDRERSASGHAITTYRPLFPVRVEI-----PGAVAPCISVTGTPAD  77
+            R+ ++  L+  AV  D    A G +IT    L  VR  I        +A CI++TGTP
+Sbjct  273  RLRKLEQLDNLAVFVDEAHHAFGTSITN--DLKRVRETINRLDRKSPLAGCINLTGTPYV  330
+
+Query  78   SAKLAIEAIL  87
+              K+  E +
+Sbjct  331  DGKMLPEVVF  340
+
+
+>WP_235715231.1 DEAD/DEAH box helicase family protein [Acetivibrio thermocellus]
+Length=842
+
+ Score = 26.6 bits (57),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 32/70 (46%), Gaps = 7/70 (10%)
+
+Query  23   RMEQIPGLEVWAVAPDRERSASGHAITTYRPLFPVRVEI-----PGAVAPCISVTGTPAD  77
+            R+ ++  L+  AV  D    A G +IT    L  VR  I        +A CI++TGTP
+Sbjct  274  RLRKLEQLDNLAVFVDEAHHAFGTSITN--DLKRVRETINRLDRKSPLAGCINLTGTPYV  331
+
+Query  78   SAKLAIEAIL  87
+              K+  E +
+Sbjct  332  DGKMLPEVVF  341
+
+
+>WP_235835970.1 DEAD/DEAH box helicase family protein [Acetivibrio thermocellus]
+Length=842
+
+ Score = 26.6 bits (57),  Expect = 5.0, Method: Composition-based stats.
+ Identities = 22/70 (31%), Positives = 32/70 (46%), Gaps = 7/70 (10%)
+
+Query  23   RMEQIPGLEVWAVAPDRERSASGHAITTYRPLFPVRVEI-----PGAVAPCISVTGTPAD  77
+            R+ ++  L+  AV  D    A G +IT    L  VR  I        +A CI++TGTP
+Sbjct  274  RLRKLEQLDNLAVFVDEAHHAFGTSITN--DLKRVRETINRLDRKSPLAGCINLTGTPYV  331
+
+Query  78   SAKLAIEAIL  87
+              K+  E +
+Sbjct  332  DGKMLPEVVF  341
+
+
+>WP_011838144.1 phage tail protein [Acetivibrio thermocellus]
+ ABN52840.1 phage minor structural protein [Acetivibrio thermocellus ATCC
+27405]
+Length=840
+
+ Score = 25.4 bits (54),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 29/61 (48%), Gaps = 4/61 (7%)
+
+Query  98   INRGANLGTDIFYSGTVAAALEGPILGIPALAVSLDSMTSSDYSAAADFAAQLALKVLEE  157
+            +N G  + T+   SGT +       +G+P +  SL          +  F+AQ+A + LE+
+Sbjct  758  VNSGFEVDTENGVSGTASF----KAVGVPGMKKSLSQTVYPATRKSYTFSAQIASESLEK  813
+
+Query  158  G  158
+            G
+Sbjct  814  G  814
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.136    0.403
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 15080
+Number of extensions: 565
+Number of successful extensions: 11
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 3
+Length of query: 256
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 169
+Effective length of database: 2134357
+Effective search space: 360706333
+Effective search space used: 360706333
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

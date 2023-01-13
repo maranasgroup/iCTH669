@@ -1,0 +1,347 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WD3NGM0013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= UAG16854 5'-nucleotidase [Paraclostridium bifermentans]
+
+Length=252
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518549.1 adenylate kinase [Acetivibrio thermocellus]         28.5    0.74   27%
+WP_011837984.1 tyrosine-type recombinase/integrase [Acetivibri...  26.9    2.4    55%
+WP_136479621.1 tyrosine-type recombinase/integrase [Acetivibri...  26.9    2.6    55%
+WP_003513331.1 DNA topoisomerase (ATP-hydrolyzing) subunit B [...  26.6    4.7    28%
+CDG35830.1 helicase domain-containing protein [Acetivibrio the...  26.2    6.1    32%
+WP_003512552.1 NAD(+) synthase [Acetivibrio thermocellus]          26.2    6.5    33%
+WP_011837809.1 NAD(+) synthase [Acetivibrio thermocellus]          26.2    6.5    33%
+WP_003520327.1 NAD(+) synthase [Acetivibrio thermocellus]          25.8    6.8    33%
+WP_011838276.1 glutamine-hydrolyzing carbamoyl-phosphate synth...  25.8    6.9    27%
+WP_003519118.1 methyl-accepting chemotaxis protein [Acetivibri...  25.8    6.9    28%
+WP_003513826.1 glutamine-hydrolyzing carbamoyl-phosphate synth...  25.8    7.1    27%
+WP_136479189.1 methyl-accepting chemotaxis protein [Acetivibri...  25.4    8.7    29%
+WP_003511686.1 methyl-accepting chemotaxis protein [Acetivibri...  25.4    8.7    29%
+CDG37639.1 methyl-accepting chemotaxis sensory transducer [Ace...  25.4    8.8    29%
+
+ALIGNMENTS
+>WP_003518549.1 adenylate kinase [Acetivibrio thermocellus]
+ A3DJJ3.1 RecName: Full=Adenylate kinase; Short=AK; AltName: Full=ATP-AMP
+transphosphorylase; AltName: Full=ATP:AMP phosphotransferase;
+AltName: Full=Adenylate monophosphate kinase [Acetivibrio
+thermocellus ATCC 27405]
+ CDG37415.1 Adenylate kinase [Acetivibrio thermocellus BC1]
+ ABN54122.1 adenylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU73555.1 adenylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX07476.1 Adenylate kinase [Acetivibrio thermocellus AD2]
+ ANV75215.1 Adenylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=217
+
+ Score = 28.5 bits (62),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 37/96 (39%), Gaps = 18/96 (19%)
+
+Query  89   DLVLSGINNGANLGT---DVIYSG-------TVSAAIEGLIQKKPSISISYDGFDVSKDN  138
+            D+  S I NG  LG    + I  G       TV    + + Q         DGF
+Sbjct  33   DIFRSNIKNGTELGRKAKEYIDKGLLVPDELTVDIVKDRISQPDCKAGFILDGFP-----  87
+
+Query  139  YKNASIYVKSIVQNLTSNMDIFTDCILNINIPDSEI  174
+                +IY    +  +   +++  DC LNI +PD EI
+Sbjct  88   ---RTIYQAERLDEILKELNVELDCALNIYVPDEEI  120
+
+
+>WP_011837984.1 tyrosine-type recombinase/integrase [Acetivibrio thermocellus]
+ ABN52359.1 integrase family protein [Acetivibrio thermocellus ATCC 27405]
+Length=301
+
+ Score = 26.9 bits (58),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 15/20 (75%), Gaps = 1/20 (5%)
+
+Query  186  EYDNV-IEERKSPYGKRYVW  204
+            EYDN+ I ERK+PY +  +W
+Sbjct  212  EYDNLFISERKTPYTRSGIW  231
+
+
+>WP_136479621.1 tyrosine-type recombinase/integrase [Acetivibrio thermocellus]
+ THJ76953.1 integrase [Acetivibrio thermocellus]
+Length=301
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 11/20 (55%), Positives = 15/20 (75%), Gaps = 1/20 (5%)
+
+Query  186  EYDNV-IEERKSPYGKRYVW  204
+            EYDN+ I ERK+PY +  +W
+Sbjct  212  EYDNLFISERKTPYTRSGIW  231
+
+
+>WP_003513331.1 DNA topoisomerase (ATP-hydrolyzing) subunit B [Acetivibrio thermocellus]
+ CDG36899.1 DNA gyrase subunit B [Acetivibrio thermocellus BC1]
+ ABN53578.1 DNA gyrase, B subunit [Acetivibrio thermocellus ATCC 27405]
+ ADU73106.1 DNA gyrase, B subunit [Acetivibrio thermocellus DSM 1313]
+ ALX07017.1 DNA gyrase B subunit [Acetivibrio thermocellus AD2]
+ ANV74754.1 DNA gyrase B subunit [Acetivibrio thermocellus DSM 2360]
+Length=641
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 32/61 (52%), Gaps = 10/61 (16%)
+
+Query  132  FDVSKDNYKNASIYVKSIVQNLTSNMDIFTDCILNINIPDSEIQGYKITKLGVREYDNVI  191
+            F+  K+N KN  +  + + + LT+        ++++ IPD + +G   TKLG  E  + +
+Sbjct  306  FNFLKENDKN--LLGEDVREGLTA--------VISVKIPDPQFEGQTKTKLGNSEVRSFV  355
+
+Query  192  E  192
+            E
+Sbjct  356  E  356
+
+
+>CDG35830.1 helicase domain-containing protein [Acetivibrio thermocellus
+BC1]
+Length=1342
+
+ Score = 26.2 bits (56),  Expect = 6.1, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 33/65 (51%), Gaps = 4/65 (6%)
+
+Query  173  EIQGYKITKLGVREYDNVIEERKSPYGKRY-VWIGGQVRKLDQEKDSDIQAIDEGYISIT  231
+            E+   K+++L   E    IE+  SP+   Y  WIG Q  +L + KDS  Q I +  I+
+Sbjct  327  ELDPMKLSELWAPEE---IEKALSPFYSDYREWIGRQKEELKKLKDSREQEIAQRLINRC  383
+
+Query  232  PINID  236
+             I ++
+Sbjct  384  EIALE  388
+
+
+>WP_003512552.1 NAD(+) synthase [Acetivibrio thermocellus]
+ NLU25602.1 NAD(+) synthase [Acetivibrio thermocellus]
+ THJ77163.1 NAD(+) synthase [Acetivibrio thermocellus]
+ CDG35001.1 Glutamine-dependent NAD(+) synthetase [Acetivibrio thermocellus
+BC1]
+Length=645
+
+ Score = 26.2 bits (56),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 11/60 (18%)
+
+Query  119  IQKKPSISISYDGFDVSKDNYKNASIYVKSIVQNLTSNMDIFTDCILNINIPDSEIQGYK  178
+            I +K  ++I+  GF  S   Y NA  ++KS        MD+    I  INI D+ +Q +K
+Sbjct  379  IPRKNILAITMPGFGTSDVTYTNAMEFMKS--------MDVE---IREINIKDACLQHFK  427
+
+
+>WP_011837809.1 NAD(+) synthase [Acetivibrio thermocellus]
+ ABN51563.1 NAD+ synthetase [Acetivibrio thermocellus ATCC 27405]
+ HBW26064.1 NAD(+) synthase [Acetivibrio thermocellus]
+Length=645
+
+ Score = 26.2 bits (56),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 11/60 (18%)
+
+Query  119  IQKKPSISISYDGFDVSKDNYKNASIYVKSIVQNLTSNMDIFTDCILNINIPDSEIQGYK  178
+            I +K  ++I+  GF  S   Y NA  ++KS        MD+    I  INI D+ +Q +K
+Sbjct  379  IPRKNILAITMPGFGTSDVTYTNAMEFMKS--------MDVE---IREINIKDACLQHFK  427
+
+
+>WP_003520327.1 NAD(+) synthase [Acetivibrio thermocellus]
+ ADU74952.1 NAD+ synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08913.1 NAD+ synthetase [Acetivibrio thermocellus AD2]
+ ANV76663.1 NAD+ synthetase [Acetivibrio thermocellus DSM 2360]
+ EIC05099.1 NAD+ synthetase [Acetivibrio thermocellus YS]
+ PFH03186.1 NAD+ synthase (glutamine-hydrolysing) [Acetivibrio thermocellus
+AD2]
+Length=645
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 20/60 (33%), Positives = 30/60 (50%), Gaps = 11/60 (18%)
+
+Query  119  IQKKPSISISYDGFDVSKDNYKNASIYVKSIVQNLTSNMDIFTDCILNINIPDSEIQGYK  178
+            I +K  ++I+  GF  S   Y NA  ++KS        MD+    I  INI D+ +Q +K
+Sbjct  379  IPRKNILAITMPGFGTSDVTYTNAMEFMKS--------MDVE---IREINIKDACLQHFK  427
+
+
+>WP_011838276.1 glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+[Acetivibrio thermocellus]
+ ABN53088.1 carbamoyl-phosphate synthase, small subunit [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27342.1 carbamoyl-phosphate synthase small subunit [Acetivibrio thermocellus]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 37/85 (44%), Gaps = 7/85 (8%)
+
+Query  111  VSAAIEGLIQKKPSISISYDGFDVSKDNYKNASIYVKSIVQNLTSNMDIFTD-CILNINI  169
+            +  A+ G ++K P     + G +    +Y     YV S   N     D   D  I +INI
+Sbjct  253  LGLALGGKVKKLP---FGHHGANQPVRDYIKGKCYVTSQCHNYALENDFSDDIFITHINI  309
+
+Query  170  PDSEIQGYKITK---LGVREYDNVI  191
+             D+ ++G+K      LGV+ +   I
+Sbjct  310  NDNTVEGFKHKHHPVLGVQYHPKAI  334
+
+
+>WP_003519118.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ADU74090.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX08028.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75775.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC06048.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+ PFH02299.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus
+AD2]
+Length=256
+
+ Score = 25.8 bits (55),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 18/64 (28%), Positives = 31/64 (48%), Gaps = 9/64 (14%)
+
+Query  194  RKSPYGKRYVWIGGQVRKLDQEKDSDIQAID-------EGY-ISITPINIDMTN-YKKID  244
+            R    GKR+  +  ++RKL  + ++  Q I        EG   S+  IN+  TN +  ++
+Sbjct  105  RAGEAGKRFPVVAMEIRKLADQSNASAQNITDILNKMGEGTNQSLKAINLTQTNIFDTLE  164
+
+Query  245  VLNN  248
+            +L N
+Sbjct  165  LLEN  168
+
+
+>WP_003513826.1 glutamine-hydrolyzing carbamoyl-phosphate synthase small subunit
+[Acetivibrio thermocellus]
+ CDG36393.1 Carbamoyl-phosphate synthase small chain [Acetivibrio thermocellus
+BC1]
+ ADU75563.1 carbamoyl-phosphate synthase, small subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX09554.1 Carbamoyl-phosphate synthase small chain [Acetivibrio thermocellus
+AD2]
+ ANV77326.1 Carbamoyl-phosphate synthase small chain [Acetivibrio thermocellus
+DSM 2360]
+ EIC04492.1 carbamoyl-phosphate synthase, small subunit [Acetivibrio thermocellus
+YS]
+Length=354
+
+ Score = 25.8 bits (55),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 23/85 (27%), Positives = 37/85 (44%), Gaps = 7/85 (8%)
+
+Query  111  VSAAIEGLIQKKPSISISYDGFDVSKDNYKNASIYVKSIVQNLTSNMDIFTD-CILNINI  169
+            +  A+ G ++K P     + G +    +Y     YV S   N     D   D  I +INI
+Sbjct  253  LGLALGGKVKKLP---FGHHGANQPVRDYIKGKCYVTSQCHNYALENDFGDDIFITHINI  309
+
+Query  170  PDSEIQGYKITK---LGVREYDNVI  191
+             D+ ++G+K      LGV+ +   I
+Sbjct  310  NDNTVEGFKHKHHPVLGVQYHPKAI  334
+
+
+>WP_136479189.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ THJ79122.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=416
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 42/91 (46%), Gaps = 17/91 (19%)
+
+Query  133  DVSKDNYKNASIYVKSIVQNLTSNMD---IFTDCILNINIPDSEIQGYKITKLGVREYDN  189
+            D SK+NY+ A   + S+V+ LT+ +    +F + I NI             +  +   +
+Sbjct  205  DKSKENYETAE-KIFSVVEKLTNTVKDIGLFVESIENI-----------AEQTNLLALNA  252
+
+Query  190  VIE-ERKSPYGKRYVWIGGQVRKL-DQEKDS  218
+             IE  R    GK +  +  +VRKL DQ + S
+Sbjct  253  AIEAARAGEAGKGFAVVAEEVRKLADQSRKS  283
+
+
+>WP_003511686.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN54351.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73785.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX07718.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75460.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC05676.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+Length=416
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 42/91 (46%), Gaps = 17/91 (19%)
+
+Query  133  DVSKDNYKNASIYVKSIVQNLTSNMD---IFTDCILNINIPDSEIQGYKITKLGVREYDN  189
+            D SK+NY+ A   + S+V+ LT+ +    +F + I NI             +  +   +
+Sbjct  205  DKSKENYETAE-KIFSVVEKLTNTVKDIGLFVESIENI-----------AEQTNLLALNA  252
+
+Query  190  VIE-ERKSPYGKRYVWIGGQVRKL-DQEKDS  218
+             IE  R    GK +  +  +VRKL DQ + S
+Sbjct  253  AIEAARAGEAGKGFAVVAEEVRKLADQSRKS  283
+
+
+>CDG37639.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+BC1]
+Length=416
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 42/91 (46%), Gaps = 17/91 (19%)
+
+Query  133  DVSKDNYKNASIYVKSIVQNLTSNMD---IFTDCILNINIPDSEIQGYKITKLGVREYDN  189
+            D SK+NY+ A   + S+V+ LT+ +    +F + I NI             +  +   +
+Sbjct  205  DKSKENYETAE-KIFSVVEKLTNTVKDIGLFVESIENI-----------AEQTNLLALNA  252
+
+Query  190  VIE-ERKSPYGKRYVWIGGQVRKL-DQEKDS  218
+             IE  R    GK +  +  +VRKL DQ + S
+Sbjct  253  AIEAARAGEAGKGFAVVAEEVRKLADQSRKS  283
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.137    0.381
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22621
+Number of extensions: 1064
+Number of successful extensions: 41
+Number of sequences better than 100: 11
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 41
+Number of HSP's successfully gapped: 12
+Length of query: 252
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 165
+Effective length of database: 2134357
+Effective search space: 352168905
+Effective search space used: 352168905
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

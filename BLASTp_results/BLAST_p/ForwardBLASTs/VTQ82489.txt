@@ -1,0 +1,237 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V99X4A901N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= VTQ82489 dTMP kinase [Hathewaya histolytica]
+
+Length=213
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       38.9    2e-04  26%
+WP_020457904.1 IS21-like element ISCth15 family transposase [A...  28.9    0.68   24%
+WP_003512050.1 endopeptidase La [Acetivibrio thermocellus]         26.9    2.7    31%
+WP_011837748.1 endopeptidase La [Acetivibrio thermocellus]         26.9    2.7    31%
+WP_003519171.1 H-type small acid-soluble spore protein [Acetiv...  24.6    3.9    34%
+WP_003517318.1 ABC transporter ATP-binding protein [Acetivibri...  25.4    8.3    33%
+WP_003516547.1 S-methyl-5'-thioadenosine phosphorylase [Acetiv...  25.0    8.9    29%
+WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]  25.0    9.8    38%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 38.9 bits (89),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 41/160 (26%), Positives = 66/160 (41%), Gaps = 13/160 (8%)
+
+Query  4    KGVFITLE-GGEGVGKTTQIKNIEEYFKQNNISYISTREPGGIKISEKIREIILD----K  58
+            KG  I +E G +  GK TQ   + E   Q          P     S  + ++ L+    K
+Sbjct  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+
+Query  59   SNTDMDERTEALLYAAARRQHLADKVIPALKEGKIVICDRFIDSSLAYQGFARGIGMKE-  117
+               D+     +  YA  R      +   A  +G I++ DR+  S++ +Q  A+   M+E
+Sbjct  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQA-AKIKDMEEK  120
+
+Query  118  -----VLAINEFAIEEC-MPDLTIYLDIEPVKGIQRVKNR  151
+                  L   EF I +  +PD  I+LD+ P    + +K R
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKER  160
+
+
+>WP_020457904.1 IS21-like element ISCth15 family transposase [Acetivibrio thermocellus]
+ ABN53948.1 Integrase catalytic region [Acetivibrio thermocellus ATCC 27405]
+ HBW27496.1 IS21 family transposase ISCth15 [Acetivibrio thermocellus]
+Length=501
+
+ Score = 28.9 bits (63),  Expect = 0.68, Method: Compositional matrix adjust.
+ Identities = 19/78 (24%), Positives = 40/78 (51%), Gaps = 6/78 (8%)
+
+Query  40   REPGGIKISEKIREIILDKSNTDMDERTEALLYAAARRQHLADKVIPALKEGKIVICDRF  99
+            +E     +  + RE +++K   D+DE  E+ + A  +++H A ++   LK       + F
+Sbjct  41   KEDWSQPLVNRTRESLINKYKADIDEWLESDVDAPRKQRHTAKRIFNKLKHK---YNNEF  97
+
+Query  100  IDSSLAYQGFARGIGMKE  117
+               +L+Y+  AR + +K+
+Sbjct  98   ---NLSYRTVARYVSLKK  112
+
+
+>WP_003512050.1 endopeptidase La [Acetivibrio thermocellus]
+ CDG34765.1 Lon protease [Acetivibrio thermocellus BC1]
+ ADU75190.1 ATP-dependent protease La [Acetivibrio thermocellus DSM 1313]
+ ALX09165.1 ATP-dependent protease La [Acetivibrio thermocellus AD2]
+ ANV76917.1 ATP-dependent protease La [Acetivibrio thermocellus DSM 2360]
+ EIC04884.1 ATP-dependent protease La [Acetivibrio thermocellus YS]
+Length=815
+
+ Score = 26.9 bits (58),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  2    NFKGVFITLEGGEGVGKTTQIKNIEEYFKQNNISYISTREPGGIKISEKIR  52
+            + KG  + L G  GVGKT+  K+I     +N +        GG++   +IR
+Sbjct  351  DLKGPILCLAGPPGVGKTSIAKSIARALNRNYVRM----SLGGVRDEAEIR  397
+
+
+>WP_011837748.1 endopeptidase La [Acetivibrio thermocellus]
+ ABN51323.1 ATP-dependent protease La [Acetivibrio thermocellus ATCC 27405]
+ NLU27875.1 endopeptidase La [Acetivibrio thermocellus]
+ HBW26708.1 endopeptidase La [Acetivibrio thermocellus]
+Length=815
+
+ Score = 26.9 bits (58),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 16/51 (31%), Positives = 25/51 (49%), Gaps = 4/51 (8%)
+
+Query  2    NFKGVFITLEGGEGVGKTTQIKNIEEYFKQNNISYISTREPGGIKISEKIR  52
+            + KG  + L G  GVGKT+  K+I     +N +        GG++   +IR
+Sbjct  351  DLKGPILCLAGPPGVGKTSIAKSIARALNRNYVRM----SLGGVRDEAEIR  397
+
+
+>WP_003519171.1 H-type small acid-soluble spore protein [Acetivibrio thermocellus]
+ A3DEN2.1 RecName: Full=Small, acid-soluble spore protein H; Short=SASP
+H [Acetivibrio thermocellus ATCC 27405]
+ CDG35855.1 hypothetical protein CTHBC1_1206 [Acetivibrio thermocellus BC1]
+ ABN52411.1 small acid-soluble spore protein, H-type [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74144.1 small acid-soluble spore protein, H-type [Acetivibrio thermocellus
+DSM 1313]
+ ALX08086.1 Small, acid-soluble spore protein H [Acetivibrio thermocellus
+AD2]
+ ANV75833.1 Small, acid-soluble spore protein H [Acetivibrio thermocellus
+DSM 2360]
+Length=64
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 13/38 (34%), Positives = 24/38 (63%), Gaps = 2/38 (5%)
+
+Query  74   AARRQHL--ADKVIPALKEGKIVICDRFIDSSLAYQGF  109
+            AAR Q +  +D+VI  L EG  V  ++ +D+++A+  +
+Sbjct  3    AARAQQIIESDQVIEVLHEGSPVWIEKVMDNNMAHVSY  40
+
+
+>WP_003517318.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52813.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75375.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09369.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77123.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=367
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 26/78 (33%), Positives = 37/78 (47%), Gaps = 10/78 (13%)
+
+Query  5   GVFITLEGGEGVGKTTQIKNIEEYFKQNNISYISTREPGGIKISEK-IREIILDKSNTDM  63
+           G F TL G  G GKTT ++ I  +   N+I      E G IKI  K I  I  +K N  M
+Sbjct  30  GEFFTLLGPSGCGKTTLLRMIIGF---NSI------EGGQIKIDGKVINNIPTNKRNMGM  80
+
+Query  64  DERTEALLYAAARRQHLA  81
+             +  A+    + + ++A
+Sbjct  81  VFQNYAIFPHMSVKDNIA  98
+
+
+>WP_003516547.1 S-methyl-5'-thioadenosine phosphorylase [Acetivibrio thermocellus]
+ CDG35313.1 S-methyl-5'-thioadenosine phosphorylase [Acetivibrio thermocellus
+BC1]
+ ABN51857.1 methylthioadenosine phosphorylase [Acetivibrio thermocellus ATCC
+27405]
+ ADU74667.1 methylthioadenosine phosphorylase [Acetivibrio thermocellus DSM
+1313]
+ ALX08610.1 methylthioadenosine phosphorylase [Acetivibrio thermocellus AD2]
+ ANV76359.1 methylthioadenosine phosphorylase [Acetivibrio thermocellus DSM
+2360]
+Length=268
+
+ Score = 25.0 bits (53),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query  88   LKEGKIVICDRFIDSSLAYQG-FARGIGMKEVLAINEFAIE  127
+            +K G  VICD+F+D +   +  F  G   K + + + +  E
+Sbjct  95   IKPGDFVICDQFVDRTTGRKDTFYDGPVTKHISSAHPYCPE  135
+
+
+>WP_003515871.1 DNA repair protein RadA [Acetivibrio thermocellus]
+ ADU75473.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 1313]
+ ALX09473.1 DNA repair protein RadA [Acetivibrio thermocellus AD2]
+ ANV77227.1 DNA repair protein RadA [Acetivibrio thermocellus DSM 2360]
+ EIC04597.1 DNA repair protein RadA [Acetivibrio thermocellus YS]
+ NIK05905.1 DNA repair protein RadA/Sms [Acetivibrio thermocellus]
+Length=454
+
+ Score = 25.0 bits (53),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  4    KGVFITLEGGEGVGKTTQIKNIEEYFKQN-NISYISTRE  41
+            KG  I + G  G+GK+T +  I +  K N  I Y+S  E
+Sbjct  86   KGSLILVGGDPGIGKSTLLLQICDKIKTNAKILYVSGEE  124
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.317    0.138    0.377
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 10109
+Number of extensions: 484
+Number of successful extensions: 19
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 6
+Length of query: 213
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 128
+Effective length of database: 2165339
+Effective search space: 277163392
+Effective search space used: 277163392
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,252 @@
+Start time: 6 June 2022 9:13:11
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+Found gene for related organism has:Halanaerobium hydrogeniformans
+Halsa_0524-------------------------------------------------------------------------------------
+Building FASTA report for gene Halsa_0524 (Accession: ADQ13994)
+Halsa_0932-------------------------------------------------------------------------------------
+Building FASTA report for gene Halsa_0932 (Accession: ADQ14378)
+Halsa_1290-------------------------------------------------------------------------------------
+Building FASTA report for gene Halsa_1290 (Accession: ADQ14718)
+Halsa_2301-------------------------------------------------------------------------------------
+Building FASTA report for gene Halsa_2301 (Accession: ADQ15708)
+
+Using Organism: Halanaerobium praevalens (hpk)
+Found gene for related organism hpk:Halanaerobium praevalens
+Hprae_0208-------------------------------------------------------------------------------------
+Building FASTA report for gene Hprae_0208 (Accession: ADO76365)
+Hprae_0303-------------------------------------------------------------------------------------
+Building FASTA report for gene Hprae_0303 (Accession: ADO76460)
+Hprae_1497-------------------------------------------------------------------------------------
+Building FASTA report for gene Hprae_1497 (Accession: ADO77624)
+
+Using Organism: Halocella sp. (hals)
+Found gene for related organism hals:Halocella sp.
+D7D81_03115-------------------------------------------------------------------------------------
+Building FASTA report for gene D7D81_03115 (Accession: AZO93662)
+D7D81_05835-------------------------------------------------------------------------------------
+Building FASTA report for gene D7D81_05835 (Accession: AZO94153)
+D7D81_13285-------------------------------------------------------------------------------------
+Building FASTA report for gene D7D81_13285 (Accession: AZO95485)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+Found gene for related organism ifn:Iocasia fonsfrigidae
+GM661_00765-------------------------------------------------------------------------------------
+Building FASTA report for gene GM661_00765 (Accession: QTL96606)
+GM661_10405-------------------------------------------------------------------------------------
+Building FASTA report for gene GM661_10405 (Accession: QTL98357)
+
+Using Organism: Acetohalobium arabaticum (aar)
+Found gene for related organism aar:Acetohalobium arabaticum
+Acear_1557-------------------------------------------------------------------------------------
+Building FASTA report for gene Acear_1557 (Accession: ADL13063)
+
+Using Organism: Halobacteroides halobius (hhl)
+Found gene for related organism hhl:Halobacteroides halobius
+Halha_0746-------------------------------------------------------------------------------------
+Building FASTA report for gene Halha_0746 (Accession: AGB40719)
+Halha_1128-------------------------------------------------------------------------------------
+Building FASTA report for gene Halha_1128 (Accession: AGB41077)
+Halha_1664-------------------------------------------------------------------------------------
+Building FASTA report for gene Halha_1664 (Accession: AGB41602)
+
+Using Organism: Anoxybacter fermentans (aft)
+Found gene for related organism aft:Anoxybacter fermentans
+BBF96_01025-------------------------------------------------------------------------------------
+Building FASTA report for gene BBF96_01025 (Accession: AZR72096)
+BBF96_03025-------------------------------------------------------------------------------------
+Building FASTA report for gene BBF96_03025 (Accession: AZR72445)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+Found gene for related organism kme:Koleobacter methoxysyntrophicus
+H0A61_02527-------------------------------------------------------------------------------------
+Building FASTA report for gene H0A61_02527 (Accession: QSQ10129)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+Found gene for related organism tto:Thermoanaerobacterium thermosaccharolyticum
+Thethe_01320-------------------------------------------------------------------------------------
+Building FASTA report for gene Thethe_01320 (Accession: AGB18962)
+Thethe_02396-------------------------------------------------------------------------------------
+Building FASTA report for gene Thethe_02396 (Accession: AGB19965)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+Found gene for related organism tit:Thermoanaerobacter italicus
+Thit_0306-------------------------------------------------------------------------------------
+Building FASTA report for gene Thit_0306 (Accession: ADD01623)
+Thit_1136-------------------------------------------------------------------------------------
+Building FASTA report for gene Thit_1136 (Accession: ADD02403)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacter italicus (tit)
+end time: 6 June 2022 18:51:58

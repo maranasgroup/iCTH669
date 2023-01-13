@@ -1,0 +1,281 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ62CP9016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QAT43906 5'-nucleotidase [Aminipila luticellarii]
+
+Length=254
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU25952.1 radical SAM protein [Acetivibrio thermocellus]          29.6    0.48   28%
+WP_003517569.1 radical SAM/SPASM domain-containing protein [Ac...  29.6    0.50   28%
+WP_003517480.1 glycoside hydrolase family 3 C-terminal domain-...  29.3    0.62   33%
+7MS2_A Chain A, Thermostable beta-glucosidase B [Acetivibrio t...  29.3    0.62   33%
+CAA33665.1 unnamed protein product [Acetivibrio thermocellus]      29.3    0.64   33%
+WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  27.3    2.2    32%
+WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altro...  27.3    2.3    32%
+ABN51361.1 RNA polymerase, sigma 28 subunit, SigF [Acetivibrio...  25.4    8.0    26%
+WP_003512132.1 RNA polymerase sporulation sigma factor SigF [A...  25.4    8.1    26%
+WP_003512910.1 peptidylprolyl isomerase [Acetivibrio thermocel...  25.4    8.1    39%
+EIC04301.1 hypothetical protein YSBL_2178 [Acetivibrio thermoc...  25.4    8.5    39%
+
+ALIGNMENTS
+>NLU25952.1 radical SAM protein [Acetivibrio thermocellus]
+Length=510
+
+ Score = 29.6 bits (65),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 16/58 (28%), Positives = 30/58 (52%), Gaps = 8/58 (14%)
+
+Query  122  GIPSVAVSVDNHRPQHFEVAAELAVQTLMKSIGRLDGK--------TVLNINVPDVPK  171
+            GI +VA+SVD     H  +  + + Q +M++   L  +        T+ NIN+ ++P+
+Sbjct  102  GINTVAISVDGLEETHDFIRKKGSFQRIMRAFDILRTRNIFYSAITTINNINIKELPR  159
+
+
+>WP_003517569.1 radical SAM/SPASM domain-containing protein [Acetivibrio thermocellus]
+ CDG35226.1 radical SAM family protein [Acetivibrio thermocellus BC1]
+ ABN51769.1 Radical SAM domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU74761.1 Radical SAM domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08712.1 4Fe4S-binding SPASM domain containing protein [Acetivibrio thermocellus
+AD2]
+ ANV76464.1 4Fe4S-binding SPASM domain containing protein [Acetivibrio thermocellus
+DSM 2360]
+Length=510
+
+ Score = 29.6 bits (65),  Expect = 0.50, Method: Compositional matrix adjust.
+ Identities = 16/58 (28%), Positives = 30/58 (52%), Gaps = 8/58 (14%)
+
+Query  122  GIPSVAVSVDNHRPQHFEVAAELAVQTLMKSIGRLDGK--------TVLNINVPDVPK  171
+            GI +VA+SVD     H  +  + + Q +M++   L  +        T+ NIN+ ++P+
+Sbjct  102  GINTVAISVDGLEETHDFIRKKGSFQRIMRAFDILRTRNIFYSAITTINNINIKELPR  159
+
+
+>WP_003517480.1 glycoside hydrolase family 3 C-terminal domain-containing protein
+[Acetivibrio thermocellus]
+ P14002.2 RecName: Full=Thermostable beta-glucosidase B; AltName: Full=Beta-D-glucoside
+glucohydrolase; AltName: Full=Cellobiase; AltName:
+Full=Gentiobiase [Acetivibrio thermocellus ATCC 27405]
+ CDG35926.1 Thermostable beta-glucosidase B [Acetivibrio thermocellus BC1]
+ ABN52488.1 glycoside hydrolase family 3 domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74070.1 glycoside hydrolase family 3 domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08008.1 Beta-glucosidase [Acetivibrio thermocellus AD2]
+ ANV75754.1 Beta-glucosidase [Acetivibrio thermocellus DSM 2360]
+Length=755
+
+ Score = 29.3 bits (64),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 6/49 (12%)
+
+Query  144  LAVQTLMKSIGRLDGKTVLNINVPDV------PKEELKGVKITTLGPRE  186
+            + V   +K++G++ GK ++ + V DV      P++ELKG +   L P E
+Sbjct  571  INVSVKVKNVGKMAGKEIVQLYVKDVKSSVRRPEKELKGFEKVFLNPGE  619
+
+
+>7MS2_A Chain A, Thermostable beta-glucosidase B [Acetivibrio thermocellus
+AD2]
+ 7MS2_B Chain B, Thermostable beta-glucosidase B [Acetivibrio thermocellus
+AD2]
+Length=755
+
+ Score = 29.3 bits (64),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 6/49 (12%)
+
+Query  144  LAVQTLMKSIGRLDGKTVLNINVPDV------PKEELKGVKITTLGPRE  186
+            + V   +K++G++ GK ++ + V DV      P++ELKG +   L P E
+Sbjct  571  INVSVKVKNVGKMAGKEIVQLYVKDVKSSVRRPEKELKGFEKVFLNPGE  619
+
+
+>CAA33665.1 unnamed protein product [Acetivibrio thermocellus]
+Length=754
+
+ Score = 29.3 bits (64),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 28/49 (57%), Gaps = 6/49 (12%)
+
+Query  144  LAVQTLMKSIGRLDGKTVLNINVPDV------PKEELKGVKITTLGPRE  186
+            + V   +K++G++ GK ++ + V DV      P++ELKG +   L P E
+Sbjct  570  INVSVKVKNVGKMAGKEIVQLYVKDVKSSVRRPEKELKGFEKVFLNPGE  618
+
+
+>WP_020457741.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ ABN53424.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27697.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+Length=354
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 21/65 (32%), Positives = 32/65 (49%), Gaps = 8/65 (12%)
+
+Query  102  LGTDTHYSGTVSAAIEGCICGIPSVAVSV-DNHRPQHFEVAAELAVQTLMKSIG---RLD  157
+            L +D   S   S   E C CG P++AV + DN R    E+   L+ +  + S+G    LD
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQR----EMVDMLSSEGYIISLGWHEELD  308
+
+Query  158  GKTVL  162
+             + +L
+Sbjct  309  DRELL  313
+
+
+>WP_003513611.1 UDP-2,4-diacetamido-2,4,6-trideoxy-beta-L-altropyranose hydrolase
+[Acetivibrio thermocellus]
+ CDG36736.1 Glycosyltransferase 28 domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75875.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 1313]
+ ALX09907.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus AD2]
+ ANV77681.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus DSM 2360]
+ EIC03896.1 pseudaminic acid biosynthesis-associated protein PseG [Acetivibrio
+thermocellus YS]
+Length=354
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 21/65 (32%), Positives = 32/65 (49%), Gaps = 8/65 (12%)
+
+Query  102  LGTDTHYSGTVSAAIEGCICGIPSVAVSV-DNHRPQHFEVAAELAVQTLMKSIG---RLD  157
+            L +D   S   S   E C CG P++AV + DN R    E+   L+ +  + S+G    LD
+Sbjct  253  LKSDVAISAGGSTLYELCACGTPALAVVIADNQR----EMVDMLSSEGYIISLGWHEELD  308
+
+Query  158  GKTVL  162
+             + +L
+Sbjct  309  DRELL  313
+
+
+>ABN51361.1 RNA polymerase, sigma 28 subunit, SigF [Acetivibrio thermocellus
+ATCC 27405]
+Length=246
+
+ Score = 25.4 bits (54),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 28/61 (46%), Gaps = 0/61 (0%)
+
+Query  11   IKAKGIFELVKALSEVAQVYVCAPHVERSAAGHSITVREGLEAKEVPYENAELALEINGT  70
+            I+  G+ ++ ++L E+A        +     G   TV E  E   +P E   +A+E + T
+Sbjct  91   IRDDGMIKVSRSLKELANKARITKEIMSKELGREPTVGEISEQLGIPVEEVVMAMEASCT  150
+
+Query  71   P  71
+            P
+Sbjct  151  P  151
+
+
+>WP_003512132.1 RNA polymerase sporulation sigma factor SigF [Acetivibrio thermocellus]
+ CDG34803.1 RNA polymerase sigma-F factor [Acetivibrio thermocellus BC1]
+ ADU75152.1 RNA polymerase, sigma 28 subunit, SigF [Acetivibrio thermocellus
+DSM 1313]
+ ALX09127.1 RNA polymerase, sigma 28 subunit, SigF [Acetivibrio thermocellus
+AD2]
+ ANV76879.1 RNA polymerase, sigma 28 subunit, SigF [Acetivibrio thermocellus
+DSM 2360]
+ EIC04846.1 RNA polymerase sigma-F factor [Acetivibrio thermocellus YS]
+Length=248
+
+ Score = 25.4 bits (54),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 16/61 (26%), Positives = 28/61 (46%), Gaps = 0/61 (0%)
+
+Query  11   IKAKGIFELVKALSEVAQVYVCAPHVERSAAGHSITVREGLEAKEVPYENAELALEINGT  70
+            I+  G+ ++ ++L E+A        +     G   TV E  E   +P E   +A+E + T
+Sbjct  93   IRDDGMIKVSRSLKELANKARITKEIMSKELGREPTVGEISEQLGIPVEEVVMAMEASCT  152
+
+Query  71   P  71
+            P
+Sbjct  153  P  153
+
+
+>WP_003512910.1 peptidylprolyl isomerase [Acetivibrio thermocellus]
+ CDG37096.1 hypothetical protein CTHBC1_2506 [Acetivibrio thermocellus BC1]
+ ABN53832.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73315.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07233.1 hypothetical protein AD2_00222 [Acetivibrio thermocellus AD2]
+ ANV74969.1 PpiC-type peptidyl-prolyl cis-trans isomerase [Acetivibrio thermocellus
+DSM 2360]
+Length=364
+
+ Score = 25.4 bits (54),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 20/36 (56%), Gaps = 0/36 (0%)
+
+Query  52   EAKEVPYENAELALEINGTPADCVKLGVLLMKDRGI  87
+            +AK+  YENA+ ALE      D   L + L +D G+
+Sbjct  232  DAKKKAYENAKKALERANKGEDMEALALELSEDSGV  267
+
+
+>EIC04301.1 hypothetical protein YSBL_2178 [Acetivibrio thermocellus YS]
+Length=366
+
+ Score = 25.4 bits (54),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 20/36 (56%), Gaps = 0/36 (0%)
+
+Query  52   EAKEVPYENAELALEINGTPADCVKLGVLLMKDRGI  87
+            +AK+  YENA+ ALE      D   L + L +D G+
+Sbjct  234  DAKKKAYENAKKALERANKGEDMEALALELSEDSGV  269
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.136    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 20855
+Number of extensions: 920
+Number of successful extensions: 17
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 17
+Number of HSP's successfully gapped: 4
+Length of query: 254
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 167
+Effective length of database: 2134357
+Effective search space: 356437619
+Effective search space used: 356437619
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

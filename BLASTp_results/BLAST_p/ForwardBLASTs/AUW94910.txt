@@ -1,0 +1,183 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WCANPJU013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AUW94910 5'-nucleotidase [Sulfobacillus thermotolerans]
+
+Length=251
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermo...  25.8    6.7    25%
+WP_003516468.1 protein jag [Acetivibrio thermocellus]              25.4    8.2    29%
+WP_020457779.1 protein jag [Acetivibrio thermocellus]              25.4    8.3    29%
+NLU27171.1 protein jag [Acetivibrio thermocellus]                  25.4    8.3    29%
+WP_011838230.1 site-specific DNA-methyltransferase [Acetivibri...  25.4    8.7    33%
+ABN52922.1 Resolvase domain-containing protein [Acetivibrio th...  25.4    10.0   32%
+
+ALIGNMENTS
+>WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermocellus]
+ CDG35349.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+BC1]
+ ABN51891.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74630.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 1313]
+ ALX08573.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+AD2]
+ ANV76322.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 25.8 bits (55),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 38/96 (40%), Gaps = 22/96 (23%)
+
+Query  30   QTYVIAPEENHSGRAHSISFGDLH------VRRIASRGDQRWFTVKGTPVDCVRL-----  78
+            +TY + P  N S R H I++G +        R+IA   +       GTP+  + +
+Sbjct  259  KTYGMTPPNNLSKREHVITYGKVSNFIERLTRQIAKCFEFYLERCYGTPISKIFIIGGGS  318
+
+Query  79   ---GLSSYFDRS--------PLCVLSGINLGWNLGR  103
+               GL+ Y   +         L  L G+ L  NL +
+Sbjct  319  QLSGLNQYLFSTFNVPVYPVGLLNLKGVELKKNLDK  354
+
+
+>WP_003516468.1 protein jag [Acetivibrio thermocellus]
+ ADU76007.1 single-stranded nucleic acid binding R3H domain-containing protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX10042.1 single-stranded nucleic acid binding R3H domain-containing protein
+[Acetivibrio thermocellus AD2]
+ ANV77816.1 single-stranded nucleic acid binding R3H domain-containing protein
+[Acetivibrio thermocellus DSM 2360]
+ EIC04072.1 single-stranded nucleic acid binding R3H domain-containing protein
+[Acetivibrio thermocellus YS]
+ PFH04326.1 spoIIIJ-associated protein [Acetivibrio thermocellus AD2]
+Length=206
+
+ Score = 25.4 bits (54),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 24/45 (53%), Gaps = 4/45 (9%)
+
+Query  197  DRIEYEWVDEGPLRVPGILGDREAVAEGLISVTALHATQDDAAPF  241
+            D++E E ++EG   + G++G ++A     + VT    + D A  F
+Sbjct  28   DKVEVEVLEEGSKGIFGLIGSKQAK----VRVTLKETSGDRAKKF  68
+
+
+>WP_020457779.1 protein jag [Acetivibrio thermocellus]
+ ABN53568.1 single-stranded nucleic acid binding R3H domain-containing protein
+[Acetivibrio thermocellus ATCC 27405]
+ HBW27954.1 protein jag [Acetivibrio thermocellus]
+Length=206
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 24/45 (53%), Gaps = 4/45 (9%)
+
+Query  197  DRIEYEWVDEGPLRVPGILGDREAVAEGLISVTALHATQDDAAPF  241
+            D++E E ++EG   + G++G ++A     + VT    + D A  F
+Sbjct  28   DKVEVEVLEEGSKGIFGLIGSKQAK----VRVTLKETSGDRAKKF  68
+
+
+>NLU27171.1 protein jag [Acetivibrio thermocellus]
+ CDG36890.1 single-stranded nucleic acid binding R3H domain protein [Acetivibrio
+thermocellus BC1]
+Length=206
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/45 (29%), Positives = 24/45 (53%), Gaps = 4/45 (9%)
+
+Query  197  DRIEYEWVDEGPLRVPGILGDREAVAEGLISVTALHATQDDAAPF  241
+            D++E E ++EG   + G++G ++A     + VT    + D A  F
+Sbjct  28   DKVEVEVLEEGSKGIFGLIGSKQAK----VRVTLKETSGDRAKKF  68
+
+
+>WP_011838230.1 site-specific DNA-methyltransferase [Acetivibrio thermocellus]
+ ABN52950.1 DNA methylase N-4/N-6 domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26511.1 DNA modification methylase [Acetivibrio thermocellus]
+Length=411
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 22/43 (51%), Gaps = 3/43 (7%)
+
+Query  61  GDQRWFTVKG---TPVDCVRLGLSSYFDRSPLCVLSGINLGWN  100
+           G QRW  +K    T VDCV + +    +++    L+ I+  WN
+Sbjct  56  GHQRWKVLKSLGYTEVDCVVIDIDKTKEKALNVALNKISGEWN  98
+
+
+>ABN52922.1 Resolvase domain-containing protein [Acetivibrio thermocellus
+ATCC 27405]
+Length=429
+
+ Score = 25.4 bits (54),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 8/25 (32%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  22   EIATGARFQTYVIAPEENHSGRAHS  46
+            E+  G ++ TY    ++  SGRA++
+Sbjct  382  EVKDGKKYYTYTCKSKQKQSGRANT  406
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.134    0.421
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 15309
+Number of extensions: 581
+Number of successful extensions: 13
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 3
+Length of query: 251
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 164
+Effective length of database: 2134357
+Effective search space: 350034548
+Effective search space used: 350034548
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

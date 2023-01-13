@@ -1,0 +1,311 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V2T4DYV01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= QNU66160 dTMP kinase [Ruminiclostridium herbifermentans]
+
+Length=232
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       30.8    0.13   28%
+WP_003512900.1 UDP-N-acetylglucosamine 2-epimerase [Acetivibri...  28.1    1.2    41%
+CDG37104.1 UDP-N-acetylglucosamine 2-epimerase [Acetivibrio th...  28.1    1.2    41%
+WP_003515987.1 ABC transporter ATP-binding protein [Clostridia]    26.2    3.5    71%
+WP_003519292.1 excinuclease ABC subunit UvrA [Acetivibrio ther...  26.6    3.7    35%
+WP_003512505.1 excinuclease ABC subunit UvrA [Acetivibrio ther...  26.6    3.8    35%
+NLU27407.1 sugar ABC transporter ATP-binding protein [Acetivib...  26.2    4.4    36%
+WP_003514757.1 RNA polymerase sigma-I factor [Acetivibrio ther...  25.8    4.9    26%
+WP_003513925.1 zinc ribbon domain-containing protein [Acetivib...  24.6    4.9    33%
+ABN53159.1 regulatory protein, FmdB family [Acetivibrio thermo...  24.6    5.5    33%
+WP_003515378.1 ATP-binding cassette domain-containing protein ...  25.8    6.3    30%
+NLU28184.1 glycosyltransferase [Acetivibrio thermocellus]          25.4    6.7    32%
+WP_003512791.1 O-antigen ligase family protein [Acetivibrio th...  25.4    9.4    30%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 30.8 bits (68),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 45/106 (42%), Gaps = 17/106 (16%)
+
+Query  12   KGVLIAFE-GISGSGKSESITKIYNHLSKQNNV--QIVEWNSNEKIRSFIKVLCN-----  63
+            KG LI  E G   SGK+    K+Y  L ++     +I   N +    + +K+  N
+Sbjct  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+
+Query  64   -----YKVLTSTIYSILQWISFFIDYFTRILPALNKGNIVIADRYV  104
+                    + ST Y++ +    F  Y T    A N G I++ADRY
+Sbjct  62   DPNDVSPYVASTFYAVDR----FASYRTEWGQAYNDGWIILADRYT  103
+
+
+>WP_003512900.1 UDP-N-acetylglucosamine 2-epimerase [Acetivibrio thermocellus]
+ ABN53839.1 UDP-N-acetyl-D-glucosamine 2-epimerase, UDP-hydrolysing [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73323.1 UDP-N-acetyl-D-glucosamine 2-epimerase, UDP-hydrolysing [Acetivibrio
+thermocellus DSM 1313]
+ ALX07241.1 UDP-N-acetyl-D-glucosamine 2-epimerase, UDP-hydrolysing [Acetivibrio
+thermocellus AD2]
+ ANV74977.1 UDP-N-acetyl-D-glucosamine 2-epimerase, UDP-hydrolysing [Acetivibrio
+thermocellus DSM 2360]
+ EIC04293.1 UDP-N-acetyl-D-glucosamine 2-epimerase, UDP-hydrolysing [Acetivibrio
+thermocellus YS]
+Length=391
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  81   FIDYFTRILPALNKGNIVIADRYVYTALTRDIVNGAKVVPSKYL  124
+            F DYF RI P L    IV+ DRY   A++   VN  + +P  +L
+Sbjct  87   FADYFKRINPDL---LIVLGDRYETLAVSMAAVN--QRIPIAHL  125
+
+
+>CDG37104.1 UDP-N-acetylglucosamine 2-epimerase [Acetivibrio thermocellus
+BC1]
+Length=391
+
+ Score = 28.1 bits (61),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  81   FIDYFTRILPALNKGNIVIADRYVYTALTRDIVNGAKVVPSKYL  124
+            F DYF RI P L    IV+ DRY   A++   VN  + +P  +L
+Sbjct  87   FADYFKRINPDL---LIVLGDRYETLAVSMAAVN--QRIPIAHL  125
+
+
+>WP_003515987.1 MULTISPECIES: ABC transporter ATP-binding protein [Clostridia]
+ ADU75430.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09427.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77181.1 Phosphonate-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+ EIC04551.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+Length=225
+
+ Score = 26.2 bits (56),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  11  QKGVLIAFEGISGSGKS  27
+           +KG LIA  G SGSGKS
+Sbjct  30  EKGELIAIMGDSGSGKS  46
+
+
+>WP_003519292.1 excinuclease ABC subunit UvrA [Acetivibrio thermocellus]
+ ADU74967.1 excinuclease ABC, A subunit [Acetivibrio thermocellus DSM 1313]
+ ALX08928.1 UvrABC system protein A [Acetivibrio thermocellus AD2]
+ ANV76678.1 UvrABC system protein A [Acetivibrio thermocellus DSM 2360]
+ EIC05077.1 UvrABC system protein A [Acetivibrio thermocellus YS]
+ NIK05336.1 excinuclease ABC subunit A [Acetivibrio thermocellus]
+Length=942
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  13   GVLIAFEGISGSGKSESITKI-YNHLSKQNNVQIVEWNSNEKIRSF  57
+            GV     G+SGSGKS  I +I Y  L+ + N   V+   ++ I+
+Sbjct  634  GVFTCITGVSGSGKSSLINEILYKRLAAELNRASVKPGEHDLIKGI  679
+
+
+>WP_003512505.1 excinuclease ABC subunit UvrA [Acetivibrio thermocellus]
+ CDG34987.1 UvrABC system protein A [Acetivibrio thermocellus BC1]
+ ABN51549.1 excinuclease ABC, A subunit [Acetivibrio thermocellus ATCC 27405]
+ NLU26112.1 excinuclease ABC subunit UvrA [Acetivibrio thermocellus]
+ THJ77175.1 excinuclease ABC subunit UvrA [Acetivibrio thermocellus]
+ HBW26078.1 excinuclease ABC subunit UvrA [Acetivibrio thermocellus]
+Length=942
+
+ Score = 26.6 bits (57),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 24/46 (52%), Gaps = 1/46 (2%)
+
+Query  13   GVLIAFEGISGSGKSESITKI-YNHLSKQNNVQIVEWNSNEKIRSF  57
+            GV     G+SGSGKS  I +I Y  L+ + N   V+   ++ I+
+Sbjct  634  GVFTCITGVSGSGKSSLINEILYKRLAAELNRASVKPGEHDLIKGI  679
+
+
+>NLU27407.1 sugar ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=501
+
+ Score = 26.2 bits (56),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 10/28 (36%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  11   QKGVLIAFEGISGSGKSESITKIYNHLS  38
+            +KG ++ F G+ G+G+SE +  I  +L
+Sbjct  274  KKGEILGFAGLVGAGRSELMQAILGYLP  301
+
+
+>WP_003514757.1 RNA polymerase sigma-I factor [Acetivibrio thermocellus]
+ A3DJP3.1 RecName: Full=RNA polymerase sigma factor SigI8 [Acetivibrio
+thermocellus ATCC 27405]
+ CDG37463.1 putative RNA polymerase sigma factor SigI [Acetivibrio thermocellus
+BC1]
+ ABN54172.1 RNA polymerase, sigma 28 subunit, FliA/WhiG subfamily [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73610.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+DSM 1313]
+ ALX07537.1 RNA polymerase, alternative sigma subunit, sigma-I8, SigI8 [Acetivibrio
+thermocellus AD2]
+ ANV75277.1 RNA polymerase, sigma 28 subunit, SigI [Acetivibrio thermocellus
+DSM 2360]
+Length=254
+
+ Score = 25.8 bits (55),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 23/88 (26%), Positives = 42/88 (48%), Gaps = 11/88 (13%)
+
+Query  37   LSKQNNVQIVEWNSNEKIRSFIKVLCNYKVLTSTIYSILQWISFFIDYFTRILPALNKGN  96
+            L  +N+   +++ + E+I++    +C YK+   TI  +++      D    I+  LN  N
+Sbjct  136  LYDRNSDYSIDFEAREEIKNLELKICEYKM---TIEDLIECSPKHRD---TIILCLNVAN  189
+
+Query  97   IVIADRYVYTALTRDIVNGAKVVPSKYL  124
+            I+I D  +Y      + N  K +P K L
+Sbjct  190  IIIEDESLYQ-----MFNKRKTLPYKEL  212
+
+
+>WP_003513925.1 zinc ribbon domain-containing protein [Acetivibrio thermocellus]
+ CDG36459.1 hypothetical protein CTHBC1_1838 [Acetivibrio thermocellus BC1]
+ ADU75613.1 regulatory protein, FmdB family [Acetivibrio thermocellus DSM
+1313]
+ ALX09606.1 regulatory protein, FmdB family [Acetivibrio thermocellus AD2]
+ ANV77380.1 regulatory protein, FmdB family [Acetivibrio thermocellus DSM
+2360]
+ EIC04383.1 regulatory protein, FmdB family [Acetivibrio thermocellus YS]
+Length=71
+
+ Score = 24.6 bits (52),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 12/36 (33%), Positives = 14/36 (39%), Gaps = 0/36 (0%)
+
+Query  136  FYDTNCELCYERILTRGKALFHTNKYIKCSKLLKNK  171
+            FYD  C  C        K    T K IKC +   N+
+Sbjct  3    FYDLKCSKCGHEFNVMAKMSERTEKLIKCPECGSNE  38
+
+
+>ABN53159.1 regulatory protein, FmdB family [Acetivibrio thermocellus ATCC
+27405]
+Length=82
+
+ Score = 24.6 bits (52),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 16/39 (41%), Gaps = 0/39 (0%)
+
+Query  133  ILFFYDTNCELCYERILTRGKALFHTNKYIKCSKLLKNK  171
+            I+ FYD  C  C        K    T K IKC +   N+
+Sbjct  11   IMPFYDLKCSKCGHEFNVMAKMSERTEKLIKCPECGSNE  49
+
+
+>WP_003515378.1 ATP-binding cassette domain-containing protein [Acetivibrio thermocellus]
+ CDG37172.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN53905.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73388.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07310.1 Sulfate-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75048.1 Sulfate-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=369
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 13/44 (30%), Positives = 27/44 (61%), Gaps = 1/44 (2%)
+
+Query  11  QKGVLIAFEGISGSGKSESITKIYNHL-SKQNNVQIVEWNSNEK  53
+           +KG ++ F G +G+GKS ++  I  +L S +  V++  ++  E+
+Sbjct  25  EKGEIVGFLGPNGAGKSTTMNIITGYLPSTEGTVKVAGYDIAEQ  68
+
+
+>NLU28184.1 glycosyltransferase [Acetivibrio thermocellus]
+Length=270
+
+ Score = 25.4 bits (54),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 20/44 (45%), Gaps = 0/44 (0%)
+
+Query  140  NCELCYERILTRGKALFHTNKYIKCSKLLKNKNLYYLKKLRGEY  183
+            N E   E ++  G  LF T  Y   +K  KN   +Y+    G+Y
+Sbjct  149  NKEYTVEEVIIGGGGLFPTCSYFSRAKYSKNMPEFYINAPVGDY  192
+
+
+>WP_003512791.1 O-antigen ligase family protein [Acetivibrio thermocellus]
+ CDG37160.1 O-antigen polymerase [Acetivibrio thermocellus BC1]
+ ABN53893.1 O-antigen polymerase [Acetivibrio thermocellus ATCC 27405]
+ ADU73376.1 O-antigen polymerase [Acetivibrio thermocellus DSM 1313]
+ ALX07298.1 O-antigen polymerase [Acetivibrio thermocellus AD2]
+ ANV75036.1 O-antigen polymerase [Acetivibrio thermocellus DSM 2360]
+Length=532
+
+ Score = 25.4 bits (54),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 43/99 (43%), Gaps = 24/99 (24%)
+
+Query  65   KVLTSTIYSILQWISFFIDYFTRILPALNKGNIVIADRYVYTALTRDIVNGAKVVPSKYL  124
+            K++T  +Y+     S  I +FTR      KG +    R+   +L   I+NG   VPSK L
+Sbjct  55   KLITEMLYN-----SAIIGFFTR------KGKM---SRWWEHSLAYRIINGCFEVPSKIL  100
+
+Query  125  CSLVRKPDILFFYDTNCELCYERILTR-GKALFHTNKYI  162
+                       FY  + E+  E I  +  KAL    +YI
+Sbjct  101  KG---------FYQKHEEIFLESIAVKAAKALLQRIEYI  130
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.322    0.138    0.400
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 21905
+Number of extensions: 1033
+Number of successful extensions: 27
+Number of sequences better than 100: 10
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 27
+Number of HSP's successfully gapped: 12
+Length of query: 232
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 146
+Effective length of database: 2157177
+Effective search space: 314947842
+Effective search space used: 314947842
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

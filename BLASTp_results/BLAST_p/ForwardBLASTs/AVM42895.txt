@@ -1,0 +1,259 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V2MRHD601N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= AVM42895 dTMP kinase [Fastidiosipila sanguinis]
+
+Length=218
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       30.4    0.15   22%
+WP_003515572.1 endolytic transglycosylase MltG [Acetivibrio th...  26.9    2.5    27%
+WP_003514317.1 excinuclease ABC subunit UvrC [Acetivibrio ther...  26.2    5.1    28%
+WP_011838179.1 Hsp33 family molecular chaperone HslO [Acetivib...  25.8    5.5    35%
+WP_136479658.1 MutS family DNA mismatch repair protein [Acetiv...  25.8    5.6    33%
+WP_003516657.1 pyrroline-5-carboxylate reductase [Acetivibrio ...  25.8    5.9    28%
+CDG34924.1 DNA mismatch repair protein MutS-like protein [Acet...  25.8    6.0    33%
+NLU27938.1 DNA mismatch repair protein MutS [Acetivibrio therm...  25.8    6.0    33%
+WP_003519014.1 MutS family DNA mismatch repair protein [Acetiv...  25.8    6.2    33%
+NIK04346.1 guanylate kinase [Acetivibrio thermocellus]             24.6    10.0   32%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 30.4 bits (67),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 33/148 (22%), Positives = 56/148 (38%), Gaps = 10/148 (7%)
+
+Query  1    MKKGLFITIEGGDGVGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIREILLD----  56
+            MK  L I   G D  GK TQ   + E L+ +      +  P       A+ ++ L+
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  57   KDNLNMTAEAELLLFNAGRAQLVEELVKPTIAKGTWVISDRFYDSSIAYQVGGRGLNERQ  116
+            KD  +++       +   R              G  +++DR+  S++ +Q       E +
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  117  AREI-----IEFACQGLE-PDVTIYLDL  138
+             R +      EF    L  PD  I+LD+
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDM  148
+
+
+>WP_003515572.1 endolytic transglycosylase MltG [Acetivibrio thermocellus]
+ CDG35702.1 aminodeoxychorismate lyase [Acetivibrio thermocellus BC1]
+ ABN52240.1 aminodeoxychorismate lyase [Acetivibrio thermocellus ATCC 27405]
+ ADU74271.1 aminodeoxychorismate lyase [Acetivibrio thermocellus DSM 1313]
+ ALX08213.1 aminodeoxychorismate lyase [Acetivibrio thermocellus AD2]
+ ANV75961.1 aminodeoxychorismate lyase [Acetivibrio thermocellus DSM 2360]
+Length=373
+
+ Score = 26.9 bits (58),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 21/77 (27%), Positives = 40/77 (52%), Gaps = 8/77 (10%)
+
+Query  136  LDLSVDEAIKRREKREIETNTSEDRMELESTNFARRVRDKYLEIAASEPRVKTVDAGGSI  195
+            L+++VDE I      E ET   E+R  + S+ F  R++       +S+P +K +++  ++
+Sbjct  233  LNMTVDEVIILASIIERETALPEER-PIVSSVFHNRLK-------SSDPNLKKLESCATV  284
+
+Query  196  QEVSSKIKEILDELIKD  212
+            Q V  K +  + E + D
+Sbjct  285  QYVLYKTQGKMKEKLSD  301
+
+
+>WP_003514317.1 excinuclease ABC subunit UvrC [Acetivibrio thermocellus]
+ A3DJ07.1 RecName: Full=UvrABC system protein C; Short=Protein UvrC; AltName:
+Full=Excinuclease ABC subunit C [Acetivibrio thermocellus
+ATCC 27405]
+ CDG37201.1 UvrABC system protein C [Acetivibrio thermocellus BC1]
+ ABN53936.1 excinuclease ABC, C subunit [Acetivibrio thermocellus ATCC 27405]
+ ADU73417.1 excinuclease ABC, C subunit [Acetivibrio thermocellus DSM 1313]
+ ALX07339.1 UvrABC system protein C [Acetivibrio thermocellus AD2]
+ ANV75077.1 UvrABC system protein C [Acetivibrio thermocellus DSM 2360]
+Length=625
+
+ Score = 26.2 bits (56),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 45/106 (42%), Gaps = 17/106 (16%)
+
+Query  124  ACQG---------LEPDVTIYLDLSVDEAIKRREKREIETNTSEDRMELESTNFARRVRD  174
+             CQG         +  DV  +L    ++ IK+ EK   +   + D +E E    A R+RD
+Sbjct  178  PCQGNVSKEEYRFMMQDVCNFLGGRQEDIIKKLEK---DMKEAADNLEFER---AARIRD  231
+
+Query  175  KYLEIAASEPRVKTVDAGGSIQEVSSKIKEILDELIKDF--RGGKL  218
+            K   +     + K +      Q+V +  K   D  I+ F  RGGKL
+Sbjct  232  KINSLKHIAEKQKIISTAMEDQDVIAFAKSETDSCIQVFFIRGGKL  277
+
+
+>WP_011838179.1 Hsp33 family molecular chaperone HslO [Acetivibrio thermocellus]
+ ABN52888.1 Hsp33 protein [Acetivibrio thermocellus ATCC 27405]
+ THJ77584.1 Hsp33 family molecular chaperone HslO [Acetivibrio thermocellus]
+Length=280
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 12/34 (35%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  59   NLNMTAEAELLLFNAGRAQLVEELVKPTIAKGTW  92
+            N+N    + L  FN   A LV E    +I +G+W
+Sbjct  86   NVNCIFSSRLASFNGDFADLVGEGTSLSITRGSW  119
+
+
+>WP_136479658.1 MutS family DNA mismatch repair protein [Acetivibrio thermocellus]
+ THJ76793.1 DNA mismatch repair protein MutS [Acetivibrio thermocellus]
+Length=601
+
+ Score = 25.8 bits (55),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  9    IEGGDGVGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIR  51
+            +E  D +GKG  V+ +  + L  NI  +   E   ++ G+AIR
+Sbjct  319  VEATD-IGKGYIVEILLNFFLFWNIHCVFALERWKAKAGKAIR  360
+
+
+>WP_003516657.1 pyrroline-5-carboxylate reductase [Acetivibrio thermocellus]
+ CDG35366.1 Pyrroline-5-carboxylate reductase [Acetivibrio thermocellus BC1]
+ ABN51907.1 pyrroline-5-carboxylate reductase [Acetivibrio thermocellus ATCC
+27405]
+ ADU74613.1 pyrroline-5-carboxylate reductase [Acetivibrio thermocellus DSM
+1313]
+ ALX08557.1 pyrroline-5-carboxylate reductase [Acetivibrio thermocellus AD2]
+ ANV76306.1 pyrroline-5-carboxylate reductase [Acetivibrio thermocellus DSM
+2360]
+Length=271
+
+ Score = 25.8 bits (55),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 19/68 (28%), Positives = 33/68 (49%), Gaps = 2/68 (3%)
+
+Query  15   VGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIREILLDKDNLNMTAEAELLLFNA-  73
+            V  G  +KF +E +L +NI +I       + +GE +  +  DK+     AE    +F
+Sbjct  96   VAVGIPIKFYKE-MLGENIKFIRTMPNTPALVGEGMTLMCCDKNVDEKEAEQVKKIFECF  154
+
+Query  74   GRAQLVEE  81
+            G+ + +EE
+Sbjct  155  GKVEFLEE  162
+
+
+>CDG34924.1 DNA mismatch repair protein MutS-like protein [Acetivibrio thermocellus
+BC1]
+Length=601
+
+ Score = 25.8 bits (55),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  9    IEGGDGVGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIR  51
+            +E  D +GKG  V+ +  + L  NI  +   E   ++ G+AIR
+Sbjct  319  VEATD-IGKGYIVEILLNFFLFWNIHCVFALERWKAKAGKAIR  360
+
+
+>NLU27938.1 DNA mismatch repair protein MutS [Acetivibrio thermocellus]
+Length=601
+
+ Score = 25.8 bits (55),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  9    IEGGDGVGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIR  51
+            +E  D +GKG  V+ +  + L  NI  +   E   ++ G+AIR
+Sbjct  319  VEATD-IGKGYIVEILLNFFLFWNIHCVFALERWKAKAGKAIR  360
+
+
+>WP_003519014.1 MutS family DNA mismatch repair protein [Acetivibrio thermocellus]
+ ABN51486.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75029.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08997.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus AD2]
+ ANV76747.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC05005.1 DNA mismatch repair protein MutS domain protein [Acetivibrio
+thermocellus YS]
+Length=601
+
+ Score = 25.8 bits (55),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 23/43 (53%), Gaps = 1/43 (2%)
+
+Query  9    IEGGDGVGKGTQVKFIQEYLLSQNIDYISLREPGGSRIGEAIR  51
+            +E  D +GKG  V+ +  + L  NI  +   E   ++ G+AIR
+Sbjct  319  VEATD-IGKGYIVEILLNFFLFWNIHCVFALERWKAKAGKAIR  360
+
+
+>NIK04346.1 guanylate kinase [Acetivibrio thermocellus]
+Length=204
+
+ Score = 24.6 bits (52),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 8/25 (32%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  2   KKGLFITIEGGDGVGKGTQVKFIQE  26
+           ++GL + + G  G GKGT +  +++
+Sbjct  4   REGLLVVVSGPSGAGKGTLLNLLKD  28
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.316    0.136    0.371
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 9612
+Number of extensions: 400
+Number of successful extensions: 12
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 3
+Length of query: 218
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 133
+Effective length of database: 2165339
+Effective search space: 287990087
+Effective search space used: 287990087
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

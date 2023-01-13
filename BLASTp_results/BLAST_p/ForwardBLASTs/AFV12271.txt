@@ -1,0 +1,415 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WRE4HMH013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AFV12271 5'-nucleotidase [Thermacetogenium phaeum]
+
+Length=158
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518481.1 V-type ATP synthase subunit I [Acetivibrio ther...  30.4    0.12   30%
+WP_003517565.1 hypothetical protein [Acetivibrio thermocellus]     28.5    0.38   36%
+ADU74763.1 hypothetical protein Clo1313_1706 [Acetivibrio ther...  28.5    0.39   36%
+CDG35224.1 hypothetical protein CTHBC1_0559 [Acetivibrio therm...  28.1    0.61   36%
+WP_011837863.1 hypothetical protein [Acetivibrio thermocellus]     28.1    0.61   36%
+ABN52805.1 ABC transporter related protein [Acetivibrio thermo...  26.9    1.3    29%
+NLU27088.1 sugar ABC transporter permease [Acetivibrio thermoc...  26.9    1.3    28%
+WP_003517948.1 flagellar M-ring protein FliF [Acetivibrio ther...  26.6    1.8    31%
+WP_011837837.1 flagellar M-ring protein FliF [Acetivibrio ther...  26.6    1.8    31%
+NLU27049.1 flagellar M-ring protein FliF [Acetivibrio thermoce...  26.6    1.8    31%
+WP_136479718.1 hypothetical protein [Acetivibrio thermocellus]     25.8    3.1    27%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      25.8    3.4    33%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      25.8    3.6    33%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      25.8    3.6    33%
+NLU26942.1 hypothetical protein [Acetivibrio thermocellus]         25.4    4.7    44%
+WP_020457987.1 hypothetical protein [Acetivibrio thermocellus]     25.4    4.7    44%
+WP_003520472.1 hypothetical protein [Acetivibrio thermocellus]     25.4    4.7    44%
+CDG37481.1 hypothetical protein CTHBC1_2909 [Acetivibrio therm...  25.4    4.8    44%
+WP_049756153.1 ABC transporter ATP-binding protein [Acetivibri...  25.4    4.8    34%
+EIC05359.1 hypothetical protein YSBL_1036 [Acetivibrio thermoc...  24.3    7.8    60%
+WP_235715154.1 DUF4365 domain-containing protein [Acetivibrio ...  24.3    8.1    60%
+
+ALIGNMENTS
+>WP_003518481.1 V-type ATP synthase subunit I [Acetivibrio thermocellus]
+ CDG36776.1 V-type ATPase, 116 kDa subunit [Acetivibrio thermocellus BC1]
+ ABN53464.1 V-type ATPase 116 kDa subunit [Acetivibrio thermocellus ATCC
+27405]
+ ADU75915.1 V-type ATPase 116 kDa subunit [Acetivibrio thermocellus DSM 1313]
+ ALX09947.1 V-type ATPase containing protein [Acetivibrio thermocellus AD2]
+ ANV77721.1 V-type ATPase subunit-containing protein [Acetivibrio thermocellus
+DSM 2360]
+Length=651
+
+ Score = 30.4 bits (67),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 16/53 (30%), Positives = 34/53 (64%), Gaps = 7/53 (13%)
+
+Query  9   KIGILGLTIKEVGEAQGQRELKDLPQYKGALELTDIVQEVNSKKWPEVMRYNG  61
+           KI ++GL      E++ +R L++L +  G +E+TD  ++++S +W E++  +G
+Sbjct  8   KISLIGL------ESEKERILENLMKL-GVVEITDAKEKISSDEWKELVNIDG  53
+
+
+>WP_003517565.1 hypothetical protein [Acetivibrio thermocellus]
+ ALX08714.1 hypothetical protein AD2_01724 [Acetivibrio thermocellus AD2]
+ ANV76466.1 hypothetical protein LQRI_1725 [Acetivibrio thermocellus DSM
+2360]
+ EIC05356.1 hypothetical protein YSBL_1033 [Acetivibrio thermocellus YS]
+ NLU25950.1 hypothetical protein [Acetivibrio thermocellus]
+ PFH02987.1 hypothetical protein M972_111781 [Acetivibrio thermocellus AD2]
+Length=207
+
+ Score = 28.5 bits (62),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  36   KGALELTDIVQEVNSKKWPEVMRYNGADIVIAVVHAGEE  74
+            KGA  LTD+   +N   W EV+  +  D+   V H  +E
+Sbjct  72   KGATTLTDLFARINPYIWAEVIDEDSPDVEEYVEHLQDE  110
+
+
+>ADU74763.1 hypothetical protein Clo1313_1706 [Acetivibrio thermocellus DSM
+1313]
+ SOD24731.1 hypothetical protein SAMN04515622_1819 [Acetivibrio thermocellus]
+Length=256
+
+ Score = 28.5 bits (62),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  36   KGALELTDIVQEVNSKKWPEVMRYNGADIVIAVVHAGEE  74
+            KGA  LTD+   +N   W EV+  +  D+   V H  +E
+Sbjct  121  KGATTLTDLFARINPYIWAEVIDEDSPDVEEYVEHLQDE  159
+
+
+>CDG35224.1 hypothetical protein CTHBC1_0559 [Acetivibrio thermocellus BC1]
+Length=762
+
+ Score = 28.1 bits (61),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  36   KGALELTDIVQEVNSKKWPEVMRYNGADIVIAVVHAGEE  74
+            KGA  LTD+   +N   W EV+  +  D+   V H  +E
+Sbjct  627  KGATTLTDLFARINPYIWAEVIDEDSPDVEEYVEHLQDE  665
+
+
+>WP_011837863.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN51767.1 hypothetical protein Cthe_0531 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26931.1 hypothetical protein [Acetivibrio thermocellus]
+Length=762
+
+ Score = 28.1 bits (61),  Expect = 0.61, Method: Composition-based stats.
+ Identities = 14/39 (36%), Positives = 20/39 (51%), Gaps = 0/39 (0%)
+
+Query  36   KGALELTDIVQEVNSKKWPEVMRYNGADIVIAVVHAGEE  74
+            KGA  LTD+   +N   W EV+  +  D+   V H  +E
+Sbjct  627  KGATTLTDLFARINPYIWAEVIDEDSPDVEEYVEHLQDE  665
+
+
+>ABN52805.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75367.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09361.1 Monosaccharide-transporting ATPase [Acetivibrio thermocellus
+AD2]
+ ANV77115.1 Monosaccharide-transporting ATPase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04688.1 ABC transporter related protein [Acetivibrio thermocellus YS]
+ THJ77655.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=520
+
+ Score = 26.9 bits (58),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 22/77 (29%), Positives = 35/77 (45%), Gaps = 9/77 (12%)
+
+Query  38   ALELTDIVQEVNSKKWPEVMRYNGADIVI--AVVHA--GEESAKSKNPCNRIKALAKSTD  93
+            A+++TDIV     KK+   +  +  ++ +    VHA  GE  A      N +  L K T
+Sbjct  13   AVQMTDIV-----KKFGNFVANDHINLTVYKGEVHAILGENGAGKSTLMNILYGLYKPTS  67
+
+Query  94   GIDAIVAAHTHVNIPEH  110
+            G  +I  +  H+  P H
+Sbjct  68   GSISIFGSPVHIESPRH  84
+
+
+>NLU27088.1 sugar ABC transporter permease [Acetivibrio thermocellus]
+Length=300
+
+ Score = 26.9 bits (58),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 0/54 (0%)
+
+Query  68   VVHAGEESAKSKNPCNRIKALAKSTDGIDAIVAAHTHVNIPEHKYKNRSGQTVI  121
+            V++    S    NP N +       + + A++ A+  V IP +     SG TVI
+Sbjct  138  VINFLLSSIGLMNPNNPVGWFVGEKEALWAVIIANCWVGIPFNMLLLTSGLTVI  191
+
+
+>WP_003517948.1 flagellar M-ring protein FliF [Acetivibrio thermocellus]
+ CDG35179.1 flagellar M-ring protein FliF [Acetivibrio thermocellus BC1]
+ ADU74812.1 flagellar M-ring protein FliF [Acetivibrio thermocellus DSM 1313]
+ ALX08765.1 secretory protein YscJ/FliF family protein [Acetivibrio thermocellus
+AD2]
+ ANV76516.1 secretory protein YscJ/FliF family protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC05273.1 flagellar M-ring protein FliF [Acetivibrio thermocellus YS]
+Length=517
+
+ Score = 26.6 bits (57),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 36/86 (42%), Gaps = 23/86 (27%)
+
+Query  93   DGIDAIVAAHTHVNIPEHKYKNRSGQTVIV-----------------TQPGRYGE---YV  132
+            D I AI  A    NI   KYK+  G+ ++V                 T+PG   E    +
+Sbjct  60   DSISAIEEALKERNI---KYKHGEGRRILVDSKDKNEAEFALASAGLTEPGMTFEDAWSL  116
+
+Query  133  SKISFSLVKKKDRWEVVDKNSLTHKI  158
+             K+S S   KK  W+   KNSL  K+
+Sbjct  117  LKVSSSESDKKQLWQNFKKNSLIAKL  142
+
+
+>WP_011837837.1 flagellar M-ring protein FliF [Acetivibrio thermocellus]
+ ABN51703.1 flagellar M-ring protein FliF [Acetivibrio thermocellus ATCC
+27405]
+ HBW27015.1 flagellar M-ring protein FliF [Acetivibrio thermocellus]
+Length=517
+
+ Score = 26.6 bits (57),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 36/86 (42%), Gaps = 23/86 (27%)
+
+Query  93   DGIDAIVAAHTHVNIPEHKYKNRSGQTVIV-----------------TQPGRYGE---YV  132
+            D I AI  A    NI   KYK+  G+ ++V                 T+PG   E    +
+Sbjct  60   DSISAIEEALKERNI---KYKHGEGRRILVDSKDKNEAEFALASAGLTEPGMTFEDAWSL  116
+
+Query  133  SKISFSLVKKKDRWEVVDKNSLTHKI  158
+             K+S S   KK  W+   KNSL  K+
+Sbjct  117  LKVSSSESDKKQLWQNFKKNSLIAKL  142
+
+
+>NLU27049.1 flagellar M-ring protein FliF [Acetivibrio thermocellus]
+Length=517
+
+ Score = 26.6 bits (57),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 36/86 (42%), Gaps = 23/86 (27%)
+
+Query  93   DGIDAIVAAHTHVNIPEHKYKNRSGQTVIV-----------------TQPGRYGE---YV  132
+            D I AI  A    NI   KYK+  G+ ++V                 T+PG   E    +
+Sbjct  60   DSISAIEEALKERNI---KYKHGEGRRILVDSKDKNEAEFALASAGLTEPGMTFEDAWSL  116
+
+Query  133  SKISFSLVKKKDRWEVVDKNSLTHKI  158
+             K+S S   KK  W+   KNSL  K+
+Sbjct  117  LKVSSSESDKKQLWQNFKKNSLIAKL  142
+
+
+>WP_136479718.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76537.1 hypothetical protein EPD62_16100 [Acetivibrio thermocellus]
+Length=379
+
+ Score = 25.8 bits (55),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 49/109 (45%), Gaps = 10/109 (9%)
+
+Query  12   ILGLTIKEVGEAQGQRELKDLPQYKGALELTDIVQEVNSKKWPEVMRYN--GADIVIAVV  69
+            I+ + +KE   + G+ +LK        LE+ D +     K   E   Y     DI+I +V
+Sbjct  59   IINVALKEGQASFGESDLKQTDLNIVGLEIDDSI--FLRKTAIEFFHYARISMDILIQIV  116
+
+Query  70   HA---GEESAKSKNPC---NRIKALAKSTDGIDAIVAAHTHVNIPEHKY  112
+            +A   G++S    + C   N +K L K     D +   +T+ + P +KY
+Sbjct  117  NAALLGDKSYPISDKCLLNNVLKELKKKAVFADLLKILNTNKDNPNYKY  165
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 25.8 bits (55),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 21/42 (50%), Gaps = 0/42 (0%)
+
+Query  63   DIVIAVVHAGEESAKSKNPCNRIKALAKSTDGIDAIVAAHTH  104
+            DI+I  +H G E +    P  R  A +   +G+D I+  H H
+Sbjct  271  DILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 21/42 (50%), Gaps = 0/42 (0%)
+
+Query  63   DIVIAVVHAGEESAKSKNPCNRIKALAKSTDGIDAIVAAHTH  104
+            DI+I  +H G E +    P  R  A +   +G+D I+  H H
+Sbjct  271  DILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 25.8 bits (55),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 21/42 (50%), Gaps = 0/42 (0%)
+
+Query  63   DIVIAVVHAGEESAKSKNPCNRIKALAKSTDGIDAIVAAHTH  104
+            DI+I  +H G E +    P  R  A +   +G+D I+  H H
+Sbjct  271  DILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPH  312
+
+
+>NLU26942.1 hypothetical protein [Acetivibrio thermocellus]
+ HBW27778.1 hypothetical protein [Acetivibrio thermocellus]
+Length=696
+
+ Score = 25.4 bits (54),  Expect = 4.7, Method: Composition-based stats.
+ Identities = 7/16 (44%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  135  ISFSLVKKKDRWEVVD  150
+            ++F+L KK D+W++ D
+Sbjct  329  MTFTLTKKSDKWQITD  344
+
+
+>WP_020457987.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN54190.1 hypothetical protein Cthe_2994 [Acetivibrio thermocellus ATCC
+27405]
+Length=674
+
+ Score = 25.4 bits (54),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  135  ISFSLVKKKDRWEVVD  150
+            ++F+L KK D+W++ D
+Sbjct  307  MTFTLTKKSDKWQITD  322
+
+
+>WP_003520472.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73629.1 hypothetical protein Clo1313_0545 [Acetivibrio thermocellus DSM
+1313]
+ ALX07557.1 hypothetical protein AD2_00553 [Acetivibrio thermocellus AD2]
+ ANV75297.1 hypothetical protein LQRI_0552 [Acetivibrio thermocellus DSM
+2360]
+ EIC03522.1 hypothetical protein YSBL_2837 [Acetivibrio thermocellus YS]
+ PFH01823.1 hypothetical protein M972_11567 [Acetivibrio thermocellus AD2]
+Length=674
+
+ Score = 25.4 bits (54),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  135  ISFSLVKKKDRWEVVD  150
+            ++F+L KK D+W++ D
+Sbjct  307  MTFTLTKKSDKWQITD  322
+
+
+>CDG37481.1 hypothetical protein CTHBC1_2909 [Acetivibrio thermocellus BC1]
+Length=674
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 7/16 (44%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  135  ISFSLVKKKDRWEVVD  150
+            ++F+L KK D+W++ D
+Sbjct  307  MTFTLTKKSDKWQITD  322
+
+
+>WP_049756153.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=505
+
+ Score = 25.4 bits (54),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 19/44 (43%), Gaps = 2/44 (5%)
+
+Query  69   VHA--GEESAKSKNPCNRIKALAKSTDGIDAIVAAHTHVNIPEH  110
+            VHA  GE  A      N +  L K T G  +I  +  H+  P H
+Sbjct  26   VHAILGENGAGKSTLMNILYGLYKPTSGSISIFGSPVHIESPRH  69
+
+
+>EIC05359.1 hypothetical protein YSBL_1036, partial [Acetivibrio thermocellus
+YS]
+Length=164
+
+ Score = 24.3 bits (51),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  124  QPGRYGEYVSKISFS  138
+            Q GRY EY SK+ F+
+Sbjct  23   QLGRYAEYYSKMEFA  37
+
+
+>WP_235715154.1 DUF4365 domain-containing protein [Acetivibrio thermocellus]
+Length=154
+
+ Score = 24.3 bits (51),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 11/15 (73%), Gaps = 0/15 (0%)
+
+Query  124  QPGRYGEYVSKISFS  138
+            Q GRY EY SK+ F+
+Sbjct  13   QLGRYAEYYSKMEFA  27
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.313    0.131    0.370
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 10435
+Number of extensions: 422
+Number of successful extensions: 11
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 1
+Length of query: 158
+Length of database: 2835838
+Length adjustment: 81
+Effective length of query: 77
+Effective length of database: 2182735
+Effective search space: 168070595
+Effective search space used: 168070595
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 32 (16.9 bits)
+S2: 42 (20.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

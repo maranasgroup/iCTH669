@@ -1,0 +1,376 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WNB5UAY016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QBF74135 5'-nucleotidase [Clostridium scindens]
+
+Length=266
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516448.1 formate--tetrahydrofolate ligase [Acetivibrio t...  28.5    1.1    34%
+CDG36922.1 Formate-tetrahydrofolate ligase [Acetivibrio thermo...  28.5    1.1    34%
+NLU28045.1 formate--tetrahydrofolate ligase [Acetivibrio therm...  28.5    1.1    34%
+NLU26489.1 AAA family ATPase [Acetivibrio thermocellus]            28.5    1.1    35%
+WP_003513246.1 AAA family ATPase [Acetivibrio thermocellus]        28.5    1.1    35%
+WP_003516259.1 chorismate synthase [Acetivibrio thermocellus]      28.1    1.5    32%
+WP_136479406.1 chorismate synthase [Acetivibrio thermocellus]      28.1    1.5    32%
+WP_136479125.1 AAA family ATPase [Acetivibrio thermocellus]        28.1    1.7    35%
+CDG37490.1 hydrogenase, Fe-only [Acetivibrio thermocellus BC1]     26.2    6.0    26%
+WP_003516923.1 NAD(P)-binding protein [Acetivibrio thermocellus]   26.2    6.4    26%
+WP_136479276.1 NAD(P)-binding protein [Acetivibrio thermocellus]   26.2    6.4    26%
+NLU26731.1 FAD-dependent oxidoreductase [Acetivibrio thermocel...  26.2    6.5    26%
+WP_003512022.1 aspartate--ammonia ligase [Acetivibrio thermoce...  25.8    7.2    28%
+ABN54199.1 hydrogenase, Fe-only [Acetivibrio thermocellus ATCC...  25.8    7.4    26%
+WP_003512596.1 class II fructose-1,6-bisphosphate aldolase [Ac...  25.4    8.5    46%
+WP_003512991.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]   25.4    9.8    50%
+CAE51307.1 beta-1,4-xylanase [Acetivibrio thermocellus]            25.4    9.9    50%
+
+ALIGNMENTS
+>WP_003516448.1 formate--tetrahydrofolate ligase [Acetivibrio thermocellus]
+ A3DI22.1 RecName: Full=Formate--tetrahydrofolate ligase; AltName: Full=Formyltetrahydrofolate
+synthetase; Short=FHS; Short=FTHFS [Acetivibrio
+thermocellus ATCC 27405]
+ ABN53601.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus ATCC
+27405]
+ ADU73130.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus DSM
+1313]
+ ALX07041.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus AD2]
+ ANV74777.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus DSM
+2360]
+ EIC04039.1 Formate--tetrahydrofolate ligase [Acetivibrio thermocellus YS]
+Length=556
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 20/41 (49%), Gaps = 5/41 (12%)
+
+Query  73   VHGSPALAVAHGV-----LELAERKPDLCISGVNYGENMGA  108
+            VHG P   +AHG        L  +  D CI+   +G ++GA
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLGA  307
+
+
+>CDG36922.1 Formate-tetrahydrofolate ligase [Acetivibrio thermocellus BC1]
+Length=556
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 20/41 (49%), Gaps = 5/41 (12%)
+
+Query  73   VHGSPALAVAHGV-----LELAERKPDLCISGVNYGENMGA  108
+            VHG P   +AHG        L  +  D CI+   +G ++GA
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLGA  307
+
+
+>NLU28045.1 formate--tetrahydrofolate ligase [Acetivibrio thermocellus]
+Length=556
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 14/41 (34%), Positives = 20/41 (49%), Gaps = 5/41 (12%)
+
+Query  73   VHGSPALAVAHGV-----LELAERKPDLCISGVNYGENMGA  108
+            VHG P   +AHG        L  +  D CI+   +G ++GA
+Sbjct  267  VHGGPFANIAHGCNSIVATRLGLKLADYCITEAGFGADLGA  307
+
+
+>NLU26489.1 AAA family ATPase [Acetivibrio thermocellus]
+Length=883
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 30/49 (61%), Gaps = 3/49 (6%)
+
+Query  199  QNYFEFIRPKARNLKEPFALK-SRLSVDMDTLERDSDIHAVYVDRITSV  246
+            +N  EFI  K + L E   L+ + L+  MD LER+ D + +Y+++I ++
+Sbjct  493  ENEGEFI--KKKTLYENKVLRLAELNGSMDELEREMDENRIYIEKIKTL  539
+
+
+>WP_003513246.1 AAA family ATPase [Acetivibrio thermocellus]
+ CDG36935.1 SMC protein-like protein [Acetivibrio thermocellus BC1]
+ ABN53614.1 SMC domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73143.1 SMC domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX07054.1 hypothetical protein AD2_00043 [Acetivibrio thermocellus AD2]
+ ANV74790.1 SMC domain-containing protein [Acetivibrio thermocellus DSM 2360]
+Length=883
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 30/49 (61%), Gaps = 3/49 (6%)
+
+Query  199  QNYFEFIRPKARNLKEPFALK-SRLSVDMDTLERDSDIHAVYVDRITSV  246
+            +N  EFI  K + L E   L+ + L+  MD LER+ D + +Y+++I ++
+Sbjct  493  ENEGEFI--KKKTLYENKVLRLAELNGSMDELEREMDENRIYIEKIKTL  539
+
+
+>WP_003516259.1 chorismate synthase [Acetivibrio thermocellus]
+ A3DDD8.1 RecName: Full=Chorismate synthase; Short=CS; AltName: Full=5-enolpyruvylshikimate-3-phosphate
+phospholyase [Acetivibrio thermocellus
+ATCC 27405]
+ CDG35425.1 Chorismate synthase [Acetivibrio thermocellus BC1]
+ ABN51967.1 chorismate synthase [Acetivibrio thermocellus ATCC 27405]
+ ADU74553.1 chorismate synthase [Acetivibrio thermocellus DSM 1313]
+ ALX08497.1 Chorismate synthase [Acetivibrio thermocellus AD2]
+ ANV76246.1 Chorismate synthase [Acetivibrio thermocellus DSM 2360]
+Length=394
+
+ Score = 28.1 bits (61),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 23/73 (32%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  119  AFEAVSHGIPTIA-ISLEAELAIQRSNDFRQTDWDAAKRMLHSWISRVLDRG--MPEYVD  175
+            AF    HGI     I+ E   A  R N+    D + AK M+   + R+ + G  +   V+
+Sbjct  173  AFVTEIHGIKAQENITYEMAKANYRKNEINCPDLEKAKEMIEE-LKRIKEEGDSVGGVVE  231
+
+Query  176  LININMPAGSGHP  188
+            +I   +PAG G P
+Sbjct  232  IIARGVPAGLGEP  244
+
+
+>WP_136479406.1 chorismate synthase [Acetivibrio thermocellus]
+ THJ78008.1 chorismate synthase [Acetivibrio thermocellus]
+Length=394
+
+ Score = 28.1 bits (61),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 23/73 (32%), Positives = 34/73 (47%), Gaps = 4/73 (5%)
+
+Query  119  AFEAVSHGIPTIA-ISLEAELAIQRSNDFRQTDWDAAKRMLHSWISRVLDRG--MPEYVD  175
+            AF    HGI     I+ E   A  R N+    D + AK M+   + R+ + G  +   V+
+Sbjct  173  AFVTEIHGIKAQENITYEMAKANYRKNEINCPDLEKAKEMIEE-LKRIKEEGDSVGGVVE  231
+
+Query  176  LININMPAGSGHP  188
+            +I   +PAG G P
+Sbjct  232  IIARGVPAGLGEP  244
+
+
+>WP_136479125.1 AAA family ATPase [Acetivibrio thermocellus]
+ THJ79192.1 chromosome segregation protein SMC [Acetivibrio thermocellus]
+Length=883
+
+ Score = 28.1 bits (61),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 17/49 (35%), Positives = 29/49 (59%), Gaps = 3/49 (6%)
+
+Query  199  QNYFEFIRPKARNLKEPFALK-SRLSVDMDTLERDSDIHAVYVDRITSV  246
+            +N  EFI  K + L E   L+   L+  MD LER+ D + +Y+++I ++
+Sbjct  493  ENEGEFI--KKKTLYENKVLRLDELNGSMDELEREMDENRIYIEKIKTL  539
+
+
+>CDG37490.1 hydrogenase, Fe-only [Acetivibrio thermocellus BC1]
+Length=1092
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 45/98 (46%), Gaps = 17/98 (17%)
+
+Query  56   IEEEWIQINGQEVRGYGVHGSPALAVAHGVLELAERKPDLCISGVNYGENMGAVLTCSGT  115
+            ++E  I +NG +VR         +AV  G L+ AE   +  ++GV+ G ++  V+ C
+Sbjct  879  VKESTIDVNGTKVR---------VAVVSG-LKNAEPIIEKILNGVDVGYDLIEVMACP--  926
+
+Query  116  LGAAFEAVSHGIPTIAISLEAE----LAIQRSNDFRQT  149
+             G       H +P    SLE      + I + + +R++
+Sbjct  927  -GGCICGAGHPVPEKIDSLEKRQQVLVNIDKVSKYRKS  963
+
+
+>WP_003516923.1 NAD(P)-binding protein [Acetivibrio thermocellus]
+ ADU73638.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 1313]
+ ALX07566.1 hydrogenase, Fe-only [Acetivibrio thermocellus AD2]
+ ANV75306.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 2360]
+ EIC03513.1 hydrogenase, Fe-only [Acetivibrio thermocellus YS]
+ PFH01832.1 formate dehydrogenase major subunit [Acetivibrio thermocellus
+AD2]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 45/98 (46%), Gaps = 17/98 (17%)
+
+Query  56    IEEEWIQINGQEVRGYGVHGSPALAVAHGVLELAERKPDLCISGVNYGENMGAVLTCSGT  115
+             ++E  I +NG +VR         +AV  G L+ AE   +  ++GV+ G ++  V+ C
+Sbjct  936   VKESTIDVNGTKVR---------VAVVSG-LKNAEPIIEKILNGVDVGYDLIEVMACP--  983
+
+Query  116   LGAAFEAVSHGIPTIAISLEAE----LAIQRSNDFRQT  149
+              G       H +P    SLE      + I + + +R++
+Sbjct  984   -GGCICGAGHPVPEKIDSLEKRQQVLVNIDKVSKYRKS  1020
+
+
+>WP_136479276.1 NAD(P)-binding protein [Acetivibrio thermocellus]
+ THJ78687.1 2Fe-2S iron-sulfur cluster binding domain-containing protein
+[Acetivibrio thermocellus]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 45/98 (46%), Gaps = 17/98 (17%)
+
+Query  56    IEEEWIQINGQEVRGYGVHGSPALAVAHGVLELAERKPDLCISGVNYGENMGAVLTCSGT  115
+             ++E  I +NG +VR         +AV  G L+ AE   +  ++GV+ G ++  V+ C
+Sbjct  936   VKESTIDVNGTKVR---------VAVVSG-LKNAEPIIEKILNGVDVGYDLIEVMACP--  983
+
+Query  116   LGAAFEAVSHGIPTIAISLEAE----LAIQRSNDFRQT  149
+              G       H +P    SLE      + I + + +R++
+Sbjct  984   -GGCICGAGHPVPEKIDSLEKRQQVLVNIDKVSKYRKS  1020
+
+
+>NLU26731.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+Length=1149
+
+ Score = 26.2 bits (56),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 45/98 (46%), Gaps = 17/98 (17%)
+
+Query  56    IEEEWIQINGQEVRGYGVHGSPALAVAHGVLELAERKPDLCISGVNYGENMGAVLTCSGT  115
+             ++E  I +NG +VR         +AV  G L+ AE   +  ++GV+ G ++  V+ C
+Sbjct  936   VKESTIDVNGTKVR---------VAVVSG-LKNAEPIIEKILNGVDVGYDLIEVMACP--  983
+
+Query  116   LGAAFEAVSHGIPTIAISLEAE----LAIQRSNDFRQT  149
+              G       H +P    SLE      + I + + +R++
+Sbjct  984   -GGCICGAGHPVPEKIDSLEKRQQVLVNIDKVSKYRKS  1020
+
+
+>WP_003512022.1 aspartate--ammonia ligase [Acetivibrio thermocellus]
+ CDG34752.1 Aspartate-ammonia ligase [Acetivibrio thermocellus BC1]
+ ABN51310.1 aspartate/ammonia ligase [Acetivibrio thermocellus ATCC 27405]
+ ADU75203.1 aspartate/ammonia ligase [Acetivibrio thermocellus DSM 1313]
+ ALX09178.1 Aspartate--ammonia ligase [Acetivibrio thermocellus AD2]
+ ANV76930.1 Aspartate--ammonia ligase [Acetivibrio thermocellus DSM 2360]
+Length=340
+
+ Score = 25.8 bits (55),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 35/123 (28%), Positives = 57/123 (46%), Gaps = 16/123 (13%)
+
+Query  128  PTIAISLEAELAIQRSNDFRQTDWDAAKRMLHSWISRVLDRGMPEYVDLININMPAGSGH  187
+            PT+++  E E AI++  DF +T   AA+  L    + +  R  PE     N+N   G
+Sbjct  16   PTLSVR-ETEAAIKKIKDFFETAL-AAELNLSRVSAPLFVR--PETGMNDNLN---GVER  68
+
+Query  188  PDEFRITSLSRQNYFEFIRPKARN-----LKEPFALKSRLSVDMDTLERDSD---IHAVY  239
+            P  F + ++   N  E +   A+       K  F +   L  DM+ + RD D   +H++Y
+Sbjct  69   PVSFDVKAIG-GNTVEIVHSLAKWKRMALAKYGFKVGEGLYTDMNAIRRDEDLDNLHSIY  127
+
+Query  240  VDR  242
+            VD+
+Sbjct  128  VDQ  130
+
+
+>ABN54199.1 hydrogenase, Fe-only [Acetivibrio thermocellus ATCC 27405]
+Length=644
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 45/98 (46%), Gaps = 17/98 (17%)
+
+Query  56   IEEEWIQINGQEVRGYGVHGSPALAVAHGVLELAERKPDLCISGVNYGENMGAVLTCSGT  115
+            ++E  I +NG +VR         +AV  G L+ AE   +  ++GV+ G ++  V+ C
+Sbjct  431  VKESTIDVNGTKVR---------VAVVSG-LKNAEPIIEKILNGVDVGYDLIEVMACP--  478
+
+Query  116  LGAAFEAVSHGIPTIAISLEAE----LAIQRSNDFRQT  149
+             G       H +P    SLE      + I + + +R++
+Sbjct  479  -GGCICGAGHPVPEKIDSLEKRQQVLVNIDKVSKYRKS  515
+
+
+>WP_003512596.1 class II fructose-1,6-bisphosphate aldolase [Acetivibrio thermocellus]
+ CDG35026.1 Fructose-bisphosphate aldolase [Acetivibrio thermocellus BC1]
+ ABN51587.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74927.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+DSM 1313]
+ ALX08887.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+AD2]
+ ANV76637.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+DSM 2360]
+Length=309
+
+ Score = 25.4 bits (54),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 3/24 (13%)
+
+Query  170  MPEYVDLINI---NMPAGSGHPDE  190
+            +PEYVD+IN    +MP   G P++
+Sbjct  217  IPEYVDMINKYGGDMPGAKGVPED  240
+
+
+>WP_003512991.1 endo-1,4-beta-xylanase [Acetivibrio thermocellus]
+ CDG37053.1 glycoside hydrolase family protein [Acetivibrio thermocellus
+BC1]
+ ABN53790.1 glycoside hydrolase family 10 [Acetivibrio thermocellus ATCC
+27405]
+ ADU73272.1 glycoside hydrolase family 10 [Acetivibrio thermocellus DSM 1313]
+ ALX07190.1 Endo-1,4-beta-xylanase, Cellulose 1,4-beta-cellobiosidase [Acetivibrio
+thermocellus AD2]
+ ANV74926.1 Endo-1,4-beta-xylanase, Cellulose 1,4-beta-cellobiosidase [Acetivibrio
+thermocellus DSM 2360]
+Length=639
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  52   DAGIIEEEWIQINGQEVRGYGVHG  75
+            DA I + EW+  NG E+ G GV G
+Sbjct  387  DAYIRQIEWLLQNGAEIDGIGVQG  410
+
+
+>CAE51307.1 beta-1,4-xylanase [Acetivibrio thermocellus]
+Length=639
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  52   DAGIIEEEWIQINGQEVRGYGVHG  75
+            DA I + EW+  NG E+ G GV G
+Sbjct  387  DAYIRQIEWLLQNGAEIDGIGVQG  410
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.135    0.395
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21029
+Number of extensions: 784
+Number of successful extensions: 11
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 4
+Length of query: 266
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 179
+Effective length of database: 2134357
+Effective search space: 382049903
+Effective search space used: 382049903
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

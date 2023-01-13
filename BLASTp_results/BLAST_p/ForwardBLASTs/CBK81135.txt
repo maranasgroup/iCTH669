@@ -1,0 +1,340 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WVJKZAE016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBK81135 5'-nucleotidase [Coprococcus catus]
+
+Length=260
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  30.8    0.10   29%
+NLU27992.1 hypothetical protein [Acetivibrio thermocellus]         28.1    0.99   25%
+WP_136479313.1 hypothetical protein [Acetivibrio thermocellus]     28.1    1.0    25%
+WP_003517777.1 hypothetical protein [Acetivibrio thermocellus]     28.1    1.1    25%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  27.7    1.5    26%
+WP_011838102.1 hypothetical protein [Acetivibrio thermocellus]     26.9    2.5    26%
+THJ76527.1 copper amine oxidase N-terminal domain-containing p...  25.4    5.7    44%
+WP_136479561.1 zf-HC2 domain-containing protein [Acetivibrio t...  25.8    6.3    29%
+WP_235836089.1 copper amine oxidase N-terminal domain-containi...  25.4    6.3    44%
+WP_003520923.1 zf-HC2 domain-containing protein [Acetivibrio t...  25.8    6.3    29%
+WP_011837923.1 zf-HC2 domain-containing protein [Acetivibrio t...  25.8    6.5    29%
+WP_003517230.1 zf-HC2 domain-containing protein [Acetivibrio t...  25.8    6.6    29%
+ABN51746.1 sodium ion-translocating decarboxylase, beta subuni...  25.8    8.0    32%
+WP_003518007.1 sodium ion-translocating decarboxylase subunit ...  25.8    8.2    32%
+
+ALIGNMENTS
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 30.8 bits (68),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 26/49 (53%), Gaps = 0/49 (0%)
+
+Query  180  YYVGKPNALMMRTGLRILGVHSEDAAIIGDRMDTDIVAGIESGLDTVLV  228
+            +   KP +      + I+   + + A+IGD++ TDI  G +  + T+LV
+Sbjct  88   HRASKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>NLU27992.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36161.1 hypothetical protein CTHBC1_1520 [Acetivibrio thermocellus BC1]
+Length=212
+
+ Score = 28.1 bits (61),  Expect = 0.99, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  2    EQLRAKKGFIIDMDGVIYHGNRLLPGAK-EFVEWLYREEKEFLFLTNSSRYTPKELQKKL  60
+            E+  AK  +I   D  IY  + + P    + ++ +Y E+ +++FL  S  +TP  L  K
+Sbjct  131  ERPDAKVKWIRREDSQIYCLDGIFPFEHTDDIKSVYNEKFDYIFLCKSPEWTPPHLNSKF  190
+
+Query  61   EWMGLDVDQSHFYTSALATAA  81
+            E +   ++Q     S + ++
+Sbjct  191  EELCRTIEQDTILYSNMFSSV  211
+
+
+>WP_136479313.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78510.1 hypothetical protein EPD62_05415 [Acetivibrio thermocellus]
+Length=212
+
+ Score = 28.1 bits (61),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  2    EQLRAKKGFIIDMDGVIYHGNRLLPGAK-EFVEWLYREEKEFLFLTNSSRYTPKELQKKL  60
+            E+  AK  +I   D  IY  + + P    + ++ +Y E+ +++FL  S  +TP  L  K
+Sbjct  131  ERPDAKVKWIRREDSQIYCLDGIFPFEHTDDIKSVYNEKFDYIFLCKSPEWTPPHLNSKF  190
+
+Query  61   EWMGLDVDQSHFYTSALATAA  81
+            E +   ++Q     S + ++
+Sbjct  191  EELCRTIEQDTILYSNMFSSV  211
+
+
+>WP_003517777.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU75290.1 hypothetical protein Clo1313_2258 [Acetivibrio thermocellus DSM
+1313]
+ ALX09279.1 hypothetical protein AD2_02291 [Acetivibrio thermocellus AD2]
+ ANV77031.1 hypothetical protein LQRI_2290 [Acetivibrio thermocellus DSM
+2360]
+ EIC04747.1 hypothetical protein YSBL_1580 [Acetivibrio thermocellus YS]
+ PFH03554.1 hypothetical protein M972_112365 [Acetivibrio thermocellus AD2]
+Length=212
+
+ Score = 28.1 bits (61),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 20/81 (25%), Positives = 39/81 (48%), Gaps = 1/81 (1%)
+
+Query  2    EQLRAKKGFIIDMDGVIYHGNRLLPGAK-EFVEWLYREEKEFLFLTNSSRYTPKELQKKL  60
+            E+  AK  +I   D  IY  + + P    + ++ +Y E+ +++FL  S  +TP  L  K
+Sbjct  131  ERPDAKVKWIRREDSQIYCLDGIFPFEHTDDIKSVYNEKFDYIFLCKSPEWTPPHLNSKF  190
+
+Query  61   EWMGLDVDQSHFYTSALATAA  81
+            E +   ++Q     S + ++
+Sbjct  191  EELCRTIEQDTILYSNMFSSV  211
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 24/94 (26%), Positives = 40/94 (43%), Gaps = 6/94 (6%)
+
+Query  167  LMAPIELATGKQAYYVGKPNALMMRTGLRILGVHSEDAAIIGDRMDTDIVAGIESGLDTV  226
+            L+   ++  G +     KP+   +   + ++G   E+   +GD    D      +G+D V
+Sbjct  126  LLQYFDVIVGGEDVAAHKPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFV  184
+
+Query  227  LVLSGVTAPGMIEEFPYRPRLVCNGIGDIAALGD  260
+             VL+G T      E  Y P  V   I D++ L D
+Sbjct  185  AVLTGTTGANEFSE--YNPGAV---IEDLSGLLD  213
+
+
+>WP_011838102.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52725.1 hypothetical protein Cthe_1497 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26388.1 hypothetical protein [Acetivibrio thermocellus]
+Length=212
+
+ Score = 26.9 bits (58),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 12/47 (26%), Positives = 24/47 (51%), Gaps = 0/47 (0%)
+
+Query  35   LYREEKEFLFLTNSSRYTPKELQKKLEWMGLDVDQSHFYTSALATAA  81
+            +Y E+ +++FL  S  +TP  L  K E +   ++Q     S + ++
+Sbjct  165  VYNEKFDYIFLCKSPEWTPPHLNSKFEELCRTIEQDTILYSNMFSSV  211
+
+
+>THJ76527.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=152
+
+ Score = 25.4 bits (54),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  208  GDRMDTDIVAGIESGLDTVLVLSGVTAPGMIE  239
+            G +  T IVAG E  LDT L ++  T  G  E
+Sbjct  39   GKKEGTKIVAGFEVPLDTNLTVTPTTWGGWTE  70
+
+
+>WP_136479561.1 zf-HC2 domain-containing protein [Acetivibrio thermocellus]
+ THJ77305.1 anti-sigma factor [Acetivibrio thermocellus]
+Length=329
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (52%), Gaps = 6/62 (10%)
+
+Query  56   LQKKLEWMGLDVDQSHFYTSALATAAFISTQTPEATAYAVGEHGLQNALYDAGITVNEIH  115
+            LQK+       ++ S FY    +++   +++ P+ T Y++   G+   +YD  ITVN
+Sbjct  185  LQKEKSEDARKIENSSFY-EITSSSDVPASEQPQKT-YSIAATGM--TVYDVNITVN--S  238
+
+Query  116  PD  117
+            PD
+Sbjct  239  PD  240
+
+
+>WP_235836089.1 copper amine oxidase N-terminal domain-containing protein, partial
+[Acetivibrio thermocellus]
+Length=153
+
+ Score = 25.4 bits (54),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  208  GDRMDTDIVAGIESGLDTVLVLSGVTAPGMIE  239
+            G +  T IVAG E  LDT L ++  T  G  E
+Sbjct  40   GKKEGTKIVAGFEVPLDTNLTVTPTTWGGWTE  71
+
+
+>WP_003520923.1 zf-HC2 domain-containing protein [Acetivibrio thermocellus]
+ ALX08337.1 putative transmembrane anti-sigma factor [Acetivibrio thermocellus
+AD2]
+ EIC05766.1 putative transmembrane anti-sigma factor [Acetivibrio thermocellus
+YS]
+ PFH02610.1 putative zinc finger protein [Acetivibrio thermocellus AD2]
+Length=329
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (52%), Gaps = 6/62 (10%)
+
+Query  56   LQKKLEWMGLDVDQSHFYTSALATAAFISTQTPEATAYAVGEHGLQNALYDAGITVNEIH  115
+            LQK+       ++ S FY    +++   +++ P+ T Y++   G+   +YD  ITVN
+Sbjct  185  LQKEKSEDARKIENSSFY-EITSSSDVPASEQPQKT-YSIAATGM--TVYDVNITVN--S  238
+
+Query  116  PD  117
+            PD
+Sbjct  239  PD  240
+
+
+>WP_011837923.1 zf-HC2 domain-containing protein [Acetivibrio thermocellus]
+ ABN52123.1 hypothetical protein Cthe_0889 [Acetivibrio thermocellus ATCC
+27405]
+ NLU26689.1 anti-sigma factor [Acetivibrio thermocellus]
+ CDG35582.1 putative transmembrane anti-sigma factor [Acetivibrio thermocellus
+BC1]
+ HBW27287.1 anti-sigma factor [Acetivibrio thermocellus]
+Length=329
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (52%), Gaps = 6/62 (10%)
+
+Query  56   LQKKLEWMGLDVDQSHFYTSALATAAFISTQTPEATAYAVGEHGLQNALYDAGITVNEIH  115
+            LQK+       ++ S FY    +++   +++ P+ T Y++   G+   +YD  ITVN
+Sbjct  185  LQKEKSEDARKIENSSFY-EITSSSDVPASEQPQKT-YSIAATGM--TVYDVNITVN--S  238
+
+Query  116  PD  117
+            PD
+Sbjct  239  PD  240
+
+
+>WP_003517230.1 zf-HC2 domain-containing protein [Acetivibrio thermocellus]
+ ADU74394.1 hypothetical protein Clo1313_1331 [Acetivibrio thermocellus DSM
+1313]
+ ANV76085.1 putative transmembrane anti-sigma factor [Acetivibrio thermocellus
+DSM 2360]
+ SOD25468.1 Putative zinc-finger [Acetivibrio thermocellus]
+Length=329
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 32/62 (52%), Gaps = 6/62 (10%)
+
+Query  56   LQKKLEWMGLDVDQSHFYTSALATAAFISTQTPEATAYAVGEHGLQNALYDAGITVNEIH  115
+            LQK+       ++ S FY    +++   +++ P+ T Y++   G+   +YD  ITVN
+Sbjct  185  LQKEKSEDARKIENSSFY-EITSSSDVPASEQPQKT-YSIAATGM--TVYDVNITVN--S  238
+
+Query  116  PD  117
+            PD
+Sbjct  239  PD  240
+
+
+>ABN51746.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus ATCC 27405]
+Length=359
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 22/41 (54%), Gaps = 1/41 (2%)
+
+Query  94   AVGEHGLQNALYDAGITVNEIHPDYVIIGEADNYCYDHIVK  134
+            A+GE G+ + LY+AGI   E+ P  + I       +  ++K
+Sbjct  46   ALGEEGVLSILYNAGIK-TELFPVLIFIAVGAMIDFGPLLK  85
+
+
+>WP_003518007.1 sodium ion-translocating decarboxylase subunit beta [Acetivibrio
+thermocellus]
+ CDG35221.1 Glutaconyl-CoA decarboxylase subunit beta [Acetivibrio thermocellus
+BC1]
+ ADU74769.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus DSM 1313]
+ ALX08721.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus AD2]
+ ANV76473.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus DSM 2360]
+ EIC05229.1 sodium ion-translocating decarboxylase, beta subunit [Acetivibrio
+thermocellus YS]
+Length=369
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 13/41 (32%), Positives = 22/41 (54%), Gaps = 1/41 (2%)
+
+Query  94   AVGEHGLQNALYDAGITVNEIHPDYVIIGEADNYCYDHIVK  134
+            A+GE G+ + LY+AGI   E+ P  + I       +  ++K
+Sbjct  56   ALGEEGVLSILYNAGIK-TELFPVLIFIAVGAMIDFGPLLK  95
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.139    0.411
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17965
+Number of extensions: 781
+Number of successful extensions: 14
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 3
+Length of query: 260
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 173
+Effective length of database: 2134357
+Effective search space: 369243761
+Effective search space used: 369243761
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

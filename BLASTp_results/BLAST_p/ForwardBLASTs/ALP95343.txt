@@ -1,0 +1,1718 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WXRMPPG013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ALP95343 5'-nucleotidase [Intestinimonas butyriciproducens]
+
+Length=1362
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_020457846.1 S-layer homology domain-containing protein [Ace...  84.3    7e-17  29%
+WP_136479134.1 S-layer homology domain-containing protein [Ace...  84.3    7e-17  29%
+NLU28099.1 hypothetical protein [Acetivibrio thermocellus]         84.3    7e-17  29%
+WP_081303233.1 S-layer homology domain-containing protein [Ace...  84.3    8e-17  29%
+WP_014522588.1 S-layer homology domain-containing protein [Ace...  84.3    8e-17  29%
+CDG36982.1 type 3a cellulose-binding domain protein [Acetivibr...  84.3    8e-17  29%
+WP_081321372.1 S-layer homology domain-containing protein [Ace...  84.3    8e-17  29%
+WP_003522528.1 S-layer homology domain-containing protein [Ace...  84.3    8e-17  29%
+WP_136479132.1 fibronectin type III domain-containing protein ...  81.3    7e-16  31%
+WP_003513162.1 fibronectin type III domain-containing protein ...  81.3    7e-16  31%
+NLU25982.1 ferrous iron transporter A [Acetivibrio thermocellus]   81.3    7e-16  31%
+WP_003516982.1 S-layer homology domain-containing protein [Ace...  70.1    1e-12  29%
+WP_004463692.1 S-layer homology domain-containing protein [Ace...  70.1    1e-12  29%
+WP_136479686.1 S-layer homology domain-containing protein [Ace...  62.0    6e-11  31%
+P38535.1 RecName: Full=Exoglucanase XynX; AltName: Full=1,4-be...  63.9    1e-10  30%
+WP_003516160.1 S-layer homology domain-containing protein [Ace...  60.8    1e-09  26%
+ABN54317.1 S-layer domain-containing protein [Acetivibrio ther...  60.5    1e-09  26%
+WP_235835982.1 S-layer homology domain-containing protein [Ace...  60.5    1e-09  26%
+CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]   60.1    1e-09  26%
+WP_004463879.1 S-layer homology domain-containing protein [Ace...  57.0    3e-09  30%
+CDG36169.1 S-layer domain protein [Acetivibrio thermocellus BC1]   57.4    3e-09  30%
+CDG37557.1 Cell surface glycoprotein 1 [Acetivibrio thermocell...  56.2    5e-09  39%
+WP_003522756.1 S-layer homology domain-containing protein [Ace...  56.6    8e-09  39%
+WP_207670198.1 S-layer homology domain-containing protein [Ace...  57.0    8e-09  39%
+HBW28283.1 TPA: cellulosome anchor protein [Acetivibrio thermo...  56.6    9e-09  39%
+NLU27922.1 cellulosome anchor protein [Acetivibrio thermocellus]   57.0    9e-09  39%
+WP_235836005.1 S-layer homology domain-containing protein [Ace...  53.9    1e-08  31%
+WP_059169948.1 fibronectin type III domain-containing protein ...  57.8    1e-08  27%
+WP_014522610.1 fibronectin type III domain-containing protein ...  57.8    1e-08  27%
+NLU28225.1 PKD domain-containing protein [Acetivibrio thermoce...  57.4    2e-08  27%
+CDG35906.1 PKD domain-containing protein [Acetivibrio thermoce...  57.4    2e-08  27%
+ABN52467.1 PKD domain containing protein [Acetivibrio thermoce...  57.4    2e-08  27%
+THJ78865.1 PKD domain-containing protein [Acetivibrio thermoce...  57.4    2e-08  27%
+EIC06047.1 PKD domain containing protein [Acetivibrio thermoce...  57.4    2e-08  27%
+WP_037323379.1 fibronectin type III domain-containing protein ...  57.4    2e-08  27%
+WP_235835990.1 PKD domain-containing protein [Acetivibrio ther...  57.4    2e-08  27%
+WP_014522595.1 cohesin domain-containing protein [Acetivibrio ...  55.5    5e-08  39%
+NLU27946.1 S-layer homology domain-containing protein [Acetivi...  53.5    5e-08  28%
+WP_059169945.1 cohesin domain-containing protein [Acetivibrio ...  55.5    5e-08  39%
+CAA47841.1 S-layer protein [Acetivibrio thermocellus]              55.5    5e-08  39%
+WP_081303234.1 cohesin domain-containing protein [Acetivibrio ...  55.5    6e-08  39%
+WP_020458018.1 cohesin domain-containing protein [Acetivibrio ...  55.5    6e-08  39%
+WP_003517764.1 S-layer homology domain-containing protein [Ace...  52.8    9e-08  32%
+WP_003519374.1 cohesin domain-containing protein [Acetivibrio ...  53.5    1e-07  30%
+WP_003511554.1 cohesin domain-containing protein [Acetivibrio ...  53.5    1e-07  30%
+WP_136479250.1 S-layer homology domain-containing protein [Ace...  52.8    3e-07  28%
+NLU27838.1 S-layer homology domain-containing protein [Acetivi...  52.8    3e-07  28%
+WP_003516873.1 S-layer homology domain-containing protein [Ace...  52.8    3e-07  28%
+CDG36671.1 S-layer domain protein [Acetivibrio thermocellus BC1]   50.8    1e-06  28%
+CAA61884.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellu...  49.3    4e-06  28%
+WP_020457929.1 carbohydrate binding domain-containing protein ...  49.3    4e-06  28%
+NLU25599.1 family 16 glycosylhydrolase [Acetivibrio thermocellus]  49.3    4e-06  28%
+WP_136479175.1 carbohydrate binding domain-containing protein ...  49.3    4e-06  28%
+WP_003515284.1 carbohydrate binding domain-containing protein ...  49.3    5e-06  28%
+CDG37558.1 Cell surface glycoprotein 2 [Acetivibrio thermocell...  45.8    4e-05  30%
+NLU27923.1 cell surface protein [Acetivibrio thermocellus]         45.8    4e-05  30%
+WP_003519375.1 Cthe_3079 family anchoring scaffoldin [Acetivib...  45.8    4e-05  30%
+WP_011837810.1 S-layer homology domain-containing protein [Ace...  45.1    7e-05  30%
+WP_003512563.1 S-layer homology domain-containing protein [Ace...  45.1    8e-05  30%
+NLU25604.1 S-layer homology domain-containing protein [Acetivi...  45.1    8e-05  30%
+CDG35004.1 conserved repeat domain protein [Acetivibrio thermo...  45.1    8e-05  30%
+WP_235836086.1 S-layer homology domain-containing protein [Ace...  43.9    1e-04  30%
+CDG36043.1 S-layer domain protein [Acetivibrio thermocellus BC1]   43.1    3e-04  24%
+WP_020458103.1 S-layer homology domain-containing protein [Ace...  43.1    3e-04  24%
+WP_003519383.1 S-layer homology domain-containing protein [Ace...  42.7    3e-04  24%
+WP_136479408.1 BsuPI-related putative proteinase inhibitor [Ac...  41.2    0.001  23%
+WP_003514556.1 BsuPI-related putative proteinase inhibitor [Ac...  41.2    0.001  23%
+NLU26659.1 family 10 glycosylhydrolase [Acetivibrio thermocellus]  40.0    0.002  25%
+WP_136479341.1 family 10 glycosylhydrolase [Acetivibrio thermo...  39.7    0.004  25%
+WP_003518396.1 family 10 glycosylhydrolase [Acetivibrio thermo...  39.3    0.004  25%
+CDG34736.1 protein of unknown function DUF187 [Acetivibrio the...  39.3    0.004  25%
+WP_136479339.1 Ig-like domain-containing protein [Acetivibrio ...  39.3    0.005  26%
+WP_003518399.1 Ig-like domain-containing protein [Acetivibrio ...  39.3    0.005  26%
+CDG34739.1 S-layer domain protein [Acetivibrio thermocellus BC1]   39.3    0.005  26%
+NLU26194.1 S-layer homology domain-containing protein [Acetivi...  37.7    0.006  30%
+WP_041734213.1 Ig-like domain-containing protein [Acetivibrio ...  38.9    0.007  29%
+ABN51297.1 Ig domain protein group 2 domain protein [Acetivibr...  38.9    0.007  29%
+WP_003513904.1 S-layer homology domain-containing protein [Ace...  37.4    0.013  27%
+NLU26831.1 S-layer homology domain-containing protein [Acetivi...  37.4    0.014  27%
+WP_003512947.1 S-layer homology domain-containing protein [Ace...  36.6    0.018  22%
+NLU27733.1 S-layer homology domain-containing protein [Acetivi...  36.6    0.025  29%
+WP_003518979.1 alpha/beta fold hydrolase [Acetivibrio thermoce...  35.8    0.036  22%
+WP_003513296.1 S-layer homology domain-containing protein [Ace...  35.0    0.041  24%
+NLU27728.1 S-layer homology domain-containing protein [Acetivi...  33.5    0.18   26%
+NLU25562.1 S-layer homology domain-containing protein [Acetivi...  33.1    0.23   23%
+NLU27362.1 hypothetical protein [Acetivibrio thermocellus]         32.0    0.79   37%
+WP_136479554.1 Ig-like domain-containing protein [Acetivibrio ...  32.0    0.79   37%
+WP_003518117.1 Ig-like domain-containing protein [Acetivibrio ...  32.0    0.79   37%
+WP_020457775.1 Ig-like domain-containing protein [Acetivibrio ...  32.0    0.83   37%
+NLU27903.1 hypothetical protein [Acetivibrio thermocellus]         30.8    1.2    31%
+WP_003516061.1 TIGR02710 family CRISPR-associated CARF protein...  30.4    2.2    36%
+WP_003511824.1 TIGR02710 family CRISPR-associated CARF protein...  30.4    2.2    36%
+THJ79182.1 TIGR02710 family CRISPR-associated protein [Acetivi...  30.0    2.5    36%
+HBW28315.1 TPA: TIGR02710 family CRISPR-associated protein [Ac...  30.0    2.5    36%
+NLU26757.1 hypothetical protein [Acetivibrio thermocellus]         29.6    2.8    23%
+WP_003515408.1 TraB/GumN family protein [Acetivibrio thermocel...  30.0    2.9    23%
+WP_003512832.1 TraB/GumN family protein [Acetivibrio thermocel...  29.6    3.0    23%
+WP_003519441.1 BsuPI-related putative proteinase inhibitor [Ac...  28.9    4.9    24%
+ABN54412.1 CRISPR-associated protein, TIGR02710 family [Acetiv...  28.5    7.7    36%
+WP_136479472.1 recombinase family protein [Acetivibrio thermoc...  28.5    7.9    25%
+
+ALIGNMENTS
+>WP_020457846.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ABN53708.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW25732.1 hypothetical protein [Acetivibrio thermocellus]
+Length=1013
+
+ Score = 84.3 bits (207),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  826   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  883
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  884   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  942
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  943   FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1002
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1003  AVTVICKLMK  1012
+
+
+>WP_136479134.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ79238.1 hypothetical protein EPD62_00530 [Acetivibrio thermocellus]
+Length=1093
+
+ Score = 84.3 bits (207),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  906   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  963
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  964   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  1022
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  1023  FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1082
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1083  AVTVICKLMK  1092
+
+
+>NLU28099.1 hypothetical protein [Acetivibrio thermocellus]
+Length=995
+
+ Score = 84.3 bits (207),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559  TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+            +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  808  SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  865
+
+Query  619  QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+               P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  866  LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  924
+
+Query  676  YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+            + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  925  FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  984
+
+Query  734  LATILMNYAK  743
+              T++    K
+Sbjct  985  AVTVICKLMK  994
+
+
+>WP_081303233.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ANV74838.1 Cadherin-like beta sandwich domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+ SOD21670.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=1103
+
+ Score = 84.3 bits (207),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  916   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  973
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  974   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  1032
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  1033  FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1092
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1093  AVTVICKLMK  1102
+
+
+>WP_014522588.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73187.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+Length=1059
+
+ Score = 84.3 bits (207),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  872   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  929
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  930   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  988
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  989   FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1048
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1049  AVTVICKLMK  1058
+
+
+>CDG36982.1 type 3a cellulose-binding domain protein [Acetivibrio thermocellus
+BC1]
+Length=1059
+
+ Score = 84.3 bits (207),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  872   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  929
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  930   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  988
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  989   FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1048
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1049  AVTVICKLMK  1058
+
+
+>WP_081321372.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ALX07102.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ PFH01364.1 outer membrane biosynthesis protein TonB [Acetivibrio thermocellus
+AD2]
+Length=1091
+
+ Score = 84.3 bits (207),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  904   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  961
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  962   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  1020
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  1021  FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1080
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1081  AVTVICKLMK  1090
+
+
+>WP_003522528.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ EIC03978.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+Length=1103
+
+ Score = 84.3 bits (207),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 56/190 (29%), Positives = 90/190 (47%), Gaps = 8/190 (4%)
+
+Query  559   TPEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+             +P+  +   + DV    W  E +  + E GI+  +  + K F P   +TRA   Q + N+
+Sbjct  916   SPDGTKGGIFDDVPRGYWAEEYIQKLYEKGII--SGIDEKTFMPGRPITRAEFTQIIVNS  973
+
+Query  619   QGKP--EVGETTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+                P  E G   F DV E  WY  + + A   G+ V   DG F     ITR ++A + A+
+Sbjct  974   LKIPYREAG-LHFNDVTEKDWYYKSVSSAAAFGIVVGRPDGSFAPNEFITRQDMAVVIAK  1032
+
+Query  676   YAEL--EGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTE  733
+             + E   +G +   G    + D  +++++A D +   V  G++ GKPGN+ DP G   R E
+Sbjct  1033  FLEKKHDGNLEGMGKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMFDPKGLTTRAE  1092
+
+Query  734   LATILMNYAK  743
+               T++    K
+Sbjct  1093  AVTVICKLMK  1102
+
+
+>WP_136479132.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ THJ79232.1 ferrous iron transporter A [Acetivibrio thermocellus]
+Length=1042
+
+ Score = 81.3 bits (199),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 54/173 (31%), Positives = 83/173 (48%), Gaps = 4/173 (2%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+++  W  EA+  +   GI+   S E  +F PN  +TRA     + NA    +    TF
+Sbjct  863   DLNSVPWAKEAIESLAARGIIHGKSEEQGIFAPNDRITRAEFITLIVNAFQLSKTPTGTF  922
+
+Query  630   ADVE-GKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIV---T  685
+             ADV+   WY      A+ +G+     +  FY +  I R ++A I A+  ++ GK +   +
+Sbjct  923   ADVKPNHWYYRNVMIAKNMGIVSGTGNNYFYPDDPIKREDMAVILAKTFKIIGKPLPNHS  982
+
+Query  686   DGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             D  L  Y+D   ++ +A   M +  G GII GK  + L P   A R E A IL
+Sbjct  983   DSVLDKYSDKNLISIYALQSMAILNGEGIITGKSSSQLSPKDYATRAEAAVIL  1035
+
+
+>WP_003513162.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ CDG36976.1 fibronectin, type III [Acetivibrio thermocellus BC1]
+ ABN53656.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73182.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07096.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV74832.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+Length=1042
+
+ Score = 81.3 bits (199),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 54/173 (31%), Positives = 83/173 (48%), Gaps = 4/173 (2%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+++  W  EA+  +   GI+   S E  +F PN  +TRA     + NA    +    TF
+Sbjct  863   DLNSVPWAKEAIESLAARGIIHGKSEEQGIFAPNDRITRAEFITLIVNAFQLSKTPTGTF  922
+
+Query  630   ADVE-GKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIV---T  685
+             ADV+   WY      A+ +G+     +  FY +  I R ++A I A+  ++ GK +   +
+Sbjct  923   ADVKPNHWYYRNVMIAKNMGIVSGTGNNYFYPDDPIKREDMAVILAKTFKIIGKPLPNHS  982
+
+Query  686   DGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             D  L  Y+D   ++ +A   M +  G GII GK  + L P   A R E A IL
+Sbjct  983   DSVLDKYSDKNLISIYALQSMAILNGEGIITGKSSSQLSPKDYATRAEAAVIL  1035
+
+
+>NLU25982.1 ferrous iron transporter A [Acetivibrio thermocellus]
+Length=1042
+
+ Score = 81.3 bits (199),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 54/173 (31%), Positives = 83/173 (48%), Gaps = 4/173 (2%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+++  W  EA+  +   GI+   S E  +F PN  +TRA     + NA    +    TF
+Sbjct  863   DLNSVPWAKEAIESLAARGIIHGKSEEQGIFAPNDRITRAEFITLIVNAFQLSKTPTGTF  922
+
+Query  630   ADVE-GKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIV---T  685
+             ADV+   WY      A+ +G+     +  FY +  I R ++A I A+  ++ GK +   +
+Sbjct  923   ADVKPNHWYYRNVMIAKNMGIVSGTGNNYFYPDDPIKREDMAVILAKTFKIIGKPLPNHS  982
+
+Query  686   DGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             D  L  Y+D   ++ +A   M +  G GII GK  + L P   A R E A IL
+Sbjct  983   DSVLDKYSDKNLISIYALQSMAILNGEGIITGKSSSQLSPKDYATRAEAAVIL  1035
+
+
+>WP_003516982.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU74018.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+ ALX07956.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ ANV75702.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ EIC06154.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+YS]
+ PFH02227.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=631
+
+ Score = 70.1 bits (170),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 50/175 (29%), Positives = 84/175 (48%), Gaps = 7/175 (4%)
+
+Query  568  WADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGET  627
+            +AD+ + AW  + +  +   G++  TS     FTP   +TRA     L  A G      +
+Sbjct  454  FADIGSYAWAKKQIEVLASKGVINGTSDTT--FTPQADITRADFMILLVKALGLTAEVTS  511
+
+Query  628  TFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTD  686
+             F DV E  +Y      A+E+G+     +  F  +  ITR ++  +      + GKI +
+Sbjct  512  NFDDVSEKDYYYEYVGIAKELGITTGVGNNKFNPKAKITRQDMMVLTTNALRIAGKISST  571
+
+Query  687  G---DLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+            G   D+  ++D   +A +A +G+   V  GI+ G  G++++P G A R ELA I+
+Sbjct  572  GTRADVERFSDKDQIASYAVEGVATLVKEGIVVGS-GDIINPRGNASRAELAAII  625
+
+
+ Score = 28.5 bits (62),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 30/92 (33%), Positives = 42/92 (46%), Gaps = 9/92 (10%)
+
+Query  249  TTGIDVLIDGHSHSTFEKTEKNKDGEDVVVAQTGTKLENLGKV----VIDTATGEITSEL  304
+            T G D+ I  +  +T   T       +V   QT +  EN  KV    V+D ATGE  + +
+Sbjct  202  TPGTDIPISDNPAATPSSTPSVTPSPEVKPTQTPSPAENSAKVELEPVLDNATGEAKAAI  261
+
+Query  305  VAAKDCAAEDEATAAFVKGINDEFAEV-LKKV  335
+               K   A DEA     K  +D+  E+ +KKV
+Sbjct  262  DEEKLNKALDEAK----KSEDDKLVELNIKKV  289
+
+
+>WP_004463692.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ CDG35978.1 cellulosome anchoring protein cohesin subunit [Acetivibrio thermocellus
+BC1]
+ AAB07763.1 scaffolding dockerin binding protein A [Acetivibrio thermocellus]
+ ABN52539.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+ NLU25547.1 cellulosome anchor protein [Acetivibrio thermocellus]
+ THJ78951.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=631
+
+ Score = 70.1 bits (170),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 50/175 (29%), Positives = 84/175 (48%), Gaps = 7/175 (4%)
+
+Query  568  WADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGET  627
+            +AD+ + AW  + +  +   G++  TS     FTP   +TRA     L  A G      +
+Sbjct  454  FADIGSYAWAKKQIEVLASKGVINGTSDTT--FTPQADITRADFMILLVKALGLTAEVTS  511
+
+Query  628  TFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTD  686
+             F DV E  +Y      A+E+G+     +  F  +  ITR ++  +      + GKI +
+Sbjct  512  NFDDVSEKDYYYEYVGIAKELGITTGVGNNKFNPKAKITRQDMMVLTTNALRIAGKISST  571
+
+Query  687  G---DLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+            G   D+  ++D   +A +A +G+   V  GI+ G  G++++P G A R ELA I+
+Sbjct  572  GTRADVERFSDKDQIASYAVEGVATLVKEGIVVGS-GDIINPRGNASRAELAAII  625
+
+
+ Score = 28.5 bits (62),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 30/92 (33%), Positives = 42/92 (46%), Gaps = 9/92 (10%)
+
+Query  249  TTGIDVLIDGHSHSTFEKTEKNKDGEDVVVAQTGTKLENLGKV----VIDTATGEITSEL  304
+            T G D+ I  +  +T   T       +V   QT +  EN  KV    V+D ATGE  + +
+Sbjct  202  TPGTDIPISDNPAATPSSTPSVTPSPEVKPTQTPSPAENSAKVELEPVLDNATGEAKAAI  261
+
+Query  305  VAAKDCAAEDEATAAFVKGINDEFAEV-LKKV  335
+               K   A DEA     K  +D+  E+ +KKV
+Sbjct  262  DEEKLNKALDEAK----KSEDDKLVELNIKKV  289
+
+
+>WP_136479686.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ76658.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=238
+
+ Score = 62.0 bits (149),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 56/179 (31%), Positives = 74/179 (41%), Gaps = 19/179 (11%)
+
+Query  596  EAKVFTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGLAV  651
+            E   F P+  VTRA   T+    ++ +G  E G  +F DV E  W+ +  A AE+ G
+Sbjct  37   EDSSFRPSQSVTRAEFVTMANRFFDIRGSVEFG-CSFTDVNENDWFFADVATAEKAGYIS  95
+
+Query  652  VPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+               DG F     ITR E A I  R         TD     +TD   ++ WA   ++  V
+Sbjct  96   GYPDGTFRPNALITREEAAVILCRLTNRAPSSNTDS--IEFTDSDSISPWALGYVKRLVF  153
+
+Query  712  SGIIGGKPGNLLDPNGTAVRTELATILMNYAKLSSGYSETYVEIEVPETDGIPAHTIPG  770
+            S II G P N   P     R E A +L++  +LS      Y           P H IPG
+Sbjct  154  SYIIKGYPDNTFRPKNPVTRAE-AVVLVDNTRLSLMVPPIY-----------PPHQIPG  200
+
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/123 (30%), Positives = 55/123 (45%), Gaps = 10/123 (8%)
+
+Query  619  QGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+            + +P V    F D+EG W   A  W E   ++G      D  F   +++TRAE  T+  R
+Sbjct  2    RAEPPVDFKGFNDIEGHW---AQFWIELNAKLGNIAGYEDSSFRPSQSVTRAEFVTMANR  58
+
+Query  676  YAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELA  735
+            + ++ G +       ++TDV +  DW    +  A  +G I G P     PN    R E A
+Sbjct  59   FFDIRGSVEFG---CSFTDVNE-NDWFFADVATAEKAGYISGYPDGTFRPNALITREEAA  114
+
+Query  736  TIL  738
+             IL
+Sbjct  115  VIL  117
+
+
+>P38535.1 RecName: Full=Exoglucanase XynX; AltName: Full=1,4-beta-cellobiohydrolase;
+AltName: Full=Exocellobiohydrolase; Flags: Precursor
+[Acetivibrio thermocellus]
+ AAA23227.1 xylanase [Acetivibrio thermocellus]
+Length=1087
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 61/205 (30%), Positives = 100/205 (49%), Gaps = 17/205 (8%)
+
+Query  541   YADPAGQGRIKVTGTPAETPEEPETADWADVDADAWYAEAVHYVIENGIM-GSTSTEAKV  599
+             + D +G G + +TG P+   ++  T +  D+  D W  + +  +    I+ G T T+
+Sbjct  883   WQDTSGFGNLLLTGKPSGVLKKSVTFN--DI-KDNWAKDVIEVLASRHIVEGMTDTQ---  936
+
+Query  600   FTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADVE-GKWYASAAAWAEEVGLAVVPTD  655
+             + P+  VTRA    +   L N + +   GE  F+DV+ G WYA+A   A + G  ++  D
+Sbjct  937   YEPSKTVTRAEFTAMILKLLNIKEEAYNGE--FSDVKNGDWYANAIEAAYKAG--IIEGD  992
+
+Query  656   G-GFYGERAITRAEIATIFAR-YAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSG  713
+             G       +ITR E+ +I  R Y  L      +   +++ D   ++DWA + +  A   G
+Sbjct  993   GKNMRPNDSITREEMTSIAMRAYEMLTSYKEENIGATSFNDDKSISDWAKNVVANAAKLG  1052
+
+Query  714   IIGGKPGNLLDPNGTAVRTELATIL  738
+             II G+P N+  P G A R E A I+
+Sbjct  1053  IINGEPSNVFAPKGIATRAEAAAII  1077
+
+
+ Score = 40.4 bits (93),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 32/134 (24%), Positives = 56/134 (42%), Gaps = 9/134 (7%)
+
+Query  620   GKPE---VGETTFADVEGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARY  676
+             GKP        TF D++  W            +    TD  +   + +TRAE   +  +
+Sbjct  896   GKPSGVLKKSVTFNDIKDNWAKDVIEVLASRHIVEGMTDTQYEPSKTVTRAEFTAMILKL  955
+
+Query  677   AELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELAT  736
+               ++ +         ++DV +  DW A+ +  A  +GII G  G  + PN +  R E+ +
+Sbjct  956   LNIKEEAYN----GEFSDVKN-GDWYANAIEAAYKAGIIEGD-GKNMRPNDSITREEMTS  1009
+
+Query  737   ILMNYAKLSSGYSE  750
+             I M   ++ + Y E
+Sbjct  1010  IAMRAYEMLTSYKE  1023
+
+
+>WP_003516160.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73755.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07685.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV75427.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC05643.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+ PFH01953.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=834
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 50/189 (26%), Positives = 76/189 (40%), Gaps = 8/189 (4%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIM-GSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+            P E  T  + D+    W  E++ Y+ E G++ G  +    +  P+  +TRA     L N
+Sbjct  30   PTEKNTIFFRDISG-HWAEESIKYLAERGLVKGYLTDNGYIIKPDTYITRAEYLTVLLNT  88
+
+Query  619  QGKPEVGE---TTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFA  674
+            +   +V       F DV +  WY      A   G+     DG F     ITRAEI+ +
+Sbjct  89   KPNLKVVSDKVKLFVDVKDNDWYKEVVDKASSNGILEGYPDGSFKPNNPITRAEISALMV  148
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTEL  734
+            +      K +T+ D   ++DV   + W    +       II G P     P   A R E
+Sbjct  149  KINNWNEKDITE-DADVFSDVQKNS-WYYAAVLTCKLKKIINGYPDGTFKPGNYASRAEA  206
+
+Query  735  ATILMNYAK  743
+              +L NY +
+Sbjct  207  FALLANYVR  215
+
+
+>ABN54317.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+Length=692
+
+ Score = 60.5 bits (145),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 50/189 (26%), Positives = 76/189 (40%), Gaps = 8/189 (4%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIM-GSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+            P E  T  + D+    W  E++ Y+ E G++ G  +    +  P+  +TRA     L N
+Sbjct  30   PTEKNTIFFRDISG-HWAEESIKYLAERGLVKGYLTDNGYIIKPDTYITRAEYLTVLLNT  88
+
+Query  619  QGKPEVGE---TTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFA  674
+            +   +V       F DV +  WY      A   G+     DG F     ITRAEI+ +
+Sbjct  89   KPNLKVVSDKVKLFVDVKDNDWYKEVVDKASSNGILEGYPDGSFKPNNPITRAEISALMV  148
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTEL  734
+            +      K +T+ D   ++DV   + W    +       II G P     P   A R E
+Sbjct  149  KINNWNEKDITE-DADVFSDVQKNS-WYYAAVLTCKLKKIINGYPDGTFKPGNYASRAEA  206
+
+Query  735  ATILMNYAK  743
+              +L NY +
+Sbjct  207  FALLANYVR  215
+
+
+>WP_235835982.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=689
+
+ Score = 60.5 bits (145),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 50/189 (26%), Positives = 76/189 (40%), Gaps = 8/189 (4%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIM-GSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+            P E  T  + D+    W  E++ Y+ E G++ G  +    +  P+  +TRA     L N
+Sbjct  30   PTEKNTIFFRDISG-HWAEESIKYLAERGLVKGYLTDNGYIIKPDTYITRAEYLTVLLNT  88
+
+Query  619  QGKPEVGE---TTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFA  674
+            +   +V       F DV +  WY      A   G+     DG F     ITRAEI+ +
+Sbjct  89   KPNLKVVSDKVKLFVDVKDNDWYKEVVDKASSNGILEGYPDGSFKPNNPITRAEISALMV  148
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTEL  734
+            +      K +T+ D   ++DV   + W    +       II G P     P   A R E
+Sbjct  149  KINNWNEKDITE-DADVFSDVQKNS-WYYAAVLTCKLKKIINGYPDGTFKPGNYASRAEA  206
+
+Query  735  ATILMNYAK  743
+              +L NY +
+Sbjct  207  FALLANYVR  215
+
+
+>CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]
+Length=643
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 50/189 (26%), Positives = 76/189 (40%), Gaps = 8/189 (4%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIM-GSTSTEAKVFTPNGMVTRATVFQTLYNA  618
+            P E  T  + D+    W  E++ Y+ E G++ G  +    +  P+  +TRA     L N
+Sbjct  30   PTEKNTIFFRDISG-HWAEESIKYLAERGLVKGYLTDNGYIIKPDTYITRAEYLTVLLNT  88
+
+Query  619  QGKPEVGE---TTFADV-EGKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFA  674
+            +   +V       F DV +  WY      A   G+     DG F     ITRAEI+ +
+Sbjct  89   KPNLKVVSDKVKLFVDVKDNDWYKEVVDKASSNGILEGYPDGSFKPNNPITRAEISALMV  148
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTEL  734
+            +      K +T+ D   ++DV   + W    +       II G P     P   A R E
+Sbjct  149  KINNWNEKDITE-DADVFSDVQKNS-WYYAAVLTCKLKKIINGYPDGTFKPGNYASRAEA  206
+
+Query  735  ATILMNYAK  743
+              +L NY +
+Sbjct  207  FALLANYVR  215
+
+
+>WP_004463879.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ABN52733.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW26380.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=223
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 64/149 (43%), Gaps = 7/149 (5%)
+
+Query  596  EAKVFTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGLAV  651
+            E   F P+  VTRA   T+    ++ +G  E G  +F DV E  W+ +  A AE+ G
+Sbjct  37   EDSSFRPSQSVTRAEFVTMANRFFDIRGSVEFG-CSFTDVNENDWFFADVATAEKAGYIS  95
+
+Query  652  VPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+               DG F     ITR E + I  +    + +  T  D   +TD   ++ WA   +   V
+Sbjct  96   GYPDGTFRPNELITREEASVILCKLINSDPR--THADNIEFTDSDSISPWAYGYVNSLVY  153
+
+Query  712  SGIIGGKPGNLLDPNGTAVRTELATILMN  740
+            + II G P N   P     R E   +L N
+Sbjct  154  NHIIKGYPDNTFRPKNPVTRAEAVVLLDN  182
+
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 43/149 (29%), Positives = 67/149 (45%), Gaps = 14/149 (9%)
+
+Query  619  QGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRAEIATIFAR  675
+            + +P V    F D+EG W   A  W E   ++G      D  F   +++TRAE  T+  R
+Sbjct  2    RAEPPVDFKGFNDIEGHW---AQFWIELNAKLGNIAGYEDSSFRPSQSVTRAEFVTMANR  58
+
+Query  676  YAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELA  735
+            + ++ G +       ++TDV +  DW    +  A  +G I G P     PN    R E +
+Sbjct  59   FFDIRGSVEFG---CSFTDVNE-NDWFFADVATAEKAGYISGYPDGTFRPNELITREEAS  114
+
+Query  736  TILMNYAKLSSGYSETYVE-IEVPETDGI  763
+             IL    KL +    T+ + IE  ++D I
+Sbjct  115  VIL---CKLINSDPRTHADNIEFTDSDSI  140
+
+
+>CDG36169.1 S-layer domain protein [Acetivibrio thermocellus BC1]
+Length=246
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 64/149 (43%), Gaps = 7/149 (5%)
+
+Query  596  EAKVFTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGLAV  651
+            E   F P+  VTRA   T+    ++ +G  E G  +F DV E  W+ +  A AE+ G
+Sbjct  60   EDSSFRPSQSVTRAEFVTMANRFFDIRGSVEFG-CSFTDVNENDWFFADVATAEKAGYIS  118
+
+Query  652  VPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+               DG F     ITR E + I  +    + +  T  D   +TD   ++ WA   +   V
+Sbjct  119  GYPDGTFRPNELITREEASVILCKLINSDPR--THADNIEFTDSDSISPWAYGYVNSLVY  176
+
+Query  712  SGIIGGKPGNLLDPNGTAVRTELATILMN  740
+            + II G P N   P     R E   +L N
+Sbjct  177  NHIIKGYPDNTFRPKNPVTRAEAVVLLDN  205
+
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 70/157 (45%), Gaps = 14/157 (9%)
+
+Query  611  VFQTLYNAQGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRA  667
+            +F  L   + +P V    F D+EG W   A  W E   ++G      D  F   +++TRA
+Sbjct  17   LFTQLLTVRAEPPVDFKGFNDIEGHW---AQFWIELNAKLGNIAGYEDSSFRPSQSVTRA  73
+
+Query  668  EIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNG  727
+            E  T+  R+ ++ G +       ++TDV +  DW    +  A  +G I G P     PN
+Sbjct  74   EFVTMANRFFDIRGSVEFG---CSFTDVNE-NDWFFADVATAEKAGYISGYPDGTFRPNE  129
+
+Query  728  TAVRTELATILMNYAKLSSGYSETYVE-IEVPETDGI  763
+               R E + IL    KL +    T+ + IE  ++D I
+Sbjct  130  LITREEASVIL---CKLINSDPRTHADNIEFTDSDSI  163
+
+
+>CDG37557.1 Cell surface glycoprotein 1 [Acetivibrio thermocellus BC1]
+Length=222
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+            DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  18   DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADT-HWAAWAIKFATSQ  73
+
+Query  713  GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+            G+  G P     P+    R E AT+++++
+Sbjct  74   GLFKGYPDGTFKPDQNITRAEFATVVLHF  102
+
+
+ Score = 38.5 bits (88),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600  FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+            F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  21   FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  75
+
+Query  650  AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                 DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  76   FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  133
+
+Query  703  ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+             + +      G I G P     P     R+E +  L+N A
+Sbjct  134  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  172
+
+
+>WP_003522756.1 S-layer homology domain-containing protein, partial [Acetivibrio
+thermocellus]
+ EIC03370.1 S-layer domain-containing protein, partial [Acetivibrio thermocellus
+YS]
+Length=316
+
+ Score = 56.6 bits (135),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+            DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  112  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADT-HWAAWAIKFATSQ  167
+
+Query  713  GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+            G+  G P     P+    R E AT+++++
+Sbjct  168  GLFKGYPDGTFKPDQNITRAEFATVVLHF  196
+
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600  FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+            F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  115  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  169
+
+Query  650  AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                 DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  170  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  227
+
+Query  703  ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+             + +      G I G P     P     R+E +  L+N A
+Sbjct  228  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  266
+
+
+>WP_207670198.1 S-layer homology domain-containing protein, partial [Acetivibrio
+thermocellus]
+ THJ76701.1 cellulosome anchor protein, partial [Acetivibrio thermocellus]
+Length=337
+
+ Score = 57.0 bits (136),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+            DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  133  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADT-HWAAWAIKFATSQ  188
+
+Query  713  GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+            G+  G P     P+    R E AT+++++
+Sbjct  189  GLFKGYPDGTFKPDQNITRAEFATVVLHF  217
+
+
+ Score = 38.9 bits (89),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600  FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+            F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  136  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  190
+
+Query  650  AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                 DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  191  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  248
+
+Query  703  ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+             + +      G I G P     P     R+E +  L+N A
+Sbjct  249  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  287
+
+
+>HBW28283.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=318
+
+ Score = 56.6 bits (135),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+            DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  114  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADT-HWAAWAIKFATSQ  169
+
+Query  713  GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+            G+  G P     P+    R E AT+++++
+Sbjct  170  GLFKGYPDGTFKPDQNITRAEFATVVLHF  198
+
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600  FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+            F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  117  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  171
+
+Query  650  AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                 DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  172  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  229
+
+Query  703  ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+             + +      G I G P     P     R+E +  L+N A
+Sbjct  230  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  268
+
+
+>NLU27922.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=346
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+            DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  142  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  197
+
+Query  713  GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+            G+  G P     P+    R E AT+++++
+Sbjct  198  GLFKGYPDGTFKPDQNITRAEFATVVLHF  226
+
+
+ Score = 38.9 bits (89),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600  FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+            F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  145  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  199
+
+Query  650  AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                 DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  200  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  257
+
+Query  703  ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+             + +      G I G P     P     R+E +  L+N A
+Sbjct  258  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  296
+
+
+>WP_235836005.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=170
+
+ Score = 53.9 bits (128),  Expect = 1e-08, Method: Composition-based stats.
+ Identities = 41/131 (31%), Positives = 56/131 (43%), Gaps = 10/131 (8%)
+
+Query  611  VFQTLYNAQGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRA  667
+            +F  L   + +P V    F D+EG W   A  W E   + G      DG F   + +TRA
+Sbjct  17   LFTQLLTVRAEPPVDFKGFNDIEGHW---AQFWIELNAKRGRIAGYEDGSFRPSQGVTRA  73
+
+Query  668  EIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNG  727
+            E  T+  ++    G    +G    +TDV +  DW    + VA  +G I G P     PN
+Sbjct  74   EFVTMANKFFNRRGG---EGLECPFTDV-NKDDWFFVDVAVAKKAGYISGYPDGTFHPNA  129
+
+Query  728  TAVRTELATIL  738
+               R E A IL
+Sbjct  130  LITREEAAVIL  140
+
+
+ Score = 35.0 bits (79),  Expect = 0.031, Method: Composition-based stats.
+ Identities = 28/80 (35%), Positives = 37/80 (46%), Gaps = 5/80 (6%)
+
+Query  600  FTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGLAVVPTD  655
+            F P+  VTRA   T+    +N +G  E  E  F DV +  W+    A A++ G      D
+Sbjct  64   FRPSQGVTRAEFVTMANKFFNRRGG-EGLECPFTDVNKDDWFFVDVAVAKKAGYISGYPD  122
+
+Query  656  GGFYGERAITRAEIATIFAR  675
+            G F+    ITR E A I  R
+Sbjct  123  GTFHPNALITREEAAVILCR  142
+
+
+>WP_059169948.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ALX08027.1 APHP domain protein [Acetivibrio thermocellus AD2]
+ ANV75774.1 APHP domain protein [Acetivibrio thermocellus DSM 2360]
+ PFH02298.1 CARDB protein [Acetivibrio thermocellus AD2]
+ SOD26085.1 CARDB protein [Acetivibrio thermocellus]
+Length=8366
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  8184  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  8241
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  8242  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  8301
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  8302  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  8354
+
+
+>WP_014522610.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ADU74089.1 PKD domain containing protein [Acetivibrio thermocellus DSM 1313]
+Length=7955
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  7773  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  7830
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  7831  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  7890
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  7891  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  7943
+
+
+>NLU28225.1 PKD domain-containing protein [Acetivibrio thermocellus]
+Length=6926
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6744  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6801
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6802  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6861
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6862  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6914
+
+
+>CDG35906.1 PKD domain-containing protein [Acetivibrio thermocellus BC1]
+Length=7214
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  7032  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  7089
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  7090  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  7149
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  7150  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  7202
+
+
+>ABN52467.1 PKD domain containing protein [Acetivibrio thermocellus ATCC
+27405]
+Length=6885
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6703  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6760
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6761  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6820
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6821  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6873
+
+
+>THJ78865.1 PKD domain-containing protein, partial [Acetivibrio thermocellus]
+Length=6805
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6623  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6680
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6681  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6740
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6741  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6793
+
+
+>EIC06047.1 PKD domain containing protein, partial [Acetivibrio thermocellus
+YS]
+Length=6809
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6627  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6684
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6685  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6744
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6745  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6797
+
+
+>WP_037323379.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=6803
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6621  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6678
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6679  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6738
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6739  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6791
+
+
+>WP_235835990.1 PKD domain-containing protein [Acetivibrio thermocellus]
+Length=6795
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/173 (27%), Positives = 75/173 (43%), Gaps = 6/173 (3%)
+
+Query  570   DVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGETTF  629
+             D+    W  E +  +   GI+  TS+    ++P   +TRA     +  A G        F
+Sbjct  6613  DLKGYDWAKEQIEILASKGIINGTSSTK--YSPGLNITRADAVILIVKALGLEAEFTENF  6670
+
+Query  630   ADVEG-KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGD  688
+              DV   K+Y  A   A   G+     +  F  E  ITR E+  I  R  ++ G  +  GD
+Sbjct  6671  DDVSADKYYYEAVGIARSFGIVTGVGNNKFNPETPITRQELMVIVNRALKVVGINLDTGD  6730
+
+Query  689   LS---AYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+             +S   A+ D ++++ +A + +   V +GII G    L+ P     R E A I+
+Sbjct  6731  VSELEAFKDFSEISPYAVESVAALVKAGIIKGDDNKLIAPLRNITRAETAVII  6783
+
+
+>WP_014522595.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ADU73708.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+Length=1615
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655   DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+             DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  1411  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  1466
+
+Query  713   GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+             G+  G P     P+    R E AT+++++
+Sbjct  1467  GLFKGYPDGTFKPDQNITRAEFATVVLHF  1495
+
+
+ Score = 35.4 bits (80),  Expect = 0.064, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600   FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+             F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  1414  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  1468
+
+Query  650   AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                  DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  1469  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  1526
+
+Query  703   ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+              + +      G I G P     P     R+E +  L+N A
+Sbjct  1527  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  1565
+
+
+>NLU27946.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=247
+
+ Score = 53.5 bits (127),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 81/196 (41%), Gaps = 20/196 (10%)
+
+Query  580  AVHYVIENGIMGSTS-TEAKVFTPNGMVTRA---TVFQTLYNAQGKPEVGETTFADV-EG  634
+            A  +V  N  +G+ +  E   F P+  VTRA   T+    +N +G  E  E  F DV +
+Sbjct  43   AQFWVELNAKLGNIAGYEDSSFRPSQGVTRAEFVTMANKFFNRRGG-EGLECPFTDVNKD  101
+
+Query  635  KWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTD  694
+             W+    A A++ G      DG F+    ITR E A I  R    + +  T  +   +TD
+Sbjct  102  DWFFVDVAVAKKAGYISGYPDGTFHPNALITREEAAVILCRLINFDPR--THANNIEFTD  159
+
+Query  695  VADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYAKLSSGYSETYVE  754
+               ++ WA   +   V   +I G   N   P     R E A +L++ A++S      Y
+Sbjct  160  SDSISPWAYGYVNRLVYDNMIIGYSDNTFRPKNPVTRAE-AVVLLDNARVSLMEPPIY--  216
+
+Query  755  IEVPETDGIPAHTIPG  770
+                     P H IPG
+Sbjct  217  ---------PPHQIPG  223
+
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 39/127 (31%), Positives = 54/127 (43%), Gaps = 10/127 (8%)
+
+Query  615  LYNAQGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRAEIAT  671
+            L   + +P V    F D+EG W   A  W E   ++G      D  F   + +TRAE  T
+Sbjct  21   LLTVRAEPPVDFKGFNDIEGHW---AQFWVELNAKLGNIAGYEDSSFRPSQGVTRAEFVT  77
+
+Query  672  IFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVR  731
+            +  ++    G    +G    +TDV +  DW    + VA  +G I G P     PN    R
+Sbjct  78   MANKFFNRRGG---EGLECPFTDV-NKDDWFFVDVAVAKKAGYISGYPDGTFHPNALITR  133
+
+Query  732  TELATIL  738
+             E A IL
+Sbjct  134  EEAAVIL  140
+
+
+>WP_059169945.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ALX07638.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ PFH01906.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=1674
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655   DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+             DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  1470  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  1525
+
+Query  713   GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+             G+  G P     P+    R E AT+++++
+Sbjct  1526  GLFKGYPDGTFKPDQNITRAEFATVVLHF  1554
+
+
+ Score = 35.4 bits (80),  Expect = 0.081, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600   FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+             F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  1473  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  1527
+
+Query  650   AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                  DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  1528  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  1585
+
+Query  703   ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+              + +      G I G P     P     R+E +  L+N A
+Sbjct  1586  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  1624
+
+
+>CAA47841.1 S-layer protein [Acetivibrio thermocellus]
+Length=1664
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655   DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+             DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  1460  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  1515
+
+Query  713   GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+             G+  G P     P+    R E AT+++++
+Sbjct  1516  GLFKGYPDGTFKPDQNITRAEFATVVLHF  1544
+
+
+ Score = 35.0 bits (79),  Expect = 0.088, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600   FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+             F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  1463  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  1517
+
+Query  650   AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                  DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  1518  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  1575
+
+Query  703   ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+              + +      G I G P     P     R+E +  L+N A
+Sbjct  1576  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  1614
+
+
+>WP_081303234.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ANV75380.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ SOD26858.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=2276
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655   DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+             DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  2072  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  2127
+
+Query  713   GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+             G+  G P     P+    R E AT+++++
+Sbjct  2128  GLFKGYPDGTFKPDQNITRAEFATVVLHF  2156
+
+
+ Score = 36.6 bits (83),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600   FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+             F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  2075  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  2129
+
+Query  650   AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                  DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  2130  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  2187
+
+Query  703   ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+              + +      G I G P     P     R+E +  L+N A
+Sbjct  2188  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  2226
+
+
+>WP_020458018.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ Q06852.2 RecName: Full=Cell surface glycoprotein 1; AltName: Full=Outer
+layer protein B; AltName: Full=S-layer protein 1; Flags: Precursor
+[Acetivibrio thermocellus ATCC 27405]
+ ABN54274.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+Length=2313
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 48/89 (54%), Gaps = 6/89 (7%)
+
+Query  655   DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSA--YTDVADVADWAADGMRVAVGS  712
+             DG F  ER ITRAE A IFA+   L G   + G  SA  Y+D+AD   WAA  ++ A
+Sbjct  2109  DGSFRPERNITRAEAAVIFAK---LLGADESYGAQSASPYSDLADTH-WAAWAIKFATSQ  2164
+
+Query  713   GIIGGKPGNLLDPNGTAVRTELATILMNY  741
+             G+  G P     P+    R E AT+++++
+Sbjct  2165  GLFKGYPDGTFKPDQNITRAEFATVVLHF  2193
+
+
+ Score = 36.2 bits (82),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 65/160 (41%), Gaps = 25/160 (16%)
+
+Query  600   FTPNGMVTRA---TVFQTL------YNAQGKPEVGETTFADV-EGKWYASAAAWAEEVGL  649
+             F P   +TRA    +F  L      Y AQ       + ++D+ +  W A A  +A   GL
+Sbjct  2112  FRPERNITRAEAAVIFAKLLGADESYGAQSA-----SPYSDLADTHWAAWAIKFATSQGL  2166
+
+Query  650   AVVPTDGGFYGERAITRAEIATIFARY------AELEGKIVT-DGDLSAYTDVADVADWA  702
+                  DG F  ++ ITRAE AT+   +       E+  K+ T D     + D   V  WA
+Sbjct  2167  FKGYPDGTFKPDQNITRAEFATVVLHFLTKVKGQEIMSKLATIDISNPKFDDC--VGHWA  2224
+
+Query  703   ADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATILMNYA  742
+              + +      G I G P     P     R+E +  L+N A
+Sbjct  2225  QEFIEKLTSLGYISGYPDGTFKPQNYIKRSE-SVALINRA  2263
+
+
+>WP_003517764.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU75298.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09287.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV77039.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC04755.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+ PFH03562.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=246
+
+ Score = 52.8 bits (125),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 47/149 (32%), Positives = 62/149 (42%), Gaps = 7/149 (5%)
+
+Query  596  EAKVFTPNGMVTRATVFQTLYNA---QGKPEVGETTFADV-EGKWYASAAAWAEEVGLAV  651
+            E   F P+  VTRA  F T+ N    +G  E  E TF DV E  W+    A AE+
+Sbjct  60   EDSSFRPSQSVTRAE-FVTMANRFFNRGGGEGLECTFTDVNENDWFFMDVAVAEKAVYIS  118
+
+Query  652  VPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+               DG F     ITR E + I  +    + +  T  D   +TD   ++ WA   +   V
+Sbjct  119  GYPDGTFRPNELITREEASVILCKLINSDPR--THADNIEFTDSDSISPWAYGYVNSLVY  176
+
+Query  712  SGIIGGKPGNLLDPNGTAVRTELATILMN  740
+            + II G P N   P     R E   +L N
+Sbjct  177  NHIIKGYPDNTFRPKNPVTRAEAVVLLDN  205
+
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 45/153 (29%), Positives = 66/153 (43%), Gaps = 14/153 (9%)
+
+Query  615  LYNAQGKPEVGETTFADVEGKWYASAAAWAE---EVGLAVVPTDGGFYGERAITRAEIAT  671
+            L   + +P V    F D+EG W   A  W E   ++G      D  F   +++TRAE  T
+Sbjct  21   LLTVRAEPPVDFKGFNDIEGHW---AQFWIELNAKLGNIAGYEDSSFRPSQSVTRAEFVT  77
+
+Query  672  IFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVR  731
+            +  R+    G    +G    +TDV +  DW    + VA  +  I G P     PN    R
+Sbjct  78   MANRFFNRGGG---EGLECTFTDVNE-NDWFFMDVAVAEKAVYISGYPDGTFRPNELITR  133
+
+Query  732  TELATILMNYAKLSSGYSETYVE-IEVPETDGI  763
+             E + IL    KL +    T+ + IE  ++D I
+Sbjct  134  EEASVIL---CKLINSDPRTHADNIEFTDSDSI  163
+
+
+>WP_003519374.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ ADU73710.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+ ALX07640.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ ANV75382.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ EIC03368.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+YS]
+ PFH01908.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=445
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 65/149 (44%), Gaps = 13/149 (9%)
+
+Query  599  VFTPNGMVTRA---TVFQTLY----NAQGKPEVGETTFADVE-GKWYASAAAWAEEVGLA  650
+            +F P   +TRA    +F  L     N+ GK      TF D++   W A A  +  E  L
+Sbjct  248  LFKPENNITRAEAAVIFAKLLGADENSAGK--NSSITFKDLKDSHWAAWAIKYVTEQNLF  305
+
+Query  651  VVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADV-ADWAADGMRVA  709
+                DG F  +++ITRAE AT+  ++ E  GKI    D+   T + D+   WA   +
+Sbjct  306  GGYPDGTFMPDKSITRAEFATVTYKFLEKLGKIEQGTDVK--TQLKDIEGHWAQKYIETL  363
+
+Query  710  VGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+            V  G I G P     P  +  R E   ++
+Sbjct  364  VAKGYIKGYPDETFRPQASIKRAESVALI  392
+
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 37/86 (43%), Gaps = 1/86 (1%)
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+            G F  E  ITRAE A IFA+    +           + D+ D + WAA  ++      +
+Sbjct  247  GLFKPENNITRAEAAVIFAKLLGADENSAGKNSSITFKDLKD-SHWAAWAIKYVTEQNLF  305
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMNY  741
+            GG P     P+ +  R E AT+   +
+Sbjct  306  GGYPDGTFMPDKSITRAEFATVTYKF  331
+
+
+>WP_003511554.1 cohesin domain-containing protein [Acetivibrio thermocellus]
+ Q06848.1 RecName: Full=Cellulosome-anchoring protein; Flags: Precursor
+[Acetivibrio thermocellus ATCC 27405]
+ CDG37559.1 Cellulosome-anchoring protein [Acetivibrio thermocellus BC1]
+ ABN54276.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+ NLU27924.1 cellulosome-anchoring protein [Acetivibrio thermocellus]
+ THJ76703.1 cellulosome-anchoring protein [Acetivibrio thermocellus]
+ CAA47843.1 cellulosome anchoring protein [Acetivibrio thermocellus]
+Length=447
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 65/149 (44%), Gaps = 13/149 (9%)
+
+Query  599  VFTPNGMVTRA---TVFQTLY----NAQGKPEVGETTFADVE-GKWYASAAAWAEEVGLA  650
+            +F P   +TRA    +F  L     N+ GK      TF D++   W A A  +  E  L
+Sbjct  250  LFKPENNITRAEAAVIFAKLLGADENSAGK--NSSITFKDLKDSHWAAWAIKYVTEQNLF  307
+
+Query  651  VVPTDGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADV-ADWAADGMRVA  709
+                DG F  +++ITRAE AT+  ++ E  GKI    D+   T + D+   WA   +
+Sbjct  308  GGYPDGTFMPDKSITRAEFATVTYKFLEKLGKIEQGTDVK--TQLKDIEGHWAQKYIETL  365
+
+Query  710  VGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+            V  G I G P     P  +  R E   ++
+Sbjct  366  VAKGYIKGYPDETFRPQASIKRAESVALI  394
+
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 37/86 (43%), Gaps = 1/86 (1%)
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+            G F  E  ITRAE A IFA+    +           + D+ D + WAA  ++      +
+Sbjct  249  GLFKPENNITRAEAAVIFAKLLGADENSAGKNSSITFKDLKD-SHWAAWAIKYVTEQNLF  307
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMNY  741
+            GG P     P+ +  R E AT+   +
+Sbjct  308  GGYPDGTFMPDKSITRAEFATVTYKF  333
+
+
+>WP_136479250.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ78830.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=643
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 41/145 (28%), Positives = 61/145 (42%), Gaps = 9/145 (6%)
+
+Query  600  FTPNGMVTRATVFQTLYNAQG---KPEVGETTFADVE-GKWYASAAAWAEEVGLAVVPTD  655
+            F P+  +TRA +   L N  G      + ET F DV+   W A       + G+     D
+Sbjct  456  FKPDNHITRAEIATILANVMGLSVPDNIEETGFKDVDKNHWAARYIKAVTDAGIFKGYED  515
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+              F     I+RAE+AT+  +  +L+ K       S++TD      WA+D +     + II
+Sbjct  516  STFRPNETISRAELATVIFKCLDLDEKKAVK---SSFTDTK--GHWASDFIEEVSRNKII  570
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMN  740
+             G       PNG   R E   ++ N
+Sbjct  571  RGYEDGSFKPNGKVTRAEAVVMINN  595
+
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 3/85 (4%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGI  714
+            D  F  +  ITRAEIATI A    L   +  + + + + DV D   WAA  ++    +GI
+Sbjct  453  DNSFKPDNHITRAEIATILANVMGLS--VPDNIEETGFKDV-DKNHWAARYIKAVTDAGI  509
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILM  739
+              G   +   PN T  R ELAT++
+Sbjct  510  FKGYEDSTFRPNETISRAELATVIF  534
+
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 42/157 (27%), Positives = 65/157 (41%), Gaps = 14/157 (9%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQ  619
+            P+  E   + DVD + W A  +  V + GI      E   F PN  ++RA +   ++
+Sbjct  480  PDNIEETGFKDVDKNHWAARYIKAVTDAGIF--KGYEDSTFRPNETISRAELATVIFKCL  537
+
+Query  620  GKPEVG--ETTFADVEGKWYASAAAWAEEVGLAVVPT---DGGFYGERAITRAEIATIFA  674
+               E    +++F D +G W   A+ + EEV    +     DG F     +TRAE   +
+Sbjct  538  DLDEKKAVKSSFTDTKGHW---ASDFIEEVSRNKIIRGYEDGSFKPNGKVTRAEAVVMIN  594
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+                 +   V   D S +TD+ D   WA   +  A G
+Sbjct  595  NMLYRDPINV---DSSKFTDL-DKKHWAFGHIEAAAG  627
+
+
+ Score = 29.3 bits (64),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 16/31 (52%), Gaps = 0/31 (0%)
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILMNYAKLS  745
+            I G P N   P+    R E+ATIL N   LS
+Sbjct  448  INGYPDNSFKPDNHITRAEIATILANVMGLS  478
+
+
+>NLU27838.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=631
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 41/145 (28%), Positives = 61/145 (42%), Gaps = 9/145 (6%)
+
+Query  600  FTPNGMVTRATVFQTLYNAQG---KPEVGETTFADVE-GKWYASAAAWAEEVGLAVVPTD  655
+            F P+  +TRA +   L N  G      + ET F DV+   W A       + G+     D
+Sbjct  444  FKPDNHITRAEIATILANVMGLSVPDNIEETGFKDVDKNHWAARYIKAVTDAGIFKGYED  503
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+              F     I+RAE+AT+  +  +L+ K       S++TD      WA+D +     + II
+Sbjct  504  STFRPNETISRAELATVIFKCLDLDEKKAVK---SSFTDTK--GHWASDFIEEVSRNKII  558
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMN  740
+             G       PNG   R E   ++ N
+Sbjct  559  RGYEDGSFKPNGKVTRAEAVVMINN  583
+
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 3/85 (4%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGI  714
+            D  F  +  ITRAEIATI A    L   +  + + + + DV D   WAA  ++    +GI
+Sbjct  441  DNSFKPDNHITRAEIATILANVMGLS--VPDNIEETGFKDV-DKNHWAARYIKAVTDAGI  497
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILM  739
+              G   +   PN T  R ELAT++
+Sbjct  498  FKGYEDSTFRPNETISRAELATVIF  522
+
+
+ Score = 43.5 bits (101),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 42/157 (27%), Positives = 65/157 (41%), Gaps = 14/157 (9%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQ  619
+            P+  E   + DVD + W A  +  V + GI      E   F PN  ++RA +   ++
+Sbjct  468  PDNIEETGFKDVDKNHWAARYIKAVTDAGIF--KGYEDSTFRPNETISRAELATVIFKCL  525
+
+Query  620  GKPEVG--ETTFADVEGKWYASAAAWAEEVGLAVVPT---DGGFYGERAITRAEIATIFA  674
+               E    +++F D +G W   A+ + EEV    +     DG F     +TRAE   +
+Sbjct  526  DLDEKKAVKSSFTDTKGHW---ASDFIEEVSRNKIIRGYEDGSFKPNGKVTRAEAVVMIN  582
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+                 +   V   D S +TD+ D   WA   +  A G
+Sbjct  583  NMLYRDPINV---DSSKFTDL-DKKHWAFGHIEAAAG  615
+
+
+ Score = 29.3 bits (64),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 17/36 (47%), Gaps = 0/36 (0%)
+
+Query  710  VGSGIIGGKPGNLLDPNGTAVRTELATILMNYAKLS  745
+            +    I G P N   P+    R E+ATIL N   LS
+Sbjct  431  IHKSYINGYPDNSFKPDNHITRAEIATILANVMGLS  466
+
+
+>WP_003516873.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ABN53358.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75792.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09824.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV77598.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC03661.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+Length=631
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 41/145 (28%), Positives = 61/145 (42%), Gaps = 9/145 (6%)
+
+Query  600  FTPNGMVTRATVFQTLYNAQG---KPEVGETTFADVE-GKWYASAAAWAEEVGLAVVPTD  655
+            F P+  +TRA +   L N  G      + ET F DV+   W A       + G+     D
+Sbjct  444  FKPDNHITRAEIATILANVMGLSVPDNIEETGFKDVDKNHWAARYIKAVTDAGIFKGYED  503
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+              F     I+RAE+AT+  +  +L+ K       S++TD      WA+D +     + II
+Sbjct  504  STFRPNETISRAELATVIFKCLDLDEKKAVK---SSFTDTK--GHWASDFIEEVSRNKII  558
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMN  740
+             G       PNG   R E   ++ N
+Sbjct  559  RGYEDGSFKPNGKVTRAEAVVMINN  583
+
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 3/85 (4%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGI  714
+            D  F  +  ITRAEIATI A    L   +  + + + + DV D   WAA  ++    +GI
+Sbjct  441  DNSFKPDNHITRAEIATILANVMGLS--VPDNIEETGFKDV-DKNHWAARYIKAVTDAGI  497
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILM  739
+              G   +   PN T  R ELAT++
+Sbjct  498  FKGYEDSTFRPNETISRAELATVIF  522
+
+
+ Score = 43.1 bits (100),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 42/157 (27%), Positives = 65/157 (41%), Gaps = 14/157 (9%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQ  619
+            P+  E   + DVD + W A  +  V + GI      E   F PN  ++RA +   ++
+Sbjct  468  PDNIEETGFKDVDKNHWAARYIKAVTDAGIF--KGYEDSTFRPNETISRAELATVIFKCL  525
+
+Query  620  GKPEVG--ETTFADVEGKWYASAAAWAEEVGLAVVPT---DGGFYGERAITRAEIATIFA  674
+               E    +++F D +G W   A+ + EEV    +     DG F     +TRAE   +
+Sbjct  526  DLDEKKAVKSSFTDTKGHW---ASDFIEEVSRNKIIRGYEDGSFKPNGKVTRAEAVVMIN  582
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+                 +   V   D S +TD+ D   WA   +  A G
+Sbjct  583  NMLYRDPINV---DSSKFTDL-DKKHWAFGHIEAAAG  615
+
+
+ Score = 29.3 bits (64),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 17/36 (47%), Gaps = 0/36 (0%)
+
+Query  710  VGSGIIGGKPGNLLDPNGTAVRTELATILMNYAKLS  745
+            +    I G P N   P+    R E+ATIL N   LS
+Sbjct  431  IHKSYINGYPDNSFKPDNHITRAEIATILANVMGLS  466
+
+
+>CDG36671.1 S-layer domain protein [Acetivibrio thermocellus BC1]
+Length=631
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/145 (28%), Positives = 60/145 (41%), Gaps = 9/145 (6%)
+
+Query  600  FTPNGMVTRATVFQTLYNAQG---KPEVGETTFADVE-GKWYASAAAWAEEVGLAVVPTD  655
+            F P+  +TRA +   L N  G      + ET F DV+   W A       + G+     D
+Sbjct  444  FKPDNHITRAEIATILANVMGLSVPDNIEETGFKDVDKNHWAARYIKAVTDAGIFKGYED  503
+
+Query  656  GGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGII  715
+              F     I+RAE+AT+  +   L+ K       S++TD      WA+D +     + II
+Sbjct  504  STFRPNETISRAELATVIFKCLGLDEKKAVK---SSFTDTK--GHWASDFIEEVSRNKII  558
+
+Query  716  GGKPGNLLDPNGTAVRTELATILMN  740
+             G       PNG   R E   ++ N
+Sbjct  559  RGYEDGSFKPNGKVTRAEAVVMINN  583
+
+
+ Score = 45.8 bits (107),  Expect = 4e-05, Method: Compositional matrix adjust.
+ Identities = 43/157 (27%), Positives = 66/157 (42%), Gaps = 14/157 (9%)
+
+Query  560  PEEPETADWADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQ  619
+            P+  E   + DVD + W A  +  V + GI      E   F PN  ++RA +   ++
+Sbjct  468  PDNIEETGFKDVDKNHWAARYIKAVTDAGIF--KGYEDSTFRPNETISRAELATVIFKCL  525
+
+Query  620  GKPEVG--ETTFADVEGKWYASAAAWAEEVGLAVVPT---DGGFYGERAITRAEIATIFA  674
+            G  E    +++F D +G W   A+ + EEV    +     DG F     +TRAE   +
+Sbjct  526  GLDEKKAVKSSFTDTKGHW---ASDFIEEVSRNKIIRGYEDGSFKPNGKVTRAEAVVMIN  582
+
+Query  675  RYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVG  711
+                 +   V   D S +TD+ D   WA   +  A G
+Sbjct  583  NMLYRDPINV---DSSKFTDL-DKKHWAFGHIEAAAG  615
+
+
+ Score = 45.4 bits (106),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 3/85 (4%)
+
+Query  655  DGGFYGERAITRAEIATIFARYAELEGKIVTDGDLSAYTDVADVADWAADGMRVAVGSGI  714
+            D  F  +  ITRAEIATI A    L   +  + + + + DV D   WAA  ++    +GI
+Sbjct  441  DNSFKPDNHITRAEIATILANVMGLS--VPDNIEETGFKDV-DKNHWAARYIKAVTDAGI  497
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILM  739
+              G   +   PN T  R ELAT++
+Sbjct  498  FKGYEDSTFRPNETISRAELATVIF  522
+
+
+ Score = 29.3 bits (64),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 16/31 (52%), Gaps = 0/31 (0%)
+
+Query  715  IGGKPGNLLDPNGTAVRTELATILMNYAKLS  745
+            I G P N   P+    R E+ATIL N   LS
+Sbjct  436  INGYPDNSFKPDNHITRAEIATILANVMGLS  466
+
+
+>CAA61884.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellus ATCC 27405]
+ CAC27412.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellus]
+Length=1321
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 48/173 (28%), Positives = 67/173 (39%), Gaps = 16/173 (9%)
+
+Query  568  WADVDADAWYAEAVHYVIENGIMGSTSTEAKVFTPNGMVTRATVFQTLYNAQGKPEVGET  627
+            WA+ D + W        +E GI+     +     P+  +TRA     +    G  E+
+Sbjct  37   WAEEDLNKW--------MEKGIL--VGYQDGTIRPDNNITRAEFVTLINKVFGLYELSRE  86
+
+Query  628  TFADVE-GKWYASAAAWAEEVGLAVVPTDGGFYGERAITRAEIATIFARYAELE-GKIVT  685
+             FADVE  KWY+     A   G         F  +  ITR E   I A+  EL+ G   T
+Sbjct  87   QFADVEDSKWYSREILKARAAGYIAGYGSNVFKPDNYITRQEAVVIIAKVFELQSGSNYT  146
+
+Query  686  DGDLSAYTDVADVADWAADGMRVAVGSGIIGGKPGNLLDPNGTAVRTELATIL  738
+                S + D + V ++A D +   V  G I G       P+    R E   IL
+Sbjct  147  ----SKFKDGSLVKEYAKDSVSALVEKGYIAGYEDGTFRPDNYITRAETIKIL  195
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.313    0.132    0.380
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 119091
+Number of extensions: 5963
+Number of successful extensions: 39
+Number of sequences better than 100: 10
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 37
+Number of HSP's successfully gapped: 14
+Length of query: 1362
+Length of database: 2835838
+Length adjustment: 101
+Effective length of query: 1261
+Effective length of database: 2021475
+Effective search space: 2549079975
+Effective search space used: 2549079975
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 39 (19.6 bits)
+S2: 52 (24.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

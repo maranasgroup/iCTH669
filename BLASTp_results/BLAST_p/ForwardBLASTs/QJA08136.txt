@@ -1,0 +1,243 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WD6HB77016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QJA08136 5'-nucleotidase [Romboutsia sp.]
+
+Length=252
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513251.1 PspA/IM30 family protein [Acetivibrio thermocel...  28.5    0.88   25%
+WP_003514134.1 cysteine--tRNA ligase [Acetivibrio thermocellus]    27.7    1.7    21%
+WP_004463370.1 PAS domain S-box protein [Acetivibrio thermocel...  27.3    2.7    32%
+WP_003518707.1 PAS domain S-box protein [Acetivibrio thermocel...  27.3    2.7    32%
+NLU26281.1 type VII secretion protein EssC [Acetivibrio thermo...  26.9    3.5    21%
+WP_003516581.1 type VII secretion protein EssC [Acetivibrio th...  26.9    3.6    21%
+CDG35330.1 FHA domain-containing protein [Acetivibrio thermoce...  26.9    3.6    21%
+
+ALIGNMENTS
+>WP_003513251.1 PspA/IM30 family protein [Acetivibrio thermocellus]
+ CDG36931.1 phage shock protein PspA [Acetivibrio thermocellus BC1]
+ ABN53610.1 PspA/IM30 family protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73139.1 PspA/IM30 family protein [Acetivibrio thermocellus DSM 1313]
+ ALX07050.1 PspA/IM30 family protein [Acetivibrio thermocellus AD2]
+ ANV74786.1 PspA/IM30 family protein [Acetivibrio thermocellus DSM 2360]
+Length=242
+
+ Score = 28.5 bits (62),  Expect = 0.88, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 54/126 (43%), Gaps = 18/126 (14%)
+
+Query  125  IAVSYDKFNVDSETYKEAAKYVVNIVSNIKDNLNIFEDCILNVNIPSSDIKGSKITTLGE  184
+            + +  +++    ETYKE     +  V NI++N  IFE  +          K +++ TL
+Sbjct  92   LLMQEEEYQAAYETYKETHDNALREVENIRENYKIFESEMT--------AKLNELKTLKT  143
+
+Query  185  RKYDNALEERVSPYGFRYFWIGGKIRELNQDESSDIKAIENGYISITPVNIEMTNLNKVK  244
+            +     L+E ++    +Y     +I  +NQD       IE        VN ++   N V+
+Sbjct  144  QAKMAKLKENINSVNAKYTSKNNRIGNINQD-------IERAR---EIVNKKIARANAVE  193
+
+Query  245  ILNDMN  250
+             LND N
+Sbjct  194  SLNDAN  199
+
+
+>WP_003514134.1 cysteine--tRNA ligase [Acetivibrio thermocellus]
+ A3DH43.1 RecName: Full=Cysteine--tRNA ligase; AltName: Full=Cysteinyl-tRNA
+synthetase; Short=CysRS [Acetivibrio thermocellus ATCC
+27405]
+ CDG36566.1 Cysteine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ABN53272.1 cysteinyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ ADU75707.1 cysteinyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX09736.1 Cysteinyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV77511.1 Cysteinyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+Length=468
+
+ Score = 27.7 bits (60),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 28/133 (21%), Positives = 54/133 (41%), Gaps = 11/133 (8%)
+
+Query  69   GTPADCVKVGIEALFSDIEFDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNK------  122
+            G   D    G + +F   E ++  S   NG       +++G ++   E + ++K
+Sbjct  216  GETIDIHSGGQDLVFPHHENEIAQSEAANGKPFARFWLHNGFINVDGEKMAKSKGNFFTV  275
+
+Query  123  PAIAVSYD----KFNVDSETYKEAAKYVVNIVSNIKDNLNIFEDCILNVNIPSSDIKGSK  178
+              IA ++D    +F + S  Y+    +   ++   K+ L    +C+ N+       +  K
+Sbjct  276  RDIAKTFDYEVIRFFMLSAHYRSPINFSAELLEQAKNGLERIYNCLDNLEYLKEHAQAEK  335
+
+Query  179  ITTLGERKYDNAL  191
+            IT   ER+  N L
+Sbjct  336  ITD-SERELQNRL  347
+
+
+>WP_004463370.1 PAS domain S-box protein [Acetivibrio thermocellus]
+ NLU27432.1 PAS domain S-box protein [Acetivibrio thermocellus]
+ THJ76800.1 PAS domain S-box protein [Acetivibrio thermocellus]
+ CDG35500.1 multi-sensor hybrid histidine kinase [Acetivibrio thermocellus
+BC1]
+Length=902
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 31/68 (46%), Gaps = 4/68 (6%)
+
+Query  78   GIEA--LFSDIEFDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNKPAIAVSYDKFNVD  135
+            G EA  LF + EFDL+L  +      G +   +  +    EG  ++ P IAV+   F  D
+Sbjct  697  GFEAIKLFEENEFDLILMDVQMPEMDGIEA--TKRIRKMEEGTFRHIPIIAVTAFAFEND  754
+
+Query  136  SETYKEAA  143
+             E   EA
+Sbjct  755  REKILEAG  762
+
+
+>WP_003518707.1 PAS domain S-box protein [Acetivibrio thermocellus]
+ ABN52041.1 multi-sensor hybrid histidine kinase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74477.1 multi-sensor hybrid histidine kinase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08420.1 multi-sensor hybrid histidine kinase [Acetivibrio thermocellus
+AD2]
+ ANV76169.1 multi-sensor hybrid histidine kinase [Acetivibrio thermocellus
+DSM 2360]
+ EIC05626.1 PAS sensor protein [Acetivibrio thermocellus YS]
+Length=902
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 31/68 (46%), Gaps = 4/68 (6%)
+
+Query  78   GIEA--LFSDIEFDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNKPAIAVSYDKFNVD  135
+            G EA  LF + EFDL+L  +      G +   +  +    EG  ++ P IAV+   F  D
+Sbjct  697  GFEAIKLFEENEFDLILMDVQMPEMDGIEA--TKRIRKMEEGTFRHIPIIAVTAFAFEND  754
+
+Query  136  SETYKEAA  143
+             E   EA
+Sbjct  755  REKILEAG  762
+
+
+>NLU26281.1 type VII secretion protein EssC [Acetivibrio thermocellus]
+Length=1559
+
+ Score = 26.9 bits (58),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 31/147 (21%), Positives = 60/147 (41%), Gaps = 32/147 (22%)
+
+Query  34    PDSQRSAT--------GHAITVHNPIMVKDAYVDEDIKAYAISGTPADC----VKVGIEA  81
+             P++QR           GH I   +P   K  ++   I + A++ +P+D     +  G+
+Sbjct  1020  PENQRQVPLTVDLGKEGHLIVYGSPGYGKTTFLQTLIMSLALNYSPSDVNIYILDFGVRT  1079
+
+Query  82    L--FSDIE-----------------FDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNK  122
+             L  FS +                  F  ++  ++   +L +D   S +++A  +   +
+Sbjct  1080  LGIFSGLPHVGGTVMVDEEEKLSKLFKFLIKEMDTRKDLFSDKGVS-SLTAYRDSCGETL  1138
+
+Query  123   PAIAVSYDKFNVDSETYKEAAKYVVNI  149
+             PAI +  D ++  SE Y E   Y++ I
+Sbjct  1139  PAIVIVIDNYSAFSEMYSEYEDYLIQI  1165
+
+
+>WP_003516581.1 type VII secretion protein EssC [Acetivibrio thermocellus]
+ ABN51873.1 FHA domain containing protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU74650.1 FHA domain containing protein [Acetivibrio thermocellus DSM 1313]
+ ALX08593.1 FHA domain containing protein [Acetivibrio thermocellus AD2]
+ ANV76342.1 FHA domain containing protein [Acetivibrio thermocellus DSM 2360]
+ EIC05533.1 cell division FtsK/SpoIIIE [Acetivibrio thermocellus YS]
+Length=1559
+
+ Score = 26.9 bits (58),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 31/147 (21%), Positives = 60/147 (41%), Gaps = 32/147 (22%)
+
+Query  34    PDSQRSAT--------GHAITVHNPIMVKDAYVDEDIKAYAISGTPADC----VKVGIEA  81
+             P++QR           GH I   +P   K  ++   I + A++ +P+D     +  G+
+Sbjct  1020  PENQRQVPLTVDLGKEGHLIVYGSPGYGKTTFLQTLIMSLALNYSPSDVNIYILDFGVRT  1079
+
+Query  82    L--FSDIE-----------------FDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNK  122
+             L  FS +                  F  ++  ++   +L +D   S +++A  +   +
+Sbjct  1080  LGIFSGLPHVGGTVMVDEEEKLSKLFKFLIKEMDTRKDLFSDKGVS-SLTAYRDSCGETL  1138
+
+Query  123   PAIAVSYDKFNVDSETYKEAAKYVVNI  149
+             PAI +  D ++  SE Y E   Y++ I
+Sbjct  1139  PAIVIVIDNYSAFSEMYSEYEDYLIQI  1165
+
+
+>CDG35330.1 FHA domain-containing protein [Acetivibrio thermocellus BC1]
+Length=1559
+
+ Score = 26.9 bits (58),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 31/147 (21%), Positives = 60/147 (41%), Gaps = 32/147 (22%)
+
+Query  34    PDSQRSAT--------GHAITVHNPIMVKDAYVDEDIKAYAISGTPADC----VKVGIEA  81
+             P++QR           GH I   +P   K  ++   I + A++ +P+D     +  G+
+Sbjct  1020  PENQRQVPLTVDLGKEGHLIVYGSPGYGKTTFLQTLIMSLALNYSPSDVNIYILDFGVRT  1079
+
+Query  82    L--FSDIE-----------------FDLVLSGINNGPNLGTDVIYSGTVSAAIEGLVQNK  122
+             L  FS +                  F  ++  ++   +L +D   S +++A  +   +
+Sbjct  1080  LGIFSGLPHVGGTVMVDEEEKLSKLFKFLIKEMDTRKDLFSDKGVS-SLTAYRDSCGETL  1138
+
+Query  123   PAIAVSYDKFNVDSETYKEAAKYVVNI  149
+             PAI +  D ++  SE Y E   Y++ I
+Sbjct  1139  PAIVIVIDNYSAFSEMYSEYEDYLIQI  1165
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.135    0.375
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21208
+Number of extensions: 997
+Number of successful extensions: 29
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 29
+Number of HSP's successfully gapped: 8
+Length of query: 252
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 165
+Effective length of database: 2134357
+Effective search space: 352168905
+Effective search space used: 352168905
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,227 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WV5YW06013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBK80727 5'-nucleotidase [Coprococcus catus]
+
+Length=560
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837971.1 TnsD family Tn7-like transposition protein [Ace...  30.8    0.53   24%
+WP_003516902.1 methyl-accepting chemotaxis protein [Acetivibri...  30.0    1.1    47%
+CDG37522.1 methyl-accepting chemotaxis sensory transducer [Ace...  30.0    1.1    47%
+NLU27403.1 methyl-accepting chemotaxis protein [Acetivibrio th...  29.6    1.2    47%
+WP_003514399.1 Crp/Fnr family transcriptional regulator [Aceti...  26.9    7.3    28%
+WP_003520794.1 DHHA1 domain-containing protein [Acetivibrio th...  26.9    8.4    28%
+WP_003512295.1 single-stranded-DNA-specific exonuclease RecJ [...  26.9    9.3    28%
+WP_011838014.1 hypothetical protein [Acetivibrio thermocellus]     25.4    9.3    36%
+
+ALIGNMENTS
+>WP_011837971.1 TnsD family Tn7-like transposition protein [Acetivibrio thermocellus]
+ ABN52346.1 Tn7-like transposition protein D [Acetivibrio thermocellus ATCC
+27405]
+Length=628
+
+ Score = 30.8 bits (68),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 37/154 (24%), Positives = 67/154 (44%), Gaps = 20/154 (13%)
+
+Query  102  SVIAEMDNGQSILSLMNTMQYDAMVPGPMDFVYGADTLSSLRSKASFPFLAANITKADGS  161
+            SV A MD   +I +L+N M        P++  Y  + L  +++   FPF +A +
+Sbjct  42   SVTAVMDLPSNIHNLVNNM--------PLNSRYTEEYL--IKNHTLFPFYSAFLPPERAE  91
+
+Query  162  TVFENYKILNINSV--RIGVIGVTTGLSQTQAQKSSLTVADPV---ETVKNVLSQMSGKT  216
+             VF++ K  N  S+  R G++  +  L+Q      + T  D +   E   + + Q+SG
+Sbjct  92   QVFQSMKGENGGSIYTRTGIMASSIVLNQYFKFCPTCTEEDKLQYGELYWHRVHQISG--  149
+
+Query  217  DAVIVLTYTGSEDITNALAAIDGVSIVIESGASE  250
+               +++       + N+L  + G +      ASE
+Sbjct  150  ---VLVCPKHYVPLYNSLVPVRGYNKYQYKAASE  180
+
+
+>WP_003516902.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN54232.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73669.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX07598.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75338.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC03480.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+Length=570
+
+ Score = 30.0 bits (66),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 3/32 (9%)
+
+Query  25   IIIVLIGIILVAL---IAHTILRPDRNATLRI  53
+            +I VLIG+I VA+   IA TI+ P +N  L++
+Sbjct  193  LISVLIGLIAVAIGFVIARTIINPIKNVILKL  224
+
+
+>CDG37522.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+BC1]
+Length=570
+
+ Score = 30.0 bits (66),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 3/32 (9%)
+
+Query  25   IIIVLIGIILVAL---IAHTILRPDRNATLRI  53
+            +I VLIG+I VA+   IA TI+ P +N  L++
+Sbjct  193  LISVLIGLIAVAIGFVIARTIINPIKNVILKL  224
+
+
+>NLU27403.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=494
+
+ Score = 29.6 bits (65),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 15/32 (47%), Positives = 22/32 (69%), Gaps = 3/32 (9%)
+
+Query  25   IIIVLIGIILVAL---IAHTILRPDRNATLRI  53
+            +I VLIG+I VA+   IA TI+ P +N  L++
+Sbjct  193  LISVLIGLIAVAIGFVIARTIINPIKNVILKL  224
+
+
+>WP_003514399.1 Crp/Fnr family transcriptional regulator [Acetivibrio thermocellus]
+ CDG37292.1 Crp/FNR family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN53974.1 transcriptional regulator, Crp/Fnr family [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73450.1 transcriptional regulator, Crp/Fnr family [Acetivibrio thermocellus
+DSM 1313]
+ ALX07372.1 transcriptional regulator, Crp/Fnr family [Acetivibrio thermocellus
+AD2]
+ ANV75110.1 transcriptional regulator, Crp/Fnr family [Acetivibrio thermocellus
+DSM 2360]
+Length=232
+
+ Score = 26.9 bits (58),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 34/67 (51%), Gaps = 1/67 (1%)
+
+Query  216  TDAVIVLTYTGSEDITNALAAIDGVSIVIESGASEAFANTADNGTVITSAGTKGNVIGVA  275
+             + +I   Y+  E I    + +D + I+I SG  +AF NT +    I    ++G+  G
+Sbjct  35   VNLIIRKRYSRGEMIVLEGSHLDRL-IIINSGKVKAFRNTFEGKEQILYIFSQGDFFGEK  93
+
+Query  276  SLDINRS  282
+            +L IN++
+Sbjct  94   NLLINQT  100
+
+
+>WP_003520794.1 DHHA1 domain-containing protein [Acetivibrio thermocellus]
+ ANV76793.1 phosphoesterase DHHA1 [Acetivibrio thermocellus DSM 2360]
+ EIC04944.1 phosphoesterase DHHA1 [Acetivibrio thermocellus YS]
+ PFH03317.1 single-stranded-DNA-specific exonuclease [Acetivibrio thermocellus
+AD2]
+Length=452
+
+ Score = 26.9 bits (58),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 16/57 (28%), Positives = 26/57 (46%), Gaps = 8/57 (14%)
+
+Query  395  DQSISGTLANGIVSKGQVRNLFDDQLYLVTCKMTGGDLRTALENSFNNYPNADGFLQ  451
+            D  I  TL   + S G+ + LF+ ++          + +T +EN    YPNA  F +
+Sbjct  236  DAGIQLTLEYMVESFGKFKKLFEGEII--------DERKTTVENLLRKYPNAQIFYE  284
+
+
+>WP_003512295.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus]
+ CDG34887.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus
+BC1]
+ ABN51449.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus
+ATCC 27405]
+ NLU27158.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus]
+ THJ78318.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus]
+ HBW25953.1 single-stranded-DNA-specific exonuclease RecJ [Acetivibrio thermocellus]
+Length=763
+
+ Score = 26.9 bits (58),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 16/57 (28%), Positives = 26/57 (46%), Gaps = 8/57 (14%)
+
+Query  395  DQSISGTLANGIVSKGQVRNLFDDQLYLVTCKMTGGDLRTALENSFNNYPNADGFLQ  451
+            D  I  TL   + S G+ + LF+ ++          + +T +EN    YPNA  F +
+Sbjct  547  DAGIQLTLEYMVESFGKFKKLFEGEII--------DERKTTVENLLRKYPNAQIFYE  595
+
+
+>WP_011838014.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52390.1 hypothetical protein Cthe_1158 [Acetivibrio thermocellus ATCC
+27405]
+ THJ77575.1 hypothetical protein EPD62_10515 [Acetivibrio thermocellus]
+Length=96
+
+ Score = 25.4 bits (54),  Expect = 9.3, Method: Composition-based stats.
+ Identities = 22/61 (36%), Positives = 30/61 (49%), Gaps = 14/61 (23%)
+
+Query  195  SLTVADPVETVKNVLSQMSGKTDAVI--VLTYTGSED-----------ITNALAAIDGVS  241
+            SL   D +E V N+LS+   KTD VI  VL+Y G  D           +  A+A   G++
+Sbjct  11   SLDRKDDLE-VFNILSKQKYKTDYVIKAVLSYIGERDKGFDKEIVKQAVKEAIAECGGIT  69
+
+Query  242  I  242
+            I
+Sbjct  70   I  70
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.311    0.126    0.336
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 32946
+Number of extensions: 1374
+Number of successful extensions: 21
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 5
+Length of query: 560
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 466
+Effective length of database: 2077916
+Effective search space: 968308856
+Effective search space used: 968308856
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

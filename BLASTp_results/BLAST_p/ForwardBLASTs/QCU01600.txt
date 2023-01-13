@@ -1,0 +1,419 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBSNEN401R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QCU01600 5'-nucleotidase [Blautia sp.]
+
+Length=657
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio t...  32.7    0.15   33%
+WP_004463806.1 tryptophan synthase subunit beta [Acetivibrio t...  32.7    0.16   33%
+CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]   31.2    0.45   23%
+WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]   30.8    0.49   23%
+CDG37244.1 hypothetical protein CTHBC1_2661 [Acetivibrio therm...  26.6    3.4    28%
+CDG37558.1 Cell surface glycoprotein 2 [Acetivibrio thermocell...  28.5    3.6    30%
+5G5D_A Chain A, Cellulosome Anchoring Protein Cohesin Region [...  27.7    3.9    30%
+WP_011837983.1 hypothetical protein [Acetivibrio thermocellus]     26.9    5.4    26%
+WP_003519375.1 Cthe_3079 family anchoring scaffoldin [Acetivib...  27.7    6.0    30%
+WP_003520981.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.3    34%
+WP_004463301.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.3    34%
+WP_011837888.1 CBS domain-containing protein [Acetivibrio ther...  27.7    6.4    34%
+NLU26319.1 CBS domain-containing protein [Acetivibrio thermoce...  27.7    7.0    34%
+WP_003511665.1 VWA domain-containing protein [Acetivibrio ther...  27.3    8.7    27%
+WP_136479184.1 VWA domain-containing protein [Acetivibrio ther...  27.3    8.7    27%
+WP_003511967.1 CotH kinase family protein [Acetivibrio thermoc...  27.3    9.2    31%
+WP_136479583.1 CotH kinase family protein [Acetivibrio thermoc...  27.3    9.3    31%
+WP_003518383.1 CotH kinase family protein [Acetivibrio thermoc...  26.9    9.4    31%
+CAB76936.1 putative cellulosomal protein [Acetivibrio thermoce...  26.9    9.5    31%
+NLU25654.1 dockerin [Acetivibrio thermocellus]                     26.9    9.7    31%
+
+ALIGNMENTS
+>WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ ADU73905.1 tryptophan synthase, beta subunit [Acetivibrio thermocellus DSM
+1313]
+ ALX07844.1 Tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+ ANV75589.1 Tryptophan synthase beta chain [Acetivibrio thermocellus DSM
+2360]
+ EIC03210.1 Tryptophan synthase beta chain [Acetivibrio thermocellus YS]
+Length=394
+
+ Score = 32.7 bits (73),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 40/79 (51%), Gaps = 13/79 (16%)
+
+Query  44   HDTHSHLNS------FSTIVDGEQKEVGGFARIKTLIDEKKQEDPDTLV--LDGGDFSMG  95
+            HDTH  L S      F TIV   Q  +G    IK  I EK+ + PD ++  + GG  ++G
+Sbjct  180  HDTHYVLGSVMGPHPFPTIVRDFQSVIG--REIKKQIMEKEGKLPDVVMACVGGGSNAIG  237
+
+Query  96   TLIQTVYDTEAAELRMLGC  114
+               + + D+    +R++GC
+Sbjct  238  AFYEFIGDS---SVRLIGC  253
+
+
+>WP_004463806.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ ABN52643.1 tryptophan synthase, beta subunit [Acetivibrio thermocellus ATCC
+27405]
+ NLU27022.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ CDG36089.1 Tryptophan synthase beta chain [Acetivibrio thermocellus BC1]
+ HBW27402.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+Length=394
+
+ Score = 32.7 bits (73),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 26/79 (33%), Positives = 40/79 (51%), Gaps = 13/79 (16%)
+
+Query  44   HDTHSHLNS------FSTIVDGEQKEVGGFARIKTLIDEKKQEDPDTLV--LDGGDFSMG  95
+            HDTH  L S      F TIV   Q  +G    IK  I EK+ + PD ++  + GG  ++G
+Sbjct  180  HDTHYVLGSVMGPHPFPTIVRDFQSVIG--REIKKQIMEKEGKLPDVVMACVGGGSNAIG  237
+
+Query  96   TLIQTVYDTEAAELRMLGC  114
+               + + D+    +R++GC
+Sbjct  238  AFYEFIGDS---SVRLIGC  253
+
+
+>CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+Length=273
+
+ Score = 31.2 bits (69),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 49/212 (23%), Positives = 85/212 (40%), Gaps = 71/212 (33%)
+
+Query  69   RIKTLIDEKKQEDPDTLVLDGGDF--SMGTLIQTVYDTEAAELRMLGCLGYDVTTLGNHE  126
+            R++ L+ +    +PD ++  GGD+    G  I+  ++  +     LG  G     LGNH+
+Sbjct  66   RVRNLVKKINNLNPD-IIFVGGDYVEKGGQYIKPCFEELSGLKASLGKYG----VLGNHD  120
+
+Query  127  YDYRSKGLANMLEAAKDSGETVPALVVCNVDWDSMEQSGLSDGQKLIRSA--FETYGVKD  184
+            Y YR+  L                         SM ++G++    L+ +A  + TYG
+Sbjct  121  Y-YRNGDLVR----------------------QSMREAGIT----LLDNADLWITYG---  150
+
+Query  185  YVVVQKGDVKAAVVGVFGKDALECAPTCELKFKDPVEAVKQTVEEIRKNEKVDMIACVSH  244
+                  G +K   VG F +            +  P+E+  + V E       D +  +SH
+Sbjct  151  -----SGRIKVCGVGYFKR------------YLKPIESYLKGVSE------DDFVVLLSH  187
+
+Query  245  GGTWEDENKSEDEILAKEVPDIDLIISGHTHS  276
+                 D + +E+    K    +D+++SGHTH
+Sbjct  188  -----DPDYAENIRNYK----VDIVLSGHTHG  210
+
+
+>WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]
+ ABN53371.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75808.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09840.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+ ANV77614.1 metallophosphoesterase [Acetivibrio thermocellus DSM 2360]
+ EIC03645.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=273
+
+ Score = 30.8 bits (68),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 49/212 (23%), Positives = 85/212 (40%), Gaps = 71/212 (33%)
+
+Query  69   RIKTLIDEKKQEDPDTLVLDGGDF--SMGTLIQTVYDTEAAELRMLGCLGYDVTTLGNHE  126
+            R++ L+ +    +PD ++  GGD+    G  I+  ++  +     LG  G     LGNH+
+Sbjct  66   RVRNLVKKINNLNPD-IIFVGGDYVEKGGQYIKPCFEELSGLKAPLGKYG----VLGNHD  120
+
+Query  127  YDYRSKGLANMLEAAKDSGETVPALVVCNVDWDSMEQSGLSDGQKLIRSA--FETYGVKD  184
+            Y YR+  L                         SM ++G++    L+ +A  + TYG
+Sbjct  121  Y-YRNGDLVR----------------------QSMREAGIT----LLDNADLWITYG---  150
+
+Query  185  YVVVQKGDVKAAVVGVFGKDALECAPTCELKFKDPVEAVKQTVEEIRKNEKVDMIACVSH  244
+                  G +K   VG F +            +  P+E+  + V E       D +  +SH
+Sbjct  151  -----SGRIKVCGVGYFKR------------YLKPIESYLKGVSE------DDFVVLLSH  187
+
+Query  245  GGTWEDENKSEDEILAKEVPDIDLIISGHTHS  276
+                 D + +E+    K    +D+++SGHTH
+Sbjct  188  -----DPDYAENIRNYK----VDIVLSGHTHG  210
+
+
+>CDG37244.1 hypothetical protein CTHBC1_2661 [Acetivibrio thermocellus BC1]
+Length=89
+
+ Score = 26.6 bits (57),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 32/76 (42%), Gaps = 17/76 (22%)
+
+Query  68   ARIKTLIDEKKQEDPDTLVLDGGDFSMGTLIQTVYDTEAAELRMLGCLGYDVTTLGNHEY  127
+            ARIK LI++KK+                  +Q  YD EA  L   G   Y + +     Y
+Sbjct  6    ARIKELIEQKKRR-----------------LQLYYDREAEMLSQDGVKSYSIGSRNLSRY  48
+
+Query  128  DYRSKGLANMLEAAKD  143
+            D   K + + ++A +D
+Sbjct  49   DTALKDIQDKIKALED  64
+
+
+>CDG37558.1 Cell surface glycoprotein 2 [Acetivibrio thermocellus BC1]
+Length=688
+
+ Score = 28.5 bits (62),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 25/56 (45%), Gaps = 7/56 (13%)
+
+Query  118  DVTTLGNHEYDYRSKGLANMLEAAKDSGETVPALVVCNVDWDSMEQSGLSDGQKLI  173
+            D   L N EY+        +L+A  D    +     C V WDS  +SG+S+   +I
+Sbjct  267  DPELLSNREYN-------PLLKAVNDINSGIINYASCYVYWDSYRESGVSESTGII  315
+
+
+>5G5D_A Chain A, Cellulosome Anchoring Protein Cohesin Region [Acetivibrio
+thermocellus AD2]
+ 5K39_A Chain A, Cellulosome anchoring protein cohesin region [Acetivibrio
+thermocellus 27405]
+Length=171
+
+ Score = 27.7 bits (60),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 24/56 (43%), Gaps = 7/56 (13%)
+
+Query  118  DVTTLGNHEYDYRSKGLANMLEAAKDSGETVPALVVCNVDWDSMEQSGLSDGQKLI  173
+            D   L N EY+        +L A  D    +     C V WDS  +SG+S+   +I
+Sbjct  66   DPELLSNREYN-------PLLTAVNDINSGIINYASCYVYWDSYRESGVSESTGII  114
+
+
+>WP_011837983.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52358.1 hypothetical protein Cthe_1126 [Acetivibrio thermocellus ATCC
+27405]
+Length=157
+
+ Score = 26.9 bits (58),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 22/86 (26%), Positives = 43/86 (50%), Gaps = 11/86 (13%)
+
+Query  284  HGNTYIVSCGEYGRNL--GSLSLTQKQDGRWELTSYELIPVSEEVK------PDQATQEQ  335
+            + N+ I  CG Y +N      +LTQ++     + SY L  +  +VK       +  T+E+
+Sbjct  14   YSNSIINECGGYFQNKIEKDEALTQEE---LTIASYLLSYLPTQVKLTKDELKNYFTKEE  70
+
+Query  336  IDALMDTVDKNYLADFGYTREEVLAE  361
+               L+   +  YL++F   +E++++E
+Sbjct  71   AFMLISLFNSTYLSNFSSAKEKLISE  96
+
+
+>WP_003519375.1 Cthe_3079 family anchoring scaffoldin [Acetivibrio thermocellus]
+ Q06853.1 RecName: Full=Cell surface glycoprotein 2; AltName: Full=S-layer
+protein 2; Flags: Precursor [Acetivibrio thermocellus ATCC
+27405]
+ ABN54275.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73709.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+ ALX07639.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ ANV75381.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ EIC03369.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+YS]
+Length=688
+
+ Score = 27.7 bits (60),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 24/56 (43%), Gaps = 7/56 (13%)
+
+Query  118  DVTTLGNHEYDYRSKGLANMLEAAKDSGETVPALVVCNVDWDSMEQSGLSDGQKLI  173
+            D   L N EY+        +L A  D    +     C V WDS  +SG+S+   +I
+Sbjct  267  DPELLSNREYN-------PLLTAVNDINSGIINYASCYVYWDSYRESGVSESTGII  315
+
+
+>WP_003520981.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ ADU74601.1 CBS domain containing protein [Acetivibrio thermocellus DSM 1313]
+ ALX08545.1 putative signal transduction protein with CBS domain containing
+protein [Acetivibrio thermocellus AD2]
+ ANV76294.1 putative signal transduction protein with CBS domain containing
+protein [Acetivibrio thermocellus DSM 2360]
+ EIC05485.1 CBS domain containing protein [Acetivibrio thermocellus YS]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>WP_004463301.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ THJ78229.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ CDG35377.1 CBS domain containing protein [Acetivibrio thermocellus BC1]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>WP_011837888.1 CBS domain-containing protein [Acetivibrio thermocellus]
+ ABN51919.1 Polynucleotide adenylyltransferase region [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27619.1 CBS domain-containing protein [Acetivibrio thermocellus]
+Length=877
+
+ Score = 27.7 bits (60),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  550  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  588
+
+
+>NLU26319.1 CBS domain-containing protein [Acetivibrio thermocellus]
+Length=789
+
+ Score = 27.7 bits (60),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 5/44 (11%)
+
+Query  397  EYYDGDPVDVAVVPSGTVRDTYTKGDITVEDVFNSFSLGIGKDG  440
+            EYY+  P  + VV  GT++D   + D T+    NS ++ + K G
+Sbjct  548  EYYEY-PASLPVVEGGTIKDDLFRRDFTI----NSMAIKLNKSG  586
+
+
+>WP_003511665.1 VWA domain-containing protein [Acetivibrio thermocellus]
+ CDG37612.1 von Willebrand factor, type A [Acetivibrio thermocellus BC1]
+ ABN54326.1 von Willebrand factor type A [Acetivibrio thermocellus ATCC 27405]
+ ADU73764.1 von Willebrand factor type A [Acetivibrio thermocellus DSM 1313]
+ ALX07694.1 von Willebrand factor type A [Acetivibrio thermocellus AD2]
+ ANV75436.1 von Willebrand factor type A [Acetivibrio thermocellus DSM 2360]
+Length=565
+
+ Score = 27.3 bits (59),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 27/44 (61%), Gaps = 0/44 (0%)
+
+Query  248  WEDENKSEDEILAKEVPDIDLIISGHTHSELKEAIQHGNTYIVS  291
+            W+++    ++I+A  V D+   ++G   + LK+++ +G+ YI S
+Sbjct  381  WKEKKDVNNDIVAVFVADVSGSMAGEPLNRLKQSLINGSKYISS  424
+
+
+>WP_136479184.1 VWA domain-containing protein [Acetivibrio thermocellus]
+ THJ79098.1 VWA domain-containing protein [Acetivibrio thermocellus]
+Length=565
+
+ Score = 27.3 bits (59),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 27/44 (61%), Gaps = 0/44 (0%)
+
+Query  248  WEDENKSEDEILAKEVPDIDLIISGHTHSELKEAIQHGNTYIVS  291
+            W+++    ++I+A  V D+   ++G   + LK+++ +G+ YI S
+Sbjct  381  WKEKKDVNNDIVAVFVADVSGSMAGEPLNRLKQSLINGSKYISS  424
+
+
+>WP_003511967.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ABN51285.1 Spore coat protein CotH [Acetivibrio thermocellus ATCC 27405]
+ CDG34727.1 dockerin type I cellulosome protein [Acetivibrio thermocellus
+BC1]
+ HBW26671.1 dockerin [Acetivibrio thermocellus]
+Length=533
+
+ Score = 27.3 bits (59),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 9/54 (17%)
+
+Query  587  ANVPE-YYETTHGRKVV--------EDSRNIIDLVKQPNKFSAMIAGICLIFIV  631
+            A+ PE + E THG+K          ED  N ID++  P  F  M   +  +F++
+Sbjct  29   ASRPEGWTEETHGKKATPNYSVVFPEDKVNRIDIIISPENFQRMENDVFKVFMM  82
+
+
+>WP_136479583.1 CotH kinase family protein [Acetivibrio thermocellus]
+ THJ77258.1 dockerin [Acetivibrio thermocellus]
+Length=533
+
+ Score = 27.3 bits (59),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 9/54 (17%)
+
+Query  587  ANVPE-YYETTHGRKVV--------EDSRNIIDLVKQPNKFSAMIAGICLIFIV  631
+            A+ PE + E THG+K          ED  N ID++  P  F  M   +  +F++
+Sbjct  29   ASRPEGWTEETHGKKATPNYSVVFPEDKVNRIDIIISPENFQRMENDVFKVFMM  82
+
+
+>WP_003518383.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ADU75228.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 1313]
+ ALX09203.1 Spore coat protein CotH [Acetivibrio thermocellus AD2]
+ ANV76955.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 2360]
+ EIC04922.1 Spore coat protein CotH [Acetivibrio thermocellus YS]
+Length=533
+
+ Score = 26.9 bits (58),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 9/54 (17%)
+
+Query  587  ANVPE-YYETTHGRKVV--------EDSRNIIDLVKQPNKFSAMIAGICLIFIV  631
+            A+ PE + E THG+K          ED  N ID++  P  F  M   +  +F++
+Sbjct  29   ASRPEGWTEETHGKKATPNYSVVFPEDKVNRIDIIISPENFQRMENDVFKVFMM  82
+
+
+>CAB76936.1 putative cellulosomal protein [Acetivibrio thermocellus]
+Length=533
+
+ Score = 26.9 bits (58),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 9/54 (17%)
+
+Query  587  ANVPE-YYETTHGRKVV--------EDSRNIIDLVKQPNKFSAMIAGICLIFIV  631
+            A+ PE + E THG+K          ED  N ID++  P  F  M   +  +F++
+Sbjct  29   ASRPEGWTEETHGKKATPNYSVVFPEDKVNRIDIIISPENFQRMENDVFKVFMM  82
+
+
+>NLU25654.1 dockerin [Acetivibrio thermocellus]
+Length=524
+
+ Score = 26.9 bits (58),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 26/54 (48%), Gaps = 9/54 (17%)
+
+Query  587  ANVPE-YYETTHGRKVV--------EDSRNIIDLVKQPNKFSAMIAGICLIFIV  631
+            A+ PE + E THG+K          ED  N ID++  P  F  M   +  +F++
+Sbjct  20   ASRPEGWTEETHGKKATPNYSVVFPEDKVNRIDIIISPENFQRMENDVFKVFMM  73
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.316    0.135    0.385
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 29151
+Number of extensions: 1342
+Number of successful extensions: 15
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 2
+Length of query: 657
+Length of database: 2859109
+Length adjustment: 95
+Effective length of query: 562
+Effective length of database: 2083719
+Effective search space: 1171050078
+Effective search space used: 1171050078
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

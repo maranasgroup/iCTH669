@@ -1,0 +1,162 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGJ80N2016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AYH39639 5'-nucleotidase [Christensenella minuta]
+
+Length=263
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermo...  28.5    1.1    30%
+WP_003511783.1 YhcN/YlaJ family sporulation lipoprotein [Aceti...  26.2    5.0    36%
+WP_003518450.1 RDD family protein [Acetivibrio thermocellus]       25.8    5.9    25%
+WP_011838232.1 HNH endonuclease [Acetivibrio thermocellus]         25.0    6.5    26%
+
+ALIGNMENTS
+>WP_003516619.1 pilus assembly protein PilM [Acetivibrio thermocellus]
+ CDG35349.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+BC1]
+ ABN51891.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74630.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 1313]
+ ALX08573.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+AD2]
+ ANV76322.1 type IV pilus assembly protein PilM [Acetivibrio thermocellus
+DSM 2360]
+Length=368
+
+ Score = 28.5 bits (62),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  52   LTVKPVDGFGMPAYAVAGTPADCVKIGMAHLLDKKADIVLSGI---NIGANLGSDIVYSG  108
+            + VK  +   +  Y +  TP DC+K G  + +D+   ++ S I   N+ A   + I+ SG
+Sbjct  27   VAVKKNNNIFIENYGIVPTPPDCIKNGAIYDVDRVLSVIKSVIREQNMKAK-NAKIIMSG  85
+
+Query  109  T  109
+            T
+Sbjct  86   T  86
+
+
+>WP_003511783.1 YhcN/YlaJ family sporulation lipoprotein [Acetivibrio thermocellus]
+ CDG37676.1 hypothetical protein CTHBC1_3118 [Acetivibrio thermocellus BC1]
+ ABN54389.1 Sporulation lipoprotein YhcN/YlaJ-like protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73821.1 Sporulation lipoprotein YhcN/YlaJ-like protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07754.1 Sporulation lipoprotein YhcN/YlaJ-like protein [Acetivibrio thermocellus
+AD2]
+ ANV75496.1 Sporulation lipoprotein YhcN/YlaJ-like protein [Acetivibrio thermocellus
+DSM 2360]
+Length=216
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 28/55 (51%), Gaps = 7/55 (13%)
+
+Query  111  NAALEANMLGIPAVAFSQSLLRTQDEDSSAYFRE-AANLSVQLMQAFAVEELKEC  164
+            N  L  NM+G PA +  Q+   T     +A  RE A N++ QL    A+ E+KE
+Sbjct  82   NGLLGGNMMGSPAASPGQN---TPAPQGNAVMREKATNITSQL---AAMPEIKEA  130
+
+
+>WP_003518450.1 RDD family protein [Acetivibrio thermocellus]
+ CDG36458.1 RDD domain-containing protein [Acetivibrio thermocellus BC1]
+ ABN53158.1 RDD domain containing protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75612.1 RDD domain containing protein [Acetivibrio thermocellus DSM 1313]
+ ALX09605.1 RDD domain containing protein [Acetivibrio thermocellus AD2]
+ ANV77379.1 RDD domain containing protein [Acetivibrio thermocellus DSM 2360]
+Length=246
+
+ Score = 25.8 bits (55),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 28/111 (25%), Positives = 50/111 (45%), Gaps = 22/111 (20%)
+
+Query  70   TPADCVKIGMAHLLDKKADIVLSGINIGANLGSDIVYSGTVNAALEANMLGIPAVAFSQS  129
+            T +  ++   A L+D    I+L+G+  G  +             LEA  +G+P     Q+
+Sbjct  2    TVSGVLRRYFAWLID---SIILAGLTFGLTM------------FLEALGVGVPLNELVQA  46
+
+Query  130  LLRTQDEDSSAYFREAANLSVQLMQAFAVEELKECIYNVNFPAAAGSAIRG  180
+            ++R  ++       E  N S QL + +A+  +   IY + F A++ SA  G
+Sbjct  47   MIRKTEQS-----LEVIN-SFQL-EVWAIYAVLFFIYEIVFVASSLSATPG  90
+
+
+>WP_011838232.1 HNH endonuclease [Acetivibrio thermocellus]
+ ABN52952.1 HNH endonuclease [Acetivibrio thermocellus ATCC 27405]
+ HBW26509.1 HNH endonuclease [Acetivibrio thermocellus]
+Length=126
+
+ Score = 25.0 bits (53),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 14/54 (26%), Positives = 24/54 (44%), Gaps = 0/54 (0%)
+
+Query  182  RFCEQGISAYDDTYEKRTDPFGREYFWISGHLMEDEYNEKHQTDIKWNREGYIT  235
+            R+CE+     + TY K   P+G  Y       +  ++  KH    +  R+G +T
+Sbjct  21   RYCEKHQKEINKTYNKNCRPYGYLYNSSRWRRLRKQFLHKHPLCEECKRKGIVT  74
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.134    0.399
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18613
+Number of extensions: 733
+Number of successful extensions: 17
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 17
+Number of HSP's successfully gapped: 3
+Length of query: 263
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 176
+Effective length of database: 2134357
+Effective search space: 375646832
+Effective search space used: 375646832
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

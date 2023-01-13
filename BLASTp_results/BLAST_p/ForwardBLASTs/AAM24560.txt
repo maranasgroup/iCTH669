@@ -1,0 +1,325 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W5EAJKR013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AAM24560 5'-nucleotidase [Caldanaerobacter subterraneus]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_235836027.1 heavy metal translocating P-type ATPase [Acetiv...  30.0    0.37   26%
+WP_004463512.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibri...  29.6    0.46   26%
+WP_003513786.1 heavy metal translocating P-type ATPase [Acetiv...  29.6    0.49   26%
+WP_131538028.1 heavy metal translocating P-type ATPase [Acetiv...  29.6    0.54   26%
+WP_136479426.1 phage tail family protein [Acetivibrio thermoce...  26.9    2.4    43%
+WP_011838145.1 phage tail family protein [Acetivibrio thermoce...  26.9    2.5    43%
+WP_003519324.1 HAMP domain-containing histidine kinase [Acetiv...  26.9    2.9    37%
+WP_011838302.1 HAMP domain-containing histidine kinase [Acetiv...  26.9    2.9    37%
+WP_003512596.1 class II fructose-1,6-bisphosphate aldolase [Ac...  26.6    4.3    33%
+WP_003516032.1 phage tail family protein [Acetivibrio thermoce...  26.2    4.9    45%
+CDG36242.1 phage tail component [Acetivibrio thermocellus BC1]     25.8    5.5    46%
+WP_003515678.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibri...  25.8    6.6    25%
+
+ALIGNMENTS
+>WP_235836027.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ THJ77699.1 copper-translocating P-type ATPase [Acetivibrio thermocellus]
+Length=743
+
+ Score = 30.0 bits (66),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 36/139 (26%), Positives = 59/139 (42%), Gaps = 20/139 (14%)
+
+Query  2    GKTSVLLTNDDGVQAKGILYLAEYLKEN-----------GFDVVVVAPEKERS--AISHA  48
+            GKT++L+  DD V+A  IL +A+ +KE+           G DV ++  + ER+  AI+
+Sbjct  545  GKTAMLMAVDDRVEA--ILAVADTVKEHSGEAIEQLLKMGIDVYMITGDNERTAKAIARQ  602
+
+Query  49   ITLHKPL-RLKPVREEENLRIYAINGTPSDCVKMGIEVVMEKNPDIIISGINNGLNMGTD  107
+            + +   L  + P  + E +      G     V  GI       P +  + I   +  GTD
+Sbjct  603  VGITNVLAEVLPENKAEEVEKLKKQGRIVGMVGDGI----NDAPALATADIGMAIGTGTD  658
+
+Query  108  ILYSGTVSAAIEGALYGIP  126
+            +         + G L  IP
+Sbjct  659  VAMEAADITLMRGDLRAIP  677
+
+
+>WP_004463512.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ A3DEB6.1 RecName: Full=Probable tRNA sulfurtransferase; AltName: Full=Sulfur
+carrier protein ThiS sulfurtransferase; AltName: Full=Thiamine
+biosynthesis protein ThiI; AltName: Full=tRNA 4-thiouridine
+synthase [Acetivibrio thermocellus ATCC 27405]
+ CDG35758.1 putative tRNA sulfurtransferase [Acetivibrio thermocellus BC1]
+ ABN52295.1 thiamine biosynthesis/tRNA modification protein ThiI [Acetivibrio
+thermocellus ATCC 27405]
+ NLU26633.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ THJ76921.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ HBW26166.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+Length=392
+
+ Score = 29.6 bits (65),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 27/105 (26%), Positives = 45/105 (43%), Gaps = 23/105 (22%)
+
+Query  145  IFLKKLIEKVLEEGLPKNTLLNVNIPDFRKGINGIRITILGKRIYTETFQKNYDPRGKEY  204
+            I LK L   + E+ L  N    ++       +  +RIT    RIY E  ++NY
+Sbjct  12   ILLKGLNRPIFEDKLMSNIKRAIH------KLGKVRITKSQARIYIEPLEENY-------  58
+
+Query  205  YWMAGKISEIDNDERTDIVSVKKGYISITPIHFDLTDYEAVKKLS  249
+                      D DE   ++S   G +S++P+    +D+E +K+ S
+Sbjct  59   ----------DFDEALKLLSKVFGIVSVSPVWKIDSDFECIKENS  93
+
+
+>WP_003513786.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ ABN53069.1 copper-translocating P-type ATPase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75544.1 copper-translocating P-type ATPase [Acetivibrio thermocellus
+DSM 1313]
+ CDG36374.1 putative copper-importing P-type ATPase A [Acetivibrio thermocellus
+BC1]
+ ALX09535.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus
+AD2]
+ ANV77307.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus
+DSM 2360]
+Length=743
+
+ Score = 29.6 bits (65),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 36/139 (26%), Positives = 59/139 (42%), Gaps = 20/139 (14%)
+
+Query  2    GKTSVLLTNDDGVQAKGILYLAEYLKEN-----------GFDVVVVAPEKERS--AISHA  48
+            GKT++L+  DD V+A  IL +A+ +KE+           G DV ++  + ER+  AI+
+Sbjct  545  GKTAMLMAVDDRVEA--ILAVADTVKEHSGEAIEQLLKMGIDVYMITGDNERTAKAIAKQ  602
+
+Query  49   ITLHKPL-RLKPVREEENLRIYAINGTPSDCVKMGIEVVMEKNPDIIISGINNGLNMGTD  107
+            + +   L  + P  + E +      G     V  GI       P +  + I   +  GTD
+Sbjct  603  VGITNVLAEVLPENKAEEVEKLKKQGRIVGMVGDGI----NDAPALATADIGMAIGTGTD  658
+
+Query  108  ILYSGTVSAAIEGALYGIP  126
+            +         + G L  IP
+Sbjct  659  VAMEAADITLMRGDLRAIP  677
+
+
+>WP_131538028.1 heavy metal translocating P-type ATPase [Acetivibrio thermocellus]
+ NLU26515.1 copper-translocating P-type ATPase [Acetivibrio thermocellus]
+Length=731
+
+ Score = 29.6 bits (65),  Expect = 0.54, Method: Compositional matrix adjust.
+ Identities = 36/139 (26%), Positives = 59/139 (42%), Gaps = 20/139 (14%)
+
+Query  2    GKTSVLLTNDDGVQAKGILYLAEYLKEN-----------GFDVVVVAPEKERS--AISHA  48
+            GKT++L+  DD V+A  IL +A+ +KE+           G DV ++  + ER+  AI+
+Sbjct  533  GKTAMLMAVDDRVEA--ILAVADTVKEHSGEAIEQLLKMGIDVYMITGDNERTAKAIAKQ  590
+
+Query  49   ITLHKPL-RLKPVREEENLRIYAINGTPSDCVKMGIEVVMEKNPDIIISGINNGLNMGTD  107
+            + +   L  + P  + E +      G     V  GI       P +  + I   +  GTD
+Sbjct  591  VGITNVLAEVLPENKAEEVEKLKKQGRIVGMVGDGI----NDAPALATADIGMAIGTGTD  646
+
+Query  108  ILYSGTVSAAIEGALYGIP  126
+            +         + G L  IP
+Sbjct  647  VAMEAADITLMRGDLRAIP  665
+
+
+>WP_136479426.1 phage tail family protein [Acetivibrio thermocellus]
+ THJ77874.1 phage tail family protein [Acetivibrio thermocellus]
+Length=257
+
+ Score = 26.9 bits (58),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 18/30 (60%), Gaps = 2/30 (7%)
+
+Query  153  KVLEEGLPKNTLLNVNIPDFRKGINGIRIT  182
+            + L  GLP  +L ++N P  RKG+N I I
+Sbjct  212  RTLRNGLP--SLQDLNFPILRKGVNHIEIA  239
+
+
+>WP_011838145.1 phage tail family protein [Acetivibrio thermocellus]
+ ABN52841.1 phage tail component [Acetivibrio thermocellus ATCC 27405]
+Length=257
+
+ Score = 26.9 bits (58),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 18/30 (60%), Gaps = 2/30 (7%)
+
+Query  153  KVLEEGLPKNTLLNVNIPDFRKGINGIRIT  182
+            + L  GLP  +L ++N P  RKG+N I I
+Sbjct  212  RTLRNGLP--SLQDLNFPILRKGVNHIEIA  239
+
+
+>WP_003519324.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ADU75590.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 1313]
+ ALX09583.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus AD2]
+ ANV77355.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 2360]
+ EIC04429.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+YS]
+ PFH03864.1 signal transduction histidine kinase [Acetivibrio thermocellus
+AD2]
+Length=463
+
+ Score = 26.9 bits (58),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 33/62 (53%), Gaps = 7/62 (11%)
+
+Query  153  KVLEEGLPKNTLLNVNIPDFRKGI---NGIRITILGKRIYTETFQKNYDPRGKEYYWMAG  209
+            KVL E +P NT+  V I D  KG+   + I  ++ GK++  + +  N    GKE  W  G
+Sbjct  68   KVLLESMPGNTVAQVQIID-DKGVLIADSIEPSMEGKKL--DNYDVNMALNGKEAAW-KG  123
+
+Query  210  KI  211
+            KI
+Sbjct  124  KI  125
+
+
+>WP_011838302.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ABN53134.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus ATCC 27405]
+ NLU26501.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ CDG36431.1 periplasmic sensor signal transduction histidine kinase [Acetivibrio
+thermocellus BC1]
+ HBW27095.1 sensor histidine kinase [Acetivibrio thermocellus]
+Length=463
+
+ Score = 26.9 bits (58),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 23/62 (37%), Positives = 33/62 (53%), Gaps = 7/62 (11%)
+
+Query  153  KVLEEGLPKNTLLNVNIPDFRKGI---NGIRITILGKRIYTETFQKNYDPRGKEYYWMAG  209
+            KVL E +P NT+  V I D  KG+   + I  ++ GK++  + +  N    GKE  W  G
+Sbjct  68   KVLLESMPGNTVAQVQIID-DKGVLIADSIEPSMEGKKL--DNYDVNMALNGKEAAW-KG  123
+
+Query  210  KI  211
+            KI
+Sbjct  124  KI  125
+
+
+>WP_003512596.1 class II fructose-1,6-bisphosphate aldolase [Acetivibrio thermocellus]
+ CDG35026.1 Fructose-bisphosphate aldolase [Acetivibrio thermocellus BC1]
+ ABN51587.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74927.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+DSM 1313]
+ ALX08887.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+AD2]
+ ANV76637.1 fructose-1,6-bisphosphate aldolase, class II [Acetivibrio thermocellus
+DSM 2360]
+Length=309
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 22/45 (49%), Gaps = 5/45 (11%)
+
+Query  214  IDNDERTDIVSVKKGYISITPIHFDLTDY-----EAVKKLSSWKI  253
+            ID+D R  + +  + Y +  P HFD   Y      A+K+L   KI
+Sbjct  255  IDSDLRLAMTATIRKYFAENPSHFDPRQYLGPARNAIKELVKHKI  299
+
+
+>WP_003516032.1 phage tail family protein [Acetivibrio thermocellus]
+ ADU75403.1 phage tail component [Acetivibrio thermocellus DSM 1313]
+ ALX09401.1 tail component domain protein [Acetivibrio thermocellus AD2]
+ ANV77155.1 tail component domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC04525.1 tail component domain protein [Acetivibrio thermocellus YS]
+ PFH03678.1 putative phage tail component-like protein [Acetivibrio thermocellus
+AD2]
+Length=257
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 13/29 (45%), Positives = 17/29 (59%), Gaps = 2/29 (7%)
+
+Query  154  VLEEGLPKNTLLNVNIPDFRKGINGIRIT  182
+             L  GLP  +L ++N P  RKG+N I I
+Sbjct  213  TLRNGLP--SLQDLNFPILRKGVNHIEIA  239
+
+
+>CDG36242.1 phage tail component [Acetivibrio thermocellus BC1]
+Length=257
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 13/28 (46%), Positives = 17/28 (61%), Gaps = 2/28 (7%)
+
+Query  155  LEEGLPKNTLLNVNIPDFRKGINGIRIT  182
+            L  GLP  +L ++N P  RKG+N I I
+Sbjct  214  LRNGLP--SLQDLNFPILRKGVNHIEIA  239
+
+
+>WP_003515678.1 tRNA 4-thiouridine(8) synthase ThiI [Acetivibrio thermocellus]
+ ADU74215.1 thiamine biosynthesis/tRNA modification protein ThiI [Acetivibrio
+thermocellus DSM 1313]
+ ALX08158.1 tRNA sulfurtransferase [Acetivibrio thermocellus AD2]
+ ANV75905.1 tRNA sulfurtransferase [Acetivibrio thermocellus DSM 2360]
+ EIC05908.1 tRNA sulfurtransferase [Acetivibrio thermocellus YS]
+ PFH02429.1 thiamine biosynthesis protein ThiI [Acetivibrio thermocellus
+AD2]
+Length=392
+
+ Score = 25.8 bits (55),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 26/105 (25%), Positives = 44/105 (42%), Gaps = 23/105 (22%)
+
+Query  145  IFLKKLIEKVLEEGLPKNTLLNVNIPDFRKGINGIRITILGKRIYTETFQKNYDPRGKEY  204
+            I LK L   + E+ L  N    ++       +  +RIT    RIY E  ++NY
+Sbjct  12   ILLKGLNRPIFEDKLMSNIKRAIH------KLGKVRITKSQARIYIEPLEENY-------  58
+
+Query  205  YWMAGKISEIDNDERTDIVSVKKGYISITPIHFDLTDYEAVKKLS  249
+                      D DE   ++S   G +S++ +    +D+E +K+ S
+Sbjct  59   ----------DFDEALKLLSKVFGIVSVSTVWKIDSDFECIKENS  93
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.138    0.392
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21245
+Number of extensions: 1027
+Number of successful extensions: 34
+Number of sequences better than 100: 10
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 34
+Number of HSP's successfully gapped: 10
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

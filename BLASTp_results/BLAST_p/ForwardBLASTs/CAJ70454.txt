@@ -1,0 +1,224 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8ZGGEMTU01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= CAJ70454 dTMP kinase [Clostridioides difficile]
+
+Length=229
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       295     1e-102  61%
+CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]      28.1    1.0     40%
+THJ78513.1 PadR family transcriptional regulator [Acetivibrio ...  26.2    3.2     25%
+WP_003517781.1 PadR family transcriptional regulator [Acetivib...  26.2    3.4     25%
+WP_011837954.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate lig...  26.6    3.8     50%
+WP_003521240.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate lig...  26.6    3.8     50%
+NLU27989.1 PadR family transcriptional regulator [Acetivibrio ...  25.0    9.2     24%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 295 bits (754),  Expect = 1e-102, Method: Compositional matrix adjust.
+ Identities = 138/226 (61%), Positives = 183/226 (81%), Gaps = 1/226 (0%)
+
+Query  1    MKGKLIIIESGSDASGKATQTEILYERLKKEGYMIKKVEYPNYESPSSALVKMYLKGDFG  60
+            MKGKLIIIESG+DASGKATQT  LYERL +EGY +KK+ +PNY+S SSALVKMYL GDFG
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  61   KNASDVDPYIASTFFTADRYASFKTDWEEFYNEGGIIIADRYTTSNMVHQASKM-DICDR  119
+            K+ +DV PY+ASTF+  DR+AS++T+W + YN+G II+ADRYTTSNMVHQA+K+ D+ ++
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  120  EEYLNWLADYEFNLFKIPQPDCVIFLDVPIEFSKKLMENRKNKITGEEKKDIHESDIEYL  179
+            + +L+WL ++EF ++K+P PDCVIFLD+P  FS++LM+ R NK TGE+KKDIHE + EYL
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+
+Query  180  EKSYNNALYIADKYDWKKINCVLDNKLRSIESIHNEIYKIVLDSIK  225
+             +SY N+LY+A KY+W KI CV D  L+ I+ I  E+Y+ V   I+
+Sbjct  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIR  226
+
+
+>CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]
+Length=277
+
+ Score = 28.1 bits (61),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 12/30 (40%), Positives = 19/30 (63%), Gaps = 0/30 (0%)
+
+Query  4   KLIIIESGSDASGKATQTEILYERLKKEGY  33
+           K+I + SG    GK+T + ++ E L K+GY
+Sbjct  31  KIIGVMSGKGGVGKSTVSALIAEELNKKGY  60
+
+
+>THJ78513.1 PadR family transcriptional regulator [Acetivibrio thermocellus]
+ CDG36158.1 PadR family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+Length=204
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 26/106 (25%), Positives = 38/106 (36%), Gaps = 8/106 (8%)
+
+Query  35   IKKVEYPNYESPSSALVKMYLKGDFGK-NASDVDPYIASTFFTADRYASFKTDWEEFYNE  93
+            I  VEY N       ++ M   G  G  N  D+  Y     F       +  +  + Y E
+Sbjct  7    IPLVEYNNIIQVEYVVINMLKHGILGLLNYGDMTGYEIMKVFRDSLSFFWTANTSQIYRE  66
+
+Query  94   GGIIIADRYTTSNMVHQASKMDI-------CDREEYLNWLADYEFN  132
+               +  D + T  +V Q  K D          REE   WL +Y++
+Sbjct  67   LNTLKKDGFVTDIVVKQTGKPDKKVFSITESGREELKRWLREYDYG  112
+
+
+>WP_003517781.1 PadR family transcriptional regulator [Acetivibrio thermocellus]
+ ANV77028.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+DSM 2360]
+ EIC04744.1 transcriptional regulator PadR family protein [Acetivibrio thermocellus
+YS]
+ ABN52721.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+ATCC 27405]
+ ALX09276.1 transcriptional regulator, PadR-like family [Acetivibrio thermocellus
+AD2]
+ PFH03551.1 PadR family transcriptional regulator [Acetivibrio thermocellus
+AD2]
+Length=204
+
+ Score = 26.2 bits (56),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 26/106 (25%), Positives = 38/106 (36%), Gaps = 8/106 (8%)
+
+Query  35   IKKVEYPNYESPSSALVKMYLKGDFGK-NASDVDPYIASTFFTADRYASFKTDWEEFYNE  93
+            I  VEY N       ++ M   G  G  N  D+  Y     F       +  +  + Y E
+Sbjct  7    IPLVEYNNIIQVEYVVINMLKHGILGLLNYGDMTGYEIMKVFRDSLSFFWTANTSQIYRE  66
+
+Query  94   GGIIIADRYTTSNMVHQASKMDI-------CDREEYLNWLADYEFN  132
+               +  D + T  +V Q  K D          REE   WL +Y++
+Sbjct  67   LNTLKKDGFVTDIVVKQTGKPDKKVFSITESGREELKRWLREYDYG  112
+
+
+>WP_011837954.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+ A3DE94.1 RecName: Full=UDP-N-acetylmuramoylalanine--D-glutamate ligase;
+AltName: Full=D-glutamic acid-adding enzyme; AltName: Full=UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+synthetase [Acetivibrio
+thermocellus ATCC 27405]
+ ABN52273.1 UDP-N-acetylmuramoylalanine/D-glutamate ligase [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26187.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+Length=466
+
+ Score = 26.6 bits (57),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 2/24 (8%)
+
+Query  10   SGSDASGKATQTEILYERLKKEGY  33
+            +GSD  GK T T ++Y  LK++GY
+Sbjct  123  TGSD--GKTTTTTLIYNMLKEQGY  144
+
+
+>WP_003521240.1 UDP-N-acetylmuramoyl-L-alanine--D-glutamate ligase [Acetivibrio
+thermocellus]
+ CDG35736.1 UDP-N-acetylmuramoylalanine-D-glutamate ligase [Acetivibrio thermocellus
+BC1]
+ ADU74236.1 UDP-N-acetylmuramoylalanine/D-glutamate ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08179.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus AD2]
+ ANV75927.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus DSM 2360]
+ EIC05931.1 UDP-N-acetylmuramoylalanine--D-glutamate ligase [Acetivibrio
+thermocellus YS]
+Length=466
+
+ Score = 26.6 bits (57),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 12/24 (50%), Positives = 17/24 (71%), Gaps = 2/24 (8%)
+
+Query  10   SGSDASGKATQTEILYERLKKEGY  33
+            +GSD  GK T T ++Y  LK++GY
+Sbjct  123  TGSD--GKTTTTTLIYNMLKEQGY  144
+
+
+>NLU27989.1 PadR family transcriptional regulator [Acetivibrio thermocellus]
+Length=204
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 25/106 (24%), Positives = 38/106 (36%), Gaps = 8/106 (8%)
+
+Query  35   IKKVEYPNYESPSSALVKMYLKGDFGK-NASDVDPYIASTFFTADRYASFKTDWEEFYNE  93
+            I  +EY N       ++ M   G  G  N  D+  Y     F       +  +  + Y E
+Sbjct  7    IPLMEYNNIIQVEYVVINMLKHGILGLLNYGDMTGYEIMKVFRDSLSFFWTANTSQIYRE  66
+
+Query  94   GGIIIADRYTTSNMVHQASKMDI-------CDREEYLNWLADYEFN  132
+               +  D + T  +V Q  K D          REE   WL +Y++
+Sbjct  67   LNTLKKDGFVTDIVVKQTGKPDKKVFSITESGREELKRWLREYDYG  112
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.316    0.135    0.391
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 11927
+Number of extensions: 566
+Number of successful extensions: 14
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 7
+Length of query: 229
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 143
+Effective length of database: 2157177
+Effective search space: 308476311
+Effective search space used: 308476311
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

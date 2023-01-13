@@ -1,0 +1,234 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WPAC8A0013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ARD64623 5'-nucleotidase [Eubacterium limosum]
+
+Length=263
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  29.6    0.25   30%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  28.5    0.74   28%
+WP_034843467.1 hypothetical protein [Acetivibrio thermocellus]     26.2    5.5    31%
+CDG35828.1 phospholipase D/transphosphatidylase [Acetivibrio t...  25.4    7.5    37%
+CDG37291.1 flavodoxin/nitric oxide synthase [Acetivibrio therm...  25.8    8.0    28%
+NLU27878.1 FprA family A-type flavoprotein [Acetivibrio thermo...  25.8    8.2    28%
+WP_003515330.1 FprA family A-type flavoprotein [Acetivibrio th...  25.8    8.2    28%
+WP_003513823.1 acetylglutamate kinase [Acetivibrio thermocellus]   25.4    8.9    44%
+WP_235835979.1 FprA family A-type flavoprotein [Acetivibrio th...  25.4    8.9    28%
+THJ77712.1 acetylglutamate kinase [Acetivibrio thermocellus]       25.4    9.3    44%
+
+ALIGNMENTS
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 29.6 bits (65),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 24/46 (52%), Gaps = 0/46 (0%)
+
+Query  188  GKPNPLMVRTGIRMLGVHSEDAAIVGDRMDTDIISGIESGMHTILV  233
+             KP        + ++   + + A++GD++ TDI  G +  M TILV
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 28.5 bits (62),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 16/58 (28%), Positives = 27/58 (47%), Gaps = 1/58 (2%)
+
+Query  189  KPNPLMVRTGIRMLGVHSEDAAIVGDRMDTDIISGIESGMHTILVLSGVSTPETVKEF  246
+            KP+P  +   I M+G   E+   VGD    D  +   +G+  + VL+G +      E+
+Sbjct  143  KPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFVAVLTGTTGANEFSEY  199
+
+
+>WP_034843467.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78286.1 hypothetical protein EPD62_06825 [Acetivibrio thermocellus]
+Length=363
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 16/52 (31%), Positives = 27/52 (52%), Gaps = 1/52 (2%)
+
+Query  9   LDSIKGFI-CDMDGVIYHGNRLLPGVPEFVDWLYREDKNFLFLTNSSERSPL  59
+           +DS   F+ C++ G  Y  N +LP  P+ +  L+    N+ F+T   E + L
+Sbjct  31  MDSYNAFLYCNITGAGYFDNPVLPFTPKGMMKLFYNAFNYKFVTGIFENTTL  82
+
+
+>CDG35828.1 phospholipase D/transphosphatidylase [Acetivibrio thermocellus
+BC1]
+Length=154
+
+ Score = 25.4 bits (54),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 20/35 (57%), Gaps = 3/35 (9%)
+
+Query  34  PEFVDWLYREDKNFLFLT---NSSERSPLELREKL  65
+           P+FVD L    +  + +T   N+ +  P E+REKL
+Sbjct  44  PDFVDLLVSAAERGVSVTVVINNMQEQPQEIREKL  78
+
+
+>CDG37291.1 flavodoxin/nitric oxide synthase [Acetivibrio thermocellus BC1]
+Length=409
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 26/53 (49%), Gaps = 1/53 (2%)
+
+Query  60   ELREKLSRLGLD-IDESHFYTSALATAKFLSTQSPGCSAYVIGEPGLINALYS  111
+            ++ EK+ +L ++ I  SH Y     TAKF+       S   + +P  +  +YS
+Sbjct  205  DMLEKIKKLNIEVIAPSHGYILRENTAKFIQMYDEMSSLAALKQPKKVTIVYS  257
+
+
+>NLU27878.1 FprA family A-type flavoprotein [Acetivibrio thermocellus]
+Length=409
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 26/53 (49%), Gaps = 1/53 (2%)
+
+Query  60   ELREKLSRLGLD-IDESHFYTSALATAKFLSTQSPGCSAYVIGEPGLINALYS  111
+            ++ EK+ +L ++ I  SH Y     TAKF+       S   + +P  +  +YS
+Sbjct  205  DMLEKIKKLNIEVIAPSHGYILRENTAKFIQMYDEMSSLAALKQPKKVTIVYS  257
+
+
+>WP_003515330.1 FprA family A-type flavoprotein [Acetivibrio thermocellus]
+ ADU73449.1 flavodoxin/nitric oxide synthase [Acetivibrio thermocellus DSM
+1313]
+ ALX07371.1 beta-lactamase domain protein [Acetivibrio thermocellus AD2]
+ ANV75109.1 beta-lactamase domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC04162.1 flavodoxin/nitric oxide synthase [Acetivibrio thermocellus YS]
+ PFH01635.1 flavorubredoxin [Acetivibrio thermocellus AD2]
+Length=409
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 26/53 (49%), Gaps = 1/53 (2%)
+
+Query  60   ELREKLSRLGLD-IDESHFYTSALATAKFLSTQSPGCSAYVIGEPGLINALYS  111
+            ++ EK+ +L ++ I  SH Y     TAKF+       S   + +P  +  +YS
+Sbjct  205  DMLEKIKKLNIEVIAPSHGYILRENTAKFIQMYDEMSSLAALKQPKKVTIVYS  257
+
+
+>WP_003513823.1 acetylglutamate kinase [Acetivibrio thermocellus]
+ A3DGK6.1 RecName: Full=Acetylglutamate kinase; AltName: Full=N-acetyl-L-glutamate
+5-phosphotransferase; AltName: Full=NAG kinase;
+Short=NAGK [Acetivibrio thermocellus ATCC 27405]
+ CDG36390.1 Acetylglutamate kinase [Acetivibrio thermocellus BC1]
+ ABN53085.1 acetylglutamate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75560.1 acetylglutamate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09551.1 Acetylglutamate kinase [Acetivibrio thermocellus AD2]
+ ANV77323.1 Acetylglutamate kinase [Acetivibrio thermocellus DSM 2360]
+Length=304
+
+ Score = 25.4 bits (54),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  127  GESYNYNYDTILKAVRFVLKGAKLI  151
+            G+SYN N DT+   +   LK  KL+
+Sbjct  185  GQSYNINADTVAGEIAAALKAEKLM  209
+
+
+>WP_235835979.1 FprA family A-type flavoprotein [Acetivibrio thermocellus]
+Length=394
+
+ Score = 25.4 bits (54),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 15/53 (28%), Positives = 26/53 (49%), Gaps = 1/53 (2%)
+
+Query  60   ELREKLSRLGLD-IDESHFYTSALATAKFLSTQSPGCSAYVIGEPGLINALYS  111
+            ++ EK+ +L ++ I  SH Y     TAKF+       S   + +P  +  +YS
+Sbjct  190  DMLEKIKKLNIEVIAPSHGYILRENTAKFIQMYDEMSSLAALKQPKKVTIVYS  242
+
+
+>THJ77712.1 acetylglutamate kinase [Acetivibrio thermocellus]
+ HBW27339.1 acetylglutamate kinase [Acetivibrio thermocellus]
+Length=300
+
+ Score = 25.4 bits (54),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  127  GESYNYNYDTILKAVRFVLKGAKLI  151
+            G+SYN N DT+   +   LK  KL+
+Sbjct  181  GQSYNINADTVAGEIAAALKAEKLM  205
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.138    0.407
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18104
+Number of extensions: 764
+Number of successful extensions: 15
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 15
+Number of HSP's successfully gapped: 2
+Length of query: 263
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 176
+Effective length of database: 2134357
+Effective search space: 375646832
+Effective search space used: 375646832
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

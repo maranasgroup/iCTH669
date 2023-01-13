@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+tem Terrisporobacter sp. MCA3
+pbq Peptostreptococcaceae bacterium oral taxon 929
+sth Symbiobacterium thermophilum
+swo Syntrophomonas wolfei
+slp Syntrophothermus lipocalidus
+salq Candidatus Syntrophocurvum alkaliphilum
+dsy Desulfitobacterium hafniense Y51
+dhd Desulfitobacterium hafniense DCB-2
+ddh Desulfitobacterium dehalogenans
+ddl Desulfitobacterium dichloroeliminans

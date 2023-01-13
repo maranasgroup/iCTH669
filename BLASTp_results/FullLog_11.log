@@ -1,0 +1,600 @@
+Start time: 18 Mar 2022 16:36:19
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+Found gene for related organism dsy:Desulfitobacterium hafniense
+DSY1460-------------------------------------------------------------------------------------
+Building FASTA report for gene DSY1460 (Accession: BAE83249)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+Found gene for related organism ddh:Desulfitobacterium dehalogenans
+Desde_2058-------------------------------------------------------------------------------------
+Building FASTA report for gene Desde_2058 (Accession: AFM00442)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+Found gene for related organism ddl:Desulfitobacterium dichloroeliminans
+Desdi_0700-------------------------------------------------------------------------------------
+Building FASTA report for gene Desdi_0700 (Accession: AGA68227)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+Found gene for related organism dsy:Desulfitobacterium hafniense
+DSY4001-------------------------------------------------------------------------------------
+Building FASTA report for gene DSY4001 (Accession: BAE85790)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+Found gene for related organism dhd:Desulfitobacterium hafniense
+Dhaf_1363-------------------------------------------------------------------------------------
+Building FASTA report for gene Dhaf_1363 (Accession: ACL19419)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+Found gene for related organism ddh:Desulfitobacterium dehalogenans
+Desde_1288-------------------------------------------------------------------------------------
+Building FASTA report for gene Desde_1288 (Accession: AFL99716)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+Found gene for related organism ddl:Desulfitobacterium dichloroeliminans
+Desdi_1073-------------------------------------------------------------------------------------
+Building FASTA report for gene Desdi_1073 (Accession: AGA68590)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+Found gene for related organism pbq:Peptostreptococcaceae bacterium
+C3V37_02325-------------------------------------------------------------------------------------
+Building FASTA report for gene C3V37_02325 (Accession: AVM66755)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+Found gene for related organism slp:Syntrophothermus lipocalidus
+Slip_0928-------------------------------------------------------------------------------------
+Building FASTA report for gene Slip_0928 (Accession: ADI01707)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+Found gene for related organism slp:Syntrophothermus lipocalidus
+Slip_0927-------------------------------------------------------------------------------------
+Building FASTA report for gene Slip_0927 (Accession: ADI01706)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+Found gene for related organism salq:Candidatus Syntrophocurvum
+SYNTR_1657-------------------------------------------------------------------------------------
+Building FASTA report for gene SYNTR_1657 (Accession: QGU00251)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+Found gene for related organism dsy:Desulfitobacterium hafniense
+DSY4070-------------------------------------------------------------------------------------
+Building FASTA report for gene DSY4070 (Accession: BAE85859)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+Found gene for related organism dhd:Desulfitobacterium hafniense
+Dhaf_1297-------------------------------------------------------------------------------------
+Building FASTA report for gene Dhaf_1297 (Accession: ACL19353)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+Found gene for related organism ddh:Desulfitobacterium dehalogenans
+Desde_1229-------------------------------------------------------------------------------------
+Building FASTA report for gene Desde_1229 (Accession: AFL99658)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+Found gene for related organism ddl:Desulfitobacterium dichloroeliminans
+Desdi_1020-------------------------------------------------------------------------------------
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Terrisporobacter sp. (tem)
+
+Using Organism: Peptostreptococcaceae bacterium (pbq)
+
+Using Organism: Symbiobacterium thermophilum (sth)
+
+Using Organism: Syntrophomonas wolfei (swo)
+
+Using Organism: Syntrophothermus lipocalidus (slp)
+
+Using Organism: Candidatus Syntrophocurvum (salq)
+
+Using Organism: Desulfitobacterium hafniense (dsy)
+
+Using Organism: Desulfitobacterium hafniense (dhd)
+
+Using Organism: Desulfitobacterium dehalogenans (ddh)
+
+Using Organism: Desulfitobacterium dichloroeliminans (ddl)
+end time: 20 Mar 2022 0:4:4

@@ -1,0 +1,222 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W2X64WK013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABR47908 5'-nucleotidase [Alkaliphilus metalliredigens]
+
+Length=480
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518002.1 formate C-acetyltransferase [Acetivibrio thermo...  37.7    0.004  26%
+NLU26879.1 formate C-acetyltransferase [Acetivibrio thermocellus]  36.2    0.012  26%
+WP_003512816.1 tetratricopeptide repeat protein [Acetivibrio t...  28.9    2.2    22%
+WP_003515607.1 DUF177 domain-containing protein [Acetivibrio t...  27.7    2.3    33%
+WP_003511954.1 Hsp20/alpha crystallin family protein [Acetivib...  27.3    2.6    28%
+WP_003512864.1 RNA-binding S4 domain-containing protein [Aceti...  25.0    8.8    33%
+
+ALIGNMENTS
+>WP_003518002.1 formate C-acetyltransferase [Acetivibrio thermocellus]
+ ABN51742.1 formate acetyltransferase [Acetivibrio thermocellus ATCC 27405]
+ ADU74774.1 formate acetyltransferase [Acetivibrio thermocellus DSM 1313]
+ ALX08726.1 formate acetyltransferase [Acetivibrio thermocellus AD2]
+ ANV76478.1 formate acetyltransferase [Acetivibrio thermocellus DSM 2360]
+ EIC05234.1 formate acetyltransferase [Acetivibrio thermocellus YS]
+Length=742
+
+ Score = 37.7 bits (86),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 52/197 (26%), Positives = 86/197 (44%), Gaps = 38/197 (19%)
+
+Query  210  SLKGELVDILKHFDSTMLQGAIAAHGHELT----AGTVNGIPVVQAGSYGNG--LGKIE-  262
+            S+  ++V+I   +  T  QG    +  E+     AG + G+P     +YG G  +G
+Sbjct  121  SVDPQVVEIFTKYRKTHNQGVYDVYTPEMRKAKKAGIITGLP----DAYGRGRIIGDYRR  176
+
+Query  263  ---------VSIKNDKVVDLKAEYIDIE--KDSMKIHEKIKGILIEHRNKYKRTAKKIGF  311
+                     ++ K  ++  L+ +YID E  +D  +I E+IK +      + K  A   GF
+Sbjct  177  VALYGVDRLIAEKEKEMASLERDYIDYETVRDREEISEQIKSL-----KQLKEMALSYGF  231
+
+Query  312  SQICLKVESESESFWGEYIAKVMAYSVSASIGMINVGAIRTTIIKGDILDIHIKMNLPFE  371
+               C   +   E+F   Y A + A        M ++G I T       LDI+I+ +L  E
+Sbjct  232  DISC-PAKDAREAFQWLYFAYLAAVKEQNGAAM-SIGRIST------FLDIYIERDLK-E  282
+
+Query  372  NKIISMELLGEKIVDIL  388
+             K+   E L +++VD L
+Sbjct  283  GKLT--EELAQELVDQL  297
+
+
+>NLU26879.1 formate C-acetyltransferase [Acetivibrio thermocellus]
+ CDG35217.1 Formate acetyltransferase [Acetivibrio thermocellus BC1]
+Length=742
+
+ Score = 36.2 bits (82),  Expect = 0.012, Method: Compositional matrix adjust.
+ Identities = 52/197 (26%), Positives = 86/197 (44%), Gaps = 38/197 (19%)
+
+Query  210  SLKGELVDILKHFDSTMLQGAIAAHGHELT----AGTVNGIPVVQAGSYGNG--LGKIE-  262
+            S+  ++V+I   +  T  QG    +  E+     AG + G+P     +YG G  +G
+Sbjct  121  SVDPQVVEIFTKYRKTHNQGVYDVYTPEMRKAKKAGIITGLP----DAYGRGRIIGDYRR  176
+
+Query  263  ---------VSIKNDKVVDLKAEYIDIE--KDSMKIHEKIKGILIEHRNKYKRTAKKIGF  311
+                     ++ K  ++  L+ +YID E  +D  +I E+IK +      + K  A   GF
+Sbjct  177  VALYGVDRLIAEKEKEMASLERDYIDYETVRDREEISEQIKSL-----KQLKEMALSYGF  231
+
+Query  312  SQICLKVESESESFWGEYIAKVMAYSVSASIGMINVGAIRTTIIKGDILDIHIKMNLPFE  371
+              I    +   E+F   Y A + A        M ++G I T       LDI+I+ +L  E
+Sbjct  232  D-ISGPAKDAREAFQWLYFAYLAAVKEQNGAAM-SIGRIST------FLDIYIERDLK-E  282
+
+Query  372  NKIISMELLGEKIVDIL  388
+             K+   E L +++VD L
+Sbjct  283  GKLT--EELAQELVDQL  297
+
+
+>WP_003512816.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+ CDG37144.1 peptidase S41 [Acetivibrio thermocellus BC1]
+ ABN53879.1 peptidase S41 [Acetivibrio thermocellus ATCC 27405]
+ ADU73361.1 peptidase S41 [Acetivibrio thermocellus DSM 1313]
+ ALX07283.1 peptidase S41 [Acetivibrio thermocellus AD2]
+ ANV75021.1 peptidase S41 [Acetivibrio thermocellus DSM 2360]
+Length=745
+
+ Score = 28.9 bits (63),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 40/183 (22%), Positives = 75/183 (41%), Gaps = 26/183 (14%)
+
+Query  222  FDSTMLQGAIAAHGHELTAGTVNGIPVVQAGSYGNGLGKIEVSIK-NDKVVDLKAEYIDI  280
+            FDS   + AI  +   + A + N +  +  G   + LGK E +++  DK        I+I
+Sbjct  37   FDSGKYEDAIKYYDKVIEADSGNAMAYLGKGLALDALGKYEEALEFFDKA-------IEI  89
+
+Query  281  EKDSMKIHEKIKGILIEHRNKYKRTAKKIGFSQICLKVESESESFWGEYIAKVMAYSVSA  340
+             KD  K +   KG  +    +Y+ + +    +               E   K  AY
+Sbjct  90   NKDLAKAY-NAKGTTLASLERYEESLENFKKA--------------AELKPKNSAYQNDV  134
+
+Query  341  SIGMINVGAIRTTIIKGD-ILDIHIKMNLPFENKIISMELLGEKIVDILKQSYEKGYGIM  399
+            + G+ N+G     I   +  L ++ +  + + NK  +++ LG+  +D   + Y+K   +
+Sbjct  135  AYGLNNLGRFEEAIQYAEKALKLNPRSGVAYSNKGFALDALGK--LDEAIECYDKAIELS  192
+
+Query  400  QTY  402
+             TY
+Sbjct  193  PTY  195
+
+
+>WP_003515607.1 DUF177 domain-containing protein [Acetivibrio thermocellus]
+ CDG35721.1 hypothetical protein CTHBC1_1067 [Acetivibrio thermocellus BC1]
+ ABN52259.1 protein of unknown function DUF177 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74251.1 protein of unknown function DUF177 [Acetivibrio thermocellus
+DSM 1313]
+ ALX08194.1 protein of unknown function DUF177 [Acetivibrio thermocellus
+AD2]
+ ANV75942.1 protein of unknown function DUF177 [Acetivibrio thermocellus
+DSM 2360]
+Length=167
+
+ Score = 27.7 bits (60),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 26/51 (51%), Gaps = 6/51 (12%)
+
+Query  415  IHISNLRDHKGKLIKLNEYYSVAVTDFMLESID------FKDEFINAVSII  459
+            I IS++  H G  ++L+   S+ + DF+ E  D      FK   +NA  II
+Sbjct  3    IDISDILKHSGASLRLDFSESIKINDFIAEDFDFAKPVTFKGTLVNAGGII  53
+
+
+>WP_003511954.1 Hsp20/alpha crystallin family protein [Acetivibrio thermocellus]
+ CDG34719.1 heat shock protein Hsp20 [Acetivibrio thermocellus BC1]
+ ABN51278.1 heat shock protein Hsp20 [Acetivibrio thermocellus ATCC 27405]
+ ADU75237.1 heat shock protein Hsp20 [Acetivibrio thermocellus DSM 1313]
+ ALX09212.1 heat shock protein Hsp20 [Acetivibrio thermocellus AD2]
+ ANV76964.1 heat shock protein Hsp20 [Acetivibrio thermocellus DSM 2360]
+Length=142
+
+ Score = 27.3 bits (59),  Expect = 2.6, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 52/109 (48%), Gaps = 20/109 (18%)
+
+Query  266  KNDKVVDLKAEYIDIEKDSMKIHEKIKGILI--------EHRNKY-KRTAKKIG-FSQ-I  314
+            + +K V +KAE   + K+ + ++     I +        E++N++  RT +  G FS+ I
+Sbjct  43   ETEKDVVVKAEIPGVSKEDLNVYVDENSIRLSGETKRDTEYKNEHIYRTERYYGSFSRTI  102
+
+Query  315  CLKVESESESFWGEYIAKVMAYSVSASIGMINVGAIRTTIIKGDILDIH  363
+             L VE +SE    EY   ++          + V  + TT +KG  +DIH
+Sbjct  103  PLPVEVKSEQAKAEYKDGILT---------VTVPKVETTQMKGKKIDIH  142
+
+
+>WP_003512864.1 RNA-binding S4 domain-containing protein [Acetivibrio thermocellus]
+ CDG37122.1 hypothetical protein CTHBC1_2532 [Acetivibrio thermocellus BC1]
+ ABN53857.1 RNA-binding S4 domain protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73341.1 RNA-binding S4 domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX07259.1 RNA-binding S4 domain protein [Acetivibrio thermocellus AD2]
+ ANV74995.1 RNA-binding S4 domain protein [Acetivibrio thermocellus DSM 2360]
+Length=79
+
+ Score = 25.0 bits (53),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 28/55 (51%), Gaps = 8/55 (15%)
+
+Query  226  MLQGAIAAHGHELTAGTVNGIPVVQAGSYGNGLGKIEVSIKNDKVVDLKAEYIDI  280
+            ++ G +A  G E+  G +  I       +GN   K+EV+  N+ V  LKAE  D+
+Sbjct  29   LINGKVAKPGTEVKVGDIIEI------RFGNSTTKVEVTAINEHV--LKAESKDM  75
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.136    0.385
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 48421
+Number of extensions: 2273
+Number of successful extensions: 39
+Number of sequences better than 100: 10
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 38
+Number of HSP's successfully gapped: 11
+Length of query: 480
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 387
+Effective length of database: 2085979
+Effective search space: 807273873
+Effective search space used: 807273873
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 35 (18.1 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

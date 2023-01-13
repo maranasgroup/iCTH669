@@ -1,0 +1,290 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W5F5ZD6013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ABI68460 5'-nucleotidase [Syntrophomonas wolfei]
+
+Length=264
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003519513.1 hypothetical protein [Acetivibrio thermocellus]     27.7    1.2    32%
+WP_003511843.1 hypothetical protein [Acetivibrio thermocellus]     27.7    1.4    32%
+NLU26199.1 2-hydroxy-3-oxopropionate reductase [Acetivibrio th...  27.7    1.8    25%
+NLU27538.1 hypothetical protein [Acetivibrio thermocellus]         26.6    3.8    38%
+WP_003521020.1 AAA family ATPase [Oscillospiraceae]                26.6    4.7    27%
+HBW28482.1 TPA: hypothetical protein [Acetivibrio thermocellus]    26.2    5.2    38%
+WP_003517935.1 exodeoxyribonuclease III [Acetivibrio thermocel...  25.8    6.3    29%
+WP_136479199.1 hypothetical protein [Acetivibrio thermocellus]     26.2    6.5    38%
+NLU25910.1 exodeoxyribonuclease III [Acetivibrio thermocellus]     25.8    6.7    29%
+CDG37688.1 hypothetical protein CTHBC1_3130 [Acetivibrio therm...  25.8    6.8    38%
+NLU26500.1 hypothetical protein [Acetivibrio thermocellus]         25.4    9.0    33%
+WP_003513874.1 hypothetical protein [Acetivibrio thermocellus]     25.4    9.0    33%
+WP_003515764.1 type IV pilus twitching motility protein PilT [...  25.4    9.6    38%
+WP_011837967.1 type IV pilus twitching motility protein PilT [...  25.4    9.7    38%
+
+ALIGNMENTS
+>WP_003519513.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73847.1 hypothetical protein Clo1313_0771 [Acetivibrio thermocellus DSM
+1313]
+ ALX07782.1 hypothetical protein AD2_00784 [Acetivibrio thermocellus AD2]
+ ANV75524.1 hypothetical protein LQRI_0783 [Acetivibrio thermocellus DSM
+2360]
+ EIC05145.1 hypothetical protein YSBL_0108 [Acetivibrio thermocellus YS]
+ PFH02050.1 hypothetical protein M972_11812 [Acetivibrio thermocellus AD2]
+Length=165
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query  214  QEEDSDVNAVQHSYISITPIHFDLTDYHLVEQYRKSFSQFSHLLGEADDN  263
+            QEE   V +    YI    +  DL  YH  ++YR SF++ + +    D+N
+Sbjct  75   QEEVDSVFSWTTKYIQSEKVFSDLKKYH-AKRYRYSFARLAIVFTYRDNN  123
+
+
+>WP_003511843.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG37702.1 hypothetical protein CTHBC1_3145 [Acetivibrio thermocellus BC1]
+ ABN54418.1 hypothetical protein Cthe_3223 [Acetivibrio thermocellus ATCC
+27405]
+ NLU27236.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76530.1 hypothetical protein EPD62_16125 [Acetivibrio thermocellus]
+ HBW28323.1 hypothetical protein [Acetivibrio thermocellus]
+Length=165
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 16/50 (32%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query  214  QEEDSDVNAVQHSYISITPIHFDLTDYHLVEQYRKSFSQFSHLLGEADDN  263
+            QEE   V +    YI    +  DL  YH  ++YR SF++ + +    D+N
+Sbjct  75   QEEVDSVFSWTTKYIQSEKVFSDLKKYH-AKRYRYSFARLAIVFTYRDNN  123
+
+
+>NLU26199.1 2-hydroxy-3-oxopropionate reductase [Acetivibrio thermocellus]
+Length=295
+
+ Score = 27.7 bits (60),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 19/75 (25%), Positives = 36/75 (48%), Gaps = 4/75 (5%)
+
+Query  124  IAVSLNSFAADTDFSFAAR--FTRQVIQNLFKNGMEKKTLLNINIPYLCPQDIK-GIRIT  180
+            + V+LN  A    F  A +     +++ +  K G+   T++N  IP +  ++ K G +I
+Sbjct  175  VIVALNIAAVSEAFMLAKKAGVDPKLVFDAIKGGLAGSTVMNAKIPMILDRNFKPGFKI-  233
+
+Query  181  RLGVRNYENLFEERH  195
+             L +++  N  E  H
+Sbjct  234  DLHIKDLNNAIETGH  248
+
+
+>NLU27538.1 hypothetical protein [Acetivibrio thermocellus]
+Length=309
+
+ Score = 26.6 bits (57),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 21/40 (53%), Gaps = 6/40 (15%)
+
+Query  127  SLNSFAADTDFSFAARFTRQV------IQNLFKNGMEKKT  160
+            +LN F+ D D +F   F + V       +NL K GME K+
+Sbjct  54   ALNQFSIDIDKAFKTAFNKMVETVEKNRENLEKEGMELKS  93
+
+
+>WP_003521020.1 MULTISPECIES: AAA family ATPase [Oscillospiraceae]
+ ALX09672.1 hypothetical protein AD2_02692 [Acetivibrio thermocellus AD2]
+ ANV77445.1 prophage Lp2 protein 4 [Acetivibrio thermocellus DSM 2360]
+ EIC03564.1 hypothetical protein YSBL_2766 [Acetivibrio thermocellus YS]
+Length=522
+
+ Score = 26.6 bits (57),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/44 (27%), Positives = 22/44 (50%), Gaps = 2/44 (5%)
+
+Query  26   IAELFVAAPDRERSGTGHSITVFDPIKVIKAKLAGIKAGWVIGG  69
+             +E+F A+PD++R     +   F+P  VI+      ++ W  G
+Sbjct  65   FSEIFKASPDKDRYKGYWASLFFEP--VIENSFMKYRSTWQKGN  106
+
+
+>HBW28482.1 hypothetical protein [Acetivibrio thermocellus]
+Length=388
+
+ Score = 26.2 bits (56),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 21/40 (53%), Gaps = 6/40 (15%)
+
+Query  127  SLNSFAADTDFSFAARFTRQV------IQNLFKNGMEKKT  160
+            +LN F+ D D +F   F + V       +NL K GME K+
+Sbjct  133  ALNQFSIDIDKAFKTAFNKMVETVEKNRENLEKEGMELKS  172
+
+
+>WP_003517935.1 exodeoxyribonuclease III [Acetivibrio thermocellus]
+ CDG35172.1 Exodeoxyribonuclease [Acetivibrio thermocellus BC1]
+ ABN51696.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus ATCC 27405]
+ ADU74819.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus DSM 1313]
+ ALX08772.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus AD2]
+ ANV76523.1 exodeoxyribonuclease III Xth [Acetivibrio thermocellus DSM 2360]
+Length=251
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  205  MGGGVLEEPQEEDSDVNAVQHSYISITPIHFDLTDYHLVEQY--RKSFS  251
+            +  G L+  ++ D+D+  +Q S +    I  +L  YH    Y  RK +S
+Sbjct  16   INKGFLDYFKKADADIFCIQESKVQPGQIELELDGYHQYWNYAERKGYS  64
+
+
+>WP_136479199.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ79169.1 hypothetical protein EPD62_02635 [Acetivibrio thermocellus]
+Length=487
+
+ Score = 26.2 bits (56),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 21/40 (53%), Gaps = 6/40 (15%)
+
+Query  127  SLNSFAADTDFSFAARFTRQV------IQNLFKNGMEKKT  160
+            +LN F+ D D +F   F + V       +NL K GME K+
+Sbjct  232  ALNQFSIDIDKAFKTAFNKMVETVEKNRENLEKEGMELKS  271
+
+
+>NLU25910.1 exodeoxyribonuclease III [Acetivibrio thermocellus]
+Length=251
+
+ Score = 25.8 bits (55),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 24/49 (49%), Gaps = 2/49 (4%)
+
+Query  205  MGGGVLEEPQEEDSDVNAVQHSYISITPIHFDLTDYHLVEQY--RKSFS  251
+            +  G L+  ++ D+D+  +Q S +    I  +L  YH    Y  RK +S
+Sbjct  16   INKGFLDYFKKADADIFCIQESKVQPGQIELELDGYHQYWNYAERKGYS  64
+
+
+>CDG37688.1 hypothetical protein CTHBC1_3130 [Acetivibrio thermocellus BC1]
+Length=487
+
+ Score = 25.8 bits (55),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 21/40 (53%), Gaps = 6/40 (15%)
+
+Query  127  SLNSFAADTDFSFAARFTRQV------IQNLFKNGMEKKT  160
+            +LN F+ D D +F   F + V       +NL K GME K+
+Sbjct  232  ALNQFSIDIDKAFKTAFNKMVETVEKNRENLEKEGMELKS  271
+
+
+>NLU26500.1 hypothetical protein [Acetivibrio thermocellus]
+Length=426
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 18/33 (55%), Gaps = 9/33 (27%)
+
+Query  188  ENLFEERHDPRGNTYF---------WMGGGVLE  211
+            E ++E  ++ R + YF         WMGGG++E
+Sbjct  216  EEMYESENEGRKDEYFHILQWDYKEWMGGGLVE  248
+
+
+>WP_003513874.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36430.1 TPR repeat-containing protein [Acetivibrio thermocellus BC1]
+ ABN53133.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75589.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX09582.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV77354.1 Tetratricopeptide TPR_1 repeat-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=426
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 11/33 (33%), Positives = 18/33 (55%), Gaps = 9/33 (27%)
+
+Query  188  ENLFEERHDPRGNTYF---------WMGGGVLE  211
+            E ++E  ++ R + YF         WMGGG++E
+Sbjct  216  EEMYESENEGRKDEYFHILQWDYKEWMGGGLVE  248
+
+
+>WP_003515764.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ CDG35802.1 Twitching mobility protein [Acetivibrio thermocellus BC1]
+ ADU74171.1 twitching motility protein [Acetivibrio thermocellus DSM 1313]
+ ALX08114.1 twitching motility protein [Acetivibrio thermocellus AD2]
+ ANV75861.1 twitching motility protein [Acetivibrio thermocellus DSM 2360]
+ EIC05864.1 twitching motility protein [Acetivibrio thermocellus YS]
+Length=351
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 15/32 (47%), Gaps = 0/32 (0%)
+
+Query  161  LLNINIPYLCPQDIKGIRITRLGVRNYENLFE  192
+            L+N+N P L P D   +    L  R YE   E
+Sbjct  34   LINLNEPVLTPHDCVQLAKQCLSSRMYERFLE  65
+
+
+>WP_011837967.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ ABN52338.1 twitching motility protein [Acetivibrio thermocellus ATCC 27405]
+ THJ76879.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ HBW26122.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+Length=351
+
+ Score = 25.4 bits (54),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 15/32 (47%), Gaps = 0/32 (0%)
+
+Query  161  LLNINIPYLCPQDIKGIRITRLGVRNYENLFE  192
+            L+N+N P L P D   +    L  R YE   E
+Sbjct  34   LINLNEPVLTPHDCVQLAKQCLSSRMYERFLE  65
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.406
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21195
+Number of extensions: 920
+Number of successful extensions: 12
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 4
+Length of query: 264
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 177
+Effective length of database: 2134357
+Effective search space: 377781189
+Effective search space used: 377781189
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

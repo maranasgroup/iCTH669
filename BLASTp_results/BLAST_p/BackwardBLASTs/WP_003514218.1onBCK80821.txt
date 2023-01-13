@@ -1,0 +1,215 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8XDCMZ0301R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_213541678.1 thymidylate kinase [Vescimonas coprocola]           206     1e-68  43%
+WP_213541809.1 DMT family transporter [Vescimonas coprocola]       29.3    0.13   29%
+WP_213541488.1 TIGR03960 family B12-binding radical SAM protei...  26.9    0.76   41%
+WP_213541745.1 signal recognition particle-docking protein Fts...  25.0    2.5    48%
+WP_213540483.1 DUF134 domain-containing protein [Vescimonas co...  24.6    3.6    32%
+WP_021858597.1 tryptophan--tRNA ligase [Vescimonas coprocola]      24.6    4.1    52%
+WP_212819493.1 site-specific integrase [Vescimonas]                24.3    4.8    43%
+WP_213541453.1 DUF134 domain-containing protein [Vescimonas co...  24.3    5.5    36%
+WP_213540773.1 MobA/MobL family protein [Vescimonas coprocola]     23.5    10.0   35%
+
+ALIGNMENTS
+>WP_213541678.1 thymidylate kinase [Vescimonas coprocola]
+ BCK80821.1 thymidylate kinase [Vescimonas coprocola]
+Length=222
+
+ Score = 206 bits (525),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 97/225 (43%), Positives = 147/225 (65%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI+ E G D SGKATQ+  L + L + G   +K+TFP Y  +SSALV++YL G FG
+Sbjct  1    MQGKLIVFE-GTDGSGKATQSELLCQELTRRGIPYRKLTFPRYQEESSALVRLYLGGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            + P DV+ Y A+ FY+VDR+ASY+ +WG  Y  G +++ADRYTTSN VHQ +K+   E++
+Sbjct  60   QKPGDVNAYAAAAFYSVDRYASYKQDWGSYYEQGGLLIADRYTTSNAVHQTSKLPP-EQQ  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              F+DWL++FE++   LP PD V++LD+P   S ++M+ R  +       DIHE+++ YL
+Sbjct  119  RPFVDWLFDFEYQKLGLPAPDRVLYLDLPTELSEQMMRRR--EAATHTHADIHEQDEAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                 ++  V     W +I C +DG ++ I +I +EV E V+ ++
+Sbjct  177  RSCRESAARVVDWCGWQRIRCDRDGRIRSIQDIHQEVLERVADLL  221
+
+
+>WP_213541809.1 DMT family transporter [Vescimonas coprocola]
+ BCK80991.1 permease [Vescimonas coprocola]
+Length=306
+
+ Score = 29.3 bits (64),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 22/75 (29%), Positives = 36/75 (48%), Gaps = 6/75 (8%)
+
+Query  8    IESGADASGKATQTNKLYERLVQ--EGYKVKKITFPNYDSDSSALVKMYL---NGDFGKD  62
+            + +G DA GKA     LY  LV     +  +K++ P + +   ++V +YL    G F
+Sbjct  101  LVAGTDA-GKAGFITALYVVLVPLFGLFFRRKVSGPVWIAVVLSVVSLYLLCIKGGFSLA  159
+
+Query  63   PNDVSPYVASTFYAV  77
+            P D+   V +  +AV
+Sbjct  160  PGDLLVLVCAVCFAV  174
+
+
+>WP_213541488.1 TIGR03960 family B12-binding radical SAM protein [Vescimonas
+coprocola]
+ BCK80556.1 B12-binding domain-containing radical SAM protein [Vescimonas
+coprocola]
+Length=610
+
+ Score = 26.9 bits (58),  Expect = 0.76, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  25   YER---LVQEGYKVKKITFPNYDSDSSALVKMYLNGD  58
+            YER   L++E  K K +T+  +DSD+S L  +   GD
+Sbjct  471  YERRVALLREAIKTKTVTYNWHDSDTSFLEAVLARGD  507
+
+
+>WP_213541745.1 signal recognition particle-docking protein FtsY [Vescimonas
+coprocola]
+ BCK80909.1 hypothetical protein MM50RIKEN_06720 [Vescimonas coprocola]
+Length=289
+
+ Score = 25.0 bits (53),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  11   GADASGKATQTNKLYERLVQEGYKV  35
+            G +  GK T   KL  RL  EG KV
+Sbjct  96   GVNGVGKTTSIGKLAHRLKNEGKKV  120
+
+
+>WP_213540483.1 DUF134 domain-containing protein [Vescimonas coprocola]
+ BCK81816.1 hypothetical protein MM50RIKEN_15790 [Vescimonas coprocola]
+Length=259
+
+ Score = 24.6 bits (52),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 18/37 (49%), Gaps = 4/37 (11%)
+
+Query  28   LVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            L + G K+    +     D+ A V   L+G+ G DPN
+Sbjct  199  LAEAGIKL----YGGVSGDADAAVSALLSGNLGYDPN  231
+
+
+>WP_021858597.1 tryptophan--tRNA ligase [Vescimonas coprocola]
+ BCK80450.1 tryptophan--tRNA ligase [Vescimonas coprocola]
+Length=366
+
+ Score = 24.6 bits (52),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 11/21 (52%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  43   YDSDSSALVKMYLNGDFGKDP  63
+            Y SDS+A+VK  +NG    DP
+Sbjct  212  YLSDSAAVVKKQINGKMFTDP  232
+
+
+>WP_212819493.1 MULTISPECIES: site-specific integrase [Vescimonas]
+ BCK81663.1 phage integrase [Vescimonas coprocola]
+Length=352
+
+ Score = 24.3 bits (51),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 18/30 (60%), Gaps = 3/30 (10%)
+
+Query  36   KKITFPNYDSDSSALVKMYLNGDFGKDPND  65
+            +KIT P +  D   LVK Y +  +G DP+D
+Sbjct  242  RKITLPQFVCD---LVKDYADRLYGYDPSD  268
+
+
+>WP_213541453.1 DUF134 domain-containing protein [Vescimonas coprocola]
+ BCK80511.1 hypothetical protein MM50RIKEN_02740 [Vescimonas coprocola]
+Length=259
+
+ Score = 24.3 bits (51),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  40   FPNYDSDSSALVKMYLNGDFGKDPN  64
+            +     D+ A V   L+G+ G DPN
+Sbjct  207  YGGVSGDADAAVSALLSGNLGYDPN  231
+
+
+>WP_213540773.1 MobA/MobL family protein [Vescimonas coprocola]
+ BCK82243.1 hypothetical protein MM50RIKEN_20060 [Vescimonas coprocola]
+Length=498
+
+ Score = 23.5 bits (49),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 21/37 (57%), Gaps = 1/37 (3%)
+
+Query  112  AKIKDMEEKDRFL-DWLWNFEFEIYKLPVPDCVIFLD  147
+            A I+D+++K   L DW+   + E+ K   PD V  L+
+Sbjct  264  AVIRDIKKKIALLFDWIAEAKAELAKPQAPDLVSLLN  300
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 805,976
+  Number of sequences in database:  2,676
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 2676
+Number of Hits to DB: 2444
+Number of extensions: 90
+Number of successful extensions: 1
+Number of sequences better than 100: 0
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 1
+Number of HSP's successfully gapped: 0
+Length of query: 227
+Length of database: 805976
+Length adjustment: 77
+Effective length of query: 150
+Effective length of database: 599924
+Effective search space: 89988600
+Effective search space used: 89988600
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 30 (16.2 bits)
+S2: 40 (20.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

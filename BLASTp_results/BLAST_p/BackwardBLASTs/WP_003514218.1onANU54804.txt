@@ -1,0 +1,1335 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8URT5G1U01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+MCC8169319.1 thymidylate kinase [Oscillospiraceae bacterium]       237     7e-78  53%
+MBQ8264618.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   231     2e-75  50%
+MCC8048028.1 thymidylate kinase [Oscillospiraceae bacterium]       231     2e-75  51%
+MBQ6901510.1 thymidylate kinase [Oscillospiraceae bacterium]       231     2e-75  50%
+MCD8255358.1 thymidylate kinase [Oscillospiraceae bacterium]       231     2e-75  51%
+MCD8343323.1 thymidylate kinase [Oscillospiraceae bacterium]       231     2e-75  52%
+MBR5542658.1 thymidylate kinase [Oscillospiraceae bacterium]       230     3e-75  49%
+MBQ9269592.1 thymidylate kinase [Oscillospiraceae bacterium]       230     3e-75  48%
+MBR2929498.1 thymidylate kinase [Oscillospiraceae bacterium]       230     4e-75  50%
+MBQ3263242.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   229     7e-75  49%
+MBO7372870.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   229     9e-75  50%
+MCD8017178.1 thymidylate kinase [Oscillospiraceae bacterium]       229     9e-75  51%
+MCC8079024.1 thymidylate kinase [Oscillospiraceae bacterium]       229     1e-74  51%
+MBO6016571.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   229     1e-74  50%
+MBQ2841114.1 thymidylate kinase [Oscillospiraceae bacterium]       228     2e-74  49%
+MCD8099555.1 thymidylate kinase [Oscillospiraceae bacterium]       228     3e-74  50%
+MBQ3803080.1 thymidylate kinase [Oscillospiraceae bacterium]       227     6e-74  48%
+MBR2703137.1 thymidylate kinase [Oscillospiraceae bacterium]       226     1e-73  48%
+MBP3304553.1 thymidylate kinase [Oscillospiraceae bacterium]       226     1e-73  49%
+MBQ3757460.1 thymidylate kinase [Oscillospiraceae bacterium]       226     2e-73  48%
+MCD8191397.1 thymidylate kinase [Oscillospiraceae bacterium]       226     2e-73  50%
+MBQ6116336.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   225     2e-73  49%
+MBS7309417.1 thymidylate kinase [Oscillospiraceae bacterium]       225     3e-73  47%
+MBQ2892878.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   224     8e-73  49%
+MBS1465960.1 thymidylate kinase [Oscillospiraceae bacterium]       224     8e-73  46%
+MBO5639252.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   224     9e-73  51%
+MBO5954300.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   224     1e-72  48%
+MBQ9986358.1 thymidylate kinase [Oscillospiraceae bacterium]       224     1e-72  48%
+MBS1360239.1 thymidylate kinase [Oscillospiraceae bacterium]       224     1e-72  48%
+MBP8761541.1 thymidylate kinase [Oscillospiraceae bacterium]       224     1e-72  46%
+MBQ8921967.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   223     2e-72  51%
+MBR3174580.1 thymidylate kinase [Oscillospiraceae bacterium]       223     2e-72  47%
+MBR5617477.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   223     2e-72  48%
+MBR2807028.1 thymidylate kinase [Oscillospiraceae bacterium]       223     2e-72  51%
+MBQ7229947.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   223     3e-72  49%
+GKI15613.1 thymidylate kinase [Oscillospiraceae bacterium]         222     5e-72  50%
+MBQ7340835.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   222     6e-72  48%
+MBR7039477.1 thymidylate kinase [Oscillospiraceae bacterium]       222     7e-72  49%
+MBQ8238590.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   222     7e-72  47%
+MBQ7902761.1 thymidylate kinase [Oscillospiraceae bacterium]       221     1e-71  50%
+MBQ6840476.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   221     1e-71  47%
+MBQ5325769.1 thymidylate kinase [Oscillospiraceae bacterium]       221     2e-71  50%
+MBR2670648.1 thymidylate kinase [Oscillospiraceae bacterium]       221     2e-71  52%
+MBQ3008168.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   221     2e-71  49%
+MBR5125701.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   221     2e-71  48%
+MBP3674481.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   221     2e-71  47%
+MBR4990144.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     3e-71  49%
+MBQ5334459.1 thymidylate kinase [Oscillospiraceae bacterium]       220     3e-71  47%
+MBR5260827.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     3e-71  49%
+MBR5217680.1 thymidylate kinase [Oscillospiraceae bacterium]       220     3e-71  46%
+MBR4036452.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     3e-71  51%
+MBO4938770.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     3e-71  48%
+MBQ9662444.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     4e-71  49%
+MBQ5325709.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   220     4e-71  50%
+MBQ6846007.1 thymidylate kinase [Oscillospiraceae bacterium]       219     6e-71  47%
+MCD8144950.1 thymidylate kinase [Oscillospiraceae bacterium]       219     6e-71  49%
+MBQ1674607.1 thymidylate kinase [Oscillospiraceae bacterium]       219     6e-71  48%
+MBQ2829604.1 thymidylate kinase [Oscillospiraceae bacterium]       219     7e-71  45%
+MBQ9843178.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   219     7e-71  46%
+MBQ3491313.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   219     9e-71  48%
+MBQ2783134.1 thymidylate kinase [Oscillospiraceae bacterium]       219     1e-70  45%
+MBQ3725088.1 thymidylate kinase [Oscillospiraceae bacterium]       219     1e-70  50%
+MBP3699483.1 thymidylate kinase [Oscillospiraceae bacterium]       219     1e-70  45%
+MBQ7230785.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   219     1e-70  48%
+MBQ1265032.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     2e-70  47%
+MBQ6974607.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     2e-70  50%
+MBR0211350.1 thymidylate kinase [Oscillospiraceae bacterium]       218     2e-70  50%
+MBQ8580059.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     2e-70  45%
+MBR4869283.1 thymidylate kinase [Oscillospiraceae bacterium]       218     2e-70  47%
+MBQ6851475.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     2e-70  47%
+MBQ5754416.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   219     3e-70  49%
+MBR6609484.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     3e-70  49%
+MBQ7119838.1 thymidylate kinase [Oscillospiraceae bacterium]       218     3e-70  47%
+MBO5837975.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     3e-70  47%
+MBO5323154.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   218     3e-70  48%
+MBP3632249.1 thymidylate kinase [Oscillospiraceae bacterium]       218     4e-70  45%
+MBR2888862.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   217     4e-70  47%
+MBP3493306.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   217     5e-70  47%
+MBQ6850405.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   217     5e-70  49%
+MBQ9393257.1 thymidylate kinase [Oscillospiraceae bacterium]       217     6e-70  43%
+MBQ4549658.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   217     6e-70  49%
+MBS6865774.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   217     7e-70  49%
+MBQ9836957.1 thymidylate kinase [Oscillospiraceae bacterium]       216     7e-70  45%
+MBR5521246.1 thymidylate kinase [Oscillospiraceae bacterium]       216     8e-70  50%
+MBQ6249889.1 thymidylate kinase [Oscillospiraceae bacterium]       216     8e-70  50%
+MBO5121763.1 thymidylate kinase [Oscillospiraceae bacterium]       216     9e-70  45%
+MBP1551878.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     9e-70  50%
+MBR5570594.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     9e-70  47%
+MBR3848627.1 thymidylate kinase [Oscillospiraceae bacterium]       216     9e-70  47%
+MBQ9930666.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     1e-69  46%
+MBR4702029.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     1e-69  48%
+MBR6119044.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     1e-69  47%
+MBQ6997487.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     1e-69  46%
+MBQ1170190.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     2e-69  47%
+MBQ6757270.1 thymidylate kinase [Oscillospiraceae bacterium]       216     2e-69  48%
+MBO5128971.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     2e-69  46%
+MBR4016460.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   216     2e-69  45%
+MBQ8604831.1 thymidylate kinase [Oscillospiraceae bacterium]       215     2e-69  49%
+MBQ8611109.1 thymidylate kinase [Oscillospiraceae bacterium]       216     2e-69  55%
+MBR5805891.1 deoxynucleoside kinase [Oscillospiraceae bacterium]   215     2e-69  49%
+
+ALIGNMENTS
+>MCC8169319.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=225
+
+ Score = 237 bits (605),  Expect = 7e-78, Method: Compositional matrix adjust.
+ Identities = 120/225 (53%), Positives = 161/225 (72%), Gaps = 2/225 (1%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+I+ G DASGK TQT  L ERL   G +V+ I+FP YD+ SS LV+MYLNGDFGK+
+Sbjct  2    GKLIVID-GVDASGKETQTKLLKERLEAMGERVRMISFPAYDNPSSTLVRMYLNGDFGKN  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYND-GWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            P+DV+ Y AS+F+A DR+A+Y+++WG  Y D G IILADRY +SNM+HQA+K+K   E+
+Sbjct  61   PDDVNAYAASSFFAADRYATYKSDWGADYADSGTIILADRYVSSNMIHQASKLKSSGERS  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             F+ WL +FE   Y LP PD  +FLDMP    + LM ERANK  G + +DIHE N EYL
+Sbjct  121  EFMAWLDDFEHNRYGLPRPDVTLFLDMPVECGQRLMSERANKIDGSKSRDIHESNTEYLY  180
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIR  226
+            ESY  +++ A+KY W +I CV+D  L+ + +I  E++E V G+I+
+Sbjct  181  ESYNTAVFAAEKYGWKRIFCVEDNELRSVGDINDEIFEIVKGVIK  225
+
+
+>MBQ8264618.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 231 bits (589),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 113/225 (50%), Positives = 154/225 (68%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+G LI+IE G D SGK+TQ  KL ERL  EG + +KI FP YD DSSALV+ YL G FG
+Sbjct  1    MQGNLIVIE-GIDGSGKSTQYRKLVERLENEGREFRKIVFPRYDKDSSALVREYLRGGFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P+DV+ Y ASTFYAVDRFAS++T+WG+ Y  G ++L+DRYTTSN  HQ +K+K  EE+
+Sbjct  60   TNPDDVNAYAASTFYAVDRFASFKTDWGEYYKKGGLVLSDRYTTSNACHQGSKVKG-EER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+             ++L+WL++FEF +  LP P  VI+L++    SR  M+ R N    E   DIHE++ +YL
+Sbjct  119  VKYLNWLYDFEFNLLGLPAPSLVIYLNIDIEVSRRQMEARQNATNTEA--DIHEKDFDYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                    + AK Y W  I+CV+DG ++ I++I +E+Y AV G I
+Sbjct  177  ASCLEAGRFAAKTYGWKIIDCVRDGEMRSIEDIHEEIYRAVIGAI  221
+
+
+>MCC8048028.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 231 bits (589),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 115/225 (51%), Positives = 149/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L ERL  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCERLSAEGYSYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N +YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDIVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNADYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y AK Y W  + CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAKHYGWTVVHCVSGGNMRGIDDIHEEIYSKVKEVI  227
+
+
+>MBQ6901510.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 231 bits (588),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 113/227 (50%), Positives = 155/227 (68%), Gaps = 8/227 (4%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI IE G D SGK+TQ   L  RL  EG K KKI FP YDSDSSALV+MYL G+FG
+Sbjct  1    MRGKLITIE-GTDCSGKSTQLELLCRRLTDEGQKFKKIAFPRYDSDSSALVRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+               + V+PY AS+F+AVDR ASY  EW    +DG I+L DRYTTSN ++QA+K+ +  E+
+Sbjct  60   DSAHAVNPYAASSFFAVDRVASYLREWKSYLDDGGIVLLDRYTTSNAIYQASKMPE-GER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + F DWL++FE+ +  LP P  VIFLDMPP  +  LM++R      E ++DIHE++ EYL
+Sbjct  119  ESFCDWLFDFEYRLLGLPEPSAVIFLDMPPEHAESLMRKR------EGEEDIHEKDKEYL  172
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+               Y ++  +A KY+W +I C ++  +K IDEI  E+++ VS ++ +
+Sbjct  173  KTCYASATALAAKYSWKRISCTENQRIKTIDEIHAEIFKTVSDVLTE  219
+
+
+>MCD8255358.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 231 bits (588),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 114/225 (51%), Positives = 149/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L ERL  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCERLSAEGYSYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N +YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNADYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y AK Y W  + CV  G ++ ID+I +E+Y  V  ++
+Sbjct  183  AECLEAGHYAAKHYGWTVVHCVSGGNMRSIDDIHEEIYSKVKEVV  227
+
+
+>MCD8343323.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 231 bits (588),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 116/225 (52%), Positives = 148/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L ERL  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCERLSAEGYSYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N  YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNAGYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y AK Y W  I CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAKHYGWTVIHCVSGGNMRGIDDIHEEIYSKVKEVI  227
+
+
+>MBR5542658.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 230 bits (587),  Expect = 3e-75, Method: Compositional matrix adjust.
+ Identities = 112/227 (49%), Positives = 163/227 (72%), Gaps = 8/227 (4%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI IE G D SGK+TQ + L ERL +EG + KKI FP YDS+SSALV+MYL G+FG
+Sbjct  1    MRGKLITIE-GTDCSGKSTQLSLLAERLTREGVEFKKIAFPRYDSESSALVRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            ++  +V+PY AS+F+AVDR ASY  EW     +G  +L DRYTTSN ++QA K+  + E+
+Sbjct  60   ENVKNVNPYAASSFFAVDRVASYLREWKSYIEEGGSVLLDRYTTSNAIYQATKLC-VAER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            ++F DWL++FE+ +  LP PD VIFLDMPP F+ +LM+ R      ++K+D+HER+ EYL
+Sbjct  119  EKFCDWLFDFEYNLLGLPRPDGVIFLDMPPRFAEKLMQGR------DEKEDLHERDKEYL  172
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+               Y ++  +A++Y+W +I CV++  +K I+E+ +E+ E V  I+R+
+Sbjct  173  KGCYESACSLAERYSWERISCVENDRIKTIEEMHEEISEKVFKILRE  219
+
+
+>MBQ9269592.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=220
+
+ Score = 230 bits (587),  Expect = 3e-75, Method: Compositional matrix adjust.
+ Identities = 108/223 (48%), Positives = 152/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI++E G D SGKATQT +L ERL  EG + + + FP Y  +SSAL++MYL G+FG
+Sbjct  2    GKLIVLE-GTDGSGKATQTRRLLERLEAEGIRCRTVEFPRYKEESSALIRMYLGGEFGDR  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y ASTFYAVDR+AS++ +WG  Y DG ++LADRYTTSN VHQ  K+    E++
+Sbjct  61   PSDVNAYAASTFYAVDRYASFKQDWGGFYEDGGVVLADRYTTSNAVHQGGKLAPG-EREE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            +  WL++FE+ +  LP PD VI+LD+P   + E M+ R  +       DIHER+ EYL +
+Sbjct  120  YFRWLFDFEYRLMGLPAPDLVIYLDVPVEQTEENMQRREAETN--TSADIHERDTEYLRQ  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                ++  A+++ W +I CV+DGV++ I+EI  EVY AV  I+
+Sbjct  178  CRTAAMAAAEQFGWRRIPCVRDGVMRSIEEIHNEVYSAVKEIL  220
+
+
+>MBR2929498.1 thymidylate kinase [Oscillospiraceae bacterium]
+ MBR6678496.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 230 bits (586),  Expect = 4e-75, Method: Compositional matrix adjust.
+ Identities = 113/226 (50%), Positives = 161/226 (71%), Gaps = 6/226 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLI+ E G D SGKATQT  L ERL +EG + ++ITFP YD++SSAL++MYL G+FG
+Sbjct  1    MKGKLIVFE-GTDGSGKATQTRLLVERLQREGKEPRQITFPRYDNESSALIRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DP DV+ Y AS FYAVDRFASY+ +WG  Y +G +I+ADRYTTSN VHQA+K+   EE+
+Sbjct  60   TDPGDVNAYAASAFYAVDRFASYKQDWGNFYENGGLIVADRYTTSNAVHQASKLPK-EER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKER-ANKFTGEQKKDIHERNDEY  179
+            + +L+WL++FE+ +  LP PD V +LD+P   + E+ K+R A+  T     DIHE++++Y
+Sbjct  119  EPYLNWLFHFEYALMGLPKPDVVFYLDIPTEITGEMRKKREADTNT---TADIHEKDEQY  175
+
+Query  180  LVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            L E   N+  VAK   W +++CV++G L  ++EI +E+   +  +I
+Sbjct  176  LRECRSNAAEVAKLCGWERVDCVREGRLLSVEEIHEEIVRRLEKLI  221
+
+
+>MBQ3263242.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+ MBQ6402389.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 229 bits (585),  Expect = 7e-75, Method: Compositional matrix adjust.
+ Identities = 108/220 (49%), Positives = 155/220 (70%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +G LI+IE G D SGKATQ   L+E L Q+G  V+K++FP+YDS SSALVKMYL GDFG
+Sbjct  3    RGTLIVIE-GLDGSGKATQAKLLFESLQQQGKNVRKVSFPDYDSASSALVKMYLAGDFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+ Y ASTF+AVDR+AS++  W + Y +G +++ADRYTTSN VHQ +K+ + E +
+Sbjct  62   DPGDVNAYAASTFFAVDRYASFKKNWREFYENGGVVIADRYTTSNAVHQCSKLPETEWEG  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+             FL+WL++FE+++  +P PD V +L   P  +++L+  R +    EQKKDIHERN +YL
+Sbjct  122  -FLNWLFHFEYDLLGIPAPDRVFYLQTAPGVNQKLLDHRYHG--DEQKKDIHERNADYLA  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             S   + + A+K +W  I CV+DG ++ I EI +E+ + +
+Sbjct  179  HSRAAAEFCAEKLSWTTIHCVRDGAMRGIQEIHEEILDCL  218
+
+
+>MBO7372870.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+ MBP5240243.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+ MBP5744424.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 229 bits (584),  Expect = 9e-75, Method: Compositional matrix adjust.
+ Identities = 112/225 (50%), Positives = 155/225 (69%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ  +  E L +EG KV+KI+FPNY SDSSALV+MYL G FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKRTVEALQKEGVKVRKISFPNYASDSSALVRMYLAGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P+DV+ Y ASTF+AVDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   SNPDDVNAYAASTFFAVDRYAGMKQDWGAFYEAGGILVADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +LDWL++FE+    LP PD VI+L +P S + +LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DAYLDWLFHFEYRQLGLPAPDLVIYLQVPVSVNEKLMTERYHG--NEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            + ++  + Y A+K  W  ++C +DG ++ I+ I  +V + +  +I
+Sbjct  177  MHAHSAADYCARKLGWHTVDCSEDGGMRSIEAIGADVLKEIRRVI  221
+
+
+>MCD8017178.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 229 bits (584),  Expect = 9e-75, Method: Compositional matrix adjust.
+ Identities = 114/225 (51%), Positives = 149/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L ERL  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCERLSAEGYGYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N +YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNADYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y A+ Y W  + CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAEHYGWTVVHCVSGGNMRGIDDIHEEIYSKVKEVI  227
+
+
+>MCC8079024.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 229 bits (584),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 115/225 (51%), Positives = 148/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L ERL  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCERLSAEGYSYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N  YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNAGYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y AK Y W  + CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAKHYGWTVVHCVSGGNMRGIDDIHEEIYCKVKEVI  227
+
+
+>MBO6016571.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 229 bits (583),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 112/225 (50%), Positives = 155/225 (69%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ  +  E L +EG KV+KI+FPNY SDSSALV+MYL G FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKRTVEALQKEGVKVRKISFPNYASDSSALVRMYLAGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P+DV+ Y ASTF+AVDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   NNPDDVNAYAASTFFAVDRYAGMKQDWGAFYEAGGILVADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +LDWL++FE+    LP PD VI+L +P S + +LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DAYLDWLFHFEYRQLGLPAPDLVIYLQVPVSVNEKLMTERYH--GNEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            + ++  + Y A+K  W  ++C +DG ++ I+ I  +V + +  +I
+Sbjct  177  MHAHSAADYCARKLGWHTVDCSEDGGMRSIEAIGADVLKEIRRVI  221
+
+
+>MBQ2841114.1 thymidylate kinase [Oscillospiraceae bacterium]
+ MBQ4544911.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 228 bits (581),  Expect = 2e-74, Method: Compositional matrix adjust.
+ Identities = 112/227 (49%), Positives = 154/227 (68%), Gaps = 8/227 (4%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+ KLI IE G D SGK+TQ   L  RL  EG K KKI FP YDSDSSALV+MYL G+FG
+Sbjct  1    MRSKLITIE-GTDCSGKSTQLELLCRRLTDEGQKFKKIAFPRYDSDSSALVRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+               + V+PY AS+F+AVDR ASY  EW    +DG I+L DRYTTSN ++QA+K+ +  E+
+Sbjct  60   DSAHAVNPYAASSFFAVDRVASYLREWKSYLDDGGIVLLDRYTTSNAIYQASKMPE-GER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            + F DWL++FE+ +  LP P  VIFLDMPP  +  LM++R      E ++DIHE++ EYL
+Sbjct  119  ESFCDWLFDFEYRLLGLPEPSAVIFLDMPPEHAESLMRKR------EGEEDIHEKDKEYL  172
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+               Y ++  +A KY+W +I C ++  +K IDEI  E+++ VS ++ +
+Sbjct  173  KTCYASATALAAKYSWKRISCTENQRIKTIDEIHAEIFKTVSDVLTE  219
+
+
+>MCD8099555.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 228 bits (581),  Expect = 3e-74, Method: Compositional matrix adjust.
+ Identities = 113/225 (50%), Positives = 149/225 (66%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L E L  EGY  +K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCEHLSAEGYSYRKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL++FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N +YL
+Sbjct  126  EFLDWLYSFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNADYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y A+ Y W  + CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAEHYGWTVVHCVSGGNMRGIDDIHEEIYSKVKEVI  227
+
+
+>MBQ3803080.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 227 bits (579),  Expect = 6e-74, Method: Compositional matrix adjust.
+ Identities = 109/225 (48%), Positives = 154/225 (68%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ     E L++EG KV+KI+FPNY SDSSALV+MYL G FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKLAAEALLKEGMKVRKISFPNYASDSSALVRMYLAGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+ + ASTF+AVDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   SNPGDVNAFAASTFFAVDRYAGMKQDWGAFYKAGGILIADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +LDWL++FE+    LP PD V++L +P S +  LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DEYLDWLFHFEYGQLGLPEPDLVLYLQVPVSVNERLMTERYHG--NEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            + ++  + Y A+K+ W  ++C +DG ++ I+ I  +V  ++  ++
+Sbjct  177  MHAHSAADYCARKFGWHTVDCTEDGGMRSIEAIGADVLRSIRLVV  221
+
+
+>MBR2703137.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 226 bits (576),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 108/225 (48%), Positives = 155/225 (69%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ     E L++EG KV+KI+FPNY SDSSALV+MYL G+FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKLAAEALLKEGMKVRKISFPNYASDSSALVRMYLAGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+ Y ASTF++VDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   SNPGDVNAYAASTFFSVDRYAGMKQDWGAFYKAGGILIADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +L+WL+++E+    LP PD V++L +P S +  LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DEYLEWLFHYEYGQLGLPEPDLVLYLQVPVSVNERLMTERYHG--NEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            ++++  + Y A+K+ W  + C +DG ++ I+ I  +V  A+  ++
+Sbjct  177  MQAHTAADYCARKFGWHTVNCTEDGGMRSIEAIGADVLRAIRLVV  221
+
+
+>MBP3304553.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 226 bits (576),  Expect = 1e-73, Method: Compositional matrix adjust.
+ Identities = 110/223 (49%), Positives = 147/223 (66%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L ERL QEG + K + FP Y   SSAL++MYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFKALTERLRQEGREFKTLVFPQYSEPSSALIRMYLGGEFGTS  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDRFASY+ +WGQ Y  G +I++DRYTTSN VHQA+K + +E++
+Sbjct  61   PSDVNAYAASAFYAVDRFASYKKDWGQWYEHGGLIVSDRYTTSNAVHQASK-EPLEKQGE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+ FE+E   LP PD  ++LD+P +F+ +LM+ R          DIHE++  YL
+Sbjct  120  FLKWLYEFEYERLGLPRPDLTVYLDVPTAFTEKLMRTREQALG--THADIHEQDLSYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                    AK Y W  IECV+DG ++ ID+I +E+Y  V G +
+Sbjct  178  CRETGRAAAKFYGWNIIECVRDGKMRSIDDIHEEIYRLVKGCL  220
+
+
+>MBQ3757460.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 226 bits (575),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 107/225 (48%), Positives = 156/225 (69%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ     E L++EG KV+KI+FPNY SDSSALV+MYL G+FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKLAAEALLKEGMKVRKISFPNYSSDSSALVRMYLAGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+ Y ASTF++VDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   SNPGDVNAYAASTFFSVDRYAGMKQDWGAFYKAGGILIADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +L+WL++FE+    LP PD V++L +P S +  LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DEYLEWLFHFEYGQLGLPEPDLVLYLQVPVSVNERLMTERYHG--NEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            ++++  + Y A+K+ W  ++C ++G ++ I+ I  +V  ++  ++
+Sbjct  177  MQAHSAADYCARKFGWHTVDCTENGGMRSIEAIGADVLRSIRLVV  221
+
+
+>MCD8191397.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=227
+
+ Score = 226 bits (575),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 113/225 (50%), Positives = 147/225 (65%), Gaps = 6/225 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            +GKLI++E G D SGK+TQ  +L E L  EG+   K+ FP Y  DSSAL++ YL GDFG
+Sbjct  8    RGKLIVLE-GIDGSGKSTQYERLCEHLSAEGHSYLKVKFPRYGEDSSALIRQYLRGDFGS  66
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP DV+PY AS  YAVDRFASY T+W   YN+G +IL DRYTTSN  HQ +K+   E +
+Sbjct  67   DPADVNPYAASVLYAVDRFASYMTDWKDYYNNGGLILLDRYTTSNACHQGSKVPP-EGRQ  125
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSF-SRELMKERANKFTGEQKKDIHERNDEYL  180
+             FLDWL+ FEF + +LP PD V++LD   +  SR++ K R+   TGE K DIHE+N +YL
+Sbjct  126  EFLDWLYGFEFRLLELPEPDLVLYLDTDIAVSSRQMAKRRSG--TGE-KADIHEKNADYL  182
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             E      Y AK Y W  + CV  G ++ ID+I +E+Y  V  +I
+Sbjct  183  AECLEAGHYAAKHYGWTVVHCVSGGNMRGIDDIHEEIYSKVKEVI  227
+
+
+>MBQ6116336.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=218
+
+ Score = 225 bits (574),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 107/217 (49%), Positives = 150/217 (69%), Gaps = 4/217 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+IE G D SGKATQ   L   L Q G KV+K++FP+Y+SDSSALVKMYL G+FG
+Sbjct  1    MSGKLIVIE-GLDGSGKATQAGLLAGWLEQAGEKVRKVSFPDYESDSSALVKMYLAGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DP DV+ Y AS+FYAVDR+AS++ +WG  Y DG I++ADRY TSN +HQ +K+   E+
+Sbjct  60   SDPGDVNAYAASSFYAVDRYASFKKDWGAFYRDGGIVIADRYATSNAIHQCSKLP-REQW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +LDWL++FE+++  +P PD VI+L + P  S++LM  R +    E +KDIHE N +Y+
+Sbjct  119  DAYLDWLFHFEYQLLGIPAPDLVIYLQVQPEVSQKLMSARYH--GDESRKDIHEHNLDYM  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+              S + + Y A K  W  + C   G ++ +++IQ E+
+Sbjct  177  NRSRQAAEYCAAKLGWRTVHCTAGGAMRTVEDIQSEI  213
+
+
+>MBS7309417.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 225 bits (574),  Expect = 3e-73, Method: Compositional matrix adjust.
+ Identities = 106/224 (47%), Positives = 150/224 (67%), Gaps = 4/224 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+LI+ E G D SGKATQ+  L+ERL +EG   +K+ FP Y   S+ALV++YL G FG
+Sbjct  3    KGRLIVFE-GTDGSGKATQSRLLFERLEREGVDCRKLNFPRYGEKSAALVELYLGGAFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y ASTFYAVDR+ASY+ +WG  Y  G +++ADRYTTSN VHQA+K+ D  E++
+Sbjct  62   HPDDVNAYAASTFYAVDRYASYKQDWGGYYEAGGLLIADRYTTSNAVHQASKLPDG-ERE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+            +FLDWL+ FE+ +  LP P  V +LD+P   +  LM+ER          DIHE +D YL
+Sbjct  121  KFLDWLFGFEYGLLGLPEPSLVFYLDVPTEVTERLMRERER--ATHTAADIHEADDAYLR  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            E   N+  VA +  W +++C +DG ++ I++I +EVY  V  ++
+Sbjct  179  ECRENARGVAARCGWQRVDCTRDGRMRGIEDIHEEVYARVKALL  222
+
+
+>MBQ2892878.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 224 bits (571),  Expect = 8e-73, Method: Compositional matrix adjust.
+ Identities = 109/223 (49%), Positives = 152/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ  KL ERLVQEG + K + FP Y   SSAL+KMYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRKLTERLVQEGQEFKTLVFPRYAEPSSALIKMYLGGEFGSK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS+FYAVDR+ASY+ +WGQ Y +G +I++DRYTTSN VHQ +K +  E++
+Sbjct  61   PSDVNAYAASSFYAVDRYASYKQDWGQYYENGGVIVSDRYTTSNAVHQTSK-EPKEKQAE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+ FE++   LP PD VI+LD+P SF+ ++M+ R  +       DIHE++ +YL
+Sbjct  120  FLKWLYEFEYDKLALPRPDLVIYLDVPTSFTEKMMRRREQETN--THADIHEQDMQYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+               +    AK Y W  ++CVKD  ++ I++I +E+YE V   +
+Sbjct  178  CRESGRTAAKYYGWHIVQCVKDDEMRSIEDIHEEIYETVKHCL  220
+
+
+>MBS1465960.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 224 bits (571),  Expect = 8e-73, Method: Compositional matrix adjust.
+ Identities = 103/226 (46%), Positives = 156/226 (69%), Gaps = 4/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+ E G D SGKATQ+  L+ERL +EG   +K+ FP Y   S+ALV++YL G FG
+Sbjct  1    MSGKLIVFE-GTDGSGKATQSKLLFERLQREGIDCRKLNFPRYGEKSAALVELYLGGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+ Y ASTFY+VDR+ASY+ +WG+ Y  G +++ADRYTTSN VHQA K+ D  E+
+Sbjct  60   THPDDVNAYAASTFYSVDRYASYKQDWGKYYEAGGLLIADRYTTSNAVHQAGKLPDG-ER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            +++LDWL+ FE+ +  LP P  V +LD+P   + ++M+ER        K DIHE+++ YL
+Sbjct  119  EKYLDWLFGFEYGLLGLPEPSLVFYLDVPTELTEKMMREREQATN--TKADIHEQDEAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIR  226
+                 N+  VA++ +W +I+C KDG ++ +++I +E+Y  V+ +++
+Sbjct  177  RACRENAKKVAERCSWQRIDCSKDGAMRTVEDIHEEIYRRVTELLK  222
+
+
+>MBO5639252.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 224 bits (571),  Expect = 9e-73, Method: Compositional matrix adjust.
+ Identities = 115/225 (51%), Positives = 153/225 (68%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLI+IE G D SGKATQ  +L   L Q G +V++I+FPNYDSDSSALVKMYL+G FG
+Sbjct  1    MKGKLIVIE-GLDGSGKATQAKRLAAALQQSGERVREISFPNYDSDSSALVKMYLSGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P DV+ Y AS+FYAVDR+A  + +WG  Y++G I++ADRYTTSN VHQ  K+   +
+Sbjct  60   TQPGDVNAYAASSFYAVDRYAGMKQDWGSFYDEGGILIADRYTTSNAVHQCCKLP-RDGW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +LDWL++FE+ + +LP PD VI+L +    S+ LM ER +    E+KKDIHE N  YL
+Sbjct  119  DDYLDWLFDFEYRLLRLPEPDLVIYLRLALETSQRLMSERYH--GDEKKKDIHESNVSYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             +++  + Y A +Y W  +EC     L+ I+EI  EV + VS  I
+Sbjct  177  EQAHLAADYCAAQYGWKTVECAGADGLRGIEEIGTEVLKLVSSEI  221
+
+
+>MBO5954300.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 224 bits (570),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 106/223 (48%), Positives = 153/223 (69%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   + ERL  EG + +++ FP Y  +SSAL++MYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRLMTERLTAEGKEFRRLVFPRYSEESSALIRMYLGGEFGTK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS FYAVDR+ASY+ +WGQ Y +G +IL+DRYTTSN VHQA+K  + E ++
+Sbjct  61   PTDVNAYAASAFYAVDRYASYKQDWGQWYEEGGLILSDRYTTSNAVHQASKEPE-ERREA  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            +L WL+ FE++   LP PD VI+LD+P +F+ +LM+ R    TG Q  DIHE++ +YL
+Sbjct  120  YLKWLYEFEYDKLALPRPDLVIYLDVPTAFTEKLMRHREQD-TGTQ-ADIHEKDMDYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              +     AK Y W  I+C++DG ++ I++I +E+Y  V+  +
+Sbjct  178  CRQTGRAAAKFYGWTVIDCIRDGAMRSIEDIHEEIYRHVTACL  220
+
+
+>MBQ9986358.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 224 bits (570),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 108/227 (48%), Positives = 157/227 (69%), Gaps = 7/227 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI IE G D SGK+TQ   L ERL +EG    K+ FP YDSDSSALV+MYL G+FG
+Sbjct  1    MRGKLITIE-GTDCSGKSTQLALLCERLRREGVDFMKVAFPRYDSDSSALVRMYLGGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            ++ + V+ Y AS+F+AVDR ASY  EW     +G  +L DRYTTSN ++QA K+ + +E+
+Sbjct  60   ENVSAVNAYAASSFFAVDRVASYLREWKSYLEEGGTVLLDRYTTSNAIYQANKLPE-DER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            ++F DWL++FE+ +  LP PD VIFLDMPP  +  LM++R       + +DIHER+  YL
+Sbjct  119  EKFCDWLFDFEYNLLGLPQPDAVIFLDMPPECAERLMQKREG-----ESEDIHERDKGYL  173
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+             + Y ++  +AKKY+W++I C ++  +K I+EI  E+Y+ +S ++ +
+Sbjct  174  KKCYLSATALAKKYSWLRIACAENQNIKTIEEIHTEIYDKISSVLTE  220
+
+
+>MBS1360239.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 224 bits (570),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 106/220 (48%), Positives = 148/220 (67%), Gaps = 4/220 (2%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KG+LI+ E G D SGKATQ+  L+ERL +EG   +K+ FP Y   S+ALV++YL G FG
+Sbjct  3    KGRLIVFE-GTDGSGKATQSRLLFERLEREGVDCRKLNFPRYGEKSAALVELYLGGAFGS  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+             P+DV+ Y ASTFYAVDR+ASY+ +WG  Y  G +++ADRYTTSN VHQA+K+ D  E++
+Sbjct  62   HPDDVNAYAASTFYAVDRYASYKQDWGGYYESGGLLIADRYTTSNAVHQASKLPDG-ERE  120
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLV  181
+            +FLDWL+ FE+ +  LP P  V +LD+P   +  LM+ER          DIHE +D YL
+Sbjct  121  KFLDWLFGFEYGLLGLPEPSLVFYLDVPTEVTERLMRERER--ATHTAADIHEADDAYLR  178
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+            E   N+  VA +  W +++C +DG ++ I++I +EVY  V
+Sbjct  179  ECRENARGVAARCGWQRVDCTRDGRMRGIEDIHEEVYARV  218
+
+
+>MBP8761541.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 224 bits (570),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 103/226 (46%), Positives = 155/226 (69%), Gaps = 4/226 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+ E G D SGKATQ+  L+ERL +EG   +K+ FP Y   S+ALV++YL G FG
+Sbjct  1    MSGKLIVFE-GTDGSGKATQSKLLFERLQREGVDCRKLNFPRYGEKSAALVELYLGGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+ Y ASTFY+VDR+ASY+ +WG+ Y  G +++ADRYTTSN VHQA K+ D  E+
+Sbjct  60   THPSDVNAYAASTFYSVDRYASYKQDWGKYYEAGGLLIADRYTTSNAVHQAGKLPDG-ER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            +++LDWL+ FE+ +  LP P  V +LD+P   + ++M+ER        K DIHE+++ YL
+Sbjct  119  EKYLDWLFGFEYGLLGLPEPSLVFYLDVPTELTEKMMREREQATN--TKADIHEQDEAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIR  226
+                 N+  VA++ +W +I C KDG ++ +++I +E+Y  V+ +++
+Sbjct  177  RACRENAKKVAERCSWQRIGCSKDGAMRTVEDIHEEIYRRVTELLK  222
+
+
+>MBQ8921967.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+ MBQ8923149.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 223 bits (569),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 109/213 (51%), Positives = 151/213 (71%), Gaps = 4/213 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+IE G D SGKATQ  +LYE   ++G  V+K++FP+YDSDSSALVKMYL G FG
+Sbjct  1    MTGKLIVIE-GLDGSGKATQAQQLYEYFEKQGRAVRKVSFPDYDSDSSALVKMYLGGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DPN V+PY AS+FYAVDR+ASY   W + Y +G I++ADRYTTSN VHQ AK+ +  E
+Sbjct  60   TDPNAVNPYAASSFYAVDRYASYMQNWREFYENGGIVIADRYTTSNAVHQCAKLPEA-EW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D FL+WL+++E+E+  +P P C ++L + P+ S++LM +R +    E KKDIHE N +YL
+Sbjct  119  DGFLEWLFHYEYELLGIPAPACTVYLRVDPNVSQKLMTKRYHG--NEAKKDIHEANLDYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEI  213
+              S + + Y A+K  W  +ECV+   ++ ++ I
+Sbjct  177  KRSRQAADYCARKLKWRVVECVEGDEMRTVEAI  209
+
+
+>MBR3174580.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 223 bits (569),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 106/225 (47%), Positives = 156/225 (69%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGKATQ     E L++EG KV+KI+FPNY SDSSALV+MYL G+FG
+Sbjct  1    MAGKLIVLE-GLDGSGKATQAKLAAEALLKEGMKVRKISFPNYSSDSSALVRMYLVGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+ Y ASTF++VDR+A  + +WG  Y  G I++ADRYTTSN VHQ  K+ +
+Sbjct  60   SNPGDVNAYAASTFFSVDRYAGMKQDWGAFYKAGGILIADRYTTSNAVHQCCKLPE-SSW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D +L+WL+++E+    LP PD V++L +P S +  LM ER +    EQKKDIHER+ EYL
+Sbjct  119  DEYLEWLFHYEYGQLGLPEPDLVLYLQVPVSVNERLMTERYHG--NEQKKDIHERDTEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            ++++  + Y A+K+ W  ++C ++G ++ I+ I  +V  ++  ++
+Sbjct  177  MQAHSAADYCARKFGWHTVDCTENGGMRSIEAIGADVLRSIRLVV  221
+
+
+>MBR5617477.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 223 bits (569),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 108/223 (48%), Positives = 149/223 (67%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L ER+  EG+  +K+ FP Y  DSSAL++MYL G+FG +
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRLLTERVAAEGHAFQKLVFPQYQEDSSALIRMYLRGEFGTN  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DVS Y ASTF+AVDR+ASY+  WGQ Y  G ++L+DRYTTSN VHQA+K +  E++
+Sbjct  61   PSDVSSYAASTFFAVDRYASYKKVWGQWYEQGGLVLSDRYTTSNAVHQASK-EPAEKQAD  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+  E++   LP PD VI+LD+P  F+ ++M+ R  +       DIHE++ EYL
+Sbjct  120  FLKWLYELEYDRLGLPRPDLVIYLDVPTDFTEKMMRGR--EAATSTSADIHEQDLEYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              R     A+ YNW  I CVKDG ++ I++I  E+Y  V+  +
+Sbjct  178  CRRTGKAAAEFYNWTVINCVKDGAMRSIEDIHNEIYRHVAAYL  220
+
+
+>MBR2807028.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 223 bits (568),  Expect = 2e-72, Method: Compositional matrix adjust.
+ Identities = 115/224 (51%), Positives = 160/224 (71%), Gaps = 6/224 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI+IE G D SGKATQ   L+ RL + G +V K++FP YD+DSSALV+MYL G+FG
+Sbjct  3    KGKLIVIE-GLDGSGKATQCELLFNRLRESGKRVLKVSFPRYDNDSSALVRMYLKGEFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP+DV+ Y AS F+AVDR+ASY T+W +AYN+G IIL DRYTTSN V+Q +K+ + E KD
+Sbjct  62   DPHDVNAYAASAFFAVDRYASYMTDWKEAYNEGAIILTDRYTTSNAVYQTSKMPEGEWKD  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKK-DIHERNDEYL  180
+             F++WL++FEF    +P PD VI LD+    ++ELMK+R N   G+  K DI E++ +Y
+Sbjct  122  -FVEWLYDFEFSKLGIPAPDKVIMLDVSEKITQELMKKRYN---GDMSKMDIDEKDPQYQ  177
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGI  224
+             +S R +L+ A+  +WI I+C  D  L+KI++I KE+ E +  +
+Sbjct  178  QDSRRAALFCAQLNDWIVIDCSADDGLRKIEDIHKEITEKLGDL  221
+
+
+>MBQ7229947.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 223 bits (567),  Expect = 3e-72, Method: Compositional matrix adjust.
+ Identities = 110/226 (49%), Positives = 152/226 (67%), Gaps = 6/226 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L ER+  EG + +K+ FP Y   SSAL++MYL G+FG D
+Sbjct  2    GKLIVIE-GTDGSGKSTQFKLLTERVAAEGRQFQKLVFPQYAEPSSALIRMYLGGEFGTD  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDR+ASY+  WGQ Y  G ++L+DRYTTSN VHQA+K  + E++ +
+Sbjct  61   PSDVNAYAASAFYAVDRYASYKKVWGQWYEQGGLVLSDRYTTSNAVHQASKEPE-EKQGQ  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKER-ANKFTGEQKKDIHERNDEYLV  181
+            FL WL+ FE++   LP PD  I+LD+P  F+ ++M+ R A+  T   K DIHE+N EYL
+Sbjct  120  FLKWLYEFEYDKLGLPRPDLTIYLDVPTDFTEQMMRRREADTNT---KADIHEQNTEYLA  176
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+               R     A  Y W  I+CVKDG ++ I++I +E+Y  V+  + +
+Sbjct  177  TCRRMGKAAAAFYGWTVIDCVKDGRMRSIEDIHEEIYRHVTACLEE  222
+
+
+>GKI15613.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 222 bits (566),  Expect = 5e-72, Method: Compositional matrix adjust.
+ Identities = 110/222 (50%), Positives = 151/222 (68%), Gaps = 6/222 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLI+IE G D SGKATQ  +L E L  EG KV++ITFP+Y SDSSALVKMYL G FG
+Sbjct  1    MKGKLIVIE-GLDGSGKATQAKRLAEALAAEGRKVRQITFPDYASDSSALVKMYLGGRFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+ Y AS FY+VDRFASY+T+WG  Y  G +++ADRYTTSN VHQ +K+   ++
+Sbjct  60   THPDDVNAYAASAFYSVDRFASYKTDWGAFYRGGGVVVADRYTTSNAVHQCSKLPP-DQW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEY  179
+            + FL WL++FE+    +P PD V++L++ P+ S+ LM  R   + G E +KDIHE++ EY
+Sbjct  119  EAFLAWLFDFEYTKIGIPSPDQVVYLEVDPAVSQRLMTGR---YQGDEARKDIHEKDFEY  175
+
+Query  180  LVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+            L  S R + + A    W ++ C +   ++ I  I  +V +AV
+Sbjct  176  LARSQRAAAWCAAHLGWARVACCQGAEMRPIGAIHADVLKAV  217
+
+
+>MBQ7340835.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 222 bits (565),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Identities = 106/223 (48%), Positives = 151/223 (68%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ  KL +RL  EG   + + FP YD DSSAL++MYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRKLSQRLESEGVAFQHLVFPRYDKDSSALIRMYLGGEFGTK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS FYAVDRFASY+++WGQ Y +G ++L+DRYTTSN VHQA+K +  +++
+Sbjct  61   PTDVNAYAASAFYAVDRFASYKSDWGQWYENGGLVLSDRYTTSNAVHQASK-EPGDKQSE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            +L WL++FE++   LP PD VI+LD+P  ++ +L++ R        K DIHE++ +YL
+Sbjct  120  YLKWLYDFEYDKLGLPCPDLVIYLDVPTEYTEKLLRHREQDTN--TKADIHEQDMQYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              R     A+ Y W  I+CVKDG ++ I++I +E+Y  V   +
+Sbjct  178  CRRTGRTAAEYYGWQVIQCVKDGQMRSIEDIHEEIYGYVCHCL  220
+
+
+>MBR7039477.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=220
+
+ Score = 222 bits (565),  Expect = 7e-72, Method: Compositional matrix adjust.
+ Identities = 109/223 (49%), Positives = 153/223 (69%), Gaps = 6/223 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+IE G D SGKATQ  +L E L   G +V+K++FP+Y+SDSSALVKMYL G FG
+Sbjct  1    MDGKLIVIE-GLDGSGKATQAQRLLETLKAGGERVRKVSFPDYESDSSALVKMYLAGTFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            KDPN V+PY AS+FYAVDR+ASY  +W   Y  G  ++ADRYTTSN +HQ AK+ D   +
+Sbjct  60   KDPNAVNPYAASSFYAVDRYASYMKDWKTFYQSGGTVIADRYTTSNAIHQCAKLPDAAWE  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEY  179
+            D FL WL+++E+++  +P P   ++L + P+ S+ LM  R   + G E KKDIHE +  Y
+Sbjct  120  D-FLQWLFHYEYDLLGIPAPYRTLYLRVDPAVSQALMTGR---YQGDETKKDIHEADVAY  175
+
+Query  180  LVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVS  222
+            L+++ R + + AK   W  +ECV DG ++ +D+I  E+  A++
+Sbjct  176  LMQARRAADHCAKVLGWHVVECVADGAMRTVDDIAAEILAALT  218
+
+
+>MBQ8238590.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 222 bits (565),  Expect = 7e-72, Method: Compositional matrix adjust.
+ Identities = 106/225 (47%), Positives = 148/225 (66%), Gaps = 4/225 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L ER+  EG + +K+ FP Y   SSAL++MYL G+FG D
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRLLTERVAAEGRRFQKLVFPQYAEPSSALIRMYLGGEFGTD  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDR+ASY+  WGQ Y  G ++L+DRYTTSN VHQA+K  + ++++
+Sbjct  61   PSDVNAYAASAFYAVDRYASYKKVWGQWYEQGGLVLSDRYTTSNAVHQASKEPEGKQRE-  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+ FE++   LP PD  I+LD+P  F+ ++M  RA +     K DIHE+N  YL
+Sbjct  120  FLKWLYEFEYDKLGLPRPDLTIYLDVPTDFTEQMM--RAREAATNTKADIHEQNTAYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+              R     A  Y W  I CV+DG ++ I++I +E+Y  V+  + +
+Sbjct  178  CRRMGKAAAAFYGWTVINCVRDGAMRSIEDIHEEIYRHVTACLEE  222
+
+
+>MBQ7902761.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 221 bits (563),  Expect = 1e-71, Method: Compositional matrix adjust.
+ Identities = 113/224 (50%), Positives = 154/224 (69%), Gaps = 6/224 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK TQ   L++ L ++G KVKKI+FP YDSDSSALV+MYL G FG
+Sbjct  2    GKLIVIE-GLDGSGKGTQAKILFDTLEKQGRKVKKISFPVYDSDSSALVRMYLAGQFGSK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS+FYAVDRFAS++ +W + YND ++I+ADRYTTSN VHQ +K+ D    +
+Sbjct  61   PGDVNAYAASSFYAVDRFASFKADWEKLYNDDYVIIADRYTTSNGVHQCSKL-DESLWEE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEYLV  181
+            F+DWL++FE+    +P PDCVI+LDM P+ S++L+  R   + G E KKDIHE++ EYL
+Sbjct  120  FMDWLYDFEYNKMGIPAPDCVIYLDMSPAVSQKLLSGR---YAGDESKKDIHEKDTEYLA  176
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S + + + A+   W  I C        I+EI ++V + VS +I
+Sbjct  177  RSRQAARFCAEHDKWTVIRCDNGENPYTIEEIAQQVLDTVSTVI  220
+
+
+>MBQ6840476.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 221 bits (563),  Expect = 1e-71, Method: Compositional matrix adjust.
+ Identities = 103/219 (47%), Positives = 151/219 (69%), Gaps = 4/219 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   + +RL QEG + K I FP Y  +SSAL++MYL G FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRLMSQRLTQEGKEFKHIVFPRYSEESSALIRMYLGGQFGSK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS+FYAVDRFASY+ +WG+ Y DG +IL+DRYTTSN VHQ +K+ + E++
+Sbjct  61   PGDVNAYAASSFYAVDRFASYKMDWGKWYEDGGLILSDRYTTSNAVHQTSKLPEAEQQ-A  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            +L WL++FE++   LP PD  I+LD+P  F+ ++++ R  + +   + DIHE++ +YL
+Sbjct  120  YLHWLYDFEYDKLGLPRPDLTIYLDVPTDFTEKMLRSR--EASTNTQADIHEQDTQYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+              +     A+ Y W  I+CVKDG ++ I++I +E+Y+ V
+Sbjct  178  CRKCGRAAAEYYGWTVIQCVKDGAMRSIEDIHEEIYKHV  216
+
+
+>MBQ5325769.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=220
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 112/224 (50%), Positives = 155/224 (69%), Gaps = 6/224 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK TQ   L+ERL +EG KVKKI+FP Y SDSSALV+MYL G FG
+Sbjct  2    GKLIVIE-GLDGSGKGTQAQILFERLEKEGRKVKKISFPVYSSDSSALVRMYLAGQFGSR  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS+FYAVDRF S++++WG+ YND +II+ADRYTTSN VHQ +K+ + +E +
+Sbjct  61   PGDVNAYAASSFYAVDRFTSFKSDWGKEYNDDYIIIADRYTTSNGVHQCSKLPE-DEWNS  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEYLV  181
+            F+DWL++FE+    +P PD VI+LDM P  S++L+   + +++G E KKDIHE++ EYL
+Sbjct  120  FMDWLYDFEYSKLGIPAPDEVIYLDMSPQVSQKLL---SGRYSGDESKKDIHEKDREYLD  176
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S + + + A    W  I+C        I+EI   VY+ +  ++
+Sbjct  177  RSRQAARFCADHDKWTTIKCDDGENPHSIEEISARVYDTIKHLL  220
+
+
+>MBR2670648.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 221 bits (563),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 115/222 (52%), Positives = 157/222 (71%), Gaps = 6/222 (3%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+            KGKLI+IE G D SGKATQ   L+ RL + G +V K++FP YD+DSSALV+MYL G+FG
+Sbjct  3    KGKLIVIE-GLDGSGKATQCELLFNRLRESGKRVLKVSFPRYDNDSSALVRMYLKGEFGD  61
+
+Query  62   DPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            DP+DV+ Y AS F+AVDR+ASY T+W +AYN+G IIL DRYTTSN V+Q +K+   E KD
+Sbjct  62   DPHDVNAYAASAFFAVDRYASYMTDWKEAYNEGAIILTDRYTTSNAVYQTSKMPKGEWKD  121
+
+Query  122  RFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKK-DIHERNDEYL  180
+             F++WL++FEF    +P PD VI LD+    ++ELMK+R N   G+  K DI E++ +Y
+Sbjct  122  -FVEWLYDFEFSKLGIPAPDKVIMLDVSEKITQELMKKRYN---GDMSKMDIDEKDPQYQ  177
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVS  222
+             +S R +L+ A   +WI I+C  D  L+KI++I KE+ E +
+Sbjct  178  QDSRRAALFCADLNDWIVIDCSADDGLRKIEDIHKEITEKLG  219
+
+
+>MBQ3008168.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=220
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 109/224 (49%), Positives = 158/224 (71%), Gaps = 6/224 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            G+LI+IE G D SGK TQ   L++ L Q+G KVKK++FP Y+SDSSALV+MYL G FG
+Sbjct  2    GRLIVIE-GLDGSGKGTQAKMLFDTLGQQGRKVKKVSFPVYESDSSALVRMYLAGQFGSK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P DV+ Y AS+FYAVDRFAS++T+W + YND +II+ADRYTTSN VHQ +K+ + E+ +
+Sbjct  61   PGDVNAYAASSFYAVDRFASFKTDWEKLYNDDYIIIADRYTTSNGVHQCSKLPE-EQWEE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEYLV  181
+            F+DWL++FE++   +P PD VI+LDM P  S++L+   + ++ G E KKDIHE++ +YL
+Sbjct  120  FMDWLYDFEYKKMGIPAPDMVIYLDMSPRVSQKLL---SGRYQGDESKKDIHEKDTDYLA  176
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+             S + + + A+  NW  I C      + I+EI  ++ + ++ II
+Sbjct  177  RSRQAARFCAQHDNWTIIRCDDGEKPRTIEEIACQILDTITSII  220
+
+
+>MBR5125701.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 106/223 (48%), Positives = 148/223 (66%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L  RL  E  + +K+ FP Y   SSAL++MYL G+FG +
+Sbjct  2    GKLIVIE-GTDGSGKSTQFKLLTSRLESENREFRKLVFPQYSEPSSALIRMYLGGEFGTN  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDR+ASY+  WGQ Y +G +I++DRYTTSN VHQA+K+   E+ D
+Sbjct  61   PSDVNAYAASAFYAVDRYASYKKVWGQWYENGGLIVSDRYTTSNAVHQASKVHQFEQSD-  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL++FE++   LP PD VI+LD+P  F+  +M+ R  +       DIHE++  YL
+Sbjct  120  FLKWLYDFEYDKLGLPAPDLVIYLDVPTDFTEAMMRRR--EADTNTHADIHEQDLAYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              R     A+ Y W  IECV+DGV++ I++I +E+Y  V+  +
+Sbjct  178  CRRTGKAAAEYYGWTVIECVQDGVMRSIEDIHEEIYRHVAACL  220
+
+
+>MBP3674481.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 221 bits (562),  Expect = 2e-71, Method: Compositional matrix adjust.
+ Identities = 105/223 (47%), Positives = 149/223 (67%), Gaps = 4/223 (2%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ  KL ER+  EG + +K+ FP Y  +SSAL++MYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFRKLTERIAAEGREFQKLVFPQYSEESSALIRMYLGGEFGTK  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDR+ASY+  WGQ Y +G ++L+DRYTTSN VHQA+K +  E++
+Sbjct  61   PSDVNAYAASAFYAVDRYASYKKVWGQWYENGGLVLSDRYTTSNAVHQASK-EPAEKQGE  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+            FL WL+ FE++   LP PD  I+LD+P  F+ ++++ R  +       DIHE++ EYL
+Sbjct  120  FLKWLYEFEYDKLGLPRPDLTIYLDVPTDFTEKMLRSR--EAATNTHADIHEQDMEYLAT  177
+
+Query  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              R     A+ Y W  IECV+DG ++ I++I +E+Y  V   +
+Sbjct  178  CRRTGKAAAQYYGWTVIECVQDGQMRSIEDIHEEIYRHVMACL  220
+
+
+>MBR4990144.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 220 bits (561),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 109/224 (49%), Positives = 151/224 (67%), Gaps = 6/224 (3%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GKLI+IE G D SGK+TQ   L  RL +E +  +K+ FP Y   SSAL++MYL G+FG
+Sbjct  2    GKLIVIE-GTDGSGKSTQFKLLTSRLEREKHAFQKLVFPQYAEPSSALIRMYLGGEFGSS  60
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+            P+DV+ Y AS FYAVDR+ASY+  WGQ Y +G ++++DRYTTSN VHQA+K ++ E + R
+Sbjct  61   PSDVNAYAASAFYAVDRYASYKKVWGQWYENGGLVVSDRYTTSNAVHQASK-EEGENQLR  119
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKER-ANKFTGEQKKDIHERNDEYLV  181
+            FL WL+ FE+E   LP PD VI+LD+P  F+  +M+ R A+  T   + DIHE++ EYL
+Sbjct  120  FLQWLYEFEYEKLGLPCPDLVIYLDVPTDFTETMMRRREADTNT---RADIHEQDMEYLA  176
+
+Query  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+               R     A+ Y W  IECVKDG ++ I++I +E+Y  V+  +
+Sbjct  177  TCRRTGKAAAEYYGWKVIECVKDGAMRSIEDIHEEIYRHVAACL  220
+
+
+>MBQ5334459.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=221
+
+ Score = 220 bits (561),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 106/226 (47%), Positives = 151/226 (67%), Gaps = 6/226 (3%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI++E G D SGK TQT  L+  L + G +V +++FPNY SD++ L+  YL+G FG
+Sbjct  1    MAGKLIVLE-GLDGSGKGTQTEALFRTLEERGLRVMRVSFPNYGSDAAKLLDDYLHGTFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DPNDV+PY ASTF+A+DR+AS+  +W Q YN+G II+ADRYTTSN +HQ AK+ +  +
+Sbjct  60   NDPNDVNPYAASTFFAIDRYASFHLKWKQFYNEGGIIIADRYTTSNAIHQCAKL-EQAQW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEY  179
+            D FL+WL+ +E+E   LP PD VI+L + P  S++LM  R   + G E KKDIHE N  Y
+Sbjct  119  DGFLEWLFRYEYEQLGLPEPDAVIYLRVDPEVSQKLMTGR---YAGDEGKKDIHESNVPY  175
+
+Query  180  LVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+            L++  R + Y  +   W  +EC+ DG ++ I++I  EV      ++
+Sbjct  176  LMQCRRAADYCTEHLGWQPVECIADGAMRSIEDIHAEVLALADAVL  221
+
+
+>MBR5260827.1 deoxynucleoside kinase [Oscillospiraceae bacterium]
+Length=222
+
+ Score = 220 bits (561),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 110/225 (49%), Positives = 148/225 (66%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+GKLI++E G D SGK+TQ  KL ER   EG +  KI+FP YD DSS L++ YLNGD+G
+Sbjct  2    MQGKLIVLE-GIDGSGKSTQYEKLCERFEAEGKEFVKISFPRYDKDSSVLIREYLNGDYG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             DP+DV+ Y ASTF+AVDRFAS++T WG+ YN+G IILA RYTTSN  HQ +K+ + EE+
+Sbjct  61   SDPSDVNCYAASTFFAVDRFASFKTHWGEYYNNGGIILAARYTTSNACHQGSKLPE-EER  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+             +F DWL++FEF    LP PD V++LD+    S   M+ R  +       DIHE+N  YL
+Sbjct  120  RKFYDWLYDFEFNKLGLPAPDLVLYLDIDIETSLRQMENRREQTN--TTADIHEKNSTYL  177
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+              S        + Y W KI CV  G ++ I+EI +++Y AV  ++
+Sbjct  178  QASLEAGHAAVEHYGWKKICCVNGGEMRSIEEIHEDIYNAVMEVL  222
+
+
+>MBR5217680.1 thymidylate kinase [Oscillospiraceae bacterium]
+Length=223
+
+ Score = 220 bits (561),  Expect = 3e-71, Method: Compositional matrix adjust.
+ Identities = 104/225 (46%), Positives = 153/225 (68%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+ E G D SGKATQT  L + L + G   KK+ FP Y  DSSAL+++YL+G FG
+Sbjct  1    MGGKLIVFE-GTDGSGKATQTKLLCQELDRRGIPYKKLEFPRYAEDSSALIRLYLSGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+               +DV+ Y A+TFYAVDR+ASY+ +WG+ Y +G +++ADRYTTSN VHQ  K+  +EE+
+Sbjct  60   AKADDVNAYAATTFYAVDRYASYKQDWGEFYENGGLVIADRYTTSNAVHQTGKLP-VEER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+             ++LDWL++FE+ +  LP P  V++LD+P   S ++M+ R  + TG Q  DIHE+++ YL
+Sbjct  119  QKYLDWLFDFEYRMLGLPAPTRVLYLDLPTELSEQMMRRREQE-TGTQ-ADIHEQDEAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                 N+ +V +   W K+ C KDG ++ I++I  EV E V+ ++
+Sbjct  177  CHCRENAAFVVEYCGWTKLNCAKDGAVRSIEDIHAEVMERVNDLL  221
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 444,003,472
+  Number of sequences in database:  1,437,040
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 1437040
+Number of Hits to DB: 1768336
+Number of extensions: 76141
+Number of successful extensions: 188
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 181
+Number of HSP's successfully gapped: 9
+Length of query: 227
+Length of database: 444003472
+Length adjustment: 118
+Effective length of query: 109
+Effective length of database: 274432752
+Effective search space: 29913169968
+Effective search space used: 29913169968
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (20.4 bits)
+S2: 62 (28.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

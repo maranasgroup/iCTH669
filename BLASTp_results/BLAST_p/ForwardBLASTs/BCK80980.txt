@@ -1,0 +1,276 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WRFU9G9013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCK80980 5'-nucleotidase [Vescimonas coprocola]
+
+Length=260
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  30.8    0.13   28%
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  29.6    0.24   30%
+WP_003517869.1 RNase adapter RapZ [Acetivibrio thermocellus]       27.3    2.1    29%
+WP_003516413.1 glycerol kinase GlpK [Acetivibrio thermocellus]     27.3    2.3    28%
+CDG35833.1 Transposase for insertion sequence element IS256 in...  26.2    4.3    24%
+WP_003515363.1 DNA-directed RNA polymerase subunit beta' [Acet...  26.2    6.9    29%
+WP_020457901.1 DNA-directed RNA polymerase subunit beta' [Acet...  26.2    6.9    29%
+WP_003513254.1 heavy-metal-associated domain-containing protei...  23.9    7.8    38%
+WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibr...  25.4    9.6    24%
+CDG35065.1 hypothetical protein CTHBC1_0396 [Acetivibrio therm...  23.9    10.0   48%
+
+ALIGNMENTS
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 30.8 bits (68),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 32/67 (48%), Gaps = 3/67 (4%)
+
+Query  184  KPNPLMMRTGLRILGVHSEEAAMIGDRMDTDMVAGIESGLDTVLVLSGITSRADIKKFPY  243
+            KP+P  +   + ++G   EE   +GD    D      +G+D V VL+G T   +  +  Y
+Sbjct  143  KPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFVAVLTGTTGANEFSE--Y  199
+
+Query  244  RPRLVLD  250
+             P  V++
+Sbjct  200  NPGAVIE  206
+
+
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 29.6 bits (65),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 24/46 (52%), Gaps = 0/46 (0%)
+
+Query  183  GKPNPLMMRTGLRILGVHSEEAAMIGDRMDTDMVAGIESGLDTVLV  228
+             KP        + I+   + E A+IGD++ TD+  G +  + T+LV
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>WP_003517869.1 RNase adapter RapZ [Acetivibrio thermocellus]
+ A3DBM5.1 RecName: Full=Nucleotide-binding protein Cthe_0113 [Acetivibrio
+thermocellus ATCC 27405]
+ CDG34796.1 UPF0042 nucleotide-binding protein [Acetivibrio thermocellus
+BC1]
+ ABN51354.1 hypothetical protein Cthe_0113 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75159.1 hypothetical protein Clo1313_2118 [Acetivibrio thermocellus DSM
+1313]
+ ALX09134.1 UPF0042 nucleotide-binding protein yhbJ [Acetivibrio thermocellus
+AD2]
+ ANV76886.1 UPF0042 nucleotide-binding protein yhbJ [Acetivibrio thermocellus
+DSM 2360]
+Length=291
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 11/38 (29%), Positives = 26/38 (68%), Gaps = 0/38 (0%)
+
+Query  23   RLLPGVKEFVEWLYREQKNFLFLTNSSERSPKELQQKL  60
+            RL+ G+K   E L + +KN  ++ ++S  +P++L++++
+Sbjct  113  RLIKGIKTEREILSQIRKNATYIIDTSNLTPRQLKEEI  150
+
+
+>WP_003516413.1 glycerol kinase GlpK [Acetivibrio thermocellus]
+ CDG36965.1 Glycerol kinase 1 [Acetivibrio thermocellus BC1]
+ ABN53644.1 Carbohydrate kinase, FGGY-like protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73171.1 Carbohydrate kinase, FGGY-like protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07085.1 Glycerol kinase [Acetivibrio thermocellus AD2]
+ ANV74821.1 Glycerol kinase [Acetivibrio thermocellus DSM 2360]
+Length=494
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 19/67 (28%), Positives = 30/67 (45%), Gaps = 14/67 (21%)
+
+Query  83   ISSQAPGCSAYVIGGAGLIMALHDEGITMNDVDPDYVIIGEGNTYN------YENILKAV  136
+            I     G  A ++  +G+I A HD         P   II E    +      YEN++K V
+Sbjct  9    IDQSTQGTKAVILNDSGIIQARHDL--------PHKQIINENGWVSHDPEEIYENVIKTV  60
+
+Query  137  RLVLKGA  143
+            ++V++ A
+Sbjct  61   KMVVEKA  67
+
+
+>CDG35833.1 Transposase for insertion sequence element IS256 in transposon
+Tn4001 [Acetivibrio thermocellus BC1]
+Length=243
+
+ Score = 26.2 bits (56),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 10/42 (24%), Positives = 25/42 (60%), Gaps = 0/42 (0%)
+
+Query  20   HGNRLLPGVKEFVEWLYREQKNFLFLTNSSERSPKELQQKLH  61
+            H N L+  ++++ +    ++    F+ N  +++PK LQ+++H
+Sbjct  69   HHNGLIRAIRQYFQGATWQRCQTHFMRNILDKTPKALQKEIH  110
+
+
+>WP_003515363.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ ADU73405.1 DNA-directed RNA polymerase, beta' subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX07327.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+AD2]
+ ANV75065.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+DSM 2360]
+ EIC04206.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+YS]
+ NLU28024.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+Length=1165
+
+ Score = 26.2 bits (56),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  58    QKLHRM-GLDVDESHFYTSALATARFISSQAPGCSAYVIGG  97
+             QK++RM G+D+++ H         R +  + PG ++ + GG
+Sbjct  1027  QKVYRMQGVDINDKHIEVIVRQMLRKVKVEDPGDTSLLPGG  1067
+
+
+>WP_020457901.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ A3DIZ5.1 RecName: Full=DNA-directed RNA polymerase subunit beta'; Short=RNAP
+subunit beta'; AltName: Full=RNA polymerase subunit beta';
+AltName: Full=Transcriptase subunit beta' [Acetivibrio
+thermocellus ATCC 27405]
+ CDG37189.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus
+BC1]
+ ABN53924.1 DNA-directed RNA polymerase, beta' subunit [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79456.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+ HBW27521.1 DNA-directed RNA polymerase subunit beta' [Acetivibrio thermocellus]
+Length=1165
+
+ Score = 26.2 bits (56),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 12/41 (29%), Positives = 23/41 (56%), Gaps = 1/41 (2%)
+
+Query  58    QKLHRM-GLDVDESHFYTSALATARFISSQAPGCSAYVIGG  97
+             QK++RM G+D+++ H         R +  + PG ++ + GG
+Sbjct  1027  QKVYRMQGVDINDKHIEVIVRQMLRKVKVEDPGDTSLLPGG  1067
+
+
+>WP_003513254.1 heavy-metal-associated domain-containing protein [Acetivibrio
+thermocellus]
+ CDG36928.1 hypothetical protein CTHBC1_2333 [Acetivibrio thermocellus BC1]
+ ABN53607.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73136.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07047.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+AD2]
+ ANV74783.1 Heavy metal transport/detoxification protein [Acetivibrio thermocellus
+DSM 2360]
+Length=68
+
+ Score = 23.9 bits (50),  Expect = 7.8, Method: Composition-based stats.
+ Identities = 8/21 (38%), Positives = 16/21 (76%), Gaps = 0/21 (0%)
+
+Query  47  NSSERSPKELQQKLHRMGLDV  67
+           N SE SP+E+++ + +MG ++
+Sbjct  47  NPSEISPQEIKKHIAQMGYEI  67
+
+
+>WP_003518635.1 orotidine-5'-phosphate decarboxylase [Acetivibrio thermocellus]
+ CDG35644.1 Orotidine 5'-phosphate decarboxylase [Acetivibrio thermocellus
+BC1]
+Length=314
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 14/59 (24%), Positives = 28/59 (47%), Gaps = 0/59 (0%)
+
+Query  11   ICDMDGVIYHGNRLLPGVKEFVEWLYREQKNFLFLTNSSERSPKELQQKLHRMGLDVDE  69
+            + D+D +  +    + G+K F++   +  K    L  +S +S  E+Q  L + G  + E
+Sbjct  135  VFDVDALTVNPYLGVDGIKPFIDDCVKYNKGIFVLVKTSNKSSGEIQDILTQEGRSIYE  193
+
+
+>CDG35065.1 hypothetical protein CTHBC1_0396 [Acetivibrio thermocellus BC1]
+Length=71
+
+ Score = 23.9 bits (50),  Expect = 10.0, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  49  SERSPKELQQKLHRMGLDVDE  69
+           S RSP+   QK+ R    VDE
+Sbjct  25  SGRSPQAFNQKMKRETFTVDE  45
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.139    0.406
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21142
+Number of extensions: 947
+Number of successful extensions: 31
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 6
+Length of query: 260
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 173
+Effective length of database: 2134357
+Effective search space: 369243761
+Effective search space used: 369243761
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+cev Coprococcus eutactus
+rob Blautia obeum
+byl Blautia sp. YL58
+bhan Blautia hansenii
+blau Blautia argi
+bpro Blautia producta
+blab Blautia sp. SC05B48
+bliq Blautia liquoris
+cpy Lachnoclostridium phytofermentans
+lacy Lachnoclostridium sp. YL32
+csci Clostridium scindens

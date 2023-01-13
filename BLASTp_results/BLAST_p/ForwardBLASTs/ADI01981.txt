@@ -1,0 +1,291 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WA2WV04013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADI01981 5'-nucleotidase [Syntrophothermus lipocalidus]
+
+Length=258
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011837937.1 tRNA guanosine(34) transglycosylase Tgt [Acetiv...  28.9    0.74   28%
+WP_081303233.1 S-layer homology domain-containing protein [Ace...  28.5    1.2    27%
+WP_014522588.1 S-layer homology domain-containing protein [Ace...  28.5    1.2    27%
+CDG36982.1 type 3a cellulose-binding domain protein [Acetivibr...  28.5    1.2    27%
+WP_081321372.1 S-layer homology domain-containing protein [Ace...  28.5    1.2    27%
+WP_003522528.1 S-layer homology domain-containing protein [Ace...  28.5    1.2    27%
+WP_020457846.1 S-layer homology domain-containing protein [Ace...  28.5    1.2    27%
+WP_136479134.1 S-layer homology domain-containing protein [Ace...  28.5    1.3    27%
+NLU28099.1 hypothetical protein [Acetivibrio thermocellus]         28.5    1.3    27%
+WP_003518650.1 tRNA guanosine(34) transglycosylase Tgt [Acetiv...  27.7    2.0    28%
+WP_003518771.1 stage III sporulation protein AE [Acetivibrio t...  25.8    6.5    30%
+
+ALIGNMENTS
+>WP_011837937.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+ A3DE13.1 RecName: Full=Queuine tRNA-ribosyltransferase; AltName: Full=Guanine
+insertion enzyme; AltName: Full=tRNA-guanine transglycosylase
+[Acetivibrio thermocellus ATCC 27405]
+ ABN52192.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus ATCC
+27405]
+ HBW26902.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+Length=374
+
+ Score = 28.9 bits (63),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 5/75 (7%)
+
+Query  87   TPDYVVSGVNRGANLGTDVL-----YSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFA  141
+            +PDY++ G  RG ++   VL      +GTV  +   +I+     A      +P  D
+Sbjct  252  SPDYLIEGATRGIDMFDCVLPTRIGRNGTVLTSKGRIIVRDAIYARDYTPIDPECDCYAC  311
+
+Query  142  ARFTRLVLRILHREG  156
+              FTR  +R L + G
+Sbjct  312  RNFTRAYIRHLLKSG  326
+
+
+>WP_081303233.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ANV74838.1 Cadherin-like beta sandwich domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+ SOD21670.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=1103
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  992   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1045
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1046  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1086
+
+
+>WP_014522588.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73187.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+Length=1059
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  948   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1001
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1002  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1042
+
+
+>CDG36982.1 type 3a cellulose-binding domain protein [Acetivibrio thermocellus
+BC1]
+Length=1059
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  948   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1001
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1002  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1042
+
+
+>WP_081321372.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ALX07102.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ PFH01364.1 outer membrane biosynthesis protein TonB [Acetivibrio thermocellus
+AD2]
+Length=1091
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  980   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1033
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1034  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1074
+
+
+>WP_003522528.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ EIC03978.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+Length=1103
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  992   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1045
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1046  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1086
+
+
+>WP_020457846.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ABN53708.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW25732.1 hypothetical protein [Acetivibrio thermocellus]
+Length=1013
+
+ Score = 28.5 bits (62),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104  DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+            D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  902  DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  955
+
+Query  158  GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+            GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  956  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  996
+
+
+>WP_136479134.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ THJ79238.1 hypothetical protein EPD62_00530 [Acetivibrio thermocellus]
+Length=1093
+
+ Score = 28.5 bits (62),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104   DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+             D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  982   DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  1035
+
+Query  158   GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+             GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  1036  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  1076
+
+
+>NLU28099.1 hypothetical protein [Acetivibrio thermocellus]
+Length=995
+
+ Score = 28.5 bits (62),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 28/105 (27%), Positives = 45/105 (43%), Gaps = 18/105 (17%)
+
+Query  104  DVLYSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFAARFTRLVLRILHR------EGV  157
+            D  Y    SAA  G+++G P       SF PNE F        ++ + L +      EG+
+Sbjct  884  DWYYKSVSSAAAFGIVVGRPD-----GSFAPNE-FITRQDMAVVIAKFLEKKHDGNLEGM  937
+
+Query  158  GKDIIL--NINVPCLPRSEIKGIRITKLGVRRYENLFEERKDPRG  200
+            GK ++   + N+    R  +  +    L V +  N+F    DP+G
+Sbjct  938  GKGLVFADSGNISEYARDSVAAVVSQGLMVGKPGNMF----DPKG  978
+
+
+>WP_003518650.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+ CDG35652.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus BC1]
+ ADU74321.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus DSM
+1313]
+ ALX08265.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus AD2]
+ ANV76013.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus DSM
+2360]
+ EIC05822.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus YS]
+Length=374
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 33/75 (44%), Gaps = 5/75 (7%)
+
+Query  87   TPDYVVSGVNRGANLGTDVL-----YSGTVSAALEGVIMGFPSVAVSLDSFNPNEDFSFA  141
+            +PDY++ G  RG ++   VL      +GTV  +   +I+     A      +P  D
+Sbjct  252  SPDYLIEGAIRGIDMFDCVLPTRIGRNGTVLTSKGRIIVRDAIYARDYTPIDPECDCYAC  311
+
+Query  142  ARFTRLVLRILHREG  156
+              FTR  +R L + G
+Sbjct  312  RNFTRAYIRHLLKSG  326
+
+
+>WP_003518771.1 stage III sporulation protein AE [Acetivibrio thermocellus]
+ CDG35533.1 mutants block sporulation after engulfment [Acetivibrio thermocellus
+BC1]
+ ABN52076.1 stage III sporulation protein AE [Acetivibrio thermocellus ATCC
+27405]
+ ADU74443.1 stage III sporulation protein AE [Acetivibrio thermocellus DSM
+1313]
+ ALX08386.1 stage III sporulation protein AE [Acetivibrio thermocellus AD2]
+ ANV76135.1 stage III sporulation protein AE [Acetivibrio thermocellus DSM
+2360]
+Length=409
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 22/74 (30%), Positives = 32/74 (43%), Gaps = 8/74 (11%)
+
+Query  42   GHSITVFSPIKAQRVEVPGSSALAWVIDGTPADCVKLGISALIPKTPDYVVSGVNRGANL  101
+            G  +T+F  I    V + GS  L  V+DG  +   K  I A IP    Y+    +  A +
+Sbjct  264  GLILTIFVAI----VSLQGS--LGAVVDGVTSKTAKFAIGAFIPVAGKYLADAAD--AVI  315
+
+Query  102  GTDVLYSGTVSAAL  115
+            G  +L    V  A+
+Sbjct  316  GCTLLIKNAVGVAI  329
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.141    0.414
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 21642
+Number of extensions: 953
+Number of successful extensions: 16
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 1
+Length of query: 258
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 171
+Effective length of database: 2134357
+Effective search space: 364975047
+Effective search space used: 364975047
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

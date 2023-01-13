@@ -1,0 +1,203 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WS6CDP0016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCV25072 5'-nucleotidase [Gelria sp.]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512921.1 UDP-N-acetylmuramate--L-alanine ligase [Acetivi...  30.4    0.26   25%
+CDG36094.1 hypothetical protein CTHBC1_1453 [Acetivibrio therm...  25.8    8.0    39%
+WP_003517243.1 RNA polymerase sigma factor RpoD [Acetivibrio t...  25.8    8.0    32%
+WP_004463404.1 RNA polymerase sigma factor RpoD [Acetivibrio t...  25.4    8.1    32%
+WP_003518313.1 hypothetical protein [Acetivibrio thermocellus]     25.8    8.1    39%
+WP_011837924.1 RNA polymerase sigma factor RpoD [Acetivibrio t...  25.4    8.5    32%
+ABN52648.1 hypothetical protein Cthe_1417 [Acetivibrio thermoc...  25.4    9.1    39%
+
+ALIGNMENTS
+>WP_003512921.1 UDP-N-acetylmuramate--L-alanine ligase [Acetivibrio thermocellus]
+ A3DIP6.1 RecName: Full=UDP-N-acetylmuramate--L-alanine ligase; AltName:
+Full=UDP-N-acetylmuramoyl-L-alanine synthetase [Acetivibrio
+thermocellus ATCC 27405]
+ CDG37089.1 UDP-N-acetylmuramate-L-alanine ligase [Acetivibrio thermocellus
+BC1]
+ ABN53825.1 UDP-N-acetylmuramate/alanine ligase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73308.1 UDP-N-acetylmuramate/alanine ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07226.1 UDP-N-acetylmuramate--L-alanine ligase [Acetivibrio thermocellus
+AD2]
+ ANV74962.1 UDP-N-acetylmuramate--L-alanine ligase [Acetivibrio thermocellus
+DSM 2360]
+Length=469
+
+ Score = 30.4 bits (67),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 25/99 (25%), Positives = 42/99 (42%), Gaps = 8/99 (8%)
+
+Query  46   TMDRPLRVREVKHFAGPAWAVTGTPGDCVKLALTTLLPRK----PDLVVAG----INRGP  97
+            T+DR   + E+      + AV+GT G     ++ +L+  K    P + + G    I
+Sbjct  98   TLDRATLLGEIMKKYPFSVAVSGTHGKTTTTSMISLIMLKSALDPTIHIGGELDAIGGNT  157
+
+Query  98   NLGTDVFYSGTVAAALEGLLFGLPALAVSLATHAPDADY  136
+             +G++ ++       +E  L   P LAV L   A   DY
+Sbjct  158  RIGSNKYFVAEACEYVESFLKFHPYLAVVLNIEADHLDY  196
+
+
+>CDG36094.1 hypothetical protein CTHBC1_1453 [Acetivibrio thermocellus BC1]
+Length=592
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  220  AAVAAGRISITPLSLDLTDYRRL  242
+            A +  G++    L LD++DY RL
+Sbjct  290  AKIEKGKMCTFDLELDISDYERL  312
+
+
+>WP_003517243.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+ ADU74387.1 RNA polymerase, sigma 70 subunit, RpoD subfamily [Acetivibrio
+thermocellus DSM 1313]
+ ALX08330.1 RNA polymerase, sigma 70 subunit, RpoD [Acetivibrio thermocellus
+AD2]
+ ANV76078.1 RNA polymerase, sigma 70 subunit, RpoD [Acetivibrio thermocellus
+DSM 2360]
+ EIC05759.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus YS]
+ PFH02603.1 RNA polymerase RpoS-like sigma 38 subunit [Acetivibrio thermocellus
+AD2]
+Length=358
+
+ Score = 25.8 bits (55),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  141  RLARAIVQRLLAKPALAETLLNVNVPARPAREIRGLS  177
+            R++R ++Q L  +P   E    +N+P    REI  +S
+Sbjct  211  RVSRQLLQELGREPHPEEIAKEMNMPVEKVREIMKIS  247
+
+
+>WP_004463404.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+ NLU25890.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+ THJ77311.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+ CDG35589.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus BC1]
+Length=358
+
+ Score = 25.4 bits (54),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  141  RLARAIVQRLLAKPALAETLLNVNVPARPAREIRGLS  177
+            R++R ++Q L  +P   E    +N+P    REI  +S
+Sbjct  211  RVSRQLLQELGREPHPEEIAKEMNMPVEKVREIMKIS  247
+
+
+>WP_003518313.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73901.1 hypothetical protein Clo1313_0832 [Acetivibrio thermocellus DSM
+1313]
+ ALX07840.1 hypothetical protein AD2_00845 [Acetivibrio thermocellus AD2]
+ ANV75585.1 hypothetical protein LQRI_0844 [Acetivibrio thermocellus DSM
+2360]
+ EIC03206.1 hypothetical protein YSBL_0163 [Acetivibrio thermocellus YS]
+ PFH02111.1 hypothetical protein M972_11874 [Acetivibrio thermocellus AD2]
+Length=701
+
+ Score = 25.8 bits (55),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  220  AAVAAGRISITPLSLDLTDYRRL  242
+            A +  G++    L LD++DY RL
+Sbjct  290  AKIEKGKMCTFDLELDISDYERL  312
+
+
+>WP_011837924.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+ ABN52129.1 RNA polymerase, sigma 70 subunit, RpoD subfamily [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27293.1 RNA polymerase sigma factor RpoD [Acetivibrio thermocellus]
+Length=358
+
+ Score = 25.4 bits (54),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 20/37 (54%), Gaps = 0/37 (0%)
+
+Query  141  RLARAIVQRLLAKPALAETLLNVNVPARPAREIRGLS  177
+            R++R ++Q L  +P   E    +N+P    REI  +S
+Sbjct  211  RVSRQLLQELGREPHPEEIAKEMNMPVEKVREIMKIS  247
+
+
+>ABN52648.1 hypothetical protein Cthe_1417 [Acetivibrio thermocellus ATCC
+27405]
+Length=360
+
+ Score = 25.4 bits (54),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 9/23 (39%), Positives = 14/23 (61%), Gaps = 0/23 (0%)
+
+Query  220  AAVAAGRISITPLSLDLTDYRRL  242
+            A +  G++    L LD++DY RL
+Sbjct  58   AKIEKGKMCTFDLELDISDYERL  80
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.137    0.408
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18008
+Number of extensions: 652
+Number of successful extensions: 14
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 5
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

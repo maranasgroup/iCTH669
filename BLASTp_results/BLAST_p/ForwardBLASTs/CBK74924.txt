@@ -1,0 +1,435 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W6DE0K4013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBK74924 5'-nucleotidase [Butyrivibrio fibrisolvens]
+
+Length=560
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514753.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    29.3    1.4    29%
+WP_011838007.1 DNA sulfur modification protein DndB [Acetivibr...  29.3    1.6    22%
+NLU25585.1 helix-turn-helix transcriptional regulator [Acetivi...  26.6    4.3    33%
+WP_020457783.1 stalk domain-containing protein [Acetivibrio th...  27.7    4.5    27%
+CDG36906.1 copper amine oxidase domain protein [Acetivibrio th...  27.7    4.7    27%
+WP_003516462.1 stalk domain-containing protein [Acetivibrio th...  27.7    4.9    27%
+CDG35112.1 hypothetical protein CTHBC1_0446 [Acetivibrio therm...  27.3    5.4    39%
+WP_020457873.1 hypothetical protein [Acetivibrio thermocellus]     26.6    7.1    44%
+WP_003515468.1 hypothetical protein [Acetivibrio thermocellus]     26.6    7.1    44%
+NLU27550.1 hypothetical protein [Acetivibrio thermocellus]         26.6    7.2    44%
+WP_003512994.1 hypothetical protein [Acetivibrio thermocellus]     26.6    7.5    44%
+WP_003516952.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    26.9    7.7    27%
+WP_003512950.1 fibronectin type III domain-containing protein ...  27.3    8.0    48%
+NLU26173.1 fibronectin type III domain-containing protein [Ace...  27.3    8.0    48%
+WP_236749416.1 fibronectin type III domain-containing protein ...  27.3    8.0    48%
+WP_003520891.1 fibronectin type III domain-containing protein ...  27.3    8.1    48%
+WP_235835973.1 fibronectin type III domain-containing protein ...  27.3    8.1    48%
+WP_020457877.1 fibronectin type III domain-containing protein ...  27.3    8.1    48%
+WP_020457978.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]    26.6    9.1    27%
+WP_003512174.1 triose-phosphate isomerase [Acetivibrio thermoc...  26.6    9.3    26%
+WP_136479455.1 ParM/StbA family protein [Acetivibrio thermocel...  26.6    9.4    41%
+
+ALIGNMENTS
+>WP_003514753.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ THJ77818.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ CDG37461.1 Sugar fermentation stimulation protein homolog [Acetivibrio thermocellus
+BC1]
+Length=233
+
+ Score = 29.3 bits (64),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 18/63 (29%), Positives = 28/63 (44%), Gaps = 5/63 (8%)
+
+Query  55   IIHSNDVHGAMDKYSQLAALRNELRARGADVILTDAGDFSQGTPYVSTTKGMYAINMMNA  114
+            I+H   V G  DK+   + +R E+    +     D G FS+G  Y    KG+  +   N
+Sbjct  87   IMHEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  MGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>WP_011838007.1 DNA sulfur modification protein DndB [Acetivibrio thermocellus]
+ ABN52383.1 hypothetical protein Cthe_1151 [Acetivibrio thermocellus ATCC
+27405]
+Length=355
+
+ Score = 29.3 bits (64),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 23/104 (22%), Positives = 42/104 (40%), Gaps = 9/104 (9%)
+
+Query  395  RATIKAGSVTKKDINTVLPFG---NTVAVIYVKGSVLLEALEASTYCTP---EAIGGFPQ  448
+            R  +   S++K D   ++ F    N + ++Y      ++A+E S Y      E I   P+
+Sbjct  197  RVEVVRNSISKNDERHIVTFATLVNAIEIVYKDLETRVQAMELSKYLAEFFNELINLIPE  256
+
+Query  449  VSGIKFTVNTAVPFAQGEAYPDSTYYKPAAIRRVTIDSINGKPF  492
+            +   +    +      GE +    +Y   AI +V  D  N K +
+Sbjct  257  LHNYEKRAQSKETSLIGENF---MFYGYVAISKVLRDKENWKEY  297
+
+
+>NLU25585.1 helix-turn-helix transcriptional regulator [Acetivibrio thermocellus]
+Length=96
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 31/66 (47%), Gaps = 6/66 (9%)
+
+Query  452  IKFTVNTAVPFAQGEAYPDSTYY-KPAAIRRVTIDSINGKPFKADDTYAVITNNFVAAGG  510
+            +K + +    + +GEAYPD T   K A +  V+ D + G    A+ TY    NN  A
+Sbjct  27   LKVSASAVSKWERGEAYPDITLVPKLAELIGVSTDKLFGIDQTAESTY---YNN--AYDK  81
+
+Query  511  DTYYAF  516
+            D YY
+Sbjct  82   DDYYGL  87
+
+
+>WP_020457783.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ABN53585.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27937.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=304
+
+ Score = 27.7 bits (60),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 40/95 (42%), Gaps = 12/95 (13%)
+
+Query  245  LAHTSGIDLLLDGHSHTLMTVKDADPTEEGNESAQSTGTKLETAGVVVIDNATKKVEDMY  304
+            ++   GID+  DG + ++    D+ P+  G    Q+T            +  T
+Sbjct  77   MSELLGIDIEWDGTTQSIYLSTDSTPSNTGTPKPQTTPAPSTETSKPSKNKGT-------  129
+
+Query  305  LVKLDDGI-IKDTF-ISAVDKTIEDAVDAEYGVEL  337
+               +DD I I DTF  SA +K I+  V A+Y   L
+Sbjct  130  ---MDDPISIGDTFYWSAKEKYIDTNVSADYSFTL  161
+
+
+>CDG36906.1 copper amine oxidase domain protein [Acetivibrio thermocellus
+BC1]
+Length=304
+
+ Score = 27.7 bits (60),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 40/95 (42%), Gaps = 12/95 (13%)
+
+Query  245  LAHTSGIDLLLDGHSHTLMTVKDADPTEEGNESAQSTGTKLETAGVVVIDNATKKVEDMY  304
+            ++   GID+  DG + ++    D+ P+  G    Q+T            +  T
+Sbjct  77   MSELLGIDIEWDGTTQSIYLSTDSTPSNTGTPKPQTTPAPSTETSKPSKNKGT-------  129
+
+Query  305  LVKLDDGI-IKDTF-ISAVDKTIEDAVDAEYGVEL  337
+               +DD I I DTF  SA +K I+  V A+Y   L
+Sbjct  130  ---MDDPISIGDTFYWSAKEKYIDTNVSADYSFTL  161
+
+
+>WP_003516462.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ADU73113.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX07024.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV74761.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04056.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH01286.1 copper amine oxidase-like protein [Acetivibrio thermocellus AD2]
+Length=304
+
+ Score = 27.7 bits (60),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 40/95 (42%), Gaps = 12/95 (13%)
+
+Query  245  LAHTSGIDLLLDGHSHTLMTVKDADPTEEGNESAQSTGTKLETAGVVVIDNATKKVEDMY  304
+            ++   GID+  DG + ++    D+ P+  G    Q+T            +  T
+Sbjct  77   MSELLGIDIEWDGTTQSIYLSTDSTPSNTGTPKPQTTPAPSTETSKPSKNKGT-------  129
+
+Query  305  LVKLDDGI-IKDTF-ISAVDKTIEDAVDAEYGVEL  337
+               +DD I I DTF  SA +K I+  V A+Y   L
+Sbjct  130  ---MDDPISIGDTFYWSAKEKYIDTNVSADYSFTL  161
+
+
+>CDG35112.1 hypothetical protein CTHBC1_0446 [Acetivibrio thermocellus BC1]
+Length=292
+
+ Score = 27.3 bits (59),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 14/36 (39%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  285  LETAGVVVIDNATKKVEDMYLVKLDDGIIKDTFISA  320
+            +ETAG V I+   K ++D   +   +G I DTF+S+
+Sbjct  39   VETAGSVTINWREKTLDDTEDISKTEGFIPDTFVSS  74
+
+
+>WP_020457873.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53787.1 hypothetical protein Cthe_2587 [Acetivibrio thermocellus ATCC
+27405]
+ HBW25814.1 hypothetical protein [Acetivibrio thermocellus]
+Length=165
+
+ Score = 26.6 bits (57),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  161  SNYVFTTPSGLKVGFFGMETPETQTKVNPALIKG  194
+            SNY     SGLK G  G E+ +   K N +L+KG
+Sbjct  70   SNYSKDNKSGLKDGKLGRESAKNGYKENNSLLKG  103
+
+
+>WP_003515468.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73269.1 hypothetical protein Clo1313_0174 [Acetivibrio thermocellus DSM
+1313]
+ ALX07187.1 hypothetical protein AD2_00176 [Acetivibrio thermocellus AD2]
+ ANV74923.1 hypothetical protein LQRI_0175 [Acetivibrio thermocellus DSM
+2360]
+ EIC04347.1 hypothetical protein YSBL_2224 [Acetivibrio thermocellus YS]
+ PFH01449.1 hypothetical protein M972_11181 [Acetivibrio thermocellus AD2]
+Length=165
+
+ Score = 26.6 bits (57),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  161  SNYVFTTPSGLKVGFFGMETPETQTKVNPALIKG  194
+            SNY     SGLK G  G E+ +   K N +L+KG
+Sbjct  70   SNYSKDNKSGLKDGKLGRESAKNGYKENNSLLKG  103
+
+
+>NLU27550.1 hypothetical protein [Acetivibrio thermocellus]
+Length=165
+
+ Score = 26.6 bits (57),  Expect = 7.2, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  161  SNYVFTTPSGLKVGFFGMETPETQTKVNPALIKG  194
+            SNY     SGLK G  G E+ +   K N +L+KG
+Sbjct  70   SNYSKDNKSGLKDGKLGRESAKNGYKENNSLLKG  103
+
+
+>WP_003512994.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ79318.1 hypothetical protein EPD62_00950 [Acetivibrio thermocellus]
+ CDG37050.1 hypothetical protein CTHBC1_2460 [Acetivibrio thermocellus BC1]
+Length=165
+
+ Score = 26.6 bits (57),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 15/34 (44%), Positives = 19/34 (56%), Gaps = 0/34 (0%)
+
+Query  161  SNYVFTTPSGLKVGFFGMETPETQTKVNPALIKG  194
+            SNY     SGLK G  G E+ +   K N +L+KG
+Sbjct  70   SNYSKDNKSGLKDGKLGRESAKNGYKENNSLLKG  103
+
+
+>WP_003516952.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ ADU73608.1 sugar fermentation stimulation protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07535.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+AD2]
+ ANV75275.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+DSM 2360]
+ EIC03544.1 Sugar fermentation stimulation protein A [Acetivibrio thermocellus
+YS]
+ NLU26679.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+Length=233
+
+ Score = 26.9 bits (58),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 28/63 (44%), Gaps = 5/63 (8%)
+
+Query  55   IIHSNDVHGAMDKYSQLAALRNELRARGADVILTDAGDFSQGTPYVSTTKGMYAINMMNA  114
+            I++   V G  DK+   + +R E+    +     D G FS+G  Y    KG+  +   N
+Sbjct  87   IMYEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  MGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>WP_003512950.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>NLU26173.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>WP_236749416.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1279
+
+ Score = 27.3 bits (59),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  1001  TTANFNPLAGKASGVDYEICITHLG  1025
+
+
+>WP_003520891.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ADU73294.1 fibronectin type III domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ANV74948.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus
+DSM 2360]
+ EIC04322.1 fibronectin, type III [Acetivibrio thermocellus YS]
+ CDG37075.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus
+BC1]
+ ALX07212.1 hypothetical protein AD2_00201 [Acetivibrio thermocellus AD2]
+Length=1276
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  998   TTANFNPLAGKASGVDYEICITHLG  1022
+
+
+>WP_235835973.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+Length=1276
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  998   TTANFNPLAGKASGVDYEICITHLG  1022
+
+
+>WP_020457877.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ ABN53812.1 fibronectin type III domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79546.1 fibronectin type III domain-containing protein [Acetivibrio thermocellus]
+ HBW25839.1 ferrous iron transporter A [Acetivibrio thermocellus]
+Length=1278
+
+ Score = 27.3 bits (59),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 12/25 (48%), Positives = 15/25 (60%), Gaps = 0/25 (0%)
+
+Query  205   TCAQSQVDALKAQGVDLVVCLSHLG  229
+             T A     A KA GVD  +C++HLG
+Sbjct  1000  TTANFNPLAGKASGVDYEICITHLG  1024
+
+
+>WP_020457978.1 DNA/RNA nuclease SfsA [Acetivibrio thermocellus]
+ A3DJP1.1 RecName: Full=Sugar fermentation stimulation protein homolog
+[Acetivibrio thermocellus ATCC 27405]
+ ABN54170.1 sugar fermentation stimulation protein [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27755.1 sugar fermentation stimulation protein SfsA [Acetivibrio thermocellus]
+Length=233
+
+ Score = 26.6 bits (57),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 17/63 (27%), Positives = 28/63 (44%), Gaps = 5/63 (8%)
+
+Query  55   IIHSNDVHGAMDKYSQLAALRNELRARGADVILTDAGDFSQGTPYVSTTKGMYAINMMNA  114
+            I++   V G  DK+   + +R E+    +     D G FS+G  Y    KG+  +   N
+Sbjct  87   IMYEALVQGKFDKFRDYSEIRREVTVLNSRF---DFGLFSEGKEYYIEVKGVTLVE--NR  141
+
+Query  115  MGY  117
+             G+
+Sbjct  142  QGF  144
+
+
+>WP_003512174.1 triose-phosphate isomerase [Acetivibrio thermocellus]
+ A3DBQ1.1 RecName: Full=Triosephosphate isomerase; Short=TIM; Short=TPI;
+AltName: Full=Triose-phosphate isomerase [Acetivibrio thermocellus
+ATCC 27405]
+ CDG34821.1 Triosephosphate isomerase [Acetivibrio thermocellus BC1]
+ ABN51380.1 triosephosphate isomerase [Acetivibrio thermocellus ATCC 27405]
+ ADU75134.1 triosephosphate isomerase [Acetivibrio thermocellus DSM 1313]
+ ALX09109.1 Triosephosphate isomerase, bacterial/eukaryotic [Acetivibrio
+thermocellus AD2]
+ ANV76861.1 Triosephosphate isomerase, bacterial/eukaryotic [Acetivibrio
+thermocellus DSM 2360]
+Length=251
+
+ Score = 26.6 bits (57),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 33/68 (49%), Gaps = 3/68 (4%)
+
+Query  204  YTCAQSQVDALKAQGVDLVVCLSHLGVDDESAPDGHRSVDLLAHTSGIDLLLDGHSHTLM  263
+            + C    V+A  A+G ++ V   ++  +++ A  G  S  +LA   G+D ++ GHS
+Sbjct  44   FVCLPGVVEA--AKGSNIKVAAQNMHWEEKGAFTGEVSGPMLAEL-GVDYVIIGHSERRQ  100
+
+Query  264  TVKDADPT  271
+               + D T
+Sbjct  101  YFGETDET  108
+
+
+>WP_136479455.1 ParM/StbA family protein [Acetivibrio thermocellus]
+ THJ77723.1 ParM/StbA family protein [Acetivibrio thermocellus]
+Length=308
+
+ Score = 26.6 bits (57),  Expect = 9.4, Method: Compositional matrix adjust.
+ Identities = 12/29 (41%), Positives = 21/29 (72%), Gaps = 2/29 (7%)
+
+Query  323  KTIEDAVDAEYGVELAKSEVE--LNGKKA  349
+            K+I++ +  E G+E+++ +VE  L GKKA
+Sbjct  191  KSIQEQIRKETGIEISEEQVEMTLQGKKA  219
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.132    0.373
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 51371
+Number of extensions: 2466
+Number of successful extensions: 32
+Number of sequences better than 100: 8
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 9
+Length of query: 560
+Length of database: 2835838
+Length adjustment: 94
+Effective length of query: 466
+Effective length of database: 2077916
+Effective search space: 968308856
+Effective search space used: 968308856
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

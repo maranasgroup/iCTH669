@@ -1,0 +1,389 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 835RG14D01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= ANU54804 dTMP kinase [Hungateiclostridiaceae bacterium]
+
+Length=215
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       174     2e-55  42%
+WP_136479189.1 methyl-accepting chemotaxis protein [Acetivibri...  33.5    0.020  26%
+CDG37639.1 methyl-accepting chemotaxis sensory transducer [Ace...  33.1    0.024  26%
+WP_003511686.1 methyl-accepting chemotaxis protein [Acetivibri...  33.1    0.027  26%
+WP_003518631.1 carbamoyl-phosphate synthase large subunit [Ace...  30.0    0.30   49%
+WP_003512584.1 NADH-dependent [FeFe] hydrogenase, group A6 [Ac...  27.3    2.1    29%
+AAD33071.1 hydrogenase-1 [Acetivibrio thermocellus]                27.3    2.1    29%
+WP_011837812.1 NADH-dependent [FeFe] hydrogenase, group A6 [Ac...  27.3    2.1    29%
+WP_003518165.1 type IV pilus twitching motility protein PilT [...  26.9    2.2    39%
+NIK05396.1 twitching motility protein PilT [Acetivibrio thermo...  26.9    2.2    39%
+NLU27650.1 type IV pilus twitching motility protein PilT [Acet...  26.9    2.2    39%
+WP_003512393.1 type IV pilus twitching motility protein PilT [...  26.9    2.2    39%
+WP_003516319.1 signal recognition particle protein [Acetivibri...  26.9    2.6    32%
+CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]      26.2    3.9    38%
+CDG36183.1 putative ribosome biogenesis GTPase RsgA 2 [Acetivi...  25.4    7.1    26%
+WP_003518605.1 ketoacyl-ACP synthase III [Acetivibrio thermoce...  25.4    8.2    33%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 174 bits (440),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 92/217 (42%), Positives = 134/217 (62%), Gaps = 5/217 (2%)
+
+Query  3    LIVLE-GLDGSGKSTQLPLLEQELRRRG-PVRTVSFPDYSSPSSALVKMYLGGEFGDKPG  60
+            LI++E G D SGK+TQ   L + L + G  V+ ++FP+Y S SSALVKMYL G+FG  P
+Sbjct  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+
+Query  61   DVNAYAAGAFYAVDRYASFKKDWQRDYESGVTILAGRYTTSNMIYQMEKLP-RSQWEGYI  119
+            DV+ Y A  FYAVDR+AS++ +W + Y  G  ILA RYTTSNM++Q  K+    + + ++
+Sbjct  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDRFL  124
+
+Query  120  SWAEDFEYERLGLPRPQRVIFLDMPLDAAQKLLSKRYGGH--DEKKDLHERDLRYLESCA  177
+             W  +FE+E   LP P  VIFLDMP   +++L+ +R      ++KKD+HER+  YL
+Sbjct  125  DWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESY  184
+
+Query  178  QCARFAAEKLGWRAIGCARGAKPLSIEEIHRRVVSAL  214
+            + + + A+K  W  I C +      I+EI + V  A+
+Sbjct  185  RNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+
+
+>WP_136479189.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ THJ79122.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=416
+
+ Score = 33.5 bits (75),  Expect = 0.020, Method: Compositional matrix adjust.
+ Identities = 32/125 (26%), Positives = 57/125 (46%), Gaps = 15/125 (12%)
+
+Query  82   DWQ---RDYESGVTILAGRYTTSNM-----IYQMEKLPRSQWEGYISWAEDFEYERLGLP  133
+            +WQ     + + V +L   Y T++      + Q EK  +S  EG   +++  + E+LG+
+Sbjct  34   NWQVFFAVFATNVIMLLIMYITTSFYSKRAVMQFEKEIKSIREG--DYSKTVDAEKLGML  91
+
+Query  134  RPQRVIFLDMPLDAAQKLLSKRYGGHDEKKDLHERDLRYLESCAQCARFAAEKLGWRAIG  193
+            RP  V+F ++  D    + S     H+  K + E   + + + AQ A  A E++
+Sbjct  92   RPSVVVFNELMAD----IRSLIMDFHNLSKSIIEAT-KSVSATAQQASTAMEEISKTMDD  146
+
+Query  194  CARGA  198
+             A GA
+Sbjct  147  IANGA  151
+
+
+>CDG37639.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+BC1]
+Length=416
+
+ Score = 33.1 bits (74),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 32/125 (26%), Positives = 57/125 (46%), Gaps = 15/125 (12%)
+
+Query  82   DWQ---RDYESGVTILAGRYTTSNM-----IYQMEKLPRSQWEGYISWAEDFEYERLGLP  133
+            +WQ     + + V +L   Y T++      + Q EK  +S  EG   +++  + E+LG+
+Sbjct  34   NWQVFFAVFATNVIMLLIMYITTSFYSKRAVMQFEKEIKSIREG--DYSKTVDAEKLGML  91
+
+Query  134  RPQRVIFLDMPLDAAQKLLSKRYGGHDEKKDLHERDLRYLESCAQCARFAAEKLGWRAIG  193
+            RP  V+F ++  D    + S     H+  K + E   + + + AQ A  A E++
+Sbjct  92   RPSAVVFNELMSD----IRSLIMDFHNLSKSIIEAT-KSVSATAQQASTAMEEISKTMDD  146
+
+Query  194  CARGA  198
+             A GA
+Sbjct  147  IANGA  151
+
+
+>WP_003511686.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+ ABN54351.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73785.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 1313]
+ ALX07718.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+AD2]
+ ANV75460.1 methyl-accepting chemotaxis sensory transducer [Acetivibrio thermocellus
+DSM 2360]
+ EIC05676.1 chemotaxis sensory transducer [Acetivibrio thermocellus YS]
+Length=416
+
+ Score = 33.1 bits (74),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 32/125 (26%), Positives = 57/125 (46%), Gaps = 15/125 (12%)
+
+Query  82   DWQ---RDYESGVTILAGRYTTSNM-----IYQMEKLPRSQWEGYISWAEDFEYERLGLP  133
+            +WQ     + + V +L   Y T++      + Q EK  +S  EG   +++  + E+LG+
+Sbjct  34   NWQVFFAVFATNVIMLLIMYITTSFYSKRAVMQFEKEIKSIREG--DYSKTVDAEKLGML  91
+
+Query  134  RPQRVIFLDMPLDAAQKLLSKRYGGHDEKKDLHERDLRYLESCAQCARFAAEKLGWRAIG  193
+            RP  V+F ++  D    + S     H+  K + E   + + + AQ A  A E++
+Sbjct  92   RPSAVVFNELMSD----IRSLIMDFHNLSKSIIEAT-KSVSATAQQASTAMEEISKTMDD  146
+
+Query  194  CARGA  198
+             A GA
+Sbjct  147  IANGA  151
+
+
+>WP_003518631.1 carbamoyl-phosphate synthase large subunit [Acetivibrio thermocellus]
+ CDG35642.1 Carbamoyl-phosphate synthase large chain [Acetivibrio thermocellus
+BC1]
+ ABN52183.1 carbamoyl-phosphate synthase, large subunit [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74331.1 carbamoyl-phosphate synthase, large subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX08275.1 Carbamoyl-phosphate synthase large subunit glutamine-dependent
+[Acetivibrio thermocellus AD2]
+ ANV76023.1 Carbamoyl-phosphate synthase large subunit glutamine-dependent
+[Acetivibrio thermocellus DSM 2360]
+Length=1072
+
+ Score = 30.0 bits (66),  Expect = 0.30, Method: Composition-based stats.
+ Identities = 20/41 (49%), Positives = 25/41 (61%), Gaps = 7/41 (17%)
+
+Query  118  YISWAEDFE-----YERLGLPRPQ-RVIF-LDMPLDAAQKL  151
+            YI  AED E      E LG+PRP+ + IF LD  L+AA +L
+Sbjct  663  YIDAAEDREKFDRILEELGIPRPKGKTIFTLDEALEAANEL  703
+
+
+>WP_003512584.1 NADH-dependent [FeFe] hydrogenase, group A6 [Acetivibrio thermocellus]
+ CDG35020.1 Iron hydrogenase 1 [Acetivibrio thermocellus BC1]
+ ADU74933.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 1313]
+ ALX08893.1 hydrogenase, Fe-only [Acetivibrio thermocellus AD2]
+ ANV76643.1 hydrogenase, Fe-only [Acetivibrio thermocellus DSM 2360]
+ EIC05125.1 hydrogenase, Fe-only [Acetivibrio thermocellus YS]
+Length=582
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 35/83 (42%), Gaps = 5/83 (6%)
+
+Query  43   SSALVKMYLGGEFGDKPGDVNAYAAGAFYAVDRYASFKKDWQRDYESGVTILAGRYTTSN  102
+            ++  V++ LG EFG   G   +   G   A      FKK +  D  + +TI+       N
+Sbjct  230  TAPAVRVALGEEFGMPIG---SRVTGKMVAALSRLGFKKVFDTDTAADLTIMEEGTELIN  286
+
+Query  103  MIYQMEKLP--RSQWEGYISWAE  123
+             I    KLP   S   G+I + E
+Sbjct  287  RIKNGGKLPLITSCSPGWIKFCE  309
+
+
+>AAD33071.1 hydrogenase-1, partial [Acetivibrio thermocellus]
+Length=579
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 35/83 (42%), Gaps = 5/83 (6%)
+
+Query  43   SSALVKMYLGGEFGDKPGDVNAYAAGAFYAVDRYASFKKDWQRDYESGVTILAGRYTTSN  102
+            ++  V++ LG EFG   G   +   G   A      FKK +  D  + +TI+       N
+Sbjct  228  TAPAVRVALGEEFGMPIG---SRVTGKMVAALSRLGFKKVFDTDTAADLTIMEEGTELIN  284
+
+Query  103  MIYQMEKLP--RSQWEGYISWAE  123
+             I    KLP   S   G+I + E
+Sbjct  285  RIKNGGKLPLITSCSPGWIKFCE  307
+
+
+>WP_011837812.1 NADH-dependent [FeFe] hydrogenase, group A6 [Acetivibrio thermocellus]
+ ABN51580.1 hydrogenase, Fe-only [Acetivibrio thermocellus ATCC 27405]
+ HBW26047.1 ferredoxin [Acetivibrio thermocellus]
+Length=582
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 35/83 (42%), Gaps = 5/83 (6%)
+
+Query  43   SSALVKMYLGGEFGDKPGDVNAYAAGAFYAVDRYASFKKDWQRDYESGVTILAGRYTTSN  102
+            ++  V++ LG EFG   G   +   G   A      FKK +  D  + +TI+       N
+Sbjct  230  TAPAVRVALGEEFGMPIG---SRVTGKMVAALSRLGFKKVFDTDTAADLTIMEEGTELIN  286
+
+Query  103  MIYQMEKLP--RSQWEGYISWAE  123
+             I    KLP   S   G+I + E
+Sbjct  287  RIKNGGKLPLITSCSPGWIKFCE  309
+
+
+>WP_003518165.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ ABN51496.1 twitching motility protein [Acetivibrio thermocellus ATCC 27405]
+ ADU75019.1 twitching motility protein [Acetivibrio thermocellus DSM 1313]
+ ALX08987.1 twitching motility protein [Acetivibrio thermocellus AD2]
+ ANV76737.1 twitching motility protein [Acetivibrio thermocellus DSM 2360]
+ EIC05068.1 twitching motility protein [Acetivibrio thermocellus YS]
+Length=350
+
+ Score = 26.9 bits (58),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  2    GLIVLEGLDGSGKSTQLPLLEQELR--RRGPVRTVSFP  37
+            GLI++ G  GSGKST +  +  E+   R G + T+  P
+Sbjct  124  GLILVTGPTGSGKSTTMASIINEINSTREGHILTLEDP  161
+
+
+>NIK05396.1 twitching motility protein PilT [Acetivibrio thermocellus]
+Length=351
+
+ Score = 26.9 bits (58),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  2    GLIVLEGLDGSGKSTQLPLLEQELR--RRGPVRTVSFP  37
+            GLI++ G  GSGKST +  +  E+   R G + T+  P
+Sbjct  125  GLILVTGPTGSGKSTTMASIINEINSTREGHILTLEDP  162
+
+
+>NLU27650.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+Length=351
+
+ Score = 26.9 bits (58),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  2    GLIVLEGLDGSGKSTQLPLLEQELR--RRGPVRTVSFP  37
+            GLI++ G  GSGKST +  +  E+   R G + T+  P
+Sbjct  125  GLILVTGPTGSGKSTTMASIINEINSTREGHILTLEDP  162
+
+
+>WP_003512393.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ THJ78091.1 type IV pilus twitching motility protein PilT [Acetivibrio thermocellus]
+ CDG34934.1 Twitching mobility protein [Acetivibrio thermocellus BC1]
+Length=350
+
+ Score = 26.9 bits (58),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  2    GLIVLEGLDGSGKSTQLPLLEQELR--RRGPVRTVSFP  37
+            GLI++ G  GSGKST +  +  E+   R G + T+  P
+Sbjct  124  GLILVTGPTGSGKSTTMASIINEINSTREGHILTLEDP  161
+
+
+>WP_003516319.1 signal recognition particle protein [Acetivibrio thermocellus]
+ CDG35465.1 Signal recognition particle protein [Acetivibrio thermocellus
+BC1]
+ ABN52005.1 signal recognition particle protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74514.1 signal recognition particle protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08457.1 Signal recognition 54 kDa protein [Acetivibrio thermocellus AD2]
+Length=446
+
+ Score = 26.9 bits (58),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 25/78 (32%), Positives = 35/78 (45%), Gaps = 7/78 (9%)
+
+Query  5    VLEGLDGSGKSTQLPLLEQELRRRGPVRTVSFPDYSSPSSA----LVKMYLGGE---FGD  57
+            ++ GL GSGK+T    L   LR++G    +   D   P++     +V   LG E    GD
+Sbjct  105  MMVGLQGSGKTTTSGKLANLLRKQGKKPLLVACDVYRPAAIKQLQVVGSQLGIEVFSMGD  164
+
+Query  58   KPGDVNAYAAGAFYAVDR  75
+            K   V+   A   YA  R
+Sbjct  165  KTNPVDIAKAAVEYAKSR  182
+
+
+>CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]
+Length=277
+
+ Score = 26.2 bits (56),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/39 (38%), Positives = 21/39 (54%), Gaps = 0/39 (0%)
+
+Query  5   VLEGLDGSGKSTQLPLLEQELRRRGPVRTVSFPDYSSPS  43
+           V+ G  G GKST   L+ +EL ++G    V   D + PS
+Sbjct  35  VMSGKGGVGKSTVSALIAEELNKKGYKVGVLDADITGPS  73
+
+
+>CDG36183.1 putative ribosome biogenesis GTPase RsgA 2 [Acetivibrio thermocellus
+BC1]
+Length=343
+
+ Score = 25.4 bits (54),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 33/128 (26%), Positives = 51/128 (40%), Gaps = 20/128 (16%)
+
+Query  4    IVLEGLDGSGKSTQLPLLE-QELRRRGPVRTV-SFPDYSSPSSALVKMYLGGEFGDKPG-  60
+            +V  G  G GKS+ +  L  QE+   G +R   S   +++    L+ +  G    D PG
+Sbjct  190  VVFLGSSGVGKSSLVNALAGQEIMAVGDIREDDSKGRHTTTHRQLIMLPGGAMIIDTPGM  249
+
+Query  61   -------DVNAYAAGAFYAVDRYASFKK--DWQRDYESGVTILAGRYTTSNMIYQMEKLP  111
+                   DV+      F  V  Y    K  D +   E G  I A          ++ +LP
+Sbjct  250  RELGMLDDVSVGLGETFSDVVSYLGRCKFSDCRHQTEPGCAIRAA--------IEIGELP  301
+
+Query  112  RSQWEGYI  119
+            + +WE Y+
+Sbjct  302  KERWESYL  309
+
+
+>WP_003518605.1 ketoacyl-ACP synthase III [Acetivibrio thermocellus]
+ CDG35629.1 3-oxoacyl-[acyl-carrier-protein] synthase 3 [Acetivibrio thermocellus
+BC1]
+ ABN52170.1 3-oxoacyl-(acyl-carrier-protein) synthase III [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74344.1 3-oxoacyl-(acyl-carrier-protein) synthase III [Acetivibrio thermocellus
+DSM 1313]
+ ALX08288.1 3-oxoacyl-(acyl-carrier-protein) synthase 3 [Acetivibrio thermocellus
+AD2]
+ ANV76036.1 3-oxoacyl-(acyl-carrier-protein) synthase 3 [Acetivibrio thermocellus
+DSM 2360]
+Length=331
+
+ Score = 25.4 bits (54),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 24/52 (46%), Gaps = 2/52 (4%)
+
+Query  31   VRTVSFPDYSSPS-SALVKMYLGGEFGDKPGDVNAYAAGAFYAVDRYASFKK  81
+            + T   PDY SPS S L++  +G        D+NA  +G  Y +     F K
+Sbjct  81   IVTTETPDYLSPSMSCLIQSEIGATRA-AAFDLNAACSGFIYGLSVANQFIK  131
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.319    0.137    0.416
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 13632
+Number of extensions: 643
+Number of successful extensions: 10
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 10
+Number of HSP's successfully gapped: 2
+Length of query: 215
+Length of database: 2859109
+Length adjustment: 85
+Effective length of query: 130
+Effective length of database: 2165339
+Effective search space: 281494070
+Effective search space used: 281494070
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

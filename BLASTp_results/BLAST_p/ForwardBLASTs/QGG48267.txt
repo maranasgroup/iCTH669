@@ -1,0 +1,260 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZ9K4MM013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QGG48267 5'-nucleotidase [Heliorestis convoluta]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516592.1 ribonucleoside triphosphate reductase [Acetivib...  31.2    0.15   29%
+WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio th...  26.2    3.2    31%
+WP_235715196.1 stalk domain-containing protein [Acetivibrio th...  26.6    4.6    56%
+NLU25703.1 copper amine oxidase [Acetivibrio thermocellus]         26.6    4.6    56%
+WP_003513857.1 stalk domain-containing protein [Acetivibrio th...  26.6    4.6    56%
+WP_011838298.1 stalk domain-containing protein [Acetivibrio th...  26.6    4.6    56%
+CDG37082.1 Rod shape-determining protein MreB [Acetivibrio the...  25.8    6.1    35%
+WP_003515449.1 rod shape-determining protein [Acetivibrio ther...  25.8    6.2    35%
+WP_136479357.1 hypothetical protein [Acetivibrio thermocellus]     25.4    8.0    32%
+WP_003518533.1 AAA family ATPase [Acetivibrio thermocellus]        25.8    8.5    29%
+CDG36536.1 ATP-dependent helicase/deoxyribonuclease subunit B ...  25.4    9.6    33%
+
+ALIGNMENTS
+>WP_003516592.1 ribonucleoside triphosphate reductase [Acetivibrio thermocellus]
+ CDG35339.1 anaerobic ribonucleoside triphosphate reductase [Acetivibrio
+thermocellus BC1]
+ ABN51881.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74641.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08584.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus AD2]
+ ANV76333.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 2360]
+Length=696
+
+ Score = 31.2 bits (69),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 34/65 (52%), Gaps = 5/65 (8%)
+
+Query  32   VVAPEGERSATGHGITVHEPIRVEKLQFSNPHFHGWAVKGTPADCVKLALEELMQEP-PD  90
+            +  PEG++ A    I +   +R   L+F N   H + ++ TPA+     L ++ +E  PD
+Sbjct  500  ITTPEGQKFA----IDIMHYLRDILLEFQNETGHFYNLEATPAEGTSYRLAKIDKERYPD  555
+
+Query  91   IVISG  95
+            I+ +G
+Sbjct  556  IITAG  560
+
+
+>WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio thermocellus]
+Length=152
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 27/58 (47%), Gaps = 6/58 (10%)
+
+Query  46  ITVHEPIRVEKLQ----FSNPHFHGWAVKGTPADCVKL-ALEELMQE-PPDIVISGIN  97
+           I + + IR  K+Q    + N    GW    T ADC+K       M++ P + + SGI
+Sbjct  20  IVLSKKIRENKIQGYLAYHNGKVVGWCNTNTKADCLKCYCWRRFMRDVPTEELASGIR  77
+
+
+>WP_235715196.1 stalk domain-containing protein [Acetivibrio thermocellus]
+Length=932
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 9/16 (56%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  199  RGRTYYWMAGEVKDID  214
+            +GRTYYWMA      D
+Sbjct  316  KGRTYYWMAASTNTRD  331
+
+
+>NLU25703.1 copper amine oxidase [Acetivibrio thermocellus]
+Length=947
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 9/16 (56%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  199  RGRTYYWMAGEVKDID  214
+            +GRTYYWMA      D
+Sbjct  346  KGRTYYWMAASTNTRD  361
+
+
+>WP_003513857.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ANV77347.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04448.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+ CDG36425.1 copper amine oxidase domain protein [Acetivibrio thermocellus
+BC1]
+ ADU75582.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX09575.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+Length=962
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 9/16 (56%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  199  RGRTYYWMAGEVKDID  214
+            +GRTYYWMA      D
+Sbjct  346  KGRTYYWMAASTNTRD  361
+
+
+>WP_011838298.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ABN53127.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27088.1 tetratricopeptide repeat protein [Acetivibrio thermocellus]
+Length=962
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Composition-based stats.
+ Identities = 9/16 (56%), Positives = 10/16 (63%), Gaps = 0/16 (0%)
+
+Query  199  RGRTYYWMAGEVKDID  214
+            +GRTYYWMA      D
+Sbjct  346  KGRTYYWMAASTNTRD  361
+
+
+>CDG37082.1 Rod shape-determining protein MreB [Acetivibrio thermocellus
+BC1]
+Length=344
+
+ Score = 25.8 bits (55),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 25/48 (52%), Gaps = 1/48 (2%)
+
+Query  80   ALEELMQEPPDIVISGINRGP-NLATDVLYSGTVSAAMEGMIYGFPSM  126
+            ALEE +    ++V S + R P  LA+D+   G V      +IYGF  +
+Sbjct  251  ALEEPVSSIVEVVHSVLERTPPELASDISDRGIVMTGGGSLIYGFDKL  298
+
+
+>WP_003515449.1 rod shape-determining protein [Acetivibrio thermocellus]
+ ABN53819.1 cell shape determining protein, MreB/Mrl family [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73301.1 cell shape determining protein, MreB/Mrl family [Acetivibrio
+thermocellus DSM 1313]
+ ALX07219.1 cell shape determining protein, MreB/Mrl family [Acetivibrio
+thermocellus AD2]
+ ANV74955.1 cell shape determining protein, MreB/Mrl family [Acetivibrio
+thermocellus DSM 2360]
+ EIC04315.1 cell shape determining protein, MreB/Mrl family [Acetivibrio
+thermocellus YS]
+Length=344
+
+ Score = 25.8 bits (55),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 17/48 (35%), Positives = 25/48 (52%), Gaps = 1/48 (2%)
+
+Query  80   ALEELMQEPPDIVISGINRGP-NLATDVLYSGTVSAAMEGMIYGFPSM  126
+            ALEE +    ++V S + R P  LA+D+   G V      +IYGF  +
+Sbjct  251  ALEEPVSSIVEVVHSVLERTPPELASDISDRGIVMTGGGSLIYGFDKL  298
+
+
+>WP_136479357.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78292.1 hypothetical protein EPD62_06855 [Acetivibrio thermocellus]
+Length=227
+
+ Score = 25.4 bits (54),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 18/56 (32%), Positives = 27/56 (48%), Gaps = 6/56 (11%)
+
+Query  85   MQEPPDIVI----SGINRGPNLATDVLYSGTVSAAMEGMIYGFPSMAVSIASWKDC  136
+            MQE  + +I    SG +R  N   D L S TVS+  E +  G   + +    +K+C
+Sbjct  1    MQEGNNGIIYSNVSGESRNSNNECDKLKSLTVSSHNERL--GISRIGIKNNKFKNC  54
+
+
+>WP_003518533.1 AAA family ATPase [Acetivibrio thermocellus]
+ ADU73571.1 regulatory protein DeoR [Acetivibrio thermocellus DSM 1313]
+ ALX07492.1 regulatory protein DeoR [Acetivibrio thermocellus AD2]
+ ANV75231.1 regulatory protein DeoR [Acetivibrio thermocellus DSM 2360]
+ EIC03412.1 regulatory protein DeoR [Acetivibrio thermocellus YS]
+ PFH01756.1 HTH domain-containing protein [Acetivibrio thermocellus AD2]
+Length=675
+
+ Score = 25.8 bits (55),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 22/76 (29%), Positives = 32/76 (42%), Gaps = 12/76 (16%)
+
+Query  53   RVEKLQFSNPHFHGWAVKGTPADCVKLALEELMQEPPD--------IVISGINRGPNLAT  104
+            RVE+L    P    W VKG  A   K+    L+Q PP          ++  ++RG N+
+Sbjct  350  RVEELLKREPAEPDWLVKGMIARGQKI----LVQGPPKQMKTWFVLSLLKALSRGENVCG  405
+
+Query  105  DVLYSGTVSAAMEGMI  120
+               +  TVS     M+
+Sbjct  406  VPFWRTTVSGIKAVMV  421
+
+
+>CDG36536.1 ATP-dependent helicase/deoxyribonuclease subunit B [Acetivibrio
+thermocellus BC1]
+Length=1146
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 22/45 (49%), Gaps = 1/45 (2%)
+
+Query  112  VSAAMEGMIYGFPSM-AVSIASWKDCDYDYAAKVTKEICIKITEK  155
+            V   M  +I  F  M A    SW+D D D+ ++   EI  ++ EK
+Sbjct  811  VGTFMHAVIEKFSRMVAKRNVSWRDLDRDWCSEKVSEIVDEMLEK  855
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.139    0.433
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22326
+Number of extensions: 1070
+Number of successful extensions: 25
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 7
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

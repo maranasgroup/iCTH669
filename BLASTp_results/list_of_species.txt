@@ -1,0 +1,207 @@
+amt Alkaliphilus metalliredigens 	
+aoe Alkaliphilus oremlandii 	
+asf Candidatus Arthromitus sp. SFB-mouse-Japan 	
+asm Candidatus Arthromitus sp. SFB-mouse-Yit 	
+aso Candidatus Arthromitus sp. SFB-mouse-NL 	
+asb Candidatus Arthromitus sp. SFB-rat-Yit 	
+gfe Geosporobacter ferrireducens 
+hhw Hathewaya histolytica 	
+cale Caloramator sp. E03 	
+crs Crassaminicella thermophila 	
+cprf Crassaminicella profunda 	
+sarj Sarcina sp. JB2 	
+pbif Paraclostridium bifermentans 	
+cazo Caloranaerobacter azorensis 	
+clo Mageeibacillus indolicus 	
+fsa Fastidiosipila sanguinis 	
+ctx Hungateiclostridium thermocellum DSM 1313 	
+ccl Acetivibrio clariflavus 	
+hsc Acetivibrio saccincola
+ruk Hungateiclostridiaceae bacterium KB18 	
+rbp Ruminococcaceae bacterium CPB6 	
+cce Ruminiclostridium cellulolyticum 	
+rher Ruminiclostridium herbifermentans 	
+css Thermoclostridium stercorarium subsp. stercorarium DSM 8532 	
+csd Thermoclostridium stercorarium subsp. stercorarium DSM 8532 	
+cthd Pseudoclostridium thermosuccinogenes 	
+esr Eubacterium siraeum V10Sc8a 	
+esu Eubacterium siraeum 70/3 	
+ccel Clostridium cellulosi 
+fpla Flavonifractor plautii 	
+eha Ethanoligenens harbinense 	
+ral Ruminococcus albus 	
+rch Ruminococcus champanellensis 	
+rum Ruminococcus sp. SR1/5 	
+rus Ruminococcus bicirculans 	
+ruj Ruminococcus bovis 	
+fpr Faecalibacterium prausnitzii L2-6 	
+fpa Faecalibacterium prausnitzii SL3/3 	
+fpra Faecalibacterium prausnitzii A2-165
+capr Caproiciproducens sp. NJN-50
+ova Oscillibacter valericigenes 	
+obj Oscillospiraceae bacterium J115 	
+caml Caproicibacterium amylolyticum 	
+clf Caproicibacterium lactatifermentans 	
+sman Solibaculum mannosilyticum 	
+pfaa Pusillimonas faecalis 	
+vfa Vescimonas fastidiosa 	
+vcop Vescimonas coprocola 	
+cfem Caproicibacter fermentans 	
+bpb Butyrivibrio proteoclasticus 	
+bfi Butyrivibrio fibrisolvens 	
+bhu Butyrivibrio hungatei 	
+cle Cellulosilyticum lentocellum 	
+cew Cellulosilyticum sp. WCF-2 	
+rho Roseburia hominis 	
+rix Roseburia intestinalis XB6B4 	
+rim Roseburia intestinalis M50/1 	
+coo Coprococcus sp. ART55/1 	
+cct Coprococcus catus 	
+ccom Coprococcus comes
+cev Coprococcus eutactus 	
+rob Blautia obeum 	
+byl Blautia sp. YL58 	
+bhan Blautia hansenii 	
+blau Blautia argi 	
+bpro Blautia producta 	
+blab Blautia sp. SC05B48 	
+bliq Blautia liquoris 	
+cpy Lachnoclostridium phytofermentans 	
+lacy Lachnoclostridium sp. YL32 	
+csci Clostridium scindens
+csh Clostridium saccharolyticum WM1 	
+cso Clostridium cf. saccharolyticum K10 	
+bprl Anaerostipes hadrus 	
+arf Anaerostipes rhamnosivorans 	
+acac Anaerostipes caccae 	
+hsd Herbinix luporum 	
+cpro Anaerotignum propionicum 	
+lua Lachnoanaerobaculum umeaense 	
+ehl Anaerobutyricum hallii 	
+pxv Pseudobutyrivibrio xylanivorans 	
+anr Anaerocolumna sedimenticola 
+acel Anaerocolumna cellulosilytica 	
+acht Anaerocolumna chitinilytica 	
+eel Eubacterium eligens 	
+rto Ruminococcus torques 	
+rgn Ruminococcus gnavus 	
+cbol Enterocloster bolteae 	
+ere Eubacterium rectale ATCC 33656 	
+ert Eubacterium rectale DSM 17629 	
+era Eubacterium rectale M104/1 	
+lbw Lachnospiraceae bacterium oral taxon 500 	
+cdf Clostridioides difficile 630 	
+pdc Clostridioides difficile 630 	
+cdc Clostridioides difficile CD196 	
+cdl Clostridioides difficile R20291 	
+pdf Clostridioides difficile 630Derm 	
+eac Peptoclostridium acidaminophilum 	
+cst Acetoanaerobium sticklandii 	
+faa Filifactor alocis 	
+psor Paeniclostridium sordellii 	
+roc Romboutsia sp. CE17 	
+phx Peptacetobacter hiranonis 
+tem Terrisporobacter sp. MCA3 	
+pbq Peptostreptococcaceae bacterium oral taxon 929 	
+sth Symbiobacterium thermophilum 	
+swo Syntrophomonas wolfei 	
+slp Syntrophothermus lipocalidus 	
+salq Candidatus Syntrophocurvum alkaliphilum 	
+dsy Desulfitobacterium hafniense Y51 	
+dhd Desulfitobacterium hafniense DCB-2 	
+ddh Desulfitobacterium dehalogenans 	
+ddl Desulfitobacterium dichloroeliminans 		
+dmt Desulfitobacterium metallireducens 	
+dca Desulfotomaculum nigrificans 	
+drm Desulforamulus reducens 	
+dru Desulforamulus ruminis 	
+dfg Desulforamulus ferrireducens 	
+dae Desulfofarcimen acetoxidans 	
+dku Desulfofundulus kuznetsovii 	
+pth Pelotomaculum thermopropionicum 	
+dau Candidatus Desulforudis audaxviator 	
+tjr Thermincola potens 	
+sgy Syntrophobotulus glycolicus 	
+dor Desulfosporosinus orientis 	
+dai Desulfosporosinus acidiphilus 	
+dmi Desulfosporosinus meridiei 	
+ded Dehalobacter sp. DCA 	
+dec Dehalobacter sp. CF 	
+drs Dehalobacter restrictus 	
+tfr Thermoanaerosceptrum fracticalcis 	
+fwa Candidatus Formimonas warabiya 	
+aacx Acididesulfobacillus acetoxydans 	
+dgi Desulfoscipio gibsoniae 	
+hmo Heliobacterium modesticaldum 	
+hcv Heliorestis convoluta 	
+elm Eubacterium callanderi 	
+emt Eubacterium maltosivorans 	
+elim Eubacterium limosum 	
+awo Acetobacterium woodii 	
+alka Alkalibacter sp. ES005 	
+tmr Thermaerobacter marianensis 	
+thef Thermaerobacter sp. FW80 	
+thep Thermaerobacter sp. PB12/4term 	
+say Sulfobacillus acidophilus TPY
+sap Sulfobacillus acidophilus DSM 10332 	
+sthr Sulfobacillus thermotolerans 	
+cthm Carboxydocella thermautotrophica 	
+cmiu Christensenella minuta 	
+ibu Intestinimonas butyriciproducens 	
+cbar Petrocella atlantisensis 	
+vgu Vallitalea guaymasensis 	
+vpy Vallitalea pronyensis 	
+acae Alkalicella caledoniensis 	
+lasa Lawsonibacter asaccharolyticus 	
+mdv Mogibacterium diversum 	
+amij Aminipila luticellarii 	
+amic Aminipila terrae 	
+abut Aminipila butyrica 	
+euu Eubacterium sulci 	
+bprm Butyrate-producing bacterium SM4/1 	
+bprs Butyrate-producing bacterium SS3/4 	
+tte Caldanaerobacter subterraneus subsp. tengcongensis 	
+tex Thermoanaerobacter sp. X514 	
+thx Thermoanaerobacter sp. X513 	
+tpd Thermoanaerobacter pseudethanolicus 	
+tmt Thermoanaerobacter mathranii 	
+tbo Thermoanaerobacter brockii 	
+twi Thermoanaerobacter wiegelii 	
+tki Thermoanaerobacter kivui 	
+chy Carboxydothermus hydrogenoformans 	
+mta Moorella thermoacetica ATCC 39073 	
+mtho Moorella thermoacetica DSM 521 	
+mthz Moorella thermoacetica DSM 2955 	
+adg Ammonifex degensii 	
+tpz Thermacetogenium phaeum 	
+gek Gelria sp. Kuro-4 	
+csc Caldicellulosiruptor saccharolyticus 	
+ate Caldicellulosiruptor bescii 	
+cob Caldicellulosiruptor obsidiansis 	
+chd Caldicellulosiruptor hydrothermalis 	
+cow Caldicellulosiruptor owensensis 	
+cki Caldicellulosiruptor kristjanssonii 	
+clc Caldicellulosiruptor lactoaceticus 	
+ckn Caldicellulosiruptor kronotskyensis 	
+ccha Caldicellulosiruptor changbaiensis 	
+ttm Thermoanaerobacterium thermosaccharolyticum DSM 571 
+txy Thermoanaerobacterium xylanolyticum 	
+tsh Thermoanaerobacterium saccharolyticum 	
+tnr Thermodesulfobium narugense 	
+taci Thermodesulfobium acidiphilum 	
+mas Mahella australiensis 	
+tep Tepidanaerobacter acetatoxydans Re1 	
+tae Tepidanaerobacter acetatoxydans Re1 	
+toc Thermosediminibacter oceani 	
+nth Natranaerobius thermophilus 	
+hor Halothermothrix orenii 	
+has Halanaerobium hydrogeniformans 	
+hpk Halanaerobium praevalens 	
+hals Halocella sp. SP3-1 	
+ifn Iocasia fonsfrigidae 	
+aar Acetohalobium arabaticum 	
+hhl Halobacteroides halobius 	
+aft Anoxybacter fermentans 	
+kme Koleobacter methoxysyntrophicus
+tto Thermoanaerobacterium thermosaccharolyticum M0795 	
+tit Thermoanaerobacter italicus 	

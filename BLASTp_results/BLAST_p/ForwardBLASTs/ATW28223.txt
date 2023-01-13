@@ -1,0 +1,362 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X0J3SH2016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ATW28223 5'-nucleotidase [Candidatus Formimonas]
+
+Length=1819
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_168796726.1 Ig-like domain-containing protein [Acetivibrio ...  33.5    0.28   31%
+THJ78596.1 Ig-like domain-containing protein [Acetivibrio ther...  33.5    0.31   31%
+WP_003512682.1 substrate-binding domain-containing protein [Ac...  32.7    0.51   31%
+WP_003518873.1 hypothetical protein [Acetivibrio thermocellus]     30.4    2.6    30%
+WP_004463598.1 hypothetical protein [Acetivibrio thermocellus]     30.4    2.7    30%
+WP_003514987.1 PoNi-like cognate immunity protein [Acetivibrio...  30.0    3.2    29%
+WP_136479310.1 PoNi-like cognate immunity protein [Acetivibrio...  29.6    3.9    31%
+WP_020457685.1 PoNi-like cognate immunity protein [Acetivibrio...  29.6    4.2    31%
+WP_136479519.1 CHC2 zinc finger domain-containing protein [Ace...  29.3    6.1    32%
+WP_011838012.1 CHC2 zinc finger domain-containing protein [Ace...  29.3    6.3    32%
+CDG35125.1 Ig domain protein group 2 domain protein [Acetivibr...  29.3    6.5    36%
+WP_020457945.1 PoNi-like cognate immunity protein [Acetivibrio...  28.9    7.0    27%
+WP_003515331.1 iron-sulfur cluster repair di-iron protein [Ace...  28.5    8.0    25%
+WP_003514396.1 iron-sulfur cluster repair di-iron protein [Ace...  28.5    8.0    25%
+CDG37251.1 hypothetical protein CTHBC1_2668 [Acetivibrio therm...  28.5    8.0    25%
+
+ALIGNMENTS
+>WP_168796726.1 Ig-like domain-containing protein [Acetivibrio thermocellus]
+Length=380
+
+ Score = 33.5 bits (75),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 39/125 (31%), Positives = 50/125 (40%), Gaps = 27/125 (22%)
+
+Query  776  LVQEIVDKNDWNSGNAITFLLSGTGNRTAESFEGSSSDSQKPTLHVTYSTADAGFPISEA  835
+            LV EI +  D+       + L  T   TA   EGS       TL +       G P+
+Sbjct  182  LVNEIANAGDY------IYTLEITNGETASIQEGS-------TLQLNAVVKLNGNPV---  225
+
+Query  836  RDLDAGETTTVTGIVTCVNP---TTDGSYFIQDDTAGICVYNTSLSPAPQVGERIQVTGT  892
+                  +  TVT   +C NP   T D S  I   +AG C+   SL   PQV + I +T T
+Sbjct  226  ------DNKTVT--FSCDNPSIATVDASGLITGISAGECIITASLQDNPQVYDTITITVT  277
+
+Query  893  LNPYH  897
+              P H
+Sbjct  278  ALPQH  282
+
+
+>THJ78596.1 Ig-like domain-containing protein [Acetivibrio thermocellus]
+Length=382
+
+ Score = 33.5 bits (75),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 39/125 (31%), Positives = 50/125 (40%), Gaps = 27/125 (22%)
+
+Query  776  LVQEIVDKNDWNSGNAITFLLSGTGNRTAESFEGSSSDSQKPTLHVTYSTADAGFPISEA  835
+            LV EI +  D+       + L  T   TA   EGS       TL +       G P+
+Sbjct  184  LVNEIANAGDY------IYTLEITNGETASIQEGS-------TLQLNAVVKLNGNPV---  227
+
+Query  836  RDLDAGETTTVTGIVTCVNP---TTDGSYFIQDDTAGICVYNTSLSPAPQVGERIQVTGT  892
+                  +  TVT   +C NP   T D S  I   +AG C+   SL   PQV + I +T T
+Sbjct  228  ------DNKTVT--FSCDNPSIATVDASGLITGISAGECIITASLQDNPQVYDTITITVT  279
+
+Query  893  LNPYH  897
+              P H
+Sbjct  280  ALPQH  284
+
+
+>WP_003512682.1 substrate-binding domain-containing protein [Acetivibrio thermocellus]
+ CDG35089.1 sugar ABC transporter sugar-binding protein [Acetivibrio thermocellus
+BC1]
+ ABN51631.1 periplasmic binding protein/LacI transcriptional regulator [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74884.1 periplasmic binding protein/LacI transcriptional regulator [Acetivibrio
+thermocellus DSM 1313]
+ ALX08839.1 Periplasmic binding protein domain containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76589.1 Periplasmic binding protein domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=321
+
+ Score = 32.7 bits (73),  Expect = 0.51, Method: Compositional matrix adjust.
+ Identities = 22/71 (31%), Positives = 32/71 (45%), Gaps = 12/71 (17%)
+
+Query  4   QKKFLSIVLLICLLLSNIVIPGNAFAANNNDNGDEQGSALTVSG----EVYDITFSPGRD  59
+            K+FL ++L I L+ +        F A N+ +G   G A    G    E Y +TF  G D
+Sbjct  1   MKRFLVLLLAISLIFT--------FTACNSGSGSGNGQAKGYVGDPSDEYYMVTFLSGID  52
+
+Query  60  ATELCFTWYSD  70
+             + CF  + D
+Sbjct  53  YWKYCFEGFED  63
+
+
+>WP_003518873.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU74116.1 hypothetical protein Clo1313_1048 [Acetivibrio thermocellus DSM
+1313]
+ ALX08054.1 hypothetical protein AD2_01059 [Acetivibrio thermocellus AD2]
+ ANV75801.1 hypothetical protein LQRI_1060 [Acetivibrio thermocellus DSM
+2360]
+ EIC06074.1 hypothetical protein YSBL_0380 [Acetivibrio thermocellus YS]
+ PFH02325.1 hypothetical protein M972_111094 [Acetivibrio thermocellus AD2]
+Length=599
+
+ Score = 30.4 bits (67),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 42/97 (43%), Gaps = 5/97 (5%)
+
+Query  1626  KSDGTPVDMNDTTETYKVATNNFMAGGGDGFGAFLDATNVVDTYILIRDALADAVRAAGT  1685
+             K+D      N   ET +  T  F  G G    AF  A    D YIL      + +++ GT
+Sbjct  408   KTDNPEKYYNIAGETDETGTVKFTLGKGTFHLAFSPAEGSTD-YILPSPFFYE-LKSVGT  465
+
+Query  1686  TGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTG  1722
+             T +T  +    +N    ++  I  + V+DEN  PV G
+Sbjct  466   TMLTVNLS---KNQALTQSTGITEIEVLDENNHPVEG  499
+
+
+>WP_004463598.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52441.1 hypothetical protein Cthe_1209 [Acetivibrio thermocellus ATCC
+27405]
+ NLU27721.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35880.1 hypothetical protein CTHBC1_1233 [Acetivibrio thermocellus BC1]
+ HBW28252.1 hypothetical protein [Acetivibrio thermocellus]
+Length=599
+
+ Score = 30.4 bits (67),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 42/97 (43%), Gaps = 5/97 (5%)
+
+Query  1626  KSDGTPVDMNDTTETYKVATNNFMAGGGDGFGAFLDATNVVDTYILIRDALADAVRAAGT  1685
+             K+D      N   ET +  T  F  G G    AF  A    D YIL      + +++ GT
+Sbjct  408   KTDNPEKYYNIAGETDETGTVKFTLGKGTFHLAFSPAEGSTD-YILPSPFFYE-LKSVGT  465
+
+Query  1686  TGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTG  1722
+             T +T  +    +N    ++  I  + V+DEN  PV G
+Sbjct  466   TMLTVNLS---KNQALTQSTGITEIEVLDENNHPVEG  499
+
+
+>WP_003514987.1 PoNi-like cognate immunity protein [Acetivibrio thermocellus]
+ ADU75669.1 Domain of unknown function DUF1910 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09686.1 protein of unknown function DUF1910 [Acetivibrio thermocellus
+AD2]
+ ANV77459.1 protein of unknown function DUF1910 [Acetivibrio thermocellus
+DSM 2360]
+ EIC03571.1 protein of unknown function DUF1910 [Acetivibrio thermocellus
+YS]
+ PFH03969.1 uncharacterized protein DUF1911 [Acetivibrio thermocellus AD2]
+Length=412
+
+ Score = 30.0 bits (66),  Expect = 3.2, Method: Composition-based stats.
+ Identities = 18/62 (29%), Positives = 32/62 (52%), Gaps = 2/62 (3%)
+
+Query  1672  IRDALADAVRAAGTTGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTGHLEQ--GKQ  1729
+             I DAL D +  A   G         + + YEKT  I  +A+ D++++  +  LE+  GK+
+Sbjct  132   IEDALMDFLLKACDIGWNHSTTKYEKKNPYEKTAEIIKIALHDKDKEAASKRLEKYMGKE  191
+
+Query  1730  YY  1731
+             ++
+Sbjct  192   WF  193
+
+
+>WP_136479310.1 PoNi-like cognate immunity protein [Acetivibrio thermocellus]
+ THJ78568.1 DUF1910 domain-containing protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 29.6 bits (65),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  1672  IRDALADAVRAAGTTGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTGHLEQ  1726
+             I DAL D +  A   G         + + YEKTV I  +A+ D++++  +  LE+
+Sbjct  132   IEDALMDFLLKACDIGWNRSTTKYEKKNPYEKTVEIIKIALHDKDKEAASKRLEK  186
+
+
+>WP_020457685.1 PoNi-like cognate immunity protein [Acetivibrio thermocellus]
+ ABN53230.1 Domain of unknown function DUF1910 [Acetivibrio thermocellus
+ATCC 27405]
+Length=411
+
+ Score = 29.6 bits (65),  Expect = 4.2, Method: Composition-based stats.
+ Identities = 17/55 (31%), Positives = 28/55 (51%), Gaps = 0/55 (0%)
+
+Query  1672  IRDALADAVRAAGTTGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTGHLEQ  1726
+             I DAL D +  A   G         + + YEKTV I  +A+ D++++  +  LE+
+Sbjct  132   IEDALMDFLLKACDIGWNHSTTKYEKKNPYEKTVEIIKIALHDKDKEAASKRLEK  186
+
+
+>WP_136479519.1 CHC2 zinc finger domain-containing protein [Acetivibrio thermocellus]
+ THJ77577.1 hypothetical protein EPD62_10525 [Acetivibrio thermocellus]
+Length=687
+
+ Score = 29.3 bits (64),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+
+Query  366  YMTLNSASGSKYYDLKATPETYAAVREQIKVPTFSHISVTDESFTIS  412
+            Y   NS   + YYD+   PE Y + +EQ +V  +     T  S  +S
+Sbjct  142  YRKTNSLRYTDYYDIWLLPERYFSSKEQSQVRQYQEEQQTKPSLEVS  188
+
+
+>WP_011838012.1 CHC2 zinc finger domain-containing protein [Acetivibrio thermocellus]
+ ABN52388.1 DNA primase catalytic core domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+Length=687
+
+ Score = 29.3 bits (64),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 15/47 (32%), Positives = 22/47 (47%), Gaps = 0/47 (0%)
+
+Query  366  YMTLNSASGSKYYDLKATPETYAAVREQIKVPTFSHISVTDESFTIS  412
+            Y   NS   + YYD+   PE Y + +EQ +V  +     T  S  +S
+Sbjct  142  YRKTNSLRYTDYYDIWLLPERYFSSKEQSQVRQYQEEQQTKPSLEVS  188
+
+
+>CDG35125.1 Ig domain protein group 2 domain protein [Acetivibrio thermocellus
+BC1]
+Length=380
+
+ Score = 29.3 bits (64),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 22/61 (36%), Positives = 29/61 (48%), Gaps = 4/61 (7%)
+
+Query  841  GETTTVTGIV-TCVN---PTTDGSYFIQDDTAGICVYNTSLSPAPQVGERIQVTGTLNPY  896
+            GE  T   I+ +C N    T D +  I   +AG C+   SL   PQV + I +T T  P
+Sbjct  222  GEVVTNKAIIFSCDNTLVATVDETGLITAISAGECIITASLQDNPQVYDTIVITVTALPQ  281
+
+Query  897  H  897
+            H
+Sbjct  282  H  282
+
+
+>WP_020457945.1 PoNi-like cognate immunity protein [Acetivibrio thermocellus]
+ ABN54054.1 Domain of unknown function DUF1910 [Acetivibrio thermocellus
+ATCC 27405]
+Length=412
+
+ Score = 28.9 bits (63),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 17/62 (27%), Positives = 32/62 (52%), Gaps = 2/62 (3%)
+
+Query  1672  IRDALADAVRAAGTTGITAQIEHRIQNSEYEKTVTIESLAVVDENRQPVTGHLEQ--GKQ  1729
+             I DAL D +  +   G         + + YEKT  I  +A+ D++++  +  LE+  GK+
+Sbjct  132   IEDALMDFLLKSCDIGWNHSTTKYEKKNPYEKTAEIIKIALHDKDKEAASKRLEKYMGKE  191
+
+Query  1730  YY  1731
+             ++
+Sbjct  192   WF  193
+
+
+>WP_003515331.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus]
+ CDG37290.1 protein of unknown function DUF542 ScdA domain protein [Acetivibrio
+thermocellus BC1]
+ ABN53968.2 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73448.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07370.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus
+AD2]
+ ANV75108.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus
+DSM 2360]
+Length=233
+
+ Score = 28.5 bits (62),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 27/64 (42%), Gaps = 10/64 (16%)
+
+Query  279  THAAFIEQTVEANSDAVWKVVMFH----------HDIYGSADHSTESSILNLRAALFPVF  328
+            TH  F+ +T+   S+   K++  H          H ++ S     E  ++     LFPV
+Sbjct  88   THHVFLRKTLPRLSELTTKILRVHGSNHESLFRVHKLFHSLKAELEQHLIKEEEILFPVI  147
+
+Query  329  DQYD  332
+             +YD
+Sbjct  148  REYD  151
+
+
+>WP_003514396.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus]
+ THJ79497.1 iron-sulfur cluster repair di-iron protein [Acetivibrio thermocellus]
+Length=233
+
+ Score = 28.5 bits (62),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 16/64 (25%), Positives = 27/64 (42%), Gaps = 10/64 (16%)
+
+Query  279  THAAFIEQTVEANSDAVWKVVMFH----------HDIYGSADHSTESSILNLRAALFPVF  328
+            TH  F+ +T+   S+   K++  H          H ++ S     E  ++     LFPV
+Sbjct  88   THHVFLRKTLPRLSELTTKILRVHGSNHESLFRVHKLFHSLKAELEQHLIKEEEILFPVI  147
+
+Query  329  DQYD  332
+             +YD
+Sbjct  148  REYD  151
+
+
+>CDG37251.1 hypothetical protein CTHBC1_2668 [Acetivibrio thermocellus BC1]
+Length=208
+
+ Score = 28.5 bits (62),  Expect = 8.0, Method: Composition-based stats.
+ Identities = 21/85 (25%), Positives = 38/85 (45%), Gaps = 17/85 (20%)
+
+Query  1725  EQGKQYYLTWTA-------RKNSDG--DALGLAILEVLDGSQPIFLNGVKTLKTYGDQDT  1775
+             ++GK YY  WT+       +++++G  D    A + + +     ++ G++ +K  G
+Sbjct  111   DEGKLYYKQWTSDDKKEKFQRDAEGWRDVWNFADITIRELENAEYIEGLRLVKEEG----  166
+
+Query  1776  EYSVLYQP-TESGTFTIKGFYWTDW  1799
+                + Y P  E G FT    YW  W
+Sbjct  167   ---ITYGPYQEDGAFTDFYPYWFAW  188
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.312    0.130    0.371
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 132633
+Number of extensions: 6295
+Number of successful extensions: 18
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 4
+Length of query: 1819
+Length of database: 2835838
+Length adjustment: 103
+Effective length of query: 1716
+Effective length of database: 2005349
+Effective search space: 3441178884
+Effective search space used: 3441178884
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 40 (20.0 bits)
+S2: 54 (25.4 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

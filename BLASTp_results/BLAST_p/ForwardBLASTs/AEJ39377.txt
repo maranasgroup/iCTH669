@@ -1,0 +1,376 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X0XP52W016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEJ39377 5'-nucleotidase [Sulfobacillus acidophilus]
+
+Length=261
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_020457844.1 type II toxin-antitoxin system PemK/MazF family...  27.3    1.4    30%
+WP_003519478.1 copper amine oxidase N-terminal domain-containi...  27.7    1.4    31%
+WP_003511858.1 copper amine oxidase N-terminal domain-containi...  27.7    1.5    31%
+WP_003517284.1 hypothetical protein [Acetivibrio thermocellus]     27.3    1.9    22%
+WP_235836089.1 copper amine oxidase N-terminal domain-containi...  26.9    1.9    31%
+THJ76527.1 copper amine oxidase N-terminal domain-containing p...  26.9    2.1    31%
+WP_003513089.1 molybdopterin-synthase adenylyltransferase MoeB...  27.3    2.1    35%
+WP_003512894.1 sugar phosphate nucleotidyltransferase [Acetivi...  26.9    3.0    29%
+ABN53315.1 Orn/Lys/Arg decarboxylase major region [Acetivibrio...  26.6    4.4    36%
+WP_003514219.1 aminotransferase class V-fold PLP-dependent enz...  26.6    4.4    36%
+WP_023062647.1 aminotransferase class V-fold PLP-dependent enz...  26.6    4.4    36%
+WP_003515046.1 hypothetical protein [Acetivibrio thermocellus]     24.6    8.6    21%
+WP_003514976.1 hypothetical protein [Acetivibrio thermocellus]     24.6    9.2    21%
+WP_003513143.1 DUF368 domain-containing protein [Acetivibrio t...  25.4    9.3    39%
+NLU28102.1 DUF368 domain-containing protein [Acetivibrio therm...  25.4    9.8    39%
+NLU26545.1 hypothetical protein [Acetivibrio thermocellus]         25.4    9.9    29%
+WP_003518362.1 DUF368 domain-containing protein [Acetivibrio t...  25.4    10.0   39%
+
+ALIGNMENTS
+>WP_020457844.1 type II toxin-antitoxin system PemK/MazF family toxin [Acetivibrio
+thermocellus]
+ ABN53703.1 hypothetical protein Cthe_2501 [Acetivibrio thermocellus ATCC
+27405]
+ HBW25726.1 type II toxin-antitoxin system PemK/MazF family toxin [Acetivibrio
+thermocellus]
+Length=143
+
+ Score = 27.3 bits (59),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 24/81 (30%), Positives = 37/81 (46%), Gaps = 10/81 (12%)
+
+Query  162  LNIPNDDRLL--TRPLTWGRWGNYAYHANEMT------VVPGQEHQWRCRITEPPEPVRR  213
+            +NIPN DRL   +R +  GR     +H NE        VV       R  +  P + + +
+Sbjct  32   INIPNVDRLKDGSRKIHEGRMVVIVHH-NEQNYNKFCPVVAVTPLSSRVDLKRPFDLILK  90
+
+Query  214  EPDTDGALIRFGPVLSLLPLQ  234
+            + D DG L R+  ++ L  +Q
+Sbjct  91   KDDVDGNL-RYDSIIQLQLIQ  110
+
+
+>WP_003519478.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ CDG37705.1 copper amine oxidase domain protein [Acetivibrio thermocellus
+BC1]
+ ADU73851.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX07788.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV75530.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04713.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus YS]
+Length=262
+
+ Score = 27.7 bits (60),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 18/45 (40%), Gaps = 1/45 (2%)
+
+Query  158  MVGNLNIPNDDRLLTRPLTWGRWGNYAYHANEMTV-VPGQEHQWR  201
+            +V    +P D  L   P TWG W    +  N +   V GQ    R
+Sbjct  156  IVAGFEVPLDTNLTVTPTTWGGWTEACFEVNLLRADVEGQLEDLR  200
+
+
+>WP_003511858.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ ABN54421.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW28326.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=262
+
+ Score = 27.7 bits (60),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 18/45 (40%), Gaps = 1/45 (2%)
+
+Query  158  MVGNLNIPNDDRLLTRPLTWGRWGNYAYHANEMTV-VPGQEHQWR  201
+            +V    +P D  L   P TWG W    +  N +   V GQ    R
+Sbjct  156  IVAGFEVPLDTNLTVTPTTWGGWTEACFEVNLLRADVEGQLEDLR  200
+
+
+>WP_003517284.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35610.1 hypothetical protein CTHBC1_0954 [Acetivibrio thermocellus BC1]
+ ABN52150.1 hypothetical protein Cthe_0916 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74365.1 hypothetical protein Clo1313_1302 [Acetivibrio thermocellus DSM
+1313]
+ ALX08310.1 hypothetical protein AD2_01317 [Acetivibrio thermocellus AD2]
+ ANV76058.1 hypothetical protein LQRI_1317 [Acetivibrio thermocellus DSM
+2360]
+Length=294
+
+ Score = 27.3 bits (59),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 22/98 (22%), Positives = 42/98 (43%), Gaps = 7/98 (7%)
+
+Query  6    LITNDDGVSAPGIQALAQELEGEWDWVMVAPDHERSGSGQAFTFAVPYSVKPVGDRVWQV  65
+            ++T D  +   G + +  E   E+    ++ +++R G G    F  PY++KP    + +V
+Sbjct  151  ILTIDYHLENVGSKPIKTE---EYCHNFISVNNKRIGDGYVLKF--PYNIKP--KEIPEV  203
+
+Query  66   EGTPVDCVMFAFGVLGPFDAVISGINRGANLAWDVFYS  103
+                 + + + F   G F   I G   G    W++ Y
+Sbjct  204  MNIKGNEIRWNFVPKGDFYCQIEGFKPGEKHYWELLYE  241
+
+
+>WP_235836089.1 copper amine oxidase N-terminal domain-containing protein, partial
+[Acetivibrio thermocellus]
+Length=153
+
+ Score = 26.9 bits (58),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 18/45 (40%), Gaps = 1/45 (2%)
+
+Query  158  MVGNLNIPNDDRLLTRPLTWGRWGNYAYHANEMTV-VPGQEHQWR  201
+            +V    +P D  L   P TWG W    +  N +   V GQ    R
+Sbjct  47   IVAGFEVPLDTNLTVTPTTWGGWTEACFEVNLLRADVEGQLEDLR  91
+
+
+>THJ76527.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+Length=152
+
+ Score = 26.9 bits (58),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/45 (31%), Positives = 18/45 (40%), Gaps = 1/45 (2%)
+
+Query  158  MVGNLNIPNDDRLLTRPLTWGRWGNYAYHANEMTV-VPGQEHQWR  201
+            +V    +P D  L   P TWG W    +  N +   V GQ    R
+Sbjct  46   IVAGFEVPLDTNLTVTPTTWGGWTEACFEVNLLRADVEGQLEDLR  90
+
+
+>WP_003513089.1 molybdopterin-synthase adenylyltransferase MoeB [Acetivibrio
+thermocellus]
+ CDG37014.1 Adenylyltransferase and sulfurtransferase MOCS3 [Acetivibrio
+thermocellus BC1]
+ ABN53741.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73219.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07134.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+AD2]
+ ANV74870.1 UBA/THIF-type NAD/FAD binding protein [Acetivibrio thermocellus
+DSM 2360]
+Length=270
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 22/46 (48%), Gaps = 3/46 (7%)
+
+Query  166  NDDRLLT-RPLTWGRWGNYAYHANEMTVVPGQEHQWRCRITEPPEP  210
+            ND  +LT +P +    G   +    MT VPG+   +RC    PP P
+Sbjct  140  NDACVLTGKPFSHA--GIIRFQGQTMTYVPGKGPCYRCIFENPPPP  183
+
+
+>WP_003512894.1 sugar phosphate nucleotidyltransferase [Acetivibrio thermocellus]
+ CDG37107.1 nucleotidyl transferase [Acetivibrio thermocellus BC1]
+ ABN53842.1 Nucleotidyl transferase [Acetivibrio thermocellus ATCC 27405]
+ ADU73326.1 Nucleotidyl transferase [Acetivibrio thermocellus DSM 1313]
+ ALX07244.1 Nucleotidyl transferase [Acetivibrio thermocellus AD2]
+ ANV74980.1 Nucleotidyl transferase [Acetivibrio thermocellus DSM 2360]
+Length=348
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 9/31 (29%), Positives = 17/31 (55%), Gaps = 0/31 (0%)
+
+Query  125  DVTGHSDRFHYAEAARRVAEWMRAGIFQAIP  155
+            ++  +S +F Y E   R  E+M+    +A+P
+Sbjct  62   EIANYSPKFLYEEEKNRAKEYMKKYSVEALP  92
+
+
+>ABN53315.1 Orn/Lys/Arg decarboxylase major region [Acetivibrio thermocellus
+ATCC 27405]
+Length=485
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  14   SAPGIQALAQELEGEWDWVMVAPD-HERSGSGQAFTFAVPYSVKP  57
+            S  GIQA    +    D +++A D H+ + +G   + AVP  VKP
+Sbjct  89   STCGIQAAIMTVCKPKDKLIIARDCHKSAVAGMMLSGAVPVYVKP  133
+
+
+>WP_003514219.1 aminotransferase class V-fold PLP-dependent enzyme [Acetivibrio
+thermocellus]
+ ADU75750.1 Orn/Lys/Arg decarboxylase major region [Acetivibrio thermocellus
+DSM 1313]
+ ALX09780.1 Arginine decarboxylase [Acetivibrio thermocellus AD2]
+ ANV77554.1 Arginine decarboxylase [Acetivibrio thermocellus DSM 2360]
+ EIC03706.1 Orn/Lys/Arg decarboxylase major region [Acetivibrio thermocellus
+YS]
+ PFH04065.1 arginine decarboxylase [Acetivibrio thermocellus AD2]
+Length=479
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  14   SAPGIQALAQELEGEWDWVMVAPD-HERSGSGQAFTFAVPYSVKP  57
+            S  GIQA    +    D +++A D H+ + +G   + AVP  VKP
+Sbjct  83   STCGIQAAIMTVCKPKDKLIIARDCHKSAVAGMMLSGAVPVYVKP  127
+
+
+>WP_023062647.1 aminotransferase class V-fold PLP-dependent enzyme [Acetivibrio
+thermocellus]
+ NLU26336.1 aminotransferase class V-fold PLP-dependent enzyme [Acetivibrio
+thermocellus]
+ CDG36610.1 arginine decarboxylase [Acetivibrio thermocellus BC1]
+ HBW26266.1 aminotransferase class V-fold PLP-dependent enzyme [Acetivibrio
+thermocellus]
+Length=479
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 24/45 (53%), Gaps = 1/45 (2%)
+
+Query  14   SAPGIQALAQELEGEWDWVMVAPD-HERSGSGQAFTFAVPYSVKP  57
+            S  GIQA    +    D +++A D H+ + +G   + AVP  VKP
+Sbjct  83   STCGIQAAIMTVCKPKDKLIIARDCHKSAVAGMMLSGAVPVYVKP  127
+
+
+>WP_003515046.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG36508.1 hypothetical protein CTHBC1_1896 [Acetivibrio thermocellus BC1]
+ ADU75658.1 hypothetical protein Clo1313_2661 [Acetivibrio thermocellus DSM
+1313]
+ ALX09655.1 hypothetical protein AD2_02675 [Acetivibrio thermocellus AD2]
+ ANV77428.1 hypothetical protein LQRI_2687 [Acetivibrio thermocellus DSM
+2360]
+ EIC03333.1 hypothetical protein YSBL_2991 [Acetivibrio thermocellus YS]
+Length=116
+
+ Score = 24.6 bits (52),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 10/47 (21%), Positives = 20/47 (43%), Gaps = 0/47 (0%)
+
+Query  66   EGTPVDCVMFAFGVLGPFDAVISGINRGANLAWDVFYSGTVGAAFEG  112
+            E   VD ++  FG +      +  +    ++++ + YSG   A  E
+Sbjct  49   ENIQVDSIIITFGGIKDITKRVKQLTEQKDISYLIIYSGKQIAENES  95
+
+
+>WP_003514976.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53237.1 hypothetical protein Cthe_2026 [Acetivibrio thermocellus ATCC
+27405]
+Length=116
+
+ Score = 24.6 bits (52),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 10/47 (21%), Positives = 20/47 (43%), Gaps = 0/47 (0%)
+
+Query  66   EGTPVDCVMFAFGVLGPFDAVISGINRGANLAWDVFYSGTVGAAFEG  112
+            E   VD ++  FG +      +  +    ++++ + YSG   A  E
+Sbjct  49   ENIQVDSIIITFGGIKDITKRVKQLTEQKDISYLIIYSGKQIAENES  95
+
+
+>WP_003513143.1 DUF368 domain-containing protein [Acetivibrio thermocellus]
+ THJ79241.1 DUF368 domain-containing protein [Acetivibrio thermocellus]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  79   VLGPFDAVISGINRGANLAWDVFYSGTVGAA  109
+            VLG ++++++ I       +DVFY GT+G A
+Sbjct  177  VLGMYESMLTAITE-----FDVFYIGTLGIA  202
+
+
+>NLU28102.1 DUF368 domain-containing protein [Acetivibrio thermocellus]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  79   VLGPFDAVISGINRGANLAWDVFYSGTVGAA  109
+            VLG ++++++ I       +DVFY GT+G A
+Sbjct  177  VLGMYESMLTAITE-----FDVFYIGTLGIA  202
+
+
+>NLU26545.1 hypothetical protein [Acetivibrio thermocellus]
+Length=630
+
+ Score = 25.4 bits (54),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 32/80 (40%), Gaps = 6/80 (8%)
+
+Query  42   GSGQAFTFAVPYSVKPVGDRVWQVEGTPVDCVMFAFGVLGPF-DAVISGINRGANLAWDV  100
+             +  +F     YS  P+ D    VE TP +CVM A  +LG   D +I        +   +
+Sbjct  304  KNSDSFIAGKIYSFFPLLD----VE-TPFNCVMHATYILGDHRDTIIRNETNKTIVLEQL  358
+
+Query  101  FYSGTVGAAFEGARRGVPAL  120
+             +   VG  F     G  AL
+Sbjct  359  RFLVEVGEKFASREYGDTAL  378
+
+
+>WP_003518362.1 DUF368 domain-containing protein [Acetivibrio thermocellus]
+ CDG36985.1 hypothetical protein CTHBC1_2393 [Acetivibrio thermocellus BC1]
+ ABN53712.1 protein of unknown function DUF368 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73190.1 protein of unknown function DUF368 [Acetivibrio thermocellus
+DSM 1313]
+ ALX07105.1 protein of unknown function DUF368 [Acetivibrio thermocellus
+AD2]
+ ANV74841.1 protein of unknown function DUF368 [Acetivibrio thermocellus
+DSM 2360]
+Length=285
+
+ Score = 25.4 bits (54),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 12/31 (39%), Positives = 20/31 (65%), Gaps = 5/31 (16%)
+
+Query  79   VLGPFDAVISGINRGANLAWDVFYSGTVGAA  109
+            VLG ++++++ I       +DVFY GT+G A
+Sbjct  177  VLGMYESMLTAITE-----FDVFYIGTLGIA  202
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.321    0.138    0.444
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16371
+Number of extensions: 657
+Number of successful extensions: 12
+Number of sequences better than 100: 0
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 0
+Length of query: 261
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 174
+Effective length of database: 2134357
+Effective search space: 371378118
+Effective search space used: 371378118
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

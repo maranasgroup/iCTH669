@@ -1,0 +1,294 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WUKSY4N013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ACB85172 5'-nucleotidase [Natranaerobius thermophilus]
+
+Length=259
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG37359.1 hypothetical protein CTHBC1_2780 [Acetivibrio therm...  28.9    0.29   28%
+WP_003511954.1 Hsp20/alpha crystallin family protein [Acetivib...  28.5    0.62   52%
+NLU27894.1 Hsp20/alpha crystallin family protein [Acetivibrio ...  26.6    0.74   52%
+WP_003511839.1 hypothetical protein [Acetivibrio thermocellus]     26.6    0.93   36%
+WP_003522175.1 hypothetical protein [Acetivibrio thermocellus]     26.9    0.94   36%
+WP_014522598.1 hypothetical protein [Acetivibrio thermocellus]     26.6    1.4    36%
+WP_003516319.1 signal recognition particle protein [Acetivibri...  26.9    3.6    32%
+CDG36241.1 phage minor structural protein [Acetivibrio thermoc...  26.2    5.7    46%
+WP_003520674.1 phage tail protein [Acetivibrio thermocellus]       26.2    6.3    46%
+WP_136479425.1 phage tail protein [Acetivibrio thermocellus]       26.2    6.3    46%
+WP_011838144.1 phage tail protein [Acetivibrio thermocellus]       26.2    6.6    46%
+WP_037294838.1 RNA chaperone Hfq [Acetivibrio thermocellus]        24.3    8.9    24%
+ABN52009.1 RNA chaperone Hfq [Acetivibrio thermocellus ATCC 27...  24.3    9.5    24%
+WP_235836069.1 DEAD/DEAH box helicase [Acetivibrio thermocellus]   24.6    9.9    65%
+
+ALIGNMENTS
+>CDG37359.1 hypothetical protein CTHBC1_2780 [Acetivibrio thermocellus BC1]
+Length=109
+
+ Score = 28.9 bits (63),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 21/74 (28%), Positives = 34/74 (46%), Gaps = 4/74 (5%)
+
+Query  106  GTDVLYSGTVSGAMEAAILNIKSIAVSLVDYDYEDYSTAASYTAYIANIIKDNPEEFENG  165
+            GT +L     + A E  I N+  +   L D   E+YS    Y   +  I++  P   +
+Sbjct  40   GTKILIEINTADATEEDIKNLYDLLSKLFDETKENYSPMVHYM--VGEILE--PVMMKMA  95
+
+Query  166  TLLNVNVPAVEANQ  179
+             L+ +N P V+AN+
+Sbjct  96   RLMKLNKPGVKANE  109
+
+
+>WP_003511954.1 Hsp20/alpha crystallin family protein [Acetivibrio thermocellus]
+ CDG34719.1 heat shock protein Hsp20 [Acetivibrio thermocellus BC1]
+ ABN51278.1 heat shock protein Hsp20 [Acetivibrio thermocellus ATCC 27405]
+ ADU75237.1 heat shock protein Hsp20 [Acetivibrio thermocellus DSM 1313]
+ ALX09212.1 heat shock protein Hsp20 [Acetivibrio thermocellus AD2]
+ ANV76964.1 heat shock protein Hsp20 [Acetivibrio thermocellus DSM 2360]
+Length=142
+
+ Score = 28.5 bits (62),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 1/25 (4%)
+
+Query  161  EFENGTLLNVNVPAVEANQLKGVKI  185
+            E+++G +L V VP VE  Q+KG KI
+Sbjct  116  EYKDG-ILTVTVPKVETTQMKGKKI  139
+
+
+>NLU27894.1 Hsp20/alpha crystallin family protein [Acetivibrio thermocellus]
+Length=56
+
+ Score = 26.6 bits (57),  Expect = 0.74, Method: Composition-based stats.
+ Identities = 13/25 (52%), Positives = 18/25 (72%), Gaps = 1/25 (4%)
+
+Query  161  EFENGTLLNVNVPAVEANQLKGVKI  185
+            E+++G +L V VP VE  Q+KG KI
+Sbjct  30   EYKDG-ILTVTVPKVETTQMKGKKI  53
+
+
+>WP_003511839.1 hypothetical protein [Acetivibrio thermocellus]
+ AEO12468.1 signal peptidase I [Acetivibrio thermocellus ATCC 27405]
+ THJ79179.1 signal peptidase I [Acetivibrio thermocellus]
+ CDG37699.1 hypothetical protein CTHBC1_3142 [Acetivibrio thermocellus BC1]
+ HBW28319.1 signal peptidase I [Acetivibrio thermocellus]
+Length=72
+
+ Score = 26.6 bits (57),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  121  AAILNIKSIAVSLVDYDYEDYSTAASYTAYIANIIKDNPEEFENGTLLNV  170
+             ++L  K+I  SLV   Y++      YTAY A+     P+ F+ G L+NV
+Sbjct  10   GSVLGCKTIEASLV---YDNKMYYRLYTAYDADSKNLKPKVFKPGMLVNV  56
+
+
+>WP_003522175.1 hypothetical protein, partial [Acetivibrio thermocellus]
+ EIC05142.1 hypothetical protein YSBL_0105, partial [Acetivibrio thermocellus
+YS]
+Length=76
+
+ Score = 26.9 bits (58),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  121  AAILNIKSIAVSLVDYDYEDYSTAASYTAYIANIIKDNPEEFENGTLLNV  170
+             ++L  K+I  SLV   Y++      YTAY A+     P+ F+ G L+NV
+Sbjct  10   GSVLGCKTIEASLV---YDNKMYYRLYTAYDADSKNLKPKVFKPGMLVNV  56
+
+
+>WP_014522598.1 hypothetical protein [Acetivibrio thermocellus]
+ ADU73844.1 hypothetical protein Clo1313_0767 [Acetivibrio thermocellus DSM
+1313]
+ ALX07779.1 hypothetical protein AD2_00781 [Acetivibrio thermocellus AD2]
+ ANV75521.1 hypothetical protein LQRI_0780 [Acetivibrio thermocellus DSM
+2360]
+ PFH02047.1 hypothetical protein M972_11809 [Acetivibrio thermocellus AD2]
+ SOD26586.1 hypothetical protein SAMN04515622_2779 [Acetivibrio thermocellus]
+Length=82
+
+ Score = 26.6 bits (57),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 27/50 (54%), Gaps = 3/50 (6%)
+
+Query  121  AAILNIKSIAVSLVDYDYEDYSTAASYTAYIANIIKDNPEEFENGTLLNV  170
+             ++L  K+I  SLV   Y++      YTAY A+     P+ F+ G L+NV
+Sbjct  10   GSVLGCKTIEASLV---YDNKMYYRLYTAYDADSKNLKPKVFKPGMLVNV  56
+
+
+>WP_003516319.1 signal recognition particle protein [Acetivibrio thermocellus]
+ CDG35465.1 Signal recognition particle protein [Acetivibrio thermocellus
+BC1]
+ ABN52005.1 signal recognition particle protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74514.1 signal recognition particle protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08457.1 Signal recognition 54 kDa protein [Acetivibrio thermocellus AD2]
+Length=446
+
+ Score = 26.9 bits (58),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 17/53 (32%), Positives = 27/53 (51%), Gaps = 2/53 (4%)
+
+Query  46   AITVHKPLRVNNVKKLGEKLEIPFYSV--NGTPSDCVKLAVESVMDEKPDLVI  96
+            A  V++P  +  ++ +G +L I  +S+     P D  K AVE     + DLVI
+Sbjct  136  ACDVYRPAAIKQLQVVGSQLGIEVFSMGDKTNPVDIAKAAVEYAKSRQYDLVI  188
+
+
+>CDG36241.1 phage minor structural protein [Acetivibrio thermocellus BC1]
+Length=783
+
+ Score = 26.2 bits (56),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  93   DLVISGINRGANLGTDVLYSGTVSGAMEAAILNIKSI  129
+            DLV    NR  +L T   +SGT SGA+ +   N+KSI
+Sbjct  539  DLVFDSANRQVHLLT---FSGTDSGALFSYRKNLKSI  572
+
+
+>WP_003520674.1 phage tail protein [Acetivibrio thermocellus]
+ ADU75402.1 phage minor structural protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09400.1 phage minor structural protein [Acetivibrio thermocellus AD2]
+ ANV77154.1 phage minor structural protein [Acetivibrio thermocellus DSM
+2360]
+ EIC04524.1 phage minor structural protein [Acetivibrio thermocellus YS]
+ PFH03677.1 phage minor structural protein [Acetivibrio thermocellus AD2]
+Length=840
+
+ Score = 26.2 bits (56),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  93   DLVISGINRGANLGTDVLYSGTVSGAMEAAILNIKSI  129
+            DLV    NR  +L T   +SGT SGA+ +   N+KSI
+Sbjct  539  DLVFDSANRQVHLLT---FSGTDSGALFSYRKNLKSI  572
+
+
+>WP_136479425.1 phage tail protein [Acetivibrio thermocellus]
+ THJ77873.1 hypothetical protein EPD62_09015 [Acetivibrio thermocellus]
+Length=840
+
+ Score = 26.2 bits (56),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  93   DLVISGINRGANLGTDVLYSGTVSGAMEAAILNIKSI  129
+            DLV    NR  +L T   +SGT SGA+ +   N+KSI
+Sbjct  539  DLVFDSANRQVHLLT---FSGTDSGALFSYRKNLKSI  572
+
+
+>WP_011838144.1 phage tail protein [Acetivibrio thermocellus]
+ ABN52840.1 phage minor structural protein [Acetivibrio thermocellus ATCC
+27405]
+Length=840
+
+ Score = 26.2 bits (56),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 17/37 (46%), Positives = 22/37 (59%), Gaps = 3/37 (8%)
+
+Query  93   DLVISGINRGANLGTDVLYSGTVSGAMEAAILNIKSI  129
+            DLV    NR  +L T   +SGT SGA+ +   N+KSI
+Sbjct  539  DLVFDSANRQVHLLT---FSGTDSGALFSYRKNLKSI  572
+
+
+>WP_037294838.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+ THJ78011.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+ HBW26777.1 RNA chaperone Hfq [Acetivibrio thermocellus]
+Length=81
+
+ Score = 24.3 bits (51),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 11/45 (24%), Positives = 21/45 (47%), Gaps = 0/45 (0%)
+
+Query  11  IYAPGIFAMAKEIASRDEFEAVVVAPDREQSATGHAITVHKPLRV  55
+           +Y    F +   +   D F  V+ +  R+Q    HAI+   P+++
+Sbjct  25  VYLTNGFQLKGTVKGFDNFTVVLDSEGRQQLIYKHAISTISPMKI  69
+
+
+>ABN52009.1 RNA chaperone Hfq [Acetivibrio thermocellus ATCC 27405]
+ ADU74510.1 RNA chaperone Hfq [Acetivibrio thermocellus DSM 1313]
+ ALX08453.1 Protein hfq [Acetivibrio thermocellus AD2]
+ ANV76202.1 Protein hfq [Acetivibrio thermocellus DSM 2360]
+ EIC05394.1 Protein hfq [Acetivibrio thermocellus YS]
+ CDG35469.1 RNA chaperone Hfq [Acetivibrio thermocellus BC1]
+ SOD25236.1 RNA-binding protein Hfq [Acetivibrio thermocellus]
+Length=82
+
+ Score = 24.3 bits (51),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 11/45 (24%), Positives = 21/45 (47%), Gaps = 0/45 (0%)
+
+Query  11  IYAPGIFAMAKEIASRDEFEAVVVAPDREQSATGHAITVHKPLRV  55
+           +Y    F +   +   D F  V+ +  R+Q    HAI+   P+++
+Sbjct  26  VYLTNGFQLKGTVKGFDNFTVVLDSEGRQQLIYKHAISTISPMKI  70
+
+
+>WP_235836069.1 DEAD/DEAH box helicase [Acetivibrio thermocellus]
+Length=111
+
+ Score = 24.6 bits (52),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 13/20 (65%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  109  VLYSGTVSGAMEAAILNIKS  128
+            VL SGT SG  EAA L I S
+Sbjct  43   VLSSGTASGKTEAAFLPIIS  62
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.133    0.374
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18447
+Number of extensions: 835
+Number of successful extensions: 18
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 172
+Effective length of database: 2134357
+Effective search space: 367109404
+Effective search space used: 367109404
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

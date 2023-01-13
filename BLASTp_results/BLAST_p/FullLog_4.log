@@ -1,0 +1,242 @@
+Start time: 6 June 2022 9:16:2
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+Found gene for related organism fpla:Flavonifractor plautii
+A4U99_00965-------------------------------------------------------------------------------------
+Building FASTA report for gene A4U99_00965 (Accession: ANU39708)
+A4U99_02900-------------------------------------------------------------------------------------
+Building FASTA report for gene A4U99_02900 (Accession: ANU40066)
+A4U99_16375-------------------------------------------------------------------------------------
+Building FASTA report for gene A4U99_16375 (Accession: ANU42545)
+
+Using Organism: Ethanoligenens harbinense (eha)
+Found gene for related organism eha:Ethanoligenens harbinense
+Ethha_1079-------------------------------------------------------------------------------------
+Building FASTA report for gene Ethha_1079 (Accession: ADU26632)
+Ethha_2299-------------------------------------------------------------------------------------
+Building FASTA report for gene Ethha_2299 (Accession: ADU27811)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+Found gene for related organism rch:Ruminococcus champanellensis
+RUM_20660-------------------------------------------------------------------------------------
+Building FASTA report for gene RUM_20660 (Accession: CBL18089)
+
+Using Organism: Ruminococcus sp. (rum)
+Found gene for related organism rum:Ruminococcus sp.
+CK1_15080-------------------------------------------------------------------------------------
+Building FASTA report for gene CK1_15080 (Accession: CBL19624)
+CK1_34460-------------------------------------------------------------------------------------
+Building FASTA report for gene CK1_34460 (Accession: CBL21220)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+Found gene for related organism fpa:Faecalibacterium prausnitzii
+FPR_07860-------------------------------------------------------------------------------------
+Building FASTA report for gene FPR_07860 (Accession: CBL01152)
+FPR_18450-------------------------------------------------------------------------------------
+Building FASTA report for gene FPR_18450 (Accession: CBL02081)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+Found gene for related organism fpra:Faecalibacterium prausnitzii
+CG447_02090-------------------------------------------------------------------------------------
+Building FASTA report for gene CG447_02090 (Accession: ATO98802)
+CG447_11505-------------------------------------------------------------------------------------
+Building FASTA report for gene CG447_11505 (Accession: ATP00475)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Flavonifractor plautii (fpla)
+
+Using Organism: Ethanoligenens harbinense (eha)
+
+Using Organism: Ruminococcus albus (ral)
+
+Using Organism: Ruminococcus champanellensis (rch)
+
+Using Organism: Ruminococcus sp. (rum)
+
+Using Organism: Ruminococcus bicirculans (rus)
+
+Using Organism: Ruminococcus bovis (ruj)
+
+Using Organism: Faecalibacterium prausnitzii (fpr)
+
+Using Organism: Faecalibacterium prausnitzii (fpa)
+
+Using Organism: Faecalibacterium prausnitzii (fpra)
+
+Using Organism: Caproiciproducens sp. (capr)
+end time: 6 June 2022 15:15:21

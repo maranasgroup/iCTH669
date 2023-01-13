@@ -1,0 +1,509 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9X1PSXS1016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= UMM46874 5'-nucleotidase [Lawsonibacter asaccharolyticus]
+
+Length=613
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+HBW25712.1 TPA: peptidoglycan-binding protein [Acetivibrio the...  56.2    7e-10  47%
+WP_020457833.1 LysM peptidoglycan-binding domain-containing pr...  56.6    1e-09  47%
+WP_136479432.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  43.5    5e-05  47%
+CDG36227.1 Peptidoglycan-binding LysM [Acetivibrio thermocellu...  42.4    1e-04  47%
+THJ77867.1 LysM peptidoglycan-binding domain-containing protei...  42.4    1e-04  47%
+WP_004400093.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  42.4    1e-04  47%
+WP_003520686.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio...  42.4    1e-04  47%
+WP_011837798.1 SafA/ExsA family spore coat assembly protein [A...  37.0    0.004  36%
+WP_003512484.1 SafA/ExsA family spore coat assembly protein [A...  37.0    0.004  36%
+WP_136479275.1 LysM peptidoglycan-binding domain-containing pr...  29.6    1.5    25%
+WP_003514898.1 LysM peptidoglycan-binding domain-containing pr...  29.6    1.5    25%
+WP_020457991.1 LysM peptidoglycan-binding domain-containing pr...  29.3    1.7    25%
+WP_003516443.1 DUF3794 domain-containing protein [Acetivibrio ...  29.3    1.7    45%
+WP_011837763.1 type I polyketide synthase [Acetivibrio thermoc...  28.9    2.9    26%
+WP_003516982.1 S-layer homology domain-containing protein [Ace...  28.5    3.0    32%
+WP_003512162.1 type I polyketide synthase [Acetivibrio thermoc...  28.9    3.1    26%
+WP_004463692.1 S-layer homology domain-containing protein [Ace...  28.5    3.2    32%
+WP_003511824.1 TIGR02710 family CRISPR-associated CARF protein...  28.1    3.8    35%
+THJ79182.1 TIGR02710 family CRISPR-associated protein [Acetivi...  28.1    3.8    35%
+WP_003516061.1 TIGR02710 family CRISPR-associated CARF protein...  28.1    3.9    35%
+ABN54412.1 CRISPR-associated protein, TIGR02710 family [Acetiv...  28.1    4.3    38%
+HBW28315.1 TPA: TIGR02710 family CRISPR-associated protein [Ac...  28.1    4.7    35%
+HBW26854.1 TPA: hypothetical protein [Acetivibrio thermocellus]    25.4    7.3    41%
+
+ALIGNMENTS
+>HBW25712.1 peptidoglycan-binding protein [Acetivibrio thermocellus]
+Length=172
+
+ Score = 56.2 bits (134),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 23/49 (47%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  564  YVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            +VVQPGD LW IA++  G G ++ +IY+AN++QI++P+ I  G +L +P
+Sbjct  123  HVVQPGDTLWGIAKKYYGNGNQYQKIYEANKNQIKNPNLIYPGQKLVIP  171
+
+
+>WP_020457833.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+ ABN53691.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+Length=219
+
+ Score = 56.6 bits (135),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 23/49 (47%), Positives = 37/49 (76%), Gaps = 0/49 (0%)
+
+Query  564  YVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            +VVQPGD LW IA++  G G ++ +IY+AN++QI++P+ I  G +L +P
+Sbjct  170  HVVQPGDTLWGIAKKYYGNGNQYQKIYEANKNQIKNPNLIYPGQKLVIP  218
+
+
+>WP_136479432.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ THJ77862.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=334
+
+ Score = 43.5 bits (101),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 24/51 (47%), Positives = 29/51 (57%), Gaps = 3/51 (6%)
+
+Query  562  RIYVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            R Y VQ GD LW IA +ELG G R+ EI + N  +    D I  G  L+LP
+Sbjct  286  RTYTVQKGDSLWKIAERELGRGTRYKEIKELNSLKT---DTIYPGQVLKLP  333
+
+
+>CDG36227.1 Peptidoglycan-binding LysM [Acetivibrio thermocellus BC1]
+Length=334
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 28/53 (53%), Gaps = 3/53 (6%)
+
+Query  560  GARIYVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            G R Y VQ GD LW IA +ELG G R+ EI   N       D I  G  L+LP
+Sbjct  284  GNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLNG---LTSDTIYPGQVLKLP  333
+
+
+>THJ77867.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=334
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 28/53 (53%), Gaps = 3/53 (6%)
+
+Query  560  GARIYVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            G R Y VQ GD LW IA +ELG G R+ EI   N       D I  G  L+LP
+Sbjct  284  GNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLNG---LTSDTIYPGQVLKLP  333
+
+
+>WP_004400093.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ ABN52835.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+ATCC 27405]
+Length=334
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 28/53 (53%), Gaps = 3/53 (6%)
+
+Query  560  GARIYVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            G R Y VQ GD LW IA +ELG G R+ EI   N       D I  G  L+LP
+Sbjct  284  GNRTYTVQKGDTLWRIAEKELGRGTRYPEIKKLNG---LTSDTIYPGQVLKLP  333
+
+
+>WP_003520686.1 N-acetylmuramoyl-L-alanine amidase [Acetivibrio thermocellus]
+ ADU75397.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09395.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+AD2]
+ ANV77149.1 N-acetylmuramoyl-L-alanine amidase family 2 [Acetivibrio thermocellus
+DSM 2360]
+ EIC04519.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus YS]
+ PFH03672.1 LysM domain-containing protein [Acetivibrio thermocellus AD2]
+Length=334
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 28/53 (53%), Gaps = 3/53 (6%)
+
+Query  560  GARIYVVQPGDCLWTIARQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            G R Y VQ GD LW IA +ELG G R+ EI   N       D I  G  L+LP
+Sbjct  284  GNRTYTVQKGDTLWRIAEKELGRGTRFPEIKKLNG---LTSDTIYPGQVLKLP  333
+
+
+>WP_011837798.1 SafA/ExsA family spore coat assembly protein [Acetivibrio thermocellus]
+ ABN51538.1 spore coat assembly protein SafA [Acetivibrio thermocellus ATCC
+27405]
+ HBW27077.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=205
+
+ Score = 37.0 bits (84),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 33/55 (60%), Gaps = 6/55 (11%)
+
+Query  559  AGARIYVVQPGDCLWTIA-RQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            A  ++Y V+PGD +W IA + ++G      EI  AN  QI++P+ I  G ++ +P
+Sbjct  24   AQTQVYTVKPGDTMWKIAVKYQIGIS----EIIAAN-PQIKNPNLIYPGQKINIP  73
+
+
+>WP_003512484.1 SafA/ExsA family spore coat assembly protein [Acetivibrio thermocellus]
+ CDG34976.1 spore coat assembly protein SafA [Acetivibrio thermocellus BC1]
+ ADU74977.1 spore coat assembly protein SafA [Acetivibrio thermocellus DSM
+1313]
+ ALX08939.1 Sporulation uncharacterized protein YkwD [Acetivibrio thermocellus
+AD2]
+ ANV76689.1 Sporulation uncharacterized protein YkwD [Acetivibrio thermocellus
+DSM 2360]
+ EIC05088.1 Sporulation uncharacterized protein YkwD [Acetivibrio thermocellus
+YS]
+Length=205
+
+ Score = 37.0 bits (84),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 33/55 (60%), Gaps = 6/55 (11%)
+
+Query  559  AGARIYVVQPGDCLWTIA-RQELGGGLRWVEIYDANRDQIQDPDRIQAGMELELP  612
+            A  ++Y V+PGD +W IA + ++G      EI  AN  QI++P+ I  G ++ +P
+Sbjct  24   AQTQVYTVKPGDTMWKIAVKYQIGIS----EIIAAN-PQIKNPNLIYPGQKINIP  73
+
+
+>WP_136479275.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+ THJ78686.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=423
+
+ Score = 29.6 bits (65),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 60/142 (42%), Gaps = 9/142 (6%)
+
+Query  475  DRVYTLASHNYMLKSGGDGYTMFQGCTLLKDETVLDNQALIR-YL--GQILEGDLSAYS-  530
+            D+V   A+ NY ++ G   +T+ Q   +   E +  N A  + YL  GQ+++  +++ S
+Sbjct  119  DKVILPATANYTVQKGDTYWTISQKFKVNFTELLKLNGANEKSYLDIGQVIKIPVTSMSQ  178
+
+Query  531  APGGQGRIQIAETAEETGGAPAEPEEPAAGARIYVVQPGDCLWTIARQELGGGLRWVEIY  590
+             P          T      +      P      Y VQ GD  W+IA +    G+   E+
+Sbjct  179  VPATSSNQNNNSTNTSNNNSGNNLSGPYITYTSYTVQKGDTAWSIAEKF---GISMYELM  235
+
+Query  591  DANRDQIQDPDRIQAGMELELP  612
+            +AN   I     +  G +L++P
+Sbjct  236  EAN--NINSSTVLNIGQKLKIP  255
+
+
+>WP_003514898.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+ CDG37491.1 Peptidoglycan-binding LysM [Acetivibrio thermocellus BC1]
+ ADU73639.1 Peptidoglycan-binding lysin domain [Acetivibrio thermocellus
+DSM 1313]
+ ALX07567.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV75307.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC03512.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus YS]
+Length=423
+
+ Score = 29.6 bits (65),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 60/142 (42%), Gaps = 9/142 (6%)
+
+Query  475  DRVYTLASHNYMLKSGGDGYTMFQGCTLLKDETVLDNQALIR-YL--GQILEGDLSAYS-  530
+            D+V   A+ NY ++ G   +T+ Q   +   E +  N A  + YL  GQ+++  +++ S
+Sbjct  119  DKVILPATANYTVQKGDTYWTISQKFKVNFTELLKLNGANEKSYLDIGQVIKIPVTSMSQ  178
+
+Query  531  APGGQGRIQIAETAEETGGAPAEPEEPAAGARIYVVQPGDCLWTIARQELGGGLRWVEIY  590
+             P          T      +      P      Y VQ GD  W+IA +    G+   E+
+Sbjct  179  VPATSSNQNNNSTNTSNNNSGNNLSGPYITYTSYTVQKGDTAWSIAEKF---GISMYELM  235
+
+Query  591  DANRDQIQDPDRIQAGMELELP  612
+            +AN   I     +  G +L++P
+Sbjct  236  EAN--NINSSTVLNIGQKLKIP  255
+
+
+>WP_020457991.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+ ABN54201.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ HBW27787.1 LysM peptidoglycan-binding domain-containing protein [Acetivibrio
+thermocellus]
+Length=423
+
+ Score = 29.3 bits (64),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 60/142 (42%), Gaps = 9/142 (6%)
+
+Query  475  DRVYTLASHNYMLKSGGDGYTMFQGCTLLKDETVLDNQALIR-YL--GQILEGDLSAYS-  530
+            D+V   A+ NY ++ G   +T+ Q   +   E +  N A  + YL  GQ+++  +++ S
+Sbjct  119  DKVILPATANYTVQKGDTYWTISQKFKVNFTELLKLNGANEKSYLDIGQVIKIPVTSMSQ  178
+
+Query  531  APGGQGRIQIAETAEETGGAPAEPEEPAAGARIYVVQPGDCLWTIARQELGGGLRWVEIY  590
+             P          T      +      P      Y VQ GD  W+IA +    G+   E+
+Sbjct  179  VPATSSNQNNNSTNTSNNNSGNNLSGPYITYTSYTVQKGDTAWSIAEKF---GISMYELM  235
+
+Query  591  DANRDQIQDPDRIQAGMELELP  612
+            +AN   I     +  G +L++P
+Sbjct  236  EAN--NINSSTVLNIGQKLKIP  255
+
+
+>WP_003516443.1 DUF3794 domain-containing protein [Acetivibrio thermocellus]
+ CDG36925.1 peptidoglycan-binding LysM [Acetivibrio thermocellus BC1]
+ ABN53604.1 Peptidoglycan-binding lysin domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73133.1 Peptidoglycan-binding lysin domain [Acetivibrio thermocellus
+DSM 1313]
+ ALX07044.1 protein of unknown function DUF3794 [Acetivibrio thermocellus
+AD2]
+ ANV74780.1 protein of unknown function DUF3794 [Acetivibrio thermocellus
+DSM 2360]
+Length=522
+
+ Score = 29.3 bits (64),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 14/31 (45%), Positives = 16/31 (52%), Gaps = 2/31 (6%)
+
+Query  550  APAE--PEEPAAGARIYVVQPGDCLWTIARQ  578
+             PAE    E      IY  QPGD LW IA++
+Sbjct  459  TPAEDRSNEQYPSITIYFSQPGDTLWKIAKK  489
+
+
+>WP_011837763.1 type I polyketide synthase [Acetivibrio thermocellus]
+ ABN51376.1 Acyl transferase [Acetivibrio thermocellus ATCC 27405]
+ HBW27111.1 type I polyketide synthase [Acetivibrio thermocellus]
+Length=2754
+
+ Score = 28.9 bits (63),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 37/140 (26%), Positives = 63/140 (45%), Gaps = 16/140 (11%)
+
+Query  432  GLTYTIDAAVPSS---VVVDENGAFQSVDGPRRVTG---VKVGGQPL----ELDRVYTLA  481
+            G  YTIDAA  SS   V+    G  +  D    +TG   V +   P      ++ +
+Sbjct  213  GPAYTIDAACASSLAAVICGITGLLRK-DYDVLITGGVDVTLDESPFVVFSAINALSPTG  271
+
+Query  482  SHNYMLKSGGDGYTMFQGCTLLK--DETVLDNQ---ALIRYLGQILEGDLSAYSAPGGQG  536
+            S+ +  ++ G    +  G  +LK  ++ + DN    ALI   GQ  +G     +AP  +G
+Sbjct  272  SYPFDSRANGFVIGLGGGVLILKRLEDALRDNDRIYALISGFGQGSDGKGKYIAAPNEEG  331
+
+Query  537  RIQIAETAEETGGAPAEPEE  556
+            ++++ ++  E  G PA+  E
+Sbjct  332  QVRVLKSTLEMMGYPADTIE  351
+
+
+>WP_003516982.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU74018.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 1313]
+ ALX07956.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+AD2]
+ ANV75702.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+DSM 2360]
+ EIC06154.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+YS]
+ PFH02227.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=631
+
+ Score = 28.5 bits (62),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 25/44 (57%), Gaps = 1/44 (2%)
+
+Query  2    KKVDRWAALTAALLLTVSLAPASQAAEAGEKIVILHTNDVHCAL  45
+            KKV+ W+   A + +++   P ++  E  E IV+LH +D   A+
+Sbjct  379  KKVE-WSNYKAKVKISIPYKPDAKELENHEHIVVLHIDDAGKAV  421
+
+
+>WP_003512162.1 type I polyketide synthase [Acetivibrio thermocellus]
+ CDG34817.1 Beta-ketoacyl synthase [Acetivibrio thermocellus BC1]
+ ADU75138.1 Beta-ketoacyl synthase [Acetivibrio thermocellus DSM 1313]
+ ALX09113.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus AD2]
+ ANV76865.1 6-deoxyerythronolide-B synthase, 3-oxoacyl-(acyl-carrier-protein)
+reductase [Acetivibrio thermocellus DSM 2360]
+ EIC04832.1 short-chain dehydrogenase/reductase SDR [Acetivibrio thermocellus
+YS]
+Length=2754
+
+ Score = 28.9 bits (63),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 37/140 (26%), Positives = 63/140 (45%), Gaps = 16/140 (11%)
+
+Query  432  GLTYTIDAAVPSS---VVVDENGAFQSVDGPRRVTG---VKVGGQPL----ELDRVYTLA  481
+            G  YTIDAA  SS   V+    G  +  D    +TG   V +   P      ++ +
+Sbjct  213  GPAYTIDAACASSLAAVICGITGLLRK-DYDVLITGGVDVTLDESPFVVFSAINALSPTG  271
+
+Query  482  SHNYMLKSGGDGYTMFQGCTLLK--DETVLDNQ---ALIRYLGQILEGDLSAYSAPGGQG  536
+            S+ +  ++ G    +  G  +LK  ++ + DN    ALI   GQ  +G     +AP  +G
+Sbjct  272  SYPFDSRANGFVIGLGGGVLILKRLEDALRDNDRIYALISGFGQGSDGKGKYIAAPNEEG  331
+
+Query  537  RIQIAETAEETGGAPAEPEE  556
+            ++++ ++  E  G PA+  E
+Sbjct  332  QVRVLKSTLEMMGYPADTIE  351
+
+
+>WP_004463692.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ CDG35978.1 cellulosome anchoring protein cohesin subunit [Acetivibrio thermocellus
+BC1]
+ AAB07763.1 scaffolding dockerin binding protein A [Acetivibrio thermocellus]
+ ABN52539.1 cellulosome anchoring protein cohesin region [Acetivibrio thermocellus
+ATCC 27405]
+ NLU25547.1 cellulosome anchor protein [Acetivibrio thermocellus]
+ THJ78951.1 cellulosome anchor protein [Acetivibrio thermocellus]
+Length=631
+
+ Score = 28.5 bits (62),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 14/44 (32%), Positives = 25/44 (57%), Gaps = 1/44 (2%)
+
+Query  2    KKVDRWAALTAALLLTVSLAPASQAAEAGEKIVILHTNDVHCAL  45
+            KKV+ W+   A + +++   P ++  E  E IV+LH +D   A+
+Sbjct  379  KKVE-WSNYKAKVKISIPYKPDAKELENHEHIVVLHIDDAGKAV  421
+
+
+>WP_003511824.1 TIGR02710 family CRISPR-associated CARF protein [Acetivibrio
+thermocellus]
+ CDG37695.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+BC1]
+Length=489
+
+ Score = 28.1 bits (61),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 34/68 (50%), Gaps = 18/68 (26%)
+
+Query  14   LLLTVS-LAPASQAAEAGEKIVILHTNDVHCALDDAIGYAGLAAYAGALEEQYGADRVTL  72
+            L+L++S L P        EK++IL+T+  H  LDD I +  L         QY A   T
+Sbjct  71   LVLSISVLKP--------EKVLILYTDKSHHLLDDVIEFTKLKP------SQYVA---TD  113
+
+Query  73   VDAGDAIQ  80
+            VDA + +Q
+Sbjct  114  VDAENPLQ  121
+
+
+>THJ79182.1 TIGR02710 family CRISPR-associated protein [Acetivibrio thermocellus]
+Length=482
+
+ Score = 28.1 bits (61),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 34/68 (50%), Gaps = 18/68 (26%)
+
+Query  14   LLLTVS-LAPASQAAEAGEKIVILHTNDVHCALDDAIGYAGLAAYAGALEEQYGADRVTL  72
+            L+L++S L P        EK++IL+T+  H  LDD I +  L         QY A   T
+Sbjct  64   LVLSISVLKP--------EKVLILYTDKSHHLLDDVIEFTKLKP------SQYVA---TD  106
+
+Query  73   VDAGDAIQ  80
+            VDA + +Q
+Sbjct  107  VDAENPLQ  114
+
+
+>WP_003516061.1 TIGR02710 family CRISPR-associated CARF protein [Acetivibrio
+thermocellus]
+ ADU73840.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+DSM 1313]
+ ALX07773.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+AD2]
+ ANV75515.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+DSM 2360]
+ EIC05731.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+YS]
+ PFH02041.1 CRISPR-associated protein (TIGR02710 family) [Acetivibrio thermocellus
+AD2]
+Length=488
+
+ Score = 28.1 bits (61),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 34/68 (50%), Gaps = 18/68 (26%)
+
+Query  14   LLLTVS-LAPASQAAEAGEKIVILHTNDVHCALDDAIGYAGLAAYAGALEEQYGADRVTL  72
+            L+L++S L P        EK++IL+T+  H  LDD I +  L         QY A   T
+Sbjct  70   LVLSISVLKP--------EKVLILYTDKSHHLLDDVIEFTKLKP------SQYVA---TD  112
+
+Query  73   VDAGDAIQ  80
+            VDA + +Q
+Sbjct  113  VDAENPLQ  120
+
+
+>ABN54412.1 CRISPR-associated protein, TIGR02710 family [Acetivibrio thermocellus
+ATCC 27405]
+Length=430
+
+ Score = 28.1 bits (61),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 19/50 (38%), Positives = 26/50 (52%), Gaps = 9/50 (18%)
+
+Query  31  EKIVILHTNDVHCALDDAIGYAGLAAYAGALEEQYGADRVTLVDAGDAIQ  80
+           EK++IL+T+  H  LDD I +  L         QY A   T VDA + +Q
+Sbjct  22  EKVLILYTDKSHHLLDDVIEFTKLKP------SQYVA---TDVDAENPLQ  62
+
+
+>HBW28315.1 TIGR02710 family CRISPR-associated protein [Acetivibrio thermocellus]
+Length=456
+
+ Score = 28.1 bits (61),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 34/68 (50%), Gaps = 18/68 (26%)
+
+Query  14  LLLTVS-LAPASQAAEAGEKIVILHTNDVHCALDDAIGYAGLAAYAGALEEQYGADRVTL  72
+           L+L++S L P        EK++IL+T+  H  LDD I +  L         QY A   T
+Sbjct  38  LVLSISVLKP--------EKVLILYTDKSHHLLDDVIEFTKLKP------SQYVA---TD  80
+
+Query  73  VDAGDAIQ  80
+           VDA + +Q
+Sbjct  81  VDAENPLQ  88
+
+
+>HBW26854.1 hypothetical protein [Acetivibrio thermocellus]
+Length=71
+
+ Score = 25.4 bits (54),  Expect = 7.3, Method: Composition-based stats.
+ Identities = 12/29 (41%), Positives = 18/29 (62%), Gaps = 3/29 (10%)
+
+Query  336  DPATGEYWVRSRETN--LGDFCA-DAYRA  361
+            DP TG+Y++R+R  N  +G F   D +R
+Sbjct  15   DPVTGQYYLRARYYNPSIGRFMQEDTFRG  43
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.135    0.394
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 48702
+Number of extensions: 2207
+Number of successful extensions: 26
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 8
+Length of query: 613
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 518
+Effective length of database: 2069853
+Effective search space: 1072183854
+Effective search space used: 1072183854
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,337 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W0RU67S013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ANU40066 5'-nucleotidase [Flavonifractor plautii]
+
+Length=708
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU26201.1 hypothetical protein [Acetivibrio thermocellus]         40.0    9e-04  27%
+WP_011838081.1 WG repeat-containing protein [Acetivibrio therm...  38.1    0.004  30%
+WP_136479321.1 WG repeat-containing protein [Acetivibrio therm...  38.1    0.004  30%
+WP_003519228.1 WG repeat-containing protein [Acetivibrio therm...  38.1    0.004  30%
+NLU25570.1 hypothetical protein [Acetivibrio thermocellus]         38.1    0.005  30%
+ABN52752.1 copper amine oxidase-like domain-containing protein...  33.5    0.096  27%
+WP_003517715.1 stalk domain-containing protein [Acetivibrio th...  33.5    0.10   27%
+NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofol...  32.0    0.35   24%
+WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydr...  31.6    0.36   24%
+WP_136479725.1 stalk domain-containing protein [Acetivibrio th...  31.2    0.56   39%
+NLU28221.1 hypothetical protein [Acetivibrio thermocellus]         27.7    3.8    30%
+WP_003519346.1 HAMP domain-containing histidine kinase [Acetiv...  28.5    3.8    23%
+WP_003511528.1 HAMP domain-containing histidine kinase [Acetiv...  28.5    4.1    23%
+
+ALIGNMENTS
+>NLU26201.1 hypothetical protein [Acetivibrio thermocellus]
+Length=421
+
+ Score = 40.0 bits (92),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 36/133 (27%), Positives = 56/133 (42%), Gaps = 20/133 (15%)
+
+Query  578  SEVLGMVDNVKVSDLDKTGTAA----SFVGADGAP------------YFRMRDLAYTF--  619
+            SE    V N  VSD ++    +    S +  DG P            YF++RD+AY
+Sbjct  258  SEFFDYVPNEIVSDTEEIPVMSVPNSSRIIVDGEPISIDAYTINGNNYFKLRDIAYLLKI  317
+
+Query  620  NGSKNQFNVSWAD--GKVAITTSTAYDGELFPLPVRIPAAVQEQIPADITVSVDGTDITV  677
+              S+ QF + W +    + I TS +Y      L   I A+ Q+ +     V +DG  I +
+Sbjct  318  KNSQRQFEIKWDNIAKTIYIITSESYTPVGGELKTHIDASPQKAVKNSSPVYLDGNRIEL  377
+
+Query  678  PAILFDGHYYLTV  690
+             A   +G+ Y  +
+Sbjct  378  TAYTINGNNYFKL  390
+
+
+>WP_011838081.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ ABN52682.1 hypothetical protein Cthe_1452 [Acetivibrio thermocellus ATCC
+27405]
+ HBW27440.1 hypothetical protein [Acetivibrio thermocellus]
+Length=551
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSWADGKVAITT-----STAYDGELFPLPVRIPAAVQ  659
+            +G  YF++RDLAY  +G+  QF V+W D   AI        T   GE+         A
+Sbjct  435  NGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMATGSKNTATA--  492
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYLTV  690
+               P+  TV ++G  + + A   +G  Y  +
+Sbjct  493  --YPSAATVFINGVRVELTAYTINGFNYFKL  521
+
+
+>WP_136479321.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ THJ78547.1 hypothetical protein EPD62_05625 [Acetivibrio thermocellus]
+Length=551
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSWADGKVAITT-----STAYDGELFPLPVRIPAAVQ  659
+            +G  YF++RDLAY  +G+  QF V+W D   AI        T   GE+         A
+Sbjct  435  NGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMATGSKNTATA--  492
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYLTV  690
+               P+  TV ++G  + + A   +G  Y  +
+Sbjct  493  --YPSAATVFINGVRVELTAYTINGFNYFKL  521
+
+
+>WP_003519228.1 WG repeat-containing protein [Acetivibrio thermocellus]
+ CDG36120.1 KWG Leptospira repeat protein [Acetivibrio thermocellus BC1]
+ ADU73871.1 hypothetical protein Clo1313_0799 [Acetivibrio thermocellus DSM
+1313]
+ ALX07808.1 hypothetical protein AD2_00810 [Acetivibrio thermocellus AD2]
+ ANV75550.1 hypothetical protein LQRI_0809 [Acetivibrio thermocellus DSM
+2360]
+ EIC03297.1 KWG Leptospira repeat protein [Acetivibrio thermocellus YS]
+Length=551
+
+ Score = 38.1 bits (87),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSWADGKVAITT-----STAYDGELFPLPVRIPAAVQ  659
+            +G  YF++RDLAY  +G+  QF V+W D   AI        T   GE+         A
+Sbjct  435  NGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMATGSKNTATA--  492
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYLTV  690
+               P+  TV ++G  + + A   +G  Y  +
+Sbjct  493  --YPSAATVFINGVRVELTAYTINGFNYFKL  521
+
+
+>NLU25570.1 hypothetical protein [Acetivibrio thermocellus]
+Length=551
+
+ Score = 38.1 bits (87),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 41/91 (45%), Gaps = 9/91 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSWADGKVAITT-----STAYDGELFPLPVRIPAAVQ  659
+            +G  YF++RDLAY  +G+  QF V+W D   AI        T   GE+         A
+Sbjct  435  NGNNYFKLRDLAYILSGTDKQFEVTWDDTLKAINLISGKPYTVSGGEMATGSKNTATAY-  493
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYLTV  690
+               P+  TV ++G  + + A   +G  Y  +
+Sbjct  494  ---PSAATVFINGVRVELTAYTINGFNYFKL  521
+
+
+>ABN52752.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ CDG36191.1 hypothetical protein CTHBC1_1550 [Acetivibrio thermocellus BC1]
+Length=346
+
+ Score = 33.5 bits (75),  Expect = 0.096, Method: Compositional matrix adjust.
+ Identities = 24/89 (27%), Positives = 42/89 (47%), Gaps = 9/89 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSW--ADGKVAITTSTAYD---GELFPLPVRIPAAVQ  659
+            +G  YF++RDLA   N ++  F V+W  A+  + + ++  Y    GEL     +     +
+Sbjct  230  NGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAINLISNKPYTPSGGEL----AKGDGKAK  285
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYL  688
+              IP    +  DG +I + A   +G+ Y
+Sbjct  286  VAIPTTSKIYKDGREIFLTAYNINGNNYF  314
+
+
+>WP_003517715.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ ADU75319.1 hypothetical protein Clo1313_2290 [Acetivibrio thermocellus DSM
+1313]
+ ALX09311.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV77063.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04779.1 hypothetical protein YSBL_1612 [Acetivibrio thermocellus YS]
+ NLU26645.1 hypothetical protein [Acetivibrio thermocellus]
+Length=357
+
+ Score = 33.5 bits (75),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 24/89 (27%), Positives = 42/89 (47%), Gaps = 9/89 (10%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSW--ADGKVAITTSTAYD---GELFPLPVRIPAAVQ  659
+            +G  YF++RDLA   N ++  F V+W  A+  + + ++  Y    GEL     +     +
+Sbjct  241  NGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAINLISNKPYTPSGGEL----AKGDGKAK  296
+
+Query  660  EQIPADITVSVDGTDITVPAILFDGHYYL  688
+              IP    +  DG +I + A   +G+ Y
+Sbjct  297  VAIPTTSKIYKDGREIFLTAYNINGNNYF  325
+
+
+>NLU26852.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+Length=428
+
+ Score = 32.0 bits (71),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 37/153 (24%), Positives = 69/153 (45%), Gaps = 18/153 (12%)
+
+Query  113  LNYMDYDAWTLGNHEF--NFGVDTLKSILEQVDMPVLAANIKNADGSYFTGAGYT-----  165
+            +NY     +  G H+F    G+D ++ +LE +D P       +  G+   G G T
+Sbjct  1    MNYEQALEYIHGTHKFGIKLGLDNIRKLLEFMDNPHRKLKYVHVAGT--NGKGSTVAFIS  58
+
+Query  166  -IVERGGVKVAIIGVTTPNIPRW-DGTKQGVADLTFEPMANAVAACIQEIGGQADVIMVS  223
+             I++  G KV I   T+P I R+ +  K    +++ E +A       + + G+ + +M+S
+Sbjct  59   SILKESGYKVGI--YTSPYIERFTERIKINNDEISKEDLARIT----EYVKGKVE-LMIS  111
+
+Query  224  THAGLGAEYSADGSDAAQTILDKCPEVDVLQLG  256
+                   E+    + A Q   +K  ++ VL++G
+Sbjct  112  QGENHPTEFEIVTAIAFQYFYEKDCDIVVLEVG  144
+
+
+>WP_003518237.1 bifunctional folylpolyglutamate synthase/dihydrofolate synthase
+[Acetivibrio thermocellus]
+ CDG36060.1 FolC bifunctional protein [Acetivibrio thermocellus BC1]
+ ABN52616.1 FolC bifunctional protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73932.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 1313]
+ ALX07870.1 FolC bifunctional protein [Acetivibrio thermocellus AD2]
+ ANV75616.1 FolC bifunctional protein [Acetivibrio thermocellus DSM 2360]
+Length=428
+
+ Score = 31.6 bits (70),  Expect = 0.36, Method: Compositional matrix adjust.
+ Identities = 37/153 (24%), Positives = 69/153 (45%), Gaps = 18/153 (12%)
+
+Query  113  LNYMDYDAWTLGNHEF--NFGVDTLKSILEQVDMPVLAANIKNADGSYFTGAGYT-----  165
+            +NY     +  G H+F    G+D ++ +LE +D P       +  G+   G G T
+Sbjct  1    MNYEQALEYIHGTHKFGIKLGLDNIRKLLEFMDNPHRKLKYVHVAGT--NGKGSTVAFIS  58
+
+Query  166  -IVERGGVKVAIIGVTTPNIPRW-DGTKQGVADLTFEPMANAVAACIQEIGGQADVIMVS  223
+             I++  G KV I   T+P I R+ +  K    +++ E +A       + + G+ + +M+S
+Sbjct  59   SILKESGYKVGI--YTSPYIERFTERIKINNDEISKEDLARIT----EYVKGKVE-LMIS  111
+
+Query  224  THAGLGAEYSADGSDAAQTILDKCPEVDVLQLG  256
+                   E+    + A Q   +K  ++ VL++G
+Sbjct  112  QGENHPTEFEIVTAIAFQYFYEKDCDIVVLEVG  144
+
+
+>WP_136479725.1 stalk domain-containing protein [Acetivibrio thermocellus]
+ THJ76512.1 hypothetical protein EPD62_16220 [Acetivibrio thermocellus]
+Length=357
+
+ Score = 31.2 bits (69),  Expect = 0.56, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 19/33 (58%), Gaps = 0/33 (0%)
+
+Query  605  DGAPYFRMRDLAYTFNGSKNQFNVSWADGKVAI  637
+            +G  YF++RDLA   N ++  F V+W     AI
+Sbjct  241  NGYNYFKLRDLAQAVNNTEKNFEVTWDAANNAI  273
+
+
+>NLU28221.1 hypothetical protein [Acetivibrio thermocellus]
+Length=189
+
+ Score = 27.7 bits (60),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 13/43 (30%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  248  PEVDVLQLGHTHTTYINSAPIPVGEAKNNAGEVVRYDLTLNAD  290
+            P++D          ++N   IP G ++    E+ RYD TL  D
+Sbjct  51   PQLDAAIGQCIALRFVNETVIPYGWSRTEGFEIKRYDYTLTDD  93
+
+
+>WP_003519346.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ADU73698.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 1313]
+ ALX07628.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus AD2]
+ ANV75370.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 2360]
+ EIC03344.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+YS]
+ PFH01896.1 signal transduction histidine kinase [Acetivibrio thermocellus
+AD2]
+Length=479
+
+ Score = 28.5 bits (62),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 23/102 (23%), Positives = 44/102 (43%), Gaps = 5/102 (5%)
+
+Query  118  YDAWTLGNHEFNF-GVDTLKSI---LEQVDMPVLAANIKNADGSYFTGAGYTIVERGGVK  173
+            Y    +    FNF   D LK     + ++D+ +  +NIK    +   G  Y +++R  V+
+Sbjct  313  YSRLDMHKVSFNFEKTDVLKYFEDCMYEIDIELEKSNIKVELHNNLRGKRYIMIDRDQVR  372
+
+Query  174  VAIIGVTTPNIPRWDGTKQGVADLTFEPMANAVAACIQEIGG  215
+              +I +   N  ++   +QG  D+      + V   I++ G
+Sbjct  373  RVVINI-IDNSRKYMDKEQGKIDIFLREATSNVVIEIKDNGA  413
+
+
+>WP_003511528.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ CDG37547.1 periplasmic sensor signal transduction histidine kinase [Acetivibrio
+thermocellus BC1]
+ ABN54264.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus ATCC 27405]
+ NLU27679.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ THJ77210.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ HBW27127.1 sensor histidine kinase [Acetivibrio thermocellus]
+Length=479
+
+ Score = 28.5 bits (62),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 23/102 (23%), Positives = 44/102 (43%), Gaps = 5/102 (5%)
+
+Query  118  YDAWTLGNHEFNF-GVDTLKSI---LEQVDMPVLAANIKNADGSYFTGAGYTIVERGGVK  173
+            Y    +    FNF   D LK     + ++D+ +  +NIK    +   G  Y +++R  V+
+Sbjct  313  YSRLDMHKVSFNFEKTDVLKYFEDCMYEIDIELEKSNIKVELHNNLRGKRYIMIDRDQVR  372
+
+Query  174  VAIIGVTTPNIPRWDGTKQGVADLTFEPMANAVAACIQEIGG  215
+              +I +   N  ++   +QG  D+      + V   I++ G
+Sbjct  373  RVVINI-IDNSRKYMDKEQGKIDIFLREATSNVVIEIKDNGA  413
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.132    0.382
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 57189
+Number of extensions: 2609
+Number of successful extensions: 19
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 4
+Length of query: 708
+Length of database: 2835838
+Length adjustment: 96
+Effective length of query: 612
+Effective length of database: 2061790
+Effective search space: 1261815480
+Effective search space used: 1261815480
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

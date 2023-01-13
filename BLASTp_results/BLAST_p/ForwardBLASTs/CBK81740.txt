@@ -1,0 +1,255 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WWE2FEM013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBK81740 5'-nucleotidase [Coprococcus catus]
+
+Length=646
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516527.1 phenylacetate--CoA ligase [Acetivibrio thermoce...  30.0    1.2    29%
+WP_004463266.1 phenylacetate--CoA ligase [Acetivibrio thermoce...  30.0    1.2    29%
+WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio t...  28.9    2.4    30%
+WP_003518868.1 glycosyltransferase family 39 protein [Acetivib...  28.9    2.7    41%
+CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]   28.1    3.7    21%
+WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]   28.1    3.9    21%
+WP_004463806.1 tryptophan synthase subunit beta [Acetivibrio t...  27.7    5.4    30%
+CDG37244.1 hypothetical protein CTHBC1_2661 [Acetivibrio therm...  25.4    8.6    27%
+
+ALIGNMENTS
+>WP_003516527.1 phenylacetate--CoA ligase [Acetivibrio thermocellus]
+ ADU74675.1 Phenylacetate--CoA ligase [Acetivibrio thermocellus DSM 1313]
+ ALX08618.1 Phenylacetate--CoA ligase [Acetivibrio thermocellus AD2]
+ ANV76367.1 Phenylacetate--CoA ligase [Acetivibrio thermocellus DSM 2360]
+ EIC05558.1 AMP-dependent synthetase and ligase [Acetivibrio thermocellus
+YS]
+ PFH02891.1 phenylacetate-CoA ligase [Acetivibrio thermocellus AD2]
+Length=433
+
+ Score = 30.0 bits (66),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 34/118 (29%), Positives = 48/118 (41%), Gaps = 15/118 (13%)
+
+Query  144  TLPALVVCNVDWDSMEQA----GLSDGQQQIQSAFETYGVKDYVVLQKGNVK--IAVVGV  197
+            T   LV    D +S+ Q     GL  G   I    E  G    + +  GN K  I ++
+Sbjct  115  TARTLVSAGADKNSLIQVAYGYGLFTGGLGIHYGAERIGA-SVIPISGGNTKRQIQIMKD  173
+
+Query  198  FGTDALKCAPTCELIFKDPVEAVKETVEEIK-KNEDVDMIACVSHGGTWEDESKSEDE  254
+            FGT  L C P+  L        + E +EE+  K ED+ + A V     W +  + E E
+Sbjct  174  FGTTILACTPSYALY-------MAEVMEELGIKKEDLKLKAGVFGAEQWSENMRKEIE  224
+
+
+>WP_004463266.1 phenylacetate--CoA ligase [Acetivibrio thermocellus]
+ CDG35305.1 Phenylacetate-coenzyme A ligase [Acetivibrio thermocellus BC1]
+ ABN51850.1 Phenylacetate--CoA ligase [Acetivibrio thermocellus ATCC 27405]
+ NLU28129.1 phenylacetate--CoA ligase [Acetivibrio thermocellus]
+ THJ78161.1 phenylacetate--CoA ligase [Acetivibrio thermocellus]
+ HBW27550.1 phenylacetate--CoA ligase [Acetivibrio thermocellus]
+Length=433
+
+ Score = 30.0 bits (66),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 34/118 (29%), Positives = 48/118 (41%), Gaps = 15/118 (13%)
+
+Query  144  TLPALVVCNVDWDSMEQA----GLSDGQQQIQSAFETYGVKDYVVLQKGNVK--IAVVGV  197
+            T   LV    D +S+ Q     GL  G   I    E  G    + +  GN K  I ++
+Sbjct  115  TARTLVSAGADKNSLIQVAYGYGLFTGGLGIHYGAERIGA-SVIPISGGNTKRQIQIMKD  173
+
+Query  198  FGTDALKCAPTCELIFKDPVEAVKETVEEIK-KNEDVDMIACVSHGGTWEDESKSEDE  254
+            FGT  L C P+  L        + E +EE+  K ED+ + A V     W +  + E E
+Sbjct  174  FGTTILACTPSYALY-------MAEVMEELGIKKEDLKLKAGVFGAEQWSENMRKEIE  224
+
+
+>WP_003518305.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ ADU73905.1 tryptophan synthase, beta subunit [Acetivibrio thermocellus DSM
+1313]
+ ALX07844.1 Tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+ ANV75589.1 Tryptophan synthase beta chain [Acetivibrio thermocellus DSM
+2360]
+ EIC03210.1 Tryptophan synthase beta chain [Acetivibrio thermocellus YS]
+ PFH02115.1 tryptophan synthase beta chain [Acetivibrio thermocellus AD2]
+Length=394
+
+ Score = 28.9 bits (63),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 49/113 (43%), Gaps = 26/113 (23%)
+
+Query  41   HDTHSHLNS------FSTIVDGEQKEVGGFAKIKTLIDEKKKVNPDTLV--LDGGDFSMG  92
+            HDTH  L S      F TIV   Q  +G   +IK  I EK+   PD ++  + GG  ++G
+Sbjct  180  HDTHYVLGSVMGPHPFPTIVRDFQSVIG--REIKKQIMEKEGKLPDVVMACVGGGSNAIG  237
+
+Query  93   TLIQTVYDTEAAELRMLGFLGYDVTTFGNHEYDYRSKGLANMLKAAVKSGGTL  145
+               + + D+    +R++G              +   KGL     AA  S GTL
+Sbjct  238  AFYEFIGDS---SVRLIGC-------------EAAGKGLETGKHAATMSKGTL  274
+
+
+>WP_003518868.1 glycosyltransferase family 39 protein [Acetivibrio thermocellus]
+ CDG35877.1 hypothetical protein CTHBC1_1230 [Acetivibrio thermocellus BC1]
+ ABN52439.1 hypothetical protein Cthe_1207 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74119.1 hypothetical protein Clo1313_1051 [Acetivibrio thermocellus DSM
+1313]
+ ALX08057.1 hypothetical protein AD2_01062 [Acetivibrio thermocellus AD2]
+ ANV75804.1 hypothetical protein LQRI_1063 [Acetivibrio thermocellus DSM
+2360]
+Length=507
+
+ Score = 28.9 bits (63),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 15/37 (41%), Positives = 20/37 (54%), Gaps = 1/37 (3%)
+
+Query  239  VSHGGTWEDESKSEDEILAKAVPDIDLIISGHSHTEL  275
+            +SH   W DES S   I+  ++PDI  I +  SH  L
+Sbjct  31   ISHETLWYDESYSA-AIINHSIPDIIRITANDSHPPL  66
+
+
+>CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+Length=273
+
+ Score = 28.1 bits (61),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 43/209 (21%), Positives = 79/209 (38%), Gaps = 67/209 (32%)
+
+Query  66   KIKTLIDEKKKVNPDTLVLDGGDF--SMGTLIQTVYDTEAAELRMLGFLGYDVTTFGNHE  123
+            +++ L+ +   +NPD ++  GGD+    G  I+  ++  +     LG  G      GNH+
+Sbjct  66   RVRNLVKKINNLNPD-IIFVGGDYVEKGGQYIKPCFEELSGLKASLGKYG----VLGNHD  120
+
+Query  124  YDYRSKGLANMLKAAVKSGGTLPALVVCNVDWDSMEQAGLSDGQQQIQSAFETYGVKDYV  183
+            Y YR+  L                         SM +AG++         + TYG
+Sbjct  121  Y-YRNGDLVR----------------------QSMREAGIT--LLDNADLWITYG-----  150
+
+Query  184  VLQKGNVKIAVVGVFGTDALKCAPTCELIFKDPVEAVKETVEEIKKNEDVDMIACVSHGG  243
+                G +K+  VG F              +  P+E+  + V E       D +  +SH
+Sbjct  151  ---SGRIKVCGVGYFKR------------YLKPIESYLKGVSE------DDFVVLLSHDP  189
+
+Query  244  TWEDESKSEDEILAKAVPDIDLIISGHSH  272
+             + +  ++           +D+++SGH+H
+Sbjct  190  DYAENIRNYK---------VDIVLSGHTH  209
+
+
+>WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]
+ ABN53371.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75808.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09840.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+ ANV77614.1 metallophosphoesterase [Acetivibrio thermocellus DSM 2360]
+ EIC03645.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=273
+
+ Score = 28.1 bits (61),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 43/209 (21%), Positives = 79/209 (38%), Gaps = 67/209 (32%)
+
+Query  66   KIKTLIDEKKKVNPDTLVLDGGDF--SMGTLIQTVYDTEAAELRMLGFLGYDVTTFGNHE  123
+            +++ L+ +   +NPD ++  GGD+    G  I+  ++  +     LG  G      GNH+
+Sbjct  66   RVRNLVKKINNLNPD-IIFVGGDYVEKGGQYIKPCFEELSGLKAPLGKYG----VLGNHD  120
+
+Query  124  YDYRSKGLANMLKAAVKSGGTLPALVVCNVDWDSMEQAGLSDGQQQIQSAFETYGVKDYV  183
+            Y YR+  L                         SM +AG++         + TYG
+Sbjct  121  Y-YRNGDLVR----------------------QSMREAGITLLDNA--DLWITYG-----  150
+
+Query  184  VLQKGNVKIAVVGVFGTDALKCAPTCELIFKDPVEAVKETVEEIKKNEDVDMIACVSHGG  243
+                G +K+  VG F              +  P+E+  + V E       D +  +SH
+Sbjct  151  ---SGRIKVCGVGYFKR------------YLKPIESYLKGVSE------DDFVVLLSHDP  189
+
+Query  244  TWEDESKSEDEILAKAVPDIDLIISGHSH  272
+             + +  ++           +D+++SGH+H
+Sbjct  190  DYAENIRNYK---------VDIVLSGHTH  209
+
+
+>WP_004463806.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ ABN52643.1 tryptophan synthase, beta subunit [Acetivibrio thermocellus ATCC
+27405]
+ NLU27022.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+ CDG36089.1 Tryptophan synthase beta chain [Acetivibrio thermocellus BC1]
+ HBW27402.1 tryptophan synthase subunit beta [Acetivibrio thermocellus]
+Length=394
+
+ Score = 27.7 bits (60),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 49/113 (43%), Gaps = 26/113 (23%)
+
+Query  41   HDTHSHLNS------FSTIVDGEQKEVGGFAKIKTLIDEKKKVNPDTLV--LDGGDFSMG  92
+            HDTH  L S      F TIV   Q  +G   +IK  I EK+   PD ++  + GG  ++G
+Sbjct  180  HDTHYVLGSVMGPHPFPTIVRDFQSVIG--REIKKQIMEKEGKLPDVVMACVGGGSNAIG  237
+
+Query  93   TLIQTVYDTEAAELRMLGFLGYDVTTFGNHEYDYRSKGLANMLKAAVKSGGTL  145
+               + + D+    +R++G              +   KGL     AA  S GTL
+Sbjct  238  AFYEFIGDS---SVRLIGC-------------EAAGKGLDTDKHAATMSKGTL  274
+
+
+>CDG37244.1 hypothetical protein CTHBC1_2661 [Acetivibrio thermocellus BC1]
+Length=89
+
+ Score = 25.4 bits (54),  Expect = 8.6, Method: Composition-based stats.
+ Identities = 20/73 (27%), Positives = 30/73 (41%), Gaps = 17/73 (23%)
+
+Query  65   AKIKTLIDEKKKVNPDTLVLDGGDFSMGTLIQTVYDTEAAELRMLGFLGYDVTTFGNHEY  124
+            A+IK LI++KK+                  +Q  YD EA  L   G   Y + +     Y
+Sbjct  6    ARIKELIEQKKR-----------------RLQLYYDREAEMLSQDGVKSYSIGSRNLSRY  48
+
+Query  125  DYRSKGLANMLKA  137
+            D   K + + +KA
+Sbjct  49   DTALKDIQDKIKA  61
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.136    0.392
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 36588
+Number of extensions: 1757
+Number of successful extensions: 23
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 23
+Number of HSP's successfully gapped: 4
+Length of query: 646
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 551
+Effective length of database: 2069853
+Effective search space: 1140489003
+Effective search space used: 1140489003
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

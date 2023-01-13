@@ -1,0 +1,549 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UZZ2HG901N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= ACL76841 dTMP kinase [Ruminiclostridium cellulolyticum]
+
+Length=230
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       30.0    0.25   22%
+CDG35987.1 Guanylate kinase [Acetivibrio thermocellus BC1]         26.9    2.0    23%
+WP_011838050.1 guanylate kinase [Acetivibrio thermocellus]         26.9    2.3    23%
+WP_003520413.1 methylenetetrahydrofolate reductase [NAD(P)H] [...  26.9    2.4    36%
+WP_003517002.1 guanylate kinase [Acetivibrio thermocellus]         26.6    2.6    23%
+NIK04346.1 guanylate kinase [Acetivibrio thermocellus]             26.6    2.7    23%
+NLU27407.1 sugar ABC transporter ATP-binding protein [Acetivib...  26.6    4.0    42%
+WP_004463551.1 type II secretion system F family protein [Acet...  26.2    4.8    35%
+CDG37226.1 hypothetical protein CTHBC1_2643 [Acetivibrio therm...  26.2    4.9    38%
+WP_003515762.1 type II secretion system F family protein [Acet...  26.2    5.0    35%
+WP_011837813.1 malate dehydrogenase [Acetivibrio thermocellus]     26.2    5.2    21%
+WP_003518291.1 CotH kinase family protein [Acetivibrio thermoc...  26.2    5.3    32%
+WP_136479204.1 CotH kinase family protein [Acetivibrio thermoc...  26.2    5.3    32%
+WP_011838074.1 CotH kinase family protein [Acetivibrio thermoc...  26.2    5.3    32%
+CDG36081.1 spore coat assembly protein-like protein [Acetivibr...  26.2    5.3    32%
+WP_003512586.1 malate dehydrogenase [Acetivibrio thermocellus]     25.8    5.4    21%
+WP_003516673.1 IMP dehydrogenase [Acetivibrio thermocellus]        26.2    5.5    25%
+WP_235715236.1 CotH kinase family protein [Acetivibrio thermoc...  26.2    5.6    32%
+WP_003520980.1 IMP dehydrogenase [Acetivibrio thermocellus]        25.8    5.7    25%
+CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]      25.8    6.0    41%
+THJ77608.1 DUF4355 domain-containing protein [Acetivibrio ther...  25.4    6.2    29%
+WP_168796742.1 DUF4355 domain-containing protein [Acetivibrio ...  25.4    6.2    29%
+WP_003518049.1 GTPase ObgE [Acetivibrio thermocellus]              25.4    7.9    26%
+NLU27015.1 spore coat protein [Acetivibrio thermocellus]           25.4    8.2    32%
+CDG34841.1 GTPase obg [Acetivibrio thermocellus BC1]               25.4    8.3    26%
+NLU27313.1 methyl-accepting chemotaxis protein [Acetivibrio th...  24.3    9.7    44%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 30.0 bits (66),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 36/161 (22%), Positives = 65/161 (40%), Gaps = 18/161 (11%)
+
+Query  10   VKGMLIVFE-GISGCGKSESVEALRKYLSDKGYKTSVLEW-----NSNKIIRKITKAI--  61
+            +KG LI+ E G    GK+     L + L  +GYK   + +     +S+ +++
+Sbjct  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+
+Query  62   DSIKLLTPGVYSFLQWIGFLIDYFFKVVPLLKKNYILIADRYIYTGLIRDS-----VNGA  116
+                 ++P V S    +     Y  +        +I++ADRY  + ++  +     +
+Sbjct  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+
+Query  117  GRIIG---SFLHRIVKKPA--MVFFLDVSPEVCDERIKKRG  152
+             R +    +F   I K P    V FLD+ P    E +K+R
+Sbjct  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERA  161
+
+
+>CDG35987.1 Guanylate kinase [Acetivibrio thermocellus BC1]
+Length=203
+
+ Score = 26.9 bits (58),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 59/151 (39%), Gaps = 24/151 (16%)
+
+Query  11   KGMLIVFEGISGCGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKITKAIDSIKLLTPG  70
+            +G+L+V  G SG GK      L   L D G        ++     ++ + +D +
+Sbjct  4    EGLLVVVSGPSGAGKG----TLLNLLKDSGDDNIRFSVSATTRAPRVGE-VDGVNYFFKT  58
+
+Query  71   VYSFL---------QWIGFLIDYFFKVVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIG  121
+               F+         +W+ +  D F+       K YI    +  Y  L+   V GA +++
+Sbjct  59   KEEFMLMIENDELFEWVEY-CDNFYGT----PKKYIEDTIKGGYNCLLEIEVEGAAKVMK  113
+
+Query  122  SFLHRIVKKPAMVFFLDVSPEVCDERIKKRG  152
+            ++   +      VF L  S E    RI+KRG
+Sbjct  114  AYPECV-----SVFILPPSFEELRRRIEKRG  139
+
+
+>WP_011838050.1 guanylate kinase [Acetivibrio thermocellus]
+ ABN52547.1 guanylate kinase [Acetivibrio thermocellus ATCC 27405]
+ HBW28161.1 guanylate kinase [Acetivibrio thermocellus]
+Length=203
+
+ Score = 26.9 bits (58),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 59/151 (39%), Gaps = 24/151 (16%)
+
+Query  11   KGMLIVFEGISGCGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKITKAIDSIKLLTPG  70
+            +G+L+V  G SG GK      L   L D G        ++     ++ + +D +
+Sbjct  4    EGLLVVVSGPSGAGKG----TLLNLLKDSGDNNIRFSVSATTRAPRVGE-VDGVNYFFKT  58
+
+Query  71   VYSFL---------QWIGFLIDYFFKVVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIG  121
+               F+         +W+ +  D F+       K YI    +  Y  L+   V GA +++
+Sbjct  59   KEEFMLMIENDELFEWVEY-CDNFYGT----PKKYIEDTIKGGYDCLLEIEVEGAAKVMK  113
+
+Query  122  SFLHRIVKKPAMVFFLDVSPEVCDERIKKRG  152
+            ++   +      VF L  S E    RI+KRG
+Sbjct  114  AYPECV-----SVFILPPSFEELRRRIEKRG  139
+
+
+>WP_003520413.1 methylenetetrahydrofolate reductase [NAD(P)H] [Acetivibrio thermocellus]
+ ALX09148.1 5,10-methylenetetrahydrofolate reductase [Acetivibrio thermocellus
+AD2]
+ EIC04867.1 5,10-methylenetetrahydrofolate reductase [Acetivibrio thermocellus
+YS]
+ PFH03423.1 5,10-methylenetetrahydrofolate reductase (NAD(P)) [Acetivibrio
+thermocellus AD2]
+Length=280
+
+ Score = 26.9 bits (58),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 31/58 (53%), Gaps = 5/58 (9%)
+
+Query  23   CGKS---ESVEALRKY-LSDKGYKTSVLEWNSNKIIRKITKAIDSIKLLTPGVYSFLQ  76
+            CG S   + V  + KY  +D+  + + +E+ SN+I   I   +D I LLT   Y FLQ
+Sbjct  224  CGASIPAKLVIMMDKYGDNDEDMRKAGIEYASNQIRDLIDNGVDGIHLLT-TAYIFLQ  280
+
+
+>WP_003517002.1 guanylate kinase [Acetivibrio thermocellus]
+ ADU74009.1 guanylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX07947.1 Guanylate kinase [Acetivibrio thermocellus AD2]
+ ANV75693.1 Guanylate kinase [Acetivibrio thermocellus DSM 2360]
+ EIC06145.1 Guanylate kinase [Acetivibrio thermocellus YS]
+ NLU26807.1 guanylate kinase [Acetivibrio thermocellus]
+Length=203
+
+ Score = 26.6 bits (57),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 59/151 (39%), Gaps = 24/151 (16%)
+
+Query  11   KGMLIVFEGISGCGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKITKAIDSIKLLTPG  70
+            +G+L+V  G SG GK      L   L D G        ++     ++ + +D +
+Sbjct  4    EGLLVVVSGPSGAGKG----TLLNLLKDSGDDNIRFSVSATTRAPRVGE-VDGVNYFFKT  58
+
+Query  71   VYSFL---------QWIGFLIDYFFKVVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIG  121
+               F+         +W+ +  D F+       K YI    +  Y  L+   V GA +++
+Sbjct  59   KEEFMLMIENDELFEWVEY-CDNFYGT----PKKYIEDTIKGGYDCLLEIEVEGAAKVMK  113
+
+Query  122  SFLHRIVKKPAMVFFLDVSPEVCDERIKKRG  152
+            ++   +      VF L  S E    RI+KRG
+Sbjct  114  AYPECV-----SVFILPPSFEELRRRIEKRG  139
+
+
+>NIK04346.1 guanylate kinase [Acetivibrio thermocellus]
+Length=204
+
+ Score = 26.6 bits (57),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 35/151 (23%), Positives = 59/151 (39%), Gaps = 24/151 (16%)
+
+Query  11   KGMLIVFEGISGCGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKITKAIDSIKLLTPG  70
+            +G+L+V  G SG GK      L   L D G        ++     ++ + +D +
+Sbjct  5    EGLLVVVSGPSGAGKG----TLLNLLKDSGDDNIRFSVSATTRAPRVGE-VDGVNYFFKT  59
+
+Query  71   VYSFL---------QWIGFLIDYFFKVVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIG  121
+               F+         +W+ +  D F+       K YI    +  Y  L+   V GA +++
+Sbjct  60   KEEFMLMIENDELFEWVEY-CDNFYGT----PKKYIEDTIKGGYDCLLEIEVEGAAKVMK  114
+
+Query  122  SFLHRIVKKPAMVFFLDVSPEVCDERIKKRG  152
+            ++   +      VF L  S E    RI+KRG
+Sbjct  115  AYPECV-----SVFILPPSFEELRRRIEKRG  140
+
+
+>NLU27407.1 sugar ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=501
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 11/26 (42%), Positives = 18/26 (69%), Gaps = 0/26 (0%)
+
+Query  11   KGMLIVFEGISGCGKSESVEALRKYL  36
+            KG ++ F G+ G G+SE ++A+  YL
+Sbjct  275  KGEILGFAGLVGAGRSELMQAILGYL  300
+
+
+>WP_004463551.1 type II secretion system F family protein [Acetivibrio thermocellus]
+ ABN52337.1 Type II secretion system F domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ THJ76880.1 type II secretion system F family protein [Acetivibrio thermocellus]
+ CDG35801.1 type II secretion system protein [Acetivibrio thermocellus BC1]
+ HBW26123.1 type II secretion system F family protein [Acetivibrio thermocellus]
+Length=404
+
+ Score = 26.2 bits (56),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 25/52 (48%), Gaps = 8/52 (15%)
+
+Query  21  SGCGKSESVEALRKYLSDKGY-KTSVLEWNSNKIIRKITKAIDSIKLLTPGV  71
+           +G  K +S E LR+ L DKGY    ++E N       +   I  I+L  P V
+Sbjct  17  TGEAKVDSEEELRRLLLDKGYTPVEIVEKN-------VINDISQIRLFKPRV  61
+
+
+>CDG37226.1 hypothetical protein CTHBC1_2643 [Acetivibrio thermocellus BC1]
+Length=661
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 17/34 (50%), Gaps = 4/34 (12%)
+
+Query  76   QWIGFLIDYFFKVVPLLKKNY----ILIADRYIY  105
+            ++ G   DYF   VP+ KK Y      IAD  I+
+Sbjct  109  EFTGHTTDYFIDGVPVQKKEYDAKIAEIADENIF  142
+
+
+>WP_003515762.1 type II secretion system F family protein [Acetivibrio thermocellus]
+ ADU74172.1 Type II secretion system F domain [Acetivibrio thermocellus DSM
+1313]
+ ALX08115.1 Type II secretion system F domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV75862.1 Type II secretion system F domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC05865.1 Type II secretion system F domain-containing protein [Acetivibrio
+thermocellus YS]
+ NIK04515.1 type IV pilus assembly protein PilC [Acetivibrio thermocellus]
+Length=404
+
+ Score = 26.2 bits (56),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 18/52 (35%), Positives = 25/52 (48%), Gaps = 8/52 (15%)
+
+Query  21  SGCGKSESVEALRKYLSDKGY-KTSVLEWNSNKIIRKITKAIDSIKLLTPGV  71
+           +G  K +S E LR+ L DKGY    ++E N       +   I  I+L  P V
+Sbjct  17  TGEAKVDSEEELRRLLLDKGYTPVEIVEKN-------VINDISQIRLFKPRV  61
+
+
+>WP_011837813.1 malate dehydrogenase [Acetivibrio thermocellus]
+ ABN51582.1 malic protein NAD-binding protein [Acetivibrio thermocellus ATCC
+27405]
+ CDG35022.1 putative NAD-dependent malic enzyme 4 [Acetivibrio thermocellus
+BC1]
+ HBW26045.1 NAD-dependent malic enzyme [Acetivibrio thermocellus]
+Length=390
+
+ Score = 26.2 bits (56),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 15/70 (21%), Positives = 29/70 (41%), Gaps = 9/70 (13%)
+
+Query  107  GLIRDSVNGAGRIIG---------SFLHRIVKKPAMVFFLDVSPEVCDERIKKRGKALFH  157
+            G + D + GA   IG           +  + K P +    + +PE+  +  K+ G  +
+Sbjct  245  GTLEDVIKGADVFIGLSVPGTVTKDMVKSMAKDPIIFAMANPTPEIMPDEAKEAGAKVVG  304
+
+Query  158  TNRLIWENKL  167
+            T R  + N++
+Sbjct  305  TGRSDFPNQI  314
+
+
+>WP_003518291.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ANV75596.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 2360]
+ EIC03217.1 Spore coat protein CotH [Acetivibrio thermocellus YS]
+ ADU73913.1 Spore coat protein CotH [Acetivibrio thermocellus DSM 1313]
+ ALX07851.1 Spore coat protein CotH [Acetivibrio thermocellus AD2]
+ NIK04249.1 spore coat protein CotH [Acetivibrio thermocellus]
+Length=703
+
+ Score = 26.2 bits (56),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY+G+  +S+N    +I  +    VK  A  F+
+Sbjct  488  IVEKYIYSGVYENSINRINALISDY----VKNDATAFY  521
+
+
+>WP_136479204.1 CotH kinase family protein [Acetivibrio thermocellus]
+ THJ79054.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 26.2 bits (56),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY+G+  +S+N    +I  +    VK  A  F+
+Sbjct  488  IVEKYIYSGVYENSINRINALISDY----VKNDATAFY  521
+
+
+>WP_011838074.1 CotH kinase family protein [Acetivibrio thermocellus]
+ ABN52636.1 Spore coat protein CotH [Acetivibrio thermocellus ATCC 27405]
+ HBW27395.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 26.2 bits (56),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY+G+  +S+N    +I  +    VK  A  F+
+Sbjct  488  IVEKYIYSGVYENSINRINALISDY----VKNDATAFY  521
+
+
+>CDG36081.1 spore coat assembly protein-like protein [Acetivibrio thermocellus
+BC1]
+Length=709
+
+ Score = 26.2 bits (56),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY+G+  +S+N    +I  +    VK  A  F+
+Sbjct  488  IVEKYIYSGVYENSINRINALISDY----VKNDATAFY  521
+
+
+>WP_003512586.1 malate dehydrogenase [Acetivibrio thermocellus]
+ ADU74931.1 malic protein NAD-binding protein [Acetivibrio thermocellus DSM
+1313]
+ ALX08891.1 Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))
+[Acetivibrio thermocellus AD2]
+ ANV76641.1 Malate dehydrogenase (oxaloacetate-decarboxylating) (NADP(+))
+[Acetivibrio thermocellus DSM 2360]
+ EIC05123.1 malic protein NAD-binding protein [Acetivibrio thermocellus YS]
+ NIK05299.1 malate dehydrogenase (oxaloacetate-decarboxylating) [Acetivibrio
+thermocellus]
+Length=390
+
+ Score = 25.8 bits (55),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 15/70 (21%), Positives = 29/70 (41%), Gaps = 9/70 (13%)
+
+Query  107  GLIRDSVNGAGRIIG---------SFLHRIVKKPAMVFFLDVSPEVCDERIKKRGKALFH  157
+            G + D + GA   IG           +  + K P +    + +PE+  +  K+ G  +
+Sbjct  245  GTLEDVIKGADVFIGLSVPGTVTKDMVKSMAKDPIIFAMANPTPEIMPDEAKEAGAKVVG  304
+
+Query  158  TNRLIWENKL  167
+            T R  + N++
+Sbjct  305  TGRSDFPNQI  314
+
+
+>WP_003516673.1 IMP dehydrogenase [Acetivibrio thermocellus]
+ ANV76297.1 IMP dehydrogenase [Acetivibrio thermocellus DSM 2360]
+ SOD25046.1 IMP dehydrogenase [Acetivibrio thermocellus]
+Length=497
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 23/93 (25%), Positives = 42/93 (45%), Gaps = 4/93 (4%)
+
+Query  79   GFLIDYFFKVVPLLKKNYILIADRYIYTGL-IRDSVNGAGRIIG---SFLHRIVKKPAMV  134
+            GF++      +    K+ I + +R  ++ + I D    +G+++G   +  +RI + P
+Sbjct  102  GFVVSDSNLTIDSTLKDVIELKNRTGHSTIAITDDGTASGKLLGLVTTRDYRISRNPLDK  161
+
+Query  135  FFLDVSPEVCDERIKKRGKALFHTNRLIWENKL  167
+               D         + K G +L   N +IWENKL
+Sbjct  162  KVKDFMTPFSKLVVGKLGISLSEANDIIWENKL  194
+
+
+>WP_235715236.1 CotH kinase family protein [Acetivibrio thermocellus]
+Length=706
+
+ Score = 26.2 bits (56),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 21/38 (55%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY+G+  +S+N    +I  +    VK  A  F+
+Sbjct  491  IVEKYIYSGVYENSINRINALISDY----VKNDATAFY  524
+
+
+>WP_003520980.1 IMP dehydrogenase [Acetivibrio thermocellus]
+ CDG35374.1 Inosine-5'-monophosphate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN51916.1 IMP dehydrogenase [Acetivibrio thermocellus ATCC 27405]
+ ADU74604.1 IMP dehydrogenase [Acetivibrio thermocellus DSM 1313]
+ ALX08548.1 IMP dehydrogenase [Acetivibrio thermocellus AD2]
+ EIC05488.1 IMP dehydrogenase/GMP reductase [Acetivibrio thermocellus YS]
+Length=497
+
+ Score = 25.8 bits (55),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 23/93 (25%), Positives = 42/93 (45%), Gaps = 4/93 (4%)
+
+Query  79   GFLIDYFFKVVPLLKKNYILIADRYIYTGL-IRDSVNGAGRIIG---SFLHRIVKKPAMV  134
+            GF++      +    K+ I + +R  ++ + I D    +G+++G   +  +RI + P
+Sbjct  102  GFVVSDSNLTIDSTLKDVIELKNRTGHSTIAITDDGTASGKLLGLVTTRDYRISRDPLDK  161
+
+Query  135  FFLDVSPEVCDERIKKRGKALFHTNRLIWENKL  167
+               D         + K G +L   N +IWENKL
+Sbjct  162  KVKDFMTPFSKLVVGKLGISLSEANDIIWENKL  194
+
+
+>CDG36651.1 Protein mrp homolog [Acetivibrio thermocellus BC1]
+Length=277
+
+ Score = 25.8 bits (55),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  16  VFEGISGCGKSESVEALRKYLSDKGYKTSVLE  47
+           V  G  G GKS     + + L+ KGYK  VL+
+Sbjct  35  VMSGKGGVGKSTVSALIAEELNKKGYKVGVLD  66
+
+
+>THJ77608.1 DUF4355 domain-containing protein [Acetivibrio thermocellus]
+Length=204
+
+ Score = 25.4 bits (54),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 31/68 (46%), Gaps = 4/68 (6%)
+
+Query  1   MQQVKSTSSVKGMLIVFEGISGCGK--SESVEALRKYLS--DKGYKTSVLEWNSNKIIRK  56
+           M + K++  VK  L     + G  K  SE+ E  R + S  DK  +  +  W  N + R+
+Sbjct  20  MDENKTSDEVKAYLQGLMSVEGVQKFLSENEEGRRWFDSEKDKHLEKGLKTWKDNNLQRE  79
+
+Query  57  ITKAIDSI  64
+           I K I  +
+Sbjct  80  IDKKIKEL  87
+
+
+>WP_168796742.1 DUF4355 domain-containing protein [Acetivibrio thermocellus]
+Length=194
+
+ Score = 25.4 bits (54),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 20/68 (29%), Positives = 31/68 (46%), Gaps = 4/68 (6%)
+
+Query  1   MQQVKSTSSVKGMLIVFEGISGCGK--SESVEALRKYLS--DKGYKTSVLEWNSNKIIRK  56
+           M + K++  VK  L     + G  K  SE+ E  R + S  DK  +  +  W  N + R+
+Sbjct  10  MDENKTSDEVKAYLQGLMSVEGVQKFLSENEEGRRWFDSEKDKHLEKGLKTWKDNNLQRE  69
+
+Query  57  ITKAIDSI  64
+           I K I  +
+Sbjct  70  IDKKIKEL  77
+
+
+>WP_003518049.1 GTPase ObgE [Acetivibrio thermocellus]
+ A3DBS5.1 RecName: Full=GTPase Obg; AltName: Full=GTP-binding protein Obg
+[Acetivibrio thermocellus ATCC 27405]
+ ABN51404.1 GTP-binding protein Obg/CgtA [Acetivibrio thermocellus ATCC 27405]
+ ADU75112.1 GTP-binding protein Obg/CgtA [Acetivibrio thermocellus DSM 1313]
+ ALX09087.1 GTPase obg [Acetivibrio thermocellus AD2]
+ ANV76839.1 GTPase obg [Acetivibrio thermocellus DSM 2360]
+ EIC04989.1 GTP-binding protein Obg/CgtA [Acetivibrio thermocellus YS]
+Length=424
+
+ Score = 25.4 bits (54),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 44/104 (42%), Gaps = 14/104 (13%)
+
+Query  88   VVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFFLDVSP------  141
+            VV +  +N  ++AD     GLI  +  G G +   FL  I +   ++  +D+S
+Sbjct  199  VVNIDAENAFVMAD---IPGLIEGAHQGVG-LGHEFLKHIERTKLLIHVVDISGSEGRDP  254
+
+Query  142  ----EVCDERIKKRGKALFHTNRLIWENKLLKNKELYYLNKLRR  181
+                EV +E +KK    L    ++I  NK+        L K R+
+Sbjct  255  VQDFEVINEELKKYNPVLCERPQIIAANKMDVTGAEENLEKFRK  298
+
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  23   CGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKI  57
+             G  E++E  RK +  +GYK   +   SNK ++++
+Sbjct  287  TGAEENLEKFRKVIEPRGYKIFPVSAASNKGLKEL  321
+
+
+>NLU27015.1 spore coat protein [Acetivibrio thermocellus]
+Length=709
+
+ Score = 25.4 bits (54),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 12/38 (32%), Positives = 20/38 (53%), Gaps = 4/38 (11%)
+
+Query  99   IADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFF  136
+            I ++YIY G+  +S+N    +I  +    VK  A  F+
+Sbjct  488  IVEKYIYNGVYENSINRINALISDY----VKNDATAFY  521
+
+
+>CDG34841.1 GTPase obg [Acetivibrio thermocellus BC1]
+Length=424
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 44/104 (42%), Gaps = 14/104 (13%)
+
+Query  88   VVPLLKKNYILIADRYIYTGLIRDSVNGAGRIIGSFLHRIVKKPAMVFFLDVSP------  141
+            VV +  +N  ++AD     GLI  +  G G +   FL  I +   ++  +D+S
+Sbjct  199  VVNIDAENAFVMAD---IPGLIEGAHQGVG-LGHEFLKHIERTKLLIHVVDISGSEGRDP  254
+
+Query  142  ----EVCDERIKKRGKALFHTNRLIWENKLLKNKELYYLNKLRR  181
+                EV +E +KK    L    ++I  NK+        L K R+
+Sbjct  255  VQDFEVINEELKKYNPVLCERPQIIAANKMDVTGAEENLEKFRK  298
+
+
+ Score = 25.4 bits (54),  Expect = 8.5, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  23   CGKSESVEALRKYLSDKGYKTSVLEWNSNKIIRKI  57
+             G  E++E  RK +  +GYK   +   SNK ++++
+Sbjct  287  TGAEENLEKFRKVIEPRGYKIFPVSAASNKGLKEL  321
+
+
+>NLU27313.1 methyl-accepting chemotaxis protein [Acetivibrio thermocellus]
+Length=104
+
+ Score = 24.3 bits (51),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 11/25 (44%), Positives = 16/25 (64%), Gaps = 0/25 (0%)
+
+Query  50  SNKIIRKITKAIDSIKLLTPGVYSF  74
+           +NKI  +I KAI++ KL    V+S
+Sbjct  7   TNKIFNEIAKAIENTKLRVEDVFSL  31
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.322    0.140    0.409
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 15306
+Number of extensions: 765
+Number of successful extensions: 29
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 29
+Number of HSP's successfully gapped: 10
+Length of query: 230
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 144
+Effective length of database: 2157177
+Effective search space: 310633488
+Effective search space used: 310633488
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

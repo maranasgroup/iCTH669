@@ -1,0 +1,16 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+fpla Flavonifractor plautii 	
+eha Ethanoligenens harbinense 	
+ral Ruminococcus albus 	
+rch Ruminococcus champanellensis 	
+rum Ruminococcus sp. SR1/5 	
+rus Ruminococcus bicirculans 	
+ruj Ruminococcus bovis 	
+fpr Faecalibacterium prausnitzii L2-6 	
+fpa Faecalibacterium prausnitzii SL3/3 	
+fpra Faecalibacterium prausnitzii A2-165
+capr Caproiciproducens sp. NJN-50

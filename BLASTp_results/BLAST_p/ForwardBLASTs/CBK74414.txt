@@ -1,0 +1,185 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZENDDZ016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBK74414 5'-nucleotidase [Butyrivibrio fibrisolvens]
+
+Length=238
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517151.1 type II/IV secretion system protein [Acetivibri...  30.0    0.33   25%
+WP_003514839.1 phosphoglycerate dehydrogenase [Acetivibrio the...  25.8    6.2    71%
+WP_003516592.1 ribonucleoside triphosphate reductase [Acetivib...  25.8    7.7    28%
+WP_003515572.1 endolytic transglycosylase MltG [Acetivibrio th...  25.4    9.2    29%
+CDG36426.1 copper amine oxidase-like protein [Acetivibrio ther...  25.4    9.6    31%
+
+ALIGNMENTS
+>WP_003517151.1 type II/IV secretion system protein [Acetivibrio thermocellus]
+ CDG35545.1 type II secretion system protein E [Acetivibrio thermocellus
+BC1]
+ ABN52087.1 type II secretion system protein E [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74430.1 type II secretion system protein E [Acetivibrio thermocellus
+DSM 1313]
+ ALX08373.1 type II secretion system protein E [Acetivibrio thermocellus
+AD2]
+ ANV76122.1 type II secretion system protein E [Acetivibrio thermocellus
+DSM 2360]
+Length=561
+
+ Score = 30.0 bits (66),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 53/126 (42%), Gaps = 25/126 (20%)
+
+Query  10   GIQAAGIIRLARAAKE-FGEVWVVAPESQRSAASHSISLHNAID--------IYPCED--  58
+            GI    +++  R  K   G V +  PE     +  + +L++A+         I   ED
+Sbjct  296  GICQEDLVKFERMIKSPKGLVLITGPE----GSGKTTTLYSAVSEINSPNVHIITIEDPV  351
+
+Query  59   -FPIEGVHAYSCSGTPGDCVRVGSLSVMPAKPDVVLSGINFGLNVASDIQYSATAGAAFE  117
+             + IEGV+    +   G     G  S++   PDV++ G         DI+ + TA  A +
+Sbjct  352  EYVIEGVNQVQVNMKTGLTYEKGLSSILEQGPDVIVIG---------DIKDAKTAEIAVK  402
+
+Query  118  AAFQGY  123
+            AA  G+
+Sbjct  403  AAMGGH  408
+
+
+>WP_003514839.1 phosphoglycerate dehydrogenase [Acetivibrio thermocellus]
+ CDG37521.1 D-3-phosphoglycerate dehydrogenase [Acetivibrio thermocellus
+BC1]
+ ABN54231.1 D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein
+[Acetivibrio thermocellus ATCC 27405]
+ ADU73668.1 D-isomer specific 2-hydroxyacid dehydrogenase NAD-binding protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX07597.1 Phosphoglycerate dehydrogenase [Acetivibrio thermocellus AD2]
+ ANV75337.1 Phosphoglycerate dehydrogenase [Acetivibrio thermocellus DSM
+2360]
+Length=391
+
+ Score = 25.8 bits (55),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 13/17 (76%), Gaps = 1/17 (6%)
+
+Query  154  LEAGNIHN-VNFPDCPL  169
+            LE GNI N VNFP+C L
+Sbjct  296  LEYGNIKNSVNFPNCEL  312
+
+
+>WP_003516592.1 ribonucleoside triphosphate reductase [Acetivibrio thermocellus]
+ CDG35339.1 anaerobic ribonucleoside triphosphate reductase [Acetivibrio
+thermocellus BC1]
+ ABN51881.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74641.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08584.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus AD2]
+ ANV76333.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 2360]
+Length=696
+
+ Score = 25.8 bits (55),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 35/83 (42%), Gaps = 8/83 (10%)
+
+Query  15   GIIRLARAAKEFGEVWVVAPESQRSAASHSISLHNAIDIYPCEDFPIEGVHAYSCSGTP-  73
+            GI+ +  A K F    +  PE Q+ A      +H   DI    +F  E  H Y+   TP
+Sbjct  484  GIVGMNEALKNFMGKDITTPEGQKFAID---IMHYLRDI--LLEFQNETGHFYNLEATPA  538
+
+Query  74   -GDCVRVGSLSVMPAKPDVVLSG  95
+             G   R+  +      PD++ +G
+Sbjct  539  EGTSYRLAKID-KERYPDIITAG  560
+
+
+>WP_003515572.1 endolytic transglycosylase MltG [Acetivibrio thermocellus]
+ CDG35702.1 aminodeoxychorismate lyase [Acetivibrio thermocellus BC1]
+ ABN52240.1 aminodeoxychorismate lyase [Acetivibrio thermocellus ATCC 27405]
+ ADU74271.1 aminodeoxychorismate lyase [Acetivibrio thermocellus DSM 1313]
+ ALX08213.1 aminodeoxychorismate lyase [Acetivibrio thermocellus AD2]
+ ANV75961.1 aminodeoxychorismate lyase [Acetivibrio thermocellus DSM 2360]
+Length=373
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 14/48 (29%), Positives = 21/48 (44%), Gaps = 4/48 (8%)
+
+Query  127  ALSEGCNFSDVTDKYIREILKKLLDSPLEAGNIHNVNFPDCPLSDCQG  174
+            A  E CN    T+K+  E LK + ++P     +    FPD    D +
+Sbjct  162  AFLEACN----TEKFDYEFLKDIPENPQRENKLEGYLFPDTYFFDPKA  205
+
+
+>CDG36426.1 copper amine oxidase-like protein [Acetivibrio thermocellus BC1]
+Length=490
+
+ Score = 25.4 bits (54),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 11/35 (31%), Positives = 18/35 (51%), Gaps = 1/35 (3%)
+
+Query  38   RSAASHSISLHN-AIDIYPCEDFPIEGVHAYSCSG  71
+            R+    SI+ +N A+ ++  E +PI     Y C G
+Sbjct  376  RTFYEKSITSYNKALKVWTAESYPINYAMVYKCIG  410
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.137    0.411
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18322
+Number of extensions: 847
+Number of successful extensions: 20
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 2
+Length of query: 238
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 152
+Effective length of database: 2142420
+Effective search space: 325647840
+Effective search space used: 325647840
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

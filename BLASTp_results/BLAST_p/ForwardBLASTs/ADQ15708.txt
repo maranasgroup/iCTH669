@@ -1,0 +1,251 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W5KNTZ901R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADQ15708 5'-nucleotidase [Halanaerobium hydrogeniformans]
+
+Length=661
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003511658.1 AMP-binding protein [Acetivibrio thermocellus]      33.5    0.10   28%
+WP_003514458.1 PLP-dependent aspartate aminotransferase family...  30.0    1.0    28%
+WP_173668645.1 PLP-dependent aspartate aminotransferase family...  30.0    1.1    28%
+NLU26201.1 hypothetical protein [Acetivibrio thermocellus]         29.3    1.8    25%
+WP_136479351.1 hypothetical protein [Acetivibrio thermocellus]     28.9    2.5    32%
+WP_003513335.1 DNA replication/repair protein RecF [Acetivibri...  28.1    4.8    41%
+WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetiv...  26.9    8.0    23%
+
+ALIGNMENTS
+>WP_003511658.1 AMP-binding protein [Acetivibrio thermocellus]
+ CDG37605.1 AMP-dependent synthetase and ligase [Acetivibrio thermocellus
+BC1]
+ ABN54319.1 AMP-dependent synthetase and ligase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73757.1 AMP-dependent synthetase and ligase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07687.1 o-succinylbenzoate--CoA ligase [Acetivibrio thermocellus AD2]
+Length=545
+
+ Score = 33.5 bits (75),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 52/109 (48%), Gaps = 22/109 (20%)
+
+Query  54   LIPHYAGGNYNDSVLEEGFDFKSGGFARLASQIKEIRRRKTEKGEE--LLLLNAGDFI--  109
+            LI +   G Y   +  + FD K+  FA L      + +R  +KG++  +LL+N  +++
+Sbjct  40   LIENNPAGEYRRDMTWKVFDEKANRFANL------LIKRGIKKGDKVAILLMNCLEWLPI  93
+
+Query  110  ------GGSIFSWLNIRGYAPELKILQELKYDIAVIGNHEFDYGPELLG  152
+                   G++   LN R  A E+K   EL   IA++      +GPE +G
+Sbjct  94   YFGILKAGAVAVPLNFRYTAEEIKYCLELSDSIALV------FGPEFIG  136
+
+
+>WP_003514458.1 PLP-dependent aspartate aminotransferase family protein [Acetivibrio
+thermocellus]
+ ABN53998.1 Cys/Met metabolism pyridoxal-phosphate-dependent protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73478.1 Cys/Met metabolism pyridoxal-phosphate-dependent protein [Acetivibrio
+thermocellus DSM 1313]
+ CDG37319.1 Cystathionine gamma-lyase [Acetivibrio thermocellus BC1]
+ ALX07400.1 Cystathionine gamma-lyase [Acetivibrio thermocellus AD2]
+ ANV75139.1 Cystathionine gamma-lyase [Acetivibrio thermocellus DSM 2360]
+Length=386
+
+ Score = 30.0 bits (66),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 69/248 (28%), Positives = 102/248 (41%), Gaps = 58/248 (23%)
+
+Query  130  QELKYDIAVIGNHEFDYGPELLGDYLKEAGYPGAHEQTKILASNLKAPDDHVLKRDNLYQ  189
+            +EL+  IA I N +F +           A   G    + IL+  L +P DH++  D+LY
+Sbjct  62   EELENTIANIENGKFGF-----------AFSSGMAAVSTILS--LFSPKDHIIVSDDLYG  108
+
+Query  190  DTHIIELEAGLKIGF-FSLIG----RDAVDVIAKPGDMEFLNQHQTARNKIVDLKEKGAD  244
+             T+ +  E   K G  FS +     +D  + + +     F+        K+ DLK
+Sbjct  109  GTYRLFEEIYKKYGLEFSYVNTSRIQDIEEAVKENTKAFFIETPTNPMMKVADLK-----  163
+
+Query  245  LIIAITHSGVAEDRELAQEVEGIDIIVGGHSHTALFEPIIENNTIIVQADSYLKYLGQLN  304
+                 T S  A+DR+       I +IV     T  F+  +E    IV   S  KYLG  N
+Sbjct  164  -----TISRFAKDRK-------ILLIVDNTFLTPYFQRPLELGADIV-VHSGTKYLGGHN  210
+
+Query  305  --LA--YFPDDQEL----KIVNQKRNNDFLLPLDD------------EVEEDQEIANKVA  344
+              LA     +D+EL    K++ QK     L P D              +E+ QE A K+A
+Sbjct  211  DTLAGLVVVNDEELAERIKLI-QKSEGAVLSPFDSWLILRGIKTLGVRLEKQQENAMKIA  269
+
+Query  345  EY-TTHLN  351
+            ++  TH N
+Sbjct  270  KWLCTHKN  277
+
+
+>WP_173668645.1 PLP-dependent aspartate aminotransferase family protein [Acetivibrio
+thermocellus]
+Length=375
+
+ Score = 30.0 bits (66),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 69/248 (28%), Positives = 102/248 (41%), Gaps = 58/248 (23%)
+
+Query  130  QELKYDIAVIGNHEFDYGPELLGDYLKEAGYPGAHEQTKILASNLKAPDDHVLKRDNLYQ  189
+            +EL+  IA I N +F +           A   G    + IL+  L +P DH++  D+LY
+Sbjct  51   EELENTIANIENGKFGF-----------AFSSGMAAVSTILS--LFSPKDHIIVSDDLYG  97
+
+Query  190  DTHIIELEAGLKIGF-FSLIG----RDAVDVIAKPGDMEFLNQHQTARNKIVDLKEKGAD  244
+             T+ +  E   K G  FS +     +D  + + +     F+        K+ DLK
+Sbjct  98   GTYRLFEEIYKKYGLEFSYVNTSRIQDIEEAVKENTKAFFIETPTNPMMKVADLK-----  152
+
+Query  245  LIIAITHSGVAEDRELAQEVEGIDIIVGGHSHTALFEPIIENNTIIVQADSYLKYLGQLN  304
+                 T S  A+DR+       I +IV     T  F+  +E    IV   S  KYLG  N
+Sbjct  153  -----TISRFAKDRK-------ILLIVDNTFLTPYFQRPLELGADIV-VHSGTKYLGGHN  199
+
+Query  305  --LA--YFPDDQEL----KIVNQKRNNDFLLPLDD------------EVEEDQEIANKVA  344
+              LA     +D+EL    K++ QK     L P D              +E+ QE A K+A
+Sbjct  200  DTLAGLVVVNDEELAERIKLI-QKSEGAVLSPFDSWLILRGIKTLGVRLEKQQENAMKIA  258
+
+Query  345  EY-TTHLN  351
+            ++  TH N
+Sbjct  259  KWLCTHKN  266
+
+
+>NLU26201.1 hypothetical protein [Acetivibrio thermocellus]
+Length=421
+
+ Score = 29.3 bits (64),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 32/128 (25%), Positives = 63/128 (49%), Gaps = 19/128 (15%)
+
+Query  472  LEKLMEPHYFLHFSGLRYDYNPDDAV--LFQLPILDIPIPTTRAVK----NIEIFKGNGI  525
+            L+   + H  ++++   +DY P++ V    ++P++ +P  +   V     +I+ +  NG
+Sbjct  246  LKTFSKTH--VYWNSEFFDYVPNEIVSDTEEIPVMSVPNSSRIIVDGEPISIDAYTINGN  303
+
+Query  526  QPINDRE-AYELLEKDEERLYHVVTDA-----YVF---SFLPLVEELLPHIEFQPKK--E  574
+                 R+ AY L  K+ +R + +  D      Y+    S+ P+  EL  HI+  P+K  +
+Sbjct  304  NYFKLRDIAYLLKIKNSQRQFEIKWDNIAKTIYIITSESYTPVGGELKTHIDASPQKAVK  363
+
+Query  575  DGSPVSLE  582
+            + SPV L+
+Sbjct  364  NSSPVYLD  371
+
+
+>WP_136479351.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ78283.1 hypothetical protein EPD62_06810 [Acetivibrio thermocellus]
+Length=544
+
+ Score = 28.9 bits (63),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 10/31 (32%), Positives = 18/31 (58%), Gaps = 0/31 (0%)
+
+Query  580  SLEDMEDLTLTYQNRELKVWDTVVNYAASFA  610
+            +L+  +  TL +QN++ K+W  VV Y  +
+Sbjct  388  ALKKEKYFTLCFQNKDFKIWKDVVTYCKTLG  418
+
+
+>WP_003513335.1 DNA replication/repair protein RecF [Acetivibrio thermocellus]
+ A3DHZ7.1 RecName: Full=DNA replication and repair protein RecF [Acetivibrio
+thermocellus ATCC 27405]
+ CDG36897.1 DNA replication and repair protein RecF [Acetivibrio thermocellus
+BC1]
+ ABN53576.1 DNA replication and repair protein RecF [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73104.1 DNA replication and repair protein RecF [Acetivibrio thermocellus
+DSM 1313]
+ ALX07015.1 DNA replication and repair protein recF [Acetivibrio thermocellus
+AD2]
+ ANV74752.1 DNA replication and repair protein recF [Acetivibrio thermocellus
+DSM 2360]
+Length=369
+
+ Score = 28.1 bits (61),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 18/44 (41%), Positives = 24/44 (55%), Gaps = 1/44 (2%)
+
+Query  131  ELKYDIAVIGNHEFDYGPELLGDYLKEAGYPGAHEQTKILASNL  174
+            ELK  + +IG H  DY  EL G  LK  G  G  ++T +L+  L
+Sbjct  255  ELKRCVTLIGPHRDDYEMELNGLNLKMFGSQG-QQRTSLLSLKL  297
+
+
+>WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetivibrio thermocellus]
+ CDG35786.1 putative protein ymdB [Acetivibrio thermocellus BC1]
+ ABN52322.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU74187.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX08130.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+AD2]
+ ANV75877.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+DSM 2360]
+Length=260
+
+ Score = 26.9 bits (58),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 28/121 (23%), Positives = 53/121 (44%), Gaps = 15/121 (12%)
+
+Query  162  GAHEQTKILASNLKAPDDHVLKRDNL-----YQDTHIIELEAGLKIGFFSLIGRDAVDVI  216
+            G H  +K    N    D ++++  N       + + +I  E G K+G  +L+GR  +D I
+Sbjct  66   GNHTWSKKEIMNFIDSDSNIVRPANYPVELPGRGSTVICGENG-KVGILNLMGRIYMDSI  124
+
+Query  217  AKPGDMEFLNQHQTARNKIVDLKEKGADLIIAITHSGVAEDRELAQEVEG-IDIIVGGHS  275
+              P         + A  ++  LK     +I+ +     +E   LA  ++G +  ++G H+
+Sbjct  125  DCP--------FKAAERELEYLKNNCKVIIVDMHAEATSEKCALAWYLDGRVSCVLGTHT  176
+
+Query  276  H  276
+            H
+Sbjct  177  H  177
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.319    0.140    0.398
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 44926
+Number of extensions: 2282
+Number of successful extensions: 29
+Number of sequences better than 100: 9
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 28
+Number of HSP's successfully gapped: 9
+Length of query: 661
+Length of database: 2859109
+Length adjustment: 95
+Effective length of query: 566
+Effective length of database: 2083719
+Effective search space: 1179384954
+Effective search space used: 1179384954
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

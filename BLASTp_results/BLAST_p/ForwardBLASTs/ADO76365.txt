@@ -1,0 +1,296 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W5NT80J016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADO76365 5'-nucleotidase [Halanaerobium praevalens]
+
+Length=504
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      33.9    0.050  27%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      33.9    0.052  27%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      33.9    0.056  27%
+WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetiv...  31.2    0.29   23%
+WP_003514172.1 hypothetical protein [Acetivibrio thermocellus]     28.5    0.44   33%
+WP_003516761.1 hypothetical protein [Acetivibrio thermocellus]     28.5    0.48   33%
+NLU27773.1 CRISPR-associated endonuclease Cas2 [Acetivibrio th...  25.8    5.5    40%
+WP_136479308.1 PoNi-like cognate immunity protein [Acetivibrio...  26.9    6.6    36%
+WP_020457932.1 PoNi-like cognate immunity protein [Acetivibrio...  26.9    7.6    36%
+CDG36338.1 Urease accessory protein UreD [Acetivibrio thermoce...  26.6    8.9    21%
+WP_003515814.1 urease accessory protein UreD [Acetivibrio ther...  26.6    9.2    21%
+
+ALIGNMENTS
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 33.9 bits (76),  Expect = 0.050, Method: Compositional matrix adjust.
+ Identities = 32/118 (27%), Positives = 53/118 (45%), Gaps = 20/118 (17%)
+
+Query  140  GKEIPYTKDYIIKEYDGFKVGIFGLA-TPETAYKTHP--KNVEG----------LKFADP  186
+            G+ +   +   I E    KVG+       E  YK +P  K   G          LKF D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  VKIAQKSVDQLKDKVDVVIALSHLGISEGSDY--TSKMVAENV--DGIDLIIDGHSHN  240
+            +K   K +++L+ KVD++I   H G+ E  +     +  A ++  +G+D+I+  H H
+Sbjct  259  IK---KDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQ  313
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 33.9 bits (76),  Expect = 0.052, Method: Compositional matrix adjust.
+ Identities = 32/118 (27%), Positives = 53/118 (45%), Gaps = 20/118 (17%)
+
+Query  140  GKEIPYTKDYIIKEYDGFKVGIFGLA-TPETAYKTHP--KNVEG----------LKFADP  186
+            G+ +   +   I E    KVG+       E  YK +P  K   G          LKF D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  VKIAQKSVDQLKDKVDVVIALSHLGISEGSDY--TSKMVAENV--DGIDLIIDGHSHN  240
+            +K   K +++L+ KVD++I   H G+ E  +     +  A ++  +G+D+I+  H H
+Sbjct  259  IK---KDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQ  313
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 33.9 bits (76),  Expect = 0.056, Method: Compositional matrix adjust.
+ Identities = 32/118 (27%), Positives = 53/118 (45%), Gaps = 20/118 (17%)
+
+Query  140  GKEIPYTKDYIIKEYDGFKVGIFGLA-TPETAYKTHP--KNVEG----------LKFADP  186
+            G+ +   +   I E    KVG+       E  YK +P  K   G          LKF D
+Sbjct  199  GRNLEEARKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDS  258
+
+Query  187  VKIAQKSVDQLKDKVDVVIALSHLGISEGSDY--TSKMVAENV--DGIDLIIDGHSHN  240
+            +K   K +++L+ KVD++I   H G+ E  +     +  A ++  +G+D+I+  H H
+Sbjct  259  IK---KDIEELRSKVDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQ  313
+
+
+>WP_003515729.1 TIGR00282 family metallophosphoesterase [Acetivibrio thermocellus]
+ CDG35786.1 putative protein ymdB [Acetivibrio thermocellus BC1]
+ ABN52322.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU74187.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX08130.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+AD2]
+ ANV75877.1 Conserved hypothetical protein CHP00282 [Acetivibrio thermocellus
+DSM 2360]
+Length=260
+
+ Score = 31.2 bits (69),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 47/205 (23%), Positives = 89/205 (43%), Gaps = 46/205 (22%)
+
+Query  46   DYAGSMGYAKMATLIKEARREKENVMFLDAGDTFHGQTIANINQGESISHIL--DLMK--  101
+            D  G+ G      ++++ ++E++    +  G+   G        G  I++++  +L K
+Sbjct  8    DIFGNPGRKAAKEMVQKLKKERQIDFCIANGENAAG--------GSGITYVVAQELYKYG  59
+
+Query  102  LDALVLGNHDFNFGQARLNELAEMSNFPFLAANLVREDGK--EIPYTKDYIIKEYDGFKV  159
+            +DA+ LGNH ++          E+ NF    +N+VR      E+P     +I   +G KV
+Sbjct  60   IDAITLGNHTWS--------KKEIMNFIDSDSNIVRPANYPVELPGRGSTVICGENG-KV  110
+
+Query  160  GIFGLATPETAYKTHPKNVEGLKFAD----PVKIAQKSVDQLKDKVDVVIALSHLGISEG  215
+            GI               N+ G  + D    P K A++ ++ LK+   V+I   H   +E
+Sbjct  111  GIL--------------NLMGRIYMDSIDCPFKAAERELEYLKNNCKVIIVDMH---AEA  153
+
+Query  216  SDYTSKMVAENVDG-IDLIIDGHSH  239
+            +     + A  +DG +  ++  H+H
+Sbjct  154  TSEKCAL-AWYLDGRVSCVLGTHTH  177
+
+
+>WP_003514172.1 hypothetical protein [Acetivibrio thermocellus]
+ ANV77529.1 hypothetical protein LQRI_2788 [Acetivibrio thermocellus DSM
+2360]
+ EIC03731.1 hypothetical protein YSBL_2689 [Acetivibrio thermocellus YS]
+ CDG36584.1 hypothetical protein CTHBC1_1981 [Acetivibrio thermocellus BC1]
+ ADU75725.1 hypothetical protein Clo1313_2741 [Acetivibrio thermocellus DSM
+1313]
+ ALX09755.1 hypothetical protein AD2_02777 [Acetivibrio thermocellus AD2]
+Length=74
+
+ Score = 28.5 bits (62),  Expect = 0.44, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 25/45 (56%), Gaps = 3/45 (7%)
+
+Query  419  VKFSFDGDAEPGNRIKKVWVAGEKLDPNKIYTVATNDFMKAGGDG  463
+            VKF+ +GD  P   ++ VW  G + + +++  V     +KAGG G
+Sbjct  5    VKFTKEGDKIP---LEIVWDDGRRFEVDRVLDVTKAASLKAGGRG  46
+
+
+>WP_003516761.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN53289.1 hypothetical protein Cthe_2082 [Acetivibrio thermocellus ATCC
+27405]
+ NLU25992.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ77103.1 hypothetical protein EPD62_12915 [Acetivibrio thermocellus]
+ HBW26293.1 hypothetical protein [Acetivibrio thermocellus]
+Length=79
+
+ Score = 28.5 bits (62),  Expect = 0.48, Method: Composition-based stats.
+ Identities = 15/45 (33%), Positives = 25/45 (56%), Gaps = 3/45 (7%)
+
+Query  419  VKFSFDGDAEPGNRIKKVWVAGEKLDPNKIYTVATNDFMKAGGDG  463
+            VKF+ +GD  P   ++ VW  G + + +++  V     +KAGG G
+Sbjct  10   VKFTKEGDKIP---LEIVWDDGRRFEVDRVLDVTKAASLKAGGRG  51
+
+
+>NLU27773.1 CRISPR-associated endonuclease Cas2 [Acetivibrio thermocellus]
+Length=87
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 20/35 (57%), Gaps = 0/35 (0%)
+
+Query  261  KYLGYVDLSFADGEITDLKANLIPREATKDVEEDY  295
+            KYL +V  S  +GEITD     +  E  K ++E+Y
+Sbjct  23   KYLYWVQNSVFEGEITDANYLKLKAELKKIIDEEY  57
+
+
+>WP_136479308.1 PoNi-like cognate immunity protein, partial [Acetivibrio thermocellus]
+ THJ78577.1 DUF1910 domain-containing protein, partial [Acetivibrio thermocellus]
+Length=231
+
+ Score = 26.9 bits (58),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  370  VTQGDVITVLPFGNTAMLT-KVSGADLKAALEHGISEYP  407
+              + D+I  + F   A+L  K    +LKA +E+GI  YP
+Sbjct  6    CDKKDLIETIEFNQKAILKMKEKIINLKADIENGIQRYP  44
+
+
+>WP_020457932.1 PoNi-like cognate immunity protein [Acetivibrio thermocellus]
+ ABN54025.1 Domain of unknown function DUF1910 [Acetivibrio thermocellus
+ATCC 27405]
+Length=412
+
+ Score = 26.9 bits (58),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 14/39 (36%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  370  VTQGDVITVLPFGNTAMLT-KVSGADLKAALEHGISEYP  407
+              + D+I  + F   A+L  K    +LKA +E+GI  YP
+Sbjct  6    CDKKDLIETIEFNQKAILKMKEKIINLKADIENGIQRYP  44
+
+
+>CDG36338.1 Urease accessory protein UreD [Acetivibrio thermocellus BC1]
+Length=262
+
+ Score = 26.6 bits (57),  Expect = 8.9, Method: Compositional matrix adjust.
+ Identities = 32/152 (21%), Positives = 59/152 (39%), Gaps = 28/152 (18%)
+
+Query  183  FADPVKIAQKSVDQLKDKVDVVIALSHLGISEGSDYTSKMVAENVDGIDLIIDGHSHNVV  242
+            F  P KIA+   +     +++++  +  G+ EG +Y  ++  E   G  + ++G S+  +
+Sbjct  29   FTAPFKIAKPFYEGHGGFMNLMVMSASAGVMEGDNY--RIEVELDKGARVKLEGQSYQKI  86
+
+Query  243  ESGLMVNDTMIVMAGEYSKYLGYVDLSFADGEITDLKANLIPREATKDVEEDYIISTVVD  302
+                M N T +           Y   + ADG   D   N      T    +    S
+Sbjct  87   HR--MKNGTAV----------QYNSFTLADGAFLDYAPN-----PTIPFADSAFYSNTEC  129
+
+Query  303  RINRANEVITSQVVGETAVELNGARGNVRTGE  334
+            R+   +  I S+++         A G V++GE
+Sbjct  130  RMEEGSAFIYSEIL---------AAGRVKSGE  152
+
+
+>WP_003515814.1 urease accessory protein UreD [Acetivibrio thermocellus]
+ A3DGF4.1 RecName: Full=Urease accessory protein UreD [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53033.1 Urease accessory protein UreD [Acetivibrio thermocellus ATCC
+27405]
+ ADU75498.1 Urease accessory protein UreD [Acetivibrio thermocellus DSM 1313]
+ ALX09499.1 Urease accessory protein ureD [Acetivibrio thermocellus AD2]
+ ANV77253.1 Urease accessory protein ureD [Acetivibrio thermocellus DSM 2360]
+ EIC04623.1 Urease accessory protein UreD [Acetivibrio thermocellus YS]
+Length=262
+
+ Score = 26.6 bits (57),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 32/152 (21%), Positives = 59/152 (39%), Gaps = 28/152 (18%)
+
+Query  183  FADPVKIAQKSVDQLKDKVDVVIALSHLGISEGSDYTSKMVAENVDGIDLIIDGHSHNVV  242
+            F  P KIA+   +     +++++  +  G+ EG +Y  ++  E   G  + ++G S+  +
+Sbjct  29   FTAPFKIAKPFYEGHGGFMNLMVMSASAGVMEGDNY--RIEVELDKGARVKLEGQSYQKI  86
+
+Query  243  ESGLMVNDTMIVMAGEYSKYLGYVDLSFADGEITDLKANLIPREATKDVEEDYIISTVVD  302
+                M N T +           Y   + ADG   D   N      T    +    S
+Sbjct  87   HR--MKNGTAVQ----------YNSFTLADGAFLDYAPN-----PTIPFADSAFYSNTEC  129
+
+Query  303  RINRANEVITSQVVGETAVELNGARGNVRTGE  334
+            R+   +  I S+++         A G V++GE
+Sbjct  130  RMEEGSAFIYSEIL---------AAGRVKSGE  152
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.135    0.374
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 33790
+Number of extensions: 1564
+Number of successful extensions: 14
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 5
+Length of query: 504
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 411
+Effective length of database: 2085979
+Effective search space: 857337369
+Effective search space used: 857337369
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,187 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBR11U7013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADU27811 5'-nucleotidase [Ethanoligenens harbinense]
+
+Length=805
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+CDG36654.1 Cupin 2 conserved barrel domain protein [Acetivibri...  28.9    1.1    29%
+WP_011837847.1 tyrosine-type recombinase/integrase [Acetivibri...  28.5    4.5    30%
+CDG35085.1 Fructokinase-1 [Acetivibrio thermocellus BC1]           27.7    7.5    38%
+WP_003512676.1 carbohydrate kinase [Acetivibrio thermocellus]      27.7    7.7    38%
+NLU27780.1 carbohydrate kinase [Acetivibrio thermocellus]          27.7    7.8    38%
+CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocel...  27.3    9.2    29%
+WP_003511639.1 glycosyltransferase family 4 protein [Acetivibr...  27.3    9.6    29%
+
+ALIGNMENTS
+>CDG36654.1 Cupin 2 conserved barrel domain protein [Acetivibrio thermocellus
+BC1]
+Length=109
+
+ Score = 28.9 bits (63),  Expect = 1.1, Method: Composition-based stats.
+ Identities = 15/52 (29%), Positives = 26/52 (50%), Gaps = 1/52 (2%)
+
+Query  631  SHTIYVYQNGNYAEAYVNNTIGMTAVTNDMSAQSSDQAAAVAVMTSILNLPY  682
+            +H + V   G   E Y N+ + M  V  +M+ Q ++Q   +     I+N+PY
+Sbjct  28   NHMVLVKGTG-LPEHYSNSNVYMIIVRGEMTLQLNEQEPHLYTKGDIINIPY  78
+
+
+>WP_011837847.1 tyrosine-type recombinase/integrase [Acetivibrio thermocellus]
+ ABN51749.1 integrase family protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26913.1 site-specific integrase [Acetivibrio thermocellus]
+Length=506
+
+ Score = 28.5 bits (62),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 31/64 (48%), Gaps = 2/64 (3%)
+
+Query  13   LGLACAAGLVLGTSVPALAVTPSTDTITIFHTNDMHGHLIDAYNSSKVLTTIGADYTAGI  72
+            L L  A  L    S PA  + P+TD +++   + +   L      ++V  T  A Y +GI
+Sbjct  145  LSLNYAIELGWIESNPAKGINPATDEVSVLFVDFLLEWL--EMMRTRVRETTYASYNSGI  202
+
+Query  73   RESV  76
+            R+S+
+Sbjct  203  RQSI  206
+
+
+>CDG35085.1 Fructokinase-1 [Acetivibrio thermocellus BC1]
+Length=323
+
+ Score = 27.7 bits (60),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  9    WAGLLGLACAAGLVLGTSVPALAVTPSTDTITIF  42
+            W  LL  + AAG ++ T   A+   P  DTI  F
+Sbjct  282  WGELLAFSNAAGTIVATKKGAIPAMPDLDTINTF  315
+
+
+>WP_003512676.1 carbohydrate kinase [Acetivibrio thermocellus]
+ ABN51627.1 PfkB domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU74888.1 PfkB domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08843.1 Fructokinase [Acetivibrio thermocellus AD2]
+ ANV76593.1 Fructokinase [Acetivibrio thermocellus DSM 2360]
+Length=323
+
+ Score = 27.7 bits (60),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  9    WAGLLGLACAAGLVLGTSVPALAVTPSTDTITIF  42
+            W  LL  + AAG ++ T   A+   P  DTI  F
+Sbjct  282  WGELLAFSNAAGTIVATKKGAIPAMPDLDTINTF  315
+
+
+>NLU27780.1 carbohydrate kinase [Acetivibrio thermocellus]
+Length=323
+
+ Score = 27.7 bits (60),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  9    WAGLLGLACAAGLVLGTSVPALAVTPSTDTITIF  42
+            W  LL  + AAG ++ T   A+   P  DTI  F
+Sbjct  282  WGELLAFSNAAGTIVATKKGAIPAMPDLDTINTF  315
+
+
+>CDG37594.1 group 1 glycosyl transferase [Acetivibrio thermocellus BC1]
+Length=391
+
+ Score = 27.3 bits (59),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 28/62 (45%), Gaps = 12/62 (19%)
+
+Query  558  KAGGGTFAYPMSQGRIRLATSYVYPDYSASVTLTDSNGAVAN--------RQVVYSIDNT  609
+            +A  GT AY +  GR+ ++T Y Y    A   L +  G +A         + + Y +DN
+Sbjct  291  QAVSGTLAYAVGYGRVIISTPYSY----AKEMLAEGRGLLAEFEDADSLAKHIEYVLDNP  346
+
+Query  610  SA  611
+             A
+Sbjct  347  EA  348
+
+
+>WP_003511639.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+ ABN54309.1 glycosyl transferase group 1 [Acetivibrio thermocellus ATCC 27405]
+ ADU73747.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 1313]
+ ALX07677.1 glycosyl transferase group 1 [Acetivibrio thermocellus AD2]
+ ANV75419.1 glycosyl transferase group 1 [Acetivibrio thermocellus DSM 2360]
+ EIC05635.1 glycosyl transferase group 1 [Acetivibrio thermocellus YS]
+Length=391
+
+ Score = 27.3 bits (59),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 28/62 (45%), Gaps = 12/62 (19%)
+
+Query  558  KAGGGTFAYPMSQGRIRLATSYVYPDYSASVTLTDSNGAVAN--------RQVVYSIDNT  609
+            +A  GT AY +  GR+ ++T Y Y    A   L +  G +A         + + Y +DN
+Sbjct  291  QAVSGTLAYAVGYGRVIISTPYSY----AKEMLAEGRGLLAEFEDADSLAKHIEYVLDNP  346
+
+Query  610  SA  611
+             A
+Sbjct  347  EA  348
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.311    0.128    0.355
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 69649
+Number of extensions: 3267
+Number of successful extensions: 37
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 37
+Number of HSP's successfully gapped: 5
+Length of query: 805
+Length of database: 2835838
+Length adjustment: 97
+Effective length of query: 708
+Effective length of database: 2053727
+Effective search space: 1454038716
+Effective search space used: 1454038716
+T: 11
+A: 40
+X1: 16 (7.2 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 50 (23.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

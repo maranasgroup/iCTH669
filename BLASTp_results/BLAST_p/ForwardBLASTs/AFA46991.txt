@@ -1,0 +1,199 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WWTFB7P013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AFA46991 5'-nucleotidase [Acetobacterium woodii]
+
+Length=336
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516430.1 galactosyldiacylglycerol synthase [Acetivibrio ...  33.1    0.032  31%
+WP_020457792.1 galactosyldiacylglycerol synthase [Acetivibrio ...  33.5    0.043  31%
+WP_003513242.1 galactosyldiacylglycerol synthase [Acetivibrio ...  33.1    0.046  31%
+WP_003513246.1 AAA family ATPase [Acetivibrio thermocellus]        26.9    5.1    23%
+NLU26489.1 AAA family ATPase [Acetivibrio thermocellus]            26.9    5.2    23%
+WP_136479125.1 AAA family ATPase [Acetivibrio thermocellus]        26.9    5.2    23%
+NLU25790.1 4Fe-4S dicluster domain-containing protein [Acetivi...  26.6    5.6    28%
+
+ALIGNMENTS
+>WP_003516430.1 galactosyldiacylglycerol synthase [Acetivibrio thermocellus]
+ ALX07057.1 Monogalactosyldiacylglycerol synthase [Acetivibrio thermocellus
+AD2]
+ ANV74793.1 Monogalactosyldiacylglycerol synthase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04023.1 Monogalactosyldiacylglycerol synthase [Acetivibrio thermocellus
+YS]
+ PFH01319.1 processive 1,2-diacylglycerol beta-glucosyltransferase [Acetivibrio
+thermocellus AD2]
+Length=211
+
+ Score = 33.1 bits (74),  Expect = 0.032, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  93   KHYNLDITRAALVSGAQLAPYLAAFNTDLFLSANEEDVQEAINAGIAAGIIYTKHLAV  150
+            KHYNLD+   A+V+     P+    N + ++ A++   ++ I  GI+   I+T  L V
+Sbjct  122  KHYNLDVPSIAIVTDFVNHPFWFQNNIEAYIVAHDYIKRDMIECGISEDRIFTYGLPV  179
+
+
+>WP_020457792.1 galactosyldiacylglycerol synthase [Acetivibrio thermocellus]
+ ABN53616.1 Monogalactosyldiacylglycerol synthase [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27905.1 UDP-N-acetylglucosamine--LPS N-acetylglucosamine transferase
+[Acetivibrio thermocellus]
+Length=383
+
+ Score = 33.5 bits (75),  Expect = 0.043, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  93   KHYNLDITRAALVSGAQLAPYLAAFNTDLFLSANEEDVQEAINAGIAAGIIYTKHLAV  150
+            KHYNLD+   A+V+     P+    N + ++ A++   ++ I  GI+   I+T  L V
+Sbjct  122  KHYNLDVPSIAIVTDFVNHPFWFQNNIEAYIVAHDYIKRDMIECGISEDRIFTYGLPV  179
+
+
+>WP_003513242.1 galactosyldiacylglycerol synthase [Acetivibrio thermocellus]
+ NLU26487.1 UDP-N-acetylglucosamine--LPS N-acetylglucosamine transferase
+[Acetivibrio thermocellus]
+ THJ79194.1 UDP-N-acetylglucosamine--LPS N-acetylglucosamine transferase
+[Acetivibrio thermocellus]
+ CDG36937.1 Monogalactosyldiacylglycerol synthase [Acetivibrio thermocellus
+BC1]
+Length=383
+
+ Score = 33.1 bits (74),  Expect = 0.046, Method: Compositional matrix adjust.
+ Identities = 18/58 (31%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  93   KHYNLDITRAALVSGAQLAPYLAAFNTDLFLSANEEDVQEAINAGIAAGIIYTKHLAV  150
+            KHYNLD+   A+V+     P+    N + ++ A++   ++ I  GI+   I+T  L V
+Sbjct  122  KHYNLDVPSIAIVTDFVNHPFWFQNNIEAYIVAHDYIKRDMIECGISEDRIFTYGLPV  179
+
+
+>WP_003513246.1 AAA family ATPase [Acetivibrio thermocellus]
+ CDG36935.1 SMC protein-like protein [Acetivibrio thermocellus BC1]
+ ABN53614.1 SMC domain protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73143.1 SMC domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX07054.1 hypothetical protein AD2_00043 [Acetivibrio thermocellus AD2]
+ ANV74790.1 SMC domain-containing protein [Acetivibrio thermocellus DSM 2360]
+Length=883
+
+ Score = 26.9 bits (58),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 38/82 (46%), Gaps = 8/82 (10%)
+
+Query  182  GIEAFQANEIKNARNPLHEGPFAKFLKTISKIQKEFDKSQAPI--------RTALVTARN  233
+            GI A + NEIK+          AK+L+ I  +++  +K +           R + +   +
+Sbjct  548  GIIALEENEIKSEHVKTFREGLAKYLEAIENLKRLNEKREDAAKYLQSLYDRASSLFGES  607
+
+Query  234  APAHERVIRTLRAWDVRIDEAF  255
+                E ++R+L   D++I+E +
+Sbjct  608  FAKKEDLLRSLDGMDLKINELY  629
+
+
+>NLU26489.1 AAA family ATPase [Acetivibrio thermocellus]
+Length=883
+
+ Score = 26.9 bits (58),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 38/82 (46%), Gaps = 8/82 (10%)
+
+Query  182  GIEAFQANEIKNARNPLHEGPFAKFLKTISKIQKEFDKSQAPI--------RTALVTARN  233
+            GI A + NEIK+          AK+L+ I  +++  +K +           R + +   +
+Sbjct  548  GIIALEENEIKSEHVKTFREGLAKYLEAIENLKRLNEKREDAAKYLQSLYDRASSLFGES  607
+
+Query  234  APAHERVIRTLRAWDVRIDEAF  255
+                E ++R+L   D++I+E +
+Sbjct  608  FAKKEDLLRSLDGMDLKINELY  629
+
+
+>WP_136479125.1 AAA family ATPase [Acetivibrio thermocellus]
+ THJ79192.1 chromosome segregation protein SMC [Acetivibrio thermocellus]
+Length=883
+
+ Score = 26.9 bits (58),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 38/82 (46%), Gaps = 8/82 (10%)
+
+Query  182  GIEAFQANEIKNARNPLHEGPFAKFLKTISKIQKEFDKSQAPI--------RTALVTARN  233
+            GI A + NEIK+          AK+L+ I  +++  +K +           R + +   +
+Sbjct  548  GIIALEENEIKSEHVKTFREGLAKYLEAIENLKRLNEKREDAAKYLQSLYDRASSLFGES  607
+
+Query  234  APAHERVIRTLRAWDVRIDEAF  255
+                E ++R+L   D++I+E +
+Sbjct  608  FAKKEDLLRSLDGMDLKINELY  629
+
+
+>NLU25790.1 4Fe-4S dicluster domain-containing protein [Acetivibrio thermocellus]
+Length=369
+
+ Score = 26.6 bits (57),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 7/25 (28%), Positives = 14/25 (56%), Gaps = 0/25 (0%)
+
+Query  273  IYFDDQAIHTDATAEFVPSARVPYK  297
+            +Y+ D+ I     A F  + ++PY+
+Sbjct  332  MYYTDKCIQCGCCAYFCMAGKIPYQ  356
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.132    0.366
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 24797
+Number of extensions: 1017
+Number of successful extensions: 22
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 22
+Number of HSP's successfully gapped: 7
+Length of query: 336
+Length of database: 2835838
+Length adjustment: 90
+Effective length of query: 246
+Effective length of database: 2110168
+Effective search space: 519101328
+Effective search space used: 519101328
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 46 (22.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

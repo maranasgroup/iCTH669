@@ -1,0 +1,745 @@
+Start time: 18 Mar 2022 16:36:32
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_01085-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_01085 (Accession: QCU01028)
+accession: WP_003517805.1, fraction positive substitution: 0.82
+Found a significant match, eval: 9e-139
+building FASTA report for Clostridium thermocellum gene WP_003517805.1
+accession: WP_136479316.1, fraction positive substitution: 0.81
+Found a significant match, eval: 5e-138
+building FASTA report for Clostridium thermocellum gene WP_136479316.1
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+Found gene for related organism bhan:Blautia hansenii
+CGC63_12170-------------------------------------------------------------------------------------
+Building FASTA report for gene CGC63_12170 (Accession: ASM70181)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+Found gene for related organism rob:Blautia obeum
+CK5_06560-------------------------------------------------------------------------------------
+Building FASTA report for gene CK5_06560 (Accession: CBL22212)
+CK5_24160-------------------------------------------------------------------------------------
+Building FASTA report for gene CK5_24160 (Accession: CBL23734)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_10115-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_10115 (Accession: QCU02567)
+EYS05_16635-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_16635 (Accession: QCU03708)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+Found gene for related organism cpy:Lachnoclostridium phytofermentans
+Cphy_1387-------------------------------------------------------------------------------------
+Building FASTA report for gene Cphy_1387 (Accession: ABX41762)
+Cphy_1779-------------------------------------------------------------------------------------
+Building FASTA report for gene Cphy_1779 (Accession: ABX42149)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+Found gene for related organism lacy:Lachnoclostridium sp.
+A4V08_28760-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V08_28760 (Accession: ANU49228)
+
+Using Organism: Clostridium scindens (csci)
+Found gene for related organism csci:Clostridium scindens
+HDCHBGLK_00102-------------------------------------------------------------------------------------
+Building FASTA report for gene HDCHBGLK_00102 (Accession: QBF72757)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+Found gene for related organism rob:Blautia obeum
+CK5_24120-------------------------------------------------------------------------------------
+Building FASTA report for gene CK5_24120 (Accession: CBL23730)
+
+Using Organism: Blautia sp. (byl)
+Found gene for related organism byl:Blautia sp.
+A4V09_05530-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V09_05530 (Accession: ANU75270)
+
+Using Organism: Blautia hansenii (bhan)
+Found gene for related organism bhan:Blautia hansenii
+CGC63_07900-------------------------------------------------------------------------------------
+Building FASTA report for gene CGC63_07900 (Accession: ASM69468)
+
+Using Organism: Blautia argi (blau)
+Found gene for related organism blau:Blautia argi
+DQQ01_09640-------------------------------------------------------------------------------------
+Building FASTA report for gene DQQ01_09640 (Accession: AWY98368)
+
+Using Organism: Blautia producta (bpro)
+Found gene for related organism bpro:Blautia producta
+PMF13cell1_04267-------------------------------------------------------------------------------------
+Building FASTA report for gene PMF13cell1_04267 (Accession: QBE98701)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_14710-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_14710 (Accession: QCU03370)
+
+Using Organism: Blautia liquoris (bliq)
+Found gene for related organism bliq:Blautia liquoris
+INP51_03165-------------------------------------------------------------------------------------
+Building FASTA report for gene INP51_03165 (Accession: QOV19977)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+Found gene for related organism cpy:Lachnoclostridium phytofermentans
+Cphy_1375-------------------------------------------------------------------------------------
+Building FASTA report for gene Cphy_1375 (Accession: ABX41750)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+Found gene for related organism lacy:Lachnoclostridium sp.
+A4V08_28835-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V08_28835 (Accession: ANU49238)
+
+Using Organism: Clostridium scindens (csci)
+Found gene for related organism csci:Clostridium scindens
+HDCHBGLK_00123-------------------------------------------------------------------------------------
+Building FASTA report for gene HDCHBGLK_00123 (Accession: QBF72778)
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+Found gene for related organism byl:Blautia sp.
+A4V09_05545-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V09_05545 (Accession: ANU75273)
+
+Using Organism: Blautia hansenii (bhan)
+Found gene for related organism bhan:Blautia hansenii
+CGC63_07885-------------------------------------------------------------------------------------
+Building FASTA report for gene CGC63_07885 (Accession: ASM69465)
+
+Using Organism: Blautia argi (blau)
+Found gene for related organism blau:Blautia argi
+DQQ01_09625-------------------------------------------------------------------------------------
+Building FASTA report for gene DQQ01_09625 (Accession: AWY98365)
+
+Using Organism: Blautia producta (bpro)
+Found gene for related organism bpro:Blautia producta
+PMF13cell1_04264-------------------------------------------------------------------------------------
+Building FASTA report for gene PMF13cell1_04264 (Accession: QBE98698)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_14725-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_14725 (Accession: QCU03373)
+
+Using Organism: Blautia liquoris (bliq)
+Found gene for related organism bliq:Blautia liquoris
+INP51_03180-------------------------------------------------------------------------------------
+Building FASTA report for gene INP51_03180 (Accession: QOV19980)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+Found gene for related organism cpy:Lachnoclostridium phytofermentans
+Cphy_1378-------------------------------------------------------------------------------------
+Building FASTA report for gene Cphy_1378 (Accession: ABX41753)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+Found gene for related organism csci:Clostridium scindens
+HDCHBGLK_00120-------------------------------------------------------------------------------------
+Building FASTA report for gene HDCHBGLK_00120 (Accession: QBF72775)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+Found gene for related organism rob:Blautia obeum
+CK5_23990-------------------------------------------------------------------------------------
+Building FASTA report for gene CK5_23990 (Accession: CBL23720)
+
+Using Organism: Blautia sp. (byl)
+Found gene for related organism byl:Blautia sp.
+A4V09_05535-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V09_05535 (Accession: ANU75271)
+
+Using Organism: Blautia hansenii (bhan)
+Found gene for related organism bhan:Blautia hansenii
+CGC63_07895-------------------------------------------------------------------------------------
+Building FASTA report for gene CGC63_07895 (Accession: ASM69467)
+
+Using Organism: Blautia argi (blau)
+Found gene for related organism blau:Blautia argi
+DQQ01_09635-------------------------------------------------------------------------------------
+Building FASTA report for gene DQQ01_09635 (Accession: AWY98367)
+
+Using Organism: Blautia producta (bpro)
+Found gene for related organism bpro:Blautia producta
+PMF13cell1_04266-------------------------------------------------------------------------------------
+Building FASTA report for gene PMF13cell1_04266 (Accession: QBE98700)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_14715-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_14715 (Accession: QCU03371)
+
+Using Organism: Blautia liquoris (bliq)
+Found gene for related organism bliq:Blautia liquoris
+INP51_03170-------------------------------------------------------------------------------------
+Building FASTA report for gene INP51_03170 (Accession: QOV19978)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+Found gene for related organism cpy:Lachnoclostridium phytofermentans
+Cphy_1376-------------------------------------------------------------------------------------
+Building FASTA report for gene Cphy_1376 (Accession: ABX41751)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+Found gene for related organism lacy:Lachnoclostridium sp.
+A4V08_33955-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V08_33955 (Accession: ANU50081)
+
+Using Organism: Clostridium scindens (csci)
+Found gene for related organism csci:Clostridium scindens
+HDCHBGLK_00122-------------------------------------------------------------------------------------
+Building FASTA report for gene HDCHBGLK_00122 (Accession: QBF72777)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+Found gene for related organism rob:Blautia obeum
+CK5_24000-------------------------------------------------------------------------------------
+Building FASTA report for gene CK5_24000 (Accession: CBL23721)
+
+Using Organism: Blautia sp. (byl)
+Found gene for related organism byl:Blautia sp.
+A4V09_05540-------------------------------------------------------------------------------------
+Building FASTA report for gene A4V09_05540 (Accession: ANU75272)
+
+Using Organism: Blautia hansenii (bhan)
+Found gene for related organism bhan:Blautia hansenii
+CGC63_07890-------------------------------------------------------------------------------------
+Building FASTA report for gene CGC63_07890 (Accession: ASM69466)
+
+Using Organism: Blautia argi (blau)
+Found gene for related organism blau:Blautia argi
+DQQ01_09630-------------------------------------------------------------------------------------
+Building FASTA report for gene DQQ01_09630 (Accession: AWY98366)
+
+Using Organism: Blautia producta (bpro)
+Found gene for related organism bpro:Blautia producta
+PMF13cell1_04265-------------------------------------------------------------------------------------
+Building FASTA report for gene PMF13cell1_04265 (Accession: QBE98699)
+
+Using Organism: Blautia sp. (blab)
+Found gene for related organism blab:Blautia sp.
+EYS05_14720-------------------------------------------------------------------------------------
+Building FASTA report for gene EYS05_14720 (Accession: QCU03372)
+
+Using Organism: Blautia liquoris (bliq)
+Found gene for related organism bliq:Blautia liquoris
+INP51_03175-------------------------------------------------------------------------------------
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+Found gene for related organism cpy:Lachnoclostridium phytofermentans
+Cphy_1377-------------------------------------------------------------------------------------
+
+Using Organism: Lachnoclostridium sp. (lacy)
+Found gene for related organism lacy:Lachnoclostridium sp.
+A4V08_33945-------------------------------------------------------------------------------------
+
+Using Organism: Clostridium scindens (csci)
+Found gene for related organism csci:Clostridium scindens
+HDCHBGLK_00121-------------------------------------------------------------------------------------
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Coprococcus eutactus (cev)
+
+Using Organism: Blautia obeum (rob)
+
+Using Organism: Blautia sp. (byl)
+
+Using Organism: Blautia hansenii (bhan)
+
+Using Organism: Blautia argi (blau)
+
+Using Organism: Blautia producta (bpro)
+
+Using Organism: Blautia sp. (blab)
+
+Using Organism: Blautia liquoris (bliq)
+
+Using Organism: Lachnoclostridium phytofermentans (cpy)
+
+Using Organism: Lachnoclostridium sp. (lacy)
+
+Using Organism: Clostridium scindens (csci)
+end time: 22 Mar 2022 8:7:1

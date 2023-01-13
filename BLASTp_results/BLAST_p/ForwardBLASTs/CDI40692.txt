@@ -1,0 +1,142 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGZVXT7016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CDI40692 5'-nucleotidase [Tepidanaerobacter acetatoxydans]
+
+Length=256
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+NLU25866.1 hypothetical protein [Acetivibrio thermocellus]         30.0    0.26   25%
+WP_011838225.1 hypothetical protein [Acetivibrio thermocellus]     26.9    2.7    28%
+CDG36812.1 hypothetical protein CTHBC1_2212 [Acetivibrio therm...  25.8    3.4    33%
+WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio th...  25.0    9.3    35%
+
+ALIGNMENTS
+>NLU25866.1 hypothetical protein [Acetivibrio thermocellus]
+Length=203
+
+ Score = 30.0 bits (66),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 57/142 (40%), Gaps = 10/142 (7%)
+
+Query  111  VSAAIEAALSG----IPAIALSIISHNHNYENVSFNSAAQIVKKLCMQILERVFPED---  163
+            VS  I  ALS     I  +       N N     F      V+ L +    + FP
+Sbjct  38   VSYDILTALSENSDIIIELNTDFFETNTNVSGQFFRQLENAVQSLGLTFNRKEFPSAQYY  97
+
+Query  164  SLLNINIPSVEQDEIVGVAITHLGTIKYKNSFDRRMDPRGKIYYWLAGEAIDNDEIGSDV  223
+            S+L   I S  + +   +A+    +I  K SF R   P     Y++ G  +D ++I + +
+Sbjct  98   SILGFKIESKNKKQAQKIAVYVPRSIWTKESF-RNYLPLCGARYYITGHPMDAEDIVNKI  156
+
+Query  224  WAVKNKYI--SITPLLFDLTKY  243
+            W +  + I  +   ++FD T Y
+Sbjct  157  WEMDGQEIKNTFKLIVFDYTFY  178
+
+
+>WP_011838225.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52945.1 hypothetical protein Cthe_1724 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26516.1 virulence-related protein [Acetivibrio thermocellus]
+Length=250
+
+ Score = 26.9 bits (58),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 32/115 (28%), Positives = 50/115 (43%), Gaps = 14/115 (12%)
+
+Query  138  NVSFNSAAQIVKKLCMQILERVFPEDSLLNINIPSVEQDEIVGVAITHLGTIKYKN-SFD  196
+            N+ ++    IVK    ++ E    E  + N+N+   E  E    AIT +GT   K  SFD
+Sbjct  95   NMLYSKQQLIVK--TFELKEPFIEETFIKNLNLKRTETLEEFQNAITEVGTDGCKGISFD  152
+
+Query  197  RRMDPRGKIYYWLAGEAIDNDEIGS--------DVWAVKNKYISITPLLFDLTKY  243
+                 +G   + L GE + +++I +        +V A K K+ S      D  KY
+Sbjct  153  F---EKGTFTFKLLGETLSHEKISAFIELASLINVNAQKLKHTSFKQAQEDNPKY  204
+
+
+>CDG36812.1 hypothetical protein CTHBC1_2212 [Acetivibrio thermocellus BC1]
+Length=103
+
+ Score = 25.8 bits (55),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 18/43 (42%), Gaps = 0/43 (0%)
+
+Query  107  YSGTVSAAIEAALSGIPAIALSIISHNHNYENVSFNSAAQIVK  149
+            YSG      E  L G+  +   IIS    YE +    A  +VK
+Sbjct  6    YSGFYRTYEELKLIGMLMMRSWIISFYRTYEELKLRLAEYVVK  48
+
+
+>WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio thermocellus]
+Length=152
+
+ Score = 25.0 bits (53),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 13/37 (35%), Positives = 17/37 (46%), Gaps = 4/37 (11%)
+
+Query  45  ITMHKPLRTEKIH----IPNSKASGWKVNGTPSDCVK  77
+           I + K +R  KI       N K  GW    T +DC+K
+Sbjct  20  IVLSKKIRENKIQGYLAYHNGKVVGWCNTNTKADCLK  56
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.134    0.387
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16744
+Number of extensions: 678
+Number of successful extensions: 18
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 5
+Length of query: 256
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 169
+Effective length of database: 2134357
+Effective search space: 360706333
+Effective search space used: 360706333
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

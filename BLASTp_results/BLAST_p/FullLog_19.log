@@ -1,0 +1,232 @@
+Start time: 6 June 2022 9:12:40
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+Found gene for related organism txy:Thermoanaerobacterium xylanolyticum
+Thexy_1231-------------------------------------------------------------------------------------
+Building FASTA report for gene Thexy_1231 (Accession: AEF17264)
+Thexy_1993-------------------------------------------------------------------------------------
+Building FASTA report for gene Thexy_1993 (Accession: AEF18011)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+Found gene for related organism tsh:Thermoanaerobacterium saccharolyticum
+Tsac_0104-------------------------------------------------------------------------------------
+Building FASTA report for gene Tsac_0104 (Accession: AFK85140)
+Tsac_1882-------------------------------------------------------------------------------------
+Building FASTA report for gene Tsac_1882 (Accession: AFK86886)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+Found gene for related organism tnr:Thermodesulfobium narugense
+Thena_1251-------------------------------------------------------------------------------------
+Building FASTA report for gene Thena_1251 (Accession: AEE14870)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+Found gene for related organism taci:Thermodesulfobium acidiphilum
+TDSAC_1228-------------------------------------------------------------------------------------
+Building FASTA report for gene TDSAC_1228 (Accession: AWB10570)
+
+Using Organism: Mahella australiensis (mas)
+Found gene for related organism mas:Mahella australiensis
+Mahau_0949-------------------------------------------------------------------------------------
+Building FASTA report for gene Mahau_0949 (Accession: AEE96147)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+Found gene for related organism tep:Tepidanaerobacter acetatoxydans
+TepRe1_1333-------------------------------------------------------------------------------------
+Building FASTA report for gene TepRe1_1333 (Accession: AEE91479)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+Found gene for related organism tae:Tepidanaerobacter acetatoxydans
+TepiRe1_1445-------------------------------------------------------------------------------------
+Building FASTA report for gene TepiRe1_1445 (Accession: CDI40692)
+
+Using Organism: Thermosediminibacter oceani (toc)
+Found gene for related organism toc:Thermosediminibacter oceani
+Toce_1169-------------------------------------------------------------------------------------
+Building FASTA report for gene Toce_1169 (Accession: ADL07927)
+Toce_1667-------------------------------------------------------------------------------------
+Building FASTA report for gene Toce_1667 (Accession: ADL08404)
+
+Using Organism: Natranaerobius thermophilus (nth)
+Found gene for related organism nth:Natranaerobius thermophilus
+Nther_1598-------------------------------------------------------------------------------------
+Building FASTA report for gene Nther_1598 (Accession: ACB85172)
+
+Using Organism: Halothermothrix orenii (hor)
+Found gene for related organism hor:Halothermothrix orenii
+Hore_08830-------------------------------------------------------------------------------------
+Building FASTA report for gene Hore_08830 (Accession: ACL69639)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+end time: 6 June 2022 17:5:47

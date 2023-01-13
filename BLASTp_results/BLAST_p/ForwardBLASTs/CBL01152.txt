@@ -1,0 +1,352 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WG1J6S3013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= CBL01152 5'-nucleotidase [Faecalibacterium prausnitzii]
+
+Length=498
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517987.1 chemotaxis response regulator protein-glutamate...  29.3    1.4    36%
+WP_003517653.1 Stp1/IreP family PP2C-type Ser/Thr phosphatase ...  28.1    2.9    25%
+WP_020458089.1 hypothetical protein [Eubacteriales]                25.8    3.9    53%
+WP_004463409.1 peptide ABC transporter substrate-binding prote...  27.7    5.0    27%
+WP_023062377.1 peptide ABC transporter substrate-binding prote...  27.3    5.4    27%
+WP_003518684.1 copper amine oxidase N-terminal domain-containi...  27.3    5.6    23%
+WP_003517274.1 peptide ABC transporter substrate-binding prote...  27.3    6.2    27%
+WP_136479303.1 copper amine oxidase N-terminal domain-containi...  27.3    6.4    23%
+WP_003520936.1 peptide ABC transporter substrate-binding prote...  27.3    6.5    27%
+WP_004463666.1 ATP-dependent DNA helicase RecG [Acetivibrio th...  26.9    7.8    34%
+WP_003520560.1 ATP-dependent DNA helicase RecG [Acetivibrio th...  26.9    8.1    34%
+ABN52749.1 hypothetical protein Cthe_1521 [Acetivibrio thermoc...  26.2    9.1    26%
+WP_041734267.1 hypothetical protein [Acetivibrio thermocellus]     26.2    9.2    26%
+CDG36188.1 hypothetical protein CTHBC1_1547 [Acetivibrio therm...  26.2    9.8    26%
+
+ALIGNMENTS
+>WP_003517987.1 chemotaxis response regulator protein-glutamate methylesterase
+[Acetivibrio thermocellus]
+ CDG35203.1 Chemotaxis response regulator protein-glutamate methylesterase
+[Acetivibrio thermocellus BC1]
+ ABN51727.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74788.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08740.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus AD2]
+ ANV76492.1 response regulator receiver modulated CheB methylesterase [Acetivibrio
+thermocellus DSM 2360]
+Length=354
+
+ Score = 29.3 bits (64),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 25/50 (50%), Gaps = 1/50 (2%)
+
+Query  62   VIDSEYKGLSTIEIMNALAPDVVTIG-NHEVDYGIAHLLFIEKCARFPII  110
+            VID+   GL  IE    L PDV+T+     V  G+  L  + +  R P+I
+Sbjct  36   VIDTAKNGLEAIEKAQKLKPDVITLDLKMPVMDGLECLRKLNETMRIPVI  85
+
+
+>WP_003517653.1 Stp1/IreP family PP2C-type Ser/Thr phosphatase [Acetivibrio thermocellus]
+ CDG35266.1 protein serine/threonine phosphatases [Acetivibrio thermocellus
+BC1]
+ ABN51809.1 protein serine/threonine phosphatase [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74721.1 protein serine/threonine phosphatase [Acetivibrio thermocellus
+DSM 1313]
+ ALX08672.1 protein serine/threonine phosphatase [Acetivibrio thermocellus
+AD2]
+ ANV76424.1 protein serine/threonine phosphatase [Acetivibrio thermocellus
+DSM 2360]
+Length=245
+
+ Score = 28.1 bits (61),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 47/110 (43%), Gaps = 12/110 (11%)
+
+Query  379  MLREEAYTGHTEFYQLPSTLRLRYDRRKGDFDYFTYCGREVGKEIGDDALFTVGLQNYHF  438
+            ML+++ Y GH    ++       Y  R G  +  T     + + I + +L     +N+
+Sbjct  110  MLKDKMYVGHVGDSRV-------YLIRDGKIEKVTTDHSYIEELIKNGSLTREEAENHPN  162
+
+Query  439  KNIESFF-----NISYDTICKLQKPRSVATSCQDILMEYFREHEMLDAVV  483
+            KNI +       NI  DTI    K + +   C D L    +E E+LD ++
+Sbjct  163  KNIITRALGCEENILIDTITVDVKEKDIFVLCTDGLTNMLKEDEILDVIM  212
+
+
+>WP_020458089.1 MULTISPECIES: hypothetical protein [Eubacteriales]
+ AEO12412.1 hypothetical protein Cthe_3343 [Acetivibrio thermocellus ATCC
+27405]
+Length=69
+
+ Score = 25.8 bits (55),  Expect = 3.9, Method: Composition-based stats.
+ Identities = 9/17 (53%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  439  KNIESFFNISYDTICKL  455
+            KN+  F N+S+D +CKL
+Sbjct  49   KNLTDFRNLSWDELCKL  65
+
+
+>WP_004463409.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ ABN52144.1 extracellular solute-binding protein family 5 [Acetivibrio thermocellus
+ATCC 27405]
+ THJ77326.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ HBW27308.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+Length=555
+
+ Score = 27.7 bits (60),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 7/88 (8%)
+
+Query  50   IYAIAGDMFRGSVIDSEY---KGLSTIEIMNALAPDVVTIGNHEVDYGIAHLLFIEKCAR  106
+            +  IA  +F    ID      +G +  + +N    DV+  G   V  G+ +L   E
+Sbjct  10   VLVIASIVFSACSIDLSRLLEEGNNDYDFLNNGVDDVLDTG--PVKNGVLNLFSTEPDTL  67
+
+Query  107  FPIINANLYIKNTSTRLFTPYKILRMDG  134
+             PI+ +N Y+K  S  +F    ++R+DG
+Sbjct  68   NPILTSNAYVKEYSCFVFE--SLVRLDG  93
+
+
+>WP_023062377.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ CDG35604.1 family 5 extracellular solute-binding protein [Acetivibrio thermocellus
+BC1]
+Length=562
+
+ Score = 27.3 bits (59),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 7/88 (8%)
+
+Query  50   IYAIAGDMFRGSVIDSEY---KGLSTIEIMNALAPDVVTIGNHEVDYGIAHLLFIEKCAR  106
+            +  IA  +F    ID      +G +  + +N    DV+  G   V  G+ +L   E
+Sbjct  17   VLVIASIVFSACSIDLSRLLEEGNNDYDFLNNGVDDVLDTG--PVKNGVLNLFSTEPDTL  74
+
+Query  107  FPIINANLYIKNTSTRLFTPYKILRMDG  134
+             PI+ +N Y+K  S  +F    ++R+DG
+Sbjct  75   NPILTSNAYVKEYSCFVFE--SLVRLDG  100
+
+
+>WP_003518684.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ CDG35098.1 copper amine oxidase-like protein [Acetivibrio thermocellus BC1]
+ ABN51640.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74875.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 1313]
+ ALX08830.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus AD2]
+ ANV76580.1 copper amine oxidase-like domain-containing protein [Acetivibrio
+thermocellus DSM 2360]
+Length=732
+
+ Score = 27.3 bits (59),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 27/117 (23%), Positives = 54/117 (46%), Gaps = 15/117 (13%)
+
+Query  381  REEAYTGHTEFYQLPSTLRLRYDRRKGDFDYFTYCGREVGKEIGDDALFTVGLQNYHFKN  440
+            R + Y    EF +L S  ++ Y  + GD   FT  G +   ++  D+   +  +N
+Sbjct  616  RNKVYLYSNEFKELLSNFQVNYWEKIGDL-IFT-SGVDTDTKV--DSFHCINSRNSEL--  669
+
+Query  441  IESFFNI--------SYDTICKLQK-PRSVATSCQDILMEYFREHEMLDAVVDGRMT  488
+            +  +F++         Y  +  ++K P++  T+ + + +  FR  E +D VVD ++T
+Sbjct  670  LRDYFDVDKVVKAKGDYYIVYGIEKAPKTKYTNKKILYIYNFRTKEFVDLVVDFQLT  726
+
+
+>WP_003517274.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+Length=555
+
+ Score = 27.3 bits (59),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 7/88 (8%)
+
+Query  50   IYAIAGDMFRGSVIDSEY---KGLSTIEIMNALAPDVVTIGNHEVDYGIAHLLFIEKCAR  106
+            +  IA  +F    ID      +G +  + +N    DV+  G   V  G+ +L   E
+Sbjct  10   VLVIASIVFSACSIDLSRLLEEGNNDYDFLNNGMDDVLDTG--PVKNGVLNLFSTEPDTL  67
+
+Query  107  FPIINANLYIKNTSTRLFTPYKILRMDG  134
+             PI+ +N Y+K  S  +F    ++R+DG
+Sbjct  68   NPILTSNAYVKEYSCFVFE--SLVRLDG  93
+
+
+>WP_136479303.1 copper amine oxidase N-terminal domain-containing protein [Acetivibrio
+thermocellus]
+ THJ78625.1 copper amine oxidase [Acetivibrio thermocellus]
+Length=732
+
+ Score = 27.3 bits (59),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 27/117 (23%), Positives = 54/117 (46%), Gaps = 15/117 (13%)
+
+Query  381  REEAYTGHTEFYQLPSTLRLRYDRRKGDFDYFTYCGREVGKEIGDDALFTVGLQNYHFKN  440
+            R + Y    EF +L S  ++ Y  + GD   FT  G +   ++  D+   +  +N
+Sbjct  616  RNKVYLYSNEFKELLSNFQVNYWEKIGDL-IFT-SGVDTDTKV--DSFHCINSRNSEL--  669
+
+Query  441  IESFFNI--------SYDTICKLQK-PRSVATSCQDILMEYFREHEMLDAVVDGRMT  488
+            +  +F++         Y  +  ++K P++  T+ + + +  FR  E +D VVD ++T
+Sbjct  670  LRDYFDVDKVVKAKGDYYIVYGIEKAPKTKYTNKKILYIYNFRTKEFVDLVVDFQLT  726
+
+
+>WP_003520936.1 peptide ABC transporter substrate-binding protein [Acetivibrio
+thermocellus]
+ ANV76063.1 ABC-type transporter, periplasmic subunit [Acetivibrio thermocellus
+DSM 2360]
+ EIC05744.1 ABC-type transporter, periplasmic subunit [Acetivibrio thermocellus
+YS]
+ ADU74371.1 extracellular solute-binding protein family 5 [Acetivibrio thermocellus
+DSM 1313]
+ ALX08315.1 ABC-type transporter, periplasmic subunit [Acetivibrio thermocellus
+AD2]
+ PFH02588.1 peptide/nickel transport system substrate-binding protein [Acetivibrio
+thermocellus AD2]
+Length=562
+
+ Score = 27.3 bits (59),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 24/88 (27%), Positives = 40/88 (45%), Gaps = 7/88 (8%)
+
+Query  50   IYAIAGDMFRGSVIDSEY---KGLSTIEIMNALAPDVVTIGNHEVDYGIAHLLFIEKCAR  106
+            +  IA  +F    ID      +G +  + +N    DV+  G   V  G+ +L   E
+Sbjct  17   VLVIASIVFSACSIDLSRLLEEGNNDYDFLNNGMDDVLDTG--PVKNGVLNLFSTEPDTL  74
+
+Query  107  FPIINANLYIKNTSTRLFTPYKILRMDG  134
+             PI+ +N Y+K  S  +F    ++R+DG
+Sbjct  75   NPILTSNAYVKEYSCFVFE--SLVRLDG  100
+
+
+>WP_004463666.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+ CDG35948.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus BC1]
+ ABN52510.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus ATCC
+27405]
+ ADU74048.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus DSM
+1313]
+ ANV75732.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus DSM
+2360]
+ NLU27737.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+Length=694
+
+ Score = 26.9 bits (58),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 30/67 (45%), Gaps = 25/67 (37%)
+
+Query  334  GSGSIRAE---KLGPIVTYGDLIEGFPYD---------------------DGVFMFKVTG  369
+            G G  RA+   KLG I +  DLI  FPYD                     +G+ M KVT
+Sbjct  18   GVGDARAKLFHKLG-IFSIEDLITHFPYDYEDRSNIKKICQLTEGESCTFEGIIMSKVTE  76
+
+Query  370  QQLRQML  376
+            +++RQ L
+Sbjct  77   RKIRQGL  83
+
+
+>WP_003520560.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus]
+ ALX07986.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus AD2]
+ EIC06184.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus YS]
+ PFH02257.1 ATP-dependent DNA helicase RecG [Acetivibrio thermocellus AD2]
+Length=694
+
+ Score = 26.9 bits (58),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 23/67 (34%), Positives = 30/67 (45%), Gaps = 25/67 (37%)
+
+Query  334  GSGSIRAE---KLGPIVTYGDLIEGFPYD---------------------DGVFMFKVTG  369
+            G G  RA+   KLG I +  DLI  FPYD                     +G+ M KVT
+Sbjct  18   GVGDARAKLFHKLG-IFSIEDLITHFPYDYEDRSNIKKICQLTEGESCTFEGIIMSKVTE  76
+
+Query  370  QQLRQML  376
+            +++RQ L
+Sbjct  77   RKIRQGL  83
+
+
+>ABN52749.1 hypothetical protein Cthe_1521 [Acetivibrio thermocellus ATCC
+27405]
+Length=171
+
+ Score = 26.2 bits (56),  Expect = 9.1, Method: Compositional matrix adjust.
+ Identities = 9/34 (26%), Positives = 23/34 (68%), Gaps = 2/34 (6%)
+
+Query  352  LIEGFPYDDGVFMFKV--TGQQLRQMLHYMLREE  383
+            ++  F + DGV+++++   GQ++ ++ H+  +EE
+Sbjct  138  MVFAFWFMDGVYIYEIDENGQKINEIKHFFEKEE  171
+
+
+>WP_041734267.1 hypothetical protein [Acetivibrio thermocellus]
+Length=178
+
+ Score = 26.2 bits (56),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 9/34 (26%), Positives = 23/34 (68%), Gaps = 2/34 (6%)
+
+Query  352  LIEGFPYDDGVFMFKV--TGQQLRQMLHYMLREE  383
+            ++  F + DGV+++++   GQ++ ++ H+  +EE
+Sbjct  145  MVFAFWFMDGVYIYEIDENGQKINEIKHFFEKEE  178
+
+
+>CDG36188.1 hypothetical protein CTHBC1_1547 [Acetivibrio thermocellus BC1]
+Length=188
+
+ Score = 26.2 bits (56),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 9/34 (26%), Positives = 23/34 (68%), Gaps = 2/34 (6%)
+
+Query  352  LIEGFPYDDGVFMFKV--TGQQLRQMLHYMLREE  383
+            ++  F + DGV+++++   GQ++ ++ H+  +EE
+Sbjct  155  MVFAFWFMDGVYIYEIDENGQKINEIKHFFEKEE  188
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.322    0.139    0.413
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 32687
+Number of extensions: 1505
+Number of successful extensions: 14
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 2
+Length of query: 498
+Length of database: 2835838
+Length adjustment: 93
+Effective length of query: 405
+Effective length of database: 2085979
+Effective search space: 844821495
+Effective search space used: 844821495
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 48 (23.1 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

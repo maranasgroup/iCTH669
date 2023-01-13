@@ -1,0 +1,324 @@
+Start time: 25 May 2022 9:5:4
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+Found gene for related organism bfi:Butyrivibrio fibrisolvens
+CIY_16520-------------------------------------------------------------------------------------
+Building FASTA report for gene CIY_16520 (Accession: CBK74414)
+CIY_22480-------------------------------------------------------------------------------------
+Building FASTA report for gene CIY_22480 (Accession: CBK74924)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+Found gene for related organism bhu:Butyrivibrio hungatei
+bhn_I0015-------------------------------------------------------------------------------------
+Building FASTA report for gene bhn_I0015 (Accession: AOZ95051)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+Found gene for related organism cle:Cellulosilyticum lentocellum
+Clole_0636-------------------------------------------------------------------------------------
+Building FASTA report for gene Clole_0636 (Accession: ADZ82370)
+
+Using Organism: Cellulosilyticum sp. (cew)
+Found gene for related organism cew:Cellulosilyticum sp.
+EKH84_06520-------------------------------------------------------------------------------------
+Building FASTA report for gene EKH84_06520 (Accession: QEH68062)
+
+Using Organism: Roseburia hominis (rho)
+Found gene for related organism rho:Roseburia hominis
+RHOM_15940-------------------------------------------------------------------------------------
+Building FASTA report for gene RHOM_15940 (Accession: AEN98294)
+
+Using Organism: Roseburia intestinalis (rix)
+Found gene for related organism rix:Roseburia intestinalis
+RO1_31700-------------------------------------------------------------------------------------
+Building FASTA report for gene RO1_31700 (Accession: CBL13501)
+RO1_31790-------------------------------------------------------------------------------------
+Building FASTA report for gene RO1_31790 (Accession: CBL13509)
+
+Using Organism: Roseburia intestinalis (rim)
+Found gene for related organism rim:Roseburia intestinalis
+ROI_34400-------------------------------------------------------------------------------------
+Building FASTA report for gene ROI_34400 (Accession: CBL10271)
+ROI_34500-------------------------------------------------------------------------------------
+Building FASTA report for gene ROI_34500 (Accession: CBL10279)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+Found gene for related organism cct:Coprococcus catus
+CC1_20030-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_20030 (Accession: CBK80727)
+CC1_24850-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_24850 (Accession: CBK81135)
+CC1_31940-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_31940 (Accession: CBK81740)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+2.7.4.9-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.4.9 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+Found gene for related organism cle:Cellulosilyticum lentocellum
+Clole_3030-------------------------------------------------------------------------------------
+Building FASTA report for gene Clole_3030 (Accession: ADZ84727)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+Found gene for related organism coo:Coprococcus sp.
+CCU_18680-------------------------------------------------------------------------------------
+Building FASTA report for gene CCU_18680 (Accession: CBK83356)
+
+Using Organism: Coprococcus catus (cct)
+Found gene for related organism cct:Coprococcus catus
+CC1_21040-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_21040 (Accession: CBK80815)
+accession: WP_003514218.1, fraction positive substitution: 0.67
+Found a significant match, eval: 3e-64
+building FASTA report for Clostridium thermocellum gene WP_003514218.1
+
+Using Organism: Coprococcus comes (ccom)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+Found gene for related organism bfi:Butyrivibrio fibrisolvens
+CIY_16520-------------------------------------------------------------------------------------
+Building FASTA report for gene CIY_16520 (Accession: CBK74414)
+CIY_22480-------------------------------------------------------------------------------------
+Building FASTA report for gene CIY_22480 (Accession: CBK74924)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+Found gene for related organism bhu:Butyrivibrio hungatei
+bhn_I0015-------------------------------------------------------------------------------------
+Building FASTA report for gene bhn_I0015 (Accession: AOZ95051)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+Found gene for related organism cle:Cellulosilyticum lentocellum
+Clole_0636-------------------------------------------------------------------------------------
+Building FASTA report for gene Clole_0636 (Accession: ADZ82370)
+
+Using Organism: Cellulosilyticum sp. (cew)
+Found gene for related organism cew:Cellulosilyticum sp.
+EKH84_06520-------------------------------------------------------------------------------------
+Building FASTA report for gene EKH84_06520 (Accession: QEH68062)
+
+Using Organism: Roseburia hominis (rho)
+Found gene for related organism rho:Roseburia hominis
+RHOM_15940-------------------------------------------------------------------------------------
+Building FASTA report for gene RHOM_15940 (Accession: AEN98294)
+
+Using Organism: Roseburia intestinalis (rix)
+Found gene for related organism rix:Roseburia intestinalis
+RO1_31700-------------------------------------------------------------------------------------
+Building FASTA report for gene RO1_31700 (Accession: CBL13501)
+RO1_31790-------------------------------------------------------------------------------------
+Building FASTA report for gene RO1_31790 (Accession: CBL13509)
+
+Using Organism: Roseburia intestinalis (rim)
+Found gene for related organism rim:Roseburia intestinalis
+ROI_34400-------------------------------------------------------------------------------------
+Building FASTA report for gene ROI_34400 (Accession: CBL10271)
+ROI_34500-------------------------------------------------------------------------------------
+Building FASTA report for gene ROI_34500 (Accession: CBL10279)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+Found gene for related organism cct:Coprococcus catus
+CC1_20030-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_20030 (Accession: CBK80727)
+CC1_24850-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_24850 (Accession: CBK81135)
+CC1_31940-------------------------------------------------------------------------------------
+Building FASTA report for gene CC1_31940 (Accession: CBK81740)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.6.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.12 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+
+
+3.6.1.65-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.65 genes
+
+Using Organism: Butyrivibrio fibrisolvens (bfi)
+
+Using Organism: Butyrivibrio hungatei (bhu)
+
+Using Organism: Cellulosilyticum lentocellum (cle)
+
+Using Organism: Cellulosilyticum sp. (cew)
+
+Using Organism: Roseburia hominis (rho)
+
+Using Organism: Roseburia intestinalis (rix)
+
+Using Organism: Roseburia intestinalis (rim)
+
+Using Organism: Coprococcus sp. (coo)
+
+Using Organism: Coprococcus catus (cct)
+
+Using Organism: Coprococcus comes (ccom)
+end time: 25 May 2022 16:30:7

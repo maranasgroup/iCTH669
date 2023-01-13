@@ -1,0 +1,208 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UTXA06E01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= ARP49925 dTMP kinase [Ruminococcaceae bacterium]
+
+Length=222
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       197     2e-64  45%
+WP_020457900.1 DNA-directed RNA polymerase subunit beta [Aceti...  26.6    3.5    45%
+NIK03703.1 DNA-directed RNA polymerase subunit beta [Acetivibr...  26.6    3.6    45%
+WP_003515365.1 DNA-directed RNA polymerase subunit beta [Aceti...  26.6    3.6    45%
+CDG37245.1 phage portal protein, lambda family [Acetivibrio th...  26.2    4.6    29%
+HBW27836.1 TPA: hypothetical protein [Acetivibrio thermocellus]    25.4    6.8    25%
+WP_020457823.1 phage scaffolding protein [Acetivibrio thermoce...  25.0    7.0    25%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 197 bits (501),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 98/219 (45%), Positives = 143/219 (65%), Gaps = 4/219 (2%)
+
+Query  2    GKLLVLE-GLDGSGKQTQTALLDRAFSEAGAPSRRVSFPDYNQPSSALVKMYLHGEFGTQ  60
+            GKL+++E G D SGK TQT  L     + G   ++++FP+Y+  SSALVKMYL+G+FG
+Sbjct  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+
+Query  61   PQDVNPYAASSFYAVDRFASYRKFWKQDYDNGKCILADRYTTSNLVYQLPKLP-RNEWDA  119
+            P DV+PY AS+FYAVDRFASYR  W Q Y++G  ILADRYTTSN+V+Q  K+    E D
+Sbjct  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+
+Query  120  FTQWLLDYEYHRLELPIPDLTLFLDMPETVSEELLEKRYHGDEGQ--KDIHEKDTAFQHD  177
+            F  WL ++E+   +LP+PD  +FLDMP + S EL+++R +   G+  KDIHE++  +  +
+Sbjct  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVE  182
+
+Query  178  CRAAALYAANVLHWKVIPCSSGGAVRTPEQIAEQIRQTV  216
+                +LY A   +W  I C   G ++  ++I +++ + V
+Sbjct  183  SYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+
+
+>WP_020457900.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus]
+ A3DIZ4.1 RecName: Full=DNA-directed RNA polymerase subunit beta; Short=RNAP
+subunit beta; AltName: Full=RNA polymerase subunit beta;
+AltName: Full=Transcriptase subunit beta [Acetivibrio thermocellus
+ATCC 27405]
+ ABN53923.1 DNA-directed RNA polymerase, beta subunit [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27522.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus]
+Length=1250
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 19/38 (50%), Gaps = 6/38 (16%)
+
+Query  184   YAANVLHWKVIPCSSGGAVRTPEQIAEQIRQTVQKAGL  221
+             YAA  L WKV      GA        E I QT++KAGL
+Sbjct  992   YAAKALGWKVATPVFDGATE------EDIVQTLRKAGL  1023
+
+
+>NIK03703.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus]
+Length=1238
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 19/38 (50%), Gaps = 6/38 (16%)
+
+Query  184   YAANVLHWKVIPCSSGGAVRTPEQIAEQIRQTVQKAGL  221
+             YAA  L WKV      GA        E I QT++KAGL
+Sbjct  980   YAAKALGWKVATPVFDGATE------EDIVQTLRKAGL  1011
+
+
+>WP_003515365.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus]
+ CDG37188.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+BC1]
+ ADU73404.1 DNA-directed RNA polymerase, beta subunit [Acetivibrio thermocellus
+DSM 1313]
+ ALX07326.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+AD2]
+ ANV75064.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+DSM 2360]
+ EIC04207.1 DNA-directed RNA polymerase subunit beta [Acetivibrio thermocellus
+YS]
+Length=1250
+
+ Score = 26.6 bits (57),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 17/38 (45%), Positives = 19/38 (50%), Gaps = 6/38 (16%)
+
+Query  184   YAANVLHWKVIPCSSGGAVRTPEQIAEQIRQTVQKAGL  221
+             YAA  L WKV      GA        E I QT++KAGL
+Sbjct  992   YAAKALGWKVATPVFDGATE------EDIVQTLRKAGL  1023
+
+
+>CDG37245.1 phage portal protein, lambda family [Acetivibrio thermocellus
+BC1]
+Length=547
+
+ Score = 26.2 bits (56),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 27/55 (49%), Gaps = 1/55 (2%)
+
+Query  87   QDYDNGKCILADRYTTSNLVYQLPKLPRNEWDAFTQWLLDYEYHRLELPIPDLTL  141
+             +Y+ G  ++       ++ +  PK P N +DAF + L +     LE+P  DL L
+Sbjct  329  NEYEMGPGVINIMNPGEDVTFADPKRPSNGFDAFMRALCEQVGAALEIP-ADLLL  382
+
+
+>HBW27836.1 hypothetical protein [Acetivibrio thermocellus]
+Length=187
+
+ Score = 25.4 bits (54),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 17/69 (25%), Positives = 27/69 (39%), Gaps = 0/69 (0%)
+
+Query  56   EFGTQPQDVNPYAASSFYAVDRFASYRKFWKQDYDNGKCILADRYTTSNLVYQLPKLPRN  115
+            E+ T+ +++    A      +  A Y       +D  K ++ D  T   L  Q+  L  N
+Sbjct  89   EYETKIKNLTLDNAIKLALKEHKAKYEDLLVNKFDREKLVIKDDGTIEGLNEQIAALKEN  148
+
+Query  116  EWDAFTQWL  124
+              D F Q L
+Sbjct  149  YKDLFEQPL  157
+
+
+>WP_020457823.1 phage scaffolding protein [Acetivibrio thermocellus]
+ ABN53680.1 minor structural GP20 protein [Acetivibrio thermocellus ATCC
+27405]
+Length=185
+
+ Score = 25.0 bits (53),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 17/69 (25%), Positives = 27/69 (39%), Gaps = 0/69 (0%)
+
+Query  56   EFGTQPQDVNPYAASSFYAVDRFASYRKFWKQDYDNGKCILADRYTTSNLVYQLPKLPRN  115
+            E+ T+ +++    A      +  A Y       +D  K ++ D  T   L  Q+  L  N
+Sbjct  87   EYETKIKNLTLDNAIKLALKEHKAKYEDLLVNKFDREKLVIKDDGTIEGLNEQIAALKEN  146
+
+Query  116  EWDAFTQWL  124
+              D F Q L
+Sbjct  147  YKDLFEQPL  155
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.318    0.135    0.411
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 14176
+Number of extensions: 679
+Number of successful extensions: 12
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 3
+Length of query: 222
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 136
+Effective length of database: 2157177
+Effective search space: 293376072
+Effective search space used: 293376072
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

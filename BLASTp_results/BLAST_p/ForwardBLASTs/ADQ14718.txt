@@ -1,0 +1,180 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9W4VN4Z1013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADQ14718 5'-nucleotidase [Halanaerobium hydrogeniformans]
+
+Length=286
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518272.1 glycosyl hydrolase 53 family protein [Acetivibr...  26.9    3.9    26%
+WP_003517324.1 response regulator [Acetivibrio thermocellus]       25.8    7.8    39%
+WP_003513221.1 flagellar motor protein MotB [Acetivibrio therm...  25.4    9.0    22%
+WP_003516418.1 flagellar motor protein MotB [Acetivibrio therm...  25.4    9.3    22%
+
+ALIGNMENTS
+>WP_003518272.1 glycosyl hydrolase 53 family protein [Acetivibrio thermocellus]
+ CDG36075.1 glycosyl hydrolase [Acetivibrio thermocellus BC1]
+ ABN52631.1 glycosyl hydrolase 53 domain protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73918.1 glycosyl hydrolase 53 domain protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX07856.1 Arabinogalactan endo-1,4-beta-galactosidase, Cellulase [Acetivibrio
+thermocellus AD2]
+ ANV75601.1 Arabinogalactan endo-1,4-beta-galactosidase, Cellulase [Acetivibrio
+thermocellus DSM 2360]
+Length=415
+
+ Score = 26.9 bits (58),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 57/141 (40%), Gaps = 25/141 (18%)
+
+Query  144  VSMNYTEESDFKKAAEYIVDLLDSDKILVDDKNLLLNINFPVEINDEA--DIVITKLGK-  200
+            + M+Y E    K   ++I D++   K L D+K L +    P   N +          GK
+Sbjct  274  IGMDYWEAQACK---DFITDIIQKTKSLPDNKGLGVFYWEPQCYNWQYYNKGAFDLSGKP  330
+
+Query  201  SLYIDSFVEREDPFGNKYFWLNGSNKKLKDDNTDISEYLKGNISITPLKIDLTDNQQFKF  260
+            ++ +D+F+  + P    Y  LNG  +    D T +  YL G I
+Sbjct  331  TIALDAFLTSDTPDNLIYGDLNGDGRVNSTDYTLLKRYLLGAI-----------------  373
+
+Query  261  LSKNFPKKIKLKNKDLNLESR  281
+              + FP +  +K  DLNL+ R
+Sbjct  374  --QTFPYERGIKAADLNLDGR  392
+
+
+>WP_003517324.1 response regulator [Acetivibrio thermocellus]
+ ABN52810.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75372.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 1313]
+ ALX09366.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus AD2]
+ ANV77120.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 2360]
+Length=259
+
+ Score = 25.8 bits (55),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 11/28 (39%), Positives = 18/28 (64%), Gaps = 0/28 (0%)
+
+Query  96   AIEKLLDFEPDLIISGINHGPNLGLEIL  123
+             +EK+  + PD++I+ IN     GLE+L
+Sbjct  40   GLEKIQKYRPDIVIADINMPVMDGLEML  67
+
+
+>WP_003513221.1 flagellar motor protein MotB [Acetivibrio thermocellus]
+ CDG36949.1 OmpA/MotB [Acetivibrio thermocellus BC1]
+ ABN53628.1 OmpA/MotB domain protein [Acetivibrio thermocellus ATCC 27405]
+ NLU28030.1 flagellar motor protein MotB [Acetivibrio thermocellus]
+ THJ79206.1 hypothetical protein EPD62_00360 [Acetivibrio thermocellus]
+ HBW27893.1 hypothetical protein [Acetivibrio thermocellus]
+Length=266
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 32/144 (22%), Positives = 67/144 (47%), Gaps = 22/144 (15%)
+
+Query  153  DFKKAAEYIVDLLDSD---KILVDDKNLLLNINFPV-------EINDEADIVITKLG---  199
+            DF    + IV+ +D D   K++ DDK+L + +N  +       +I +     + K+G
+Sbjct  122  DFINEVQNIVEEMDLDEYVKVIEDDKSLTVRMNSVILFDLGKADIKEPGKETLRKIGTLI  181
+
+Query  200  KSLYIDSFVERED---PFGNKYFWLNG--SNKKLKDDNTDISEYLKGNISITPLKIDLTD  254
+            K L  ++ ++      P     F  N   S K+     T++  +L     + P+K+  T
+Sbjct  182  KQLNKNAVIQGHTDNLPINTMLFPTNWELSTKRA----TNVVLFLVDECGVDPVKLTATG  237
+
+Query  255  NQQFKFLSKNFPKKIKLKNKDLNL  278
+            N +F+ ++ N  ++ + KN+ +++
+Sbjct  238  NGEFRPIAPNDTEENRQKNRRIDI  261
+
+
+>WP_003516418.1 flagellar motor protein MotB [Acetivibrio thermocellus]
+ ADU73156.1 OmpA/MotB domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX07069.1 Motility protein B, N-terminal domain containing protein [Acetivibrio
+thermocellus AD2]
+ ANV74805.1 Motility protein B, N-terminal domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC04011.1 OmpA/MotB domain protein [Acetivibrio thermocellus YS]
+ PFH01331.1 chemotaxis protein MotB [Acetivibrio thermocellus AD2]
+Length=266
+
+ Score = 25.4 bits (54),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 32/144 (22%), Positives = 67/144 (47%), Gaps = 22/144 (15%)
+
+Query  153  DFKKAAEYIVDLLDSD---KILVDDKNLLLNINFPV-------EINDEADIVITKLG---  199
+            DF    + IV+ +D D   K++ DDK+L + +N  +       +I +     + K+G
+Sbjct  122  DFINEVQNIVEEMDLDEYVKVIEDDKSLTVRMNSVILFDLGKADIKEPGKETLRKIGTLI  181
+
+Query  200  KSLYIDSFVERED---PFGNKYFWLNG--SNKKLKDDNTDISEYLKGNISITPLKIDLTD  254
+            K L  ++ ++      P     F  N   S K+     T++  +L     + P+K+  T
+Sbjct  182  KQLNKNAVIQGHTDNLPINTMLFPTNWELSTKRA----TNVVLFLVDECGVDPVKLTATG  237
+
+Query  255  NQQFKFLSKNFPKKIKLKNKDLNL  278
+            N +F+ ++ N  ++ + KN+ +++
+Sbjct  238  NGEFRPIAPNDTEENRQKNRRIDI  261
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.137    0.385
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 26114
+Number of extensions: 1350
+Number of successful extensions: 31
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 7
+Length of query: 286
+Length of database: 2835838
+Length adjustment: 88
+Effective length of query: 198
+Effective length of database: 2126294
+Effective search space: 421006212
+Effective search space used: 421006212
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 34 (17.7 bits)
+S2: 46 (22.3 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

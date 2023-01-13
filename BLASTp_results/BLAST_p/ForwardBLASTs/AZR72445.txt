@@ -1,0 +1,256 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WUCNYDE013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AZR72445 5'-nucleotidase [Anoxybacter fermentans]
+
+Length=253
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003513282.1 2-oxoacid:acceptor oxidoreductase family protei...  26.6    2.7    39%
+WP_003513279.1 thiamine pyrophosphate-dependent enzyme [Acetiv...  26.2    5.5    41%
+WP_003512707.1 putative DNA modification/repair radical SAM pr...  25.8    6.3    33%
+CDG35103.1 radical SAM family protein [Acetivibrio thermocellu...  25.8    6.3    33%
+WP_003518655.1 SpoIID/LytB domain-containing protein [Acetivib...  26.2    6.3    30%
+NLU26458.1 glycoside hydrolase [Acetivibrio thermocellus]          25.4    6.9    28%
+NLU25980.1 SpoIID/LytB domain-containing protein [Acetivibrio ...  25.8    7.4    30%
+WP_003512180.1 ribonuclease R [Acetivibrio thermocellus]           25.8    7.5    29%
+WP_003518023.1 ribonuclease R [Acetivibrio thermocellus]           25.8    7.5    29%
+WP_011837938.1 SpoIID/LytB domain-containing protein [Acetivib...  25.8    7.7    30%
+
+ALIGNMENTS
+>WP_003513282.1 2-oxoacid:acceptor oxidoreductase family protein [Acetivibrio
+thermocellus]
+ CDG36913.1 pyruvate ferredoxin oxidoreductase subunit gamma [Acetivibrio
+thermocellus BC1]
+ ABN53592.1 pyruvate/ketoisovalerate oxidoreductase, gamma subunit [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73120.1 pyruvate/ketoisovalerate oxidoreductase, gamma subunit [Acetivibrio
+thermocellus DSM 1313]
+ ALX07031.1 pyruvate/ketoisovalerate oxidoreductase, gamma subunit [Acetivibrio
+thermocellus AD2]
+Length=192
+
+ Score = 26.6 bits (57),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 22/38 (58%), Gaps = 2/38 (5%)
+
+Query  142  EFTAQMVEWFKKQNLKKPTLLNINIPSLPR--EELNGV  177
+            EF   MVE FK +   KP ++  NI +L R  +E+ G+
+Sbjct  155  EFLKDMVESFKHKFANKPEVVEGNIKALERSMQEVKGL  192
+
+
+>WP_003513279.1 thiamine pyrophosphate-dependent enzyme [Acetivibrio thermocellus]
+ CDG36916.1 Pyruvate synthase subunit PorB [Acetivibrio thermocellus BC1]
+ ABN53595.1 thiamine pyrophosphate TPP-binding domain-containing protein
+[Acetivibrio thermocellus ATCC 27405]
+ ADU73123.1 thiamine pyrophosphate TPP-binding domain-containing protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX07034.1 Pyruvate synthase [Acetivibrio thermocellus AD2]
+Length=311
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 14/27 (52%), Gaps = 0/27 (0%)
+
+Query  3    ILLTNDDGIYSEGIQALRKRLEEEHDI  29
+            I    D G Y  G+QAL   +E  HD+
+Sbjct  104  IAFGGDGGTYDIGLQALSGAMERGHDM  130
+
+
+>WP_003512707.1 putative DNA modification/repair radical SAM protein [Acetivibrio
+thermocellus]
+ ABN51645.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74870.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08825.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus AD2]
+ ANV76575.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus DSM 2360]
+ EIC05166.1 radical SAM family protein [Acetivibrio thermocellus YS]
+Length=435
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 25/48 (52%), Gaps = 4/48 (8%)
+
+Query  200  RVYYWLAGEVVDDLEEEGTDLLAIKNN----QISITPISLNFTDYEML  243
+            R Y + A E++D+   +    L  K N     +S+ P+ +N  DYEML
+Sbjct  286  RFYGFSADELLDERNPDFDPKLDPKTNWAINNMSLFPVEINRADYEML  333
+
+
+>CDG35103.1 radical SAM family protein [Acetivibrio thermocellus BC1]
+Length=435
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 16/48 (33%), Positives = 25/48 (52%), Gaps = 4/48 (8%)
+
+Query  200  RVYYWLAGEVVDDLEEEGTDLLAIKNN----QISITPISLNFTDYEML  243
+            R Y + A E++D+   +    L  K N     +S+ P+ +N  DYEML
+Sbjct  286  RFYGFSADELLDERNPDFDPKLDPKTNWAINNMSLFPVEINRADYEML  333
+
+
+>WP_003518655.1 SpoIID/LytB domain-containing protein [Acetivibrio thermocellus]
+ ADU74319.1 SpoIID/LytB domain protein [Acetivibrio thermocellus DSM 1313]
+ ALX08263.1 SpoIID/LytB domain protein [Acetivibrio thermocellus AD2]
+ ANV76011.1 SpoIID/LytB domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC05820.1 SpoIID/LytB domain protein [Acetivibrio thermocellus YS]
+ PFH02536.1 stage II sporulation protein D [Acetivibrio thermocellus AD2]
+Length=570
+
+ Score = 26.2 bits (56),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 29/64 (45%), Gaps = 3/64 (5%)
+
+Query  133  DDWDFSYAVEFTAQMV-EWFKKQNLKKPTLLNINIPSLPREELNGVVITK--LGKRTYKN  189
+            D W +++ V FTAQ + +    + +K   +L I I           VI K   G++ Y N
+Sbjct  394  DSWHYNWEVSFTAQQIKQIMTDRGIKIGDILGIYITKRSEAGRATEVIVKGSQGEKVYTN  453
+
+Query  190  SFER  193
+            S  R
+Sbjct  454  SSTR  457
+
+
+>NLU26458.1 glycoside hydrolase [Acetivibrio thermocellus]
+Length=197
+
+ Score = 25.4 bits (54),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 28/69 (41%), Gaps = 3/69 (4%)
+
+Query  4   LLTNDDGIYSEGIQALRKRLEEEHDIYLFAPDRERSATGHAITLHHPLRAEEIKFRDSKA  63
+           LLT+  GI+ +G     K  E++H +  F   R   + G   T  HP   +     +S
+Sbjct  31  LLTDASGIFLDGDFQRNKYGEKKHILLKFIKSRLMDSEGGITTNTHPSMGDSNTLSESTG  90
+
+Query  64  ---RCWAIN  69
+               C  IN
+Sbjct  91  ILMECALIN  99
+
+
+>NLU25980.1 SpoIID/LytB domain-containing protein [Acetivibrio thermocellus]
+ CDG35654.1 SpoIID/LytB domain protein [Acetivibrio thermocellus BC1]
+Length=570
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 29/64 (45%), Gaps = 3/64 (5%)
+
+Query  133  DDWDFSYAVEFTAQMV-EWFKKQNLKKPTLLNINIPSLPREELNGVVITK--LGKRTYKN  189
+            D W +++ V FTAQ + +    + +K   +L I I           VI K   G++ Y N
+Sbjct  394  DSWHYNWEVSFTAQQIKQIMTDRGIKIGDILGIYITKRSEAGRATEVIVKGSHGEKVYTN  453
+
+Query  190  SFER  193
+            S  R
+Sbjct  454  SSTR  457
+
+
+>WP_003512180.1 ribonuclease R [Acetivibrio thermocellus]
+ ABN51387.1 ribonuclease R [Acetivibrio thermocellus ATCC 27405]
+ CDG34827.1 Ribonuclease R [Acetivibrio thermocellus BC1]
+ HBW27966.1 ribonuclease R [Acetivibrio thermocellus]
+Length=757
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 32/58 (55%), Gaps = 11/58 (19%)
+
+Query  169  LPREELNGVVITKLGKRTYKNSF---ERRIDPRGRVYYWLAGEVVDDLEEEGTDLLAI  223
+            +P++E+NG    K G++         E+R +  GR+      E++ D +E G+D+L+I
+Sbjct  164  IPKDEING---AKSGQKVVAEIVVWPEKRRNAEGRII-----EIIGDKDEPGSDILSI  213
+
+
+>WP_003518023.1 ribonuclease R [Acetivibrio thermocellus]
+ ADU75127.1 ribonuclease R [Acetivibrio thermocellus DSM 1313]
+ ALX09102.1 ribonuclease R [Acetivibrio thermocellus AD2]
+ ANV76854.1 ribonuclease R [Acetivibrio thermocellus DSM 2360]
+ EIC05004.1 ribonuclease R [Acetivibrio thermocellus YS]
+ NLU25648.1 ribonuclease R [Acetivibrio thermocellus]
+Length=757
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 32/58 (55%), Gaps = 11/58 (19%)
+
+Query  169  LPREELNGVVITKLGKRTYKNSF---ERRIDPRGRVYYWLAGEVVDDLEEEGTDLLAI  223
+            +P++E+NG    K G++         E+R +  GR+      E++ D +E G+D+L+I
+Sbjct  164  IPKDEING---AKSGQKVVAEIVVWPEKRRNAEGRII-----EIIGDKDEPGSDILSI  213
+
+
+>WP_011837938.1 SpoIID/LytB domain-containing protein [Acetivibrio thermocellus]
+ ABN52194.1 SpoIID/LytB domain protein [Acetivibrio thermocellus ATCC 27405]
+ HBW26904.1 SpoIID/LytB domain-containing protein [Acetivibrio thermocellus]
+Length=570
+
+ Score = 25.8 bits (55),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 19/64 (30%), Positives = 29/64 (45%), Gaps = 3/64 (5%)
+
+Query  133  DDWDFSYAVEFTAQMV-EWFKKQNLKKPTLLNINIPSLPREELNGVVITK--LGKRTYKN  189
+            D W +++ V FTAQ + +    + +K   +L I I           VI K   G++ Y N
+Sbjct  394  DSWHYNWEVSFTAQQIKQIMTDRGIKIGDILGIYITKRSEAGRATEVIVKGSHGEKVYTN  453
+
+Query  190  SFER  193
+            S  R
+Sbjct  454  SSTR  457
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.408
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17606
+Number of extensions: 821
+Number of successful extensions: 16
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 3
+Length of query: 253
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 166
+Effective length of database: 2134357
+Effective search space: 354303262
+Effective search space used: 354303262
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,289 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8XBAW2FK016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_187030878.1 deoxynucleoside kinase [Pusillibacter faecalis]     206     3e-68  46%
+WP_213543138.1 nucleoside kinase [Pusillibacter faecalis]          30.8    0.058  39%
+WP_213543824.1 DNA repair protein RadA [Pusillibacter faecalis]    27.3    0.70   24%
+BCK84533.1 hypothetical protein MM59RIKEN_18520 [Pusillibacter...  25.4    1.1    28%
+WP_213543681.1 polyphosphate kinase 1 [Pusillibacter faecalis]     26.6    1.6    28%
+WP_213542926.1 DUF1700 domain-containing protein [Pusillibacte...  25.4    2.6    56%
+WP_213543437.1 DeoR family transcriptional regulator [Pusillib...  23.9    5.6    44%
+WP_187031469.1 molecular chaperone HtpG [Pusillibacter faecalis]   24.6    6.4    27%
+WP_213543006.1 ParA family protein [Pusillibacter faecalis]        24.3    6.8    19%
+WP_055179971.1 AraC family transcriptional regulator [Oscillos...  24.3    7.4    27%
+WP_187031507.1 glutamine synthetase III [Pusillibacter faecalis]   24.3    7.5    42%
+BCK85296.1 hypothetical protein MM59RIKEN_26150 [Pusillibacter...  23.9    8.2    29%
+WP_213542712.1 hypothetical protein [Pusillibacter faecalis]       23.1    9.7    30%
+
+ALIGNMENTS
+>WP_187030878.1 deoxynucleoside kinase [Pusillibacter faecalis]
+ BCK85982.1 thymidylate kinase [Pusillibacter faecalis]
+Length=221
+
+ Score = 206 bits (524),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 104/225 (46%), Positives = 145/225 (64%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M GKLI+ E G D SGKATQT  L   L Q G   +K+ FP Y   S+A+V+ YL G+ G
+Sbjct  1    MSGKLIVFE-GTDGSGKATQTKLLCRYLEQYGIPYRKVDFPRYGQPSAAMVQEYLAGNLG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+            K P DV+ Y AS FYAVDR+ASYR +WG+ Y  G +I+ADRYTTSN VHQAAK+ D E K
+Sbjct  60   KHPGDVNAYAASLFYAVDRYASYRQDWGKFYESGGLIVADRYTTSNAVHQAAKLPDAERK  119
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              +LDWL++ E+ +  LP PD V++L+MP   + ++++ R  + TG Q  DIHE+++EYL
+Sbjct  120  P-YLDWLFDIEYRLLGLPKPDLVVYLEMPTLLTEQMLRRR-EQSTGAQ-ADIHEQDEEYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+               + N+  VA+  +W  I C   G  +  ++I ++V E    I+
+Sbjct  177  EHCHTNAEEVARLCSWSVIHCASGGKPRSPEDIHRQVLELAMKIL  221
+
+
+>WP_213543138.1 nucleoside kinase [Pusillibacter faecalis]
+ BCK84430.1 hypothetical protein MM59RIKEN_17490 [Pusillibacter faecalis]
+Length=311
+
+ Score = 30.8 bits (68),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 20/38 (53%), Gaps = 0/38 (0%)
+
+Query  6   IIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNY  43
+           II+ SG   SGK T   K+ E L ++G     I+  NY
+Sbjct  47  IILLSGPSGSGKTTTAMKIEEELERQGIVTHTISMDNY  84
+
+
+>WP_213543824.1 DNA repair protein RadA [Pusillibacter faecalis]
+ BCK85877.1 DNA repair protein RadA [Pusillibacter faecalis]
+Length=455
+
+ Score = 27.3 bits (59),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 22/91 (24%), Positives = 40/91 (44%), Gaps = 4/91 (4%)
+
+Query  141  DCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL--VESYRNSLYVAKKYN--W  196
+            DCV++ +     +  +++   N+F    +  + E  D  L  VE+    L   +  +
+Sbjct  232  DCVLYFEGDQHTTYRILRAAKNRFGATNEIGVFEMRDVGLAEVENPSEMLLSGRPEDAPG  291
+
+Query  197  IKIECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+              + CV +GV   + EIQ  V  A +G  R+
+Sbjct  292  TCVTCVMEGVRPVLAEIQALVGTASAGNPRR  322
+
+
+>BCK84533.1 hypothetical protein MM59RIKEN_18520 [Pusillibacter faecalis]
+Length=85
+
+ Score = 25.4 bits (54),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 33/76 (43%), Gaps = 8/76 (11%)
+
+Query  2   KGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGK  61
+           K K+I I +     GK T    L   LVQ+G   KK+   + D   S  V + +     K
+Sbjct  3   KCKVIAITNQKGGLGKTTTAVNLGVGLVQQG---KKVLLVDADPQESLTVSLGV-----K  54
+
+Query  62  DPNDVSPYVASTFYAV  77
+           +P+D+   ++     V
+Sbjct  55  NPDDLETTISDLMQVV  70
+
+
+>WP_213543681.1 polyphosphate kinase 1 [Pusillibacter faecalis]
+ BCK84885.1 polyphosphate kinase [Pusillibacter faecalis]
+Length=693
+
+ Score = 26.6 bits (57),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 19/69 (28%), Positives = 27/69 (39%), Gaps = 5/69 (7%)
+
+Query  40   FPNYDSDSSALVKMYLNGDFGKDPN-----DVSPYVASTFYAVDRFASYRTEWGQAYNDG  94
+            F  Y   + +L++M  N D   D       D   ++A       R A  R E  +   DG
+Sbjct  206  FKGYRVKAKSLLRMTRNADIDADALYDEDLDYREFMAELVKRRRRLAPVRLELSRQLEDG  265
+
+Query  95   WIILADRYT  103
+             + L  RYT
+Sbjct  266  IVRLLCRYT  274
+
+
+>WP_213542926.1 DUF1700 domain-containing protein [Pusillibacter faecalis]
+ BCK83924.1 hypothetical protein MM59RIKEN_12430 [Pusillibacter faecalis]
+Length=282
+
+ Score = 25.4 bits (54),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 11/18 (61%), Gaps = 1/18 (6%)
+
+Query  122  RFLDWL-WNFEFEIYKLP  138
+            RFL WL WNF   +  LP
+Sbjct  180  RFLAWLLWNFALALCALP  197
+
+
+>WP_213543437.1 DeoR family transcriptional regulator [Pusillibacter faecalis]
+ BCK85232.1 hypothetical protein MM59RIKEN_25510 [Pusillibacter faecalis]
+Length=113
+
+ Score = 23.9 bits (50),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+
+Query  128  WNFEFEIYKLPVPDCVIF  145
+             NFEF     P+P C+ F
+Sbjct  1    MNFEFMTIDTPLPPCMAF  18
+
+
+>WP_187031469.1 molecular chaperone HtpG [Pusillibacter faecalis]
+ BCK84446.1 chaperone protein HtpG [Pusillibacter faecalis]
+Length=627
+
+ Score = 24.6 bits (52),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 18/66 (27%), Positives = 28/66 (42%), Gaps = 6/66 (9%)
+
+Query  89   QAYNDGWIILADRYTTSNMVH------QAAKIKDMEEKDRFLDWLWNFEFEIYKLPVPDC  142
+            QA      + ADR    N+ H      +AA   D E+  ++   L+N    I  LP+ D
+Sbjct  556  QAVQPDMPLHADRILELNVEHPAFAALEAAVTADPEKARKYASLLYNQALLIAGLPLEDP  615
+
+Query  143  VIFLDM  148
+              + D+
+Sbjct  616  SGYTDL  621
+
+
+>WP_213543006.1 ParA family protein [Pusillibacter faecalis]
+ BCK84120.1 sporulation initiation inhibitor Soj [Pusillibacter faecalis]
+Length=252
+
+ Score = 24.3 bits (51),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 28/150 (19%), Positives = 55/150 (37%), Gaps = 24/150 (16%)
+
+Query  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+            GK++ I +     GK T    L   L + G   K++   ++D  ++A   M ++    K
+Sbjct  2    GKIVAIVNQKGGVGKTTTCVNLTAALTEAG---KRVLLCDFDPQANATSGMGVDKTVSKG  58
+
+Query  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+              +V        +A+      +T WG              +   +     ++  +E+++
+Sbjct  59   IYEVVIGDVPADHAI-----VQTRWGDVLP----------SNKALAGAGVELIALEQRES  103
+
+Query  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSF  152
+             L        ++Y        IF+D PPS
+Sbjct  104  LLRKALAPVRDVYDF------IFIDCPPSL  127
+
+
+>WP_055179971.1 MULTISPECIES: AraC family transcriptional regulator [Oscillospiraceae]
+Length=325
+
+ Score = 24.3 bits (51),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 9/33 (27%), Positives = 16/33 (48%), Gaps = 0/33 (0%)
+
+Query  65   DVSPYVASTFYAVDRFASYRTEWGQAYNDGWII  97
+             V+P +      + +F+ YR   G  Y DG ++
+Sbjct  157  SVTPVMEQVLSEISKFSQYRGGLGYLYLDGKLL  189
+
+
+>WP_187031507.1 glutamine synthetase III [Pusillibacter faecalis]
+ BCK84466.1 glutamine synthetase [Pusillibacter faecalis]
+Length=695
+
+ Score = 24.3 bits (51),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 10/24 (42%), Positives = 12/24 (50%), Gaps = 0/24 (0%)
+
+Query  88   GQAYNDGWIILADRYTTSNMVHQA  111
+            G  Y+D WI  A R   SN+   A
+Sbjct  510  GNGYDDAWIAEAARRGLSNLASTA  533
+
+
+>BCK85296.1 hypothetical protein MM59RIKEN_26150 [Pusillibacter faecalis]
+Length=265
+
+ Score = 23.9 bits (50),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 21/72 (29%), Positives = 32/72 (44%), Gaps = 3/72 (4%)
+
+Query  133  EIYKLPVPDCVIFL-DMPPSFSR--ELMKERANKFTGEQKKDIHERNDEYLVESYRNSLY  189
+            EI  +P   C++ L  +PP FS   +L K    K+T E  K  +  + E L       L
+Sbjct  173  EITTMPGDKCILQLRGLPPFFSPKYDLKKHPNYKYTAEFDKKKNAFHLESLFRHRPLRLK  232
+
+Query  190  VAKKYNWIKIEC  201
+               KY   +++C
+Sbjct  233  PEDKYTVYEVDC  244
+
+
+>WP_213542712.1 hypothetical protein [Pusillibacter faecalis]
+ BCK83460.1 hypothetical protein MM59RIKEN_07790 [Pusillibacter faecalis]
+Length=135
+
+ Score = 23.1 bits (48),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 20/67 (30%), Positives = 32/67 (48%), Gaps = 8/67 (12%)
+
+Query  6   IIIESGADASGKATQTNKLYERLVQEG-YKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+           I+I SG   +G+  QT K+ E++   G  +  + +F       S  V     G +GK P
+Sbjct  18  IVIYSGFGVAGR-IQTAKV-EKVTPSGIVRTNRGSFKESSWSWSGRV-----GGYGKTPG  70
+
+Query  65  DVSPYVA  71
+           ++SP  A
+Sbjct  71  EISPPTA  77
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 8, 2022  2:43 AM
+  Number of letters in database: 1,066,430
+  Number of sequences in database:  3,789
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 3789
+Number of Hits to DB: 6117
+Number of extensions: 266
+Number of successful extensions: 14
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 7
+Length of query: 227
+Length of database: 1066430
+Length adjustment: 79
+Effective length of query: 148
+Effective length of database: 767099
+Effective search space: 113530652
+Effective search space used: 113530652
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 31 (16.5 bits)
+S2: 41 (20.4 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

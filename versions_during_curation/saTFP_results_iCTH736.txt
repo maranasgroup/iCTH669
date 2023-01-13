@@ -1,0 +1,54 @@
+Stand-Alone TIC-Finding Problem Solutions
+Model: iCTH736
+
+End of solutions for phi = 0
+Solution time: 0.06900668144226074 s
+
+End of solutions for phi = 1
+Solution time: 62.23234939575195 s
+
+TFP SOLUTION #0
+PHI = 2
+OBJECTIVE VALUE: 2.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+MOHMT	model	->		0.9990000000000001
+MTMOHT	model	<-		-0.9990000000000001
+time to get solution: 0.5041110515594482 s
+
+
+RESOLUTION: MTMOHT IS MAKE IRREVERSIBLE FORWARD
+
+End of solutions for phi = 2
+Solution time: 105.24309968948364 s
+
+TFP SOLUTION #1
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+MOHMT	model	->		0.0010000000000000002
+2DHPFALDL	model	->		0.0010000000000000002
+R09093	model	->		0.0010000000000000002
+time to get solution: 0.4860355854034424 s
+
+RESOLUTION: R09093 IS REMOVED
+
+TFP SOLUTION #2
+PHI = 3
+OBJECTIVE VALUE: 3.0
+REACTION	SOURCE		DIR		FLUX
+-------------------------------------------------------------
+MTMOHT	model	->		0.001
+2DHPFALDL	model	->		0.001
+R09093	model	->		0.001
+time to get solution: 2.442570686340332 s
+
+RESOLUTION: R09093 IS REMOVED
+
+End of solutions for phi = 3
+Solution time: 785.704268693924 s
+
+End of solutions for phi = 4
+Solution time: 173.2278745174408 s
+

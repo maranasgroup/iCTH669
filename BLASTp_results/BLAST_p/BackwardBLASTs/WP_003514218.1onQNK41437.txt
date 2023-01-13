@@ -1,0 +1,263 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8XEVZ5AV01R
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_156990738.1 deoxynucleoside kinase [Caproicibacter fermentans]  203     7e-67  45%
+WP_066644698.1 deoxynucleoside kinase [Caproicibacter fermentans]  201     4e-66  45%
+WP_066646456.1 polyphosphate:AMP phosphotransferase [Caproicib...  28.1    0.80   27%
+WP_187034474.1 NUDIX domain-containing protein [Caproicibacter...  25.8    3.1    29%
+WP_156991077.1 NUDIX domain-containing protein [Caproicibacter...  25.8    3.2    29%
+MVB12118.1 NUDIX domain protein [Caproicibacter fermentans]        25.8    3.3    29%
+WP_228725019.1 sigma 54-interacting transcriptional regulator ...  26.2    3.5    33%
+WP_066646055.1 sigma 54-interacting transcriptional regulator ...  26.2    3.7    33%
+WP_187035845.1 glycoside hydrolase family 13 protein [Caproici...  26.2    4.0    50%
+WP_156991534.1 glycoside hydrolase family 13 protein [Caproici...  26.2    4.2    50%
+MVB13148.1 Neopullulanase [Caproicibacter fermentans]              25.8    4.3    50%
+WP_156990400.1 phage/plasmid primase, P4 family [Caproicibacte...  25.0    9.7    27%
+
+ALIGNMENTS
+>WP_156990738.1 deoxynucleoside kinase [Caproicibacter fermentans]
+ MVB11583.1 Thymidylate kinase [Caproicibacter fermentans]
+Length=225
+
+ Score = 203 bits (517),  Expect = 7e-67, Method: Compositional matrix adjust.
+ Identities = 100/221 (45%), Positives = 149/221 (67%), Gaps = 4/221 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M G+LI I+ G D SGKATQT+ L   L + G + ++++FP+Y + SSA V+MYLNG+FG
+Sbjct  1    MSGRLITID-GLDGSGKATQTDLLCRELERRGVRYRRVSFPDYSAQSSAPVRMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P DV+ Y ASTF+AVDRFAS+   W + Y DG +I+ADRYTTSNM++Q AK+   EE
+Sbjct  60   DQPGDVNAYAASTFFAVDRFASFARCWKKDYLDGGLIVADRYTTSNMIYQLAKLPK-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D FLDW+ + E+E   LP PD  ++L++P   S++L+  R     G+ +KDIHERN E+L
+Sbjct  119  DGFLDWIQDLEYEKLALPRPDLTVYLELPTEISQKLLDHRYE--GGKGRKDIHERNLEFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+                 ++ Y A++++W  + C +   L+K +EI +E+ + +
+Sbjct  177  SACRESAAYAARRFSWKTVFCEEGKELRKREEIHEEILKLI  217
+
+
+>WP_066644698.1 deoxynucleoside kinase [Caproicibacter fermentans]
+ QNK41437.1 deoxynucleoside kinase [Caproicibacter fermentans]
+Length=225
+
+ Score = 201 bits (512),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 99/221 (45%), Positives = 149/221 (67%), Gaps = 4/221 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M G+LI I+ G D SGKATQT+ L   L + G + ++++FP+Y + SSA V+MYLNG+FG
+Sbjct  1    MSGRLITID-GLDGSGKATQTDLLCRELERRGVRYRRVSFPDYSAQSSAPVRMYLNGEFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P DV+ Y ASTF+AVDRFAS+   W + Y +G +I+ADRYTTSNM++Q AK+   EE
+Sbjct  60   DQPGDVNAYAASTFFAVDRFASFARCWKKDYLNGSLIVADRYTTSNMIYQLAKLPK-EEW  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D FLDW+ + E+E   LP PD  ++L++P   S++L+  R     G+ +KDIHERN E+L
+Sbjct  119  DGFLDWIQDLEYEKLALPRPDLTVYLELPTEISQKLLDHRYE--GGKGRKDIHERNLEFL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+                 ++ Y A++++W  + C +   L+K +EI +E+ + +
+Sbjct  177  SACRESAAYAARRFSWKTVFCEEGKELRKREEIHEEILKLI  217
+
+
+>WP_066646456.1 polyphosphate:AMP phosphotransferase [Caproicibacter fermentans]
+ MVB10370.1 Polyphosphate:AMP phosphotransferase [Caproicibacter fermentans]
+ QNK40407.1 polyphosphate:AMP phosphotransferase [Caproicibacter fermentans]
+Length=504
+
+ Score = 28.1 bits (61),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 43/95 (45%), Gaps = 10/95 (11%)
+
+Query  5    LIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+            +I+   G DA+GK     ++ + L   GY+V  I  P  D  +    + YL   +   P
+Sbjct  300  VILAFEGWDAAGKGGTIRRVAKALDPRGYQVVPIASPTPDEKA----RQYLWRFWKNLPR  355
+
+Query  65   DVSPYV-ASTFYA---VDRFASYRT--EWGQAYND  93
+            D    +   T+Y    V+R  ++ T  EW +AY +
+Sbjct  356  DGHIAIFDRTWYGRVLVERVENFCTEAEWSRAYRE  390
+
+
+>WP_187034474.1 NUDIX domain-containing protein [Caproicibacter fermentans]
+ QNK39550.1 NUDIX domain-containing protein [Caproicibacter fermentans]
+Length=147
+
+ Score = 25.8 bits (55),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 7/24 (29%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  136  KLPVPDCVIFLDMPPSFSRELMKE  159
+            + P PDC+ + D+ P   R ++++
+Sbjct  120  EFPAPDCLTYPDIQPQLFRRVLRQ  143
+
+
+>WP_156991077.1 NUDIX domain-containing protein [Caproicibacter fermentans]
+Length=147
+
+ Score = 25.8 bits (55),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 7/24 (29%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  136  KLPVPDCVIFLDMPPSFSRELMKE  159
+            + P PDC+ + D+ P   R ++++
+Sbjct  120  EFPAPDCLTYPDIQPQLFRRVLRQ  143
+
+
+>MVB12118.1 NUDIX domain protein [Caproicibacter fermentans]
+Length=149
+
+ Score = 25.8 bits (55),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 7/24 (29%), Positives = 15/24 (63%), Gaps = 0/24 (0%)
+
+Query  136  KLPVPDCVIFLDMPPSFSRELMKE  159
+            + P PDC+ + D+ P   R ++++
+Sbjct  122  EFPAPDCLTYPDIQPQLFRRVLRQ  145
+
+
+>WP_228725019.1 sigma 54-interacting transcriptional regulator [Caproicibacter
+fermentans]
+Length=579
+
+ Score = 26.2 bits (56),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  70   VASTFYAVDRFASYRTEWGQA-YNDGWIILADRYTTSNMVHQAAKIKDMEE  119
+            V +TF AV    S   +  +  Y  G+I    RY  S+++H + KI+D  E
+Sbjct  233  VVATFQAVSEVQSMEQKIRRTLYEKGFI---ARYHFSDIIHSSEKIQDCIE  280
+
+
+>WP_066646055.1 sigma 54-interacting transcriptional regulator [Caproicibacter
+fermentans]
+ MVB12478.1 Anaerobic nitric oxide reductase transcription regulator NorR
+[Caproicibacter fermentans]
+Length=633
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 26/51 (51%), Gaps = 4/51 (8%)
+
+Query  70   VASTFYAVDRFASYRTEWGQA-YNDGWIILADRYTTSNMVHQAAKIKDMEE  119
+            V +TF AV    S   +  +  Y  G+I    RY  S+++H + KI+D  E
+Sbjct  287  VVATFQAVSEVQSMEQKIRRTLYEKGFI---ARYHFSDIIHSSEKIQDCIE  334
+
+
+>WP_187035845.1 glycoside hydrolase family 13 protein [Caproicibacter fermentans]
+ QNK40592.1 alpha-glycosidase [Caproicibacter fermentans]
+Length=572
+
+ Score = 26.2 bits (56),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  50   LVKMYLNGDFGKDPNDVSPY  69
+             V+ + NGD G DP  VSP+
+Sbjct  138  FVERFYNGDPGNDPGSVSPW  157
+
+
+>WP_156991534.1 glycoside hydrolase family 13 protein, partial [Caproicibacter
+fermentans]
+Length=568
+
+ Score = 26.2 bits (56),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  50   LVKMYLNGDFGKDPNDVSPY  69
+             V+ + NGD G DP  VSP+
+Sbjct  134  FVERFYNGDPGNDPGSVSPW  153
+
+
+>MVB13148.1 Neopullulanase [Caproicibacter fermentans]
+Length=518
+
+ Score = 25.8 bits (55),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  50   LVKMYLNGDFGKDPNDVSPY  69
+             V+ + NGD G DP  VSP+
+Sbjct  84   FVERFYNGDPGNDPGSVSPW  103
+
+
+>WP_156990400.1 phage/plasmid primase, P4 family [Caproicibacter fermentans]
+ MVB11065.1 hypothetical protein [Caproicibacter fermentans]
+Length=821
+
+ Score = 25.0 bits (53),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 14/51 (27%), Positives = 23/51 (45%), Gaps = 2/51 (4%)
+
+Query  108  VHQAAKIKDMEEKDRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMK  158
+            +H A K+  + EK     W      + Y+  +PDCV+       + RE+ K
+Sbjct  687  IHLAEKL--LAEKPGIFQWALRGAVDWYREGMPDCVLVDAANEEYRREMDK  735
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,168,613
+  Number of sequences in database:  7,142
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 7142
+Number of Hits to DB: 9919
+Number of extensions: 413
+Number of successful extensions: 9
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 9
+Number of HSP's successfully gapped: 2
+Length of query: 227
+Length of database: 2168613
+Length adjustment: 84
+Effective length of query: 143
+Effective length of database: 1568685
+Effective search space: 224321955
+Effective search space used: 224321955
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 43 (21.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

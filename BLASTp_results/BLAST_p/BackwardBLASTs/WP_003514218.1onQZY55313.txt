@@ -1,0 +1,269 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8UTFN42H01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_223037817.1 thymidylate kinase [Crassaminicella profunda]       302     4e-106  67%
+WP_223039938.1 ferritin-like domain-containing protein [Crassa...  28.5    0.27    36%
+WP_223038060.1 glycosyltransferase [Crassaminicella profunda]      27.3    0.92    36%
+WP_223037218.1 methylmalonyl Co-A mutase-associated GTPase Mea...  26.6    1.7     42%
+WP_223037933.1 glycine C-acetyltransferase [Crassaminicella pr...  25.8    3.0     31%
+WP_223039648.1 DUF512 domain-containing protein [Crassaminicel...  25.8    3.2     36%
+WP_223039437.1 MBL fold metallo-hydrolase [Crassaminicella pro...  25.4    3.3     27%
+WP_223038230.1 Mrp/NBP35 family ATP-binding protein [Crassamin...  25.0    4.4     38%
+WP_223037383.1 LytTR family DNA-binding domain-containing prot...  25.0    4.6     26%
+WP_223038058.1 glycosyltransferase family 4 protein [Crassamin...  24.6    7.9     28%
+WP_223039092.1 PHP domain-containing protein [Crassaminicella ...  24.3    8.1     24%
+WP_223037643.1 nucleotidyl transferase AbiEii/AbiGii toxin fam...  24.3    8.7     27%
+
+ALIGNMENTS
+>WP_223037817.1 thymidylate kinase [Crassaminicella profunda]
+ QZY55313.1 thymidylate kinase [Crassaminicella profunda]
+Length=225
+
+ Score = 302 bits (774),  Expect = 4e-106, Method: Compositional matrix adjust.
+ Identities = 147/221 (67%), Positives = 174/221 (79%), Gaps = 0/221 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKL +IESG DASGKATQ+ KLY RL+ EG K+KKITFPNYDS+SSALVKMYLNGDFG
+Sbjct  1    MKGKLFVIESGVDASGKATQSEKLYNRLLDEGIKIKKITFPNYDSESSALVKMYLNGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              P+DV+PY ASTFYAVDR+ASY T+W      G II+ADRYTTSNMVHQA+K    EEK
+Sbjct  61   NKPDDVNPYTASTFYAVDRYASYVTDWKSFLETGGIIIADRYTTSNMVHQASKFHINEEK  120
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              FLDWLW+ EF+   LP+PD VIFL+M P  S +LMK RANK  GE KKDIHER+ EYL
+Sbjct  121  GEFLDWLWDLEFKKMGLPIPDEVIFLNMSPEVSYQLMKNRANKINGEIKKDIHERDFEYL  180
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             ++Y N+L+VA KY W KI+C+K+  LK IDEI +E+Y+ V
+Sbjct  181  KKTYENALWVADKYGWKKIKCIKNQELKSIDEIHEEIYKIV  221
+
+
+>WP_223039938.1 ferritin-like domain-containing protein [Crassaminicella profunda]
+ QZY57437.1 spore coat protein [Crassaminicella profunda]
+Length=151
+
+ Score = 28.5 bits (62),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 18/36 (50%), Gaps = 0/36 (0%)
+
+Query  189  YVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGI  224
+            YV+  YN    EC    + + ++ IQKE  E   GI
+Sbjct  103  YVSNTYNTTIFECCDTNIRQILNHIQKEEQEHGEGI  138
+
+
+>WP_223038060.1 glycosyltransferase [Crassaminicella profunda]
+ QZY55557.1 glycosyltransferase [Crassaminicella profunda]
+Length=361
+
+ Score = 27.3 bits (59),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 29/44 (66%), Gaps = 5/44 (11%)
+
+Query  174  ERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEV  217
+            ++N E+L+ES +    +A+K N  K+  + DG L+  +EIQK++
+Sbjct  198  DKNHEFLIESIK---ILAEKINNFKLYLIGDGKLR--NEIQKKI  236
+
+
+>WP_223037218.1 methylmalonyl Co-A mutase-associated GTPase MeaB [Crassaminicella
+profunda]
+ QZY54714.1 methylmalonyl Co-A mutase-associated GTPase MeaB [Crassaminicella
+profunda]
+Length=311
+
+ Score = 26.6 bits (57),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  10  SGADASGKATQTNKLYERLVQEGYKVKKITF  40
+           +G   +GK+T T+KL + L +EG KV  I
+Sbjct  49  TGPPGAGKSTLTDKLVKALRREGKKVGVIAV  79
+
+
+>WP_223037933.1 glycine C-acetyltransferase [Crassaminicella profunda]
+ QZY55429.1 glycine C-acetyltransferase [Crassaminicella profunda]
+Length=396
+
+ Score = 25.8 bits (55),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/42 (31%), Positives = 20/42 (48%), Gaps = 0/42 (0%)
+
+Query  16   GKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNG  57
+            G+ T+T +  +RL +EG   K I FP     +  +  M   G
+Sbjct  332  GEETKTQEFSKRLNEEGVYAKSIVFPTVPKGTGRVRNMPTAG  373
+
+
+>WP_223039648.1 DUF512 domain-containing protein [Crassaminicella profunda]
+ QZY57147.1 DUF512 domain-containing protein [Crassaminicella profunda]
+Length=442
+
+ Score = 25.8 bits (55),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 28/50 (56%), Gaps = 1/50 (2%)
+
+Query  160  RANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLKK  209
+            +A K   EQ   + + N+EY+ +       +A +Y  I+IE  KDGV+KK
+Sbjct  21   KAQKLGIEQGDKLLKINNEYIEDIIEYMFLIADEYLEIEIE-KKDGVVKK  69
+
+
+>WP_223039437.1 MBL fold metallo-hydrolase [Crassaminicella profunda]
+ QZY56935.1 MBL fold metallo-hydrolase [Crassaminicella profunda]
+Length=287
+
+ Score = 25.4 bits (54),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 19/70 (27%), Positives = 32/70 (46%), Gaps = 3/70 (4%)
+
+Query  159  ERANKFTGEQKKDIHERNDEYLVESYRNSLYV---AKKYNWIKIECVKDGVLKKIDEIQK  215
+            ER   F G       ++ +EYL++ + + + +     K   I + C   G+L  ID I K
+Sbjct  158  ERTYDFEGLNPNMKFKKENEYLLDRFEDEITLVVDTDKGLVILLGCSHPGLLNIIDTIAK  217
+
+Query  216  EVYEAVSGII  225
+               + + GII
+Sbjct  218  RTGKNIYGII  227
+
+
+>WP_223038230.1 Mrp/NBP35 family ATP-binding protein [Crassaminicella profunda]
+ QZY55727.1 Mrp/NBP35 family ATP-binding protein [Crassaminicella profunda]
+Length=262
+
+ Score = 25.0 bits (53),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           K+I + SG    GK++ T+ +   L  +GYKV
+Sbjct  15  KIIAVMSGKGGVGKSSVTSLMAVSLKNKGYKV  46
+
+
+>WP_223037383.1 LytTR family DNA-binding domain-containing protein [Crassaminicella
+profunda]
+ QZY54879.1 LytTR family DNA-binding domain-containing protein [Crassaminicella
+profunda]
+Length=235
+
+ Score = 25.0 bits (53),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 22/84 (26%), Positives = 34/84 (40%), Gaps = 15/84 (18%)
+
+Query  38   ITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWII  97
+            I  PN D  + +     L   F + P  V    A   YAV+ F  Y +++
+Sbjct  54   INMPNLDGMTFS----KLIAKFKEQPKIVF-ITAYKEYAVEAFEVYASDY----------  98
+
+Query  98   LADRYTTSNMVHQAAKIKDMEEKD  121
+            +   Y+   M+H   K++D EE D
+Sbjct  99   ILKPYSKERMIHALKKLEDQEETD  122
+
+
+>WP_223038058.1 glycosyltransferase family 4 protein [Crassaminicella profunda]
+ QZY55555.1 glycosyltransferase family 4 protein [Crassaminicella profunda]
+Length=406
+
+ Score = 24.6 bits (52),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 34/120 (28%), Positives = 53/120 (44%), Gaps = 24/120 (20%)
+
+Query  2    KGKLIIIESGADASGKATQTNKLYE---------------RLVQEGYKVKKI-TFPNYDS  45
+            K K+ +I  G D+S K    N L+E               R+V E Y    +  F   D
+Sbjct  190  KKKISVIPPGVDSSFKIINENTLFEKYNLSKETKIFLYVGRIVNEKYVDLLLDAFIKLDQ  249
+
+Query  46   DSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDR--FASYRTEWGQAYNDG-WIILADRY  102
+            DSS L  M++ GD G + N++    A  F   ++  FA Y+    + YN   +++L  +Y
+Sbjct  250  DSSIL--MFV-GD-GAELNELKRK-ADKFNIKNKVVFAGYKKNTVEFYNLATYLVLPTKY  304
+
+
+>WP_223039092.1 PHP domain-containing protein [Crassaminicella profunda]
+ QZY56589.1 PHP domain-containing protein [Crassaminicella profunda]
+Length=235
+
+ Score = 24.3 bits (51),  Expect = 8.1, Method: Compositional matrix adjust.
+ Identities = 20/82 (24%), Positives = 36/82 (44%), Gaps = 12/82 (15%)
+
+Query  90   AYNDGWIILAD-RYTTSNMVHQAAKIKDMEEKDRFLDWLWNFEFEIYKLPVPDCVIFLDM  148
+            A N G I++      T   VH     K +++   F   +++      KLPV +     +
+Sbjct  56   AKNKGIIVIPGMELQTKEEVHLICLFKSIDKALSFQKLVYD------KLPVKE-----NN  104
+
+Query  149  PPSFSRELMKERANKFTGEQKK  170
+            P  F R+L+  + ++  GE K+
+Sbjct  105  PKLFGRQLIFNKKDEVVGENKR  126
+
+
+>WP_223037643.1 nucleotidyl transferase AbiEii/AbiGii toxin family protein [Crassaminicella
+profunda]
+ QZY55139.1 nucleotidyl transferase AbiEii/AbiGii toxin family protein [Crassaminicella
+profunda]
+Length=365
+
+ Score = 24.3 bits (51),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 29/55 (53%), Gaps = 5/55 (9%)
+
+Query  151  SFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDG  205
+            +F++E + +R+N F   +K+      D  L+E   N+LY+ +     K+E +  G
+Sbjct  6    TFTKEWINDRSNYFKRGRKQA-----DPQLIEKVINALYLLENLTKTKLEFIFKG  55
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 1,379,016
+  Number of sequences in database:  4,253
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 4253
+Number of Hits to DB: 4538
+Number of extensions: 216
+Number of successful extensions: 8
+Number of sequences better than 100: 1
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 8
+Number of HSP's successfully gapped: 1
+Length of query: 227
+Length of database: 1379016
+Length adjustment: 81
+Effective length of query: 146
+Effective length of database: 1034523
+Effective search space: 151040358
+Effective search space used: 151040358
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 32 (16.9 bits)
+S2: 42 (20.8 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

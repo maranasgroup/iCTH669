@@ -1,0 +1,207 @@
+Start time: 6 June 2022 9:17:55
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+Found gene for related organism amt:Alkaliphilus metalliredigens
+Amet_0542-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_0542 (Accession: ABR46769)
+Amet_1732-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_1732 (Accession: ABR47908)
+Amet_2636-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_2636 (Accession: ABR48788)
+Amet_3609-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_3609 (Accession: ABR49731)
+Amet_3610-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_3610 (Accession: ABR49732)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+Found gene for related organism aoe:Alkaliphilus oremlandii
+Clos_0920-------------------------------------------------------------------------------------
+Building FASTA report for gene Clos_0920 (Accession: ABW18467)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+Found gene for related organism gfe:Geosporobacter ferrireducens
+Gferi_00080-------------------------------------------------------------------------------------
+Building FASTA report for gene Gferi_00080 (Accession: AOT68114)
+Gferi_17650-------------------------------------------------------------------------------------
+Building FASTA report for gene Gferi_17650 (Accession: AOT71215)
+
+Using Organism: Hathewaya histolytica (hhw)
+Found gene for related organism hhw:Hathewaya histolytica
+NCTC503_00764-------------------------------------------------------------------------------------
+Building FASTA report for gene NCTC503_00764 (Accession: VTQ85445)
+
+Using Organism: Caloramator sp. (cale)
+Found gene for related organism cale:Caloramator sp.
+FDN13_02315-------------------------------------------------------------------------------------
+Building FASTA report for gene FDN13_02315 (Accession: QCX32625)
+FDN13_04445-------------------------------------------------------------------------------------
+Building FASTA report for gene FDN13_04445 (Accession: QCX33020)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+end time: 6 June 2022 17:20:22

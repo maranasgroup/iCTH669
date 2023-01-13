@@ -1,0 +1,640 @@
+Start time: 18 Mar 2022 16:36:12
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+Found gene for related organism thef:Thermaerobacter sp.
+E1B22_04475-------------------------------------------------------------------------------------
+Building FASTA report for gene E1B22_04475 (Accession: QBS37216)
+
+Using Organism: Thermaerobacter sp. (thep)
+Found gene for related organism thep:Thermaerobacter sp.
+DYI95_000730-------------------------------------------------------------------------------------
+Building FASTA report for gene DYI95_000730 (Accession: QIA26244)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+Found gene for related organism alka:Alkalibacter sp.
+J0B03_10735-------------------------------------------------------------------------------------
+Building FASTA report for gene J0B03_10735 (Accession: QSX08255)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+Found gene for related organism awo:Acetobacterium woodii
+Awo_c31780-------------------------------------------------------------------------------------
+Building FASTA report for gene Awo_c31780 (Accession: AFA49906)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+Found gene for related organism hmo:Heliobacterium modesticaldum
+HM1_0528-------------------------------------------------------------------------------------
+Building FASTA report for gene HM1_0528 (Accession: ABZ83142)
+
+Using Organism: Heliorestis convoluta (hcv)
+Found gene for related organism hcv:Heliorestis convoluta
+FTV88_0720-------------------------------------------------------------------------------------
+Building FASTA report for gene FTV88_0720 (Accession: QGG46898)
+FTV88_2833-------------------------------------------------------------------------------------
+Building FASTA report for gene FTV88_2833 (Accession: QGG48922)
+
+Using Organism: Eubacterium callanderi (elm)
+Found gene for related organism elm:Eubacterium callanderi
+ELI_0774-------------------------------------------------------------------------------------
+Building FASTA report for gene ELI_0774 (Accession: ADO35788)
+
+Using Organism: Eubacterium maltosivorans (emt)
+Found gene for related organism emt:Eubacterium maltosivorans
+CPZ25_016805-------------------------------------------------------------------------------------
+Building FASTA report for gene CPZ25_016805 (Accession: QCT72913)
+
+Using Organism: Eubacterium limosum (elim)
+Found gene for related organism elim:Eubacterium limosum
+B2M23_11565-------------------------------------------------------------------------------------
+Building FASTA report for gene B2M23_11565 (Accession: ARD66141)
+
+Using Organism: Acetobacterium woodii (awo)
+Found gene for related organism awo:Acetobacterium woodii
+Awo_c30260-------------------------------------------------------------------------------------
+Building FASTA report for gene Awo_c30260 (Accession: AFA49754)
+
+Using Organism: Alkalibacter sp. (alka)
+Found gene for related organism alka:Alkalibacter sp.
+J0B03_01700-------------------------------------------------------------------------------------
+Building FASTA report for gene J0B03_01700 (Accession: QSX08825)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+Found gene for related organism say:Sulfobacillus acidophilus
+TPY_1364-------------------------------------------------------------------------------------
+Building FASTA report for gene TPY_1364 (Accession: AEJ39554)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Heliobacterium modesticaldum (hmo)
+
+Using Organism: Heliorestis convoluta (hcv)
+
+Using Organism: Eubacterium callanderi (elm)
+
+Using Organism: Eubacterium maltosivorans (emt)
+
+Using Organism: Eubacterium limosum (elim)
+
+Using Organism: Acetobacterium woodii (awo)
+
+Using Organism: Alkalibacter sp. (alka)
+
+Using Organism: Thermaerobacter marianensis (tmr)
+
+Using Organism: Thermaerobacter sp. (thef)
+
+Using Organism: Thermaerobacter sp. (thep)
+
+Using Organism: Sulfobacillus acidophilus (say)
+end time: 19 Mar 2022 20:28:35

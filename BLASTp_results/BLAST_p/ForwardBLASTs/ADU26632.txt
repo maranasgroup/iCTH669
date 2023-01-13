@@ -1,0 +1,304 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WBCX7MX013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADU26632 5'-nucleotidase [Ethanoligenens harbinense]
+
+Length=258
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  34.3    0.008  35%
+WP_003517018.1 molecular chaperone DnaK [Acetivibrio thermocel...  29.6    0.47   37%
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  28.1    1.0    20%
+WP_003519434.1 alpha/beta hydrolase [Acetivibrio thermocellus]     28.1    1.3    27%
+WP_020457907.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  26.6    4.6    23%
+WP_003514375.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  26.6    4.8    23%
+WP_136479167.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  26.2    4.9    23%
+WP_235825031.1 MBL fold metallo-hydrolase [Acetivibrio thermoc...  26.2    5.1    23%
+WP_003511587.1 adenylosuccinate synthase [Acetivibrio thermoce...  26.2    5.5    34%
+WP_235836080.1 hypothetical protein [Acetivibrio thermocellus]     23.9    7.6    28%
+NLU26763.1 hypothetical protein [Acetivibrio thermocellus]         25.0    9.2    45%
+
+ALIGNMENTS
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 34.3 bits (77),  Expect = 0.008, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 28/46 (61%), Gaps = 0/46 (0%)
+
+Query  183  GKPNPLMMRTGLKLLNCKSEDTAIIGDRMDTDIIAGIESEIDTVLV  228
+             KP        ++++N K+ +TA+IGD++ TDI  G +  + T+LV
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+ Score = 27.3 bits (59),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 36/146 (25%), Positives = 63/146 (43%), Gaps = 20/146 (14%)
+
+Query  8    KGYICDMDGVIY--HGNQLLDGAAAFVDWLKKEDKQFLFLTNSSERSPRELRQKLQRLGI  65
+            KG I D+D  +   H  +  +   A++D +KK+  +   ++N+SE+       K   L +
+Sbjct  28   KGLILDIDNTLVPEHVEEADENTIAWIDKVKKKGFKVCIVSNASEKRVARFNSK---LNV  84
+
+Query  66   DVEESHFYTSALATASFLS----LQSPGCSAYVIGEPGLVNALYDAGITMNDVNPDYVVV  121
+            DV       S   + SF+     + +      VIG+  +   +Y      N VN   ++V
+Sbjct  85   DVIHR---ASKPRSRSFVKAMEIMNTKASETAVIGDQ-IFTDIYGG----NKVNMFTILV  136
+
+Query  122  G--DTRNYNFENIQR-AVRFIFKGAK  144
+               D R Y F  ++R A +F+    K
+Sbjct  137  TPIDKREYFFVRLKRIAEKFVLAKMK  162
+
+
+>WP_003517018.1 molecular chaperone DnaK [Acetivibrio thermocellus]
+ A3DF25.1 RecName: Full=Chaperone protein DnaK; AltName: Full=HSP70; AltName:
+Full=Heat shock 70 kDa protein; AltName: Full=Heat shock
+protein 70 [Acetivibrio thermocellus ATCC 27405]
+ CDG35995.1 Chaperone protein DnaK [Acetivibrio thermocellus BC1]
+ ABN52554.1 chaperone protein DnaK [Acetivibrio thermocellus ATCC 27405]
+ ADU74001.1 chaperone protein DnaK [Acetivibrio thermocellus DSM 1313]
+ ALX07939.1 Chaperone protein dnaK [Acetivibrio thermocellus AD2]
+ ANV75685.1 Chaperone protein dnaK [Acetivibrio thermocellus DSM 2360]
+Length=608
+
+ Score = 29.6 bits (65),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 25/49 (51%), Gaps = 3/49 (6%)
+
+Query  103  ALYDAGITMNDVNPDYVVVGDTRNYNFENIQRAVRFIFKGAKLVGTNPD  151
+            AL D+G+T + ++   +V G TR      +Q AVR  F      G NPD
+Sbjct  294  ALEDSGLTPDKIDKILLVGGSTR---IPAVQEAVRKFFGKEPFKGINPD  339
+
+
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 28.1 bits (61),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 18/90 (20%), Positives = 41/90 (46%), Gaps = 3/90 (3%)
+
+Query  167  LVSPIEITTGKKAYFVGKPNPLMMRTGLKLLNCKSEDTAIIGDRMDTDIIAGIESEIDTV  226
+            L+   ++  G +     KP+P  +   + ++ C+ E+   +GD    D      + +D V
+Sbjct  126  LLQYFDVIVGGEDVAAHKPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFV  184
+
+Query  227  LVLSGVSDVHTPSLFPYRPKYILDTVGDII  256
+             VL+G +  +  S   Y P  +++ +  ++
+Sbjct  185  AVLTGTTGANEFS--EYNPGAVIEDLSGLL  212
+
+
+>WP_003519434.1 alpha/beta hydrolase [Acetivibrio thermocellus]
+ CDG35862.1 alpha/beta hydrolase fold-3 [Acetivibrio thermocellus BC1]
+ ABN52418.1 esterase/lipase [Acetivibrio thermocellus ATCC 27405]
+ ADU74137.1 esterase/lipase [Acetivibrio thermocellus DSM 1313]
+ ALX08079.1 hypothetical protein AD2_01084 [Acetivibrio thermocellus AD2]
+ ANV75826.1 esterase/lipase [Acetivibrio thermocellus DSM 2360]
+Length=311
+
+ Score = 28.1 bits (61),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 25/93 (27%), Positives = 38/93 (41%), Gaps = 11/93 (12%)
+
+Query  135  AVRFIFKGAKLVGTNPDCTNPLETGMAPATGALVSPIEITTGKKAYFVGKPNPL-----M  189
+             V   F G   V  N D    + + MA  T  +V  ++     +  F   P+ L
+Sbjct  68   GVLIFFHGGGWVTGNVDSYTHVCSNMANQTKNIVVSVDYRLAPEHPF---PSGLEDCYDA  124
+
+Query  190  MRTGLK---LLNCKSEDTAIIGDRMDTDIIAGI  219
+             R   K   LLNCK++D  +IGD    ++ A +
+Sbjct  125  TREFFKNPGLLNCKADDITLIGDSAGGNLAAAV  157
+
+
+>WP_020457907.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+ ABN53951.1 beta-lactamase domain protein [Acetivibrio thermocellus ATCC
+27405]
+ HBW27494.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+Length=443
+
+ Score = 26.6 bits (57),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 25/110 (23%), Positives = 48/110 (44%), Gaps = 11/110 (10%)
+
+Query  39   DKQFLFLTNSSERSPRELRQKLQRLGID-VEESHFYTSALATASFLSLQSPGCSAYVIGE  97
+            +  FLF+ ++ E S RE+      +  D ++  H  +S   T+ FL   SP  +   +G+
+Sbjct  253  NNSFLFMGDAEELSEREILANNLEIKSDLIKIGHHGSSNSTTSEFLEKVSPKYAVISVGK  312
+
+Query  98   PG--------LVNALYDAGITM--NDVNPDYVVVGDTRNYNFENIQRAVR  137
+                       ++ L  AGI +   D++   +V  D ++  F+     V+
+Sbjct  313  GNDYGHPHTQTLDKLNAAGIQIYRTDISGTIIVTSDGKSITFDKKASPVK  362
+
+
+>WP_003514375.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+ CDG37274.1 beta-lactamase domain protein [Acetivibrio thermocellus BC1]
+ ADU73432.1 hypothetical protein Clo1313_0341 [Acetivibrio thermocellus DSM
+1313]
+ ALX07354.1 beta-lactamase domain protein [Acetivibrio thermocellus AD2]
+ ANV75092.1 beta-lactamase domain protein [Acetivibrio thermocellus DSM 2360]
+ EIC04179.1 beta-lactamase domain protein [Acetivibrio thermocellus YS]
+Length=443
+
+ Score = 26.6 bits (57),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 25/110 (23%), Positives = 48/110 (44%), Gaps = 11/110 (10%)
+
+Query  39   DKQFLFLTNSSERSPRELRQKLQRLGID-VEESHFYTSALATASFLSLQSPGCSAYVIGE  97
+            +  FLF+ ++ E S RE+      +  D ++  H  +S   T+ FL   SP  +   +G+
+Sbjct  253  NNSFLFMGDAEELSEREILANNLEIKSDLIKIGHHGSSNSTTSEFLEKVSPKYAVISVGK  312
+
+Query  98   PG--------LVNALYDAGITM--NDVNPDYVVVGDTRNYNFENIQRAVR  137
+                       ++ L  AGI +   D++   +V  D ++  F+     V+
+Sbjct  313  GNDYGHPHTQTLDKLNAAGIQIYRTDISGTIIVTSDGKSITFDKKASPVK  362
+
+
+>WP_136479167.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+ THJ79482.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+Length=443
+
+ Score = 26.2 bits (56),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 25/110 (23%), Positives = 48/110 (44%), Gaps = 11/110 (10%)
+
+Query  39   DKQFLFLTNSSERSPRELRQKLQRLGID-VEESHFYTSALATASFLSLQSPGCSAYVIGE  97
+            +  FLF+ ++ E S RE+      +  D ++  H  +S   T+ FL   SP  +   +G+
+Sbjct  253  NNSFLFMGDAEELSEREILANNLEIKSDLIKIGHHGSSNSTTSEFLEKVSPKYAVISVGK  312
+
+Query  98   PG--------LVNALYDAGITM--NDVNPDYVVVGDTRNYNFENIQRAVR  137
+                       ++ L  AGI +   D++   +V  D ++  F+     V+
+Sbjct  313  GNDYGHPHTQTLDKLNAAGIQIYRTDISGTIIVTSDGKSITFDKKASPVK  362
+
+
+>WP_235825031.1 MBL fold metallo-hydrolase [Acetivibrio thermocellus]
+Length=394
+
+ Score = 26.2 bits (56),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 25/110 (23%), Positives = 48/110 (44%), Gaps = 11/110 (10%)
+
+Query  39   DKQFLFLTNSSERSPRELRQKLQRLGID-VEESHFYTSALATASFLSLQSPGCSAYVIGE  97
+            +  FLF+ ++ E S RE+      +  D ++  H  +S   T+ FL   SP  +   +G+
+Sbjct  204  NNSFLFMGDAEELSEREILANNLEIKSDLIKIGHHGSSNSTTSEFLEKVSPKYAVISVGK  263
+
+Query  98   PG--------LVNALYDAGITM--NDVNPDYVVVGDTRNYNFENIQRAVR  137
+                       ++ L  AGI +   D++   +V  D ++  F+     V+
+Sbjct  264  GNDYGHPHTQTLDKLNAAGIQIYRTDISGTIIVTSDGKSITFDKKASPVK  313
+
+
+>WP_003511587.1 adenylosuccinate synthase [Acetivibrio thermocellus]
+ A3DK09.1 RecName: Full=Adenylosuccinate synthetase; Short=AMPSase; Short=AdSS;
+AltName: Full=IMP--aspartate ligase [Acetivibrio thermocellus
+ATCC 27405]
+ CDG37572.1 Adenylosuccinate synthetase [Acetivibrio thermocellus BC1]
+ ABN54288.1 adenylosuccinate synthetase [Acetivibrio thermocellus ATCC 27405]
+ ADU73723.1 adenylosuccinate synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX07653.1 Adenylosuccinate synthetase [Acetivibrio thermocellus AD2]
+ ANV75395.1 Adenylosuccinate synthetase [Acetivibrio thermocellus DSM 2360]
+Length=424
+
+ Score = 26.2 bits (56),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 21/61 (34%), Positives = 30/61 (49%), Gaps = 10/61 (16%)
+
+Query  121  VGDTRNYNFENIQRAVRFIFKGAKLV------GTNPDCT--NPLETGMAPATGALVSPIE  172
+            V D  +  FE I++    +F+GA+        GT P  T  NP+  G+   TGA V P+
+Sbjct  200  VADVNSIIFEAIEQGKNILFEGAQATFLDLDFGTYPYVTSSNPVAGGVC--TGAGVGPVF  257
+
+Query  173  I  173
+            I
+Sbjct  258  I  258
+
+
+>WP_235836080.1 hypothetical protein [Acetivibrio thermocellus]
+Length=53
+
+ Score = 23.9 bits (50),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 24/46 (52%), Gaps = 8/46 (17%)
+
+Query  202  EDTAIIGDRMDTDIIAGIESEIDTVLVLSGVSDVHTPSLFPYRPKY  247
+            E   ++ D++D+DI          +   +GV D+ T  LFP++ +Y
+Sbjct  9    EGLIVMPDKLDSDIWK--------LNCKNGVVDLKTGELFPHKQEY  46
+
+
+>NLU26763.1 hypothetical protein [Acetivibrio thermocellus]
+Length=142
+
+ Score = 25.0 bits (53),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 10/22 (45%), Positives = 16/22 (73%), Gaps = 0/22 (0%)
+
+Query  46   TNSSERSPRELRQKLQRLGIDV  67
+            T++S RS +ELR  L+  GI++
+Sbjct  82   TSASHRSQKELRAILENKGIEI  103
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.137    0.401
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19138
+Number of extensions: 813
+Number of successful extensions: 12
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 12
+Number of HSP's successfully gapped: 4
+Length of query: 258
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 171
+Effective length of database: 2134357
+Effective search space: 364975047
+Effective search space used: 364975047
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

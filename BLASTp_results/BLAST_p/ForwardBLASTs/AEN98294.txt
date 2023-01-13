@@ -1,0 +1,285 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WJ72B7E016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AEN98294 5'-nucleotidase [Roseburia hominis]
+
+Length=660
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]   30.4    0.72   21%
+CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]   30.4    0.74   21%
+WP_003518868.1 glycosyltransferase family 39 protein [Acetivib...  28.5    3.5    38%
+WP_011837868.1 asparagine synthase (glutamine-hydrolyzing) [Ac...  28.1    5.5    27%
+WP_003517621.1 asparagine synthase (glutamine-hydrolyzing) [Ac...  27.7    5.6    27%
+NLU26782.1 asparagine synthase (glutamine-hydrolyzing) [Acetiv...  27.7    6.5    27%
+WP_003513024.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  27.3    7.9    23%
+WP_003518334.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  27.3    8.3    23%
+NLU27289.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]  27.3    8.3    23%
+WP_020457861.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  27.3    8.4    23%
+
+ALIGNMENTS
+>WP_003515076.1 metallophosphoesterase [Acetivibrio thermocellus]
+ ABN53371.1 metallophosphoesterase [Acetivibrio thermocellus ATCC 27405]
+ ADU75808.1 metallophosphoesterase [Acetivibrio thermocellus DSM 1313]
+ ALX09840.1 metallophosphoesterase [Acetivibrio thermocellus AD2]
+ ANV77614.1 metallophosphoesterase [Acetivibrio thermocellus DSM 2360]
+ EIC03645.1 metallophosphoesterase [Acetivibrio thermocellus YS]
+Length=273
+
+ Score = 30.4 bits (67),  Expect = 0.72, Method: Compositional matrix adjust.
+ Identities = 50/238 (21%), Positives = 89/238 (37%), Gaps = 80/238 (34%)
+
+Query  40   VVFTHDTHSHLNSFSTVIDGESTEVGGFARIKTVIDEQKAENPDTLVVDGGDF--SMGTL  97
+            +VF  D H H   FS              R++ ++ +    NPD + V GGD+    G
+Sbjct  50   IVFVSDIH-HGPFFSG------------KRVRNLVKKINNLNPDIIFV-GGDYVEKGGQY  95
+
+Query  98   VQTVYEDEAAELRMLGAIGCEVTTFGNHEFDYRSSGLAQMLKSAAESGDALPELVVCNVD  157
+            ++  +E+ +     LG  G      GNH++ YR+  L +  +S  E+G  L
+Sbjct  96   IKPCFEELSGLKAPLGKYG----VLGNHDY-YRNGDLVR--QSMREAGITL---------  139
+
+Query  158  WDAMEAAGLNDGQQQILSGFEEYGVKDYVVLQKGDVNVAVTGVFGVDALACAPTCELLFR  217
+               ++ A L                  ++    G + V   G F              +
+Sbjct  140  ---LDNADL------------------WITYGSGRIKVCGVGYFK------------RYL  166
+
+Query  218  DPVEAVKETVAEIKANEDVDMIVCVSHSGTWEDESKSEDEILARSVPDLDLIISGHTH  275
+             P+E+  + V+E       D +V +SH   + +  ++           +D+++SGHTH
+Sbjct  167  KPIESYLKGVSE------DDFVVLLSHDPDYAENIRNYK---------VDIVLSGHTH  209
+
+
+>CDG36687.1 metallophosphoesterase [Acetivibrio thermocellus BC1]
+Length=273
+
+ Score = 30.4 bits (67),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 50/238 (21%), Positives = 89/238 (37%), Gaps = 80/238 (34%)
+
+Query  40   VVFTHDTHSHLNSFSTVIDGESTEVGGFARIKTVIDEQKAENPDTLVVDGGDF--SMGTL  97
+            +VF  D H H   FS              R++ ++ +    NPD + V GGD+    G
+Sbjct  50   IVFVSDIH-HGPFFSG------------KRVRNLVKKINNLNPDIIFV-GGDYVEKGGQY  95
+
+Query  98   VQTVYEDEAAELRMLGAIGCEVTTFGNHEFDYRSSGLAQMLKSAAESGDALPELVVCNVD  157
+            ++  +E+ +     LG  G      GNH++ YR+  L +  +S  E+G  L
+Sbjct  96   IKPCFEELSGLKASLGKYG----VLGNHDY-YRNGDLVR--QSMREAGITL---------  139
+
+Query  158  WDAMEAAGLNDGQQQILSGFEEYGVKDYVVLQKGDVNVAVTGVFGVDALACAPTCELLFR  217
+               ++ A L                  ++    G + V   G F              +
+Sbjct  140  ---LDNADL------------------WITYGSGRIKVCGVGYFK------------RYL  166
+
+Query  218  DPVEAVKETVAEIKANEDVDMIVCVSHSGTWEDESKSEDEILARSVPDLDLIISGHTH  275
+             P+E+  + V+E       D +V +SH   + +  ++           +D+++SGHTH
+Sbjct  167  KPIESYLKGVSE------DDFVVLLSHDPDYAENIRNYK---------VDIVLSGHTH  209
+
+
+>WP_003518868.1 glycosyltransferase family 39 protein [Acetivibrio thermocellus]
+ CDG35877.1 hypothetical protein CTHBC1_1230 [Acetivibrio thermocellus BC1]
+ ABN52439.1 hypothetical protein Cthe_1207 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74119.1 hypothetical protein Clo1313_1051 [Acetivibrio thermocellus DSM
+1313]
+ ALX08057.1 hypothetical protein AD2_01062 [Acetivibrio thermocellus AD2]
+ ANV75804.1 hypothetical protein LQRI_1063 [Acetivibrio thermocellus DSM
+2360]
+Length=507
+
+ Score = 28.5 bits (62),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 20/37 (54%), Gaps = 1/37 (3%)
+
+Query  242  VSHSGTWEDESKSEDEILARSVPDLDLIISGHTHTEL  278
+            +SH   W DES S   I+  S+PD+  I +  +H  L
+Sbjct  31   ISHETLWYDESYSA-AIINHSIPDIIRITANDSHPPL  66
+
+
+>WP_011837868.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+ ABN51792.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26957.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+Length=613
+
+ Score = 28.1 bits (61),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 34/74 (46%), Gaps = 16/74 (22%)
+
+Query  151  LVVCNVDWDAMEAAGLN---------DGQQQILSGFEEYGVKDYVVLQKGDVNVAVTGVF  201
+            L+V  ++W A     LN         +G++++  G + +GVK     Q+GD     + +F
+Sbjct  106  LLVSYIEWGAKCVEHLNGIYAFGIWDEGKKRLFLGRDRFGVKPLFYAQRGD-----SLIF  160
+
+Query  202  G--VDALACAPTCE  213
+            G  + AL   P  E
+Sbjct  161  GSELKALLANPLVE  174
+
+
+>WP_003517621.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+ CDG35249.1 Asparagine synthetase [glutamine-hydrolyzing] 3 [Acetivibrio
+thermocellus BC1]
+ ADU74738.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+DSM 1313]
+ ALX08689.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+AD2]
+ ANV76441.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+DSM 2360]
+ EIC05331.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus
+YS]
+Length=613
+
+ Score = 27.7 bits (60),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 34/74 (46%), Gaps = 16/74 (22%)
+
+Query  151  LVVCNVDWDAMEAAGLN---------DGQQQILSGFEEYGVKDYVVLQKGDVNVAVTGVF  201
+            L+V  ++W A     LN         +G++++  G + +GVK     Q+GD     + +F
+Sbjct  106  LLVSYIEWGAKCVEHLNGIYAFGIWDEGKKRLFLGRDRFGVKPLFYAQRGD-----SLIF  160
+
+Query  202  G--VDALACAPTCE  213
+            G  + AL   P  E
+Sbjct  161  GSELKALLANPLVE  174
+
+
+>NLU26782.1 asparagine synthase (glutamine-hydrolyzing) [Acetivibrio thermocellus]
+Length=613
+
+ Score = 27.7 bits (60),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 20/74 (27%), Positives = 34/74 (46%), Gaps = 16/74 (22%)
+
+Query  151  LVVCNVDWDAMEAAGLN---------DGQQQILSGFEEYGVKDYVVLQKGDVNVAVTGVF  201
+            L+V  ++W A     LN         +G++++  G + +GVK     Q+GD     + +F
+Sbjct  106  LLVSYIEWGAKCVEHLNGIYAFGIWDEGKKRLFLGRDRFGVKPLFYAQRGD-----SLIF  160
+
+Query  202  G--VDALACAPTCE  213
+            G  + AL   P  E
+Sbjct  161  GSELKALLANPLVE  174
+
+
+>WP_003513024.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ THJ79293.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 27.3 bits (59),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 37/82 (45%), Gaps = 10/82 (12%)
+
+Query  2   KNKRRILAG---LLAAVLTVPLFAGGAQITAAAEAAGKTLDVVFTHDTHSHLNSFSTVID  58
+           KNKR ++ G      + L+  L   GA++   A  + ++ D+      H ++NS+
+Sbjct  6   KNKRVLITGHTGFKGSWLSEILLQFGAEVCGYALESKESSDLYLNLKLHKNMNSY-----  60
+
+Query  59  GESTEVGGFARIKTVIDEQKAE  80
+               ++  + ++K V D  K E
+Sbjct  61  --IGDIRNYDKLKKVFDTFKPE  80
+
+
+>WP_003518334.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ ADU73243.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus DSM 1313]
+ ALX07160.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus AD2]
+ ANV74896.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus DSM 2360]
+ EIC03920.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus YS]
+ PFH01422.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus AD2]
+Length=379
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 37/82 (45%), Gaps = 10/82 (12%)
+
+Query  2   KNKRRILAG---LLAAVLTVPLFAGGAQITAAAEAAGKTLDVVFTHDTHSHLNSFSTVID  58
+           KNKR ++ G      + L+  L   GA++   A  + ++ D+      H ++NS+
+Sbjct  6   KNKRVLITGHTGFKGSWLSEILLQFGAEVCGYALESKESSDLYLNLKLHKNMNSY-----  60
+
+Query  59  GESTEVGGFARIKTVIDEQKAE  80
+               ++  + ++K V D  K E
+Sbjct  61  --IGDIRNYDKLKKVFDTFKPE  80
+
+
+>NLU27289.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 27.3 bits (59),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 37/82 (45%), Gaps = 10/82 (12%)
+
+Query  2   KNKRRILAG---LLAAVLTVPLFAGGAQITAAAEAAGKTLDVVFTHDTHSHLNSFSTVID  58
+           KNKR ++ G      + L+  L   GA++   A  + ++ D+      H ++NS+
+Sbjct  6   KNKRVLITGHTGFKGSWLSEILLQFGAEVCGYALESKESSDLYLNLKLHKNMNSY-----  60
+
+Query  59  GESTEVGGFARIKTVIDEQKAE  80
+               ++  + ++K V D  K E
+Sbjct  61  --IGDIRNYDKLKKVFDTFKPE  80
+
+
+>WP_020457861.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ ABN53762.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus ATCC 27405]
+ HBW25787.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 27.3 bits (59),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 19/82 (23%), Positives = 37/82 (45%), Gaps = 10/82 (12%)
+
+Query  2   KNKRRILAG---LLAAVLTVPLFAGGAQITAAAEAAGKTLDVVFTHDTHSHLNSFSTVID  58
+           KNKR ++ G      + L+  L   GA++   A  + ++ D+      H ++NS+
+Sbjct  6   KNKRVLITGHTGFKGSWLSEILLQFGAEVCGYALESKESSDLYLNLKLHKNMNSY-----  60
+
+Query  59  GESTEVGGFARIKTVIDEQKAE  80
+               ++  + ++K V D  K E
+Sbjct  61  --IGDIRNYDKLKKVFDTFKPE  80
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.317    0.135    0.382
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 51092
+Number of extensions: 2478
+Number of successful extensions: 19
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 19
+Number of HSP's successfully gapped: 9
+Length of query: 660
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 565
+Effective length of database: 2069853
+Effective search space: 1169466945
+Effective search space used: 1169466945
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 37 (18.9 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

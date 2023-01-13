@@ -1,0 +1,514 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V7PD2TF01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E      Max
+Sequences producing significant alignments:                       (Bits)  Value   Ident
+
+WP_101304332.1 thymidylate kinase [Acetivibrio saccincola]         352     1e-125  75%
+AUG58828.1 thymidylate kinase [Acetivibrio saccincola]             352     4e-125  75%
+WP_037306083.1 DEAD/DEAH box helicase family protein [Acetivib...  29.3    0.43    32%
+AUG58881.1 Type-1 restriction enzyme R protein [Acetivibrio sa...  28.9    0.48    32%
+WP_101302913.1 hypothetical protein [Acetivibrio saccincola]       28.5    0.58    34%
+NLW25888.1 hypothetical protein [Acetivibrio saccincola]           28.5    0.63    34%
+WP_101299947.1 septum site-determining protein MinD [Acetivibr...  28.1    0.69    42%
+WP_105368157.1 septum site-determining protein MinD [Acetivibr...  28.1    0.70    42%
+WP_105367816.1 hypothetical protein [Acetivibrio saccincola]       28.1    0.78    34%
+WP_133161630.1 hypothetical protein [Acetivibrio saccincola]       25.0    2.2     40%
+WP_105368589.1 type IV pilus assembly protein PilM [Acetivibri...  26.6    2.3     38%
+WP_101302516.1 type IV pilus assembly protein PilM [Acetivibri...  26.6    2.4     38%
+WP_101300876.1 glycosyl hydrolase family 8 [Acetivibrio saccin...  26.6    2.5     26%
+NLW27845.1 ATP-binding protein [Acetivibrio saccincola]            26.6    2.7     26%
+WP_003514281.1 Mrp/NBP35 family ATP-binding protein [Eubacteri...  26.2    2.7     41%
+WP_242971626.1 ATP-binding protein [Acetivibrio saccincola]        26.6    2.9     37%
+WP_101298559.1 Mrp/NBP35 family ATP-binding protein [Acetivibr...  26.2    3.2     41%
+AUG56115.1 antiporter inner membrane protein [Acetivibrio sacc...  25.8    3.5     41%
+WP_101299021.1 BREX-1 system adenine-specific DNA-methyltransf...  26.2    4.1     34%
+WP_105367569.1 hypothetical protein [Acetivibrio saccincola]       25.8    4.2     24%
+WP_105367896.1 ATP-binding protein [Acetivibrio saccincola]        25.8    4.9     28%
+WP_101298879.1 ATP-binding protein [Acetivibrio saccincola]        25.8    5.0     28%
+WP_101298451.1 tetratricopeptide repeat protein [Acetivibrio s...  25.4    5.4     24%
+WP_101299189.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibri...  25.0    7.6     44%
+PQQ66558.1 hypothetical protein B9R14_07175 [Acetivibrio sacci...  25.0    9.4     32%
+WP_159063352.1 cohesin domain-containing protein [Acetivibrio ...  25.0    9.5     32%
+WP_192876518.1 cohesin domain-containing protein [Acetivibrio ...  25.0    9.5     32%
+
+ALIGNMENTS
+>WP_101304332.1 thymidylate kinase [Acetivibrio saccincola]
+ NLW26267.1 thymidylate kinase [Acetivibrio saccincola]
+ PQQ68252.1 thymidylate kinase [Acetivibrio saccincola]
+Length=226
+
+ Score = 352 bits (903),  Expect = 1e-125, Method: Compositional matrix adjust.
+ Identities = 165/221 (75%), Positives = 193/221 (87%), Gaps = 0/221 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY+RLV E YKVKKITFP+YDSDSSALVKMYL GDFG
+Sbjct  1    MKGKLIIIESGSDASGKATQTEKLYKRLVSENYKVKKITFPDYDSDSSALVKMYLKGDFG  60
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+PYVASTFYAVDRFASY+T+WG+ Y+ G IILADRYTTSNMVHQAAKI+D+ +K
+Sbjct  61   NNPEDVNPYVASTFYAVDRFASYKTKWGKNYDYGEIILADRYTTSNMVHQAAKIQDLSKK  120
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D FLDWLW+FEF +YKLPVPDCV FLDMPP +S+ LM  RANK TGE KKDIHE N +YL
+Sbjct  121  DAFLDWLWDFEFNLYKLPVPDCVFFLDMPPKYSKILMDNRANKITGEDKKDIHESNYKYL  180
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             +SY NSLY+AKKYNW++IECV+DG L+ I++I +E+Y  +
+Sbjct  181  EDSYNNSLYIAKKYNWLRIECVRDGNLRTIEDIHEEIYNKL  221
+
+
+>AUG58828.1 thymidylate kinase [Acetivibrio saccincola]
+Length=250
+
+ Score = 352 bits (903),  Expect = 4e-125, Method: Compositional matrix adjust.
+ Identities = 165/221 (75%), Positives = 193/221 (87%), Gaps = 0/221 (0%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            MKGKLIIIESG+DASGKATQT KLY+RLV E YKVKKITFP+YDSDSSALVKMYL GDFG
+Sbjct  25   MKGKLIIIESGSDASGKATQTEKLYKRLVSENYKVKKITFPDYDSDSSALVKMYLKGDFG  84
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+             +P DV+PYVASTFYAVDRFASY+T+WG+ Y+ G IILADRYTTSNMVHQAAKI+D+ +K
+Sbjct  85   NNPEDVNPYVASTFYAVDRFASYKTKWGKNYDYGEIILADRYTTSNMVHQAAKIQDLSKK  144
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            D FLDWLW+FEF +YKLPVPDCV FLDMPP +S+ LM  RANK TGE KKDIHE N +YL
+Sbjct  145  DAFLDWLWDFEFNLYKLPVPDCVFFLDMPPKYSKILMDNRANKITGEDKKDIHESNYKYL  204
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAV  221
+             +SY NSLY+AKKYNW++IECV+DG L+ I++I +E+Y  +
+Sbjct  205  EDSYNNSLYIAKKYNWLRIECVRDGNLRTIEDIHEEIYNKL  245
+
+
+>WP_037306083.1 DEAD/DEAH box helicase family protein [Acetivibrio saccincola]
+Length=791
+
+ Score = 29.3 bits (64),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 42/131 (32%), Positives = 63/131 (48%), Gaps = 22/131 (17%)
+
+Query  109  HQAAKIKDMEEKDRFLDWLWNFEFEIYKLPVP---DCVIFLDMPPSFSRELMK--ERANK  163
+             + A IK++EE+  F + L +   E+ K   P    C I  DMPP   RE     ++ N
+Sbjct  664  RKEAIIKELEERGVFFEELKD---EVGKDLDPFDLICHIAFDMPPLTRRERANNVKKRNY  720
+
+Query  164  FT--GEQKKDIHERN-DEYLVESYRN--SLYVAKKYNWIK----IECVK-----DGVLKK  209
+            FT  GE  +++ E   ++Y  E   N  +L + K  ++ K    IE VK        L+
+Sbjct  721  FTKYGESAREVLEALLEKYADEGIENLENLEILKVPDFKKFGSPIEIVKRFGGKKKYLEA  780
+
+Query  210  IDEIQKEVYEA  220
+            I E+QKE+Y A
+Sbjct  781  IKELQKEIYTA  791
+
+
+>AUG58881.1 Type-1 restriction enzyme R protein [Acetivibrio saccincola]
+Length=794
+
+ Score = 28.9 bits (63),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 42/131 (32%), Positives = 63/131 (48%), Gaps = 22/131 (17%)
+
+Query  109  HQAAKIKDMEEKDRFLDWLWNFEFEIYKLPVP---DCVIFLDMPPSFSRELMK--ERANK  163
+             + A IK++EE+  F + L +   E+ K   P    C I  DMPP   RE     ++ N
+Sbjct  667  RKEAIIKELEERGVFFEELKD---EVGKDLDPFDLICHIAFDMPPLTRRERANNVKKRNY  723
+
+Query  164  FT--GEQKKDIHERN-DEYLVESYRN--SLYVAKKYNWIK----IECVK-----DGVLKK  209
+            FT  GE  +++ E   ++Y  E   N  +L + K  ++ K    IE VK        L+
+Sbjct  724  FTKYGESAREVLEALLEKYADEGIENLENLEILKVPDFKKFGSPIEIVKRFGGKKKYLEA  783
+
+Query  210  IDEIQKEVYEA  220
+            I E+QKE+Y A
+Sbjct  784  IKELQKEIYTA  794
+
+
+>WP_101302913.1 hypothetical protein [Acetivibrio saccincola]
+ AUG58435.1 hypothetical protein HVS_12810 [Acetivibrio saccincola]
+Length=441
+
+ Score = 28.5 bits (62),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 39/79 (49%), Gaps = 13/79 (16%)
+
+Query  26   ERLVQEGYKVKKITFPNYDSDSSALVKM-----YLNGDFGKDPNDVSPYVASTFYAVDRF  80
+            ER+  +G  +K + F + DSDSS  V +     Y+   FG++    S   A +F A D
+Sbjct  282  ERIFLKG--IKDVKFVS-DSDSSYFVIVCDNYEYITSKFGEE----SLNSAKSFLADDSL  334
+
+Query  81   ASYRT-EWGQAYNDGWIIL  98
+             S+   E  +AYN  WI L
+Sbjct  335  DSFTIKENFEAYNIAWIFL  353
+
+
+>NLW25888.1 hypothetical protein [Acetivibrio saccincola]
+Length=442
+
+ Score = 28.5 bits (62),  Expect = 0.63, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 39/79 (49%), Gaps = 13/79 (16%)
+
+Query  26   ERLVQEGYKVKKITFPNYDSDSSALVKM-----YLNGDFGKDPNDVSPYVASTFYAVDRF  80
+            ER+  +G  +K + F + DSDSS  V +     Y+   FG++    S   A +F A D
+Sbjct  283  ERIFLKG--IKDVKFVS-DSDSSYFVIVCDNYEYITSKFGEE----SLNSAKSFLADDSL  335
+
+Query  81   ASYRT-EWGQAYNDGWIIL  98
+             S+   E  +AYN  WI L
+Sbjct  336  DSFTIKENFEAYNIAWIFL  354
+
+
+>WP_101299947.1 septum site-determining protein MinD [Acetivibrio saccincola]
+ AUG57018.1 Septum site-determining protein MinD [Acetivibrio saccincola]
+Length=266
+
+ Score = 28.1 bits (61),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  3   GKLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           G++I+I SG    GK T T  +   L  EG KV
+Sbjct  2   GEVIVITSGKGGVGKTTSTANIGTGLALEGKKV  34
+
+
+>WP_105368157.1 septum site-determining protein MinD [Acetivibrio saccincola]
+ NLW27589.1 septum site-determining protein MinD [Acetivibrio saccincola]
+ PQQ67034.1 septum site-determining protein MinD [Acetivibrio saccincola]
+Length=266
+
+ Score = 28.1 bits (61),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  3   GKLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           G++I+I SG    GK T T  +   L  EG KV
+Sbjct  2   GEVIVITSGKGGVGKTTSTANIGTGLALEGKKV  34
+
+
+>WP_105367816.1 hypothetical protein [Acetivibrio saccincola]
+ PQQ66363.1 hypothetical protein B9R14_06095 [Acetivibrio saccincola]
+Length=288
+
+ Score = 28.1 bits (61),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 27/79 (34%), Positives = 39/79 (49%), Gaps = 13/79 (16%)
+
+Query  26   ERLVQEGYKVKKITFPNYDSDSSALVKM-----YLNGDFGKDPNDVSPYVASTFYAVDRF  80
+            ER+  +G  +K + F + DSDSS  V +     Y+   FG++    S   A +F A D
+Sbjct  145  ERIFLKG--IKDVKFVS-DSDSSYFVIVCDNYEYITSKFGEE----SLNSAKSFLADDSL  197
+
+Query  81   ASYRT-EWGQAYNDGWIIL  98
+             S+   E  +AYN  WI L
+Sbjct  198  DSFTIKENFEAYNIAWIFL  216
+
+
+>WP_133161630.1 hypothetical protein [Acetivibrio saccincola]
+Length=66
+
+ Score = 25.0 bits (53),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 14/35 (40%), Positives = 21/35 (60%), Gaps = 1/35 (3%)
+
+Query  30  QEGYKVKKITFPNYDSDSSALVKMYLNGDFGKDPN  64
+           +EG +VK+++       +  L KMYL+G FG  PN
+Sbjct  29  EEGSRVKRVS-DEQPRLAQNLEKMYLSGVFGGLPN  62
+
+
+>WP_105368589.1 type IV pilus assembly protein PilM [Acetivibrio saccincola]
+ NLW26659.1 type IV pilus assembly protein PilM [Acetivibrio saccincola]
+ PQQ68100.1 pilus assembly protein PilM [Acetivibrio saccincola]
+Length=367
+
+ Score = 26.6 bits (57),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 19/29 (66%), Gaps = 4/29 (14%)
+
+Query  199  IECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            + C+K+GV+K +D +  E    +S IIR+
+Sbjct  45   LNCIKNGVIKNVDAVSSE----ISRIIRE  69
+
+
+>WP_101302516.1 type IV pilus assembly protein PilM [Acetivibrio saccincola]
+ AUG58223.1 Competence protein A [Acetivibrio saccincola]
+Length=367
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 11/29 (38%), Positives = 19/29 (66%), Gaps = 4/29 (14%)
+
+Query  199  IECVKDGVLKKIDEIQKEVYEAVSGIIRQ  227
+            + C+K+GV+K +D +  E    +S IIR+
+Sbjct  45   LNCIKNGVIKNVDAVSSE----ISRIIRE  69
+
+
+>WP_101300876.1 glycosyl hydrolase family 8 [Acetivibrio saccincola]
+ AUG57484.1 Reducing end xylose-releasing exo-oligoxylanase [Acetivibrio
+saccincola]
+ NLW27250.1 xylanase [Acetivibrio saccincola]
+ PQQ67403.1 xylanase [Acetivibrio saccincola]
+Length=376
+
+ Score = 26.6 bits (57),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 21/81 (26%), Positives = 32/81 (40%), Gaps = 11/81 (14%)
+
+Query  153  SRELMKERANKFTGEQKKDIH--------ERNDEYLVESYRNSLYVAKKYNWIKIECVKD  204
+            SRE +K+  +  TG   +  H        +    Y  +SYR +  +   Y W  ++   D
+Sbjct  222  SREYLKKACHPVTGLAPEYAHYDGTPYMKDNRQRYYSDSYRVAANIGLDYEWFGVD---D  278
+
+Query  205  GVLKKIDEIQKEVYEAVSGII  225
+                  D IQ+   E V G I
+Sbjct  279  WQCTCADNIQRFFCETVEGKI  299
+
+
+>NLW27845.1 ATP-binding protein [Acetivibrio saccincola]
+Length=552
+
+ Score = 26.6 bits (57),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 16/62 (26%), Positives = 27/62 (44%), Gaps = 0/62 (0%)
+
+Query  149  PPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWIKIECVKDGVLK  208
+            P SF   L+       T   K+ ++      +   YR   + A +  W+K+EC  DG +K
+Sbjct  121  PSSFGFTLIGISGLGKTSSLKRILNMYPQVIVHSEYRGIPFSAYQVVWVKLECPHDGSIK  180
+
+Query  209  KI  210
+             +
+Sbjct  181  GL  182
+
+
+>WP_003514281.1 MULTISPECIES: Mrp/NBP35 family ATP-binding protein [Eubacteriales]
+ PQQ65338.1 sodium:proton antiporter [Acetivibrio saccincola]
+Length=277
+
+ Score = 26.2 bits (56),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           K+I + SG    GK+T +  + E L ++GYKV
+Sbjct  31  KIIGVMSGKGGVGKSTVSALIAEELNKKGYKV  62
+
+
+>WP_242971626.1 ATP-binding protein [Acetivibrio saccincola]
+ AUG56144.1 Transposon Tn7 transposition protein TnsC [Acetivibrio saccincola]
+Length=562
+
+ Score = 26.6 bits (57),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 10/27 (37%), Positives = 16/27 (59%), Gaps = 0/27 (0%)
+
+Query  184  YRNSLYVAKKYNWIKIECVKDGVLKKI  210
+            YR   + A +  W+K+EC  DG +K +
+Sbjct  166  YRGIPFSAYQVVWVKLECPHDGSIKGL  192
+
+
+>WP_101298559.1 Mrp/NBP35 family ATP-binding protein [Acetivibrio saccincola]
+Length=276
+
+ Score = 26.2 bits (56),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           K+I + SG    GK+T +  + E L ++GYKV
+Sbjct  31  KIIGVMSGKGGVGKSTISALIAEELNKKGYKV  62
+
+
+>AUG56115.1 antiporter inner membrane protein [Acetivibrio saccincola]
+Length=257
+
+ Score = 25.8 bits (55),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  4   KLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           K+I + SG    GK+T +  + E L ++GYKV
+Sbjct  12  KIIGVMSGKGGVGKSTISALIAEELNKKGYKV  43
+
+
+>WP_101299021.1 BREX-1 system adenine-specific DNA-methyltransferase PglX [Acetivibrio
+saccincola]
+ AUG56532.1 N-6 DNA Methylase [Acetivibrio saccincola]
+Length=1220
+
+ Score = 26.2 bits (56),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 40/77 (52%), Gaps = 14/77 (18%)
+
+Query  147  DMPPSFSRELMKERANKFTGEQKKDIHERNDEYLVESYRNSLYVAKKYNWI----KIECV  202
+            D+P    RE ++   N    E +K IH  + EYL+E + +    AK+Y  I    KI+
+Sbjct  413  DIP----REAIEYLVNPKETELEKHIHRGDVEYLIEVFHD----AKEYGSILDVKKIDF-  463
+
+Query  203  KDGVLKKIDEIQKEVYE  219
+             D + K+I+EI+  V E
+Sbjct  464  -DALEKRIEEIRSNVPE  479
+
+
+>WP_105367569.1 hypothetical protein [Acetivibrio saccincola]
+ PQQ65809.1 hypothetical protein B9R14_02855 [Acetivibrio saccincola]
+Length=254
+
+ Score = 25.8 bits (55),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 13/55 (24%), Positives = 29/55 (53%), Gaps = 0/55 (0%)
+
+Query  67   SPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            S Y +   Y    ++ YR +  +   +   ILA++Y +SN + +A ++ ++ E +
+Sbjct  194  SEYFSDDCYYYIAYSEYRMKEYEQVKETIKILAEKYPSSNYIEEAQRLLNIIENE  248
+
+
+>WP_105367896.1 ATP-binding protein [Acetivibrio saccincola]
+ NLW27672.1 GHKL domain-containing protein [Acetivibrio saccincola]
+ PQQ66539.1 hypothetical protein B9R14_07080 [Acetivibrio saccincola]
+Length=812
+
+ Score = 25.8 bits (55),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 22/80 (28%), Positives = 38/80 (48%), Gaps = 4/80 (5%)
+
+Query  52   KMYLNGDFGKDPNDVSPYVASTFYAVD-RFASYRTEWG-QAYNDGWIILADRYTTSNMVH  109
+            K+++ G FG     ++      FY+ + RF+ +  +WG   +    II+  R  TS
+Sbjct  349  KIFMAGLFGFAGILIAEMFVFLFYSNNYRFSLF--QWGILIFIFSQIIILARKITSLHNK  406
+
+Query  110  QAAKIKDMEEKDRFLDWLWN  129
+                 K +E+K+  LD +WN
+Sbjct  407  TILYSKRLEKKNAQLDLMWN  426
+
+
+>WP_101298879.1 ATP-binding protein [Acetivibrio saccincola]
+ AUG56454.1 Sensor protein ZraS [Acetivibrio saccincola]
+Length=812
+
+ Score = 25.8 bits (55),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 22/80 (28%), Positives = 38/80 (48%), Gaps = 4/80 (5%)
+
+Query  52   KMYLNGDFGKDPNDVSPYVASTFYAVD-RFASYRTEWG-QAYNDGWIILADRYTTSNMVH  109
+            K+++ G FG     ++      FY+ + RF+ +  +WG   +    II+  R  TS
+Sbjct  349  KIFMAGLFGFAGILIAEMFVFLFYSNNYRFSLF--QWGILIFIFSQIIILARKITSLHNK  406
+
+Query  110  QAAKIKDMEEKDRFLDWLWN  129
+                 K +E+K+  LD +WN
+Sbjct  407  TILYSKRLEKKNAQLDLMWN  426
+
+
+>WP_101298451.1 tetratricopeptide repeat protein [Acetivibrio saccincola]
+ AUG56002.1 hypothetical protein HVS_00050 [Acetivibrio saccincola]
+Length=254
+
+ Score = 25.4 bits (54),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 13/55 (24%), Positives = 29/55 (53%), Gaps = 0/55 (0%)
+
+Query  67   SPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKD  121
+            S Y +   Y    ++ YR +  +   +   ILA++Y +SN + +A ++ ++ E +
+Sbjct  194  SEYFSDDCYYYIAYSEYRMKEYEQAKETIKILAEKYPSSNYIEEAQRLLNIIENE  248
+
+
+>WP_101299189.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibrio saccincola]
+ AUG56622.1 Putrescine oxidase [Acetivibrio saccincola]
+ NLW27623.1 NAD(P)/FAD-dependent oxidoreductase [Acetivibrio saccincola]
+ PQQ66691.1 amine oxidase [Acetivibrio saccincola]
+Length=429
+
+ Score = 25.0 bits (53),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 14/32 (44%), Positives = 18/32 (56%), Gaps = 4/32 (13%)
+
+Query  20   QTNKLY----ERLVQEGYKVKKITFPNYDSDS  47
+            Q NK+Y    E + +E  K  KI FPN+D  S
+Sbjct  334  QKNKMYSMSDEEIQREFIKYLKIMFPNFDKSS  365
+
+
+>PQQ66558.1 hypothetical protein B9R14_07175 [Acetivibrio saccincola]
+Length=2361
+
+ Score = 25.0 bits (53),  Expect = 9.4, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 31/63 (49%), Gaps = 4/63 (6%)
+
+Query  37   KITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRTEWGQ--AYNDG  94
+            +I+F +      A   + + G F K  ND S Y  S  Y+ +  AS  TEW +  AY +G
+Sbjct  623  EISFSSSAGTLEANRPVEIQGRFAK--NDWSNYNQSNDYSFNANASGYTEWDKVTAYING  680
+
+Query  95   WII  97
+             ++
+Sbjct  681  QLV  683
+
+
+>WP_159063352.1 cohesin domain-containing protein [Acetivibrio saccincola]
+ AUG56472.1 Cellulosomal-scaffolding protein A precursor [Acetivibrio saccincola]
+Length=2180
+
+ Score = 25.0 bits (53),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 31/63 (49%), Gaps = 4/63 (6%)
+
+Query  37   KITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRTEWGQ--AYNDG  94
+            +I+F +      A   + + G F K  ND S Y  S  Y+ +  AS  TEW +  AY +G
+Sbjct  618  EISFSSSAGTLEANRPVEIQGRFAK--NDWSNYNQSNDYSFNANASGYTEWDKVTAYING  675
+
+Query  95   WII  97
+             ++
+Sbjct  676  QLV  678
+
+
+>WP_192876518.1 cohesin domain-containing protein [Acetivibrio saccincola]
+Length=2356
+
+ Score = 25.0 bits (53),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 20/63 (32%), Positives = 31/63 (49%), Gaps = 4/63 (6%)
+
+Query  37   KITFPNYDSDSSALVKMYLNGDFGKDPNDVSPYVASTFYAVDRFASYRTEWGQ--AYNDG  94
+            +I+F +      A   + + G F K  ND S Y  S  Y+ +  AS  TEW +  AY +G
+Sbjct  618  EISFSSSAGTLEANRPVEIQGRFAK--NDWSNYNQSNDYSFNANASGYTEWDKVTAYING  675
+
+Query  95   WII  97
+             ++
+Sbjct  676  QLV  678
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,098,911
+  Number of sequences in database:  6,274
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 6274
+Number of Hits to DB: 8576
+Number of extensions: 421
+Number of successful extensions: 16
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 3
+Length of query: 227
+Length of database: 2098911
+Length adjustment: 84
+Effective length of query: 143
+Effective length of database: 1571895
+Effective search space: 224780985
+Effective search space used: 224780985
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 32 (16.9 bits)
+S2: 43 (21.2 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

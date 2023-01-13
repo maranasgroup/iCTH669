@@ -1,0 +1,703 @@
+Start time: 18 Mar 2022 16:36:10
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+Found gene for related organism sthr:Sulfobacillus thermotolerans
+BXT84_01655-------------------------------------------------------------------------------------
+Building FASTA report for gene BXT84_01655 (Accession: AUW92818)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+Found gene for related organism ibu:Intestinimonas butyriciproducens
+IB211_03248c-------------------------------------------------------------------------------------
+Building FASTA report for gene IB211_03248c (Accession: ALP95638)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+Found gene for related organism vpy:Vallitalea pronyensis
+HZI73_18485-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_18485 (Accession: QUI24157)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+Found gene for related organism sap:Sulfobacillus acidophilus
+Sulac_2292-------------------------------------------------------------------------------------
+Building FASTA report for gene Sulac_2292 (Accession: AEW05762)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+Found gene for related organism sthr:Sulfobacillus thermotolerans
+BXT84_08910-------------------------------------------------------------------------------------
+Building FASTA report for gene BXT84_08910 (Accession: AUW94056)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+Found gene for related organism ibu:Intestinimonas butyriciproducens
+IB211_01520-------------------------------------------------------------------------------------
+Building FASTA report for gene IB211_01520 (Accession: ALP93912)
+
+Using Organism: Petrocella atlantisensis (cbar)
+Found gene for related organism cbar:Petrocella atlantisensis
+PATL70BA_0232-------------------------------------------------------------------------------------
+Building FASTA report for gene PATL70BA_0232 (Accession: VDN46076)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+Found gene for related organism vgu:Vallitalea guaymasensis
+HYG85_17220-------------------------------------------------------------------------------------
+Building FASTA report for gene HYG85_17220 (Accession: QUH30555)
+
+Using Organism: Vallitalea pronyensis (vpy)
+Found gene for related organism vpy:Vallitalea pronyensis
+HZI73_05500-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_05500 (Accession: QUI25602)
+HZI73_24305-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_24305 (Accession: QUI25228)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+Found gene for related organism lasa:Lawsonibacter asaccharolyticus
+L9O85_06700-------------------------------------------------------------------------------------
+Building FASTA report for gene L9O85_06700 (Accession: UMM48087)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+Found gene for related organism sap:Sulfobacillus acidophilus
+Sulac_2285-------------------------------------------------------------------------------------
+Building FASTA report for gene Sulac_2285 (Accession: AEW05755)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+Found gene for related organism sthr:Sulfobacillus thermotolerans
+BXT84_08895-------------------------------------------------------------------------------------
+Building FASTA report for gene BXT84_08895 (Accession: AUW94054)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+Found gene for related organism cthm:Carboxydocella thermautotrophica
+CFE_1394-------------------------------------------------------------------------------------
+Building FASTA report for gene CFE_1394 (Accession: AVX20583)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+Found gene for related organism ibu:Intestinimonas butyriciproducens
+IB211_01525-------------------------------------------------------------------------------------
+Building FASTA report for gene IB211_01525 (Accession: ALP93917)
+
+Using Organism: Petrocella atlantisensis (cbar)
+Found gene for related organism cbar:Petrocella atlantisensis
+PATL70BA_0227-------------------------------------------------------------------------------------
+Building FASTA report for gene PATL70BA_0227 (Accession: VDN46071)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+Found gene for related organism vgu:Vallitalea guaymasensis
+HYG85_03975-------------------------------------------------------------------------------------
+Building FASTA report for gene HYG85_03975 (Accession: QUH28115)
+
+Using Organism: Vallitalea pronyensis (vpy)
+Found gene for related organism vpy:Vallitalea pronyensis
+HZI73_05545-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_05545 (Accession: QUI21789)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+Found gene for related organism lasa:Lawsonibacter asaccharolyticus
+L9O85_06710-------------------------------------------------------------------------------------
+Building FASTA report for gene L9O85_06710 (Accession: UMM48089)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+Found gene for related organism sap:Sulfobacillus acidophilus
+Sulac_2290-------------------------------------------------------------------------------------
+Building FASTA report for gene Sulac_2290 (Accession: AEW05760)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+Found gene for related organism cthm:Carboxydocella thermautotrophica
+CFE_1397-------------------------------------------------------------------------------------
+Building FASTA report for gene CFE_1397 (Accession: AVX20586)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+Found gene for related organism ibu:Intestinimonas butyriciproducens
+IB211_01506-------------------------------------------------------------------------------------
+Building FASTA report for gene IB211_01506 (Accession: ALP93899)
+
+Using Organism: Petrocella atlantisensis (cbar)
+Found gene for related organism cbar:Petrocella atlantisensis
+PATL70BA_0224-------------------------------------------------------------------------------------
+Building FASTA report for gene PATL70BA_0224 (Accession: VDN46068)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+Found gene for related organism vgu:Vallitalea guaymasensis
+HYG85_17255-------------------------------------------------------------------------------------
+Building FASTA report for gene HYG85_17255 (Accession: QUH30562)
+
+Using Organism: Vallitalea pronyensis (vpy)
+Found gene for related organism vpy:Vallitalea pronyensis
+HZI73_05580-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_05580 (Accession: QUI21796)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+Found gene for related organism lasa:Lawsonibacter asaccharolyticus
+L9O85_06730-------------------------------------------------------------------------------------
+Building FASTA report for gene L9O85_06730 (Accession: UMM48093)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+Found gene for related organism sap:Sulfobacillus acidophilus
+Sulac_2284-------------------------------------------------------------------------------------
+Building FASTA report for gene Sulac_2284 (Accession: AEW05754)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+Found gene for related organism sthr:Sulfobacillus thermotolerans
+BXT84_08900-------------------------------------------------------------------------------------
+Building FASTA report for gene BXT84_08900 (Accession: AUW95497)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+Found gene for related organism cthm:Carboxydocella thermautotrophica
+CFE_1395-------------------------------------------------------------------------------------
+Building FASTA report for gene CFE_1395 (Accession: AVX20584)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+Found gene for related organism ibu:Intestinimonas butyriciproducens
+IB211_01504-------------------------------------------------------------------------------------
+Building FASTA report for gene IB211_01504 (Accession: ALP93897)
+
+Using Organism: Petrocella atlantisensis (cbar)
+Found gene for related organism cbar:Petrocella atlantisensis
+PATL70BA_0226-------------------------------------------------------------------------------------
+Building FASTA report for gene PATL70BA_0226 (Accession: VDN46070)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+Found gene for related organism vgu:Vallitalea guaymasensis
+HYG85_17250-------------------------------------------------------------------------------------
+Building FASTA report for gene HYG85_17250 (Accession: QUH30561)
+
+Using Organism: Vallitalea pronyensis (vpy)
+Found gene for related organism vpy:Vallitalea pronyensis
+HZI73_05570-------------------------------------------------------------------------------------
+Building FASTA report for gene HZI73_05570 (Accession: QUI21794)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+Found gene for related organism lasa:Lawsonibacter asaccharolyticus
+L9O85_06720-------------------------------------------------------------------------------------
+Building FASTA report for gene L9O85_06720 (Accession: UMM48091)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Sulfobacillus acidophilus (sap)
+
+Using Organism: Sulfobacillus thermotolerans (sthr)
+
+Using Organism: Carboxydocella thermautotrophica (cthm)
+
+Using Organism: Christensenella minuta (cmiu)
+
+Using Organism: Intestinimonas butyriciproducens (ibu)
+
+Using Organism: Petrocella atlantisensis (cbar)
+
+Using Organism: Vallitalea guaymasensis (vgu)
+
+Using Organism: Vallitalea pronyensis (vpy)
+
+Using Organism: Alkalicella caledoniensis (acae)
+
+Using Organism: Lawsonibacter asaccharolyticus (lasa)
+
+Using Organism: Mogibacterium diversum (mdv)
+end time: 19 Mar 2022 20:57:38

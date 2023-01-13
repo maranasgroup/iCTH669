@@ -1,0 +1,284 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WNHWW36013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ARD64102 5'-nucleotidase [Eubacterium limosum]
+
+Length=636
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      32.0    0.24   28%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      32.0    0.26   28%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      32.0    0.27   28%
+WP_003518481.1 V-type ATP synthase subunit I [Acetivibrio ther...  28.5    3.5    30%
+WP_003517817.1 dCTP deaminase [Acetivibrio thermocellus]           27.7    3.6    25%
+WP_011838092.1 dCTP deaminase [Acetivibrio thermocellus]           27.7    3.8    25%
+WP_011837937.1 tRNA guanosine(34) transglycosylase Tgt [Acetiv...  28.1    4.6    27%
+WP_003518650.1 tRNA guanosine(34) transglycosylase Tgt [Acetiv...  28.1    4.6    27%
+WP_069194781.1 recombinase [Acetivibrio thermocellus]              26.9    5.2    42%
+WP_003512828.1 metalloprotease family protein [Acetivibrio the...  26.6    8.9    31%
+
+ALIGNMENTS
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 32.0 bits (71),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 39/83 (47%), Gaps = 7/83 (8%)
+
+Query  205  PLSFDDTTETAKACVDSLKAQNADVIICLSHGGTNPDIEK-SEDQQLAKAVPD--IDVIV  261
+            PL FDD+    K  ++ L+++  D++I   H G     E   E ++ A ++ D  +DVI+
+Sbjct  252  PLKFDDSI---KKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVIL  307
+
+Query  262  SGHTHTTLDTPITEGRTTIVGCG  284
+              H H      I +G+      G
+Sbjct  308  GHHPHQFQGIEIYKGKPVFYSLG  330
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 32.0 bits (71),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 39/83 (47%), Gaps = 7/83 (8%)
+
+Query  205  PLSFDDTTETAKACVDSLKAQNADVIICLSHGGTNPDIEK-SEDQQLAKAVPD--IDVIV  261
+            PL FDD+    K  ++ L+++  D++I   H G     E   E ++ A ++ D  +DVI+
+Sbjct  252  PLKFDDSI---KKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVIL  307
+
+Query  262  SGHTHTTLDTPITEGRTTIVGCG  284
+              H H      I +G+      G
+Sbjct  308  GHHPHQFQGIEIYKGKPVFYSLG  330
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 32.0 bits (71),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 23/83 (28%), Positives = 39/83 (47%), Gaps = 7/83 (8%)
+
+Query  205  PLSFDDTTETAKACVDSLKAQNADVIICLSHGGTNPDIEK-SEDQQLAKAVPD--IDVIV  261
+            PL FDD+    K  ++ L+++  D++I   H G     E   E ++ A ++ D  +DVI+
+Sbjct  252  PLKFDDSI---KKDIEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVIL  307
+
+Query  262  SGHTHTTLDTPITEGRTTIVGCG  284
+              H H      I +G+      G
+Sbjct  308  GHHPHQFQGIEIYKGKPVFYSLG  330
+
+
+>WP_003518481.1 V-type ATP synthase subunit I [Acetivibrio thermocellus]
+ CDG36776.1 V-type ATPase, 116 kDa subunit [Acetivibrio thermocellus BC1]
+ ABN53464.1 V-type ATPase 116 kDa subunit [Acetivibrio thermocellus ATCC
+27405]
+ ADU75915.1 V-type ATPase 116 kDa subunit [Acetivibrio thermocellus DSM 1313]
+ ALX09947.1 V-type ATPase containing protein [Acetivibrio thermocellus AD2]
+ ANV77721.1 V-type ATPase subunit-containing protein [Acetivibrio thermocellus
+DSM 2360]
+Length=651
+
+ Score = 28.5 bits (62),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 27/56 (48%), Gaps = 4/56 (7%)
+
+Query  487  QNPDGTWTPLDEDRLYRVTTSQYLANMTGLMTKMSHGIITLAPRDKDGNPVSDTNT  542
+            QN D  W+ +DE   Y     + LAN+     + S+ I++L P +    P+  T T
+Sbjct  102  QNQDKLWSVIDEVNRY----DEMLANLKAEKNRNSNMILSLKPWEALDIPLELTAT  153
+
+
+>WP_003517817.1 dCTP deaminase [Acetivibrio thermocellus]
+ ADU75271.1 deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+DSM 1313]
+ ALX09260.1 Deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+AD2]
+ ANV77012.1 Deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04728.1 deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+YS]
+ PFH03535.1 dCTP deaminase [Acetivibrio thermocellus AD2]
+Length=178
+
+ Score = 27.7 bits (60),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  495  PLDEDRLYRVTTSQYLANMTGLMTKMSHGIITLAPRDKDGNPVSDTNTLIIHTPTGAEAK  554
+            PL+++++   +    L N   ++     GII L    K     SDT  L+ +    A
+Sbjct  21   PLEKEQIQPASVDIRLGNTFSIVEDSCTGIINLEKEVKYKTITSDTYILLPNQFVLATTM  80
+
+Query  555  EWIALSDYIHSFPVGESGL  573
+            E+  L + + +F  G S L
+Sbjct  81   EYFELPNNLTAFVEGRSSL  99
+
+
+>WP_011838092.1 dCTP deaminase [Acetivibrio thermocellus]
+ A3DFH7.1 RecName: Full=dCTP deaminase, dUMP-forming; AltName: Full=Bifunctional
+dCTP deaminase:dUTPase; AltName: Full=DCD-DUT [Acetivibrio
+thermocellus ATCC 27405]
+ CDG36142.1 Deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+BC1]
+ ABN52706.1 deoxycytidine triphosphate deaminase [Acetivibrio thermocellus
+ATCC 27405]
+ NLU26661.1 dCTP deaminase [Acetivibrio thermocellus]
+ HBW27218.1 dCTP deaminase [Acetivibrio thermocellus]
+Length=178
+
+ Score = 27.7 bits (60),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 20/79 (25%), Positives = 34/79 (43%), Gaps = 0/79 (0%)
+
+Query  495  PLDEDRLYRVTTSQYLANMTGLMTKMSHGIITLAPRDKDGNPVSDTNTLIIHTPTGAEAK  554
+            PL+++++   +    L N   ++     GII L    K     SDT  L+ +    A
+Sbjct  21   PLEKEQIQPASVDIRLGNTFSIVEDSCTGIINLEKEVKYKTITSDTYILLPNQFVLATTM  80
+
+Query  555  EWIALSDYIHSFPVGESGL  573
+            E+  L + + +F  G S L
+Sbjct  81   EYFELPNNLTAFVEGRSSL  99
+
+
+>WP_011837937.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+ A3DE13.1 RecName: Full=Queuine tRNA-ribosyltransferase; AltName: Full=Guanine
+insertion enzyme; AltName: Full=tRNA-guanine transglycosylase
+[Acetivibrio thermocellus ATCC 27405]
+ ABN52192.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus ATCC
+27405]
+ HBW26902.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+Length=374
+
+ Score = 28.1 bits (61),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 13/49 (27%), Positives = 22/49 (45%), Gaps = 0/49 (0%)
+
+Query  202  NYAPLSFDDTTETAKACVDSLKAQNADVIICLSHGGTNPDIEKSEDQQL  250
+            +YA  S + TT  AK C D+ +      +  +  GG   D+ +    +L
+Sbjct  158  DYAKKSLERTTRWAKRCKDAHRNPEKQALFGIVQGGMYKDLRQQSAYEL  206
+
+
+>WP_003518650.1 tRNA guanosine(34) transglycosylase Tgt [Acetivibrio thermocellus]
+ CDG35652.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus BC1]
+ ADU74321.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus DSM
+1313]
+ ALX08265.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus AD2]
+ ANV76013.1 Queuine tRNA-ribosyltransferase [Acetivibrio thermocellus DSM
+2360]
+ EIC05822.1 queuine tRNA-ribosyltransferase [Acetivibrio thermocellus YS]
+Length=374
+
+ Score = 28.1 bits (61),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 13/49 (27%), Positives = 22/49 (45%), Gaps = 0/49 (0%)
+
+Query  202  NYAPLSFDDTTETAKACVDSLKAQNADVIICLSHGGTNPDIEKSEDQQL  250
+            +YA  S + TT  AK C D+ +      +  +  GG   D+ +    +L
+Sbjct  158  DYAKKSLERTTRWAKRCKDAHRNPEKQALFGIVQGGMYKDLRQQSAYEL  206
+
+
+>WP_069194781.1 recombinase [Acetivibrio thermocellus]
+ THJ77591.1 recombinase [Acetivibrio thermocellus]
+Length=157
+
+ Score = 26.9 bits (58),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 20/31 (65%), Gaps = 2/31 (6%)
+
+Query  157  DDPKSEEIKAAFDAY--GSSATKIIERGGLK  185
+            DD  +E+IKA F AY  G S ++  ++ G+K
+Sbjct  18   DDVAAEQIKALFQAYVSGDSLSEAAKKAGIK  48
+
+
+>WP_003512828.1 metalloprotease family protein [Acetivibrio thermocellus]
+ CDG37142.1 hypothetical protein CTHBC1_2554 [Acetivibrio thermocellus BC1]
+ ADU73359.1 hypothetical protein Clo1313_0268 [Acetivibrio thermocellus DSM
+1313]
+ ALX07281.1 hypothetical protein AD2_00272 [Acetivibrio thermocellus AD2]
+ ANV75019.1 hypothetical protein LQRI_0271 [Acetivibrio thermocellus DSM
+2360]
+ EIC04252.1 hypothetical protein YSBL_2127 [Acetivibrio thermocellus YS]
+Length=177
+
+ Score = 26.6 bits (57),  Expect = 8.9, Method: Composition-based stats.
+ Identities = 21/67 (31%), Positives = 28/67 (42%), Gaps = 19/67 (28%)
+
+Query  556  WIALSDYIHSFP-VGESGLRTIPASYNIAREVKTPVDNSLVTFFGNPSPIALAVYSIIAG  614
+            W+ +S  +HSFP VG++         NI + VK P    LV     P          + G
+Sbjct  102  WLGISIAMHSFPSVGDAA--------NIWKSVKHPDTPILVKILATP----------LVG  143
+
+Query  615  LIVLIVI  621
+            LI L  I
+Sbjct  144  LIYLCAI  150
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.136    0.394
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 39626
+Number of extensions: 1840
+Number of successful extensions: 14
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 14
+Number of HSP's successfully gapped: 2
+Length of query: 636
+Length of database: 2835838
+Length adjustment: 95
+Effective length of query: 541
+Effective length of database: 2069853
+Effective search space: 1119790473
+Effective search space used: 1119790473
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 36 (18.5 bits)
+S2: 49 (23.5 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

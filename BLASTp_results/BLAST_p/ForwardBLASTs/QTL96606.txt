@@ -1,0 +1,283 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WGVTV9K016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QTL96606 5'-nucleotidase [Iocasia fonsfrigidae]
+
+Length=1149
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      36.2    0.024  30%
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      36.2    0.025  30%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      36.2    0.025  30%
+WP_136479118.1 MFS transporter [Acetivibrio thermocellus]          32.7    0.29   25%
+WP_020457782.1 MFS transporter [Acetivibrio thermocellus]          32.7    0.30   25%
+WP_003513299.1 MFS transporter [Acetivibrio thermocellus]          32.7    0.31   25%
+WP_003518029.1 tRNA (N(6)-L-threonylcarbamoyladenosine(37)-C(2...  30.0    2.1    33%
+CDG37344.1 Hedgehog/intein hint domain protein [Acetivibrio th...  29.6    2.5    38%
+WP_167524729.1 TNT domain-containing protein [Acetivibrio ther...  27.3    6.0    38%
+CDG36271.1 transposase [Acetivibrio thermocellus BC1]              28.1    8.6    25%
+
+ALIGNMENTS
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 36.2 bits (82),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 72/169 (43%), Gaps = 34/169 (20%)
+
+Query  112  MNLMGYSAGAVGNHEFNYGQDTLHKIIDTADFPVLSANIIKESDSSL---EFTPYTIIDV  168
+             NLM  +     NH  +Y +  L    DT D  +L  N IK + +     E     I++V
+Sbjct  163  FNLMNLA----NNHILDYYERGL---FDTMD--ILDKNGIKYAGAGRNLEEARKPAIMEV  213
+
+Query  169  KGVKVAILGLTTQAT-----------TASEIEGLRILNPLDVAKEYVKKLKE-EEKVDLV  216
+            K +KV +L  T  A             A E +      PL       K ++E   KVD++
+Sbjct  214  KSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKVDIL  273
+
+Query  217  FISAHFGLD------PEEREGNYARPIAQEVPGVDGILTGHDHAFVDIE  259
+             +S H+G++      PE+RE  +A  +     GVD IL  H H F  IE
+Sbjct  274  IVSLHWGVEESFEVLPEQRE--FAHSLIDN--GVDVILGHHPHQFQGIE  318
+
+
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 36.2 bits (82),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 72/169 (43%), Gaps = 34/169 (20%)
+
+Query  112  MNLMGYSAGAVGNHEFNYGQDTLHKIIDTADFPVLSANIIKESDSSL---EFTPYTIIDV  168
+             NLM  +     NH  +Y +  L    DT D  +L  N IK + +     E     I++V
+Sbjct  163  FNLMNLA----NNHILDYYERGL---FDTMD--ILDKNGIKYAGAGRNLEEARKPAIMEV  213
+
+Query  169  KGVKVAILGLTTQAT-----------TASEIEGLRILNPLDVAKEYVKKLKE-EEKVDLV  216
+            K +KV +L  T  A             A E +      PL       K ++E   KVD++
+Sbjct  214  KSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKVDIL  273
+
+Query  217  FISAHFGLD------PEEREGNYARPIAQEVPGVDGILTGHDHAFVDIE  259
+             +S H+G++      PE+RE  +A  +     GVD IL  H H F  IE
+Sbjct  274  IVSLHWGVEESFEVLPEQRE--FAHSLIDN--GVDVILGHHPHQFQGIE  318
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 36.2 bits (82),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 72/169 (43%), Gaps = 34/169 (20%)
+
+Query  112  MNLMGYSAGAVGNHEFNYGQDTLHKIIDTADFPVLSANIIKESDSSL---EFTPYTIIDV  168
+             NLM  +     NH  +Y +  L    DT D  +L  N IK + +     E     I++V
+Sbjct  163  FNLMNLA----NNHILDYYERGL---FDTMD--ILDKNGIKYAGAGRNLEEARKPAIMEV  213
+
+Query  169  KGVKVAILGLTTQAT-----------TASEIEGLRILNPLDVAKEYVKKLKE-EEKVDLV  216
+            K +KV +L  T  A             A E +      PL       K ++E   KVD++
+Sbjct  214  KSMKVGMLAYTDMAEIVYKGNPNYKFAAGEDKPGVAPRPLKFDDSIKKDIEELRSKVDIL  273
+
+Query  217  FISAHFGLD------PEEREGNYARPIAQEVPGVDGILTGHDHAFVDIE  259
+             +S H+G++      PE+RE  +A  +     GVD IL  H H F  IE
+Sbjct  274  IVSLHWGVEESFEVLPEQRE--FAHSLIDN--GVDVILGHHPHQFQGIE  318
+
+
+>WP_136479118.1 MFS transporter [Acetivibrio thermocellus]
+ THJ79574.1 MFS transporter [Acetivibrio thermocellus]
+Length=466
+
+ Score = 32.7 bits (73),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 35/84 (42%), Gaps = 13/84 (15%)
+
+Query  751  INRWGEEGGFPFVAANIYDKRTGEPVSWAKPYVFIERKGAVIAFI---------GIATPE  801
+            ++ WG   GF  +A +I        + W  P++ I   GAV  F+         G A PE
+Sbjct  138  MSLWGLSQGFGCIAGSIMAPIVSSRLGWRMPFIIISSLGAVFIFMYFFIKEPVKGAAEPE  197
+
+Query  802  TAYKTLKANVENYEFRDPVETLKT  825
+                 LK    +Y +   + ++K+
+Sbjct  198  LGGIALK----SYNYNISLSSVKS  217
+
+
+>WP_020457782.1 MFS transporter [Acetivibrio thermocellus]
+ ABN53584.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+ATCC 27405]
+ HBW27938.1 MFS transporter [Acetivibrio thermocellus]
+Length=466
+
+ Score = 32.7 bits (73),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 35/84 (42%), Gaps = 13/84 (15%)
+
+Query  751  INRWGEEGGFPFVAANIYDKRTGEPVSWAKPYVFIERKGAVIAFI---------GIATPE  801
+            ++ WG   GF  +A +I        + W  P++ I   GAV  F+         G A PE
+Sbjct  138  MSLWGLSQGFGCIAGSIMAPIVSSRLGWRMPFIIISSLGAVFIFMYFFIKEPVKGAAEPE  197
+
+Query  802  TAYKTLKANVENYEFRDPVETLKT  825
+                 LK    +Y +   + ++K+
+Sbjct  198  LGGIALK----SYNYNISLSSVKS  217
+
+
+>WP_003513299.1 MFS transporter [Acetivibrio thermocellus]
+ CDG36905.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+BC1]
+ ADU73112.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+DSM 1313]
+ ALX07023.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+AD2]
+ ANV74760.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+DSM 2360]
+ EIC04057.1 major facilitator superfamily MFS_1 [Acetivibrio thermocellus
+YS]
+Length=466
+
+ Score = 32.7 bits (73),  Expect = 0.31, Method: Compositional matrix adjust.
+ Identities = 21/84 (25%), Positives = 35/84 (42%), Gaps = 13/84 (15%)
+
+Query  751  INRWGEEGGFPFVAANIYDKRTGEPVSWAKPYVFIERKGAVIAFI---------GIATPE  801
+            ++ WG   GF  +A +I        + W  P++ I   GAV  F+         G A PE
+Sbjct  138  MSLWGLSQGFGCIAGSIMAPIVSSRLGWRMPFIIISSLGAVFIFMYFFIKEPVKGAAEPE  197
+
+Query  802  TAYKTLKANVENYEFRDPVETLKT  825
+                 LK    +Y +   + ++K+
+Sbjct  198  LGGIALK----SYNYNISLSSVKS  217
+
+
+>WP_003518029.1 tRNA (N(6)-L-threonylcarbamoyladenosine(37)-C(2))-methylthiotransferase
+MtaB [Acetivibrio thermocellus]
+ CDG34830.1 Threonylcarbamoyladenosine tRNA methylthiotransferase MtaB [Acetivibrio
+thermocellus BC1]
+ ABN51391.1 RNA modification enzyme, MiaB family [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75124.1 RNA modification enzyme, MiaB family [Acetivibrio thermocellus
+DSM 1313]
+ ALX09099.1 MiaB-like tRNA modifying enzyme [Acetivibrio thermocellus AD2]
+ ANV76851.1 MiaB-like tRNA modifying enzyme [Acetivibrio thermocellus DSM
+2360]
+Length=434
+
+ Score = 30.0 bits (66),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 37/111 (33%), Positives = 52/111 (47%), Gaps = 17/111 (15%)
+
+Query  131  QDTLHKIIDTADFPVLS---ANIIKESDSSLEFTPYTIIDVKGVKVAILGLTTQATT---  184
+            Q   + II  A  PV S    NI+KE  S L  + Y  + + G+ VA  G   + T+
+Sbjct  155  QFCTYCIIPYARGPVRSRSEENILKEV-SGLAHSGYKEVVLTGIHVASYGKDIKNTSLID  213
+
+Query  185  ----ASEIEGL-RI----LNPLDVAKEYVKKLKEEEKVDLVF-ISAHFGLD  225
+                  EIEG+ RI    + P  V +E+V+ +K  EK+   F IS   G D
+Sbjct  214  IIRKVHEIEGIERIRLGSIEPTTVTEEFVRAIKGMEKLCPQFHISLQSGCD  264
+
+
+>CDG37344.1 Hedgehog/intein hint domain protein [Acetivibrio thermocellus
+BC1]
+Length=261
+
+ Score = 29.6 bits (65),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  750  RINRWGEEGG-FPFVAANIYDKRTGEPVSWAKPYVFIERKGAVIAFIGIATP  800
+            RI+R+G EGG F       YD R+  P +  KPY   E    V A  G   P
+Sbjct  179  RIDRYGYEGGTFASPVGTPYDCRSLAPGTETKPYNVYEVVKPVEALSGKIAP  230
+
+
+>WP_167524729.1 TNT domain-containing protein [Acetivibrio thermocellus]
+Length=128
+
+ Score = 27.3 bits (59),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 20/52 (38%), Positives = 24/52 (46%), Gaps = 1/52 (2%)
+
+Query  750  RINRWGEEGG-FPFVAANIYDKRTGEPVSWAKPYVFIERKGAVIAFIGIATP  800
+            RI+R+G EGG F       YD R+  P +  KPY   E    V A  G   P
+Sbjct  46   RIDRYGYEGGTFASPVGTPYDCRSLAPGTETKPYNVYEVVKPVEALSGKIAP  97
+
+
+>CDG36271.1 transposase [Acetivibrio thermocellus BC1]
+Length=490
+
+ Score = 28.1 bits (61),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 20/80 (25%), Positives = 39/80 (49%), Gaps = 8/80 (10%)
+
+Query  40   TDVHGNIMNYDYYGVHTYSQGFAMVNTMV----KRIKSENPNTILI----DAGDLIQGTP  91
+            ++V   + ++D  GV  Y      +NT +    KRI+ E+   + +    +  DL+   P
+Sbjct  306  SEVSSTVASFDKDGVVNYKGNRYQINTGMMDAHKRIRIEDDGEMFLFYDAETNDLLAKYP  365
+
+Query  92   LTYYYGKKMKPDKNYPMTKI  111
+            +T   G+  KP++NY   ++
+Sbjct  366  VTEDTGQLFKPEENYSRDRV  385
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.136    0.392
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 67871
+Number of extensions: 3290
+Number of successful extensions: 32
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 9
+Length of query: 1149
+Length of database: 2835838
+Length adjustment: 100
+Effective length of query: 1049
+Effective length of database: 2029538
+Effective search space: 2128985362
+Effective search space used: 2128985362
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 38 (19.2 bits)
+S2: 52 (24.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

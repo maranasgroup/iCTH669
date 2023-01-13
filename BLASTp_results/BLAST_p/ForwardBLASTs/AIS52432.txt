@@ -1,0 +1,201 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WF5CDTG016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AIS52432 5'-nucleotidase [Thermoanaerobacter kivui]
+
+Length=252
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838144.1 phage tail protein [Acetivibrio thermocellus]       28.9    0.95   30%
+WP_136479425.1 phage tail protein [Acetivibrio thermocellus]       27.7    2.0    30%
+CDG36403.1 hypothetical protein CTHBC1_1780 [Acetivibrio therm...  25.0    3.1    31%
+WP_003520674.1 phage tail protein [Acetivibrio thermocellus]       26.9    3.7    30%
+WP_003519324.1 HAMP domain-containing histidine kinase [Acetiv...  25.4    8.8    32%
+WP_011838302.1 HAMP domain-containing histidine kinase [Acetiv...  25.4    9.0    32%
+
+ALIGNMENTS
+>WP_011838144.1 phage tail protein [Acetivibrio thermocellus]
+ ABN52840.1 phage minor structural protein [Acetivibrio thermocellus ATCC
+27405]
+Length=840
+
+ Score = 28.9 bits (63),  Expect = 0.95, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 32/61 (52%), Gaps = 4/61 (7%)
+
+Query  94   INEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSLSEKAEVEDKRIYKFLENLITKVLQK  153
+            +N G  + T+   SGT  A+ +A   G+P +  SLS+      ++ Y F   + ++ L+K
+Sbjct  758  VNSGFEVDTENGVSGT--ASFKAV--GVPGMKKSLSQTVYPATRKSYTFSAQIASESLEK  813
+
+Query  154  G  154
+            G
+Sbjct  814  G  814
+
+
+>WP_136479425.1 phage tail protein [Acetivibrio thermocellus]
+ THJ77873.1 hypothetical protein EPD62_09015 [Acetivibrio thermocellus]
+Length=840
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  94   INEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSLSEKAEVEDKRIYKFLENLITKVLQK  153
+            +N G  + T+   SGT  A+ +A   G+P +  SLS       ++ Y F   + ++ L+K
+Sbjct  758  VNSGFEVDTENGVSGT--ASFKAV--GVPGMTKSLSHTVYPATRKSYTFSAQIASENLEK  813
+
+Query  154  G  154
+            G
+Sbjct  814  G  814
+
+
+>CDG36403.1 hypothetical protein CTHBC1_1780 [Acetivibrio thermocellus BC1]
+Length=70
+
+ Score = 25.0 bits (53),  Expect = 3.1, Method: Composition-based stats.
+ Identities = 22/71 (31%), Positives = 32/71 (45%), Gaps = 12/71 (17%)
+
+Query  178  TILGKRTYIETFQ-------KNFDPRGKEYYWMAGKISEAENDERTDIVSVKNGYISITP  230
+            TILG  T +ETF+       K FD R   +Y     +    ND   DI  +   Y  I
+Sbjct  5    TILGNFTVLETFELNNVQVDKGFDGRLDIFY--RANLCTENND---DIAYIDCYYKRIED  59
+
+Query  231  IHFDLTSYDMI  241
+            +  DL+ +++I
+Sbjct  60   LKEDLSKFNLI  70
+
+
+>WP_003520674.1 phage tail protein [Acetivibrio thermocellus]
+ ADU75402.1 phage minor structural protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09400.1 phage minor structural protein [Acetivibrio thermocellus AD2]
+ ANV77154.1 phage minor structural protein [Acetivibrio thermocellus DSM
+2360]
+ EIC04524.1 phage minor structural protein [Acetivibrio thermocellus YS]
+ PFH03677.1 phage minor structural protein [Acetivibrio thermocellus AD2]
+Length=840
+
+ Score = 26.9 bits (58),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  94   INEGLNLGTDILYSGTVSAAIEAAIYGIPAIAVSLSEKAEVEDKRIYKFLENLITKVLQK  153
+            +N G  + T+   SGT  A+ +A   G+P +  SLS+      ++ Y F   + ++ L K
+Sbjct  758  VNSGFEVDTENGVSGT--ASFKAV--GVPGMTKSLSQTVYPATRKSYTFSAQIASENLVK  813
+
+Query  154  G  154
+            G
+Sbjct  814  G  814
+
+
+>WP_003519324.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ADU75590.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 1313]
+ ALX09583.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus AD2]
+ ANV77355.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus DSM 2360]
+ EIC04429.1 ATP-binding region ATPase domain protein [Acetivibrio thermocellus
+YS]
+ PFH03864.1 signal transduction histidine kinase [Acetivibrio thermocellus
+AD2]
+Length=463
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 32/62 (52%), Gaps = 5/62 (8%)
+
+Query  148  TKVLQKGIPANTLLNVNIPDLKENI--KGVKSTILGKRTYIETFQKNFDPRGKEYYWMAG  205
+             KVL + +P NT+  V I D K  +    ++ ++ GK+  ++ +  N    GKE  W  G
+Sbjct  67   AKVLLESMPGNTVAQVQIIDDKGVLIADSIEPSMEGKK--LDNYDVNMALNGKEAAW-KG  123
+
+Query  206  KI  207
+            KI
+Sbjct  124  KI  125
+
+
+>WP_011838302.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ ABN53134.1 integral membrane sensor signal transduction histidine kinase
+[Acetivibrio thermocellus ATCC 27405]
+ NLU26501.1 HAMP domain-containing histidine kinase [Acetivibrio thermocellus]
+ CDG36431.1 periplasmic sensor signal transduction histidine kinase [Acetivibrio
+thermocellus BC1]
+ HBW27095.1 sensor histidine kinase [Acetivibrio thermocellus]
+Length=463
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Compositional matrix adjust.
+ Identities = 20/62 (32%), Positives = 32/62 (52%), Gaps = 5/62 (8%)
+
+Query  148  TKVLQKGIPANTLLNVNIPDLKENI--KGVKSTILGKRTYIETFQKNFDPRGKEYYWMAG  205
+             KVL + +P NT+  V I D K  +    ++ ++ GK+  ++ +  N    GKE  W  G
+Sbjct  67   AKVLLESMPGNTVAQVQIIDDKGVLIADSIEPSMEGKK--LDNYDVNMALNGKEAAW-KG  123
+
+Query  206  KI  207
+            KI
+Sbjct  124  KI  125
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.136    0.382
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18163
+Number of extensions: 854
+Number of successful extensions: 28
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 28
+Number of HSP's successfully gapped: 8
+Length of query: 252
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 165
+Effective length of database: 2134357
+Effective search space: 352168905
+Effective search space used: 352168905
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

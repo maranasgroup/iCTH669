@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wls5190\Documents\ppi_tracking\BLAST_p\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+txy Thermoanaerobacterium xylanolyticum
+tsh Thermoanaerobacterium saccharolyticum
+tnr Thermodesulfobium narugense
+taci Thermodesulfobium acidiphilum
+mas Mahella australiensis
+tep Tepidanaerobacter acetatoxydans Re1
+tae Tepidanaerobacter acetatoxydans Re1
+toc Thermosediminibacter oceani
+nth Natranaerobius thermophilus
+hor Halothermothrix orenii

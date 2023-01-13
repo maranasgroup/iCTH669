@@ -1,0 +1,197 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WP4PYEX016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ACX51744 5'-nucleotidase [Ammonifex degensii]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_011838015.1 ParM/StbA family protein [Acetivibrio thermocel...  27.3    2.0    44%
+WP_136479662.1 hypothetical protein [Acetivibrio thermocellus]     26.2    3.7    28%
+WP_003517023.1 radical SAM family heme chaperone HemW [Acetivi...  26.6    4.1    33%
+WP_003512681.1 ABC transporter permease [Acetivibrio thermocel...  26.2    4.6    28%
+WP_003518677.1 ABC transporter permease [Acetivibrio thermocel...  26.2    4.7    28%
+WP_011838247.1 ImmA/IrrE family metallo-endopeptidase [Acetivi...  25.8    5.7    33%
+WP_011838221.1 Clp protease ClpP [Eubacteriales]                   25.8    6.1    36%
+
+ALIGNMENTS
+>WP_011838015.1 ParM/StbA family protein [Acetivibrio thermocellus]
+ ABN52391.1 StbA family protein [Acetivibrio thermocellus ATCC 27405]
+Length=303
+
+ Score = 27.3 bits (59),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 17/27 (63%), Gaps = 0/27 (0%)
+
+Query  174  VKVTKLGSVRYVNVVDCRTDPRGRAYY  200
+            +K +  GS   VN+VDCR  P+G A +
+Sbjct  118  IKFSFNGSDYAVNIVDCRVYPQGYAAF  144
+
+
+>WP_136479662.1 hypothetical protein [Acetivibrio thermocellus]
+ THJ76763.1 hypothetical protein EPD62_14785 [Acetivibrio thermocellus]
+Length=169
+
+ Score = 26.2 bits (56),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 34/76 (45%), Gaps = 11/76 (14%)
+
+Query  55   EAGFRSPRLKGWVVDGTPADCVKLGLEVLL------PERPDFLVSGINYGPNLG----TD  104
+            +  +    LK W+  G  AD +   +  LL       + P+ L++GINY P       T
+Sbjct  55   KTFYNKSILKVWIF-GFLADIIGASILFLLGTTGNSLKLPNGLITGINYDPFSHPVAVTT  113
+
+Query  105  VLYSGTVSAAIEGVIN  120
+            +++S  +SA    V N
+Sbjct  114  IIFSMLISAVFIFVFN  129
+
+
+>WP_003517023.1 radical SAM family heme chaperone HemW [Acetivibrio thermocellus]
+ CDG35998.1 coproporphyrinogen III oxidase, anaerobic [Acetivibrio thermocellus
+BC1]
+ ABN52557.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU73998.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 1313]
+ ALX07936.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus AD2]
+ ANV75682.1 oxygen-independent coproporphyrinogen III oxidase [Acetivibrio
+thermocellus DSM 2360]
+Length=380
+
+ Score = 26.6 bits (57),  Expect = 4.1, Method: Compositional matrix adjust.
+ Identities = 17/51 (33%), Positives = 26/51 (51%), Gaps = 5/51 (10%)
+
+Query  197  RAYYWMAGEPL-----ELDGNDSETDVWAVREGYISVTPVQIDLTNYGFLE  242
+            R +Y   GE +     E   N S+  + AV  G+I +T + +DL N  F+E
+Sbjct  328  REFYERFGENVLEVFKEQIKNLSKRGLVAVENGFIKLTRLGLDLANQAFME  378
+
+
+>WP_003512681.1 ABC transporter permease [Acetivibrio thermocellus]
+ ABN51630.1 inner-membrane translocator [Acetivibrio thermocellus ATCC 27405]
+ NLU25678.1 ABC transporter permease [Acetivibrio thermocellus]
+ THJ78634.1 ABC transporter permease [Acetivibrio thermocellus]
+ CDG35088.1 inner-membrane translocator [Acetivibrio thermocellus BC1]
+Length=349
+
+ Score = 26.2 bits (56),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 12/43 (28%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  169  GVPRGVKVTKLGSVRYVNVVDCRTDPRGRAYYWMAGEPLELDG  211
+            G+  G  ++K+G   ++  +      RG AY    G PL + G
+Sbjct  110  GLFNGFMISKIGLPPFIVTLGMENLARGMAYIITTGSPLSVSG  152
+
+
+>WP_003518677.1 ABC transporter permease [Acetivibrio thermocellus]
+ ADU74885.1 inner-membrane translocator [Acetivibrio thermocellus DSM 1313]
+ ALX08840.1 ABC-type transporter, integral membrane subunit [Acetivibrio
+thermocellus AD2]
+ ANV76590.1 ABC-type transporter, integral membrane subunit [Acetivibrio
+thermocellus DSM 2360]
+ EIC05181.1 ABC-type transporter, integral membrane subunit [Acetivibrio
+thermocellus YS]
+ PFH03113.1 cellooligosaccharide ABC transporter membrane protein [Acetivibrio
+thermocellus AD2]
+Length=349
+
+ Score = 26.2 bits (56),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 12/43 (28%), Positives = 20/43 (47%), Gaps = 0/43 (0%)
+
+Query  169  GVPRGVKVTKLGSVRYVNVVDCRTDPRGRAYYWMAGEPLELDG  211
+            G+  G  ++K+G   ++  +      RG AY    G PL + G
+Sbjct  110  GLFNGFMISKIGLPPFIVTLGMENLARGMAYIITTGSPLSVSG  152
+
+
+>WP_011838247.1 ImmA/IrrE family metallo-endopeptidase [Acetivibrio thermocellus]
+ ABN52967.1 hypothetical protein Cthe_1746 [Acetivibrio thermocellus ATCC
+27405]
+ HBW26493.1 ImmA/IrrE family metallo-endopeptidase [Acetivibrio thermocellus]
+Length=262
+
+ Score = 25.8 bits (55),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 18/54 (33%), Positives = 29/54 (54%), Gaps = 8/54 (15%)
+
+Query  202  MAGEPLELDGNDSETDVWA---VRE----GYISVTPVQIDLTNYGFLEELKKWR  248
+            M G   E+ G D E D+WA    RE      +S+T  +I L N  F++E ++++
+Sbjct  205  MVGMCYEM-GTDFEKDLWADVLSREIADIFDVSLTAARIRLKNLNFIKEKQEYK  257
+
+
+>WP_011838221.1 MULTISPECIES: Clp protease ClpP [Eubacteriales]
+ ABN52941.1 peptidase S14 ClpP [Acetivibrio thermocellus ATCC 27405]
+ HBW26521.1 Clp protease ClpP [Acetivibrio thermocellus]
+Length=247
+
+ Score = 25.8 bits (55),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 17/47 (36%), Positives = 26/47 (55%), Gaps = 8/47 (17%)
+
+Query  207  LELDGND-SETDVWAVREGYISVTPVQIDLTNYGFLEELKKWRFKDI  252
+            L +DG+   + D W++  G  +VTP        GF+ EL K++ KDI
+Sbjct  18   LRIDGDIVMDDDFWSMLFGNDNVTPK-------GFMSELNKYKGKDI  57
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.320    0.139    0.424
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17158
+Number of extensions: 748
+Number of successful extensions: 18
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 5
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

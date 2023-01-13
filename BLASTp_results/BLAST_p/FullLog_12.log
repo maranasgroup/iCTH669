@@ -1,0 +1,230 @@
+Start time: 6 June 2022 9:7:26
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+Found gene for related organism dmt:Desulfitobacterium metallireducens
+DESME_06620-------------------------------------------------------------------------------------
+Building FASTA report for gene DESME_06620 (Accession: AHF06770)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+Found gene for related organism dca:Desulfotomaculum nigrificans
+Desca_1351-------------------------------------------------------------------------------------
+Building FASTA report for gene Desca_1351 (Accession: AEF94210)
+
+Using Organism: Desulforamulus reducens (drm)
+Found gene for related organism drm:Desulforamulus reducens
+Dred_1760-------------------------------------------------------------------------------------
+Building FASTA report for gene Dred_1760 (Accession: ABO50285)
+
+Using Organism: Desulforamulus ruminis (dru)
+Found gene for related organism dru:Desulforamulus ruminis
+Desru_2214-------------------------------------------------------------------------------------
+Building FASTA report for gene Desru_2214 (Accession: AEG60463)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+Found gene for related organism dfg:Desulforamulus ferrireducens
+B0537_08565-------------------------------------------------------------------------------------
+Building FASTA report for gene B0537_08565 (Accession: AQS59128)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+Found gene for related organism dae:Desulfofarcimen acetoxidans
+Dtox_1365-------------------------------------------------------------------------------------
+Building FASTA report for gene Dtox_1365 (Accession: ACV62241)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+Found gene for related organism dku:Desulfofundulus kuznetsovii
+Desku_1417-------------------------------------------------------------------------------------
+Building FASTA report for gene Desku_1417 (Accession: AEG15000)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+Found gene for related organism pth:Pelotomaculum thermopropionicum
+PTH_1397-------------------------------------------------------------------------------------
+Building FASTA report for gene PTH_1397 (Accession: BAF59578)
+PTH_2332-------------------------------------------------------------------------------------
+Building FASTA report for gene PTH_2332 (Accession: BAF60513)
+PTH_2365-------------------------------------------------------------------------------------
+Building FASTA report for gene PTH_2365 (Accession: BAF60546)
+
+Using Organism: Candidatus Desulforudis (dau)
+Found gene for related organism dau:Candidatus Desulforudis
+Daud_1231-------------------------------------------------------------------------------------
+Building FASTA report for gene Daud_1231 (Accession: ACA59742)
+
+Using Organism: Thermincola potens (tjr)
+Found gene for related organism tjr:Thermincola potens
+TherJR_1929-------------------------------------------------------------------------------------
+Building FASTA report for gene TherJR_1929 (Accession: ADG82778)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Desulfitobacterium metallireducens (dmt)
+
+Using Organism: Desulfotomaculum nigrificans (dca)
+
+Using Organism: Desulforamulus reducens (drm)
+
+Using Organism: Desulforamulus ruminis (dru)
+
+Using Organism: Desulforamulus ferrireducens (dfg)
+
+Using Organism: Desulfofarcimen acetoxidans (dae)
+
+Using Organism: Desulfofundulus kuznetsovii (dku)
+
+Using Organism: Pelotomaculum thermopropionicum (pth)
+
+Using Organism: Candidatus Desulforudis (dau)
+
+Using Organism: Thermincola potens (tjr)
+end time: 6 June 2022 15:48:25

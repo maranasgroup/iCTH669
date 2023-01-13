@@ -1,0 +1,280 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8XC1XZA1016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,982,569 sequences; 181,568,898,985 total letters
+Query= WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+
+Length=227
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_212819399.1 thymidylate kinase [Vescimonas fastidiosa]          206     2e-68  43%
+WP_212819999.1 HsdR family type I site-specific deoxyribonucle...  26.2    1.4    28%
+WP_212818837.1 DUF5711 family protein [Vescimonas fastidiosa]      25.8    1.7    26%
+BCK79993.1 hypothetical protein MM35RIKEN_21850 [Vescimonas fa...  23.5    2.7    30%
+WP_212821233.1 septum site-determining protein MinD [Vescimona...  24.6    3.2    39%
+WP_212819493.1 site-specific integrase [Vescimonas]                24.3    4.7    43%
+WP_212820923.1 toprim domain-containing protein [Vescimonas fa...  24.6    4.7    40%
+WP_212820496.1 DUF134 domain-containing protein [Vescimonas fa...  24.3    5.4    36%
+WP_005927681.1 DeoR family transcriptional regulator [Firmicutes]  23.5    5.9    44%
+WP_212820506.1 3-dehydroquinate synthase [Vescimonas fastidiosa]   23.9    6.5    24%
+WP_054328106.1 DeoR family transcriptional regulator [Firmicutes]  23.1    6.9    44%
+WP_212820091.1 amidohydrolase [Vescimonas fastidiosa]              23.9    7.4    43%
+WP_212820921.1 MarR family transcriptional regulator [Vescimon...  23.1    8.3    48%
+WP_212819379.1 TIGR03960 family B12-binding radical SAM protei...  23.5    8.6    31%
+
+ALIGNMENTS
+>WP_212819399.1 thymidylate kinase [Vescimonas fastidiosa]
+ BCK78530.1 thymidylate kinase [Vescimonas fastidiosa]
+Length=223
+
+ Score = 206 bits (525),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 97/225 (43%), Positives = 145/225 (64%), Gaps = 4/225 (2%)
+
+Query  1    MKGKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFG  60
+            M+G+LI+ E G D SGKATQT  L + L + G   +++ FP Y  +SSAL+++YL+G FG
+Sbjct  1    MQGRLIVFE-GTDGSGKATQTALLCQELDRRGIAYRRLEFPRYKEESSALIRLYLSGAFG  59
+
+Query  61   KDPNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEK  120
+              PNDV+ Y A+TFY+VDRFASYR +WG  Y  G +++ADRYTTSN VHQ  K+   EE+
+Sbjct  60   SRPNDVNAYAAATFYSVDRFASYRQDWGAYYEAGGLVIADRYTTSNAVHQTPKLPP-EER  118
+
+Query  121  DRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+              +L+WL++FE+ +  LP PD V++LD+P   S  +M+ R  +     + DIHER++ YL
+Sbjct  119  RGYLEWLFDFEYRLLGLPKPDRVLYLDLPTEISERMMRRREQQ--THTRADIHERDEAYL  176
+
+Query  181  VESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSGII  225
+                 ++        W KI+C + G ++  ++I +EV E V  ++
+Sbjct  177  AACRESAELTIALCGWEKIDCSRGGEMRAAEDIHREVMERVEDLL  221
+
+
+>WP_212819999.1 HsdR family type I site-specific deoxyribonuclease [Vescimonas
+fastidiosa]
+ BCK78923.1 DEAD/DEAH box helicase [Vescimonas fastidiosa]
+Length=1107
+
+ Score = 26.2 bits (56),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 27/96 (28%), Positives = 42/96 (44%), Gaps = 12/96 (13%)
+
+Query  83    YRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDM-EEKDRFLDWLWN-FEFEIYKLPVP  140
+             Y  E+GQ      I + D+         A K+KD+ + K  F DWL N    +  K  +
+Sbjct  1021  YNFEYGQDKVVNGITVNDKCKA-----LAKKVKDIIDTKSSFADWLNNQIVRDQLKFDIK  1075
+
+Query  141   DCVIFLDMPPSFSRELMKERANKFTGEQKKDIHERN  176
+              C+I    PP +S E+ ++       EQ ++  E N
+Sbjct  1076  VCLIKNGYPPQYSPEVFQK-----VMEQVENFEENN  1106
+
+
+>WP_212818837.1 DUF5711 family protein [Vescimonas fastidiosa]
+ BCK78221.1 hypothetical protein MM35RIKEN_04130 [Vescimonas fastidiosa]
+Length=394
+
+ Score = 25.8 bits (55),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/47 (26%), Positives = 25/47 (53%), Gaps = 1/47 (2%)
+
+Query  112  AKIKDMEEKDRFLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMK  158
+            +++ D+    R+L  L++ +  IY   + +C +  D+  S  R LM+
+Sbjct  331  SEVLDLSAAGRYLAVLYSNKLVIYDQKLRECAVLEDV-SSARRVLMR  376
+
+
+>BCK79993.1 hypothetical protein MM35RIKEN_21850 [Vescimonas fastidiosa]
+Length=58
+
+ Score = 23.5 bits (49),  Expect = 2.7, Method: Composition-based stats.
+ Identities = 11/37 (30%), Positives = 17/37 (46%), Gaps = 0/37 (0%)
+
+Query  144  IFLDMPPSFSRELMKERANKFTGEQKKDIHERNDEYL  180
+            IF  +P  FSR+ ++  A     +  K  H R   +L
+Sbjct  17   IFAKIPKEFSRKDLQPAARVIFAQSAKIPHRRAKRFL  53
+
+
+>WP_212821233.1 septum site-determining protein MinD [Vescimonas fastidiosa]
+ BCK79557.1 site-determining protein [Vescimonas fastidiosa]
+Length=245
+
+ Score = 24.6 bits (52),  Expect = 3.2, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 18/33 (55%), Gaps = 0/33 (0%)
+
+Query  3   GKLIIIESGADASGKATQTNKLYERLVQEGYKV  35
+           GK+I + SG   +GK T T+ +   L   G KV
+Sbjct  2   GKIIAVVSGKGGTGKTTFTSCIGFALASMGKKV  34
+
+
+>WP_212819493.1 MULTISPECIES: site-specific integrase [Vescimonas]
+ BCK78583.1 phage integrase [Vescimonas fastidiosa]
+Length=352
+
+ Score = 24.3 bits (51),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 18/30 (60%), Gaps = 3/30 (10%)
+
+Query  36   KKITFPNYDSDSSALVKMYLNGDFGKDPND  65
+            +KIT P +  D   LVK Y +  +G DP+D
+Sbjct  242  RKITLPQFVCD---LVKDYADRLYGYDPSD  268
+
+
+>WP_212820923.1 toprim domain-containing protein [Vescimonas fastidiosa]
+ BCK79385.1 DNA gyrase subunit B [Vescimonas fastidiosa]
+Length=662
+
+ Score = 24.6 bits (52),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 10/25 (40%), Positives = 17/25 (68%), Gaps = 2/25 (8%)
+
+Query  139  VPDCVIFLDM--PPSFSRELMKERA  161
+            +PD  +F D+  PP + R++MK +A
+Sbjct  178  LPDLDVFTDIQIPPDYYRDVMKRQA  202
+
+
+>WP_212820496.1 DUF134 domain-containing protein [Vescimonas fastidiosa]
+ BCK79211.1 hypothetical protein MM35RIKEN_14030 [Vescimonas fastidiosa]
+Length=259
+
+ Score = 24.3 bits (51),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 13/25 (52%), Gaps = 0/25 (0%)
+
+Query  40   FPNYDSDSSALVKMYLNGDFGKDPN  64
+            +     D+ A V   L+G+ G DPN
+Sbjct  207  YGGVSGDADAAVSALLSGNLGYDPN  231
+
+
+>WP_005927681.1 MULTISPECIES: DeoR family transcriptional regulator [Firmicutes]
+Length=113
+
+ Score = 23.5 bits (49),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+
+Query  128  WNFEFEIYKLPVPDCVIF  145
+             NFEF     P+P C+ F
+Sbjct  1    MNFEFMTIDTPLPPCMPF  18
+
+
+>WP_212820506.1 3-dehydroquinate synthase [Vescimonas fastidiosa]
+ BCK79216.1 3-dehydroquinate synthase [Vescimonas fastidiosa]
+Length=352
+
+ Score = 23.9 bits (50),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 15/63 (24%), Positives = 29/63 (46%), Gaps = 15/63 (24%)
+
+Query  28   LVQEGYKVKKITFPNYDSDSS-----ALVKMYLNGDF----------GKDPNDVSPYVAS  72
+            L + G++V +  FP+ +   S     ALV+   + DF          G    D++ + A+
+Sbjct  57   LTRAGFRVSRFVFPHGEKSKSLPTYTALVQALFDNDFTGGDSVIALGGGVVGDLAGFAAA  116
+
+Query  73   TFY  75
+            T++
+Sbjct  117  TYH  119
+
+
+>WP_054328106.1 MULTISPECIES: DeoR family transcriptional regulator [Firmicutes]
+Length=113
+
+ Score = 23.1 bits (48),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 8/18 (44%), Positives = 10/18 (56%), Gaps = 0/18 (0%)
+
+Query  128  WNFEFEIYKLPVPDCVIF  145
+             NFEF     P+P C+ F
+Sbjct  1    MNFEFMTIDTPLPPCMPF  18
+
+
+>WP_212820091.1 amidohydrolase [Vescimonas fastidiosa]
+ BCK78971.1 exoenzyme regulatory protein aepA precursor [Vescimonas fastidiosa]
+Length=517
+
+ Score = 23.9 bits (50),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 9/21 (43%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  122  RFLDWLWNFEFEIYKLPVPDC  142
+            R  DWL   + +I +L V DC
+Sbjct  20   RCADWLLTHDGKISRLGVGDC  40
+
+
+>WP_212820921.1 MarR family transcriptional regulator [Vescimonas fastidiosa]
+ BCK79383.1 hypothetical protein MM35RIKEN_15750 [Vescimonas fastidiosa]
+Length=143
+
+ Score = 23.1 bits (48),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 14/21 (67%), Gaps = 0/21 (0%)
+
+Query  17  KATQTNKLYERLVQEGYKVKK  37
+           KA   +   ERLVQEGY +++
+Sbjct  58  KANLISVHVERLVQEGYLIRR  78
+
+
+>WP_212819379.1 TIGR03960 family B12-binding radical SAM protein [Vescimonas
+fastidiosa]
+ BCK78519.1 radical SAM domain protein [Vescimonas fastidiosa]
+Length=610
+
+ Score = 23.5 bits (49),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 19/32 (59%), Gaps = 0/32 (0%)
+
+Query  27   RLVQEGYKVKKITFPNYDSDSSALVKMYLNGD  58
+            +L++E    K +T+  +D+D+S L  +   GD
+Sbjct  476  KLLREAITTKTVTYNWHDADTSFLEAVLARGD  507
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 8, 2022  2:43 AM
+  Number of letters in database: 783,254
+  Number of sequences in database:  2,611
+
+Lambda      K        H
+   0.317    0.135    0.402
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 2611
+Number of Hits to DB: 5522
+Number of extensions: 241
+Number of successful extensions: 11
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 11
+Number of HSP's successfully gapped: 4
+Length of query: 227
+Length of database: 783254
+Length adjustment: 77
+Effective length of query: 150
+Effective length of database: 582207
+Effective search space: 87331050
+Effective search space used: 87331050
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 30 (16.2 bits)
+S2: 40 (20.0 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

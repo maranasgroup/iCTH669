@@ -1,0 +1,328 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WS59WUV016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADL32775 5'-nucleotidase [Butyrivibrio proteoclasticus]
+
+Length=238
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516592.1 ribonucleoside triphosphate reductase [Acetivib...  32.7    0.039  31%
+WP_003518334.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  30.4    0.22   30%
+WP_003513024.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  30.4    0.23   30%
+WP_020457861.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermo...  30.4    0.23   30%
+NLU27289.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]  30.4    0.24   30%
+ABN52037.1 hypothetical protein Cthe_0802 [Acetivibrio thermoc...  27.3    0.65   35%
+CAA61884.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellu...  28.9    0.77   29%
+WP_020457929.1 carbohydrate binding domain-containing protein ...  28.9    0.79   29%
+NLU25599.1 family 16 glycosylhydrolase [Acetivibrio thermocellus]  28.9    0.83   29%
+WP_136479175.1 carbohydrate binding domain-containing protein ...  28.5    0.92   29%
+WP_003515284.1 carbohydrate binding domain-containing protein ...  28.5    0.94   29%
+NLU25854.1 type I-C CRISPR-associated protein Cas7/Csd2 [Aceti...  25.4    7.9    26%
+NLU27281.1 hypothetical protein [Acetivibrio thermocellus]         25.4    8.8    46%
+WP_003516379.1 hypothetical protein [Acetivibrio thermocellus]     25.4    8.8    46%
+
+ALIGNMENTS
+>WP_003516592.1 ribonucleoside triphosphate reductase [Acetivibrio thermocellus]
+ CDG35339.1 anaerobic ribonucleoside triphosphate reductase [Acetivibrio
+thermocellus BC1]
+ ABN51881.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74641.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08584.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus AD2]
+ ANV76333.1 anaerobic ribonucleoside-triphosphate reductase [Acetivibrio
+thermocellus DSM 2360]
+Length=696
+
+ Score = 32.7 bits (73),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 27/86 (31%), Positives = 37/86 (43%), Gaps = 5/86 (6%)
+
+Query  16   GIRRLAEAAKEFGEVWVIAPESQRSAASHSITLRHPIDVHPYNFSVAGVHAYSCTGTPAD  75
+            GI  + EA K F    +  PE Q+ A    I + H +      F     H Y+   TPA+
+Sbjct  484  GIVGMNEALKNFMGKDITTPEGQKFA----IDIMHYLRDILLEFQNETGHFYNLEATPAE  539
+
+Query  76   CVRVGLLNILPER-PDVIMSGINFGY  100
+                 L  I  ER PD+I +G +  Y
+Sbjct  540  GTSYRLAKIDKERYPDIITAGRDIPY  565
+
+
+>WP_003518334.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ ADU73243.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus DSM 1313]
+ ALX07160.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus AD2]
+ ANV74896.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus DSM 2360]
+ EIC03920.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus YS]
+ PFH01422.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus AD2]
+Length=379
+
+ Score = 30.4 bits (67),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 29/61 (48%), Gaps = 3/61 (5%)
+
+Query  33   IAPESQRSAAS-HSITLRHPIDVHPYNFSVAGVHAYSCTGTPADCVR--VGLLNILPERP  89
+            I P+  R+A S + I +R+P  + PY + +  ++ Y   G    C R   G  N  P+
+Sbjct  201  IIPDCVRAAFSRNKIEIRNPYSIRPYQYVMDCLYGYLLIGMKQYCDRSLAGAYNFGPKED  260
+
+Query  90   D  90
+            D
+Sbjct  261  D  261
+
+
+>WP_003513024.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ THJ79293.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 30.4 bits (67),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 29/61 (48%), Gaps = 3/61 (5%)
+
+Query  33   IAPESQRSAAS-HSITLRHPIDVHPYNFSVAGVHAYSCTGTPADCVR--VGLLNILPERP  89
+            I P+  R+A S + I +R+P  + PY + +  ++ Y   G    C R   G  N  P+
+Sbjct  201  IIPDCVRAAFSRNKIEIRNPYSIRPYQYVMDCLYGYLLIGMKQYCDRSLAGAYNFGPKED  260
+
+Query  90   D  90
+            D
+Sbjct  261  D  261
+
+
+>WP_020457861.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+ ABN53762.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus ATCC 27405]
+ HBW25787.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 30.4 bits (67),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 29/61 (48%), Gaps = 3/61 (5%)
+
+Query  33   IAPESQRSAAS-HSITLRHPIDVHPYNFSVAGVHAYSCTGTPADCVR--VGLLNILPERP  89
+            I P+  R+A S + I +R+P  + PY + +  ++ Y   G    C R   G  N  P+
+Sbjct  201  IIPDCVRAAFSRNKIEIRNPYSIRPYQYVMDCLYGYLLIGMKQYCDRSLAGAYNFGPKED  260
+
+Query  90   D  90
+            D
+Sbjct  261  D  261
+
+
+>NLU27289.1 CDP-glucose 4,6-dehydratase [Acetivibrio thermocellus]
+Length=379
+
+ Score = 30.4 bits (67),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 29/61 (48%), Gaps = 3/61 (5%)
+
+Query  33   IAPESQRSAAS-HSITLRHPIDVHPYNFSVAGVHAYSCTGTPADCVR--VGLLNILPERP  89
+            I P+  R+A S + I +R+P  + PY + +  ++ Y   G    C R   G  N  P+
+Sbjct  201  IIPDCVRAAFSRNKIEIRNPYSIRPYQYVMDCLYGYLLIGMKQYCDRSLAGAYNFGPKED  260
+
+Query  90   D  90
+            D
+Sbjct  261  D  261
+
+
+>ABN52037.1 hypothetical protein Cthe_0802 [Acetivibrio thermocellus ATCC
+27405]
+Length=95
+
+ Score = 27.3 bits (59),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 31/57 (54%), Gaps = 5/57 (9%)
+
+Query  174  KGILRDRKVSRKSFFTDRYREVEEFANGGVSLVVDGV-FNPQKEEETDYGAVLDQYV  229
+            K ILR R++S+K+   +   +V EF+    SL+V+GV   PQ E    Y  +   +V
+Sbjct  2    KNILRKRQMSKKN---NNLSDV-EFSAIQYSLLVNGVCIPPQDELRVIYAHITTSFV  54
+
+
+>CAA61884.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellus ATCC 27405]
+ CAC27412.2 endo-1,3(4)-beta-glucanase [Acetivibrio thermocellus]
+Length=1321
+
+ Score = 28.9 bits (63),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 33/83 (40%), Gaps = 9/83 (11%)
+
+Query  71   GTPADCVRVGLLNILPERPDVIMSGINFGY-NVACDIQYSATAGAAFEGEFQGVLSIAFS  129
+            GT   C  + ++ +L   PD I   I+FG  +      Y+   G  F  +F  V SI +
+Sbjct  536  GTWPKCGEIDIMELLGHEPDKIYGTIHFGEPHKESQGTYTLPEGQTFADDFH-VYSIEWE  594
+
+Query  130  EG-------ASSEHGATDKYLRD  145
+             G           H A D Y RD
+Sbjct  595  PGEIRWYIDGKLYHVANDWYSRD  617
+
+
+>WP_020457929.1 carbohydrate binding domain-containing protein [Acetivibrio thermocellus]
+ ABN54008.1 Glucan endo-1,3-beta-D-glucosidase [Acetivibrio thermocellus
+ATCC 27405]
+ HBW26395.1 glycoside hydrolase [Acetivibrio thermocellus]
+Length=1321
+
+ Score = 28.9 bits (63),  Expect = 0.79, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 33/83 (40%), Gaps = 9/83 (11%)
+
+Query  71   GTPADCVRVGLLNILPERPDVIMSGINFGY-NVACDIQYSATAGAAFEGEFQGVLSIAFS  129
+            GT   C  + ++ +L   PD I   I+FG  +      Y+   G  F  +F  V SI +
+Sbjct  536  GTWPKCGEIDIMELLGHEPDKIYGTIHFGEPHKESQGTYTLPEGQTFADDFH-VYSIEWE  594
+
+Query  130  EG-------ASSEHGATDKYLRD  145
+             G           H A D Y RD
+Sbjct  595  PGEIRWYIDGKLYHVANDWYSRD  617
+
+
+>NLU25599.1 family 16 glycosylhydrolase [Acetivibrio thermocellus]
+Length=1321
+
+ Score = 28.9 bits (63),  Expect = 0.83, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 33/83 (40%), Gaps = 9/83 (11%)
+
+Query  71   GTPADCVRVGLLNILPERPDVIMSGINFGY-NVACDIQYSATAGAAFEGEFQGVLSIAFS  129
+            GT   C  + ++ +L   PD I   I+FG  +      Y+   G  F  +F  V SI +
+Sbjct  536  GTWPKCGEIDIMELLGHEPDKIYGTIHFGEPHKESQGTYTLPEGQTFADDFH-VYSIEWE  594
+
+Query  130  EG-------ASSEHGATDKYLRD  145
+             G           H A D Y RD
+Sbjct  595  PGEIRWYIDGKLYHVANDWYSRD  617
+
+
+>WP_136479175.1 carbohydrate binding domain-containing protein [Acetivibrio thermocellus]
+ THJ79533.1 glycosyl hydrolase family protein [Acetivibrio thermocellus]
+Length=1468
+
+ Score = 28.5 bits (62),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 33/83 (40%), Gaps = 9/83 (11%)
+
+Query  71   GTPADCVRVGLLNILPERPDVIMSGINFGY-NVACDIQYSATAGAAFEGEFQGVLSIAFS  129
+            GT   C  + ++ +L   PD I   I+FG  +      Y+   G  F  +F  V SI +
+Sbjct  536  GTWPKCGEIDIMELLGHEPDKIYGTIHFGEPHKESQGTYTLPEGQTFADDFH-VYSIEWE  594
+
+Query  130  EG-------ASSEHGATDKYLRD  145
+             G           H A D Y RD
+Sbjct  595  PGEIRWYIDGKLYHVANDWYSRD  617
+
+
+>WP_003515284.1 carbohydrate binding domain-containing protein [Acetivibrio thermocellus]
+ ADU73487.1 Glucan endo-1,3-beta-D-glucosidase [Acetivibrio thermocellus
+DSM 1313]
+ ALX07409.1 Glucan endo-1,3-beta-D-glucosidase [Acetivibrio thermocellus
+AD2]
+ ANV75148.1 Glucan endo-1,3-beta-D-glucosidase [Acetivibrio thermocellus
+DSM 2360]
+ EIC04124.1 glycoside hydrolase family 16 [Acetivibrio thermocellus YS]
+ PFH01673.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=1468
+
+ Score = 28.5 bits (62),  Expect = 0.94, Method: Compositional matrix adjust.
+ Identities = 24/83 (29%), Positives = 33/83 (40%), Gaps = 9/83 (11%)
+
+Query  71   GTPADCVRVGLLNILPERPDVIMSGINFGY-NVACDIQYSATAGAAFEGEFQGVLSIAFS  129
+            GT   C  + ++ +L   PD I   I+FG  +      Y+   G  F  +F  V SI +
+Sbjct  536  GTWPKCGEIDIMELLGHEPDKIYGTIHFGEPHKESQGTYTLPEGQTFADDFH-VYSIEWE  594
+
+Query  130  EG-------ASSEHGATDKYLRD  145
+             G           H A D Y RD
+Sbjct  595  PGEIRWYIDGKLYHVANDWYSRD  617
+
+
+>NLU25854.1 type I-C CRISPR-associated protein Cas7/Csd2 [Acetivibrio thermocellus]
+Length=291
+
+ Score = 25.4 bits (54),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 13/50 (26%), Positives = 24/50 (48%), Gaps = 1/50 (2%)
+
+Query  25   KEFGEVWVIAPESQRSAASHSITLRHPIDVHPYNFSVAGVHAYSCTGTPA  74
+            + FG+V+    +   S    S+ +R P+ +HP  FS+  +   S   T +
+Sbjct  110  RSFGQVFAFKGKKDESGDGVSVGIRGPVSIHPA-FSIDPIDITSIQITKS  158
+
+
+>NLU27281.1 hypothetical protein [Acetivibrio thermocellus]
+ CDG35488.1 hypothetical protein CTHBC1_0828 [Acetivibrio thermocellus BC1]
+Length=422
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  195  VEEFANGGVSLVVDGVFNPQKEEE  218
+            VE++ +GGVSL    + NP+  EE
+Sbjct  394  VEDYKDGGVSLYSSYIINPKNIEE  417
+
+
+>WP_003516379.1 hypothetical protein [Acetivibrio thermocellus]
+ ABN52028.1 hypothetical protein Cthe_0793 [Acetivibrio thermocellus ATCC
+27405]
+ ADU74490.1 hypothetical protein Clo1313_1428 [Acetivibrio thermocellus DSM
+1313]
+ ALX08433.1 hypothetical protein AD2_01440 [Acetivibrio thermocellus AD2]
+ ANV76182.1 hypothetical protein LQRI_1441 [Acetivibrio thermocellus DSM
+2360]
+ EIC05374.1 hypothetical protein YSBL_0756 [Acetivibrio thermocellus YS]
+Length=422
+
+ Score = 25.4 bits (54),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 11/24 (46%), Positives = 16/24 (67%), Gaps = 0/24 (0%)
+
+Query  195  VEEFANGGVSLVVDGVFNPQKEEE  218
+            VE++ +GGVSL    + NP+  EE
+Sbjct  394  VEDYKDGGVSLYSSYIINPKNIEE  417
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.137    0.408
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19636
+Number of extensions: 863
+Number of successful extensions: 16
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 7
+Length of query: 238
+Length of database: 2835838
+Length adjustment: 86
+Effective length of query: 152
+Effective length of database: 2142420
+Effective search space: 325647840
+Effective search space used: 325647840
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

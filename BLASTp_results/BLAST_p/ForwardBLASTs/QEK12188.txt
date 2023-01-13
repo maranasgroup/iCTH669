@@ -1,0 +1,242 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9VZKDGVN013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= QEK12188 5'-nucleotidase [Crassaminicella thermophila]
+
+Length=254
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  27.3    2.1    28%
+CDG35103.1 radical SAM family protein [Acetivibrio thermocellu...  27.3    2.7    29%
+WP_003512707.1 putative DNA modification/repair radical SAM pr...  27.3    2.7    29%
+WP_003511909.1 AbfB domain-containing protein [Acetivibrio the...  26.6    4.3    28%
+NLU27625.1 family 43 glycosylhydrolase [Acetivibrio thermocellus]  26.6    4.3    28%
+WP_136479580.1 AbfB domain-containing protein [Acetivibrio the...  26.6    4.4    28%
+CDG37230.1 hypothetical protein CTHBC1_2647 [Acetivibrio therm...  25.8    6.5    29%
+NLU26721.1 glycosyltransferase family 4 protein [Acetivibrio t...  25.8    7.5    24%
+CDG37329.1 glycoside hydrolase family 16 [Acetivibrio thermoce...  25.8    8.2    36%
+CDG37032.1 Radical SAM domain protein [Acetivibrio thermocellu...  25.4    10.0   23%
+
+ALIGNMENTS
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 13/47 (28%), Positives = 25/47 (53%), Gaps = 0/47 (0%)
+
+Query  149  DIISKNPLPPDTLLNINIPNCKKENIKGVDVTTLGVRKYKNSFIERI  195
+            D+ +  P P   L  I++  C+KE +  V  +T+  R  KN+ ++ +
+Sbjct  138  DVAAHKPDPEGLLKAISMVGCQKEEVLFVGDSTVDARTAKNAGVDFV  184
+
+
+>CDG35103.1 radical SAM family protein [Acetivibrio thermocellus BC1]
+Length=435
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 25/87 (29%), Positives = 38/87 (44%), Gaps = 15/87 (17%)
+
+Query  71   TPTDCVKLAIEALVKEKIDIVF--SGINKGPNLGTDVLY------------SGTVSA-AI  115
+            TP +   L I    +  I+ +F  S + K PN   ++LY            +G +   AI
+Sbjct  85   TPQEVANLTINFYRRNYIEGLFLSSAVVKNPNHTMELLYESLRILRKEYRFNGYIHVKAI  144
+
+Query  116  EGAILGYPAVAVSLADFKNVNYDVAAE  142
+             GA LG       LAD  +VN ++ +E
+Sbjct  145  PGADLGLIEAVGKLADRMSVNIELPSE  171
+
+
+>WP_003512707.1 putative DNA modification/repair radical SAM protein [Acetivibrio
+thermocellus]
+ ABN51645.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74870.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08825.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus AD2]
+ ANV76575.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus DSM 2360]
+ EIC05166.1 radical SAM family protein [Acetivibrio thermocellus YS]
+Length=435
+
+ Score = 27.3 bits (59),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 25/87 (29%), Positives = 38/87 (44%), Gaps = 15/87 (17%)
+
+Query  71   TPTDCVKLAIEALVKEKIDIVF--SGINKGPNLGTDVLY------------SGTVSA-AI  115
+            TP +   L I    +  I+ +F  S + K PN   ++LY            +G +   AI
+Sbjct  85   TPQEVANLTINFYRRNYIEGLFLSSAVVKNPNHTMELLYESLRILRKEYRFNGYIHVKAI  144
+
+Query  116  EGAILGYPAVAVSLADFKNVNYDVAAE  142
+             GA LG       LAD  +VN ++ +E
+Sbjct  145  PGADLGLIEAVGKLADRMSVNIELPSE  171
+
+
+>WP_003511909.1 AbfB domain-containing protein [Acetivibrio thermocellus]
+ ABN51257.1 alpha-L-arabinofuranosidase B [Acetivibrio thermocellus ATCC
+27405]
+ ADU75253.1 alpha-L-arabinofuranosidase B [Acetivibrio thermocellus DSM 1313]
+ ALX09235.1 alpha-L-arabinofuranosidase B [Acetivibrio thermocellus AD2]
+ ANV76987.1 alpha-L-arabinofuranosidase B [Acetivibrio thermocellus DSM 2360]
+ EIC04810.1 alpha-L-arabinofuranosidase B [Acetivibrio thermocellus YS]
+Length=707
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 1/54 (2%)
+
+Query  18   KLACSLKRMGNIYVVAPDRQRSATGHAITMHEPLRAEKIKFFDKDFDAWAVSGT  71
+            K+    K +G +      +    T +  T+H P   +   FFDK+ D W V G+
+Sbjct  374  KVEGPYKNLGILLRSGAGKGEDGTNYNATIH-PNAVDPHTFFDKNGDLWMVYGS  426
+
+
+>NLU27625.1 family 43 glycosylhydrolase [Acetivibrio thermocellus]
+ CDG34694.1 putative protein YxiA [Acetivibrio thermocellus BC1]
+Length=707
+
+ Score = 26.6 bits (57),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 1/54 (2%)
+
+Query  18   KLACSLKRMGNIYVVAPDRQRSATGHAITMHEPLRAEKIKFFDKDFDAWAVSGT  71
+            K+    K +G +      +    T +  T+H P   +   FFDK+ D W V G+
+Sbjct  374  KVEGPYKNLGILLRSGAGKGEDGTNYNATIH-PNAVDPHTFFDKNGDLWMVYGS  426
+
+
+>WP_136479580.1 AbfB domain-containing protein [Acetivibrio thermocellus]
+ THJ77227.1 alpha-L-arabinofuranosidase [Acetivibrio thermocellus]
+Length=707
+
+ Score = 26.6 bits (57),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 15/54 (28%), Positives = 24/54 (44%), Gaps = 1/54 (2%)
+
+Query  18   KLACSLKRMGNIYVVAPDRQRSATGHAITMHEPLRAEKIKFFDKDFDAWAVSGT  71
+            K+    K +G +      +    T +  T+H P   +   FFDK+ D W V G+
+Sbjct  374  KVEGPYKNLGILLRSGAGKGEDGTNYNATIH-PNAVDPHTFFDKNGDLWMVYGS  426
+
+
+>CDG37230.1 hypothetical protein CTHBC1_2647 [Acetivibrio thermocellus BC1]
+Length=300
+
+ Score = 25.8 bits (55),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 11/38 (29%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  32   VAPDRQRSATGHAITMHEPLRAEKIKFFDKDFDAWAVS  69
+            VAP++  ++T  A   HEP  A+ +K      + +  S
+Sbjct  112  VAPEKHHTSTVQAQEKHEPFPADSLKLIPDSLNPYTES  149
+
+
+>NLU26721.1 glycosyltransferase family 4 protein [Acetivibrio thermocellus]
+Length=368
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 29/122 (24%), Positives = 47/122 (39%), Gaps = 17/122 (14%)
+
+Query  54   EKIKFFDKDFDAWAVSGTP-TDCVKLAIEALVKEKIDIVFSGINKGPNLGTDVLYSGTVS  112
+            E  K  D D       G+  +   +  +  + K+   I+F+G  +G  L    LYS
+Sbjct  213  EAFKGLDTDMKLVIAGGSSHSSKYEKELHEMAKDDDRIIFTGFVEGNELSE--LYSNAYI  270
+
+Query  113  AAIEGAILGYPAVAVSLADFKNVNYDVAAEFCCIVADIISKNPLPPDTLLNINIPNCKKE  172
+              +   I G P   +    + N         CC+V+DI    P   D + N+ +   +K
+Sbjct  271  YILPSDIEGLPISLLEAMSYGN---------CCLVSDI----PENADVIENMGL-TFRKA  316
+
+Query  173  NI  174
+            NI
+Sbjct  317  NI  318
+
+
+>CDG37329.1 glycoside hydrolase family 16 [Acetivibrio thermocellus BC1]
+Length=619
+
+ Score = 25.8 bits (55),  Expect = 8.2, Method: Compositional matrix adjust.
+ Identities = 18/50 (36%), Positives = 26/50 (52%), Gaps = 5/50 (10%)
+
+Query  166  IPNCKKENI---KGVDVT-TLGVRKYKNSFIERIDPRGQSYYWLGGEVID  211
+            +P  K+ENI   +GV  T +L  R  +   I ++D    SY W GG + D
+Sbjct  521  MPQIKQENIALQEGVTYTLSLKARALEARSI-KVDILDSSYNWYGGTIFD  569
+
+
+>CDG37032.1 Radical SAM domain protein [Acetivibrio thermocellus BC1]
+Length=393
+
+ Score = 25.4 bits (54),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 11/47 (23%), Positives = 29/47 (62%), Gaps = 2/47 (4%)
+
+Query  74   DCVKLAIEALVKEKIDIVFSGINKGPNLGTDVLYSG--TVSAAIEGA  118
+            + VKLA+EA + ++++I+ +G+   P     ++ +G   ++ +++G
+Sbjct  155  EMVKLAVEAKIADRVEIITNGLLLTPETSRKLIDAGITNINISVQGV  201
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.138    0.413
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 18859
+Number of extensions: 894
+Number of successful extensions: 30
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 30
+Number of HSP's successfully gapped: 5
+Length of query: 254
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 167
+Effective length of database: 2134357
+Effective search space: 356437619
+Effective search space used: 356437619
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

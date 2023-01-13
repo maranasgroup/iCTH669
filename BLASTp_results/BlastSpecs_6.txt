@@ -1,0 +1,15 @@
+Target: Clostridium thermocellum
+Filepath: C:\Users\wheat\Documents\coculture_project\
+Expect cut-off: 1e-30
+Percent positive substitution cut-off: 60%
+Related Species (in preference order):
+bfi Butyrivibrio fibrisolvens 	
+bhu Butyrivibrio hungatei 	
+cle Cellulosilyticum lentocellum 	
+cew Cellulosilyticum sp. WCF-2 	
+rho Roseburia hominis 	
+rix Roseburia intestinalis XB6B4 	
+rim Roseburia intestinalis M50/1 	
+coo Coprococcus sp. ART55/1 	
+cct Coprococcus catus 	
+ccom Coprococcus comes

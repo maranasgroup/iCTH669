@@ -1,0 +1,259 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WPMK07T016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BCK79021 5'-nucleotidase [Vescimonas fastidiosa]
+
+Length=1197
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003518001.1 CapA family protein [Acetivibrio thermocellus]      30.8    1.3    27%
+WP_136479442.1 CapA family protein [Acetivibrio thermocellus]      30.4    1.5    27%
+WP_011837844.1 CapA family protein [Acetivibrio thermocellus]      30.4    1.5    27%
+WP_235835982.1 S-layer homology domain-containing protein [Ace...  29.3    3.7    48%
+ABN54317.1 S-layer domain-containing protein [Acetivibrio ther...  29.3    3.9    48%
+WP_003516160.1 S-layer homology domain-containing protein [Ace...  29.3    3.9    48%
+CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]   29.3    4.0    48%
+EIC04502.1 viral A-type inclusion repeat-containing protein [A...  27.3    7.9    27%
+WP_003516552.1 glycoside hydrolase family 9 protein [Acetivibr...  28.1    9.9    34%
+
+ALIGNMENTS
+>WP_003518001.1 CapA family protein [Acetivibrio thermocellus]
+ ADU74775.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+1313]
+ ALX08727.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus AD2]
+ ANV76479.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus DSM
+2360]
+ EIC05235.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus YS]
+ PFH03000.1 poly-gamma-glutamate synthesis protein (capsule biosynthesis
+protein) [Acetivibrio thermocellus AD2]
+Length=411
+
+ Score = 30.8 bits (68),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 50/182 (27%), Positives = 76/182 (42%), Gaps = 28/182 (15%)
+
+Query  689  MQTAGYDLATLGN-HEFDYGMERAL-----AIAKNGIVPYISCNFYHEKDGVKGANVLDS  742
+            ++ AG++L  L N H  DY  ER L      + KNGI           K    G N+ ++
+Sbjct  158  IKYAGFNLMNLANNHILDY-YERGLFDTMDILDKNGI-----------KYAGAGRNLEEA  205
+
+Query  743  YK--IFDLDGKKVAFVGIT-TPESFTKSTPKYFQDSNGNYIYGIAGGVDGQALYDSVQAA  799
+             K  I ++   KV  +  T   E   K  P Y + + G    G+A         DS++
+Sbjct  206  RKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNY-KFAAGEDKPGVAP--RPLKFDDSIKKD  262
+
+Query  800  IDAVKAAGADYVIGLAHLGVDESSRPWTSKDVIAHV---TGLDALLDGHSHSVVEQELVK  856
+            I+ +++   D +I   H GV+ES      +   AH     G+D +L  H H     E+ K
+Sbjct  263  IEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQFQGIEIYK  321
+
+Query  857  DK  858
+             K
+Sbjct  322  GK  323
+
+
+>WP_136479442.1 CapA family protein [Acetivibrio thermocellus]
+ THJ77741.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 30.4 bits (67),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 50/182 (27%), Positives = 76/182 (42%), Gaps = 28/182 (15%)
+
+Query  689  MQTAGYDLATLGN-HEFDYGMERAL-----AIAKNGIVPYISCNFYHEKDGVKGANVLDS  742
+            ++ AG++L  L N H  DY  ER L      + KNGI           K    G N+ ++
+Sbjct  158  IKYAGFNLMNLANNHILDY-YERGLFDTMDILDKNGI-----------KYAGAGRNLEEA  205
+
+Query  743  YK--IFDLDGKKVAFVGIT-TPESFTKSTPKYFQDSNGNYIYGIAGGVDGQALYDSVQAA  799
+             K  I ++   KV  +  T   E   K  P Y + + G    G+A         DS++
+Sbjct  206  RKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNY-KFAAGEDKPGVAP--RPLKFDDSIKKD  262
+
+Query  800  IDAVKAAGADYVIGLAHLGVDESSRPWTSKDVIAHV---TGLDALLDGHSHSVVEQELVK  856
+            I+ +++   D +I   H GV+ES      +   AH     G+D +L  H H     E+ K
+Sbjct  263  IEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQFQGIEIYK  321
+
+Query  857  DK  858
+             K
+Sbjct  322  GK  323
+
+
+>WP_011837844.1 CapA family protein [Acetivibrio thermocellus]
+ ABN51741.1 Capsule synthesis protein, CapA [Acetivibrio thermocellus ATCC
+27405]
+ NLU27630.1 CapA family protein [Acetivibrio thermocellus]
+ CDG35216.1 poly-gamma-glutamate biosynthesis protein [Acetivibrio thermocellus
+BC1]
+ HBW26622.1 CapA family protein [Acetivibrio thermocellus]
+Length=411
+
+ Score = 30.4 bits (67),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 50/182 (27%), Positives = 76/182 (42%), Gaps = 28/182 (15%)
+
+Query  689  MQTAGYDLATLGN-HEFDYGMERAL-----AIAKNGIVPYISCNFYHEKDGVKGANVLDS  742
+            ++ AG++L  L N H  DY  ER L      + KNGI           K    G N+ ++
+Sbjct  158  IKYAGFNLMNLANNHILDY-YERGLFDTMDILDKNGI-----------KYAGAGRNLEEA  205
+
+Query  743  YK--IFDLDGKKVAFVGIT-TPESFTKSTPKYFQDSNGNYIYGIAGGVDGQALYDSVQAA  799
+             K  I ++   KV  +  T   E   K  P Y + + G    G+A         DS++
+Sbjct  206  RKPAIMEVKSMKVGMLAYTDMAEIVYKGNPNY-KFAAGEDKPGVAP--RPLKFDDSIKKD  262
+
+Query  800  IDAVKAAGADYVIGLAHLGVDESSRPWTSKDVIAHV---TGLDALLDGHSHSVVEQELVK  856
+            I+ +++   D +I   H GV+ES      +   AH     G+D +L  H H     E+ K
+Sbjct  263  IEELRSK-VDILIVSLHWGVEESFEVLPEQREFAHSLIDNGVDVILGHHPHQFQGIEIYK  321
+
+Query  857  DK  858
+             K
+Sbjct  322  GK  323
+
+
+>WP_235835982.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+Length=689
+
+ Score = 29.3 bits (64),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  3   KILSLFLTLAIVIGLFVPAASAEPTTGAT  31
+           +++SL L LAI++ LF   A AEPT   T
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNT  35
+
+
+>ABN54317.1 S-layer domain-containing protein [Acetivibrio thermocellus ATCC
+27405]
+Length=692
+
+ Score = 29.3 bits (64),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  3   KILSLFLTLAIVIGLFVPAASAEPTTGAT  31
+           +++SL L LAI++ LF   A AEPT   T
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNT  35
+
+
+>WP_003516160.1 S-layer homology domain-containing protein [Acetivibrio thermocellus]
+ ADU73755.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07685.1 S-layer domain-containing protein [Acetivibrio thermocellus AD2]
+ ANV75427.1 S-layer domain-containing protein [Acetivibrio thermocellus DSM
+2360]
+ EIC05643.1 S-layer domain-containing protein [Acetivibrio thermocellus YS]
+ PFH01953.1 S-layer family protein [Acetivibrio thermocellus AD2]
+Length=834
+
+ Score = 29.3 bits (64),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  3   KILSLFLTLAIVIGLFVPAASAEPTTGAT  31
+           +++SL L LAI++ LF   A AEPT   T
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNT  35
+
+
+>CDG37602.1 S-layer domain protein [Acetivibrio thermocellus BC1]
+Length=643
+
+ Score = 29.3 bits (64),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 14/29 (48%), Positives = 19/29 (66%), Gaps = 0/29 (0%)
+
+Query  3   KILSLFLTLAIVIGLFVPAASAEPTTGAT  31
+           +++SL L LAI++ LF   A AEPT   T
+Sbjct  7   RLISLALVLAIIMQLFANFAFAEPTEKNT  35
+
+
+>EIC04502.1 viral A-type inclusion repeat-containing protein, partial [Acetivibrio
+thermocellus YS]
+Length=157
+
+ Score = 27.3 bits (59),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 15/55 (27%), Positives = 30/55 (55%), Gaps = 3/55 (5%)
+
+Query  1065  VKNVQIFNRATNTWEALDLTKEYKLAGYNYTLRDLGDGFAMFKGAVNELDYVMQD  1119
+             V+  +I    T    ALD++ +  LA YNY L++L   + +   + ++ D +M++
+Sbjct  30    VEGTRIKAAQTQIESALDISAKSALANYNYLLKEL---YGLMALSSDDPDLLMEE  81
+
+
+>WP_003516552.1 glycoside hydrolase family 9 protein [Acetivibrio thermocellus]
+ CDG35315.1 glycoside hydrolase family protein [Acetivibrio thermocellus
+BC1]
+ ABN51859.1 glycoside hydrolase family 9 [Acetivibrio thermocellus ATCC 27405]
+ ADU74665.1 glycoside hydrolase family 9 [Acetivibrio thermocellus DSM 1313]
+ ALX08608.1 Cellulose 1,4-beta-cellobiosidase, Cellulase [Acetivibrio thermocellus
+AD2]
+ ANV76357.1 Cellulose 1,4-beta-cellobiosidase, Cellulase [Acetivibrio thermocellus
+DSM 2360]
+Length=1601
+
+ Score = 28.1 bits (61),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 21/61 (34%), Positives = 26/61 (43%), Gaps = 5/61 (8%)
+
+Query  2   KKILSLFLTLAIVIGLFVPAASAEPTTGATTTEFAFLVTSDLHGQIYSTDYSAGYEASGT  61
+           K+ LSL L LAI+  + VP  SA   T A       L       QI+      G+  SG
+Sbjct  3   KRRLSLLLVLAIMFTMVVPQISASAETVAPEGYRKLLDV-----QIFKDSPVVGWSGSGM  57
+
+Query  62  G  62
+           G
+Sbjct  58  G  58
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.315    0.134    0.393
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 105042
+Number of extensions: 5474
+Number of successful extensions: 31
+Number of sequences better than 100: 7
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 31
+Number of HSP's successfully gapped: 8
+Length of query: 1197
+Length of database: 2835838
+Length adjustment: 100
+Effective length of query: 1097
+Effective length of database: 2029538
+Effective search space: 2226403186
+Effective search space used: 2226403186
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 38 (19.2 bits)
+S2: 52 (24.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

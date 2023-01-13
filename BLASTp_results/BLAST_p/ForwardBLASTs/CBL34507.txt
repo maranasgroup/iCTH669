@@ -1,0 +1,417 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 8V8AWG5M01N
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           469,534,606 sequences; 181,459,231,659 total letters
+Query= CBL34507 dTMP kinase [Eubacterium siraeum]
+
+Length=222
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]       145     4e-44  37%
+WP_011838050.1 guanylate kinase [Acetivibrio thermocellus]         36.2    0.002  55%
+CDG35987.1 Guanylate kinase [Acetivibrio thermocellus BC1]         35.8    0.002  55%
+WP_003517002.1 guanylate kinase [Acetivibrio thermocellus]         35.8    0.002  55%
+NIK04346.1 guanylate kinase [Hungateiclostridium thermocellum]     35.8    0.002  55%
+WP_235715163.1 protein-glutamate O-methyltransferase CheR [Ace...  29.3    0.48   23%
+WP_003517318.1 ABC transporter ATP-binding protein [Acetivibri...  28.9    0.66   26%
+NLU26991.1 ABC transporter ATP-binding protein [Acetivibrio th...  28.5    0.75   25%
+WP_003512457.1 protein-glutamate O-methyltransferase CheR [Ace...  28.5    0.77   27%
+NLU27381.1 protein-glutamate O-methyltransferase CheR [Acetivi...  28.1    0.99   27%
+WP_004463359.1 3-dehydroquinate synthase [Acetivibrio thermoce...  27.7    1.3    28%
+WP_003516363.1 3-dehydroquinate synthase [Acetivibrio thermoce...  27.7    1.3    28%
+WP_003514910.1 ABC transporter ATP-binding protein/permease [A...  26.6    4.0    30%
+NLU26253.1 carbohydrate ABC transporter permease [Acetivibrio ...  25.8    5.5    50%
+WP_003515841.1 ABC-F type ribosomal protection protein [Acetiv...  25.8    6.3    42%
+NLU27190.1 threonine--tRNA ligase [Acetivibrio thermocellus]       25.4    9.2    45%
+WP_003519104.1 threonine--tRNA ligase [Acetivibrio thermocellus]   25.4    9.3    45%
+
+ALIGNMENTS
+>WP_003514218.1 thymidylate kinase [Acetivibrio thermocellus]
+ CDG36609.1 thymidylate kinase [Acetivibrio thermocellus BC1]
+ ABN53314.1 thymidylate kinase [Acetivibrio thermocellus ATCC 27405]
+ ADU75749.1 thymidylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX09779.1 hypothetical protein AD2_02801 [Acetivibrio thermocellus AD2]
+ ANV77553.1 thymidylate kinase [Acetivibrio thermocellus DSM 2360]
+Length=227
+
+ Score = 145 bits (367),  Expect = 4e-44, Method: Compositional matrix adjust.
+ Identities = 83/222 (37%), Positives = 127/222 (57%), Gaps = 9/222 (4%)
+
+Query  9    GKLFVIE-GLDGCGKSTQLEML---KASADSNIRFISFPNYNSASGEIIKDYLSGKFCEE  64
+            GKL +IE G D  GK+TQ   L          ++ I+FPNY+S S  ++K YL+G F ++
+Sbjct  3    GKLIIIESGADASGKATQTNKLYERLVQEGYKVKKITFPNYDSDSSALVKMYLNGDFGKD  62
+
+Query  65   NGRTGAYTAGSFYAIDRYISYKTDWEKDYKAGKTIIAARYTSSNAIYQMAKL-EKSRWDE  123
+                  Y A +FYA+DR+ SY+T+W + Y  G  I+A RYT+SN ++Q AK+ +    D
+Sbjct  63   PNDVSPYVASTFYAVDRFASYRTEWGQAYNDGWIILADRYTTSNMVHQAAKIKDMEEKDR  122
+
+Query  124  YLEWLEDYEYDKFAIPRPERIIFLDMPVEVSQKLLSAR---YGGDEAKKDIHESNVAFLK  180
+            +L+WL ++E++ + +P P+ +IFLDMP   S++L+  R   + G E KKDIHE N  +L
+Sbjct  123  FLDWLWNFEFEIYKLPVPDCVIFLDMPPSFSRELMKERANKFTG-EQKKDIHERNDEYLV  181
+
+Query  181  ACRETALYTADKKGWYILPCSDGENPYTPEKINKELSALIYG  222
+                 +LY A K  W  + C         ++I KE+   + G
+Sbjct  182  ESYRNSLYVAKKYNWIKIECVKDGVLKKIDEIQKEVYEAVSG  223
+
+
+>WP_011838050.1 guanylate kinase [Acetivibrio thermocellus]
+ ABN52547.1 guanylate kinase [Acetivibrio thermocellus ATCC 27405]
+ HBW28161.1 guanylate kinase [Acetivibrio thermocellus]
+Length=203
+
+ Score = 36.2 bits (82),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/31 (55%), Positives = 20/31 (65%), Gaps = 0/31 (0%)
+
+Query  9   GKLFVIEGLDGCGKSTQLEMLKASADSNIRF  39
+           G L V+ G  G GK T L +LK S D+NIRF
+Sbjct  5   GLLVVVSGPSGAGKGTLLNLLKDSGDNNIRF  35
+
+
+>CDG35987.1 Guanylate kinase [Acetivibrio thermocellus BC1]
+Length=203
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/31 (55%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  9   GKLFVIEGLDGCGKSTQLEMLKASADSNIRF  39
+           G L V+ G  G GK T L +LK S D NIRF
+Sbjct  5   GLLVVVSGPSGAGKGTLLNLLKDSGDDNIRF  35
+
+
+>WP_003517002.1 guanylate kinase [Acetivibrio thermocellus]
+ ADU74009.1 guanylate kinase [Acetivibrio thermocellus DSM 1313]
+ ALX07947.1 Guanylate kinase [Acetivibrio thermocellus AD2]
+ ANV75693.1 Guanylate kinase [Acetivibrio thermocellus DSM 2360]
+ EIC06145.1 Guanylate kinase [Acetivibrio thermocellus YS]
+ NLU26807.1 guanylate kinase [Acetivibrio thermocellus]
+Length=203
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/31 (55%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  9   GKLFVIEGLDGCGKSTQLEMLKASADSNIRF  39
+           G L V+ G  G GK T L +LK S D NIRF
+Sbjct  5   GLLVVVSGPSGAGKGTLLNLLKDSGDDNIRF  35
+
+
+>NIK04346.1 guanylate kinase [Hungateiclostridium thermocellum]
+Length=204
+
+ Score = 35.8 bits (81),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/31 (55%), Positives = 19/31 (61%), Gaps = 0/31 (0%)
+
+Query  9   GKLFVIEGLDGCGKSTQLEMLKASADSNIRF  39
+           G L V+ G  G GK T L +LK S D NIRF
+Sbjct  6   GLLVVVSGPSGAGKGTLLNLLKDSGDDNIRF  36
+
+
+>WP_235715163.1 protein-glutamate O-methyltransferase CheR [Acetivibrio thermocellus]
+Length=380
+
+ Score = 29.3 bits (64),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 56/244 (23%), Positives = 98/244 (40%), Gaps = 35/244 (14%)
+
+Query  1    MNGNNGKCGKLFVIEGLDGCGKSTQLEMLKASADSNIR---FISFPNYNSASGEIIKDYL  57
+            MN +  + G +  I  +        ++ L  S D N      ++F + N    EI++  +
+Sbjct  1    MNIHKARNGHIMHISVMGELDSKADVDRLLESIDENCDCEIHLTFLDANVVPREIVEKIV  60
+
+Query  58   SGKFCEENG----RTGAYTAGSFYAID---RYISYKTDWEKDYKAGKTIIAARYTSSNAI  110
+              K  E N        AY    F ++      +  K+   KD+++ + +       S+
+Sbjct  61   KLK--EHNKCKIFVLKAYLYSYFLSLGISCFLVKKKSILNKDFESKEKL-------SSQT  111
+
+Query  111  YQMAKLEKSRWDEYLEWLEDY-EYDKFAIPRPERIIFLDMPV----EVSQKLLSARYGGD  165
+            ++  K+EK  WD Y ++  D+ EY K +I R  +I  L   +    E S   L+ +   +
+Sbjct  112  FEPEKVEKFLWDIYDKYGFDFTEYRKDSIIRRIKISMLRYCMTNFDEFSHLALTDQDVFE  171
+
+Query  166  EAKKDIHESNVAFLK------ACRETALYTADK----KGWYILPCSDGENPYTPEKINKE  215
+            +   D   +   F +        RE  L   D     + W +  CS+G+ PY+   I KE
+Sbjct  172  QLFLDFSINTTNFFRDPEVFMFLREKVLLFLDSYSHIRIWCV-GCSNGKEPYSLAIILKE  230
+
+Query  216  LSAL  219
+            L  L
+Sbjct  231  LGML  234
+
+
+>WP_003517318.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+ ABN52813.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75375.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09369.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV77123.1 Fe(3+)-transporting ATPase [Acetivibrio thermocellus DSM 2360]
+Length=367
+
+ Score = 28.9 bits (63),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 40/156 (26%), Positives = 64/156 (41%), Gaps = 32/156 (21%)
+
+Query  7    KCGKLFVIEGLDGCGKSTQLEMLKASADSNIRFISFPNYNSASGEIIKDYLSGKFCEENG  66
+            K G+ F + G  GCGK+T L M+               +NS  G  IK  + GK    N
+Sbjct  28   KPGEFFTLLGPSGCGKTTLLRMIIG-------------FNSIEGGQIK--IDGKVI-NNI  71
+
+Query  67   RTGAYTAGSF---YAIDRYISYKTDWE---KDYKAGKTIIAARYTSSNAIYQMAKLEKSR  120
+             T     G     YAI  ++S K +     K+ K  K  I  R    + I ++ K++  +
+Sbjct  72   PTNKRNMGMVFQNYAIFPHMSVKDNIAFGLKNRKVPKAEIEKRV---DEILKIVKIDHLK  128
+
+Query  121  WDEYLEWLEDYEYDKFAIPR-----PERIIFLDMPV  151
+             D     +   +  + A+ R     PE ++ +D P+
+Sbjct  129  -DRMPHKMSGGQQQRIALARAIVIHPE-VLLMDEPL  162
+
+
+>NLU26991.1 ABC transporter ATP-binding protein [Acetivibrio thermocellus]
+Length=367
+
+ Score = 28.5 bits (62),  Expect = 0.75, Method: Compositional matrix adjust.
+ Identities = 50/201 (25%), Positives = 83/201 (41%), Gaps = 39/201 (19%)
+
+Query  7    KCGKLFVIEGLDGCGKSTQLEMLKASADSNIRFISFPNYNSASGEIIKDYLSGKFCEENG  66
+            K G+ F + G  GCGK+T L M+               +NS  G  IK  ++GK    N
+Sbjct  28   KPGEFFTLLGPSGCGKTTLLRMIIG-------------FNSIDGGQIK--INGKVI-NNI  71
+
+Query  67   RTGAYTAGSF---YAIDRYISYKTDWE---KDYKAGKTIIAARYTSSNAIYQMAKLEKSR  120
+             T     G     YAI  ++S K +     K+ K  K  I  R    + I ++ K++  +
+Sbjct  72   PTNKRNMGMVFQNYAIFPHMSVKDNIAFGLKNRKVPKDEIERRV---DEILKVVKIDHLK  128
+
+Query  121  WDEYLEWLEDYEYDKFAIPR-----PERIIFLDMPV-EVSQKLLSARYGGDEAKKDIHES  174
+             +   + L   +  + A+ R     PE ++ +D P+  +  KL   R     A K I +
+Sbjct  129  -NRMPQKLSGGQQQRIALARAIVIHPE-VLLMDEPLSNLDAKL---RVEMRNAIKQIQQQ  183
+
+Query  175  ---NVAFLKACRETALYTADK  192
+                  ++   +E AL  +D+
+Sbjct  184  VGITTVYVTHDQEEALAVSDR  204
+
+
+>WP_003512457.1 protein-glutamate O-methyltransferase CheR [Acetivibrio thermocellus]
+ ANV76705.1 MCP methyltransferase, CheR-type [Acetivibrio thermocellus DSM
+2360]
+ EIC05036.1 MCP methyltransferase CheR-type [Acetivibrio thermocellus YS]
+ CDG34966.1 CheR-type MCP methyltransferase [Acetivibrio thermocellus BC1]
+ ABN51527.1 MCP methyltransferase, CheR-type [Acetivibrio thermocellus ATCC
+27405]
+ ADU74988.1 MCP methyltransferase, CheR-type [Acetivibrio thermocellus DSM
+1313]
+Length=369
+
+ Score = 28.5 bits (62),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 35/128 (27%), Positives = 56/128 (44%), Gaps = 16/128 (13%)
+
+Query  107  SNAIYQMAKLEKSRWDEYLEWLEDY-EYDKFAIPRPERIIFLDMPV----EVSQKLLSAR  161
+            S+  ++  K+EK  WD Y ++  D+ EY K +I R  +I  L   +    E S   L+ +
+Sbjct  97   SSQTFEPEKVEKFLWDIYDKYGFDFTEYRKDSIIRRIKISMLRYCMTNFDEFSHLALTDQ  156
+
+Query  162  YGGDEAKKDIHESNVAFLK------ACRETALYTADK----KGWYILPCSDGENPYTPEK  211
+               ++   D   +   F +        RE  L   D     + W +  CS+G+ PY+
+Sbjct  157  DVFEQLFLDFSINTTNFFRDPEVFMFLREKVLLFLDSYSHIRIWCV-GCSNGKEPYSLAI  215
+
+Query  212  INKELSAL  219
+            I KEL  L
+Sbjct  216  ILKELGML  223
+
+
+>NLU27381.1 protein-glutamate O-methyltransferase CheR [Acetivibrio thermocellus]
+Length=309
+
+ Score = 28.1 bits (61),  Expect = 0.99, Method: Compositional matrix adjust.
+ Identities = 35/128 (27%), Positives = 56/128 (44%), Gaps = 16/128 (13%)
+
+Query  107  SNAIYQMAKLEKSRWDEYLEWLEDY-EYDKFAIPRPERIIFLDMPV----EVSQKLLSAR  161
+            S+  ++  K+EK  WD Y ++  D+ EY K +I R  +I  L   +    E S   L+ +
+Sbjct  97   SSQTFEPEKVEKFLWDIYDKYGFDFTEYRKDSIIRRIKISMLRYCMTNFDEFSHLALTDQ  156
+
+Query  162  YGGDEAKKDIHESNVAFLK------ACRETALYTADK----KGWYILPCSDGENPYTPEK  211
+               ++   D   +   F +        RE  L   D     + W +  CS+G+ PY+
+Sbjct  157  DVFEQLFLDFSINTTNFFRDPEVFMFLREKVLLFLDSYSHIRIWCV-GCSNGKEPYSLAI  215
+
+Query  212  INKELSAL  219
+            I KEL  L
+Sbjct  216  ILKELGML  223
+
+
+>WP_004463359.1 3-dehydroquinate synthase [Acetivibrio thermocellus]
+ A3DDJ2.1 RecName: Full=3-dehydroquinate synthase; Short=DHQS [Acetivibrio
+thermocellus ATCC 27405]
+ CDG35481.1 3-dehydroquinate synthase [Acetivibrio thermocellus BC1]
+ ABN52021.1 3-dehydroquinate synthase [Acetivibrio thermocellus ATCC 27405]
+ NLU26141.1 3-dehydroquinate synthase [Acetivibrio thermocellus]
+ THJ77957.1 3-dehydroquinate synthase [Acetivibrio thermocellus]
+ HBW26766.1 3-dehydroquinate synthase [Acetivibrio thermocellus]
+Length=360
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 37/81 (46%), Gaps = 3/81 (4%)
+
+Query  84   SYKTDWEKDY-KAGKTIIAARYTSSNAIYQMAKLEKSRWDEYLEWLED--YEYDKFAIPR  140
+            SY      DY + GK I +A+ T    +     ++K + +E ++   D  YE  KF IP
+Sbjct  12   SYPIYISTDYSQIGKCIQSAKLTGKMVLITDTNVDKYQAEECVKAFSDAGYEVSKFVIPA  71
+
+Query  141  PERIIFLDMPVEVSQKLLSAR  161
+             E    LD   ++ + LL  +
+Sbjct  72   GEENKNLDTTRDIYKYLLGLK  92
+
+
+>WP_003516363.1 3-dehydroquinate synthase [Acetivibrio thermocellus]
+ ADU74497.1 3-dehydroquinate synthase [Acetivibrio thermocellus DSM 1313]
+ ALX08440.1 3-dehydroquinate synthase [Acetivibrio thermocellus AD2]
+ ANV76189.1 3-dehydroquinate synthase [Acetivibrio thermocellus DSM 2360]
+ EIC05381.1 3-dehydroquinate synthase [Acetivibrio thermocellus YS]
+Length=360
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 23/81 (28%), Positives = 37/81 (46%), Gaps = 3/81 (4%)
+
+Query  84   SYKTDWEKDY-KAGKTIIAARYTSSNAIYQMAKLEKSRWDEYLEWLED--YEYDKFAIPR  140
+            SY      DY + GK I +A+ T    +     ++K + +E ++   D  YE  KF IP
+Sbjct  12   SYPIYISTDYSQIGKCIQSAKLTGKMVLITDTNVDKYQAEECVKAFSDAGYEVSKFVIPA  71
+
+Query  141  PERIIFLDMPVEVSQKLLSAR  161
+             E    LD   ++ + LL  +
+Sbjct  72   GEENKNLDTTRDIYKYLLGLK  92
+
+
+>WP_003514910.1 ABC transporter ATP-binding protein/permease [Acetivibrio thermocellus]
+ CDG37485.1 ABC transporter-like protein [Acetivibrio thermocellus BC1]
+ ABN54194.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU73633.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX07561.1 Xenobiotic-transporting ATPase [Acetivibrio thermocellus AD2]
+ ANV75301.1 Xenobiotic-transporting ATPase [Acetivibrio thermocellus DSM
+2360]
+Length=575
+
+ Score = 26.6 bits (57),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 27/56 (48%), Gaps = 12/56 (21%)
+
+Query  5    NGKCGKLFVIEGLDGCGKSTQLEMLKASADSNIRFISFPNYNSASGEIIKDYLSGK  60
+              K G++  + G  G GKST + ++        RF     Y+  SGEI+ D ++ K
+Sbjct  359  TAKPGQMIALVGPTGVGKSTVISLIA-------RF-----YDPVSGEILLDGMNIK  402
+
+
+>NLU26253.1 carbohydrate ABC transporter permease [Acetivibrio thermocellus]
+Length=270
+
+ Score = 25.8 bits (55),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 10/20 (50%), Positives = 13/20 (65%), Gaps = 0/20 (0%)
+
+Query  117  EKSRWDEYLEWLEDYEYDKF  136
+            EK RW+ YL+ LE   + KF
+Sbjct  46   EKLRWENYLQVLEAVPFFKF  65
+
+
+>WP_003515841.1 ABC-F type ribosomal protection protein [Acetivibrio thermocellus]
+ CDG36321.1 putative ABC transporter ATP-binding protein YdiF [Acetivibrio
+thermocellus BC1]
+ ABN53020.1 ABC transporter related protein [Acetivibrio thermocellus ATCC
+27405]
+ ADU75485.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+1313]
+ ALX09486.1 ABC transporter related protein [Acetivibrio thermocellus AD2]
+ ANV77240.1 ABC transporter related protein [Acetivibrio thermocellus DSM
+2360]
+Length=638
+
+ Score = 25.8 bits (55),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 13/31 (42%), Positives = 20/31 (65%), Gaps = 1/31 (3%)
+
+Query  4    NNGKCGKLFVIEGLDGCGKSTQLEMLKASAD  34
+            N  K  ++F++ G +GCGKST L++L    D
+Sbjct  351  NIRKKERVFIL-GPNGCGKSTLLKILTGKID  380
+
+
+>NLU27190.1 threonine--tRNA ligase [Acetivibrio thermocellus]
+Length=634
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  129  EDYEYDKFAIPRPERIIFLD  148
+            EDY+ ++F +PR E I F++
+Sbjct  130  EDYKLERFTLPREEAIKFME  149
+
+
+>WP_003519104.1 threonine--tRNA ligase [Acetivibrio thermocellus]
+ A3DET1.1 RecName: Full=Threonine--tRNA ligase; AltName: Full=Threonyl-tRNA
+synthetase; Short=ThrRS [Acetivibrio thermocellus ATCC
+27405]
+ CDG35899.1 Threonine-tRNA ligase [Acetivibrio thermocellus BC1]
+ ABN52460.1 threonyl-tRNA synthetase [Acetivibrio thermocellus ATCC 27405]
+ ADU74097.1 threonyl-tRNA synthetase [Acetivibrio thermocellus DSM 1313]
+ ALX08035.1 Threonyl-tRNA synthetase [Acetivibrio thermocellus AD2]
+ ANV75782.1 Threonyl-tRNA synthetase [Acetivibrio thermocellus DSM 2360]
+Length=635
+
+ Score = 25.4 bits (54),  Expect = 9.3, Method: Compositional matrix adjust.
+ Identities = 9/20 (45%), Positives = 15/20 (75%), Gaps = 0/20 (0%)
+
+Query  129  EDYEYDKFAIPRPERIIFLD  148
+            EDY+ ++F +PR E I F++
+Sbjct  130  EDYKLERFTLPREEAIKFME  149
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 5, 2022  1:27 AM
+  Number of letters in database: 2,859,109
+  Number of sequences in database:  8,162
+
+Lambda      K        H
+   0.316    0.135    0.405
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8162
+Number of Hits to DB: 8538
+Number of extensions: 413
+Number of successful extensions: 13
+Number of sequences better than 100: 3
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 13
+Number of HSP's successfully gapped: 3
+Length of query: 222
+Length of database: 2859109
+Length adjustment: 86
+Effective length of query: 136
+Effective length of database: 2157177
+Effective search space: 293376072
+Effective search space used: 293376072
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 44 (21.6 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,185 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WC9KM33016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= BAF59578 5'-nucleotidase [Pelotomaculum thermopropionicum]
+
+Length=259
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003517324.1 response regulator [Acetivibrio thermocellus]       32.3    0.053  31%
+WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio th...  27.3    1.7    33%
+NLU26869.1 GNAT family N-acetyltransferase [Acetivibrio thermo...  25.8    5.9    27%
+WP_003517629.1 FAD-dependent oxidoreductase [Acetivibrio therm...  26.2    6.0    25%
+WP_003512707.1 putative DNA modification/repair radical SAM pr...  25.8    7.5    32%
+CDG35103.1 radical SAM family protein [Acetivibrio thermocellu...  25.4    9.2    33%
+
+ALIGNMENTS
+>WP_003517324.1 response regulator [Acetivibrio thermocellus]
+ ABN52810.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75372.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 1313]
+ ALX09366.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus AD2]
+ ANV77120.1 two component transcriptional regulator, AraC family [Acetivibrio
+thermocellus DSM 2360]
+Length=259
+
+ Score = 32.3 bits (72),  Expect = 0.053, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 30/65 (46%), Gaps = 6/65 (9%)
+
+Query  55   EWHYPEAKTVGWAVDGTPADCVKLGLEALLPAPPDLVISGINLGPNLGTDVLYSGTVSAA  114
+            +WH  +   VG AV+G        GLE +    PD+VI+ IN+    G ++L
+Sbjct  22   KWHEVDCIVVGEAVNGQD------GLEKIQKYRPDIVIADINMPVMDGLEMLEKSIREYG  75
+
+Query  115  IEGII  119
+             + II
+Sbjct  76   YDAII  80
+
+
+>WP_235836085.1 GNAT family N-acetyltransferase [Acetivibrio thermocellus]
+Length=152
+
+ Score = 27.3 bits (59),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 19/42 (45%), Gaps = 2/42 (5%)
+
+Query  58  YPEAKTVGWAVDGTPADCVKLGL--EALLPAPPDLVISGINL  97
+           Y   K VGW    T ADC+K       +   P + + SGI +
+Sbjct  37  YHNGKVVGWCNTNTKADCLKCYCWRRFMRDVPTEELASGIRV  78
+
+
+>NLU26869.1 GNAT family N-acetyltransferase [Acetivibrio thermocellus]
+Length=201
+
+ Score = 25.8 bits (55),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 13/49 (27%), Positives = 23/49 (47%), Gaps = 2/49 (4%)
+
+Query  30  YIVAPDRERSATGHKITMHRPLRVKEWHYPEAKTVGWAVDGTPADCVKL  78
+           Y+++ ++ R+    KI  ++      +H    K V W    T ADC+K
+Sbjct  53  YLLSKEKRRNYAVQKIKENKIQGYLAYH--SGKVVAWCNANTKADCLKC  99
+
+
+>WP_003517629.1 FAD-dependent oxidoreductase [Acetivibrio thermocellus]
+ CDG35253.1 FAD-dependent pyridine nucleotide-disulfide oxidoreductase [Acetivibrio
+thermocellus BC1]
+ ABN51796.1 FAD-dependent pyridine nucleotide-disulfide oxidoreductase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74734.1 FAD-dependent pyridine nucleotide-disulfide oxidoreductase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08685.1 NADH dehydrogenase [Acetivibrio thermocellus AD2]
+ ANV76437.1 NADH dehydrogenase [Acetivibrio thermocellus DSM 2360]
+Length=591
+
+ Score = 26.2 bits (56),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 12/48 (25%), Positives = 24/48 (50%), Gaps = 12/48 (25%)
+
+Query  152  GNRLPDKTLL------------NINVPPGKPCGIKVTRLGNRRYINIF  187
+            G ++P KTL+            N+++  G+ C IKV +    ++ N++
+Sbjct  249  GRKIPTKTLIWTAGVRACCLNDNLSLEKGRACRIKVDKYAATQFKNVY  296
+
+
+>WP_003512707.1 putative DNA modification/repair radical SAM protein [Acetivibrio
+thermocellus]
+ ABN51645.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+ATCC 27405]
+ ADU74870.1 radical SAM domain-containing protein [Acetivibrio thermocellus
+DSM 1313]
+ ALX08825.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus AD2]
+ ANV76575.1 DNA modification/repair radical SAM protein, putative [Acetivibrio
+thermocellus DSM 2360]
+ EIC05166.1 radical SAM family protein [Acetivibrio thermocellus YS]
+Length=435
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 23/73 (32%), Positives = 40/73 (55%), Gaps = 14/73 (19%)
+
+Query  196  RVYYWMAGEPFDLDEDDPDTD-------VWAVKEGYVSITPVHFDLTDYKIMERLKKL-L  247
+            R Y + A E   LDE +PD D        WA+    +S+ PV  +  DY+++ R+  + +
+Sbjct  286  RFYGFSADEL--LDERNPDFDPKLDPKTNWAINN--MSLFPVEINRADYEMLLRVPGIGV  341
+
+Query  248  KTAK--ILNRELK  258
+            ++AK  I+ R++K
+Sbjct  342  RSAKKIIMARKVK  354
+
+
+>CDG35103.1 radical SAM family protein [Acetivibrio thermocellus BC1]
+Length=435
+
+ Score = 25.4 bits (54),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 18/55 (33%), Positives = 28/55 (51%), Gaps = 11/55 (20%)
+
+Query  196  RVYYWMAGEPFDLDEDDPDTD-------VWAVKEGYVSITPVHFDLTDYKIMERL  243
+            R Y + A E   LDE +PD D        WA+    +S+ PV  +  DY+++ R+
+Sbjct  286  RFYGFSADEL--LDERNPDFDPKLDPKTNWAINN--MSLFPVEINRADYEMLLRV  336
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.319    0.140    0.423
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 22595
+Number of extensions: 1025
+Number of successful extensions: 25
+Number of sequences better than 100: 4
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 25
+Number of HSP's successfully gapped: 4
+Length of query: 259
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 172
+Effective length of database: 2134357
+Effective search space: 367109404
+Effective search space used: 367109404
+T: 11
+A: 40
+X1: 16 (7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

@@ -1,0 +1,298 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WC0R723013
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ACL21001 5'-nucleotidase [Desulfitobacterium hafniense]
+
+Length=251
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003516709.1 ABC transporter permease [Acetivibrio thermocel...  29.3    0.59   35%
+CDG36625.1 hypothetical protein CTHBC1_2022 [Acetivibrio therm...  29.3    0.62   35%
+WP_235836051.1 hypothetical protein [Acetivibrio thermocellus]     27.7    1.3    38%
+WP_003515596.1 stage IV sporulation protein A [Acetivibrio the...  27.7    1.9    33%
+WP_003518177.1 glycosyl transferase [Acetivibrio thermocellus]     26.9    3.0    37%
+AAL67138.1 cellobiose phosphorylase [Acetivibrio thermocellus]     26.9    3.0    37%
+BAA25846.1 cellobiose phosphorylase [Acetivibrio thermocellus]     26.9    3.1    37%
+WP_003512801.1 PLP-dependent aminotransferase family protein [...  26.9    3.6    25%
+WP_235825032.1 PLP-dependent aminotransferase family protein [...  26.6    3.7    25%
+WP_003514124.1 23S rRNA (guanosine(2251)-2'-O)-methyltransfera...  26.2    4.2    33%
+NLU28020.1 elongation factor G [Acetivibrio thermocellus]          26.6    4.9    29%
+WP_003515361.1 elongation factor G [Acetivibrio thermocellus]      26.6    4.9    29%
+
+ALIGNMENTS
+>WP_003516709.1 ABC transporter permease [Acetivibrio thermocellus]
+ ABN53330.1 Trypanosome RHS [Acetivibrio thermocellus ATCC 27405]
+ ADU75765.1 Trypanosome RHS [Acetivibrio thermocellus DSM 1313]
+ ALX09795.1 MacB-like periplasmic core domain containing protein [Acetivibrio
+thermocellus AD2]
+ ANV77569.1 MacB-like periplasmic core domain containing protein [Acetivibrio
+thermocellus DSM 2360]
+ EIC03691.1 Trypanosome RHS [Acetivibrio thermocellus YS]
+Length=470
+
+ Score = 29.3 bits (64),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 27/46 (59%), Gaps = 1/46 (2%)
+
+Query  112  AAMEGVLLGVPAIAVSLASFSAVDYKPAAQFVALSLPKLRLGPGLI  157
+            +++  ++LGV A  +++  F  +DY   A+F+ L L  L L  GLI
+Sbjct  409  SSLSSIVLGVAAGYLAVC-FMGIDYSLPAKFIVLMLCFLLLNSGLI  453
+
+
+>CDG36625.1 hypothetical protein CTHBC1_2022 [Acetivibrio thermocellus BC1]
+Length=470
+
+ Score = 29.3 bits (64),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 16/46 (35%), Positives = 27/46 (59%), Gaps = 1/46 (2%)
+
+Query  112  AAMEGVLLGVPAIAVSLASFSAVDYKPAAQFVALSLPKLRLGPGLI  157
+            +++  ++LGV A  +++  F  +DY   A+F+ L L  L L  GLI
+Sbjct  409  SSLSSIVLGVAAGYLAVC-FMGIDYSLPAKFIVLMLCFLLLNSGLI  453
+
+
+>WP_235836051.1 hypothetical protein [Acetivibrio thermocellus]
+Length=227
+
+ Score = 27.7 bits (60),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 27/48 (56%), Gaps = 5/48 (10%)
+
+Query  112  AAMEGVLLGVPA--IAVSLASFSAVDYKPAAQFVALSLPKLRLGPGLI  157
+            +++  ++LGV A  +AV    F  +DY   A+F+ L L  L L  GLI
+Sbjct  166  SSLSSIVLGVAAGYLAVC---FMGIDYSLPAKFIVLMLCFLLLNSGLI  210
+
+
+>WP_003515596.1 stage IV sporulation protein A [Acetivibrio thermocellus]
+ CDG35715.1 Stage IV sporulation protein A [Acetivibrio thermocellus BC1]
+ ABN52253.1 stage IV sporulation protein A [Acetivibrio thermocellus ATCC
+27405]
+ ADU74257.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+1313]
+ ALX08200.1 stage IV sporulation protein A [Acetivibrio thermocellus AD2]
+ ANV75948.1 stage IV sporulation protein A [Acetivibrio thermocellus DSM
+2360]
+Length=492
+
+ Score = 27.7 bits (60),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 16/49 (33%), Positives = 25/49 (51%), Gaps = 6/49 (12%)
+
+Query  39   KSATGHSITLFEPLFI----TKHSLDRGTGYAVSGKPADCVKLAIQGSI  83
+            +SA+G +I   EP F+     K  LD    + V  +  DCV   ++G+I
+Sbjct  61   QSASGRTIMTTEPKFVPNEAIKIELDENVHFKV--RLVDCVGYMVKGAI  107
+
+
+>WP_003518177.1 glycosyl transferase [Acetivibrio thermocellus]
+ ABN51514.1 glycosyltransferase 36 [Acetivibrio thermocellus ATCC 27405]
+ ADU75001.1 glycosyltransferase 36 [Acetivibrio thermocellus DSM 1313]
+ ALX08969.1 glycosyltransferase 36 [Acetivibrio thermocellus AD2]
+ ANV76719.1 glycosyltransferase 36 [Acetivibrio thermocellus DSM 2360]
+ EIC05050.1 glycosyltransferase 36 [Acetivibrio thermocellus YS]
+Length=811
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  139  AAQFVALSLPKLRLGPGLININIPPLPEKEWKGVRVTK  176
+            A  FVA+S   L + P    + I P   K W G +VT+
+Sbjct  722  AWNFVAISQWILGVKPDYDGLKIDPCIPKAWDGYKVTR  759
+
+
+>AAL67138.1 cellobiose phosphorylase [Acetivibrio thermocellus]
+ NLU25937.1 glycosyl transferase [Acetivibrio thermocellus]
+ 3QDE_A Chain A, Cellobiose phosphorylase [Acetivibrio thermocellus]
+ 3QDE_B Chain B, Cellobiose phosphorylase [Acetivibrio thermocellus]
+ CDG34952.1 glycosyltransferase 36 [Acetivibrio thermocellus BC1]
+Length=811
+
+ Score = 26.9 bits (58),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  139  AAQFVALSLPKLRLGPGLININIPPLPEKEWKGVRVTK  176
+            A  FVA+S   L + P    + I P   K W G +VT+
+Sbjct  722  AWNFVAISQWILGVKPDYDGLKIDPCIPKAWDGYKVTR  759
+
+
+>BAA25846.1 cellobiose phosphorylase [Acetivibrio thermocellus]
+Length=807
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 19/38 (50%), Gaps = 0/38 (0%)
+
+Query  139  AAQFVALSLPKLRLGPGLININIPPLPEKEWKGVRVTK  176
+            A  FVA+S   L + P    + I P   K W G +VT+
+Sbjct  722  AWNFVAISQWILGVKPDYDGLKIDPCIPKAWDGYKVTR  759
+
+
+>WP_003512801.1 PLP-dependent aminotransferase family protein [Acetivibrio thermocellus]
+ CDG37155.1 GntR family transcriptional regulator [Acetivibrio thermocellus
+BC1]
+ ABN53888.1 transcriptional regulator, GntR family with aminotransferase
+domain-containing protein [Acetivibrio thermocellus ATCC 27405]
+ ADU73371.1 transcriptional regulator, GntR family with aminotransferase
+domain [Acetivibrio thermocellus DSM 1313]
+ ALX07293.1 transcriptional regulator, GntR family with aminotransferase
+domain containing protein [Acetivibrio thermocellus AD2]
+ ANV75031.1 transcriptional regulator, GntR family with aminotransferase
+domain containing protein [Acetivibrio thermocellus DSM 2360]
+Length=498
+
+ Score = 26.9 bits (58),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 21/85 (25%), Positives = 35/85 (41%), Gaps = 8/85 (9%)
+
+Query  145  LSLPKLRLGPGLININ----IPPLPEKEWKGVRVTKLGKAVYENVFEHRQAPYGRDYYWQ  200
+            L LP +R    L+N+N    +      E KG   ++ G   Y  V   +Q+    + Y
+Sbjct  39   LKLPSIRQMSALLNVNSVTIVSCYKHLETKGYVYSRPGSGTYVAVVLPKQS----ENYSD  94
+
+Query  201  AGTVSPEVDQETDLYAVQEGYVSIT  225
+               +  E+ Q  DL  +  G++ I
+Sbjct  95   RNIILDELYQSDDLNLINNGHIKIN  119
+
+
+>WP_235825032.1 PLP-dependent aminotransferase family protein [Acetivibrio thermocellus]
+Length=502
+
+ Score = 26.6 bits (57),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 21/85 (25%), Positives = 35/85 (41%), Gaps = 8/85 (9%)
+
+Query  145  LSLPKLRLGPGLININ----IPPLPEKEWKGVRVTKLGKAVYENVFEHRQAPYGRDYYWQ  200
+            L LP +R    L+N+N    +      E KG   ++ G   Y  V   +Q+    + Y
+Sbjct  43   LKLPSIRQMSALLNVNSVTIVSCYKHLETKGYVYSRPGSGTYVAVVLPKQS----ENYSD  98
+
+Query  201  AGTVSPEVDQETDLYAVQEGYVSIT  225
+               +  E+ Q  DL  +  G++ I
+Sbjct  99   RNIILDELYQSDDLNLINNGHIKIN  123
+
+
+>WP_003514124.1 23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB [Acetivibrio
+thermocellus]
+ CDG36561.1 putative TrmH family tRNA/rRNA methyltransferase YacO [Acetivibrio
+thermocellus BC1]
+ ABN53267.1 RNA methyltransferase, TrmH family, group 3 [Acetivibrio thermocellus
+ATCC 27405]
+ ADU75702.1 RNA methyltransferase, TrmH family, group 3 [Acetivibrio thermocellus
+DSM 1313]
+ ALX09731.1 RNA methyltransferase, TrmH family, group 3 [Acetivibrio thermocellus
+AD2]
+ ANV77506.1 RNA methyltransferase, TrmH family, group 3 [Acetivibrio thermocellus
+DSM 2360]
+Length=277
+
+ Score = 26.2 bits (56),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 21/64 (33%), Positives = 35/64 (55%), Gaps = 9/64 (14%)
+
+Query  89   LVISGINNGPNLGTDVFYSGTVSAAMEGVLL------GVPAIAVSLASFSAVDYKPAAQF  142
+            +++ GI +  NLG+ +  +  V A   GV++      G+ A AVS AS  A++Y P A+
+Sbjct  131  IILDGITDAYNLGSILRTADAVGA--HGVVIPKRRAIGLNA-AVSKASAGAIEYVPVARV  187
+
+Query  143  VALS  146
+              +S
+Sbjct  188  TNIS  191
+
+
+>NLU28020.1 elongation factor G [Acetivibrio thermocellus]
+Length=697
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 42/113 (37%), Gaps = 32/113 (28%)
+
+Query  39   KSATGHSITLFEPLFITKHSLDRGTGYAVSGKPADCVKLAIQGSIIPKPDLVISGINNGP  98
+            K   GH     EP        +RGTGY    K        I G +IPK    I  ++
+Sbjct  502  KGQYGHCWIEIEPK-------ERGTGYEFVNK--------IVGGVIPKE--YIPAVD---  541
+
+Query  99   NLGTDVFYSGTVSAAMEGVLLGVPAIAVSL----ASFSAVDYKPAAQFVALSL  147
+                    +G  SA   GVL G P + V +     S+  VD    A  VA S+
+Sbjct  542  --------AGIQSAMNNGVLAGYPVVDVKVTLYDGSYHEVDSSEMAFKVAASM  586
+
+
+>WP_003515361.1 elongation factor G [Acetivibrio thermocellus]
+ A3DIZ9.1 RecName: Full=Elongation factor G; Short=EF-G [Acetivibrio thermocellus
+ATCC 27405]
+ CDG37193.1 Elongation factor G [Acetivibrio thermocellus BC1]
+ ABN53928.1 translation elongation factor G [Acetivibrio thermocellus ATCC
+27405]
+ ADU73409.1 translation elongation factor G [Acetivibrio thermocellus DSM
+1313]
+ ALX07331.1 translation elongation factor G [Acetivibrio thermocellus AD2]
+ ANV75069.1 translation elongation factor G [Acetivibrio thermocellus DSM
+2360]
+Length=697
+
+ Score = 26.6 bits (57),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 42/113 (37%), Gaps = 32/113 (28%)
+
+Query  39   KSATGHSITLFEPLFITKHSLDRGTGYAVSGKPADCVKLAIQGSIIPKPDLVISGINNGP  98
+            K   GH     EP        +RGTGY    K        I G +IPK    I  ++
+Sbjct  502  KGQYGHCWIEIEPK-------ERGTGYEFVNK--------IVGGVIPKE--YIPAVD---  541
+
+Query  99   NLGTDVFYSGTVSAAMEGVLLGVPAIAVSL----ASFSAVDYKPAAQFVALSL  147
+                    +G  SA   GVL G P + V +     S+  VD    A  VA S+
+Sbjct  542  --------AGIQSAMNNGVLAGYPVVDVKVTLYDGSYHEVDSSEMAFKVAASM  586
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.316    0.136    0.399
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 19087
+Number of extensions: 803
+Number of successful extensions: 18
+Number of sequences better than 100: 2
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 18
+Number of HSP's successfully gapped: 2
+Length of query: 251
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 164
+Effective length of database: 2134357
+Effective search space: 350034548
+Effective search space used: 350034548
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

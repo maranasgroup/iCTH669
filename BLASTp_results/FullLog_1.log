@@ -1,0 +1,2750 @@
+Start time: 18 Mar 2022 16:36:45
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+3.1.3.104-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.104 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+Found gene for related organism hhw:Hathewaya histolytica
+NCTC503_00801-------------------------------------------------------------------------------------
+Building FASTA report for gene NCTC503_00801 (Accession: VTQ85665)
+accession: WP_003517805.1, fraction positive substitution: 0.56
+accession: WP_136479316.1, fraction positive substitution: 0.56
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.5.1.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.36 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.5.1.38-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.38 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+Found gene for related organism gfe:Geosporobacter ferrireducens
+Gferi_23095-------------------------------------------------------------------------------------
+Building FASTA report for gene Gferi_23095 (Accession: AOT72173)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.5.1.39-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.39 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+Found gene for related organism aft:Anoxybacter fermentans
+BBF96_04370-------------------------------------------------------------------------------------
+Building FASTA report for gene BBF96_04370 (Accession: AZR72692)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.5.1.42-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.5.1.42 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.13.11.79-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.13.11.79 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+4.99.1.3-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.99.1.3 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+Found gene for related organism amt:Alkaliphilus metalliredigens
+Amet_0064-------------------------------------------------------------------------------------
+Building FASTA report for gene Amet_0064 (Accession: ABR46307)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+Found gene for related organism aoe:Alkaliphilus oremlandii
+Clos_0323-------------------------------------------------------------------------------------
+Building FASTA report for gene Clos_0323 (Accession: ABW17886)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+Found gene for related organism gfe:Geosporobacter ferrireducens
+Gferi_24225-------------------------------------------------------------------------------------
+Building FASTA report for gene Gferi_24225 (Accession: AOT72382)
+
+Using Organism: Hathewaya histolytica (hhw)
+Found gene for related organism hhw:Hathewaya histolytica
+NCTC503_00905-------------------------------------------------------------------------------------
+Building FASTA report for gene NCTC503_00905 (Accession: VTQ86265)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+Found gene for related organism tep:Tepidanaerobacter acetatoxydans
+TepRe1_0451-------------------------------------------------------------------------------------
+Building FASTA report for gene TepRe1_0451 (Accession: AEE90649)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+Found gene for related organism tae:Tepidanaerobacter acetatoxydans
+TepiRe1_0497-------------------------------------------------------------------------------------
+Building FASTA report for gene TepiRe1_0497 (Accession: CCP25179)
+
+Using Organism: Thermosediminibacter oceani (toc)
+Found gene for related organism toc:Thermosediminibacter oceani
+Toce_0309-------------------------------------------------------------------------------------
+Building FASTA report for gene Toce_0309 (Accession: ADL07090)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.151-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.151 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.272-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.272 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.271-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.271 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+3.7.1.12-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.7.1.12 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.195-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.195 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+1.3.1.106-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 1.3.1.106 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.196-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.196 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.1.1.289-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.1.1.289 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+5.4.99.60-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 5.4.99.60 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+6.3.5.11-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.11 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+6.3.5.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.5.10 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+6.3.4.18-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.18 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+4.1.1.21-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 4.1.1.21 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+3.5.4.4-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.5.4.4 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+6.3.4.25-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 6.3.4.25 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+
+
+2.4.2.10-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.4.2.10 genes
+
+Using Organism: Alkaliphilus metalliredigens (amt)
+
+Using Organism: Alkaliphilus oremlandii (aoe)
+
+Using Organism: Candidatus Arthromitus (asf)
+
+Using Organism: Candidatus Arthromitus (asm)
+
+Using Organism: Candidatus Arthromitus (aso)
+
+Using Organism: Candidatus Arthromitus (asb)
+
+Using Organism: Geosporobacter ferrireducens (gfe)
+
+Using Organism: Hathewaya histolytica (hhw)
+
+Using Organism: Caloramator sp. (cale)
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism:   ()
+
+Using Organism: Caldicellulosiruptor saccharolyticus (csc)
+
+Using Organism: Caldicellulosiruptor bescii (ate)
+
+Using Organism: Caldicellulosiruptor obsidiansis (cob)
+
+Using Organism: Caldicellulosiruptor hydrothermalis (chd)
+
+Using Organism: Caldicellulosiruptor owensensis (cow)
+
+Using Organism: Caldicellulosiruptor kristjanssonii (cki)
+
+Using Organism: Caldicellulosiruptor lactoaceticus (clc)
+
+Using Organism: Caldicellulosiruptor kronotskyensis (ckn)
+
+Using Organism: Caldicellulosiruptor changbaiensis (ccha)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (ttm)
+
+Using Organism: Thermoanaerobacterium thermosaccharolyticum (tto)
+
+Using Organism: Thermoanaerobacterium xylanolyticum (txy)
+
+Using Organism: Thermoanaerobacterium saccharolyticum (tsh)
+
+Using Organism: Thermodesulfobium narugense (tnr)
+
+Using Organism: Thermodesulfobium acidiphilum (taci)
+
+Using Organism: Mahella australiensis (mas)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tep)
+
+Using Organism: Tepidanaerobacter acetatoxydans (tae)
+
+Using Organism: Thermosediminibacter oceani (toc)
+
+Using Organism: Natranaerobius thermophilus (nth)
+
+Using Organism: Halothermothrix orenii (hor)
+
+Using Organism: Halanaerobium hydrogeniformans (has)
+
+Using Organism: Halanaerobium praevalens (hpk)
+
+Using Organism: Halocella sp. (hals)
+
+Using Organism: Iocasia fonsfrigidae (ifn)
+
+Using Organism: Acetohalobium arabaticum (aar)
+
+Using Organism: Halobacteroides halobius (hhl)
+
+Using Organism: Anoxybacter fermentans (aft)
+
+Using Organism: Koleobacter methoxysyntrophicus (kme)
+end time: 19 Mar 2022 20:43:22

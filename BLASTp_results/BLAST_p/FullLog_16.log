@@ -1,0 +1,228 @@
+Start time: 6 June 2022 9:10:19
+Expect Cut-Off:  1e-30
+Percent Positive Substitution Cut-Off: 0.6
+
+
+2.7.7.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.5 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+2.7.7.22-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.22 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+2.7.7.36-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 2.7.7.36 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+3.1.3.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.5 genes
+
+Using Organism: Aminipila luticellarii (amij)
+Found gene for related organism amij:Aminipila luticellarii
+EQM06_12105-------------------------------------------------------------------------------------
+Building FASTA report for gene EQM06_12105 (Accession: QAT43906)
+
+Using Organism: Aminipila terrae (amic)
+Found gene for related organism amic:Aminipila terrae
+Ami3637_08490-------------------------------------------------------------------------------------
+Building FASTA report for gene Ami3637_08490 (Accession: QHI72428)
+
+Using Organism: Aminipila butyrica (abut)
+Found gene for related organism abut:Aminipila butyrica
+Ami103574_15505-------------------------------------------------------------------------------------
+Building FASTA report for gene Ami103574_15505 (Accession: QIB70614)
+
+Using Organism: Eubacterium sulci (euu)
+Found gene for related organism euu:Eubacterium sulci
+ADJ67_07415-------------------------------------------------------------------------------------
+Building FASTA report for gene ADJ67_07415 (Accession: AKT47466)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+Found gene for related organism tte:Caldanaerobacter subterraneus
+TTE0343-------------------------------------------------------------------------------------
+Building FASTA report for gene TTE0343 (Accession: AAM23635)
+TTE1338-------------------------------------------------------------------------------------
+Building FASTA report for gene TTE1338 (Accession: AAM24560)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+Found gene for related organism tex:Thermoanaerobacter sp.
+Teth514_0272-------------------------------------------------------------------------------------
+Building FASTA report for gene Teth514_0272 (Accession: ABY91589)
+Teth514_1585-------------------------------------------------------------------------------------
+Building FASTA report for gene Teth514_1585 (Accession: ABY92872)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+Found gene for related organism thx:Thermoanaerobacter sp.
+Thet_0314-------------------------------------------------------------------------------------
+Building FASTA report for gene Thet_0314 (Accession: ADN53975)
+Thet_1317-------------------------------------------------------------------------------------
+Building FASTA report for gene Thet_1317 (Accession: ADN54917)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+Found gene for related organism tpd:Thermoanaerobacter pseudethanolicus
+Teth39_1148-------------------------------------------------------------------------------------
+Building FASTA report for gene Teth39_1148 (Accession: ABY94803)
+Teth39_1938-------------------------------------------------------------------------------------
+Building FASTA report for gene Teth39_1938 (Accession: ABY95569)
+
+
+3.1.3.91-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.1.3.91 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+3.6.1.5-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.5 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+3.6.1.6-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.6 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+
+
+3.6.1.64-------------------------------------------------------------------------------------
+Searching Clostridium thermocellum genome for probable 3.6.1.64 genes
+
+Using Organism: Aminipila luticellarii (amij)
+
+Using Organism: Aminipila terrae (amic)
+
+Using Organism: Aminipila butyrica (abut)
+
+Using Organism: Eubacterium sulci (euu)
+
+Using Organism: Butyrate-producing bacterium (bprm)
+
+Using Organism: Butyrate-producing bacterium (bprs)
+
+Using Organism: Caldanaerobacter subterraneus (tte)
+
+Using Organism: Thermoanaerobacter sp. (tex)
+
+Using Organism: Thermoanaerobacter sp. (thx)
+
+Using Organism: Thermoanaerobacter pseudethanolicus (tpd)
+end time: 6 June 2022 16:2:34

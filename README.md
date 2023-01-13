@@ -1,6 +1,85 @@
 # iCTH669
 Repository for the Stoichiometric Genome-Scale Model (GSM) of Clostridium thermocellum
 
+REPOSITORY FOLDERS
+TIC_resolutions: containts stand-alone TIC-Finding Problem (TFP) results. These results are noted with their resolutions underneath them, providing additional documentation for model curation. The names of the files are based on the name of the model iteration to which they were applied and a number indicating if a second round of the stand-alone TFP problem was applied to resolve more model TICs. 
+
+BLASTp_results: Contains the code and results of the bidirectional blast runs. The scripts "BidirectionalBLAST_Z.pl" where Z is 1 to 20 are parallelized bidirectional blast runs that search for occurances of the enzymes listed in "EC_list.txt" in the organisms listed in "Blast_Specs_Z.txt" (again where Z has a value of 1 to 20) to use as query sequences against the C. thermocellum genome to attempt to identify new metabolic functions. Logs of the runs can be found in "AbbreviatedLog_Z.txt" and "FullLog_Z", with error messages printed in "error_z.txt", if applicable. Instances where acceptable matches were found  can be found in "ECBlastInfo_Z.csv" (these only have headers due to no acceptable matches being found). FASTAs for query sequences used can be found in "BLASTp_results/FASTAs", and for target sequence (that is, potential sequences in C. thermocellum) can be found in "BLASTp_results/FASTAs/Target". Forward BLASTp reports can be found in "BLASTp_results/ForwardBLASTs", backward BLASTp reports can be found in "BLASTp_results/BackwardBLASTs"
+
+Versions during curation: Versions of the new C. thermocellum model logged during model curation. 
+
+REPOSITORY FILES
+annotate_genes.pl: Takes a list of genes written in the "new_genes.txt" file and looks them up using the KEGG API to automate gene annotations in the model. Note that this can be easily adapted for other species by editing the species code on line 67 and the gene prefix in line 40. Output file is "gene_annotations.txt"
+
+common_functions.pl: My personal library of perl functions I use in various perl scripts. 
+
+Ctherm_DSM1313_genome_annotated.gbff: Annotated genome downloaded from NCBI that was used for model curation. 
+
+FBA_results_ctherm_XXXX_at_YYY_ppi.txt: Results of running FBA on the iCTH669 model maximizing ethanol export while fixing the rates of PPi-producing reactions to be the values calculated when PPi flux through the model is maximized (YYY = max) or minimized (YYY = min) (result file of run_fba_XXXX_at_YYY_ppi.py). Note that XXXX here stands in for a strain identifer. 
+
+fba.py: Python class for an FBA object, used throughout the workflow.
+
+final_iCTH669_model.html: MEMOTE report for the final version of the iCTH669 model (version with GLGC, though both should have identical scores).
+
+fva.py: Python class for an FVA object, used throughout the workflow.
+
+gene_annotations.txt: example output of annotate_genes.pl
+
+get_yield_comp.pl: Perl script to write "yield_data.xlsx". This script is essentially a way to automate yeild comparisons between the iCTH669 model and Kuil et al. (2022) data when making changes to the model. 
+
+iCBI655_cellobiose_batch.html: Recent MEMOTE report of the iCBI655 model. 
+
+iCBI655_cellobiose_batch.sbml: iCBI655 model downloaded from https://github.com/TrinhLab/ctherm-gem/tree/consensus/iCBI
+
+iCTH669_escher_map.json: Escher map of the iCTH66 model.
+
+iCTH669_w_GLGC.sbml: iCTH669 model with the GLGC reaction included with GAM and NGAM appropriate to those genotypes, SBML format
+
+iCTH669_w_GLGC.json: iCTH669 model with the GLGC reaction included with GAM and NGAM appropriate to those genotypes, JSON format, used as a starting point for Escher map creation
+
+iCTH669_wo_GLGC.sbml: iCTH669 model with the GLGC reaction not included with GAM and NGAM appropriate to those genotypes
+
+maintenance_calculation.xlsx: Excel workbook used to calculate maintenance requirements for GLGC and non-GLGC strains. 
+
+make_JSON.py: Turns a target SBML file (specified on line 28) into a JSON file (specified in line 31). 
+
+model_validation.py: Result file of the "vaidate.py" script. Reports on any issues which make the target SBML file invalid. 
+
+new_genes.txt: List of genes for "annotate_genes.pl" to annotate to make them easy to add into the model. 
+
+pFBA_results_ctherm_yield_tracking_XXXX.txt: pFBA results of "run_pFBA_ctherm_yield_tracking_XXXX.py", maximizing ethanol export for a fixed biomass yield for strain XXXX. Can be used to track the yield of certain, specified, species through their exchange reactions. Note that these results get read by "get_yield_comp.pl" to create "yield_data.xlsx". Data is for the iCTH669 model. 
+
+pFBA_results_ctherm_yield_tracking_XXXX_old.txt: pFBA results of "run_pFBA_ctherm_yield_tracking_XXXX_old.py", maximizing ethanol export for a fixed biomass yield for strain XXXX. Can be used to track the yield of certain, specified, species through their exchange reactions. Note that these results get read by "get_yield_comp.pl" to create "yield_data.xlsx". Data is for the iCBI655 model.
+
+ppi_producing_rxns_XXXX.txt: Table of reactions that could produce PPi based on reaction direction and stoichiometry. Columns are reaction, minimum PPi production rate, maximum PPi production rate, stoichiometric coefficient of PPi in the reaction. Negative indicates consumption. 
+
+ppi_consuming_rxns_XXXX.txt: Table of reactions that could consume PPi based on reaction direction and stoichiometry. Columns are reaction, minimum PPi production rate, maximum PPi production rate, stoichiometric coefficient of PPi in the reaction. Negative indicates production. 
+
+run_fba_XXXX_at_YYY_ppi.py: Runs FBA on the iCTH669 model maximizing ethanol export while fixing the rates of PPi-producing reactions to be the values calculated when PPi flux through the model is maximized (YYY = max) or minimized (YYY = min) (result file of run_fba_XXXX_at_YYY_ppi.py). Note that XXXX here stands in for a strain identifer. Used to determine maximum ethanol production at maximum and minimum system PPi synthesis. 
+
+run_fva_ctherm_XXXX.py: Python script to run FVA on the iCTH669 model for strain XXXX. Useful in debugging. Conditions can be changed by editing the "fixed_rates" dictionary at line 37. 
+
+run_fva_ctherm_XXX_ppi.py: python script to run FVA on iCTH669 for reactions with PPi as a participant. Finds the maximum and minimum global flux through PPi by maximizing or minimizing flux in PPi-producing directions in PPi-producing reactions. Writes the "ppi_producing_rxns_XXXX.txt" and "ppi_consuming_rxns_XXXX.txt" Growth conditions can be changed through the "fixed_rates" dictionary in line 30. 
+
+run_fva_ctherm_XXX_ppi_old.py: python script to run FVA on iCBI655 for reactions with PPi as a participant. Finds the maximum and minimum global flux through PPi by maximizing or minimizing flux in PPi-producing directions in PPi-producing reactions. Writes the "ppi_producing_rxns_XXXX.txt" and "ppi_consuming_rxns_XXXX.txt" Growth conditions can be changed through the "fixed_rates" dictionary in line 30. 
+
+run_pFBA_ctherm.py: python script for running pFBA on a model. Specify model on line 24, change conditions by editing the "fixed_rates" dictionary on line 39. 
+
+run_pFBA_ctherm_yield_tracking_XXXX.py: File to run PFBA for the iCTH669 model for strain XXX. Objective can be changed by redefining the "objective" variable (examples on lines 42 to 45). Conditions for the model can be changed by editing the "fixed_rates_1" dictionary on line 49. Reports on the yield of various products. Script results get read by "get_yield_comp.pl" to create "yield_data.xlsx". Data is for the iCTH669 model. 
+
+run_pFBA_ctherm_yield_tracking_XXXX_old.py: File to run PFBA for the iCBI655 model for strain XXX. Objective can be changed by redefining the "objective" variable (examples on lines 42 to 45). Conditions for the model can be changed by editing the "fixed_rates_1" dictionary on line 49. Reports on the yield of various products. Script results get read by "get_yield_comp.pl" to create "yield_data.xlsx". Data is for the iCBI655 model. 
+
+run_saTFP.py: Script to run the the stand-aloneTIC-Finding Problem (TFP) used to identify stoichiometrically balanced Thermodynamically Infeasible Cycles (TICs). Used in model curation, calls on "stand_alone_TFP.py".
+
+stand_alone_TFP.py: python class for the TIC-Finding Problem (TFP) used to identify stoichiometrically balanced Thermodynamically Infeasible Cycles (TICs). Used in model curation, called by "run_saTFP.py".
+
+validate.py: Uses COBRApy to run an sbml validation on a specified model file (line 21), writes results to "model_validation.txt", useful for debugging. 
+
+yield_data.xlsx: result of the get_yield_comp.pl, excel file for the comparison of yeild between iCTH669 and the data from Kuil et al. (2022). 
+
+REPOSITORY HISTORY
 06/17/2022: This repository contains ONLY the two version of the iCTH669 model for the different GAM and NGAM values due to the presence or basence of ADP-glucose synthase (reaction GLGC). The manuscript is in preparation, and the full set of codes and similar will be avialable upon personal request to Wheaton Schroeder at wls5190@psu.edu. Additional codes will be made available upon submission of this manuscript. 
 
 07/25/2022: The repository is updated with all model files as well as scripts, classes, and results files the author believes to be sufficient to recreate the results which will shortly be submitted for publication, as the writing of the draft manuscript is now complete. 
+
+01/13/2023: Updated repository files, added new files as needed, and significantly expanded the README in preparation for manuscript submission. 

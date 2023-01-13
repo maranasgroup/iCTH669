@@ -1,0 +1,321 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WNUAMMJ016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= ADG82778 5'-nucleotidase [Thermincola potens]
+
+Length=255
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003511818.1 TIGR03986 family CRISPR-associated RAMP protein...  27.7    2.0    29%
+NLU27543.1 TIGR03986 family CRISPR-associated RAMP protein [Ac...  27.7    2.1    29%
+WP_003517187.1 3-methyl-2-oxobutanoate dehydrogenase subunit V...  27.3    2.2    28%
+CDG37693.1 hypothetical protein CTHBC1_3136 [Acetivibrio therm...  27.7    2.2    29%
+ABN52100.1 pyruvate flavodoxin/ferredoxin oxidoreductase domai...  27.3    2.3    28%
+CDG35558.1 Ketoisovalerate oxidoreductase subunit VorB [Acetiv...  27.3    2.3    28%
+WP_003517259.1 3-methyl-2-oxobutanoate hydroxymethyltransferas...  26.9    3.1    39%
+WP_003517330.1 ABC transporter permease [Acetivibrio thermocel...  25.8    7.3    30%
+WP_136479482.1 ABC transporter permease [Acetivibrio thermocel...  25.4    7.9    30%
+WP_003513505.1 acyl-CoA dehydratase activase-related protein [...  25.4    8.3    28%
+WP_003517058.1 CpaF family protein [Acetivibrio thermocellus]      25.4    9.5    33%
+6EDE_A Chain A, Probable RNA 2'-phosphotransferase [Acetivibri...  25.0    9.7    33%
+
+ALIGNMENTS
+>WP_003511818.1 TIGR03986 family CRISPR-associated RAMP protein [Acetivibrio
+thermocellus]
+ ABN54409.1 protein of unknown function DUF324 [Acetivibrio thermocellus
+ATCC 27405]
+ THJ79174.1 TIGR03986 family CRISPR-associated RAMP protein [Acetivibrio
+thermocellus]
+ HBW28477.1 TIGR03986 family CRISPR-associated RAMP protein [Acetivibrio
+thermocellus]
+Length=661
+
+ Score = 27.7 bits (60),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 37/79 (47%), Gaps = 17/79 (22%)
+
+Query  187  YKNTFEKRKDP-----------RGRDYYWMAGEAVDLAGDPDTDINAVKRNEISVTPIVF  235
+            YK   ++RKD            RGR +YWM  E++D+ G     +   ++ E  VT +
+Sbjct  427  YKGYLKQRKDTLESYSTEGYEIRGRKFYWMK-ESLDIKG-----MEEQEKKERLVTRMKC  480
+
+Query  236  DITNYQLIKKLQEWNLSLE  254
+               N + I K++  NL+ E
+Sbjct  481  YAENTKFIGKVKFENLTDE  499
+
+
+>NLU27543.1 TIGR03986 family CRISPR-associated RAMP protein [Acetivibrio
+thermocellus]
+Length=653
+
+ Score = 27.7 bits (60),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 37/79 (47%), Gaps = 17/79 (22%)
+
+Query  187  YKNTFEKRKDP-----------RGRDYYWMAGEAVDLAGDPDTDINAVKRNEISVTPIVF  235
+            YK   ++RKD            RGR +YWM  E++D+ G     +   ++ E  VT +
+Sbjct  427  YKGYLKQRKDTLESYSTEGYEIRGRKFYWMK-ESLDIKG-----MEEQEKKERLVTRMKC  480
+
+Query  236  DITNYQLIKKLQEWNLSLE  254
+               N + I K++  NL+ E
+Sbjct  481  YAENTKFIGKVKFENLTDE  499
+
+
+>WP_003517187.1 3-methyl-2-oxobutanoate dehydrogenase subunit VorB [Acetivibrio
+thermocellus]
+ ADU74417.1 pyruvate flavodoxin/ferredoxin oxidoreductase domain protein
+[Acetivibrio thermocellus DSM 1313]
+ ALX08360.1 3-methyl-2-oxobutanoate dehydrogenase (ferredoxin) [Acetivibrio
+thermocellus AD2]
+ ANV76109.1 3-methyl-2-oxobutanoate dehydrogenase (ferredoxin) [Acetivibrio
+thermocellus DSM 2360]
+ EIC05789.1 pyruvate flavodoxin/ferredoxin oxidoreductase domain protein
+[Acetivibrio thermocellus YS]
+ NLU27250.1 3-methyl-2-oxobutanoate dehydrogenase subunit VorB [Acetivibrio
+thermocellus]
+Length=352
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 37/86 (43%), Gaps = 4/86 (5%)
+
+Query  58   YSNSSTKGYAVNGTPSDCVKLALEGLL----TKRPDIVVSGINFGPNLGTDVLYSGTVSA  113
+            Y  +S     +  + S  + L  EGL      + P +VV+ +  GP LG  +   G
+Sbjct  65   YGAASAGARVLTSSSSPGISLKQEGLSYLAGAELPAVVVNIVRCGPGLGGILPAQGDYFQ  124
+
+Query  114  ALEGVIHGIPSIAVSLASYEKEDYTL  139
+            A++G  HG   + V   S  +E Y L
+Sbjct  125  AVKGGGHGDYKMVVLAPSSVQELYEL  150
+
+
+>CDG37693.1 hypothetical protein CTHBC1_3136 [Acetivibrio thermocellus BC1]
+Length=692
+
+ Score = 27.7 bits (60),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 37/79 (47%), Gaps = 17/79 (22%)
+
+Query  187  YKNTFEKRKDP-----------RGRDYYWMAGEAVDLAGDPDTDINAVKRNEISVTPIVF  235
+            YK   ++RKD            RGR +YWM  E++D+ G  + +     + E  VT +
+Sbjct  427  YKGYLKQRKDTLESYSTEGYEIRGRKFYWMK-ESLDIKGMEEQE-----KKERLVTRMKC  480
+
+Query  236  DITNYQLIKKLQEWNLSLE  254
+               N + I K++  NL+ E
+Sbjct  481  YAENTKFIGKVKFENLTDE  499
+
+
+>ABN52100.1 pyruvate flavodoxin/ferredoxin oxidoreductase domain protein
+[Acetivibrio thermocellus ATCC 27405]
+Length=346
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 37/86 (43%), Gaps = 4/86 (5%)
+
+Query  58   YSNSSTKGYAVNGTPSDCVKLALEGLL----TKRPDIVVSGINFGPNLGTDVLYSGTVSA  113
+            Y  +S     +  + S  + L  EGL      + P +VV+ +  GP LG  +   G
+Sbjct  59   YGAASAGARVLTSSSSPGISLKQEGLSYLAGAELPAVVVNIVRCGPGLGGILPAQGDYFQ  118
+
+Query  114  ALEGVIHGIPSIAVSLASYEKEDYTL  139
+            A++G  HG   + V   S  +E Y L
+Sbjct  119  AVKGGGHGDYKMVVLAPSSVQELYEL  144
+
+
+>CDG35558.1 Ketoisovalerate oxidoreductase subunit VorB [Acetivibrio thermocellus
+BC1]
+Length=352
+
+ Score = 27.3 bits (59),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 37/86 (43%), Gaps = 4/86 (5%)
+
+Query  58   YSNSSTKGYAVNGTPSDCVKLALEGLL----TKRPDIVVSGINFGPNLGTDVLYSGTVSA  113
+            Y  +S     +  + S  + L  EGL      + P +VV+ +  GP LG  +   G
+Sbjct  65   YGAASAGARVLTSSSSPGISLKQEGLSYLAGAELPAVVVNIVRCGPGLGGILPAQGDYFQ  124
+
+Query  114  ALEGVIHGIPSIAVSLASYEKEDYTL  139
+            A++G  HG   + V   S  +E Y L
+Sbjct  125  AVKGGGHGDYKMVVLAPSSVQELYEL  150
+
+
+>WP_003517259.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Acetivibrio
+thermocellus]
+ A3DDV7.1 RecName: Full=3-methyl-2-oxobutanoate hydroxymethyltransferase;
+AltName: Full=Ketopantoate hydroxymethyltransferase; Short=KPHMT
+[Acetivibrio thermocellus ATCC 27405]
+ CDG35597.1 3-methyl-2-oxobutanoatehydroxymethyltransferase [Acetivibrio
+thermocellus BC1]
+ ABN52136.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74379.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Acetivibrio
+thermocellus DSM 1313]
+ ALX08322.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Acetivibrio
+thermocellus AD2]
+ ANV76070.1 3-methyl-2-oxobutanoate hydroxymethyltransferase [Acetivibrio
+thermocellus DSM 2360]
+Length=283
+
+ Score = 26.9 bits (58),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 17/33 (52%), Gaps = 0/33 (0%)
+
+Query  74   DCVKLALEGLLTKRPDIVVSGINFGPNLGTDVL  106
+            +CV   L   ++KR DI   GI  GP+    VL
+Sbjct  184  ECVPYKLAAFISKRLDIPTIGIGSGPDCDGQVL  216
+
+
+>WP_003517330.1 ABC transporter permease [Acetivibrio thermocellus]
+ ABN52807.1 inner-membrane translocator [Acetivibrio thermocellus ATCC 27405]
+ ADU75369.1 inner-membrane translocator [Acetivibrio thermocellus DSM 1313]
+ ALX09363.1 ABC-type transporter, integral membrane subunit [Acetivibrio
+thermocellus AD2]
+ ANV77117.1 ABC-type transporter, integral membrane subunit [Acetivibrio
+thermocellus DSM 2360]
+Length=311
+
+ Score = 25.8 bits (55),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 39/86 (45%), Gaps = 7/86 (8%)
+
+Query  73   SDCVKLALEGLLTKRPDIVVSGINFGPNLGTDVLYSGTVSAALEGVIHGIPSIAVSLASY  132
+            S  V + +EG++T    +  +  +F  N     L  G V A L G+IH I    VS  +
+Sbjct  35   SGVVNIGIEGMMTIGAFVGAAVAHFTGNAWLAFLCGGLVGA-LFGLIHAIAC--VSFGAD  91
+
+Query  133  EKEDYT----LAARTAIQIVKAVVEK  154
+            +    T    LA   AI + KA+ E+
+Sbjct  92   QTISGTAINFLAPGVAIFVCKALFEQ  117
+
+
+>WP_136479482.1 ABC transporter permease [Acetivibrio thermocellus]
+ THJ77653.1 ABC transporter permease [Acetivibrio thermocellus]
+Length=311
+
+ Score = 25.4 bits (54),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 39/86 (45%), Gaps = 7/86 (8%)
+
+Query  73   SDCVKLALEGLLTKRPDIVVSGINFGPNLGTDVLYSGTVSAALEGVIHGIPSIAVSLASY  132
+            S  V + +EG++T    +  +  +F  N     L  G V A L G+IH I    VS  +
+Sbjct  35   SGIVNIGIEGMMTIGAFVGAAVAHFTGNAWLAFLCGGLVGA-LFGLIHAIAC--VSFGAD  91
+
+Query  133  EKEDYT----LAARTAIQIVKAVVEK  154
+            +    T    LA   AI + KA+ E+
+Sbjct  92   QTISGTAINFLAPGVAIFVCKALFEQ  117
+
+
+>WP_003513505.1 acyl-CoA dehydratase activase-related protein [Acetivibrio thermocellus]
+ CDG36786.1 hypothetical protein CTHBC1_2186 [Acetivibrio thermocellus BC1]
+ ABN53474.1 hypothetical protein Cthe_2272 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75925.1 hypothetical protein Clo1313_2945 [Acetivibrio thermocellus DSM
+1313]
+ ALX09957.1 Protein of unknown function DUF2229, CoA enzyme activase [Acetivibrio
+thermocellus AD2]
+ ANV77731.1 Protein of unknown function DUF2229, CoA enzyme activase [Acetivibrio
+thermocellus DSM 2360]
+Length=304
+
+ Score = 25.4 bits (54),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 42/106 (40%), Gaps = 24/106 (23%)
+
+Query  96   NFGPNLGTDVLYSGTVSAAL--EGVIHGIPSIAVSLASY--------EKEDYTLAAR-TA  144
+            NF  NLG +V  S   +  +   GV H      + +  +        +K DY    R T+
+Sbjct  21   NFFCNLGCNVKVSDDTNKEILDWGVKHCSNETCLPVKVFHGHAYSLKDKVDYIFIPRYTS  80
+
+Query  145  IQIVKAVVEK--GLPDETLLN-----------INVPAVPEKEIKGI  177
+            +   +    K  GLPD TLLN           INV A P++  K
+Sbjct  81   VDKNEYTCPKFCGLPDMTLLNLKRQIKLLEVKINVDAKPQETFKSF  126
+
+
+>WP_003517058.1 CpaF family protein [Acetivibrio thermocellus]
+ CDG36014.1 type II secretion system protein E [Acetivibrio thermocellus
+BC1]
+ ABN52571.1 type II secretion system protein E [Acetivibrio thermocellus
+ATCC 27405]
+ ADU73982.1 type II secretion system protein E [Acetivibrio thermocellus
+DSM 1313]
+ ALX07920.1 type II secretion system protein E [Acetivibrio thermocellus
+AD2]
+ ANV75666.1 type II secretion system protein E [Acetivibrio thermocellus
+DSM 2360]
+Length=412
+
+ Score = 25.4 bits (54),  Expect = 9.5, Method: Compositional matrix adjust.
+ Identities = 13/39 (33%), Positives = 23/39 (59%), Gaps = 4/39 (10%)
+
+Query  198  RGRDYYWMAGEAVDLAGDPDTDINAVKRNEISVTPIVFD  236
+            R RDYY   GE  ++A   D   N+++R ++ + P++ D
+Sbjct  43   RSRDYYLSVGEKKEIA---DAIFNSMRRLDV-LQPLIDD  77
+
+
+>6EDE_A Chain A, Probable RNA 2'-phosphotransferase [Acetivibrio thermocellus
+ATCC 27405]
+Length=203
+
+ Score = 25.0 bits (53),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 15/46 (33%), Positives = 22/46 (48%), Gaps = 7/46 (15%)
+
+Query  183  GKRIYKNTFEKRKDPRGRDYYWMAGEAVDLAGDPDTDINAVKRNEI  228
+             +R  K+  EK   P+GR Y       V L+ D +T +   KR +I
+Sbjct  125  ARRFVKSIKEKGLQPQGRQY-------VHLSADVETALQVGKRRDI  163
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.314    0.134    0.379
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 16490
+Number of extensions: 720
+Number of successful extensions: 16
+Number of sequences better than 100: 6
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 16
+Number of HSP's successfully gapped: 6
+Length of query: 255
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 168
+Effective length of database: 2134357
+Effective search space: 358571976
+Effective search space used: 358571976
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362

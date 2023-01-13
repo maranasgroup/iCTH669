@@ -1,0 +1,194 @@
+<p><!--
+QBlastInfoBegin
+	Status=READY
+QBlastInfoEnd
+--><p>
+<PRE>
+BLASTP 2.13.0+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Stephen
+F. Altschul, John C. Wootton, E. Michael Gertz, Richa
+Agarwala, Aleksandr Morgulis, Alejandro A. Schaffer, and
+Yi-Kuo Yu (2005) "Protein database searches using
+compositionally adjusted substitution matrices", FEBS J.
+272:5101-5109.
+
+
+RID: 9WUW6G02016
+
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects
+           483,768,206 sequences; 186,740,218,448 total letters
+Query= AYH41783 5'-nucleotidase [Christensenella minuta]
+
+Length=259
+
+
+                                                                   Score     E     Max
+Sequences producing significant alignments:                       (Bits)  Value  Ident
+
+WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]  33.5    0.019  28%
+WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivib...  29.3    0.37   28%
+WP_148206054.1 restriction endonuclease subunit S [Acetivibrio...  27.3    2.1    25%
+ABN52380.1 hypothetical protein Cthe_1148 [Acetivibrio thermoc...  27.3    2.2    25%
+WP_003514081.1 amidohydrolase family protein [Acetivibrio ther...  26.6    3.5    24%
+WP_003515912.1 GGGtGRT protein [Acetivibrio thermocellus]          25.4    8.7    27%
+
+ALIGNMENTS
+>WP_003512401.1 HAD-IA family hydrolase [Acetivibrio thermocellus]
+ CDG34938.1 HAD family hydrolase [Acetivibrio thermocellus BC1]
+ ABN51500.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU75015.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08983.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus AD2]
+ ANV76733.1 HAD-superfamily hydrolase, subfamily IA, variant 1 [Acetivibrio
+thermocellus DSM 2360]
+Length=217
+
+ Score = 33.5 bits (75),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 21/75 (28%), Positives = 32/75 (43%), Gaps = 1/75 (1%)
+
+Query  169  MISPIEVATGKRAYFVGKPNPLMMRTGIKMLGLHAQEAAMVGDRMDTDVVAGLESGLDTV  228
+            ++   +V  G       KP+P  +   I M+G   +E   VGD    D      +G+D V
+Sbjct  126  LLQYFDVIVGGEDVAAHKPDPEGLLKAISMVGCQKEEVLFVGDST-VDARTAKNAGVDFV  184
+
+Query  229  LVLSGVSTRATIEEY  243
+             VL+G +      EY
+Sbjct  185  AVLTGTTGANEFSEY  199
+
+
+>WP_003517159.1 YqeG family HAD IIIA-type phosphatase [Acetivibrio thermocellus]
+ CDG35547.1 HAD family phosphatase [Acetivibrio thermocellus BC1]
+ ABN52089.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus ATCC 27405]
+ ADU74428.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 1313]
+ ALX08371.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus AD2]
+ ANV76120.1 HAD superfamily (subfamily IIIA) phosphatase, TIGR01668 [Acetivibrio
+thermocellus DSM 2360]
+Length=167
+
+ Score = 29.3 bits (64),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 13/46 (28%), Positives = 25/46 (54%), Gaps = 0/46 (0%)
+
+Query  185  GKPNPLMMRTGIKMLGLHAQEAAMVGDRMDTDVVAGLESGLDTVLV  230
+             KP        ++++   A E A++GD++ TD+  G +  + T+LV
+Sbjct  91   SKPRSRSFVKAMEIMNTKASETAVIGDQIFTDIYGGNKVNMFTILV  136
+
+
+>WP_148206054.1 restriction endonuclease subunit S [Acetivibrio thermocellus]
+Length=424
+
+ Score = 27.3 bits (59),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query  115  DVDPEYVVVGETHNYNYDNISKAVQLVLAGAKLIGTNPDLTGPGETGIFPACGAMIS  171
+            D+DP + ++ ETH   Y N+S  ++ ++   +++       G   TG      A+I+
+Sbjct  286  DIDPNFSIIKETHEDFYGNLSNRMRYIVRRGEIVTAK----GGSATGTKGHATALIT  338
+
+
+>ABN52380.1 hypothetical protein Cthe_1148 [Acetivibrio thermocellus ATCC
+27405]
+Length=427
+
+ Score = 27.3 bits (59),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 14/57 (25%), Positives = 28/57 (49%), Gaps = 4/57 (7%)
+
+Query  115  DVDPEYVVVGETHNYNYDNISKAVQLVLAGAKLIGTNPDLTGPGETGIFPACGAMIS  171
+            D+DP + ++ ETH   Y N+S  ++ ++   +++       G   TG      A+I+
+Sbjct  289  DIDPNFSIIKETHEDFYGNLSNRMRYIVRRGEIVTAK----GGSATGTKGHATALIT  341
+
+
+>WP_003514081.1 amidohydrolase family protein [Acetivibrio thermocellus]
+ CDG36532.1 amidohydrolase 2 [Acetivibrio thermocellus BC1]
+ ADU75679.1 amidohydrolase 2 [Acetivibrio thermocellus DSM 1313]
+ ALX09701.1 amidohydrolase 2 [Acetivibrio thermocellus AD2]
+ ANV77474.1 amidohydrolase 2 [Acetivibrio thermocellus DSM 2360]
+ EIC03591.1 amidohydrolase 2 [Acetivibrio thermocellus YS]
+Length=260
+
+ Score = 26.6 bits (57),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 24/101 (24%), Positives = 44/101 (44%), Gaps = 10/101 (10%)
+
+Query  88   QSRKKSAFVIGEAGLTNAL---YEVGITMNDVDPEYVVVGETHNYNYDNISKAVQLVLAG  144
+            +++  +A V+ ++ L +A+    E     +D D  +VV G +   ++ N    ++  L
+Sbjct  34   RNKISAAVVMADSELQSAIGNNEECVNLFSDCDNVFVVAGISPLIDFQNNLNRIENYLCQ  93
+
+Query  145  AKLIGTN--PD-----LTGPGETGIFPACGAMISPIEVATG  178
+             K++G    P      L  P    +F  C A   P+ V TG
+Sbjct  94   KKIVGVKLYPGHEQFYLNDPRLESVFLLCEAFDVPVAVHTG  134
+
+
+>WP_003515912.1 GGGtGRT protein [Acetivibrio thermocellus]
+ CDG36291.1 hypothetical protein CTHBC1_1653 [Acetivibrio thermocellus BC1]
+ ABN52988.1 hypothetical protein Cthe_1767 [Acetivibrio thermocellus ATCC
+27405]
+ ADU75454.1 hypothetical protein Clo1313_2440 [Acetivibrio thermocellus DSM
+1313]
+ ALX09454.1 GGGtGRT protein [Acetivibrio thermocellus AD2]
+ ANV77208.1 GGGtGRT protein [Acetivibrio thermocellus DSM 2360]
+Length=333
+
+ Score = 25.4 bits (54),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 18/67 (27%), Positives = 29/67 (43%), Gaps = 5/67 (7%)
+
+Query  108  EVGITMNDVDP---EYVVVGETHNYNYDNISKAVQLVLAGAKLIGTNPD--LTGPGETGI  162
+            +V IT N  +P   +++V G    + Y+N  K   +   G      +PD    GP   G+
+Sbjct  221  DVSITGNSTNPTRFQHLVAGTYKKWAYENGKKYFSVASGGGTGRTLHPDNMAAGPASYGL  280
+
+Query  163  FPACGAM  169
+              + G M
+Sbjct  281  TDSMGRM  287
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  May 24, 2022  2:55 AM
+  Number of letters in database: 2,835,838
+  Number of sequences in database:  8,063
+
+Lambda      K        H
+   0.318    0.138    0.401
+Gapped
+Lambda      K        H
+   0.267   0.0410    0.140
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 8063
+Number of Hits to DB: 17029
+Number of extensions: 752
+Number of successful extensions: 20
+Number of sequences better than 100: 5
+Number of HSP's better than 100 without gapping: 0
+Number of HSP's gapped: 20
+Number of HSP's successfully gapped: 7
+Length of query: 259
+Length of database: 2835838
+Length adjustment: 87
+Effective length of query: 172
+Effective length of database: 2134357
+Effective search space: 367109404
+Effective search space used: 367109404
+T: 11
+A: 40
+X1: 16 (7.3 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 33 (17.3 bits)
+S2: 45 (21.9 bits)
+ka-blk-alpha gapped: 1.9
+ka-blk-alpha ungapped: 0.7916
+ka-blk-alpha_v gapped: 42.6028
+ka-blk-alpha_v ungapped: 4.96466
+ka-blk-sigma gapped: 43.6362
