@@ -13176,7 +13176,7 @@
           </xhtml:body>
         </notes>
       </species>
-      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_glyco_biomass_c" metaid="M_glyco_biomass_c" name="biomass sub-pseudometabolite, glycogen component" sboTerm="SBO:0000247" fbc:charge="0" fbc:chemicalFormula="" initialConcentration="NaN" >
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_pepglyco_biomass_c" metaid="M_pepglyco_biomass_c" name="biomass sub-pseudometabolite, peptidoglycan component" sboTerm="SBO:0000247" fbc:charge="0" fbc:chemicalFormula="" initialConcentration="NaN" >
         <notes>
           <xhtml:body>
             <xhtml:p>biomass sub-pseudometabolite, glycogen component</xhtml:p>
@@ -15345,6 +15345,22 @@
                   <rdf:li rdf:resource="http://identifiers.org/kegg.genes/ctx:Clo1313_0245" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73339, WP_003515434.1" />
                   <rdf:li rdf:resource="http://identifiers.org/ncbigene/CLO1313_RS01245" />
+                  <rdf:li rdf:resource="http://identifiers.org/refseq/NC_017304" />
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+      <fbc:geneProduct metaid="Clo1313_0083" sboTerm="SBO:0000243" fbc:id="Clo1313_0083" fbc:label="GenBank_MazG_nucleotide_pyrophosphohydrolase_clo1313_0083" fbc:name="(GenBank) MazG family protein">
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#Clo1313_0083">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.genes/ctx:Clo1313_0083" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73181" />
+                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/CLO1313_RS00435" />
                   <rdf:li rdf:resource="http://identifiers.org/refseq/NC_017304" />
                 </rdf:Bag>
               </bqbiol:is>
@@ -23492,22 +23508,6 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
-      <fbc:geneProduct metaid="Clo1313_2726" sboTerm="SBO:0000243" fbc:id="Clo1313_2726" fbc:label="GenBank_DNA__apurinic_or_apyrimidinic_site_lyase_Clo1313_2726" fbc:name="(GenBank) DNA-(apurinic or apyrimidinic site) lyase">
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#Clo1313_2726">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.genes/ctx:Clo1313_2726" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU75710, WP_003516777.1" />
-                  <rdf:li rdf:resource="http://identifiers.org/ncbigene/CLO1313_RS13850" />
-                  <rdf:li rdf:resource="http://identifiers.org/refseq/NC_017304" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-      </fbc:geneProduct>
       <fbc:geneProduct metaid="Clo1313_0949" sboTerm="SBO:0000243" fbc:id="Clo1313_0949" fbc:label="GenBank_pyruvate,_phosphate_dikinase_Clo1313_0949" fbc:name="(GenBank) pyruvate, phosphate dikinase">
         <sbml:annotation>
           <rdf:RDF>
@@ -24371,7 +24371,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_glyco_biomass" metaid="R_glyco_biomass" name="C. therm biomass objective function for cellulose grown cultures, glycogen component" reversible="false" sboTerm="SBO:0000629" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_pepglyco_biomass" metaid="R_pepglyco_biomass" name="C. therm biomass objective function for cellulose grown cultures, peptidoglycan component" reversible="false" sboTerm="SBO:0000629" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <xhtml:body>
             <xhtml:p>biomass sub-pseudoreaction, neucleic acid component</xhtml:p>
@@ -24387,7 +24387,7 @@
         </notes>
         <sbml:annotation>
           <rdf:RDF>
-            <rdf:Description rdf:about="#R_glyco_biomass">
+            <rdf:Description rdf:about="#R_pepglyco_biomass">
               <bqbiol:is>
                 <rdf:Bag />
               </bqbiol:is>
@@ -24398,7 +24398,7 @@
           <speciesReference constant="true" species="M_peptido_CT_c" stoichiometry="0.102616302069518" sboTerm="SBO:0000010" />
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_glyco_biomass_c" stoichiometry="1" sboTerm="SBO:0000011" />
+          <speciesReference constant="true" species="M_pepglyco_biomass_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
           <fbc:or>
@@ -24602,7 +24602,7 @@
         </sbml:annotation>
         <listOfReactants>
           <speciesReference constant="true" species="M_other_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_glyco_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
+          <speciesReference constant="true" species="M_pepglyco_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
           <speciesReference constant="true" species="M_lipid_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
           <speciesReference constant="true" species="M_NA_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
           <speciesReference constant="true" species="M_protein_biomass_c" stoichiometry="1" sboTerm="SBO:0000010" />
@@ -25371,32 +25371,6 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_2924" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_R00182" metaid="R_R00182" name="AMP phosphoribohydrolase" reversible="true" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_R00182">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.2.2.4 3.2.2.10 3.2.2.-" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00182" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00131" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_amp_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_ade_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_r5p_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>      
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_2726" />
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction id="R_BPNT" metaid="R_BPNT" name="3',5'-bisphosphate nucleotidase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
@@ -25664,39 +25638,6 @@
           <speciesReference constant="true" species="M_acald_c" stoichiometry="1" sboTerm="SBO:0000011" />
           <speciesReference constant="true" species="M_coa_c" stoichiometry="1" sboTerm="SBO:0000011" />
           <speciesReference constant="true" species="M_nad_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_1798" />
-        </fbc:geneProductAssociation>
-      </reaction>
-       <reaction id="R_ACALDy" metaid="R_ACALDy" name="Acetaldehyde dehydrogenase (acetylating), NADPH-using" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Support for the reaction and NADPH cofactor from:</xhtml:p>
-            <xhtml:p>Title: In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers</xhtml:p>
-            <xhtml:p>Authors: Jacobson et al</xhtml:p>
-            <xhtml:p>Journal: mSystems</xhtml:p>
-            <xhtml:p>Year: 2020</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_ACALDy">
-              <bqbiol:is>
-                <rdf:Bag/>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_accoa_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_nadph_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_acald_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_coa_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_nadp_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="Clo1313_1798" />
@@ -26545,10 +26486,13 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NTPP3" metaid="R_NTPP3" name="Nucleoside triphosphate pyrophosphorylase (dctp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NTPP3" metaid="R_NTPP3" name="Nucleoside triphosphate pyrophosphorylase (gtp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NTPP3">
@@ -26576,7 +26520,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPP4" metaid="R_NTPP4" name="Nucleoside triphosphate pyrophosphorylase (ctp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -26607,7 +26554,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPH" metaid="R_NTPH" name="GTP 7,8-8,9-dihydrolase Folate biosynthesis EC:3.5.4.16" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -27952,45 +27902,6 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_1798" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ALCD2y" metaid="R_ALCD2y" name="Alcohol dehydrogenase (ethanol), NADPH-using" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Support for the reaction and NAD cofactor from:</xhtml:p>
-            <xhtml:p>Title: In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers</xhtml:p>
-            <xhtml:p>Authors: Jacobson et al</xhtml:p>
-            <xhtml:p>Journal: mSystems</xhtml:p>
-            <xhtml:p>Year: 2020</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_ALCD2y">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/ALCD2if, ALCD2ir, ALCD2m, ALCD2x" />
-                  <rdf:li rdf:resource="http://identifiers.org/biopath/META:RXN-12484" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/1.1.1.1, 1.1.1.184, 1.1.1.2, 1.1.1.21, 1.1.1.71" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00746" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR95726" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00536" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_acald_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_nadph_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_etoh_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_nadp_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>      
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_1798" />
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction id="R_GF6PTA" metaid="R_GF6PTA" name="Glutamine-fructose-6-phosphate transaminase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
@@ -28935,7 +28846,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/URIK1" />
                   <rdf:li rdf:resource="http://identifiers.org/biopath/RXN00986" />
-                  <rdf:li rdf:resource="http://identifiers.org/brenda/BR47782" />
+                  <rdf:li rdf:resource="httpz://identifiers.org/brenda/BR47782" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.1.48" />
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00964" />
                   <rdf:li rdf:resource="http://identifiers.org/metacyc/URIDINEKIN-RXN" />
@@ -32130,7 +32041,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPP5" metaid="R_NTPP5" name="Nucleoside triphosphate pyrophosphorylase (datp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32160,7 +32074,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPP6" metaid="R_NTPP6" name="Nucleoside triphosphate pyrophosphorylase (atp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32191,7 +32108,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPP7" metaid="R_NTPP7" name="Nucleoside triphosphate pyrophosphorylase (dttp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -32200,7 +32120,7 @@
             <rdf:Description rdf:about="#R_NTPP7">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTPP7" />
+                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTPP6" />
                   <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R11323" />
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN0-5107" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.19, 3.6.1.9" />
@@ -32222,10 +32142,13 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NTPP8" metaid="R_NTPP8" name="Nucleoside triphosphate pyrophosphorylase (utp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NTPP8" metaid="R_NTPP8" name="Nucleoside triphosphate pyrophosphorylase (dttp)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NTPP8">
@@ -32253,7 +32176,10 @@
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_NTPTP1" metaid="R_NTPTP1" name="Nucleoside triphosphate tripolyhydrolase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -35124,7 +35050,7 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_0175" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_NNAT" metaid="R_NNAT" name="Nicotinate nucleotide adenylyltransferase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_NNAT" metaid="R_NNAT" name="Nicotinate nucleotide adenylyltransferase " reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_NNAT">
@@ -36746,7 +36672,7 @@
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NDPK10, NDPK10m, NDPK10n" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.4.6" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R03530" />
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00330" />
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR55758" />
                   <rdf:li rdf:resource="http://identifiers.org/rhea/30939, 30940, 30941, 30942" />
                   <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn02517" />
@@ -46435,7 +46361,6 @@
                   <rdf:li rdf:resource="http://identifiers.org/rhea/20001, 20002, 20003, 20004" />
                   <rdf:li rdf:resource="http://identifiers.org/biocyc/META:GLYCOLALD-DEHYDROG-RXN" />
                   <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100060" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R01333" />
                   <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00979" />
                   <rdf:li rdf:resource="http://identifiers.org/ec-code/1.2.1.21" />
                 </rdf:Bag>
@@ -47482,7 +47407,16 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_OAADC" metaid="R_OAADC" name="Oxaloacetate decarboxylase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_OAADC" metaid="R_OAADC" name="Oxaloacetate decarboxylase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <xhtml:body>
+            <xhtml:p>Highly expressed, yet no measurable activity as found in: </xhtml:p>
+            <xhtml:p>Title: In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers</xhtml:p>
+            <xhtml:p>Authors: Jacobson, Tyler B; Korosh, Travis K; Stevenson, David M; Foster, Charles; Maranas, Costas; Olsen, Daniel G; Lynd, Lee R; Amador-Noguez, Danier</xhtml:p>
+            <xhtml:p>Journal: mSystems</xhtml:p>
+            <xhtml:p>Year: 2020</xhtml:p>
+          </xhtml:body>
+        </notes>
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_OAADC">
@@ -47543,7 +47477,10 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_FADDP" metaid="R_FADDP" name="FAD diphosphatase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47574,7 +47511,10 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_UDPGP" metaid="R_UDPGP" name="Acetylornithine transaminase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47604,7 +47544,10 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_R03004" metaid="R_R03004" name="Deamino-NAD+ nucleotidohydrolase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47631,7 +47574,10 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_R03036" metaid="R_R03036" name="Dephospho-CoA nucleotidohydrolase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47658,7 +47604,10 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
+            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
+          </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_GLUN" metaid="R_GLUN" name="Glutaminase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -48118,7 +48067,13 @@
           <fbc:geneProductRef fbc:geneProduct="Clo1313_1686" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction id="R_ME1" metaid="R_ME1" name="Malic enzyme (NAD)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_ME1" metaid="R_ME1" name="Malic enzyme (NAD)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <xhtml:body>
+            <xhtml:p>while genome-supported, malic enzyme untilizing NAD+ is not documented in literaturem, whereas its use of NADP+</xhtml:p>
+            <xhtml:p>is well documented. For the sake of documenting everything, this is </xhtml:p>
+          </xhtml:body>
+        </notes>
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#R_ME1">
@@ -48291,198 +48246,6 @@
          <fbc:geneProductAssociation>
           <fbc:geneProductRef fbc:geneProduct="Clo1313_1848" />
         </fbc:geneProductAssociation>
-      </reaction>
-      <reaction id="R_NTD2" metaid="R_NTD2" name="5'-nucleotidase (UMP)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_NTD2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTD2" />
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14025" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.5" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00963" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR102032" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00708" />
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/29359, 29360, 29361, 29362" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_ump_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_uri_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_R08515" metaid="R_R08515" name="5'-nucleotidase (UMP)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_R08515">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.36" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R08515" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn12158" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_g1p_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_adpglc_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_MAN1PT2" metaid="R_MAN1PT2" name="5'-nucleotidase (UMP)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_MAN1PT2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/MAN1PT2" />
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:MANNPGUANYLTRANGDP-RXN" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.22" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00883" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR101376" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00640" />
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/12905, 12906, 12907, 12908" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_gdpmann_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_gdp_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_man1p_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_NTD4" metaid="R_NTD4" name="5'-nucleotidase (CMP)" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_NTD4">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/NTD4" />
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14026" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.1.3.5, 3.1.3.91" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00511" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR102034" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00363" />
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/29367, 29368, 29369, 29370" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_cmp_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_cytd_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_IDPA" metaid="R_IDPA" name="IDP-apyrase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_IDPA">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/IDPA" />
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:RXN-14003" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/3.6.1.5, 3.6.1.6, 3.6.1.64" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00961" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR100807" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00706" />
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/35207, 35208, 35209, 35210" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_idp_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_imp_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
-      </reaction>
-      <reaction id="R_SLFAT" metaid="R_SLFAT" name="IDP-apyrase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
-        <notes>
-          <xhtml:body>
-            <xhtml:p>Reaction to try adding to test for alternate PPi-generating cycles</xhtml:p>
-          </xhtml:body>
-        </notes>
-        <sbml:annotation>
-          <rdf:RDF>
-            <rdf:Description rdf:about="#R_SLFAT">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/SLFAT" />
-                  <rdf:li rdf:resource="http://identifiers.org/biocyc/META:SULFATE-ADENYLYLTRANSFERASE-ADP-RXN" />
-                  <rdf:li rdf:resource="http://identifiers.org/ec-code/2.7.7.5" />
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00530" />
-                  <rdf:li rdf:resource="http://identifiers.org/metanetx.reaction/MNXR104444" />
-                  <rdf:li rdf:resource="http://identifiers.org/seed.reaction/rxn00380" />
-                  <rdf:li rdf:resource="http://identifiers.org/rhea/16529, 16530, 16531, 16532" />
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </sbml:annotation>
-        <listOfReactants>
-          <speciesReference constant="true" species="M_aps_c" stoichiometry="1" sboTerm="SBO:0000010" />
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="1" sboTerm="SBO:0000010" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
-          <speciesReference constant="true" species="M_so4_c" stoichiometry="1" sboTerm="SBO:0000011" />
-        </listOfProducts>
       </reaction>
       <reaction id="R_H2Ot" metaid="R_H2Ot" name="H2O transport via diffusion" reversible="true" sboTerm="SBO:0000185" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
@@ -51833,7 +51596,7 @@
           </rdf:RDF>
         </sbml:annotation>
         <listOfReactants>
-          <speciesReference constant="true" species="M_prpp_c" stoichiometry="1" sboTerm="SBO:0000010" />
+          <speciesReference constant="true" species="M_pppi_c" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
       </reaction>
     </listOfReactions>
