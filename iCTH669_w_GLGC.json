@@ -2800,7 +2800,7 @@
 },
 {
 "id":"xmp_c",
-"name":"xanthosin 5-phosphate (XMP)",
+"name":"xanthosine 5-phosphate (XMP)",
 "compartment":"c",
 "charge":-2,
 "formula":"C10H11N4O9P",
@@ -11280,8 +11280,8 @@
 }
 },
 {
-"id":"glyco_biomass_c",
-"name":"biomass sub-pseudometabolite, glycogen component",
+"id":"pepglyco_biomass_c",
+"name":"biomass sub-pseudometabolite, peptidoglycan component",
 "compartment":"c",
 "charge":0,
 "formula":"",
@@ -11532,10 +11532,10 @@
 }
 },
 {
-"id":"glyco_biomass",
-"name":"C. therm biomass objective function for cellulose grown cultures, glycogen component",
+"id":"pepglyco_biomass",
+"name":"C. therm biomass objective function for cellulose grown cultures, peptidoglycan component",
 "metabolites":{
-"glyco_biomass_c":1.0,
+"pepglyco_biomass_c":1.0,
 "peptido_CT_c":-0.102616302069518
 },
 "lower_bound":0.0,
@@ -11599,11 +11599,11 @@
 "adp_c":34.78558438,
 "atp_c":-34.78558438,
 "biomass_CT_c":1.0,
-"glyco_biomass_c":-1.0,
 "h2o_c":-34.78558438,
 "h_c":34.78558438,
 "lipid_biomass_c":-1.0,
 "other_biomass_c":-1.0,
+"pepglyco_biomass_c":-1.0,
 "pi_c":34.78558438,
 "protein_biomass_c":-1.0
 },
@@ -12114,25 +12114,6 @@
 }
 },
 {
-"id":"R00182",
-"name":"AMP phosphoribohydrolase",
-"metabolites":{
-"ade_c":1.0,
-"amp_c":-1.0,
-"h2o_c":-1.0,
-"r5p_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_2726",
-"annotation":{
-"ec-code":"3.2.2.4 3.2.2.10 3.2.2.-",
-"kegg.reaction":"R00182",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00131"
-}
-},
-{
 "id":"BPNT",
 "name":"3',5'-bisphosphate nucleotidase",
 "metabolites":{
@@ -12341,30 +12322,6 @@
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00171",
 "unipathway.reaction":"UCR00228, UER00798"
-}
-},
-{
-"id":"ACALDy",
-"name":"Acetaldehyde dehydrogenase (acetylating), NADPH-using",
-"metabolites":{
-"acald_c":1.0,
-"accoa_c":-1.0,
-"coa_c":1.0,
-"h_c":-1.0,
-"nadp_c":1.0,
-"nadph_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_1798",
-"notes":{
-"Authors":"Jacobson et al",
-"Journal":"mSystems",
-"Title":"In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers",
-"Year":"2020"
-},
-"annotation":{
-"sbo":"SBO:0000176"
 }
 },
 {
@@ -12996,7 +12953,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP2",
 "biocyc":"3.6.1.19-RXN",
@@ -13021,7 +12978,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP3",
 "biocyc":"META:DCTP-PYROPHOSPHATASE-RXN",
@@ -13045,7 +13002,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP4",
 "biocyc":"META:RXN0-383",
@@ -14072,35 +14029,6 @@
 }
 },
 {
-"id":"ALCD2y",
-"name":"Alcohol dehydrogenase (ethanol), NADPH-using",
-"metabolites":{
-"acald_c":-1.0,
-"etoh_c":1.0,
-"h_c":-1.0,
-"nadp_c":1.0,
-"nadph_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_1798",
-"notes":{
-"Authors":"Jacobson et al",
-"Journal":"mSystems",
-"Title":"In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers",
-"Year":"2020"
-},
-"annotation":{
-"bigg.reaction":"ALCD2if, ALCD2ir, ALCD2m, ALCD2x",
-"biopath":"META:RXN-12484",
-"ec-code":"1.1.1.1, 1.1.1.184, 1.1.1.2, 1.1.1.21, 1.1.1.71",
-"kegg.reaction":"R00746",
-"metanetx.reaction":"MNXR95726",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00536"
-}
-},
-{
 "id":"GF6PTA",
 "name":"Glutamine-fructose-6-phosphate transaminase",
 "metabolites":{
@@ -14821,7 +14749,6 @@
 "annotation":{
 "bigg.reaction":"URIK1",
 "biopath":"RXN00986",
-"brenda":"BR47782",
 "ec-code":"2.7.1.48",
 "kegg.reaction":"R00964",
 "metacyc":"URIDINEKIN-RXN",
@@ -17211,7 +17138,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_1549 or Clo1313_1662 or Clo1313_2144 or Clo1313_2278",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP1",
 "brenda":"BS141253",
@@ -17236,7 +17163,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP5",
 "brenda":"BS141253",
@@ -17259,7 +17186,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP6",
 "biocyc":"META:ATP-PYROPHOSPHATASE-RXN",
@@ -17283,7 +17210,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP6",
 "biocyc":"META:RXN0-5107",
@@ -17307,7 +17234,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"Clo1313_0245",
+"gene_reaction_rule":"Clo1313_0245 or clo1313_0083",
 "annotation":{
 "bigg.reaction":"NTPP8",
 "biocyc":"META:RXN-14139",
@@ -20721,7 +20648,7 @@
 "annotation":{
 "bigg.reaction":"NDPK10, NDPK10m, NDPK10n",
 "ec-code":"2.7.4.6",
-"kegg.reaction":"R03530",
+"kegg.reaction":"R00330",
 "metanetx.reaction":"MNXR55758",
 "rhea":"30939, 30940, 30941, 30942",
 "sbo":"SBO:0000176",
@@ -27267,7 +27194,7 @@
 "h_c":1.0,
 "pi_c":1.0
 },
-"lower_bound":1.744781003,
+"lower_bound":1.142292094,
 "upper_bound":1000.0,
 "gene_reaction_rule":"Clo1313_1549 or Clo1313_1662 or Clo1313_2144 or Clo1313_2278",
 "annotation":{
@@ -27815,9 +27742,7 @@
 "bigg.reaction":"GCALDD",
 "biocyc":"META:GLYCOLALD-DEHYDROG-RXN",
 "ec-code":"1.2.1.21",
-"kegg.reaction":[
-"R01333"
-],
+"kegg.reaction":"R01333",
 "metanetx.reaction":"MNXR100060",
 "rhea":"20001, 20002, 20003, 20004",
 "sbo":"SBO:0000176",
@@ -28606,8 +28531,14 @@
 "pyr_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"Clo1313_1523 or Clo1313_1879",
+"notes":{
+"Authors":"Jacobson, Tyler B; Korosh, Travis K; Stevenson, David M; Foster, Charles; Maranas, Costas; Olsen, Daniel G; Lynd, Lee R; Amador-Noguez, Danier",
+"Journal":"mSystems",
+"Title":"In Vivo Thermodynamic Analysis of Glycolysis in Clostridium thermocellum and Thermoanaerobacterium saccharolyticum Using 13C and 2H Tracers",
+"Year":"2020"
+},
 "annotation":{
 "bigg.reaction":"OAADC",
 "biocyc":"META:OXALODECARB-RXN",
@@ -29075,7 +29006,7 @@
 "pyr_c":1.0
 },
 "lower_bound":0.0,
-"upper_bound":1000.0,
+"upper_bound":0.0,
 "gene_reaction_rule":"Clo1313_1879",
 "annotation":{
 "bigg.reaction":"ME1",
@@ -29188,144 +29119,6 @@
 "rhea":"15985, 15986, 15987, 15988",
 "sbo":"SBO:0000176",
 "seed.reaction":"rxn00371"
-}
-},
-{
-"id":"NTD2",
-"name":"5'-nucleotidase (UMP)",
-"metabolites":{
-"h2o_c":-1.0,
-"pi_c":1.0,
-"ump_c":-1.0,
-"uri_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.reaction":"NTD2",
-"biocyc":"META:RXN-14025",
-"ec-code":"3.1.3.5",
-"kegg.reaction":"R00963",
-"metanetx.reaction":"MNXR102032",
-"rhea":"29359, 29360, 29361, 29362",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00708"
-}
-},
-{
-"id":"R08515",
-"name":"5'-nucleotidase (UMP)",
-"metabolites":{
-"adp_c":-1.0,
-"adpglc_c":1.0,
-"g1p_c":-1.0,
-"h_c":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"ec-code":"2.7.7.36",
-"kegg.reaction":"R08515",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn12158"
-}
-},
-{
-"id":"MAN1PT2",
-"name":"5'-nucleotidase (UMP)",
-"metabolites":{
-"gdp_c":1.0,
-"gdpmann_c":-1.0,
-"h_c":1.0,
-"man1p_c":1.0,
-"pi_c":-1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.reaction":"MAN1PT2",
-"biocyc":"META:MANNPGUANYLTRANGDP-RXN",
-"ec-code":"2.7.7.22",
-"kegg.reaction":"R00883",
-"metanetx.reaction":"MNXR101376",
-"rhea":"12905, 12906, 12907, 12908",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00640"
-}
-},
-{
-"id":"NTD4",
-"name":"5'-nucleotidase (CMP)",
-"metabolites":{
-"cmp_c":-1.0,
-"cytd_c":1.0,
-"h2o_c":-1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.reaction":"NTD4",
-"biocyc":"META:RXN-14026",
-"ec-code":"3.1.3.5, 3.1.3.91",
-"kegg.reaction":"R00511",
-"metanetx.reaction":"MNXR102034",
-"rhea":"29367, 29368, 29369, 29370",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00363"
-}
-},
-{
-"id":"IDPA",
-"name":"IDP-apyrase",
-"metabolites":{
-"h2o_c":-1.0,
-"h_c":1.0,
-"idp_c":-1.0,
-"imp_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.reaction":"IDPA",
-"biocyc":"META:RXN-14003",
-"ec-code":"3.6.1.5, 3.6.1.6, 3.6.1.64",
-"kegg.reaction":"R00961",
-"metanetx.reaction":"MNXR100807",
-"rhea":"35207, 35208, 35209, 35210",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00706"
-}
-},
-{
-"id":"SLFAT",
-"name":"IDP-apyrase",
-"metabolites":{
-"adp_c":1.0,
-"aps_c":-1.0,
-"h_c":1.0,
-"pi_c":-1.0,
-"so4_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":0.0,
-"gene_reaction_rule":"",
-"annotation":{
-"bigg.reaction":"SLFAT",
-"biocyc":"META:SULFATE-ADENYLYLTRANSFERASE-ADP-RXN",
-"ec-code":"2.7.7.5",
-"kegg.reaction":"R00530",
-"metanetx.reaction":"MNXR104444",
-"rhea":"16529, 16530, 16531, 16532",
-"sbo":"SBO:0000176",
-"seed.reaction":"rxn00380"
 }
 },
 {
@@ -31856,10 +31649,10 @@
 "id":"SINK_TEST",
 "name":"test sink reaction",
 "metabolites":{
-"h2o_c":-1.0
+"pppi_c":-1.0
 },
 "lower_bound":0.0,
-"upper_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "notes":{
 "NOTE":"PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES"
@@ -33263,6 +33056,17 @@
 "kegg.genes":"ctx:Clo1313_0245",
 "ncbigene":"CLO1313_RS01245",
 "ncbiprotein":"ADU73339, WP_003515434.1",
+"refseq":"NC_017304",
+"sbo":"SBO:0000243"
+}
+},
+{
+"id":"Clo1313_0083",
+"name":"(GenBank) MazG family protein",
+"annotation":{
+"kegg.genes":"ctx:Clo1313_0083",
+"ncbigene":"CLO1313_RS00435",
+"ncbiprotein":"ADU73181",
 "refseq":"NC_017304",
 "sbo":"SBO:0000243"
 }
@@ -38863,17 +38667,6 @@
 }
 },
 {
-"id":"Clo1313_2726",
-"name":"(GenBank) DNA-(apurinic or apyrimidinic site) lyase",
-"annotation":{
-"kegg.genes":"ctx:Clo1313_2726",
-"ncbigene":"CLO1313_RS13850",
-"ncbiprotein":"ADU75710, WP_003516777.1",
-"refseq":"NC_017304",
-"sbo":"SBO:0000243"
-}
-},
-{
 "id":"Clo1313_0949",
 "name":"(GenBank) pyruvate, phosphate dikinase",
 "annotation":{
@@ -39214,6 +39007,10 @@
 "ncbiprotein":"ADU73477",
 "sbo":"SBO:0000243"
 }
+},
+{
+"id":"clo1313_0083",
+"name":""
 }
 ],
 "id":"iCTH669",
