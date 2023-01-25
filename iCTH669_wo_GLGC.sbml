@@ -43,7 +43,7 @@
       <parameter constant="true" id="cobra_default_lb" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="-1000" />
       <parameter constant="true" id="cobra_default_ub" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="1000" />
       <parameter constant="true" id="cobra_0_bound" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="0" />
-      <parameter constant="true" id="NGAM_lb" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.142292094" />
+      <parameter constant="true" id="NGAM_lb" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.744781003" />
       <parameter constant="true" id="NGAM_ub" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1000" />
       <parameter constant="true" id="R_EXCH_h_e_lb" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="-1000" />
       <parameter constant="true" id="R_EXCH_h_e_ub" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1000" />
@@ -3408,7 +3408,7 @@
           </rdf:RDF>
         </sbml:annotation>
       </species>
-      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_xmp_c" metaid="M_xmp_c" name="xanthosin 5-phosphate (XMP)" sboTerm="SBO:0000247" fbc:charge="-2" fbc:chemicalFormula="C10H11N4O9P" initialConcentration="NaN">
+      <species boundaryCondition="false" compartment="c" constant="false" hasOnlySubstanceUnits="false" id="M_xmp_c" metaid="M_xmp_c" name="xanthosine 5-phosphate (XMP)" sboTerm="SBO:0000247" fbc:charge="-2" fbc:chemicalFormula="C10H11N4O9P" initialConcentration="NaN">
         <sbml:annotation>
           <rdf:RDF>
             <rdf:Description rdf:about="#M_xmp_c">
@@ -47477,10 +47477,7 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
-            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_FADDP" metaid="R_FADDP" name="FAD diphosphatase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47511,10 +47508,7 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
-            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_UDPGP" metaid="R_UDPGP" name="Acetylornithine transaminase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47544,10 +47538,7 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
-            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_R03004" metaid="R_R03004" name="Deamino-NAD+ nucleotidohydrolase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47574,10 +47565,7 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
-            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_R03036" metaid="R_R03036" name="Dephospho-CoA nucleotidohydrolase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -47604,10 +47592,7 @@
           <speciesReference constant="true" species="M_h_c" stoichiometry="2" sboTerm="SBO:0000011" />
         </listOfProducts>      
         <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
-            <fbc:geneProductRef fbc:geneProduct="clo1313_0083" />
-          </fbc:or>
+          <fbc:geneProductRef fbc:geneProduct="Clo1313_0245" />
         </fbc:geneProductAssociation>
       </reaction>
       <reaction id="R_GLUN" metaid="R_GLUN" name="Glutaminase" reversible="false" sboTerm="SBO:0000176" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
