@@ -1,11 +1,109 @@
-<fbc:geneProduct metaid="Clo1313_0387" sboTerm="SBO:0000243" fbc:id="Clo1313_0387" fbc:label="GenBank_endoribonuclease_L__PSP_Clo1313_0387" fbc:name="(GenBank) endoribonuclease L-PSP">
+<fbc:geneProduct metaid="Clo1313_0189" sboTerm="SBO:0000243" fbc:id="Clo1313_0189" fbc:label="GenBank_ATP_synthase_F0,_A_subunit_Clo1313_0189" fbc:name="(GenBank) ATP synthase F0, A subunit">
   <sbml:annotation>
     <rdf:RDF>
-      <rdf:Description rdf:about="#Clo1313_0387">
+      <rdf:Description rdf:about="#Clo1313_0189">
         <bqbiol:is>
           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0387" />
-            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73477" />
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0189" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73284" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_0190" sboTerm="SBO:0000243" fbc:id="Clo1313_0190" fbc:label="GenBank_ATP_synthase_F0,_C_subunit_Clo1313_0190" fbc:name="(GenBank) ATP synthase F0, C subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_0190">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0190" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73285" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_0191" sboTerm="SBO:0000243" fbc:id="Clo1313_0191" fbc:label="GenBank_ATP_synthase_F0,_B_subunit_Clo1313_0191" fbc:name="(GenBank) ATP synthase F0, B subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_0191">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0191" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73286" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_0192" sboTerm="SBO:0000243" fbc:id="Clo1313_0192" fbc:label="GenBank_ATP_synthase_F1,_delta_subunit_Clo1313_0192" fbc:name="(GenBank) ATP synthase F1, delta subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_0192">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_0192" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU73287" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_2936" sboTerm="SBO:0000243" fbc:id="Clo1313_2936" fbc:label="GenBank_H+transporting_two__sector_ATPase_C_subunit_Clo1313_2936" fbc:name="(GenBank) H+transporting two-sector ATPase C subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_2936">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_2936" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU75916" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_2938" sboTerm="SBO:0000243" fbc:id="Clo1313_2938" fbc:label="GenBank_H+transporting_two__sector_ATPase_C_AC39_subunit_Clo1313_2938" fbc:name="(GenBank) H+transporting two-sector ATPase C (AC39) subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_2938">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_2938" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU75918" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_2939" sboTerm="SBO:0000243" fbc:id="Clo1313_2939" fbc:label="GenBank_Vacuolar_H+transporting_two__sector_ATPase_F_subunit_Clo1313_2939" fbc:name="(GenBank) Vacuolar H+transporting two-sector ATPase F subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_2939">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_2939" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU75919" />
+          </rdf:Bag>
+        </bqbiol:is>
+      </rdf:Description>
+    </rdf:RDF>
+  </sbml:annotation>
+</fbc:geneProduct>
+<fbc:geneProduct metaid="Clo1313_2942" sboTerm="SBO:0000243" fbc:id="Clo1313_2942" fbc:label="GenBank_V__type_ATPase,_D_subunit_Clo1313_2942" fbc:name="(GenBank) V-type ATPase, D subunit">
+  <sbml:annotation>
+    <rdf:RDF>
+      <rdf:Description rdf:about="#Clo1313_2942">
+        <bqbiol:is>
+          <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.gene/Clo1313_2942" />
+            <rdf:li rdf:resource="http://identifiers.org/ncbiprotein/ADU75922" />
           </rdf:Bag>
         </bqbiol:is>
       </rdf:Description>

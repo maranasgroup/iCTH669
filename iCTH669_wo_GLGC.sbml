@@ -51546,7 +51546,7 @@
           <speciesReference constant="true" species="M_ribflv_e" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
       </reaction>
-      <reaction id="R_DM_TEST" metaid="R_DM_TEST" name="test demand reaction" reversible="true" sboTerm="SBO:0000628" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
+      <reaction id="R_DM_TEST" metaid="R_DM_TEST" name="test demand reaction" reversible="true" sboTerm="SBO:0000628" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
         <notes>
           <xhtml:body>
             <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>
@@ -51562,10 +51562,10 @@
           </rdf:RDF>
         </sbml:annotation>
         <listOfProducts>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000011" />
+          <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
       </reaction>
-      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
         <notes>
           <xhtml:body>
             <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>
@@ -51584,6 +51584,31 @@
           <speciesReference constant="true" species="M_pppi_c" stoichiometry="1" sboTerm="SBO:0000010" />
         </listOfReactants>
       </reaction>
+      <reaction id="R_RXN_TEST" metaid="R_RXN_TEST" name="test metabolic reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <xhtml:body>
+            <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>
+          </xhtml:body>
+        </notes>
+        <sbml:annotation>
+          <rdf:RDF>
+            <rdf:Description rdf:about="#R_SINK_TEST">
+              <bqbiol:is>
+                <rdf:Bag/>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+        <listOfReactants>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="2" sboTerm="SBO:0000010" />
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000010" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="1" sboTerm="SBO:0000011" />
+          <speciesReference constant="true" species="M_ppi_c" stoichiometry="1" sboTerm="SBO:0000011" />
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="2" sboTerm="SBO:0000011" />
+        </listOfProducts>  
+      </reaction>          
     </listOfReactions>
   </model>
 </sbml>

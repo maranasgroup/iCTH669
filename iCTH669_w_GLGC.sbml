@@ -51565,7 +51565,7 @@
           <speciesReference constant="true" species="M_h2o_c" stoichiometry="1" sboTerm="SBO:0000011" />
         </listOfProducts>
       </reaction>
-      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction id="R_SINK_TEST" metaid="R_SINK_TEST" name="test sink reaction" reversible="false" sboTerm="SBO:0000632" fbc:lowerFluxBound="dummy_bound" fbc:upperFluxBound="dummy_bound">
         <notes>
           <xhtml:body>
             <xhtml:p>NOTE: PRETTY MUCH JUST HERE FOR DEBUGGING AND MEMOTE PURPOSES</xhtml:p>

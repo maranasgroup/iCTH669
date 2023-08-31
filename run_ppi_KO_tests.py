@@ -112,46 +112,46 @@ fixed_rates = {
 
     #first round of deletions
     #deletion of clo1313_0245 and clo1313_0083 (mazG NTPP)
-    #"NTPP2":0,
-    #"NTPP3":0,
-    #"NTPP4":0,
-    #"NTPP1":0,
-    #"NTPP5":0,
-    #"NTPP6":0,
-    #"NTPP7":0,
-    #"NTPP8":0,
-    #"NPH":0,
-    #"FADDP":0,
-    #"UDPGP":0,
-    #"R03004":0,
-    #"R03036":0,
+    "NTPP2":0,
+    "NTPP3":0,
+    "NTPP4":0,
+    "NTPP1":0,
+    "NTPP5":0,
+    "NTPP6":0,
+    "NTPP7":0,
+    "NTPP8":0,
+    "NPH":0,
+    "FADDP":0,
+    "UDPGP":0,
+    "R03004":0,
+    "R03036":0,
     #max growth rate upon these deletions: 0.259
 
     #second round of deletions
     #delete Clo1313_2743 (dUTP NTPP)
-    #"DUTPDP":0,
+    "DUTPDP":0,
     #max growth rate upon these deletions: 0.219
 
     #third round of deletions
     #delete clo1313_0909
-    #"PPGPPDP":0,
-    #"GTPDPK":0,
+    "PPGPPDP":0,
+    "GTPDPK":0,
     #max growth rate upon these deletions: 0.143
 
     #fourth round of deletions
     #Clo1313_0120 and Clo1313_0119, adenyltransferases
     #each of these appears essential for growth on its ownfor base AVM061, growth is arrested in the individual knockouts, but model still feasible
     #also essential for growth together in raw AVM061
-    #"SADT":0,
-    #"ADSK":0,
-    #"BPNT":0,
+    "SADT":0,
+    "ADSK":0,
+    "BPNT":0,
     #max growth rate upon these deletions: 0
 
     #fifth round of deletions, all came out with even production
     #clo1313_0466, essential at this point
-    #"ADK2":0, 
-    #"ADK1":0,
-    #"DADK":0,
+    "ADK2":0, 
+    "ADK1":0,
+    "DADK":0,
 
     #clo1313_1846, essential at this point
     #"GMPS":0, 
