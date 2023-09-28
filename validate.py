@@ -18,7 +18,7 @@ import warnings
 curr_dir = os.getcwd()
 
 #import the ctherm model
-validation = cobra.io.validate_sbml_model(curr_dir + "/iCTH670_w_GLGC.sbml")
+validation = cobra.io.validate_sbml_model(curr_dir + "/iCBI655_cellobiose_batch.sbml")
 #validation = cobra.io.validate_sbml_model(curr_dir + "/iCTH665_final.sbml")
 
 #write a file to put the FBA results
