@@ -49011,7 +49011,7 @@
       <reaction id="R_PYRt2r" metaid="R_PYRt2r" name="pyruvate transport via proton symport" reversible="true" sboTerm="SBO:0000185" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <sbml:annotation>
           <rdf:RDF>
-            <rdf:Description rdf:about="#R_LACt2r">
+            <rdf:Description rdf:about="#R_PYRt2r">
               <bqbiol:is>
                 <rdf:Bag />
               </bqbiol:is>
